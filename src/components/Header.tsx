@@ -51,22 +51,23 @@ export const Header: React.FC = () => {
 
       {/* Main navigation header */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <div>
+        <div className="min-w-0 flex-1">
           <a href="#" className="group block focus:outline-none">
-            <span className="block text-base font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl">
-              {siteConfig.businessName}
+            <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl leading-tight">
+              <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-neutral-400 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
+              <span className="hidden sm:inline">{siteConfig.businessName}</span>
             </span>
-            <span className="hidden text-xs text-neutral-400 md:block">
+            <span className="hidden text-xs text-neutral-400 md:block mt-0.5">
               {siteConfig.tagline}
             </span>
           </a>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Quick text quote button (desktop/tablet) */}
           <a
             href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi Brad, here are photos of my stump/tree for an estimate:')}`}
-            className="hidden items-center gap-2 rounded-lg border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
+            className="hidden items-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
           >
             <svg
               className="h-4 w-4 text-emerald-400"
@@ -92,10 +93,10 @@ export const Header: React.FC = () => {
           {/* Primary phone call button */}
           <a
             href={`tel:${siteConfig.phoneRaw}`}
-            className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-bold text-white shadow-md transition hover:bg-emerald-500 active:scale-95"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-3.5 py-2.5 sm:px-4 sm:py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-emerald-950/40 transition hover:bg-emerald-500 active:scale-95 shrink-0 whitespace-nowrap"
           >
             <svg
-              className="h-4 w-4"
+              className="h-4 w-4 shrink-0"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -107,7 +108,8 @@ export const Header: React.FC = () => {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span>{siteConfig.phone}</span>
+            <span className="sm:hidden">{siteConfig.ui.callBrad}</span>
+            <span className="hidden sm:inline font-mono">{siteConfig.phone}</span>
           </a>
         </div>
       </div>
