@@ -1,59 +1,54 @@
-import { headers as getHeaders } from 'next/headers.js'
-import Image from 'next/image'
-import { getPayload } from 'payload'
 import React from 'react'
-import { fileURLToPath } from 'url'
+import { Header } from '../../components/Header'
+import { MobileActionBar } from '../../components/MobileActionBar'
+import { Hero } from '../../components/Hero'
+import { TrustBadges } from '../../components/TrustBadges'
+import { TextEstimateCard } from '../../components/TextEstimateCard'
+import { ServicesGrid } from '../../components/ServicesGrid'
+import { EquipmentComparison } from '../../components/EquipmentComparison'
+import { ReviewsSection } from '../../components/ReviewsSection'
+import { ServiceAreas } from '../../components/ServiceAreas'
+import { LeadForm } from '../../components/LeadForm'
+import { Footer } from '../../components/Footer'
 
-import config from '@/payload.config'
-import './styles.css'
-
-export default async function HomePage() {
-  const headers = await getHeaders()
-  const payloadConfig = await config
-  const payload = await getPayload({ config: payloadConfig })
-  const { user } = await payload.auth({ headers })
-
-  const fileURL = `vscode://file/${fileURLToPath(import.meta.url)}`
-
+export default function HomePage() {
   return (
-    <div className="home">
-      <div className="content">
-        <picture>
-          <source srcSet="https://raw.githubusercontent.com/payloadcms/payload/3.x/packages/ui/src/assets/payload-favicon.svg" />
-          <Image
-            alt="Payload Logo"
-            height={65}
-            src="https://raw.githubusercontent.com/payloadcms/payload/3.x/packages/ui/src/assets/payload-favicon.svg"
-            width={65}
-          />
-        </picture>
-        {!user && <h1>Welcome to your new project.</h1>}
-        {user && <h1>Welcome back, {user.email}</h1>}
-        <div className="links">
-          <a
-            className="admin"
-            href={payloadConfig.routes.admin}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Go to admin panel
-          </a>
-          <a
-            className="docs"
-            href="https://payloadcms.com/docs"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Documentation
-          </a>
-        </div>
-      </div>
-      <div className="footer">
-        <p>Update this page by editing</p>
-        <a className="codeLink" href={fileURL}>
-          <code>app/(frontend)/page.tsx</code>
-        </a>
-      </div>
+    <div className="min-h-screen bg-neutral-950 text-neutral-100 selection:bg-emerald-500 selection:text-neutral-950">
+      {/* Sticky top header with verification micro-bar */}
+      <Header />
+
+      {/* Main landing content */}
+      <main>
+        {/* Hero Section */}
+        <Hero />
+
+        {/* 4 Trust Pillars / Badges */}
+        <TrustBadges />
+
+        {/* 3-Step Visual Photo Estimate Process */}
+        <TextEstimateCard />
+
+        {/* 6 Core Contractor Services */}
+        <ServicesGrid />
+
+        {/* Technical Specification Comparison (DIY Rental vs Commercial Track Grinder) */}
+        <EquipmentComparison />
+
+        {/* Verified Google Reviews */}
+        <ReviewsSection />
+
+        {/* Service Area Locations Cloud */}
+        <ServiceAreas />
+
+        {/* High-CRO Lead Capture Form */}
+        <LeadForm />
+      </main>
+
+      {/* Footer with NAP, licensing, and hours */}
+      <Footer />
+
+      {/* Fixed bottom action bar for mobile devices */}
+      <MobileActionBar />
     </div>
   )
 }
