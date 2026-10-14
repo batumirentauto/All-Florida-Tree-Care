@@ -126,27 +126,59 @@ export const siteConfigEn = {
   calculator: {
     badge: "Instant Estimate Tool",
     title: "Rough Price Guide in 10 Seconds",
-    subtitle: "Select your project specs for quick pricing guidance:",
     serviceLabel: "Service Type",
     services: [
-      { id: "stump", name: "Stump Grinding" },
-      { id: "tree", name: "Tree Removal" },
-      { id: "roots", name: "Root Clearance" },
-    ],
-    sizeLabel: "Approximate Trunk / Stump Diameter",
-    sizes: [
-      { id: "s", label: "Up to 12\" (< 30 cm)", price: "$90 – $140", time: "15–25 mins" },
-      { id: "m", label: "12\" – 24\" (30–60 cm)", price: "$150 – $240", time: "25–40 mins" },
-      { id: "l", label: "24\" – 36\" (60–90 cm)", price: "$250 – $380", time: "40–60 mins" },
-      { id: "xl", label: "36\"+ (Large Oak/Pine)", price: "From $390", time: "60+ mins" },
-    ],
-    includes: [
-      "Grinding 8\"–14\" below ground level",
-      "Chasing visible surface lateral roots",
-      "Full debris raking & chip mound leveling",
+      {
+        id: "stump",
+        name: "Stump Grinding",
+        sizeLabel: "Cut Diameter at Widest Point",
+        sizes: [
+          { id: "s", label: "Up to 12\" (< 30 cm)", price: "$90 – $140", time: "15–25 mins" },
+          { id: "m", label: "12\" – 24\" (30–60 cm)", price: "$160 – $260", time: "25–35 mins" },
+          { id: "l", label: "24\" – 36\" (60–90 cm)", price: "$280 – $420", time: "40–55 mins" },
+          { id: "xl", label: "36\"+ (Mature Oak/Pine)", price: "$450 – $750+", time: "60+ mins" },
+        ],
+        includes: [
+          "Grinding 8\"–14\" below ground level",
+          "Chasing visible surface lateral roots",
+          "Full debris raking & chip mound leveling",
+        ],
+      },
+      {
+        id: "tree",
+        name: "Tree Removal",
+        sizeLabel: "Tree Height & Hazard Complexity",
+        sizes: [
+          { id: "s", label: "Small tree (< 25 ft / 8 m)", price: "$350 – $650", time: "1.5–2.5 hrs" },
+          { id: "m", label: "Medium tree (25–50 ft)", price: "$750 – $1,350", time: "2.5–4 hrs" },
+          { id: "l", label: "Large tree (50–75 ft oak/pine)", price: "$1,400 – $2,600", time: "4–7 hrs" },
+          { id: "xl", label: "Hazard tree over roof / pool", price: "From $2,500", time: "1–2 days" },
+        ],
+        includes: [
+          "Sectional piecemeal takedown with rigging ropes",
+          "Controlled branch lowering away from screen enclosures",
+          "Trunk bucking into manageable firewood rounds",
+        ],
+      },
+      {
+        id: "roots",
+        name: "Root Clearing",
+        sizeLabel: "Linear Footage & Utility Proximity",
+        sizes: [
+          { id: "s", label: "Spot root clearance (< 10 ft)", price: "$180 – $280", time: "30–45 mins" },
+          { id: "m", label: "Fence boundary run (10–25 ft)", price: "$300 – $480", time: "1–1.5 hrs" },
+          { id: "l", label: "Utility / Well pump zone", price: "$450 – $750", time: "2–3 hrs" },
+          { id: "xl", label: "Heavy root bed (25+ ft)", price: "From $750", time: "3+ hrs" },
+        ],
+        includes: [
+          "Careful hand exploration around PVC pipes & wire",
+          "Precision grinder positioning without striking footers",
+          "Clean grade left ready for fence installation or sod",
+        ],
+      },
     ],
     ctaText: "Lock In Price by Texting Photos",
-    hint: "Final cost depends on gate access and hardwood density. Text 2 photos to Brad for a binding exact quote.",
+    hint: "Real contractor market rates across Sarasota & Manatee. Final cost depends on access and tree density. Text 2 photos to Brad for a binding dollar quote.",
   },
 
   ui: {

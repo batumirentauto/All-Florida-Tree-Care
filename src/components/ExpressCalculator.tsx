@@ -5,15 +5,24 @@ import { siteConfig } from '../siteConfig'
 
 export const ExpressCalculator: React.FC = () => {
   const calc = siteConfig.calculator
-  const [selectedService, setSelectedService] = useState(calc.services[0]?.name || '')
-  const [selectedSizeIndex, setSelectedSizeIndex] = useState(1) // default 30-60 cm
+  const [selectedServiceId, setSelectedServiceId] = useState(calc.services[0]?.id || 'stump')
+  const [selectedSizeIndex, setSelectedSizeIndex] = useState(1) // default medium tier
 
-  const currentSize = calc.sizes[selectedSizeIndex] || calc.sizes[0]
+  const currentService =
+    calc.services.find((s) => s.id === selectedServiceId) || calc.services[0]
+
+  const currentSize =
+    currentService?.sizes[selectedSizeIndex] || currentService?.sizes[0]
+
+  const handleSelectService = (id: string) => {
+    setSelectedServiceId(id)
+    setSelectedSizeIndex(1) // reset to medium option
+  }
 
   const smsBody = encodeURIComponent(
     siteConfig.lang === 'ru'
-      ? `Здравствуйте, интересует ${selectedService}, диаметр ${currentSize?.label}. Отправляю 2 фото для точной оценки:`
-      : `Hi Brad, I'm interested in ${selectedService}, size ${currentSize?.label}. Here are 2 photos for an exact quote:`
+      ? `Здравствуйте, интересует ${currentService?.name}, параметр: ${currentSize?.label}. Отправляю 2 фото для точной оценки:`
+      : `Hi Brad, I'm interested in ${currentService?.name}, spec: ${currentSize?.label}. Here are 2 photos for an exact quote:`
   )
 
   return (
@@ -40,33 +49,36 @@ export const ExpressCalculator: React.FC = () => {
           {calc.serviceLabel}
         </label>
         <div className="grid grid-cols-3 gap-2">
-          {calc.services.map((item) => {
-            const isSelected = selectedService === item.name
+          {calc.services.map((service) => {
+            const isSelected = selectedServiceId === service.id
             return (
               <button
-                key={item.id}
+                key={service.id}
                 type="button"
-                onClick={() => setSelectedService(item.name)}
-                className={`rounded-lg px-2.5 py-2 text-xs font-semibold transition text-center ${
+                onClick={() => handleSelectService(service.id)}
+                className={`rounded-lg px-2.5 py-2.5 text-xs font-bold transition text-center leading-snug ${
                   isSelected
-                    ? 'bg-emerald-600 text-white shadow-md'
-                    : 'bg-neutral-950/80 text-neutral-300 border border-neutral-800 hover:border-neutral-700'
+                    ? 'bg-emerald-600 text-white shadow-md ring-1 ring-emerald-400'
+                    : 'bg-neutral-950/80 text-neutral-300 border border-neutral-800 hover:border-neutral-700 hover:text-white'
                 }`}
               >
-                {item.name}
+                {service.name}
               </button>
             )
           })}
         </div>
       </div>
 
-      {/* Size Selection */}
+      {/* Dynamic Size / Complexity Selection */}
       <div className="mt-4">
-        <label className="block text-xs font-semibold uppercase tracking-wider text-neutral-400 mb-2">
-          {calc.sizeLabel}
+        <label className="block text-xs font-semibold uppercase tracking-wider text-neutral-400 mb-2 flex items-center justify-between">
+          <span>{currentService?.sizeLabel}</span>
+          <span className="text-[11px] text-emerald-400 normal-case font-mono">
+            {currentSize?.price}
+          </span>
         </label>
         <div className="grid grid-cols-2 gap-2">
-          {calc.sizes.map((size, idx) => {
+          {currentService?.sizes.map((size, idx) => {
             const isSelected = selectedSizeIndex === idx
             return (
               <button
@@ -75,8 +87,8 @@ export const ExpressCalculator: React.FC = () => {
                 onClick={() => setSelectedSizeIndex(idx)}
                 className={`rounded-lg p-2.5 text-left transition border ${
                   isSelected
-                    ? 'border-emerald-500 bg-emerald-950/40 text-white ring-1 ring-emerald-500'
-                    : 'border-neutral-800 bg-neutral-950/80 text-neutral-300 hover:border-neutral-700'
+                    ? 'border-emerald-500 bg-emerald-950/40 text-white ring-1 ring-emerald-500 shadow-sm'
+                    : 'border-neutral-800 bg-neutral-950/80 text-neutral-300 hover:border-neutral-700 hover:text-white'
                 }`}
               >
                 <div className="text-xs font-bold text-white">{size.label}</div>
@@ -87,7 +99,7 @@ export const ExpressCalculator: React.FC = () => {
         </div>
       </div>
 
-      {/* Price & Timing Result Box */}
+      {/* Dynamic Price & Timing Result Box */}
       <div className="mt-5 rounded-xl border border-neutral-800 bg-neutral-950 p-4">
         <div className="flex items-baseline justify-between">
           <div>
@@ -108,9 +120,9 @@ export const ExpressCalculator: React.FC = () => {
           </div>
         </div>
 
-        {/* Included Checklist */}
-        <div className="mt-3 pt-3 border-t border-neutral-800/80 space-y-1 text-[11px] text-neutral-300">
-          {calc.includes.map((item, i) => (
+        {/* Dynamic Included Checklist */}
+        <div className="mt-3 pt-3 border-t border-neutral-800/80 space-y-1.5 text-[11px] text-neutral-300">
+          {currentService?.includes.map((item, i) => (
             <div key={i} className="flex items-center gap-2">
               <span className="text-emerald-400 font-bold">✓</span>
               <span>{item}</span>
@@ -134,7 +146,7 @@ export const ExpressCalculator: React.FC = () => {
       </div>
 
       {/* Trust Micro-Note */}
-      <p className="mt-3 text-[11px] text-center text-neutral-400">
+      <p className="mt-3 text-[11px] text-center text-neutral-400 leading-relaxed">
         {calc.hint}
       </p>
     </div>
