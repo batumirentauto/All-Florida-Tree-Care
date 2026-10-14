@@ -66,7 +66,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Quick text quote button (desktop/tablet) */}
           <a
-            href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi Brad, here are photos of my stump/tree for an estimate:')}`}
+            href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my stump/tree for an estimate:')}`}
             className="hidden items-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
           >
             <svg

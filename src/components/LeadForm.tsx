@@ -48,7 +48,7 @@ export const LeadForm: React.FC = () => {
               </p>
               <div className="mt-6">
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, отправил заявку на сайте по услуге ${formData.service}.` : `Hi Brad, I just submitted an estimate request on your website for ${formData.service}.`)}`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, отправил заявку на сайте по услуге ${formData.service}.` : `Hi All Florida Tree Care, I just submitted an estimate request on your website for ${formData.service}.`)}`}
                   className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 text-sm font-bold text-neutral-950 hover:bg-amber-400 transition"
                 >
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -156,7 +156,7 @@ export const LeadForm: React.FC = () => {
               <div className="pt-2 text-center text-xs text-neutral-400">
                 {siteConfig.ui.formUrgent}{' '}
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi Brad, here are photos of my stump/tree for an estimate:')}`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my tree/stump for an estimate:')}`}
                   className="font-bold text-amber-400 underline underline-offset-2 hover:text-amber-300"
                 >
                   {siteConfig.ui.tapToText} {siteConfig.phone}

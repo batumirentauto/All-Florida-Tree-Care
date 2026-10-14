@@ -71,13 +71,13 @@ export const EquipmentGallery: React.FC = () => {
             <div>
               <h4 className="text-sm font-bold text-white">
                 {siteConfig.lang === 'ru'
-                  ? 'Все работы выполняет лично Брэд Фредерик на собственной технике'
-                  : 'Every job is operated directly by Brad Frederick on dedicated machinery'}
+                  ? 'Все работы выполняет опытная команда на собственной спецтехнике'
+                  : 'Every job is operated by our experienced crew with dedicated commercial machinery'}
               </h4>
               <p className="text-xs text-neutral-400">
                 {siteConfig.lang === 'ru'
                   ? 'Без случайных наемных рабочих, без задержек и без скрытых доплат за вывоз щепы.'
-                  : 'No subcontractors, no day-labor surprises, and no unexpected debris disposal charges.'}
+                  : 'No day-labor surprises, no delays, and no unexpected debris disposal charges.'}
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ export const EquipmentGallery: React.FC = () => {
             href={`tel:${siteConfig.phoneRaw}`}
             className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-bold text-white shadow-lg transition hover:bg-emerald-500"
           >
-            <span>{siteConfig.lang === 'ru' ? 'Позвонить Брэду' : 'Call Brad Directly'}</span>
+            <span>{siteConfig.lang === 'ru' ? 'Позвонить сейчас' : 'Call Directly'}</span>
             <span className="font-mono text-emerald-200">({siteConfig.phone})</span>
           </a>
         </div>
