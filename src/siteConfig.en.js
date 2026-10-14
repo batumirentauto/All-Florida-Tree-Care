@@ -100,25 +100,61 @@ export const siteConfigEn = {
     {
       author: "Brandon Clark",
       rating: 5,
-      text: "His machine is a beast. If you think you’ll save money renting the toy-version of a stump grinder, you’ll regret it and call Brad anyway. Call him first!",
+      tag: "Commercial Beast vs Toy Rental",
+      image: "/images/brad-lanai-work.png",
+      imageAlt: "Brad working track machine next to pool screen lanai",
+      text: "A neighbor referred Brad for stump grinding. He’s a pro: courteous, responsive, available quickly, and went above and beyond without asking for more than quoted. His machine is a beast. If you think you’ll save money renting the toy-version of a stump grinder, you’ll regret it and call Brad anyway. Call him first!",
+      source: "Verified Google Review"
+    },
+    {
+      author: "Erica Wright",
+      rating: 5,
+      tag: "Next-Morning Arrival",
+      image: "/images/brad-in-gear.png",
+      imageAlt: "Brad in full safety gear with commercial stump grinder and blower",
+      text: "Brad is a true professional. He was at my house the morning after I contacted him for a quote. Fair price, beautifully maintained equipment and extremely knowledgeable. I would recommend him to anyone who wants the job done right, right away.",
       source: "Verified Google Review"
     },
     {
       author: "Eric A. Logan",
       rating: 5,
-      text: "Extensive root removal directly over my utilities and well pump. Brad cleared the area without damaging any lines. Fair price, arrived on schedule.",
+      tag: "Pipes & Well Pump Safe",
+      text: "Extensive root removal over a 15x30 delicate area directly over all my utilities and well pump. Brad is certainly a MASTER operator, clearing the area without damaging any utility lines. Fair price, on schedule, and completed in a very professional manner. Highly recommend!",
       source: "Verified Google Review"
     },
     {
-      author: "Gina Werts (HOA Property)",
+      author: "Gina Werts (HOA Board)",
       rating: 5,
-      text: "Arrived on time and ground down large stumps on our HOA property after Hurricane Milton. Took the time to clean off the long stretch of sidewalk.",
+      tag: "18-Stump Post-Hurricane Takedown",
+      text: "Incredibly impressed with Brad Frederick's LLC! Arrived on time and ground down 18 extremely large stumps on our HOA property after Hurricane Milton. Took the time to clean off the very long stretch of sidewalk for pedestrian traffic. Fantastic price and attention to detail!",
       source: "Verified Google Review"
     },
     {
-      author: "Jeb Burnside",
+      author: "Richard Glaspy",
       rating: 5,
-      text: "Phoned Brad on a Saturday. By 1pm the same day, both of my large stumps had been ground up and smoothed out. Straightforward, professional work.",
+      tag: "Sunday 30-Min Dispatch",
+      text: "I called Brad Sunday morning in hopes of scheduling for the week. His reply was 'I can be there in thirty minutes.' I was shocked to find someone to do the job on Sunday morning, much less same day! He was there in 30 minutes and did an excellent job. Brad answers calls 365 days a year.",
+      source: "Verified Google Review"
+    },
+    {
+      author: "Feath K",
+      rating: 5,
+      tag: "Estimate by Text Photos",
+      text: "We needed boundary stumps removed for a fence install. Several local vendors never even returned our calls or inquiries. Brad actually answered the phone! We texted photos of the situation, he gave us an exact estimate, arrived on time, and leveled the ground cleanly for our fence crew.",
+      source: "Local Guide • 34 Reviews"
+    },
+    {
+      author: "Mary Louise Ziegler",
+      rating: 5,
+      tag: "Tight Canal Bank Clearance",
+      text: "Brad was on time and very courteous. Knew exactly what he was doing. Our stump location was quite difficult, right on the edge of a canal bank. Brad did a great job and didn’t leave a mess. Very careful positioning of heavy equipment in the yard.",
+      source: "Verified Google Review"
+    },
+    {
+      author: "Sarah Santos",
+      rating: 5,
+      tag: "Zero Pushiness • Honest Craftsman",
+      text: "One of the most pleasant experiences I have ever had dealing with a contractor. As a single woman, you never know who is trying to rip you off. Brad was polite, professional, not pushy AT ALL, and as kind as could be. Extremely reasonable and a true West Bradenton local boy you can trust 100%.",
       source: "Verified Google Review"
     }
   ],
