@@ -6,6 +6,7 @@ import { TrustBadges } from '../../components/TrustBadges'
 import { TextEstimateCard } from '../../components/TextEstimateCard'
 import { ServicesGrid } from '../../components/ServicesGrid'
 import { EquipmentComparison } from '../../components/EquipmentComparison'
+import { EquipmentGallery } from '../../components/EquipmentGallery'
 import { ReviewsSection } from '../../components/ReviewsSection'
 import { ServiceAreas } from '../../components/ServiceAreas'
 import { LeadForm } from '../../components/LeadForm'
@@ -33,6 +34,9 @@ export default function HomePage() {
 
         {/* Technical Specification Comparison (DIY Rental vs Commercial Track Grinder) */}
         <EquipmentComparison />
+
+        {/* Commercial Equipment & Real Jobs Photo Gallery */}
+        <EquipmentGallery />
 
         {/* Verified Google Reviews */}
         <ReviewsSection />

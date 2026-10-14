@@ -96,6 +96,56 @@ export const siteConfigEn = {
     ]
   },
 
+  gallery: {
+    badge: "Equipment in Action • Real Florida Job Sites",
+    title: "Commercial Machinery Operated Directly by Brad",
+    subhead: "No rented push-mowers or subcontracted crews. We show up with professional Rayco 4x4 machinery built for deep below-grade root pulverization and tight 36\" residential gates.",
+    items: [
+      {
+        src: "/images/brad-and-truck.jpg",
+        alt: "Brad Frederick with his Ford F-150 work truck and commercial trailer rig",
+        title: "Brad & Commercial Rig",
+        badge: "Owner-Operated",
+        desc: "Ford F-150 and heavy-duty trailer carrying the Rayco RG37 grinder across Sarasota & Manatee."
+      },
+      {
+        src: "/images/brad-operating-controls.jpg",
+        alt: "Brad Frederick in safety gear operating controls next to a residential fence",
+        title: "Precision Boundary Grinding",
+        badge: "Fence-Safe Precision",
+        desc: "Operating controls with full protective PPE and deflector curtains right next to boundary fences."
+      },
+      {
+        src: "/images/brad-equipment-plaque.jpg",
+        alt: "Brad Frederick's LLC Since 1998 commercial plaque on machinery",
+        title: "Since 1998 Trade Heritage",
+        badge: "26+ Years Experience",
+        desc: "Official commercial equipment badge: Brad Frederick's LLC, serving Bradenton & Sarasota since 1998."
+      },
+      {
+        src: "/images/rayco-grinding-stump.jpg",
+        alt: "Rayco RG37 4x4 machine grinding massive stump deep below grade",
+        title: "Deep Below-Grade Grinding",
+        badge: "True Below-Grade Finish",
+        desc: "Heavy 4x4 cutter wheel chewing through large oak stumps inches from house walls and AC units."
+      },
+      {
+        src: "/images/brad-under-oak.jpg",
+        alt: "Brad working under majestic moss oak in residential yard with commercial blower",
+        title: "Full PPE & Site Cleanup",
+        badge: "Clean Job Guarantee",
+        desc: "Brad in full gear after clearing a giant root ball under native mossy Florida live oaks."
+      },
+      {
+        src: "/images/finished-yard-sod.jpg",
+        alt: "Perfect finished level soil circle ready for sod or fence posts",
+        title: "Ready for Sod & Fencing",
+        badge: "Turnkey Finish",
+        desc: "Completely pulverized, leveled, and raked ground ready for fence contractors or fresh sod."
+      }
+    ]
+  },
+
   reviews: [
     {
       author: "Brandon Clark",
