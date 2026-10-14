@@ -6,7 +6,6 @@ import { TrustBadges } from '../../components/TrustBadges'
 import { ExpressCalculator } from '../../components/ExpressCalculator'
 import { ServicesGrid } from '../../components/ServicesGrid'
 import { EquipmentGallery } from '../../components/EquipmentGallery'
-import { EquipmentComparison } from '../../components/EquipmentComparison'
 import { TextEstimateCard } from '../../components/TextEstimateCard'
 import { ReviewsSection } from '../../components/ReviewsSection'
 import { ServiceAreas } from '../../components/ServiceAreas'
@@ -35,9 +34,6 @@ export default function HomePage() {
 
         {/* Commercial Equipment & Real Jobs Asymmetric Spotlight Gallery */}
         <EquipmentGallery />
-
-        {/* Technical Specification Comparison (Unlicensed Handyman vs All Florida Fleet) */}
-        <EquipmentComparison />
 
         {/* 3-Step Visual Photo Estimate Process */}
         <TextEstimateCard />

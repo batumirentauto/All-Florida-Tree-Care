@@ -50,19 +50,22 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
               <div>
                 {/* Tag Badge */}
                 {review.tag && (
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <span className="inline-flex items-center text-[11px] font-semibold text-amber-300 bg-amber-950/60 px-2.5 py-1 rounded-md border border-amber-900/60">
                       {review.tag}
                     </span>
                   </div>
                 )}
 
-                {/* Stars and Source */}
-                <div className="flex items-center justify-between">
-                  <div className="flex text-amber-400 text-sm">
-                    {Array.from({ length: review.rating }).map((_, i) => (
-                      <span key={i}>★</span>
-                    ))}
+                {/* Stars and Source with generous breathing room and clear divider */}
+                <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-slate-800/80">
+                  <div className="flex items-center gap-1.5">
+                    <div className="flex text-amber-400 text-sm tracking-wider">
+                      {Array.from({ length: review.rating }).map((_, i) => (
+                        <span key={i}>★</span>
+                      ))}
+                    </div>
+                    <span className="text-xs font-mono font-bold text-slate-300">5.0</span>
                   </div>
                   <span className="text-[11px] font-medium text-slate-400">
                     {review.source}
@@ -70,7 +73,7 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
                 </div>
 
                 {/* Review Text */}
-                <p className="mt-4 text-sm leading-relaxed text-slate-300 italic">
+                <p className="text-sm leading-relaxed text-slate-300 italic">
                   &ldquo;{review.text}&rdquo;
                 </p>
               </div>
