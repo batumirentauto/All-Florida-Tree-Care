@@ -33,22 +33,12 @@ export const Hero: React.FC = () => {
 
             {/* Grounded trade bullet points */}
             <ul className="mt-6 space-y-2.5 text-sm text-neutral-200">
-              <li className="flex items-center gap-2.5">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
-                <span><strong>Владелец лично на объекте</strong> — никакой перепродажи заказов и субподрядчиков</span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
-                <span><strong>Ширина всего 89 см</strong> — проезжает в стандартные калитки без снятия забора</span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
-                <span><strong>Фрезерование на 20–35 см ниже дерна</strong> — площадка готова под газон или забор</span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
-                <span><strong>Защитные экраны</strong> — сохраняем окна, полив, купола бассейнов и трубы в безопасности</span>
-              </li>
+              {siteConfig.ui.heroCheckmarks.map((item, idx) => (
+                <li key={idx} className="flex items-center gap-2.5">
+                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
+                  <span><strong>{item.strong}</strong> — {item.text}</span>
+                </li>
+              ))}
             </ul>
 
             {/* Primary Action Buttons */}
@@ -76,8 +66,8 @@ export const Hero: React.FC = () => {
             </div>
 
             <p className="mt-3 text-xs text-neutral-400 flex items-center gap-2">
-              <span className="text-emerald-400 font-bold">Быстрый ответ:</span>
-              <span>Пришлите 2 фото по SMS/WhatsApp — назовем фиксированную цену без выезда.</span>
+              <span className="text-emerald-400 font-bold">{siteConfig.ui.fastResponse}</span>
+              <span>{siteConfig.ui.fastResponseDesc}</span>
             </p>
           </div>
 
@@ -88,60 +78,42 @@ export const Hero: React.FC = () => {
               <div className="flex items-center justify-between border-b border-neutral-800 pb-4">
                 <div>
                   <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-                    Характеристики оборудования
+                    {siteConfig.ui.tradeSpecs}
                   </span>
                   <h3 className="text-lg font-bold text-white">
-                    Самоходный измельчитель пней
+                    {siteConfig.ui.specTitle}
                   </h3>
                 </div>
                 <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400 border border-emerald-500/30">
-                  Готов к выезду
+                  {siteConfig.ui.readyToDispatch}
                 </span>
               </div>
 
               {/* Spec Rows */}
               <div className="mt-4 space-y-3.5 text-sm">
-                <div className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                  <span className="text-neutral-400">Ширина проезда</span>
-                  <span className="font-bold text-white">89 см (проходит в калитку)</span>
-                </div>
-
-                <div className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                  <span className="text-neutral-400">Давление на почву</span>
-                  <span className="font-bold text-emerald-400">Резиновые гусеницы (без колеи)</span>
-                </div>
-
-                <div className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                  <span className="text-neutral-400">Глубина фрезерования</span>
-                  <span className="font-bold text-white">До 35 см ниже уровня земли</span>
-                </div>
-
-                <div className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                  <span className="text-neutral-400">Боковые корни</span>
-                  <span className="font-bold text-white">Удаление поверхностных корней</span>
-                </div>
-
-                <div className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                  <span className="text-neutral-400">Защита от щепы</span>
-                  <span className="font-bold text-white">Тяжелые дефлекторные шторы</span>
-                </div>
+                {siteConfig.ui.specs.map((item, i) => (
+                  <div key={i} className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
+                    <span className="text-neutral-400">{item.label}</span>
+                    <span className="font-bold text-white">{item.value}</span>
+                  </div>
+                ))}
               </div>
 
               {/* Direct Owner Guarantee Box */}
               <div className="mt-5 rounded-xl border border-emerald-900/60 bg-emerald-950/40 p-4">
                 <div className="flex items-start gap-3">
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-600 font-bold text-white text-sm">
-                    БФ
+                    {siteConfig.lang === 'ru' ? 'БФ' : 'BF'}
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-emerald-300">
-                      Личная гарантия владельца
+                      {siteConfig.ui.guaranteeTitle}
                     </h4>
                     <p className="mt-1 text-xs text-neutral-300 leading-relaxed">
-                      &laquo;Я лично выгружаю спецтехнику, управляю фрезой, берегу ваши поливочные трубы и аккуратно убираю щепу после работы.&raquo;
+                      {siteConfig.ui.guaranteeQuote}
                     </p>
                     <span className="mt-1 block text-xs font-semibold text-neutral-400">
-                      — Брэд Фредерик, владелец
+                      {siteConfig.ui.guaranteeAuthor}
                     </span>
                   </div>
                 </div>

@@ -22,11 +22,11 @@ export const MobileActionBar: React.FC = () => {
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
-          <span>Позвонить</span>
+          <span>{siteConfig.ui.callBrad}</span>
         </a>
 
         <a
-          href={`sms:${siteConfig.phoneRaw}?&body=Здравствуйте,%20отправляю%20фото%20пня/дерева%20для%20расчета%20стоимости:`}
+          href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi Brad, here are photos of my stump/tree for an estimate:')}`}
           className="flex items-center justify-center gap-2 rounded-lg border border-amber-500/50 bg-amber-500/10 px-3 py-3 text-sm font-bold text-amber-300 shadow-lg transition active:bg-amber-500/20"
         >
           <svg
@@ -47,7 +47,7 @@ export const MobileActionBar: React.FC = () => {
               d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          <span>Фото в SMS</span>
+          <span>{siteConfig.ui.textPhotos}</span>
         </a>
       </div>
     </div>

@@ -14,18 +14,26 @@ export const Header: React.FC = () => {
             </span>
             <span className="hidden text-neutral-500 sm:inline">•</span>
             <span className="hidden text-neutral-400 sm:inline">
-              Опыт: {siteConfig.experienceYears}
+              {siteConfig.experienceYears} {siteConfig.ui.inBusiness}
             </span>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="flex text-amber-400" aria-label="5 звезд из 5">
-              {'★★★★★'}
+
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
+              <div className="flex text-amber-400" aria-label="5 stars">
+                {'★★★★★'}
+              </div>
+              <span className="font-semibold text-neutral-200">
+                {siteConfig.rating}
+              </span>
+              <span className="text-neutral-400">
+                ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
+              </span>
             </div>
-            <span className="font-semibold text-neutral-200">
-              {siteConfig.rating}
-            </span>
-            <span className="text-neutral-400">
-              ({siteConfig.reviewCount} отзывов в Google)
+
+            {/* Language status indicator */}
+            <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-mono px-2 py-0.5 rounded bg-neutral-800 text-neutral-400 border border-neutral-700">
+              <span className="text-emerald-400 uppercase font-bold">{siteConfig.lang}</span>
             </span>
           </div>
         </div>
@@ -47,7 +55,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-3">
           {/* Quick text quote button (desktop/tablet) */}
           <a
-            href={`sms:${siteConfig.phoneRaw}?&body=Здравствуйте,%20отправляю%20фото%20пня/дерева%20для%20расчета%20стоимости:`}
+            href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi Brad, here are photos of my stump/tree for an estimate:')}`}
             className="hidden items-center gap-2 rounded-lg border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
           >
             <svg
@@ -68,7 +76,7 @@ export const Header: React.FC = () => {
                 d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            Оценка по фото
+            {siteConfig.ui.textPhotos}
           </a>
 
           {/* Primary phone call button */}

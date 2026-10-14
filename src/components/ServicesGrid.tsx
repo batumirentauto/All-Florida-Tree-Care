@@ -8,13 +8,13 @@ export const ServicesGrid: React.FC = () => {
         {/* Section Header */}
         <div className="max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
-            Возможности спецтехники
+            {siteConfig.ui.servicesCategory}
           </span>
           <h2 className="mt-2 text-3xl sm:text-4xl font-extrabold text-white">
-            Услуги по спилу деревьев и удалению пней
+            {siteConfig.ui.servicesTitle}
           </h2>
           <p className="mt-3 text-base text-neutral-300">
-            Все работы выполняются на профессиональном оборудовании лично Брэдом Фредериком. Никакой спешки, грязи или брошенных куч щепы на вашем газоне.
+            {siteConfig.ui.servicesSub}
           </p>
         </div>
 
@@ -50,10 +50,10 @@ export const ServicesGrid: React.FC = () => {
               {/* Card Footer */}
               <div className="mt-6 pt-4 border-t border-neutral-800/80 flex items-center justify-between">
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=Здравствуйте,%20интересует%20расчет%20по%20услуге%20${encodeURIComponent(service.title)}:`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, интересует расчет по услуге ${service.title}:` : `Hi Brad, I'm interested in an estimate for ${service.title}:`)}`}
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300"
                 >
-                  <span>Узнать цену</span>
+                  <span>{siteConfig.ui.textForQuote}</span>
                   <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -63,7 +63,7 @@ export const ServicesGrid: React.FC = () => {
                   href="#estimate-form"
                   className="text-xs text-neutral-400 hover:text-white"
                 >
-                  Заполнить форму →
+                  {siteConfig.ui.formQuote}
                 </a>
               </div>
             </div>
