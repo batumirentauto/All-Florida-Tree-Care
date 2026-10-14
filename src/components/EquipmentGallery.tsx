@@ -20,47 +20,59 @@ export const EquipmentGallery: React.FC<{ config?: SiteConfig }> = ({ config }) 
           </p>
         </div>
 
-        {/* 6 Photo Cards Grid */}
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {siteConfig.gallery.items.map((item, idx) => (
-            <div
-              key={idx}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/70 transition duration-300 hover:border-amber-500/40 hover:bg-slate-900 shadow-xl"
-            >
-              {/* Photo Container */}
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-950">
-                <img
-                  src={item.src}
-                  alt={item.alt}
-                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                  loading="lazy"
-                />
-                {/* Floating Badge */}
-                <div className="absolute top-3 right-3">
-                  <span className="rounded-md bg-slate-950/90 backdrop-blur-md px-2.5 py-1 text-[11px] font-bold text-amber-300 border border-slate-700/80 shadow">
-                    {item.badge}
-                  </span>
+        {/* Asymmetrical Editorial Spotlight Grid */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {siteConfig.gallery.items.map((item, idx) => {
+            const isFeatured = idx === 0
+            return (
+              <div
+                key={idx}
+                className={`group flex flex-col overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/70 transition duration-300 hover:border-amber-500/40 hover:bg-slate-900 shadow-xl ${
+                  isFeatured ? 'lg:col-span-2 lg:flex-row' : ''
+                }`}
+              >
+                {/* Photo Container */}
+                <div className={`relative w-full overflow-hidden bg-slate-950 ${isFeatured ? 'lg:w-3/5 aspect-[4/3] lg:aspect-auto' : 'aspect-[4/3]'}`}>
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  {/* Floating Badge */}
+                  <div className="absolute top-3 right-3">
+                    <span className="rounded-md bg-slate-950/90 backdrop-blur-md px-2.5 py-1 text-[11px] font-bold text-amber-300 border border-slate-700/80 shadow">
+                      {item.badge}
+                    </span>
+                  </div>
+                  {isFeatured && (
+                    <div className="absolute bottom-3 left-3">
+                      <span className="rounded-md bg-gradient-to-r from-amber-400 to-amber-500 px-2.5 py-1 text-[10px] font-black uppercase text-slate-950 shadow">
+                        ★ {siteConfig.lang === 'ru' ? 'Флагман флота компании' : 'Fleet Flagship'}
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Text Description */}
+                <div className={`flex flex-1 flex-col justify-between p-5 sm:p-6 ${isFeatured ? 'lg:w-2/5' : ''}`}>
+                  <div>
+                    <h3 className={`font-bold text-white group-hover:text-amber-400 transition ${isFeatured ? 'text-lg sm:text-xl' : 'text-base'}`}>
+                      {item.title}
+                    </h3>
+                    <p className="mt-2.5 text-xs sm:text-sm leading-relaxed text-slate-300">
+                      {item.desc}
+                    </p>
+                  </div>
+
+                  <div className="mt-5 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
+                    <span>{siteConfig.lang === 'ru' ? '📍 Округ Манати / Сарасота' : '📍 Manatee / Sarasota County'}</span>
+                    <span className="font-mono text-amber-400 font-semibold">{siteConfig.licenseBadge}</span>
+                  </div>
                 </div>
               </div>
-
-              {/* Text Description */}
-              <div className="flex flex-1 flex-col justify-between p-5">
-                <div>
-                  <h3 className="text-base font-bold text-white group-hover:text-amber-400 transition">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-300">
-                    {item.desc}
-                  </p>
-                </div>
-
-                <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-                  <span>{siteConfig.lang === 'ru' ? '📍 Округ Манати / Сарасота' : '📍 Manatee / Sarasota County'}</span>
-                  <span className="font-mono text-amber-400 font-semibold">{siteConfig.licenseBadge}</span>
-                </div>
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         {/* Bottom Callout */}

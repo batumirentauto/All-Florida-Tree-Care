@@ -43,9 +43,19 @@ export const ServicesGrid: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 </h3>
 
                 {/* Description */}
-                <p className="mt-3 text-sm leading-relaxed text-slate-300">
+                <p className="mt-2.5 text-sm leading-relaxed text-slate-300">
                   {service.desc}
                 </p>
+
+                {/* Arborist Capability Micro-Badges */}
+                <div className="mt-4 flex flex-wrap gap-1.5">
+                  <span className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-amber-300 border border-slate-800">
+                    {siteConfig.lang === 'ru' ? '✓ Собственная техника' : '✓ Commercial Fleet'}
+                  </span>
+                  <span className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-slate-400 border border-slate-800">
+                    {siteConfig.lang === 'ru' ? '✓ Страховка $1M' : '✓ $1M Insured'}
+                  </span>
+                </div>
               </div>
 
               {/* Card Footer */}

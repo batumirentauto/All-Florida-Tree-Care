@@ -75,7 +75,7 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
 
       {/* Main navigation header */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0">
           <a href={siteConfig.lang === 'ru' ? '/ru' : '/'} className="group block focus:outline-none">
             <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-amber-400 sm:text-xl leading-tight transition-colors">
               <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-amber-300/80 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
@@ -86,6 +86,25 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
             </span>
           </a>
         </div>
+
+        {/* Center Desktop Navigation Links */}
+        <nav className="hidden xl:flex items-center gap-6 text-xs font-semibold text-slate-300">
+          <a href="#services" className="hover:text-amber-400 transition-colors">
+            {siteConfig.lang === 'ru' ? 'Услуги' : 'Services'}
+          </a>
+          <a href="#equipment" className="hover:text-amber-400 transition-colors">
+            {siteConfig.lang === 'ru' ? 'Спецтехника' : 'Fleet & Reach'}
+          </a>
+          <a href="#calculator" className="hover:text-amber-400 transition-colors">
+            {siteConfig.lang === 'ru' ? 'Калькулятор' : 'Estimator'}
+          </a>
+          <a href="#reviews" className="hover:text-amber-400 transition-colors">
+            {siteConfig.lang === 'ru' ? 'Отзывы' : 'Reviews'}
+          </a>
+          <a href="#areas" className="hover:text-amber-400 transition-colors">
+            {siteConfig.lang === 'ru' ? 'Зоны работы' : 'Service Areas'}
+          </a>
+        </nav>
 
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Quick text quote button (desktop/tablet) */}
