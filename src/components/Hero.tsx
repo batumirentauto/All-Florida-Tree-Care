@@ -31,26 +31,10 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               {siteConfig.hero.subhead}
             </p>
 
-            {/* 3 Core Capability Callout Badges */}
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
-              <div className="rounded-xl border border-slate-800 bg-slate-900/80 p-3 shadow-md">
-                <div className="text-amber-400 font-black text-sm">60+ FT Reach</div>
-                <div className="text-slate-300 text-xs mt-0.5">{siteConfig.lang === 'ru' ? 'Собственная автовышка' : 'Heavy Commercial Bucket'}</div>
-              </div>
-              <div className="rounded-xl border border-slate-800 bg-slate-900/80 p-3 shadow-md">
-                <div className="text-cyan-400 font-black text-sm">{siteConfig.lang === 'ru' ? 'Арбористы-альпинисты' : 'Expert Climbers'}</div>
-                <div className="text-slate-300 text-xs mt-0.5">{siteConfig.lang === 'ru' ? 'Узкие дворы и бассейны' : 'Zero lawn & gate issues'}</div>
-              </div>
-              <div className="rounded-xl border border-slate-800 bg-slate-900/80 p-3 shadow-md">
-                <div className="text-amber-400 font-black text-sm">{siteConfig.lang === 'ru' ? 'Смета за 1 час' : '1-Hour Quotes'}</div>
-                <div className="text-slate-300 text-xs mt-0.5">{siteConfig.lang === 'ru' ? 'Письменный расчет' : 'Fast Written Bids'}</div>
-              </div>
-            </div>
-
             {/* Customer Pain-Killer bullet points */}
-            <ul className="mt-6 space-y-2.5 text-sm text-slate-200">
+            <ul className="mt-8 space-y-3 text-sm text-slate-200">
               {siteConfig.ui.heroCheckmarks.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2.5">
+                <li key={idx} className="flex items-start gap-3">
                   <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-950/80 text-amber-400 border border-amber-600/60 text-xs">✓</span>
                   <span><strong className="text-white">{item.strong}</strong> — <span className="text-slate-300">{item.text}</span></span>
                 </li>
@@ -97,29 +81,17 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   alt="All Florida Tree Care 60+ Ft Commercial Bucket Truck"
                   className="h-full w-full object-cover"
                 />
-                
-                {/* Floating Top Badge */}
-                <div className="absolute top-3 left-3">
-                  <span className="rounded-lg bg-slate-950/90 backdrop-blur-md px-3 py-1.5 text-xs font-black text-amber-400 border border-slate-700 shadow-lg inline-flex items-center gap-1.5">
-                    <span className="h-2 w-2 rounded-full bg-amber-400 animate-pulse" />
-                    60+ FT Commercial Reach
-                  </span>
-                </div>
 
-                {/* Floating Bottom Badge */}
+                {/* Floating Bottom Social Proof Badge */}
                 <div className="absolute bottom-3 left-3 right-3">
                   <div className="rounded-xl bg-slate-950/90 backdrop-blur-md p-3 border border-slate-700/80 shadow-lg text-xs">
                     <div className="flex items-center justify-between text-white font-bold">
-                      <span>{siteConfig.businessName}</span>
-                      <span className="text-amber-400 flex items-center gap-2">
+                      <div className="flex items-center gap-2 text-amber-400">
                         <span className="tracking-widest text-xs">★★★★★</span>
                         <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">{siteConfig.rating}</span>
-                      </span>
-                    </div>
-                    <div className="text-[11px] text-slate-300 mt-0.5">
-                      {siteConfig.lang === 'ru'
-                        ? 'Бригада Джастина и Алекса Кэрриер • Палметто, Брейдентон, Сарасота'
-                        : 'Justin & Alex Carrier Fleet • Palmetto, Bradenton, Sarasota'}
+                        <span className="text-slate-300 text-[11px] font-normal">({siteConfig.reviewCount} {siteConfig.ui.googleReviews})</span>
+                      </div>
+                      <span className="text-[11px] text-slate-400 font-normal">{siteConfig.city.split(',')[0]}</span>
                     </div>
                   </div>
                 </div>
