@@ -1,7 +1,8 @@
-import React from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const Footer: React.FC = () => {
+export const Footer: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   return (
     <footer className="border-t border-neutral-800 bg-neutral-950 pb-24 pt-16 text-neutral-400 md:pb-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">

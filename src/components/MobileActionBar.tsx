@@ -1,7 +1,8 @@
-import React from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const MobileActionBar: React.FC = () => {
+export const MobileActionBar: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-neutral-800 bg-neutral-950/95 p-3 backdrop-blur-lg md:hidden">
       <div className="grid grid-cols-2 gap-2.5">

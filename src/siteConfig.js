@@ -3,12 +3,12 @@ import { siteConfigRu } from './siteConfig.ru.js'
 
 /**
  * -------------------------------------------------------------
- * LANGUAGE SWITCHER / ЯЗЫК САЙТА:
- * 'ru' — Русскоязычная версия (для удобной проверки)
- * 'en' — Оригинальная английская версия (US Contractor)
+ * LANGUAGE CONFIGURATION:
+ * Default root language is 'en' (English for USA visitors).
+ * Russian version is available at dedicated route '/ru'.
  * -------------------------------------------------------------
  */
-export const activeLanguage = 'en' // 'en' — официальная версия для США, 'ru' — для проверки
+export const activeLanguage = 'en'
 
 export const siteConfig = activeLanguage === 'ru' ? siteConfigRu : siteConfigEn
 export { siteConfigEn, siteConfigRu }

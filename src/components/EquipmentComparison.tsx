@@ -1,7 +1,8 @@
-import React from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const EquipmentComparison: React.FC = () => {
+export const EquipmentComparison: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   return (
     <section className="py-20 bg-neutral-900/60 border-y border-neutral-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">

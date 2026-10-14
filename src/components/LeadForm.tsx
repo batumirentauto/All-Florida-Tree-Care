@@ -1,9 +1,11 @@
 'use client'
 
 import React, { useState } from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const LeadForm: React.FC = () => {
+export const LeadForm: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   const [submitted, setSubmitted] = useState(false)
   const [formData, setFormData] = useState({
     name: '',

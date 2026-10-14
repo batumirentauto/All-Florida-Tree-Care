@@ -1,7 +1,10 @@
 import React from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const Header: React.FC = () => {
+export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
+
   return (
     <header className="sticky top-0 z-40 w-full border-b border-neutral-800 bg-neutral-950/95 backdrop-blur-md">
       {/* Top micro-bar for trust & license */}
@@ -14,7 +17,7 @@ export const Header: React.FC = () => {
             </span>
             <span className="hidden text-neutral-500 sm:inline">•</span>
             <span className="hidden text-neutral-300 sm:inline">
-              {siteConfig.lang === 'ru' ? 'График: 06:30 – 21:30 (без выходных)' : 'Open Daily: 6:30 AM – 9:30 PM'}
+              {siteConfig.workingHours}
             </span>
             <span className="hidden text-neutral-500 md:inline">•</span>
             <span className="hidden text-neutral-400 md:inline">
@@ -22,7 +25,7 @@ export const Header: React.FC = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 sm:gap-4">
             <a
               href={siteConfig.mapsUrl}
               target="_blank"
@@ -36,15 +39,36 @@ export const Header: React.FC = () => {
               <span className="font-semibold text-neutral-200">
                 {siteConfig.rating}
               </span>
-              <span className="text-neutral-400">
+              <span className="text-neutral-400 hidden xs:inline">
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>
 
-            {/* Language status indicator */}
-            <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-mono px-2 py-0.5 rounded bg-neutral-800 text-neutral-400 border border-neutral-700">
-              <span className="text-emerald-400 uppercase font-bold">{siteConfig.lang}</span>
-            </span>
+            {/* Language Switcher Button (EN / RU) */}
+            <div className="flex items-center rounded-lg bg-neutral-800 p-0.5 border border-neutral-700 text-[11px] font-mono">
+              <a
+                href="/"
+                className={`px-2 py-0.5 rounded transition ${
+                  siteConfig.lang === 'en'
+                    ? 'bg-emerald-600 text-white font-bold shadow-sm'
+                    : 'text-neutral-400 hover:text-white'
+                }`}
+                title="Switch to English version"
+              >
+                EN
+              </a>
+              <a
+                href="/ru"
+                className={`px-2 py-0.5 rounded transition ${
+                  siteConfig.lang === 'ru'
+                    ? 'bg-emerald-600 text-white font-bold shadow-sm'
+                    : 'text-neutral-400 hover:text-white'
+                }`}
+                title="Переключить на русскую версию"
+              >
+                RU
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -52,7 +76,7 @@ export const Header: React.FC = () => {
       {/* Main navigation header */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <div className="min-w-0 flex-1">
-          <a href="#" className="group block focus:outline-none">
+          <a href={siteConfig.lang === 'ru' ? '/ru' : '/'} className="group block focus:outline-none">
             <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl leading-tight">
               <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-neutral-400 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
               <span className="hidden sm:inline">{siteConfig.businessName}</span>

@@ -1,9 +1,11 @@
 'use client'
 
 import React, { useState } from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 
-export const ExpressCalculator: React.FC = () => {
+export const ExpressCalculator: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   const calc = siteConfig.calculator
   const [selectedServiceId, setSelectedServiceId] = useState(calc.services[0]?.id || 'stump')
   const [selectedSizeIndex, setSelectedSizeIndex] = useState(1) // default medium tier

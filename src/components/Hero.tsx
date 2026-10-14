@@ -1,8 +1,9 @@
-import React from 'react'
-import { siteConfig } from '../siteConfig'
+import { siteConfig as defaultSiteConfig } from '../siteConfig'
+import type { SiteConfig } from '../types/siteConfig'
 import { ExpressCalculator } from './ExpressCalculator'
 
-export const Hero: React.FC = () => {
+export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
+  const siteConfig = config || defaultSiteConfig
   return (
     <section className="relative overflow-hidden bg-neutral-950 pb-16 pt-10 sm:pb-24 sm:pt-16">
       {/* Subtle background glow */}
@@ -74,7 +75,7 @@ export const Hero: React.FC = () => {
 
           {/* Right Column: Interactive Express Calculator instead of redundant text table */}
           <div className="lg:col-span-6">
-            <ExpressCalculator />
+            <ExpressCalculator config={siteConfig} />
           </div>
         </div>
       </div>
