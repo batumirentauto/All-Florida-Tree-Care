@@ -11,7 +11,7 @@ export const siteConfigRu = {
   zip: "34209",
   streetAddress: "3911 Riverview Blvd",
   fullAddress: "3911 Riverview Blvd, Bradenton, FL 34209",
-  mapsUrl: "https://www.google.com/maps/place/Brad+Frederick's+LLC/@27.5018223,-82.600647,17z/",
+  mapsUrl: "https://maps.app.goo.gl/b9HaJ71cuTyvJw2JA",
   rating: "5.0",
   reviewCount: "86",
   licenseBadge: "Лицензировано и застраховано",
