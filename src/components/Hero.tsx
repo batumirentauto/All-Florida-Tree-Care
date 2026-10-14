@@ -1,5 +1,6 @@
 import React from 'react'
 import { siteConfig } from '../siteConfig'
+import { ExpressCalculator } from './ExpressCalculator'
 
 export const Hero: React.FC = () => {
   return (
@@ -10,9 +11,9 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
           {/* Left Column: Value Proposition & High CRO actions */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-6">
             {/* County / Experience Badge */}
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-3.5 py-1.5 text-xs font-semibold text-emerald-300">
               <svg className="h-4 w-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
@@ -22,21 +23,21 @@ export const Hero: React.FC = () => {
             </div>
 
             {/* Headline */}
-            <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl leading-[1.2]">
+            <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-4xl xl:text-5xl leading-[1.18]">
               {siteConfig.hero.headline}
             </h1>
 
             {/* Subhead - strictly factual contractor language */}
-            <p className="mt-5 text-base sm:text-lg leading-relaxed text-neutral-300">
+            <p className="mt-4 text-base sm:text-lg leading-relaxed text-neutral-300">
               {siteConfig.hero.subhead}
             </p>
 
-            {/* Grounded trade bullet points */}
-            <ul className="mt-6 space-y-2.5 text-sm text-neutral-200">
+            {/* Customer Pain-Killer bullet points */}
+            <ul className="mt-6 space-y-3 text-sm text-neutral-200">
               {siteConfig.ui.heroCheckmarks.map((item, idx) => (
-                <li key={idx} className="flex items-center gap-2.5">
-                  <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
-                  <span><strong>{item.strong}</strong> — {item.text}</span>
+                <li key={idx} className="flex items-start gap-2.5">
+                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-900/80 text-emerald-400 border border-emerald-700/60 text-xs">✓</span>
+                  <span><strong className="text-white">{item.strong}</strong> — <span className="text-neutral-300">{item.text}</span></span>
                 </li>
               ))}
             </ul>
@@ -71,54 +72,9 @@ export const Hero: React.FC = () => {
             </p>
           </div>
 
-          {/* Right Column: Technical Equipment Spec & Direct Snapshot Card */}
-          <div className="lg:col-span-5">
-            <div className="relative rounded-2xl border border-neutral-800 bg-neutral-900/90 p-6 shadow-2xl backdrop-blur-xl">
-              {/* Card Header */}
-              <div className="flex items-center justify-between border-b border-neutral-800 pb-4">
-                <div>
-                  <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-                    {siteConfig.ui.tradeSpecs}
-                  </span>
-                  <h3 className="text-lg font-bold text-white">
-                    {siteConfig.ui.specTitle}
-                  </h3>
-                </div>
-                <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400 border border-emerald-500/30">
-                  {siteConfig.ui.readyToDispatch}
-                </span>
-              </div>
-
-              {/* Spec Rows */}
-              <div className="mt-4 space-y-3.5 text-sm">
-                {siteConfig.ui.specs.map((item, i) => (
-                  <div key={i} className="flex items-center justify-between rounded-lg bg-neutral-950/70 p-3 border border-neutral-800/80">
-                    <span className="text-neutral-400">{item.label}</span>
-                    <span className="font-bold text-white">{item.value}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Direct Owner Guarantee Box */}
-              <div className="mt-5 rounded-xl border border-emerald-900/60 bg-emerald-950/40 p-4">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-600 font-bold text-white text-sm">
-                    {siteConfig.lang === 'ru' ? 'БФ' : 'BF'}
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-bold text-emerald-300">
-                      {siteConfig.ui.guaranteeTitle}
-                    </h4>
-                    <p className="mt-1 text-xs text-neutral-300 leading-relaxed">
-                      {siteConfig.ui.guaranteeQuote}
-                    </p>
-                    <span className="mt-1 block text-xs font-semibold text-neutral-400">
-                      {siteConfig.ui.guaranteeAuthor}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Right Column: Interactive Express Calculator instead of redundant text table */}
+          <div className="lg:col-span-6">
+            <ExpressCalculator />
           </div>
         </div>
       </div>

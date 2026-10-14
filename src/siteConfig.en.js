@@ -17,16 +17,16 @@ export const siteConfigEn = {
   hero: {
     badge: "Serving Sarasota & Manatee Counties Since 1998",
     headline: "Tree Removal & Stump Grinding with Commercial-Grade Equipment",
-    subhead: "Owner on every job. We use track machinery sized for 36-inch residential gates to avoid rutting your yard, protect underground pipes, and haul away the mess.",
+    subhead: "Owner on every job with compact commercial track equipment. We pass 36\" residential gates, protect underground utilities, and leave your property level and clean.",
     ctaCall: "Call (941) 730-0001",
     ctaText: "Text Photos for an Estimate"
   },
 
   trustBadges: [
-    { title: "Owner On-Site", desc: "Brad handles the work directly" },
-    { title: "36\" Gate Access", desc: "No massive cranes on soft turf" },
-    { title: "Below-Grade Grinding", desc: "Ready for sod or fence posts" },
-    { title: "Full Debris Cleanup", desc: "Raked, blown, and haul-ready" }
+    { title: "Owner-Operated", desc: "Direct machine work by Brad — no brokers, salesmen, or subcontracted crews" },
+    { title: "36\" Gate Clearance", desc: "Fits residential side gates without fence panel tear-down or 15-ton crane damage" },
+    { title: "True Below-Grade Finish", desc: "Deep root pulverization ready for sod installation, pavers, or fence posts" },
+    { title: "Thorough Cleanup", desc: "Raked, blown clear with commercial blowers, and debris leveled or hauled away" }
   ],
 
   services: [
@@ -123,6 +123,32 @@ export const siteConfigEn = {
     "Venice", "Parrish", "Siesta Key", "Anna Maria Island", "Ellenton"
   ],
 
+  calculator: {
+    badge: "Instant Estimate Tool",
+    title: "Rough Price Guide in 10 Seconds",
+    subtitle: "Select your project specs for quick pricing guidance:",
+    serviceLabel: "Service Type",
+    services: [
+      { id: "stump", name: "Stump Grinding" },
+      { id: "tree", name: "Tree Removal" },
+      { id: "roots", name: "Root Clearance" },
+    ],
+    sizeLabel: "Approximate Trunk / Stump Diameter",
+    sizes: [
+      { id: "s", label: "Up to 12\" (< 30 cm)", price: "$90 – $140", time: "15–25 mins" },
+      { id: "m", label: "12\" – 24\" (30–60 cm)", price: "$150 – $240", time: "25–40 mins" },
+      { id: "l", label: "24\" – 36\" (60–90 cm)", price: "$250 – $380", time: "40–60 mins" },
+      { id: "xl", label: "36\"+ (Large Oak/Pine)", price: "From $390", time: "60+ mins" },
+    ],
+    includes: [
+      "Grinding 8\"–14\" below ground level",
+      "Chasing visible surface lateral roots",
+      "Full debris raking & chip mound leveling",
+    ],
+    ctaText: "Lock In Price by Texting Photos",
+    hint: "Final cost depends on gate access and hardwood density. Text 2 photos to Brad for a binding exact quote.",
+  },
+
   ui: {
     inBusiness: "In Business",
     googleReviews: "Google Reviews",
@@ -130,24 +156,11 @@ export const siteConfigEn = {
     callBrad: "Call Brad",
     fastResponse: "Fast Response:",
     fastResponseDesc: "Send 2 photos by text to get a straight dollar quote without waiting around for hours.",
-    tradeSpecs: "Trade Specifications",
-    specTitle: "Commercial Track Grinder Specs",
-    readyToDispatch: "Ready to Dispatch",
-    specs: [
-      { label: "Gate Access Width", value: '35.5" (Fits 36" Standard Gates)' },
-      { label: "Turf Ground Pressure", value: "Rubber Tracks (Low PSI Turf Tread)" },
-      { label: "Below-Grade Depth", value: 'Up to 14" Pulverization' },
-      { label: "Root Flare Clearance", value: "Chases Lateral Surface Roots" },
-      { label: "Debris Containment", value: "Heavy-duty deflector curtains" }
-    ],
-    guaranteeTitle: "Owner-Operated Assurance",
-    guaranteeQuote: "“I unload the machine, run the grinder myself, ensure your irrigation and screen cage stay protected, and clean up the chips.”",
-    guaranteeAuthor: "— Brad Frederick, Owner",
     heroCheckmarks: [
-      { strong: "Owner on-site", text: "on every single property — no subcontracted crews" },
-      { strong: "Fits 36\" standard gates", text: "without taking down fence sections or driving cranes on lawn" },
-      { strong: "Grinds 8\" to 14\" below grade", text: "so sod, fence posts, or pavers go in cleanly" },
-      { strong: "Controlled rigging & shields", text: "protecting pool enclosures, irrigation, and well pumps" }
+      { strong: "Fixed Price Before Dispatch", text: "binding dollar quote from 2 photos in 15 mins — zero on-site price jumps" },
+      { strong: "24-Hour Urgent Response", text: "fast clearance for hazard limbs and leaning storm trunks without week-long waits" },
+      { strong: "Zero Turf Rutting & Screen Protection", text: "low-PSI rubber tracks plus heavy shielding for pool cages and windows" },
+      { strong: "$1,000,000 Commercial Liability", text: "full property coverage protecting irrigation, pipes, fences, and structures" },
     ],
     fastestEstimate: "Fastest Estimate Method",
     estimateSub: "Skip waiting on site visits during work hours. Send photos directly from your phone for a quick, binding dollar price.",
