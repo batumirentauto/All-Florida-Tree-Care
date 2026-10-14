@@ -14,7 +14,7 @@ import { Footer } from '../../components/Footer'
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100 selection:bg-emerald-500 selection:text-neutral-950">
+    <div className="min-h-screen bg-[#080d1a] text-slate-100 selection:bg-amber-400 selection:text-slate-950">
       {/* Sticky top header with verification micro-bar */}
       <Header />
 

@@ -11,7 +11,7 @@ export const siteConfigEn = {
   zip: "34221",
   streetAddress: "2840 21st St Ct E",
   fullAddress: "2840 21st St Ct E, Palmetto, FL 34221",
-  mapsUrl: "https://maps.google.com/?q=All+Florida+Tree+Care+2840+21st+St+Ct+E+Palmetto+FL+34221",
+  mapsUrl: "https://maps.app.goo.gl/hdLrE1cP6UX1NF7F9",
   rating: "5.0",
   reviewCount: "50+",
   licenseBadge: "Licensed & Fully Insured ($1,000,000 Liability)",

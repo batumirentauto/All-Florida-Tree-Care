@@ -6,21 +6,21 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-neutral-800 bg-neutral-950/95 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-[#080d1a]/95 backdrop-blur-md">
       {/* Top micro-bar for trust & license */}
-      <div className="border-b border-neutral-800/80 bg-neutral-900/60 px-4 py-1.5 text-xs text-neutral-300">
+      <div className="border-b border-slate-800/70 bg-slate-950/60 px-4 py-1.5 text-xs text-slate-300">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <span className="inline-flex items-center gap-1.5 font-medium text-emerald-400">
-              <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="inline-flex items-center gap-1.5 font-semibold text-amber-400">
+              <span className="h-2 w-2 rounded-full bg-amber-400 animate-pulse" />
               {siteConfig.licenseBadge}
             </span>
-            <span className="hidden text-neutral-500 sm:inline">•</span>
-            <span className="hidden text-neutral-300 sm:inline">
+            <span className="hidden text-slate-600 sm:inline">•</span>
+            <span className="hidden text-slate-300 sm:inline">
               {siteConfig.workingHours}
             </span>
-            <span className="hidden text-neutral-500 md:inline">•</span>
-            <span className="hidden text-neutral-400 md:inline">
+            <span className="hidden text-slate-600 md:inline">•</span>
+            <span className="hidden text-slate-400 md:inline">
               {siteConfig.experienceYears} {siteConfig.ui.inBusiness}
             </span>
           </div>
@@ -36,22 +36,22 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               <div className="flex text-amber-400" aria-label="5 stars">
                 {'★★★★★'}
               </div>
-              <span className="font-semibold text-neutral-200">
+              <span className="font-semibold text-slate-200">
                 {siteConfig.rating}
               </span>
-              <span className="text-neutral-400 hidden xs:inline">
+              <span className="text-slate-400 hidden xs:inline">
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>
 
             {/* Language Switcher Button (EN / RU) */}
-            <div className="flex items-center rounded-lg bg-neutral-800 p-0.5 border border-neutral-700 text-[11px] font-mono">
+            <div className="flex items-center rounded-lg bg-slate-900 p-0.5 border border-slate-800 text-[11px] font-mono">
               <a
                 href="/"
                 className={`px-2 py-0.5 rounded transition ${
                   siteConfig.lang === 'en'
-                    ? 'bg-emerald-600 text-white font-bold shadow-sm'
-                    : 'text-neutral-400 hover:text-white'
+                    ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-black shadow-sm'
+                    : 'text-slate-400 hover:text-white'
                 }`}
                 title="Switch to English version"
               >
@@ -61,8 +61,8 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 href="/ru"
                 className={`px-2 py-0.5 rounded transition ${
                   siteConfig.lang === 'ru'
-                    ? 'bg-emerald-600 text-white font-bold shadow-sm'
-                    : 'text-neutral-400 hover:text-white'
+                    ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-black shadow-sm'
+                    : 'text-slate-400 hover:text-white'
                 }`}
                 title="Переключить на русскую версию"
               >
@@ -77,11 +77,11 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <div className="min-w-0 flex-1">
           <a href={siteConfig.lang === 'ru' ? '/ru' : '/'} className="group block focus:outline-none">
-            <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl leading-tight">
-              <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-neutral-400 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
+            <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-amber-400 sm:text-xl leading-tight transition-colors">
+              <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-amber-300/80 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
               <span className="hidden sm:inline">{siteConfig.businessName}</span>
             </span>
-            <span className="hidden text-xs text-neutral-400 md:block mt-0.5">
+            <span className="hidden text-xs text-slate-400 md:block mt-0.5">
               {siteConfig.tagline}
             </span>
           </a>
@@ -91,10 +91,10 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
           {/* Quick text quote button (desktop/tablet) */}
           <a
             href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my stump/tree for an estimate:')}`}
-            className="hidden items-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
+            className="hidden items-center gap-2 rounded-xl border border-slate-700 bg-slate-900/90 px-3.5 py-2 text-sm font-semibold text-slate-200 transition hover:border-amber-400 hover:text-amber-300 lg:inline-flex"
           >
             <svg
-              className="h-4 w-4 text-emerald-400"
+              className="h-4 w-4 text-amber-400"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -117,7 +117,7 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
           {/* Primary phone call button */}
           <a
             href={`tel:${siteConfig.phoneRaw}`}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-600 px-3.5 py-2.5 sm:px-4 sm:py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-emerald-950/40 transition hover:bg-emerald-500 active:scale-95 shrink-0 whitespace-nowrap"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 px-3.5 py-2.5 sm:px-4 sm:py-2.5 text-xs sm:text-sm font-black text-slate-950 shadow-md shadow-amber-500/25 transition hover:brightness-110 active:scale-95 shrink-0 whitespace-nowrap"
           >
             <svg
               className="h-4 w-4 shrink-0"
@@ -133,7 +133,7 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               />
             </svg>
             <span className="sm:hidden">{siteConfig.ui.callBrad}</span>
-            <span className="hidden sm:inline font-mono">{siteConfig.phone}</span>
+            <span className="hidden sm:inline font-mono tracking-tight">{siteConfig.phone}</span>
           </a>
         </div>
       </div>

@@ -4,11 +4,11 @@ import type { SiteConfig } from '../types/siteConfig'
 export const MobileActionBar: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-neutral-800 bg-neutral-950/95 p-3 backdrop-blur-lg md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-slate-800 bg-[#080d1a]/95 p-3 backdrop-blur-lg md:hidden">
       <div className="grid grid-cols-2 gap-2.5">
         <a
           href={`tel:${siteConfig.phoneRaw}`}
-          className="flex items-center justify-center gap-2 rounded-lg bg-emerald-600 px-3 py-3 text-sm font-bold text-white shadow-lg transition active:bg-emerald-700"
+          className="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 px-3 py-3 text-sm font-black text-slate-950 shadow-lg transition active:scale-95"
         >
           <svg
             className="h-4 w-4"
@@ -28,7 +28,7 @@ export const MobileActionBar: React.FC<{ config?: SiteConfig }> = ({ config }) =
 
         <a
           href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my tree/stump for an estimate:')}`}
-          className="flex items-center justify-center gap-2 rounded-lg border border-amber-500/50 bg-amber-500/10 px-3 py-3 text-sm font-bold text-amber-300 shadow-lg transition active:bg-amber-500/20"
+          className="flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/90 px-3 py-3 text-sm font-bold text-slate-200 shadow-lg transition active:scale-95 hover:border-amber-400/50 hover:text-amber-300"
         >
           <svg
             className="h-4 w-4 text-amber-400"
