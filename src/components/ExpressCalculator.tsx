@@ -60,7 +60,7 @@ export const ExpressCalculator: React.FC<{ config?: SiteConfig }> = ({ config })
               </div>
               <div className="flex items-start gap-3">
                 <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-950 text-amber-400 border border-amber-800 text-xs font-bold">✓</span>
-                <span><strong>{siteConfig.lang === 'ru' ? 'Быстрая оценка по SMS' : '15-Min SMS Quotes'}</strong> — {siteConfig.lang === 'ru' ? 'Отправьте 2 фото и получите точный расчет.' : 'Send 2 photos to Justin for an exact quote.'}</span>
+                <span><strong>{siteConfig.lang === 'ru' ? 'Расчет в течение 1 часа' : 'Quotes Within 1 Hour'}</strong> — {siteConfig.lang === 'ru' ? 'Отправьте 2 фото и получите точный расчет.' : 'Send 2 photos to Justin for an exact quote.'}</span>
               </div>
             </div>
 

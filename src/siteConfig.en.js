@@ -308,10 +308,10 @@ export const siteConfigEn = {
     googleReviews: "Google Reviews",
     textPhotos: "Text Photos",
     callBrad: "Call Now",
-    fastResponse: "Fast 24/7 Response:",
-    fastResponseDesc: "Send 2 photos by text to get a straight dollar quote from Justin or Alex within minutes.",
+    fastResponse: "Fast Quote Turnaround:",
+    fastResponseDesc: "Send 2 photos by text to get a binding dollar quote from Justin within 1 hour.",
     heroCheckmarks: [
-      { strong: "Firm Dollar Quote from 2 Photos", text: "straightforward dollar price within 15 minutes — zero surprise fees on-site" },
+      { strong: "Written Quote in Under 1 Hour", text: "straightforward dollar price from 2 photos — zero delays, zero surprise fees" },
       { strong: "Official Reports for City & HOA", text: "certified arborist documentation provided to approve permits without delays" },
       { strong: "Controlled Rigging & Zero Turf Ruts", text: "ropes lower limbs safely over pools and roofs without driving heavy trucks on lawns" },
       { strong: "Emergency Storm Damage Dispatch", text: "rapid 24/7 crew response for split trunks and fallen trees across Manatee & Sarasota" },
