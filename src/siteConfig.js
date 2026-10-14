@@ -1,124 +1,124 @@
 export const siteConfig = {
-  businessName: "Brad Frederick's Stump Grinding & Tree Care",
-  shortName: "Brad Frederick's",
-  tagline: "Commercial Equipment • Owner-Operated • Straightforward Pricing",
-  phone: "(941) 730-0001",
+  businessName: "Удаление деревьев и дробление пней Брэда Фредерика",
+  shortName: "Брэд Фредерик",
+  tagline: "Профессиональная спецтехника • Владелец на каждом объекте • Честные фиксированные цены",
+  phone: "+7 (941) 730-00-01",
   phoneRaw: "+19417300001",
-  city: "Bradenton & Sarasota",
-  state: "FL",
+  city: "Брейдентон и Сарасота",
+  state: "Флорида",
   rating: "5.0",
   reviewCount: "86",
-  licenseBadge: "Licensed & Fully Insured",
-  experienceYears: "26+",
-  workingHours: "Mon – Sat: 7:00 AM – 6:30 PM • Sunday: Emergency Storm Calls",
-  addressNotes: "Based in Manatee County • Direct Dispatch across Bradenton & Sarasota",
+  licenseBadge: "Лицензировано и застраховано",
+  experienceYears: "26+ лет",
+  workingHours: "Пн – Сб: 7:00 – 18:30 • Вс: Срочные аварийные выезды",
+  addressNotes: "Базирование в округе Манати • Прямой оперативный выезд по Брейдентону и Сарасоте",
 
   hero: {
-    badge: "Serving Sarasota & Manatee Counties Since 1998",
-    headline: "Tree Removal & Stump Grinding with Commercial-Grade Equipment",
-    subhead: "Owner on every job. We use track machinery sized for 36-inch residential gates to avoid rutting your yard, protect underground pipes, and haul away the mess.",
-    ctaCall: "Call (941) 730-0001",
-    ctaText: "Text Photos for an Estimate"
+    badge: "Работаем в округах Сарасота и Манати с 1998 года",
+    headline: "Спил деревьев и измельчение пней профессиональной гусеничной техникой",
+    subhead: "Владелец лично на каждом заказе. Компактная спецтехника проходит в калитки от 90 см, не оставляет колеи на мягком газоне, бережет подземные трубы и оставляет участок чистым.",
+    ctaCall: "Позвонить: +7 (941) 730-00-01",
+    ctaText: "Отправить фото для оценки"
   },
 
   trustBadges: [
-    { title: "Owner On-Site", desc: "Brad handles the work directly" },
-    { title: "36\" Gate Access", desc: "No massive cranes on soft turf" },
-    { title: "Below-Grade Grinding", desc: "Ready for sod or fence posts" },
-    { title: "Full Debris Cleanup", desc: "Raked, blown, and haul-ready" }
+    { title: "Владелец на объекте", desc: "Брэд лично выполняет и контролирует всю работу" },
+    { title: "Проезд в калитку 90 см", desc: "Без тяжелых автокранов и повреждения дерна" },
+    { title: "Фрезерование вглубь", desc: "Участок сразу готов под газон или забор" },
+    { title: "Чистовая уборка", desc: "Сбор граблями, продувка воздуходувкой, вывоз" }
   ],
 
   services: [
     {
       id: "stump-grinding",
-      title: "Commercial Stump Grinding",
-      tagline: "Any Diameter — Deep Below Grade",
-      desc: "Grinding stumps and lateral roots deep enough below the surface so you can replant grass, install fence lines, or expand driveway parking."
+      title: "Дробление и фрезерование пней",
+      tagline: "Любой диаметр — глубже уровня земли",
+      desc: "Измельчение пня и боковых поверхностных корней на глубину до 35 см, чтобы можно было уложить рулонный газон, смонтировать забор или заасфальтировать площадку."
     },
     {
       id: "utility-safe-clearing",
-      title: "Root Clearing Near Utilities",
-      tagline: "Careful Manual & Machine Control",
-      desc: "Controlled clearance around surface water pipes, irrigation lines, backflows, and well pumps to clear roots without damaging infrastructure."
+      title: "Корчевка рядом с коммуникациями",
+      tagline: "Аккуратная ручная и машинная работа",
+      desc: "Точечное удаление корней вокруг водопроводных труб, поливочных систем, кабелей и скважинных насосов без повреждения инфраструктуры участка."
     },
     {
       id: "fence-boundary-prep",
-      title: "Pre-Fence Line Clearing",
-      tagline: "Keep Your Fencing Crew on Schedule",
-      desc: "Fast removal of boundary stumps and invasive root lines along property borders so fence contractors have clean, level ground to work with."
+      title: "Подготовка линии под забор",
+      tagline: "Без простоя монтажной бригады",
+      desc: "Оперативное удаление пней и корневых сплетений прямо по меже участка, чтобы заборщики получили ровный и чистый грунт под лунки."
     },
     {
       id: "storm-response",
-      title: "Storm & Hurricane Hazard Takedown",
-      tagline: "Clear Up Uprooted Hazards",
-      desc: "Removing leaning trunks, heavy broken limbs, and uprooted root balls after high winds. Fair, consistent rates without post-storm price gouging."
+      title: "Устранение аварийных деревьев после шторма",
+      tagline: "Ликвидация вывернутых деревьев",
+      desc: "Безопасный спил зависших стволов, тяжелых надломленных веток и вывороченных ветром корней. Честные стандартные расценки без накруток после ураганов."
     },
     {
       id: "hoa-multi-stump",
-      title: "Multi-Stump & HOA Property Work",
-      tagline: "Common Areas & Sidewalks",
-      desc: "Clearing clusters of stumps along community sidewalks, neighborhood entrances, and parking borders with full commercial liability insurance."
+      title: "Обслуживание поселков и ТСЖ (HOA)",
+      tagline: "Общие зоны, парки и тротуары",
+      desc: "Оптовое измельчение пней вдоль тротуаров, въездных групп и парковок. Полный пакет коммерческой страховки гражданской ответственности."
     },
     {
       id: "tight-access-terrain",
-      title: "Tight-Access & Canal Bank Work",
-      tagline: "Lanai & Yard-Conscious Positioning",
-      desc: "Positioning compact machinery carefully along canal slopes, near seawalls, and tight pool screen enclosures without damaging property."
+      title: "Работа в стесненных условиях и у каналов",
+      tagline: "Аккуратный маневр возле бассейнов",
+      desc: "Маневрирование компактного измельчителя на склонах каналов, у подпорных стен и вплотную к стеклянным куполам бассейнов (lanai) без риска повреждений."
     }
   ],
 
   howEstimatesWork: {
-    title: "How to Get a Quick Estimate by Text",
-    step1: "Take 2 clear photos of the tree or stump from different angles.",
-    step2: "Send a rough measurement or note any tight gates, pipes, or slopes.",
-    step3: "Text them to (941) 730-0001. Brad will review and reply with a straightforward quote."
+    title: "Как получить точную цену по фото за 15 минут",
+    step1: "Сделайте 2 четких фото дерева или пня с разных ракурсов.",
+    step2: "Приложите ориентировочный размер и укажите помехи (узкий проход, склон, трубы).",
+    step3: "Отправьте фото в WhatsApp или SMS. Брэд рассчитает фиксированную стоимость без скрытых платежей."
   },
 
   realisticComparison: {
-    title: "Why Heavy Commercial Track Equipment Matters",
+    title: "Почему коммерческий гусеничный измельчитель превосходит ручную аренду",
     diyRental: [
-      "Lightweight rental machines bounce on hard oak roots and take hours",
-      "Struggles to get below ground level, leaving surface roots behind",
-      "You handle pickup, trailer towing, machine deposits, and fuel",
-      "Flying wood chips can easily hit lanai screens without proper shielding"
+      "Маломощные колесные аппараты из проката прыгают на корнях дуба и требуют целый день каторжного труда",
+      "Не способны заглубиться ниже 5–10 см, оставляя массивную корневую систему в земле",
+      "Вам приходится самому искать прицеп, фаркоп, вносить залог и заправлять бензином",
+      "Летящая щепа и камни без защитных штор легко разбивают сетку купола бассейна или окна"
     ],
     commercialWay: [
-      "High-horsepower track grinder cuts through large stumps in 30-45 minutes",
-      "Deep pulverization below grade so grass or posts go in cleanly",
-      "Brad brings the machine, does the heavy grinding, and rakes the area",
-      "Full deflector curtains keep debris contained and away from structures"
+      "Мощный гусеничный измельчитель перемалывает даже крупный пень в щепу за 30–45 минут",
+      "Глубокая фрезеровка до 35 см ниже дерна — столбы и трава садятся идеально в ровную плоскость",
+      "Брэд сам привозит спецтехнику, выполняет всю тяжелую работу и сгребает щепу",
+      "Прочные защитные шторы задерживают 100% разлета и защищают строения и посадки"
     ]
   },
 
   reviews: [
     {
-      author: "Brandon Clark",
+      author: "Брэндон Кларк",
       rating: 5,
-      text: "His machine is a beast. If you think you’ll save money renting the toy-version of a stump grinder, you’ll regret it and call Brad anyway. Call him first!",
-      source: "Verified Google Review"
+      text: "Его машина — настоящий зверь. Если вы думаете сэкономить, взяв в аренду слабенький прокатный измельчитель, вы просто убьете спину и всё равно вызовете Брэда. Звоните ему сразу!",
+      source: "Проверенный отзыв в Google"
     },
     {
-      author: "Eric A. Logan",
+      author: "Эрик А. Логан",
       rating: 5,
-      text: "Extensive root removal directly over my utilities and well pump. Brad cleared the area without damaging any lines. Fair price, arrived on schedule.",
-      source: "Verified Google Review"
+      text: "Нужно было удалить мощные корни прямо над трубами полива и насосом скважины. Брэд ювелирно вычистил всё без единой царапины на трубах. Честная цена, приехал строго ко времени.",
+      source: "Проверенный отзыв в Google"
     },
     {
-      author: "Gina Werts (HOA Property)",
+      author: "Джина Вертс (Управляющая ТСЖ)",
       rating: 5,
-      text: "Arrived on time and ground down large stumps on our HOA property after Hurricane Milton. Took the time to clean off the long stretch of sidewalk.",
-      source: "Verified Google Review"
+      text: "Приехал вовремя и перемолол огромные пни на территории нашего поселка после урагана Милтон. Не поленился начисто вымести весь тротуар и прилегающую дорожку.",
+      source: "Проверенный отзыв в Google"
     },
     {
-      author: "Jeb Burnside",
+      author: "Джеб Бернсайд",
       rating: 5,
-      text: "Phoned Brad on a Saturday. By 1pm the same day, both of my large stumps had been ground up and smoothed out. Straightforward, professional work.",
-      source: "Verified Google Review"
+      text: "Позвонил в субботу утром. К 13:00 оба здоровенных пня на моем заднем дворе уже были измельчены под ноль, а площадка выровнена. Четкая, высокопрофессиональная работа.",
+      source: "Проверенный отзыв в Google"
     }
   ],
 
   serviceAreas: [
-    "Bradenton", "Sarasota", "Lakewood Ranch", "Palmetto",
-    "Venice", "Parrish", "Siesta Key", "Anna Maria Island", "Ellenton"
+    "Брейдентон", "Сарасота", "Лейквуд Ранч", "Палметто",
+    "Венеция", "Пэрриш", "Сиеста Ки", "Анна Мария Айленд", "Эллентон"
   ]
 };

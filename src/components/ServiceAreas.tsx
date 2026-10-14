@@ -9,13 +9,13 @@ export const ServiceAreas: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
-                Local Dispatch Coverage
+                География выездов
               </span>
               <h2 className="mt-1 text-2xl sm:text-3xl font-extrabold text-white">
-                Service Areas Across {siteConfig.city}
+                Зоны обслуживания: {siteConfig.city}
               </h2>
               <p className="mt-2 text-sm text-neutral-300">
-                Direct mobile dispatch with machine on trailer. No out-of-county travel surcharges for core coverage zones.
+                Собственный автопоезд с измельчителем на прицепе. Без наценок за выезд в пределах основной зоны покрытия.
               </p>
             </div>
 
@@ -24,7 +24,7 @@ export const ServiceAreas: React.FC = () => {
                 href={`tel:${siteConfig.phoneRaw}`}
                 className="inline-flex items-center gap-2 rounded-xl bg-neutral-800 px-4 py-2.5 text-xs font-bold text-white hover:bg-neutral-700 transition border border-neutral-700"
               >
-                <span>Check Your Neighborhood</span>
+                <span>Уточнить по вашему адресу</span>
                 <span className="text-emerald-400">→</span>
               </a>
             </div>
@@ -50,7 +50,7 @@ export const ServiceAreas: React.FC = () => {
           <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-6 border-t border-neutral-800/80 text-xs text-neutral-400">
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              <span>Direct dispatch trailer equipped with full safety deflector shielding &amp; clean-up kit.</span>
+              <span>Прицеп полностью укомплектован защитными щитами, такелажем и инструментом для уборки.</span>
             </div>
             <span className="font-semibold text-neutral-300">
               {siteConfig.addressNotes}

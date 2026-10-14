@@ -14,18 +14,18 @@ export const Header: React.FC = () => {
             </span>
             <span className="hidden text-neutral-500 sm:inline">•</span>
             <span className="hidden text-neutral-400 sm:inline">
-              {siteConfig.experienceYears} In Business
+              Опыт: {siteConfig.experienceYears}
             </span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="flex text-amber-400" aria-label="5 out of 5 stars">
+            <div className="flex text-amber-400" aria-label="5 звезд из 5">
               {'★★★★★'}
             </div>
             <span className="font-semibold text-neutral-200">
               {siteConfig.rating}
             </span>
             <span className="text-neutral-400">
-              ({siteConfig.reviewCount} Google Reviews)
+              ({siteConfig.reviewCount} отзывов в Google)
             </span>
           </div>
         </div>
@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <div>
           <a href="#" className="group block focus:outline-none">
-            <span className="block text-lg font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl">
+            <span className="block text-base font-extrabold tracking-tight text-white group-hover:text-emerald-400 sm:text-xl">
               {siteConfig.businessName}
             </span>
             <span className="hidden text-xs text-neutral-400 md:block">
@@ -47,7 +47,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-3">
           {/* Quick text quote button (desktop/tablet) */}
           <a
-            href={`sms:${siteConfig.phoneRaw}?&body=Hi%20Brad,%20here%20are%20photos%20of%20my%20stump/tree%20for%20an%20estimate:`}
+            href={`sms:${siteConfig.phoneRaw}?&body=Здравствуйте,%20отправляю%20фото%20пня/дерева%20для%20расчета%20стоимости:`}
             className="hidden items-center gap-2 rounded-lg border border-neutral-700 bg-neutral-900 px-3.5 py-2 text-sm font-semibold text-neutral-200 transition hover:border-emerald-500 hover:text-white lg:inline-flex"
           >
             <svg
@@ -68,7 +68,7 @@ export const Header: React.FC = () => {
                 d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            Text Photos
+            Оценка по фото
           </a>
 
           {/* Primary phone call button */}

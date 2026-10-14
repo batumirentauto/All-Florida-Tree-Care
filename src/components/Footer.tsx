@@ -12,26 +12,26 @@ export const Footer: React.FC = () => {
               {siteConfig.businessName}
             </h3>
             <p className="mt-2 text-xs text-neutral-400 leading-relaxed max-w-sm">
-              {siteConfig.tagline}. Operating compact commercial track equipment designed to pass 36&quot; gates and preserve Florida turf.
+              {siteConfig.tagline}. Работаем на компактном гусеничном оборудовании, проходящем в калитки от 90 см и сохраняющем газон.
             </p>
 
             <div className="mt-4 space-y-1.5 text-xs text-neutral-300">
               <p>
-                <strong className="text-white">Phone: </strong>
+                <strong className="text-white">Телефон: </strong>
                 <a href={`tel:${siteConfig.phoneRaw}`} className="text-emerald-400 font-semibold hover:underline">
                   {siteConfig.phone}
                 </a>
               </p>
               <p>
-                <strong className="text-white">Coverage: </strong>
+                <strong className="text-white">Зона обслуживания: </strong>
                 <span>{siteConfig.city}, {siteConfig.state}</span>
               </p>
               <p>
-                <strong className="text-white">Dispatch Base: </strong>
+                <strong className="text-white">Базирование: </strong>
                 <span>{siteConfig.addressNotes}</span>
               </p>
               <p>
-                <strong className="text-white">Hours: </strong>
+                <strong className="text-white">График: </strong>
                 <span>{siteConfig.workingHours}</span>
               </p>
             </div>
@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
           {/* Core Services */}
           <div className="md:col-span-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">
-              Core Services
+              Основные услуги
             </h4>
             <ul className="mt-3 space-y-2 text-xs">
               {siteConfig.services.map((service) => (
@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
           {/* Licensing & Trust Statement */}
           <div className="md:col-span-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">
-              Licensing &amp; Coverage
+              Лицензирование и страхование
             </h4>
             <div className="mt-3 rounded-xl border border-neutral-800 bg-neutral-900/60 p-4 text-xs space-y-2">
               <div className="flex items-center gap-2 text-emerald-400 font-semibold">
@@ -64,10 +64,10 @@ export const Footer: React.FC = () => {
                 <span>{siteConfig.licenseBadge}</span>
               </div>
               <p className="text-neutral-400 text-[11px] leading-relaxed">
-                Full commercial general liability coverage for residential properties, HOA common grounds, and commercial parcels.
+                Полная коммерческая страховка ответственности при работах на частных участках, территориях ТСЖ и коммерческих объектах.
               </p>
               <div className="pt-2 border-t border-neutral-800 text-[11px] text-neutral-500">
-                Google 5.0 Rating • {siteConfig.reviewCount} Verified Reviews
+                Рейтинг Google 5.0 • {siteConfig.reviewCount} проверенных отзывов
               </div>
             </div>
           </div>
@@ -76,12 +76,12 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright & CRO note */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-neutral-900 pt-8 text-xs text-neutral-400">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.
+            &copy; {new Date().getFullYear()} {siteConfig.businessName}. Все права защищены.
           </p>
           <div className="flex items-center gap-4 text-neutral-400">
-            <span>Powered by Payload CMS &amp; Next.js</span>
+            <span>Payload CMS &amp; Next.js</span>
             <span>•</span>
-            <span className="text-emerald-500">Modular config: siteConfig.js</span>
+            <span className="text-emerald-500">Модульная конфигурация: siteConfig.js</span>
           </div>
         </div>
       </div>

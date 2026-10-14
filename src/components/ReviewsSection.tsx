@@ -11,14 +11,14 @@ export const ReviewsSection: React.FC = () => {
             <div className="flex items-center gap-2">
               <span className="flex text-amber-400 text-lg">★★★★★</span>
               <span className="text-sm font-bold text-white">
-                {siteConfig.rating} Rating on Google
+                Рейтинг {siteConfig.rating} в Google
               </span>
             </div>
-            <h2 className="mt-2 text-3xl sm:text-4xl font-extrabold text-white">
-              Verified Local Feedback
+            <h2 className="mt-2 text-2xl sm:text-4xl font-extrabold text-white">
+              Реальные отзывы клиентов
             </h2>
             <p className="mt-2 text-sm text-neutral-300">
-              Unfiltered quotes from homeowners, HOA managers, and fence contractors across {siteConfig.city}.
+              Честные впечатления владельцев загородных домов, управляющих поселками и монтажников заборов в локации {siteConfig.city}.
             </p>
           </div>
 
@@ -27,8 +27,8 @@ export const ReviewsSection: React.FC = () => {
               {siteConfig.reviewCount}+
             </div>
             <div className="text-xs text-neutral-400">
-              <span className="block font-bold text-white">5-Star Verified</span>
-              <span>Google Reviews</span>
+              <span className="block font-bold text-white">5 звезд из 5</span>
+              <span>в Google Карты</span>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export const ReviewsSection: React.FC = () => {
 
                 {/* Review Text */}
                 <p className="mt-4 text-sm leading-relaxed text-neutral-300 italic">
-                  &ldquo;{review.text}&rdquo;
+                  &laquo;{review.text}&raquo;
                 </p>
               </div>
 
@@ -69,7 +69,7 @@ export const ReviewsSection: React.FC = () => {
                     {review.author}
                   </h4>
                   <span className="text-[11px] text-neutral-400">
-                    Property Owner • Florida
+                    Собственник участка
                   </span>
                 </div>
               </div>
