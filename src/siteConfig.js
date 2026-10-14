@@ -8,7 +8,7 @@ import { siteConfigRu } from './siteConfig.ru.js'
  * 'en' — Оригинальная английская версия (US Contractor)
  * -------------------------------------------------------------
  */
-export const activeLanguage = 'ru' // 'ru' для проверки, 'en' для американской версии
+export const activeLanguage = 'en' // 'en' — официальная версия для США, 'ru' — для проверки
 
 export const siteConfig = activeLanguage === 'ru' ? siteConfigRu : siteConfigEn
 export { siteConfigEn, siteConfigRu }
