@@ -13,13 +13,23 @@ export const Header: React.FC = () => {
               {siteConfig.licenseBadge}
             </span>
             <span className="hidden text-neutral-500 sm:inline">•</span>
-            <span className="hidden text-neutral-400 sm:inline">
+            <span className="hidden text-neutral-300 sm:inline">
+              {siteConfig.lang === 'ru' ? 'График: 06:30 – 21:30 (без выходных)' : 'Open Daily: 6:30 AM – 9:30 PM'}
+            </span>
+            <span className="hidden text-neutral-500 md:inline">•</span>
+            <span className="hidden text-neutral-400 md:inline">
               {siteConfig.experienceYears} {siteConfig.ui.inBusiness}
             </span>
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
+            <a
+              href={siteConfig.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:opacity-85 transition"
+              title="Google Maps Profile"
+            >
               <div className="flex text-amber-400" aria-label="5 stars">
                 {'★★★★★'}
               </div>
@@ -29,7 +39,7 @@ export const Header: React.FC = () => {
               <span className="text-neutral-400">
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
-            </div>
+            </a>
 
             {/* Language status indicator */}
             <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-mono px-2 py-0.5 rounded bg-neutral-800 text-neutral-400 border border-neutral-700">

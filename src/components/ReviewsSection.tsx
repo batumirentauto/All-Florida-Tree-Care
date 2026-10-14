@@ -22,15 +22,21 @@ export const ReviewsSection: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-3 rounded-xl border border-neutral-800 bg-neutral-900/90 p-4 shrink-0">
+          <a
+            href={siteConfig.mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-xl border border-neutral-800 bg-neutral-900/90 p-4 shrink-0 transition hover:border-emerald-500/80 hover:bg-neutral-900 group"
+            title="View on Google Maps"
+          >
             <div className="text-2xl font-black text-amber-400 font-mono">
               {siteConfig.reviewCount}+
             </div>
             <div className="text-xs text-neutral-400">
-              <span className="block font-bold text-white">{siteConfig.ui.reviewsBadge}</span>
-              <span>{siteConfig.ui.reviewsGoogle}</span>
+              <span className="block font-bold text-white group-hover:text-emerald-400 transition">{siteConfig.ui.reviewsBadge}</span>
+              <span className="flex items-center gap-1 text-emerald-400 font-semibold">{siteConfig.ui.reviewsGoogle} ↗</span>
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Reviews Cards */}

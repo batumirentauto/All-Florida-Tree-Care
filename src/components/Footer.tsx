@@ -15,7 +15,11 @@ export const Footer: React.FC = () => {
               {siteConfig.tagline}.
             </p>
 
-            <div className="mt-4 space-y-1.5 text-xs text-neutral-300">
+            <div className="mt-4 space-y-2 text-xs text-neutral-300">
+              <p>
+                <strong className="text-white">{siteConfig.lang === 'ru' ? 'Компания: ' : 'Business: '}</strong>
+                <span className="text-neutral-200 font-semibold">{siteConfig.legalName}</span>
+              </p>
               <p>
                 <strong className="text-white">{siteConfig.lang === 'ru' ? 'Телефон: ' : 'Phone: '}</strong>
                 <a href={`tel:${siteConfig.phoneRaw}`} className="text-emerald-400 font-semibold hover:underline">
@@ -23,16 +27,23 @@ export const Footer: React.FC = () => {
                 </a>
               </p>
               <p>
+                <strong className="text-white">{siteConfig.lang === 'ru' ? 'Адрес базы: ' : 'HQ Base: '}</strong>
+                <a
+                  href={siteConfig.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-300 hover:text-emerald-400 underline underline-offset-2 transition"
+                >
+                  {siteConfig.fullAddress}
+                </a>
+              </p>
+              <p>
                 <strong className="text-white">{siteConfig.lang === 'ru' ? 'Зона покрытия: ' : 'Coverage: '}</strong>
                 <span>{siteConfig.city}, {siteConfig.state}</span>
               </p>
               <p>
-                <strong className="text-white">{siteConfig.lang === 'ru' ? 'Базирование: ' : 'Dispatch Base: '}</strong>
-                <span>{siteConfig.addressNotes}</span>
-              </p>
-              <p>
-                <strong className="text-white">{siteConfig.lang === 'ru' ? 'График: ' : 'Hours: '}</strong>
-                <span>{siteConfig.workingHours}</span>
+                <strong className="text-white">{siteConfig.lang === 'ru' ? 'График работы: ' : 'Working Hours: '}</strong>
+                <span className="text-emerald-400 font-medium">{siteConfig.workingHours}</span>
               </p>
             </div>
           </div>
@@ -66,8 +77,16 @@ export const Footer: React.FC = () => {
               <p className="text-neutral-400 text-[11px] leading-relaxed">
                 {siteConfig.ui.footerLiability}
               </p>
-              <div className="pt-2 border-t border-neutral-800 text-[11px] text-neutral-500">
-                {siteConfig.rating} ★ • {siteConfig.reviewCount} {siteConfig.ui.googleReviews}
+              <div className="pt-2 border-t border-neutral-800 text-[11px]">
+                <a
+                  href={siteConfig.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between text-neutral-400 hover:text-amber-400 transition"
+                >
+                  <span>{siteConfig.rating} ★ • {siteConfig.reviewCount} {siteConfig.ui.googleReviews}</span>
+                  <span className="text-[10px] text-emerald-400 underline">Google Maps →</span>
+                </a>
               </div>
             </div>
           </div>
