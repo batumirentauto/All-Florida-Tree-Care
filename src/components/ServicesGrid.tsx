@@ -47,14 +47,22 @@ export const ServicesGrid: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   {service.desc}
                 </p>
 
-                {/* Arborist Capability Micro-Badges */}
+                {/* Arborist Capability Specific Micro-Badges */}
                 <div className="mt-4 flex flex-wrap gap-1.5">
-                  <span className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-amber-300 border border-slate-800">
-                    {siteConfig.lang === 'ru' ? '✓ Собственная техника' : '✓ Commercial Fleet'}
-                  </span>
-                  <span className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-slate-400 border border-slate-800">
-                    {siteConfig.lang === 'ru' ? '✓ Страховка $1M' : '✓ $1M Insured'}
-                  </span>
+                  {service.features ? (
+                    service.features.map((feature, fIdx) => (
+                      <span
+                        key={fIdx}
+                        className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-amber-300 border border-slate-800"
+                      >
+                        ✓ {feature}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="rounded bg-slate-950 px-2 py-0.5 text-[10px] font-semibold text-amber-300 border border-slate-800">
+                      ✓ {siteConfig.lang === 'ru' ? 'Собственная техника' : 'Commercial Equipment'}
+                    </span>
+                  )}
                 </div>
               </div>
 

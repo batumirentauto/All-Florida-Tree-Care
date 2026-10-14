@@ -30,16 +30,16 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:opacity-85 transition"
+              className="flex items-center gap-2.5 hover:opacity-85 transition"
               title="Google Maps Profile"
             >
-              <div className="flex text-amber-400" aria-label="5 stars">
+              <div className="flex text-amber-400 tracking-wider text-xs" aria-label="5 stars">
                 {'★★★★★'}
               </div>
-              <span className="font-semibold text-slate-200">
+              <span className="font-bold text-white bg-slate-900/80 px-1.5 py-0.5 rounded text-xs border border-slate-800">
                 {siteConfig.rating}
               </span>
-              <span className="text-slate-400 hidden xs:inline">
+              <span className="text-slate-400 hidden xs:inline text-xs">
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>

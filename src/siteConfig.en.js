@@ -22,27 +22,27 @@ export const siteConfigEn = {
   hero: {
     badge: "Family-Operated by Justin & Alex Carrier • Serving Manatee & Sarasota 24/7",
     headline: "Precision Tree Removal, 60+ Ft Aerial Trimming & Stump Grinding",
-    subhead: "Fully equipped with 60 ft bucket trucks, Bobcat track loaders with grapple rakes, Bandit wood chippers, and skilled climbing arborists for tight spots. Zero damage to roofs, pool cages, or lawns — completed spotless in one day.",
+    subhead: "Equipped with 60 ft commercial bucket trucks, Bobcat grapple loaders, Bandit chippers, and certified climbing arborists. Fast 1-hour written proposals, zero turf damage, and arborist reports for HOA/city permits.",
     ctaCall: "Call (941) 587-9271",
     ctaText: "Text Photos for an Estimate"
   },
 
   trustBadges: [
     { 
-      title: "Justin & Alex On Every Job", 
-      desc: "Direct communication with the owners: Justin provides fast quotes, and Alex Carrier leads the crew on-site" 
+      title: "We Take Jobs Others Decline", 
+      desc: "When competitors say 'our bucket won't reach', Alex Carrier straps on climbing gear and scales the canopy. No backyard gate restrictions, no lawn ruts." 
     },
     { 
-      title: "60+ Ft Bucket & Climbers", 
-      desc: "If our aerial bucket truck can't reach a tight backyard space, our arborist climbers scale the tree to get it done" 
+      title: "Solar Panel Clearing & Lanai Safety", 
+      desc: "Overhanging branches cutting your solar kWh output? We prune and dismantle trees over roofs, restoring 100% full sun to solar panels with zero screen tears." 
     },
     { 
-      title: "Pool Cage & Roof Protection", 
-      desc: "Controlled rigging ropes safeguard screen enclosures, tile roofs, and solar panels with $1,000,000 commercial liability" 
+      title: "1-Hour Quotes & HOA Permit Reports", 
+      desc: "Justin provides fast written proposals within 1 hour. When required by city ordinances or HOA boards, we provide certified arborist reports to approve removals." 
     },
     { 
-      title: "All-In-One-Day Turnkey Finish", 
-      desc: "Piecemeal takedown, below-grade stump grinding, wood chipping, and blower cleanup leaving lawns spotless" 
+      title: "Spotless 1-Day Turnkey Finish", 
+      desc: "Piecemeal takedown, below-grade stump pulverization, Bandit wood chipping, and blower cleanup — leaving your property cleaner than when we arrived." 
     }
   ],
 
@@ -51,37 +51,43 @@ export const siteConfigEn = {
       id: "tree-removal",
       title: "Complete Tree Removal (Bucket & Climbing)",
       tagline: "Crane, 60+ Ft Bucket & Climber Access",
-      desc: "Safe sectional dismantling of massive oaks, leaning pines, and declining trees. If tight gates block heavy trucks, our expert climbers scale and lower limbs safely."
+      desc: "Safe sectional dismantling of massive oaks, leaning pines, and declining trees. If tight gates block heavy trucks, our expert climbers scale and lower limbs safely.",
+      features: ["Backyard Climber Access", "Controlled Rigging Pulleys", "HOA Reports Provided"]
     },
     {
       id: "storm-emergency",
       title: "24/7 Emergency Storm Damage & Hazard Relief",
       tagline: "Immediate Hurricane & Windstorm Response",
-      desc: "Round-the-clock emergency crew clearing downed trunks, hanging limbs over roofs, and uprooted trees blocking driveways or threatening powerlines."
+      desc: "Round-the-clock emergency crew clearing downed trunks, hanging limbs over roofs, and uprooted trees blocking driveways or threatening powerlines.",
+      features: ["24/7 Rapid Dispatch", "Wires & Hazard Limbs", "Downed Trunk Extraction"]
     },
     {
       id: "tree-trimming",
       title: "Canopy Trimming & Roof/Solar Clearance",
       tagline: "Wind Mitigation & Maximum Sun for Solar",
-      desc: "Crown thinning, deadwood pruning, and roofline clearance to prevent storm damage, satisfy insurance guidelines, and let full sunlight reach solar panels."
+      desc: "Crown thinning, deadwood pruning, and roofline clearance to prevent storm damage, satisfy insurance guidelines, and let full sunlight reach solar panels.",
+      features: ["Solar Array Full Sun", "Hurricane Wind Thinning", "Aesthetic Canopy Shaping"]
     },
     {
       id: "stump-grinding",
       title: "Commercial Stump Grinding Below Grade",
       tagline: "10\"–14\" Deep with Heavy Safety Shields",
-      desc: "High-horsepower cutter wheels pulverize stumps deep below grade and chase surface lateral roots. Full safety curtains protect windows and pool cages."
+      desc: "High-horsepower cutter wheels pulverize stumps deep below grade and chase surface lateral roots. Full safety curtains protect windows and pool cages.",
+      features: ["10\"–14\" Below Ground", "Chasing Lateral Roots", "Containment Shields"]
     },
     {
       id: "palm-tree-service",
       title: "Palm Trimming, Skinning & Takedown",
       tagline: "Queen, Sabal, Royal & 25'+ Bismarck Palms",
-      desc: "Specialized Florida palm care: pruning dead fronds, removing seed pods, boot skinning, and safely cutting down diseased or overgrown palms of any height."
+      desc: "Specialized Florida palm care: pruning dead fronds, removing seed pods, boot skinning, and safely cutting down diseased or overgrown palms of any height.",
+      features: ["25'+ Bismarck & Royal Palms", "Trunk Boot Skinning", "Seed Pod & Frond Trimming"]
     },
     {
       id: "lot-debris-clearing",
       title: "Bobcat Grapple Clearing & Bandit Chipping",
       tagline: "Industrial Wood Chipping & Turnkey Hauling",
-      desc: "Heavy log loading with Bobcat grapple rakes, rapid brush processing in our Bandit 1590 chipper, and full property cleanout for residential and commercial lots."
+      desc: "Heavy log loading with Bobcat grapple rakes, rapid brush processing in our Bandit 1590 chipper, and full property cleanout for residential and commercial lots.",
+      features: ["Bobcat Grapple Loader", "Bandit 1590 Chipper", "Spotless Turnkey Haul"]
     }
   ],
 
@@ -305,10 +311,10 @@ export const siteConfigEn = {
     fastResponse: "Fast 24/7 Response:",
     fastResponseDesc: "Send 2 photos by text to get a straight dollar quote from Justin or Alex within minutes.",
     heroCheckmarks: [
-      { strong: "Fixed Price Before Dispatch", text: "binding dollar quote from 2 photos in 15 mins — zero on-site price jumps" },
-      { strong: "24/7 Emergency Storm Dispatch", text: "rapid response for fallen trees, split trunks, and hazard limbs threatening roofs" },
-      { strong: "Pool Cage, Roof & Lawn Protection", text: "heavy containment curtains and controlled rope rigging protect lanais and glass" },
-      { strong: "$1,000,000 Commercial Liability", text: "full property coverage protecting irrigation, roofs, fences, and structures" },
+      { strong: "Fast Written Bids in 1 Hour", text: "straightforward dollar quote from 2 photos within minutes — zero on-site price jumps" },
+      { strong: "24/7 Storm & Hazard Response", text: "rapid emergency dispatch for fallen trees, cracked trunks, and hazardous roof overhangs" },
+      { strong: "HOA & City Permit Reports", text: "certified arborist documentation provided to secure swift tree removal permits and HOA approval" },
+      { strong: "Spotless 1-Day Turnkey Finish", text: "stump pulverized, logs hauled, brush chipped, and lawn raked clean — like we were never there" },
     ],
     fastestEstimate: "Fastest Estimate Method",
     estimateSub: "Skip waiting on scheduled site visits. Send photos directly from your phone for a quick, binding dollar price.",

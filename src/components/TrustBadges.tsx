@@ -48,26 +48,22 @@ export const TrustBadges: React.FC<{ config?: SiteConfig }> = ({ config }) => {
 
       {/* Asymmetric Bento Grid */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
-        {/* Bento Card 1: Dual Capability (Span 7 cols) */}
+        {/* Bento Card 1: Difficult Jobs & Climbers (Span 7 cols) */}
         <div className="md:col-span-7 rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900/90 to-slate-950 p-6 sm:p-8 flex flex-col justify-between shadow-xl transition hover:border-amber-500/40">
           <div>
             <div className="flex items-center justify-between gap-4">
               <span className="rounded-lg bg-amber-950/80 border border-amber-800/80 px-3 py-1 text-xs font-bold text-amber-300">
-                {siteConfig.lang === 'ru' ? 'Двойная система работы' : 'Dual Capability Fleet'}
+                {siteConfig.lang === 'ru' ? 'Сложный доступ' : 'Challenging Access'}
               </span>
-              <span className="text-xs font-mono text-slate-400">01 / Fleet</span>
+              <span className="text-xs font-mono text-slate-400">01 / Access</span>
             </div>
 
             <h3 className="mt-4 text-xl sm:text-2xl font-bold text-white">
-              {siteConfig.lang === 'ru'
-                ? 'Автовышка 60+ футов + Бригада сертифицированных альпинистов'
-                : '60+ FT Commercial Bucket Truck + Certified Tree Climbers'}
+              {siteConfig.trustBadges[0]?.title}
             </h3>
 
             <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-              {siteConfig.lang === 'ru'
-                ? 'Если дерево высокое и стоит у дороги — автовышка спиливает его без риска. Если дерево во внутреннем дворе за бассейном, куда грузовик не проедет — наши арбористы работают на альпинистском снаряжении без заезда тяжелой техники на газон.'
-                : 'Heavy commercial boom handles massive trees over roofs from the driveway. For fenced backyards where heavy trucks cannot drive, our expert climbers access trees safely on rigging with zero turf damage.'}
+              {siteConfig.trustBadges[0]?.desc}
             </p>
           </div>
 
@@ -84,80 +80,70 @@ export const TrustBadges: React.FC<{ config?: SiteConfig }> = ({ config }) => {
           </div>
         </div>
 
-        {/* Bento Card 2: Zero Damage Pool Cage Guarantee (Span 5 cols) */}
+        {/* Bento Card 2: Solar Panels & Pool Cage (Span 5 cols) */}
         <div className="md:col-span-5 rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900/90 to-slate-950 p-6 sm:p-8 flex flex-col justify-between shadow-xl transition hover:border-cyan-500/40">
           <div>
             <div className="flex items-center justify-between gap-4">
               <span className="rounded-lg bg-cyan-950/80 border border-cyan-800/80 px-3 py-1 text-xs font-bold text-cyan-300">
-                {siteConfig.lang === 'ru' ? '100% Защита' : 'Zero Damage Guarantee'}
+                {siteConfig.lang === 'ru' ? 'Солнечная энергия и террасы' : 'Solar & Lanai Care'}
               </span>
-              <span className="text-xs font-mono text-slate-400">02 / Safety</span>
+              <span className="text-xs font-mono text-slate-400">02 / Solar</span>
             </div>
 
             <h3 className="mt-4 text-xl sm:text-2xl font-bold text-white">
-              {siteConfig.lang === 'ru'
-                ? 'Защита сеток бассейнов, крыш и солнечных панелей'
-                : 'Pool Enclosure, Solar Panel & Roof Protection'}
+              {siteConfig.trustBadges[1]?.title}
             </h3>
 
             <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-              {siteConfig.lang === 'ru'
-                ? 'Используем арбористские тормозные блоки (Rigging) и направляющие тросы. Ни одна ветка не падает свободно: каждая секция аккуратно подвешивается и плавно опускается на землю.'
-                : 'Every branch hanging over a lanai screen, pool cage, or solar array is rigged and lowered slowly on arborist pulleys. Nothing is dropped freely.'}
+              {siteConfig.trustBadges[1]?.desc}
             </p>
           </div>
 
           <div className="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-cyan-400 font-bold">
-            <span>🛡️ {siteConfig.lang === 'ru' ? 'Ювелирный контролируемый спуск' : 'Controlled Rigging Pulleys'}</span>
+            <span>🛡️ {siteConfig.lang === 'ru' ? 'Такелажный спуск на блоках' : 'Controlled Rigging Pulleys'}</span>
           </div>
         </div>
 
-        {/* Bento Card 3: $1,000,000 Insurance (Span 5 cols) */}
+        {/* Bento Card 3: 1-Hour Quotes & HOA Reports (Span 5 cols) */}
         <div className="md:col-span-5 rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900/90 to-slate-950 p-6 sm:p-8 flex flex-col justify-between shadow-xl transition hover:border-amber-500/40">
           <div>
             <div className="flex items-center justify-between gap-4">
               <span className="rounded-lg bg-amber-950/80 border border-amber-800/80 px-3 py-1 text-xs font-bold text-amber-300">
-                {siteConfig.lang === 'ru' ? 'Лицензия Флориды' : 'Licensed & Insured'}
+                {siteConfig.lang === 'ru' ? 'Согласования и документы' : 'Permits & HOA'}
               </span>
-              <span className="text-xs font-mono text-slate-400">03 / Trust</span>
+              <span className="text-xs font-mono text-slate-400">03 / Approval</span>
             </div>
 
             <h3 className="mt-4 text-xl sm:text-2xl font-bold text-white">
-              $1,000,000 Liability Policy
+              {siteConfig.trustBadges[2]?.title}
             </h3>
 
             <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-              {siteConfig.lang === 'ru'
-                ? 'Официальная лицензия штата и полный страховой полис коммерческой ответственности на 1 миллион долларов. Мы защищаем клиента от любых рисков.'
-                : 'Comprehensive commercial general liability policy. We provide certificates of insurance on request prior to starting any tree removal or crane trimming.'}
+              {siteConfig.trustBadges[2]?.desc}
             </p>
           </div>
 
-          <div className="mt-6 pt-4 border-t border-slate-800/80 text-xs text-slate-400">
-            {siteConfig.lang === 'ru' ? 'Предоставляем COI по запросу в день заказа' : 'COI verified & dispatched on every project'}
+          <div className="mt-6 pt-4 border-t border-slate-800/80 text-xs text-slate-400 flex items-center justify-between">
+            <span>📋 {siteConfig.lang === 'ru' ? 'Заключения арбориста для города и HOA' : 'Official arborist documentation'}</span>
           </div>
         </div>
 
-        {/* Bento Card 4: Complete Haul Away & Rake Clean (Span 7 cols) */}
+        {/* Bento Card 4: Complete Haul Away & Spotless Yard (Span 7 cols) */}
         <div className="md:col-span-7 rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900/90 to-slate-950 p-6 sm:p-8 flex flex-col justify-between shadow-xl transition hover:border-orange-500/40">
           <div>
             <div className="flex items-center justify-between gap-4">
               <span className="rounded-lg bg-orange-950/80 border border-orange-800/80 px-3 py-1 text-xs font-bold text-orange-300">
-                {siteConfig.lang === 'ru' ? 'Полный порядок' : 'Total Clean-Up'}
+                {siteConfig.lang === 'ru' ? 'Чистота под ключ' : 'Turnkey Clean'}
               </span>
               <span className="text-xs font-mono text-slate-400">04 / Clean</span>
             </div>
 
             <h3 className="mt-4 text-xl sm:text-2xl font-bold text-white">
-              {siteConfig.lang === 'ru'
-                ? 'Полная уборка участка, вывоз стволов и продувка воздуходувками'
-                : 'Complete Debris Haul-Away & Yard Raked Clean'}
+              {siteConfig.trustBadges[3]?.title}
             </h3>
 
             <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-              {siteConfig.lang === 'ru'
-                ? 'Мы не оставляем после себя горы щепы или распиленные бревна. Собственный измельчитель и самосвал: грабли, промышленная воздуходувка, участок чище, чем был до нашего приезда.'
-                : 'Commercial chipper and debris dump trailer on site. We rake, leaf-blow, and haul every pound of timber and brush away. Your driveway, pool deck, and lawn are left spotless.'}
+              {siteConfig.trustBadges[3]?.desc}
             </p>
           </div>
 

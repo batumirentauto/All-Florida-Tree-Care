@@ -9,9 +9,9 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-slate-800 pb-8">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="flex text-amber-400 text-lg">★★★★★</span>
-              <span className="text-sm font-bold text-white">
+            <div className="flex items-center gap-3">
+              <span className="flex text-amber-400 text-lg tracking-widest" aria-label="5 stars">★★★★★</span>
+              <span className="text-xs sm:text-sm font-bold text-white bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-lg shadow-sm">
                 {siteConfig.rating} {siteConfig.ui.googleReviews}
               </span>
             </div>
@@ -50,22 +50,24 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
               <div>
                 {/* Tag Badge */}
                 {review.tag && (
-                  <div className="mb-4">
-                    <span className="inline-flex items-center text-[11px] font-semibold text-amber-300 bg-amber-950/60 px-2.5 py-1 rounded-md border border-amber-900/60">
+                  <div className="mb-5">
+                    <span className="inline-flex items-center text-[11px] font-semibold text-amber-300 bg-amber-950/70 px-3 py-1 rounded-md border border-amber-800/60 shadow-sm">
                       {review.tag}
                     </span>
                   </div>
                 )}
 
                 {/* Stars and Source with generous breathing room and clear divider */}
-                <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-slate-800/80">
-                  <div className="flex items-center gap-1.5">
-                    <div className="flex text-amber-400 text-sm tracking-wider">
+                <div className="flex flex-wrap items-center justify-between gap-3 pb-3.5 mb-5 border-b border-slate-800/80">
+                  <div className="flex items-center gap-3">
+                    <div className="flex text-amber-400 text-sm tracking-widest" aria-label="5 stars">
                       {Array.from({ length: review.rating }).map((_, i) => (
                         <span key={i}>★</span>
                       ))}
                     </div>
-                    <span className="text-xs font-mono font-bold text-slate-300">5.0</span>
+                    <span className="text-xs font-mono font-bold text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800/60">
+                      5.0
+                    </span>
                   </div>
                   <span className="text-[11px] font-medium text-slate-400">
                     {review.source}
