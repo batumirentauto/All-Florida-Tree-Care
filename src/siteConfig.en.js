@@ -3,7 +3,7 @@ export const siteConfigEn = {
   businessName: "All Florida Tree Care",
   legalName: "All Florida Tree Care LLC",
   shortName: "All Florida Tree Care",
-  tagline: "Commercial Equipment • 24/7 Emergency Tree Response • Fully Licensed & Insured",
+  tagline: "Commercial Fleet • 60+ Ft Aerial & Climber Tree Specialists • 24/7 Emergency Response",
   phone: "(941) 587-9271",
   phoneRaw: "+19415879271",
   city: "Palmetto, Bradenton & Sarasota",
@@ -13,93 +13,105 @@ export const siteConfigEn = {
   fullAddress: "2840 21st St Ct E, Palmetto, FL 34221",
   mapsUrl: "https://maps.google.com/?q=All+Florida+Tree+Care+2840+21st+St+Ct+E+Palmetto+FL+34221",
   rating: "5.0",
-  reviewCount: "48",
-  licenseBadge: "Licensed & Fully Insured",
+  reviewCount: "50+",
+  licenseBadge: "Licensed & Fully Insured ($1,000,000 Liability)",
   experienceYears: "15+",
-  workingHours: "Open 24 Hours • 7 Days a Week (24/7 Emergency Service)",
-  addressNotes: "HQ Base: 2840 21st St Ct E, Palmetto, FL 34221 • Immediate Dispatch across Manatee & Sarasota Counties",
+  workingHours: "Open 24 Hours • 7 Days a Week (24/7 Emergency Dispatch)",
+  addressNotes: "HQ Base: 2840 21st St Ct E, Palmetto, FL 34221 • Fast Dispatch Across Manatee & Sarasota Counties",
 
   hero: {
-    badge: "Serving Palmetto, Bradenton, Sarasota & Manatee County 24/7",
-    headline: "Commercial Tree Removal, Trimming & Precision Stump Grinding",
-    subhead: "Family-owned and fully equipped with bucket trucks, Bobcat track loaders with grapples, Bandit chippers, and high-horsepower stump grinders. Safe takedowns over roofs, wires, and pool cages with spotless cleanup.",
+    badge: "Family-Operated by Justin & Alex Carrier • Serving Manatee & Sarasota 24/7",
+    headline: "Precision Tree Removal, 60+ Ft Aerial Trimming & Stump Grinding",
+    subhead: "Fully equipped with 60 ft bucket trucks, Bobcat track loaders with grapple rakes, Bandit wood chippers, and skilled climbing arborists for tight spots. Zero damage to roofs, pool cages, or lawns — completed spotless in one day.",
     ctaCall: "Call (941) 587-9271",
     ctaText: "Text Photos for an Estimate"
   },
 
   trustBadges: [
-    { title: "Family-Owned & Operated", desc: "Direct communication with seasoned tree specialists — no middlemen, brokers, or outsourced day crews" },
-    { title: "Dedicated Commercial Fleet", desc: "Bucket trucks, compact track loaders with grapple rakes, and high-capacity Bandit wood chippers" },
-    { title: "24/7 Emergency Response", desc: "Immediate dispatch for hurricane & storm hazards, leaning pines, and limbs threatening roofs" },
-    { title: "Meticulous Site Cleanup", desc: "Power blowers, complete wood chipping, lawn raking, and full debris hauling leaving yards spotless" }
+    { 
+      title: "Justin & Alex On Every Job", 
+      desc: "Direct communication with the owners: Justin provides fast quotes, and Alex Carrier leads the crew on-site" 
+    },
+    { 
+      title: "60+ Ft Bucket & Climbers", 
+      desc: "If our aerial bucket truck can't reach a tight backyard space, our arborist climbers scale the tree to get it done" 
+    },
+    { 
+      title: "Pool Cage & Roof Protection", 
+      desc: "Controlled rigging ropes safeguard screen enclosures, tile roofs, and solar panels with $1,000,000 commercial liability" 
+    },
+    { 
+      title: "All-In-One-Day Turnkey Finish", 
+      desc: "Piecemeal takedown, below-grade stump grinding, wood chipping, and blower cleanup leaving lawns spotless" 
+    }
   ],
 
   services: [
     {
       id: "tree-removal",
-      title: "Complete Tree Removal",
-      tagline: "Any Height — Safe Piecemeal Takedown",
-      desc: "Controlled dismantling of hazardous pines, towering live oaks, and dead trees using hydraulic bucket lifts and precision rigging ropes."
+      title: "Complete Tree Removal (Bucket & Climbing)",
+      tagline: "Crane, 60+ Ft Bucket & Climber Access",
+      desc: "Safe sectional dismantling of massive oaks, leaning pines, and declining trees. If tight gates block heavy trucks, our expert climbers scale and lower limbs safely."
     },
     {
       id: "storm-emergency",
-      title: "24/7 Emergency Storm Takedown",
-      tagline: "Immediate Hazard & Hurricane Response",
-      desc: "Round-the-clock emergency clearance for storm-damaged trunks, split limbs on roofs, and uprooted trees blocking driveways across Florida."
+      title: "24/7 Emergency Storm Damage & Hazard Relief",
+      tagline: "Immediate Hurricane & Windstorm Response",
+      desc: "Round-the-clock emergency crew clearing downed trunks, hanging limbs over roofs, and uprooted trees blocking driveways or threatening powerlines."
     },
     {
       id: "tree-trimming",
-      title: "Tree Trimming & Canopy Pruning",
-      tagline: "Roof Clearance & Wind Mitigation",
-      desc: "Crown thinning, hazardous deadwood pruning, and structural elevation to protect roofs, enhance curb appeal, and improve wind resistance."
+      title: "Canopy Trimming & Roof/Solar Clearance",
+      tagline: "Wind Mitigation & Maximum Sun for Solar",
+      desc: "Crown thinning, deadwood pruning, and roofline clearance to prevent storm damage, satisfy insurance guidelines, and let full sunlight reach solar panels."
     },
     {
       id: "stump-grinding",
-      title: "Commercial Stump Grinding",
-      tagline: "Deep Below Grade with Protective Shields",
-      desc: "High-horsepower cutter wheel grinding stumps 10\"–14\" below grade. We grind surface lateral roots clean for sod, pavers, or fence installation."
+      title: "Commercial Stump Grinding Below Grade",
+      tagline: "10\"–14\" Deep with Heavy Safety Shields",
+      desc: "High-horsepower cutter wheels pulverize stumps deep below grade and chase surface lateral roots. Full safety curtains protect windows and pool cages."
     },
     {
       id: "palm-tree-service",
-      title: "Palm Trimming & Removal",
-      tagline: "Dead Fronds, Seed Pods & Takedown",
-      desc: "Specialized pruning for Queen, Sabal, and Coconut palms, including boot skinning, seed pod removal, and extraction of diseased or dead palms."
+      title: "Palm Trimming, Skinning & Takedown",
+      tagline: "Queen, Sabal, Royal & 25'+ Bismarck Palms",
+      desc: "Specialized Florida palm care: pruning dead fronds, removing seed pods, boot skinning, and safely cutting down diseased or overgrown palms of any height."
     },
     {
       id: "lot-debris-clearing",
-      title: "Grapple Loader & Debris Hauling",
-      tagline: "Bobcat Track Loaders & Bandit Chippers",
-      desc: "Efficient property clearing, heavy log loading with grapple rakes, high-volume brush chipping, and turnkey haul-off for residential and HOA parcels."
+      title: "Bobcat Grapple Clearing & Bandit Chipping",
+      tagline: "Industrial Wood Chipping & Turnkey Hauling",
+      desc: "Heavy log loading with Bobcat grapple rakes, rapid brush processing in our Bandit 1590 chipper, and full property cleanout for residential and commercial lots."
     }
   ],
 
   howEstimatesWork: {
-    title: "How to Get a Quick Estimate by Text",
-    step1: "Take 2 clear photos of the tree, limbs, or stump from different angles.",
-    step2: "Send rough dimensions and note any gates, overhead wires, or pool screens.",
-    step3: "Text them to (941) 587-9271. Our team will review and reply with a straightforward dollar quote."
+    title: "How to Get a Quick Estimate in 3 Steps",
+    step1: "Snap 2 clear photos of the tree, limbs, or stump from different angles.",
+    step2: "Note approximate dimensions and mention any tight gates, pool cages, or powerlines.",
+    step3: "Text photos to (941) 587-9271. Justin or Alex will review and reply with a fast, straightforward dollar quote."
   },
 
   realisticComparison: {
-    title: "Why Our Commercial Fleet Makes the Difference",
+    title: "Why Property Owners Choose All Florida Tree Care",
     diyRental: [
-      "Lightweight rental machines bounce on hard oak roots and take hours of back-breaking effort",
-      "Struggles to grind below grade, leaving root systems behind that damage future sod and fences",
-      "You handle truck towing, rental deposits, machine fuel, and dangerous limb drops alone",
-      "Flying wood chips can easily crack windows or puncture pool screen enclosures without heavy shielding"
+      "Other tree services say 'my bucket won't reach' and turn down difficult backyard trees",
+      "Rental equipment bounces on dense live oak roots and takes hours of painful, dangerous labor",
+      "Inexperienced crews drop heavy branches, risking punctured pool cage screens and cracked roof tiles",
+      "Brokers quote low over the phone, then show up late with hidden haul-away surcharges"
     ],
     commercialWay: [
-      "Hydraulic bucket trucks and track loaders reach high branches safely without dropping weight on roofs",
-      "Commercial-grade stump grinding pulverizes 10\"–14\" deep below grade for fresh sod or fence posts",
-      "Bandit chippers and Bobcat grapples turn massive trees into clean mulch and haul debris away",
-      "Heavy containment shields and full commercial liability protect your home, lawn, and underground utilities"
+      "Dual Bucket & Climber team — if the 60 ft truck can't access, Alex Carrier climbs and gets it done",
+      "Full commercial fleet: heavy-duty bucket truck, Bobcat track loader with grapple, and Bandit chipper",
+      "Controlled rigging rope lowering protects tile roofs, lanai screens, and solar panels with zero damage",
+      "Written quote from Justin within 1 hour — on time, on budget, certified arborist reports available"
     ]
   },
 
   gallery: {
     badge: "Equipment in Action • Real Florida Job Sites",
     title: "Our Commercial Fleet & Tree Specialists at Work",
-    subhead: "No rental toys or subcontracted crews. We show up with heavy-duty bucket trucks, Bobcat track loaders with grapple rakes, Bandit 1590 wood chippers, and high-horsepower stump grinders.",
+    subhead: "No rental toys or outsourced subcontractors. We arrive on fully equipped bucket trucks, Bobcat track loaders with grapple rakes, Bandit 1590 wood chippers, and professional stump grinders.",
     items: [
       {
         src: "/images/all-florida-truck-bucket.jpg",
@@ -119,7 +131,7 @@ export const siteConfigEn = {
         src: "/images/oak-trimming-bucket-truck.jpg",
         alt: "All Florida Tree Care arborist in aerial bucket trimming mature oak tree",
         title: "Canopy Trimming & Pruning",
-        badge: "Aerial Bucket Precision",
+        badge: "Aerial 60+ Ft Reach",
         desc: "Safe canopy thinning and deadwood removal on mature live oaks over buildings and parking areas."
       },
       {
@@ -132,14 +144,14 @@ export const siteConfigEn = {
       {
         src: "/images/hazard-tree-trimming-roof.jpg",
         alt: "Bucket truck maneuvering over roofline to prune dangerous overhang branches",
-        title: "Roof & Structure Clearance",
+        title: "Roof & Pool Lanai Clearance",
         badge: "Zero Impact Guarantee",
-        desc: "Careful aerial branch cutting directly over tile roofs and pool lanais without any impact damage."
+        desc: "Careful aerial branch cutting directly over tile roofs and pool cages without dropping weight."
       },
       {
         src: "/images/large-stump-excavation-loader.jpg",
         alt: "New Holland loader and arborist handling massive excavated stump",
-        title: "Massive Root & Stump Removal",
+        title: "Massive Root & Stump Extraction",
         badge: "Heavy Excavation",
         desc: "Extracting and clearing massive storm-damaged root balls and tree trunks ready for ground leveling."
       }
@@ -148,46 +160,60 @@ export const siteConfigEn = {
 
   reviews: [
     {
-      author: "David M.",
+      author: "Ricardo Hernandez",
       rating: 5,
-      tag: "Post-Storm Emergency Response",
-      text: "All Florida Tree Care was fantastic. They arrived with a full bucket truck and chipper crew within hours of our call after a heavy windstorm. Removed two dangerous oak branches hanging right over our roof with precision. Cleaned up every single twig. Highly recommend!",
+      tag: "Solar Panels & Zero Damage",
+      text: "I couldn’t be happier with the removal of two large oak trees. Alex Carrier and his crew managed heavy machinery with expert precision, ensuring absolutely no damage was done to my house or yard. What blew me away was their attention to detail: both yard and sidewalk were left spotless. Now that the trees are gone, my solar panels finally receive full sun, making a massive difference in my home's energy efficiency!",
       source: "Verified Google Review"
     },
     {
-      author: "Melissa R.",
+      author: "Melissa Presley",
       rating: 5,
-      tag: "Weekend Quick Dispatch",
-      text: "Called on a Saturday evening when an old pine started leaning toward our overhead powerline. They responded immediately, gave a straightforward price, and took care of it first thing Sunday morning. Excellent family-owned team!",
+      tag: "Arborist Climber When Others Refused",
+      text: "Alex and his crew did a phenomenal job! When it came to hard places to reach, he didn’t say 'my bucket won’t reach' like so many others have — he climbed the tree and got the job done. They worked non-stop and did not skimp on clean up. Prompt, accurate communication and very meticulous.",
       source: "Verified Google Review"
     },
     {
-      author: "Jason K.",
+      author: "Bob Wall",
       rating: 5,
-      tag: "Stump Grinding & Pre-Fence Prep",
-      text: "Ground down 5 huge stumps and cleared the perimeter for our new fence install. The ground was left perfectly level and raked clean. Best contractor price in Manatee County.",
+      tag: "Pool Cage & Roof Protection",
+      text: "Really great job. Live Oaks at the rear and sides of our house were over the roof and pool cage. These guys came in, removing the risks while ensuring the trees remained aesthetically pleasing. Sensitive to the surrounding lawn, treading lightly and did a very good job cleaning up behind them. All Florida Tree Care is my first call!",
+      source: "Local Guide • 45 Reviews"
+    },
+    {
+      author: "William Ruppert",
+      rating: 5,
+      tag: "Written Proposal in 1 Hour + Arborist Report",
+      text: "When I met Alex he was professional and knowledgeable. Within an hour I had a written proposal. Once agreed, an arborist report was delivered for our permits. His crew arrived, removed the tree in a few hours, and cleaned my property of all debris. Highly recommend!",
       source: "Verified Google Review"
     },
     {
-      author: "Robert & Linda T.",
+      author: "Mike Guidoboni",
       rating: 5,
-      tag: "Full Equipment Fleet",
-      text: "Showed up right on time with impressive heavy equipment—Bobcat loader, wood chipper, bucket truck. Trimmed four mature palms and safely brought down a dead oak. The yard was cleaner when they left than before they started.",
-      source: "Verified Google Review"
+      tag: "All-In-One-Day Complete Lot Service",
+      text: "Justin came out, reviewed the work, and quoted the job. A few days later, Alex and his crew showed up on time and never stopped working. Trimmed and pruned our tree-filled lot, removed a tree, and ground a stump all in one day! Fantastic experience from start to finish.",
+      source: "Local Guide • 12 Reviews"
     },
     {
-      author: "Sarah Jenkins",
+      author: "Rick Davies",
       rating: 5,
-      tag: "Fast Photo Estimate",
-      text: "Texted photos of an uprooted root ball in the morning, received a clear, binding quote in 15 minutes, and they finished the job the same day. Honest, licensed, and truly professional tree surgeons.",
-      source: "Verified Google Review"
+      tag: "25' Silver Bismarck Palm Removal",
+      text: "Best tree service ever. Got a quick quote from Justin at All Florida Tree and booked the job for our 25' Silver Bismarck Palm. They have the equipment to handle just about any size tree. Cut down, stump ground, and hauled away after thorough cleanup. Reasonable pricing and fully insured.",
+      source: "Local Guide • 17 Reviews"
     },
     {
-      author: "Feath K.",
+      author: "Tammariea Campbell",
       rating: 5,
-      tag: "True Local Contractor",
-      text: "We needed boundary stumps removed. Several other tree companies never even returned our calls. All Florida Tree Care answered on the second ring, reviewed photos, gave an exact quote, and arrived on schedule. 10/10 service.",
-      source: "Local Guide • Florida"
+      tag: "Far Superior to Other Tree Companies",
+      text: "I've used several different tree companies, but I can't say enough great things about All Florida Tree Care! We had a massive oak and two very tall palms in a difficult spot. They handled the job flawlessly, worked safely and quickly, and left my yard clean. They take pride in their work!",
+      source: "Local Guide • 14 Reviews"
+    },
+    {
+      author: "Faith Rodriguez",
+      rating: 5,
+      tag: "Yard Looks Like They Were Never There",
+      text: "These guys are amazing! Reasonably priced, show up on time, and make your trees look beautiful. They leave your yard looking like they were never there. Very respectful, honest, and hardworking.",
+      source: "Verified Google Review"
     }
   ],
 
@@ -220,7 +246,7 @@ export const siteConfigEn = {
       },
       {
         id: "tree",
-        name: "Tree Removal",
+        name: "Tree Removal (Bucket / Climbing)",
         sizeLabel: "Tree Height & Hazard Complexity",
         sizes: [
           { id: "s", label: "Small tree (< 25 ft)", price: "$350 – $650", time: "1.5–2.5 hrs" },
@@ -229,25 +255,25 @@ export const siteConfigEn = {
           { id: "xl", label: "Hazard tree over roof / pool cage", price: "From $2,500", time: "1–2 days" },
         ],
         includes: [
-          "Hydraulic bucket lift & rigging rope control",
-          "Sectional lowering away from structures & fences",
+          "60+ ft aerial bucket or specialist arborist climbing",
+          "Piecemeal lowering away from structures, fences & lanais",
           "Complete wood chipping and thorough yard rake",
         ],
       },
       {
         id: "trimming",
-        name: "Tree Trimming & Pruning",
+        name: "Tree Trimming & Solar Clearance",
         sizeLabel: "Canopy Scope & Clearance Requirement",
         sizes: [
           { id: "s", label: "Spot prune / low limb clearance", price: "$200 – $350", time: "45–60 mins" },
           { id: "m", label: "Single mature oak/pine crown prune", price: "$400 – $750", time: "1.5–2.5 hrs" },
-          { id: "l", label: "Full roofline & utility clearance", price: "$750 – $1,400", time: "2.5–4 hrs" },
+          { id: "l", label: "Full roofline & solar panel clearance", price: "$750 – $1,400", time: "2.5–4 hrs" },
           { id: "xl", label: "Multi-tree canopy overhaul", price: "From $1,500", time: "Half/Full day" },
         ],
         includes: [
           "Deadwood removal and hurricane wind-thinning",
-          "Minimum 6–10 ft clearance back from roof edges",
-          "Feeding all branches into high-capacity Bandit chipper",
+          "Minimum 6–10 ft clearance back from roofs & solar arrays",
+          "Feeding branches into high-capacity Bandit chipper",
         ],
       },
       {
@@ -258,11 +284,11 @@ export const siteConfigEn = {
           { id: "s", label: "Sabal / Queen palm trimming", price: "$75 – $150 / palm", time: "20–30 mins" },
           { id: "m", label: "Tall Washingtonia / Royal palm", price: "$150 – $300 / palm", time: "30–45 mins" },
           { id: "l", label: "Palm removal & trunk takedown", price: "$250 – $550", time: "1–2 hrs" },
-          { id: "xl", label: "Cluster removal with stump grinding", price: "From $650", time: "2–4 hrs" },
+          { id: "xl", label: "25'+ Bismarck / Cluster removal", price: "From $650", time: "2–4 hrs" },
         ],
         includes: [
           "Trimming dead fronds and removing seed pods",
-          "Clean trunk boot trimming and grooming",
+          "Clean trunk boot skinning and grooming",
           "Haul-off and thorough disposal of all palm debris",
         ],
       },
@@ -272,16 +298,16 @@ export const siteConfigEn = {
   },
 
   ui: {
-    inBusiness: "Family-Owned",
+    inBusiness: "Family-Operated",
     googleReviews: "Google Reviews",
     textPhotos: "Text Photos",
     callBrad: "Call Now",
     fastResponse: "Fast 24/7 Response:",
-    fastResponseDesc: "Send 2 photos by text to get a straight dollar quote without waiting around for days.",
+    fastResponseDesc: "Send 2 photos by text to get a straight dollar quote from Justin or Alex within minutes.",
     heroCheckmarks: [
       { strong: "Fixed Price Before Dispatch", text: "binding dollar quote from 2 photos in 15 mins — zero on-site price jumps" },
-      { strong: "24/7 Emergency Storm Dispatch", text: "fast clearance for hazard limbs and fallen trees across Manatee County" },
-      { strong: "Zero Turf Rutting & Screen Protection", text: "heavy containment curtains protect pool cages, walls, and glass" },
+      { strong: "24/7 Emergency Storm Dispatch", text: "rapid response for fallen trees, split trunks, and hazard limbs threatening roofs" },
+      { strong: "Pool Cage, Roof & Lawn Protection", text: "heavy containment curtains and controlled rope rigging protect lanais and glass" },
       { strong: "$1,000,000 Commercial Liability", text: "full property coverage protecting irrigation, roofs, fences, and structures" },
     ],
     fastestEstimate: "Fastest Estimate Method",
@@ -291,26 +317,26 @@ export const siteConfigEn = {
     step2Title: "Rough Size & Obstacles",
     step2Tip: "📏 Note approximate height, diameter, or any gates, wires, and pool enclosures.",
     step3Title: "Get Fixed Dollar Quote",
-    step3Tip: "⚡ Direct review by our team. Straightforward price without hidden add-ons.",
+    step3Tip: "⚡ Direct review by Justin or Alex. Straightforward price without hidden add-ons.",
     tapToText: "Tap to Text Photos to All Florida Tree Care:",
     preferCalling: "Prefer calling?",
     callDirectly: "Call directly at",
     servicesCategory: "Commercial Capabilities",
     servicesTitle: "Professional Tree Removal & Care Services",
-    servicesSub: "Every service is performed using dedicated commercial machinery operated by experienced tree professionals. We do not rush jobs or leave debris piles behind.",
+    servicesSub: "Every service is performed using dedicated commercial machinery operated directly by Alex Carrier and our seasoned crew. We do not rush jobs or leave debris piles behind.",
     textForQuote: "Text for Quote",
     formQuote: "Form Quote →",
     comparisonCategory: "Real Contractor Insights",
-    comparisonSub: "Big box stores rent small machines. Here is why our commercial fleet and experienced crew ensure a safer, faster, and truly finished job.",
-    diyTitle: "DIY Home Center Rental",
-    diySubtitle: "The High-Effort Option",
-    diyBadge: "Hidden Time Sink",
-    diyNote: "Trade Reality: Most property owners who try renting small equipment spend $300+ on rentals, truck hitches, and fuel, only to call professionals when roots get jammed or heavy limbs threaten the roof.",
-    commercialTitle: "All Florida Tree Care Fleet",
+    comparisonSub: "Big box stores rent small tools and other services walk away from tight backyards. Here is why our commercial fleet and climber capabilities deliver superior results.",
+    diyTitle: "Other Companies & DIY Rentals",
+    diySubtitle: "The High-Effort / High-Risk Option",
+    diyBadge: "Limited Capability",
+    diyNote: "Trade Reality: Most contractors give up when their bucket truck won't fit into a tight backyard, or leave massive piles of logs for homeowners to haul.",
+    commercialTitle: "All Florida Tree Care Dual Fleet",
     commercialSubtitle: "The Professional Contractor Way",
-    commercialBadge: "Commercial Equipment",
+    commercialBadge: "60+ Ft Bucket + Climbers",
     commercialRibbon: "Recommended Choice",
-    commercialNote: "No equipment deposits. No trailer towing. No risk. Our crew handles the entire project safely.",
+    commercialNote: "No equipment deposits. No trailer towing. No risk. Our crew handles the entire project safely and cleans up spotless.",
     reviewsCategory: "Verified Local Feedback",
     reviewsSub: "Unfiltered reviews from property owners, HOA boards, and residents across",
     reviewsBadge: "5.0 ★ Rated",
@@ -318,12 +344,12 @@ export const siteConfigEn = {
     propertyOwner: "Property Owner • Florida",
     areasCategory: "Local Dispatch Coverage",
     areasTitle: "Service Areas Across",
-    areasSub: "Direct mobile dispatch with bucket trucks, loaders, and trailers. Serving Palmetto, Bradenton, Sarasota & Manatee County.",
+    areasSub: "Direct mobile dispatch with bucket trucks, Bobcat loaders, and trailers. Serving Palmetto, Bradenton, Sarasota & Manatee County.",
     checkNeighborhood: "Check Your Neighborhood",
     dispatchNotice: "Direct dispatch service fleet equipped with safety containment curtains & complete cleanup kit.",
     formCategory: "Straightforward Estimates",
     formTitle: "Request Your Free Project Estimate",
-    formSub: "Our team reviews all submissions promptly. No high-pressure sales reps, no hidden dispatch fees.",
+    formSub: "Justin and Alex review all submissions promptly. No high-pressure sales reps, no hidden dispatch fees.",
     formSuccessTitle: "Estimate Request Received!",
     formSuccessSub: "Thank you. All Florida Tree Care will review your details and reach out shortly.",
     formTextPhotosNow: "Text Photos Now for Faster Quote",
@@ -336,7 +362,7 @@ export const siteConfigEn = {
     formUrgent: "Need an immediate 24/7 reply? You can also",
     footerCoreServices: "Core Services",
     footerLicensing: "Licensing & Coverage",
-    footerLiability: "Full commercial general liability coverage for residential properties, HOA communities, and commercial sites.",
+    footerLiability: "Full commercial general liability coverage ($1,000,000) for residential properties, HOA communities, and commercial sites.",
     footerRights: "All rights reserved.",
     footerModular: "Modular config: siteConfig.js"
   }
