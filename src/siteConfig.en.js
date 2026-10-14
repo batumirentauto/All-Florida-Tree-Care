@@ -232,10 +232,10 @@ export const siteConfigEn = {
         name: "Stump Grinding",
         sizeLabel: "Cut Diameter at Widest Point",
         sizes: [
-          { id: "s", label: "Up to 12\" (< 30 cm)", price: "$90 – $140", time: "15–25 mins" },
-          { id: "m", label: "12\" – 24\" (30–60 cm)", price: "$160 – $260", time: "25–35 mins" },
-          { id: "l", label: "24\" – 36\" (60–90 cm)", price: "$280 – $420", time: "40–55 mins" },
-          { id: "xl", label: "36\"+ (Mature Oak/Pine)", price: "$450 – $750+", time: "60+ mins" },
+          { id: "s", label: "Up to 12\" (Small/Palm)", price: "$90 – $140", time: "15–25 mins" },
+          { id: "m", label: "12\" – 24\" (Medium/Pine)", price: "$160 – $260", time: "25–35 mins" },
+          { id: "l", label: "24\" – 36\" (Large/Mature)", price: "$280 – $420", time: "40–55 mins" },
+          { id: "xl", label: "36\"+ (Huge Oak/Pine)", price: "$450 – $750+", time: "60+ mins" },
         ],
         includes: [
           "Grinding 10\"–14\" deep below ground level",
