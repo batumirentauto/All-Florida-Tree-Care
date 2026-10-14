@@ -4,7 +4,7 @@ import type { SiteConfig } from '../types/siteConfig'
 export const ServiceAreas: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
   return (
-    <section className="py-16 bg-[#080d1a]/60 border-t border-slate-800">
+    <section id="areas" className="py-16 bg-[#080d1a]/60 border-t border-slate-800 scroll-mt-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-8 sm:p-10 shadow-xl">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">

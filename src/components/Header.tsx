@@ -101,9 +101,6 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
           <a href="#reviews" className="hover:text-amber-400 transition-colors">
             {siteConfig.lang === 'ru' ? 'Отзывы' : 'Reviews'}
           </a>
-          <a href="#areas" className="hover:text-amber-400 transition-colors">
-            {siteConfig.lang === 'ru' ? 'Зоны работы' : 'Service Areas'}
-          </a>
         </nav>
 
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
