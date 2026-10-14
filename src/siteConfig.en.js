@@ -101,8 +101,6 @@ export const siteConfigEn = {
       author: "Brandon Clark",
       rating: 5,
       tag: "Commercial Beast vs Toy Rental",
-      image: "/images/brad-lanai-work.png",
-      imageAlt: "Brad working track machine next to pool screen lanai",
       text: "A neighbor referred Brad for stump grinding. He’s a pro: courteous, responsive, available quickly, and went above and beyond without asking for more than quoted. His machine is a beast. If you think you’ll save money renting the toy-version of a stump grinder, you’ll regret it and call Brad anyway. Call him first!",
       source: "Verified Google Review"
     },
@@ -110,8 +108,6 @@ export const siteConfigEn = {
       author: "Erica Wright",
       rating: 5,
       tag: "Next-Morning Arrival",
-      image: "/images/brad-in-gear.png",
-      imageAlt: "Brad in full safety gear with commercial stump grinder and blower",
       text: "Brad is a true professional. He was at my house the morning after I contacted him for a quote. Fair price, beautifully maintained equipment and extremely knowledgeable. I would recommend him to anyone who wants the job done right, right away.",
       source: "Verified Google Review"
     },

@@ -68,22 +68,6 @@ export const ReviewsSection: React.FC = () => {
                   </span>
                 </div>
 
-                {/* Customer Photo if available */}
-                {review.image && (
-                  <div className="mt-4 overflow-hidden rounded-lg border border-neutral-800 bg-black/40">
-                    <img
-                      src={review.image}
-                      alt={review.imageAlt || review.author}
-                      className="h-44 w-full object-cover transition duration-300 hover:scale-105"
-                      loading="lazy"
-                    />
-                    <div className="bg-neutral-950/90 px-2.5 py-1 text-[10px] text-neutral-400 border-t border-neutral-800 flex items-center justify-between">
-                      <span>{siteConfig.lang === 'ru' ? '📸 Фото с объекта клиента' : '📸 On-Site Customer Photo'}</span>
-                      <span className="text-emerald-400 font-mono">Google Verified</span>
-                    </div>
-                  </div>
-                )}
-
                 {/* Review Text */}
                 <p className="mt-4 text-sm leading-relaxed text-neutral-300 italic">
                   &ldquo;{review.text}&rdquo;
