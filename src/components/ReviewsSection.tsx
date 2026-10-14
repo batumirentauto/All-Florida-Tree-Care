@@ -66,7 +66,7 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
                       ))}
                     </div>
                     <span className="text-xs font-mono font-bold text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800/60">
-                      5.0
+                      {review.rating}.0
                     </span>
                   </div>
                   <span className="text-[11px] font-medium text-slate-400">

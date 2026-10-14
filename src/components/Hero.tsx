@@ -113,7 +113,7 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                       <span>{siteConfig.businessName}</span>
                       <span className="text-amber-400 flex items-center gap-2">
                         <span className="tracking-widest text-xs">★★★★★</span>
-                        <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">5.0</span>
+                        <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">{siteConfig.rating}</span>
                       </span>
                     </div>
                     <div className="text-[11px] text-slate-300 mt-0.5">
