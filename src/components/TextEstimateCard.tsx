@@ -98,7 +98,7 @@ export const TextEstimateCard: React.FC<{ config?: SiteConfig }> = ({ config }) 
           {/* Action Callout */}
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
             <a
-              href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my tree/stump for an estimate:')}`}
+              href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : `Hi ${siteConfig.shortName}, here are photos of my tree/stump for an estimate:`)}`}
               className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 px-8 py-4 text-base font-black text-slate-950 shadow-lg shadow-amber-500/25 transition hover:brightness-110 active:scale-98"
             >
               <svg className="h-5 w-5 text-slate-950" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

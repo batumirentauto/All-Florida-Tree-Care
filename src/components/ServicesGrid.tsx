@@ -69,7 +69,7 @@ export const ServicesGrid: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               {/* Card Footer */}
               <div className="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, интересует расчет по услуге ${service.title}:` : `Hi All Florida Tree Care, I'm interested in an estimate for ${service.title}:`)}`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, интересует расчет по услуге ${service.title}:` : `Hi ${siteConfig.shortName}, I'm interested in an estimate for ${service.title}:`)}`}
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-300 transition"
                 >
                   <span>{siteConfig.ui.textForQuote}</span>

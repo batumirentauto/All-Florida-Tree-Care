@@ -37,7 +37,7 @@ export const TrustBadges: React.FC<{ config?: SiteConfig }> = ({ config }) => {
       <div className="mb-8 max-w-2xl">
         <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-amber-400">
           <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-          {siteConfig.lang === 'ru' ? 'Преимущества All Florida Tree Care' : 'The All Florida Advantage'}
+          {siteConfig.lang === 'ru' ? `Преимущества ${siteConfig.shortName}` : `The ${siteConfig.shortName} Advantage`}
         </span>
         <h2 className="mt-2 text-2xl sm:text-3xl font-black text-white tracking-tight">
           {siteConfig.lang === 'ru'

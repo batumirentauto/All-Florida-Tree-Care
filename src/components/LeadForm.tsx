@@ -50,7 +50,7 @@ export const LeadForm: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               </p>
               <div className="mt-6">
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, отправил заявку на сайте по услуге ${formData.service}.` : `Hi All Florida Tree Care, I just submitted an estimate request on your website for ${formData.service}.`)}`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? `Здравствуйте, отправил заявку на сайте по услуге ${formData.service}.` : `Hi ${siteConfig.shortName}, I just submitted an estimate request on your website for ${formData.service}.`)}`}
                   className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 px-5 py-3 text-sm font-black text-slate-950 hover:brightness-110 transition shadow-lg shadow-amber-500/25"
                 >
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -158,7 +158,7 @@ export const LeadForm: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               <div className="pt-2 text-center text-xs text-slate-400">
                 {siteConfig.ui.formUrgent}{' '}
                 <a
-                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my tree/stump for an estimate:')}`}
+                  href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : `Hi ${siteConfig.shortName}, here are photos of my tree/stump for an estimate:`)}`}
                   className="font-bold text-amber-400 underline underline-offset-2 hover:text-amber-300"
                 >
                   {siteConfig.ui.tapToText} {siteConfig.phone}

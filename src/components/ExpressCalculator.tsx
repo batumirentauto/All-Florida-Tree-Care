@@ -24,7 +24,7 @@ export const ExpressCalculator: React.FC<{ config?: SiteConfig }> = ({ config })
   const smsBody = encodeURIComponent(
     siteConfig.lang === 'ru'
       ? `Здравствуйте, интересует ${currentService?.name}, параметр: ${currentSize?.label}. Отправляю 2 фото для точной оценки:`
-      : `Hi All Florida Tree Care, I'm interested in ${currentService?.name}, spec: ${currentSize?.label}. Here are 2 photos for an exact quote:`
+      : `Hi ${siteConfig.shortName}, I'm interested in ${currentService?.name}, spec: ${currentSize?.label}. Here are 2 photos for an exact quote:`
   )
 
   return (

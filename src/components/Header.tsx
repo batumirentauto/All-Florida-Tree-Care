@@ -91,7 +91,7 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* Quick text quote button (desktop/tablet) */}
           <a
-            href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my stump/tree for an estimate:')}`}
+            href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : `Hi ${siteConfig.shortName}, here are photos of my stump/tree for an estimate:`)}`}
             className="hidden items-center gap-2 rounded-xl border border-slate-700 bg-slate-900/90 px-3.5 py-2 text-sm font-semibold text-slate-200 transition hover:border-amber-400 hover:text-amber-300 lg:inline-flex"
           >
             <svg

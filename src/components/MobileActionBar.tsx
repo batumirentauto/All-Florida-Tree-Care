@@ -27,7 +27,7 @@ export const MobileActionBar: React.FC<{ config?: SiteConfig }> = ({ config }) =
         </a>
 
         <a
-          href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : 'Hi All Florida Tree Care, here are photos of my tree/stump for an estimate:')}`}
+          href={`sms:${siteConfig.phoneRaw}?&body=${encodeURIComponent(siteConfig.lang === 'ru' ? 'Здравствуйте, отправляю фото пня/дерева для расчета стоимости:' : `Hi ${siteConfig.shortName}, here are photos of my tree/stump for an estimate:`)}`}
           className="flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/90 px-3 py-3 text-sm font-bold text-slate-200 shadow-lg transition active:scale-95 hover:border-amber-400/50 hover:text-amber-300"
         >
           <svg
