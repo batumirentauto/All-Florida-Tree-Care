@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
 import { StarRating } from '../StarRating'
 import { siteConfigHardkorEn } from '../../siteConfig.hardkor.en'
 
@@ -103,14 +102,12 @@ export function HardkorHero({ config }: { config?: any }) {
           <div className="lg:col-span-5 grid grid-cols-2 gap-3 sm:gap-4">
             {/* Bento Main Large Card: Hurricane Milton Fallen Oak on Roof (Spans 2 cols) */}
             <div className="col-span-2 relative h-64 sm:h-72 rounded-2xl overflow-hidden shadow-xl border border-red-500/30 group">
-              <Image
+              <img
                 src="/images/hardkor/milton-uprooted-oak-roof.jpg"
                 alt={siteConfig.hero.heroImageAlt}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                priority
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent pointer-events-none" />
               
               <div className="absolute top-3 left-3">
                 <span className="inline-flex items-center gap-1.5 rounded-md bg-red-600/90 backdrop-blur-sm px-2.5 py-1 text-[11px] font-black text-white shadow-sm border border-red-400/40">
@@ -119,7 +116,7 @@ export function HardkorHero({ config }: { config?: any }) {
                 </span>
               </div>
 
-              <div className="absolute bottom-3 left-3 right-3 text-white">
+              <div className="absolute bottom-3 left-3 right-3 text-white pointer-events-none">
                 <div className="text-xs sm:text-sm font-black drop-shadow-sm">
                   {siteConfig.lang === 'ru' ? 'Снятие поваленного дуба с жилого дома' : 'Safe Emergency Extraction From Roof Structure'}
                 </div>
@@ -131,14 +128,14 @@ export function HardkorHero({ config }: { config?: any }) {
 
             {/* Bento Card 2: Precision roof clearance over gutter */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-800 group">
-              <Image
+              <img
                 src="/images/hardkor/climber-over-roof-gutter.jpg"
                 alt="Arborist cutting limb directly over house roof gutter"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent" />
-              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white pointer-events-none">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Спил над водостоками' : 'Precision Gutter Clearance'}
                 </span>
@@ -150,14 +147,14 @@ export function HardkorHero({ config }: { config?: any }) {
 
             {/* Bento Card 3: Zero-Clearance Passage Rounds */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-800 group">
-              <Image
+              <img
                 src="/images/hardkor/trunk-rounds-between-houses.jpg"
                 alt="Massive trunk cut into rounds between two blue houses"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent" />
-              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white pointer-events-none">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Спил между двумя домами' : 'Zero-Clearance Passage'}
                 </span>

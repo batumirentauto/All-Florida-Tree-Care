@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
 import { siteConfigHardkorEn } from '../../siteConfig.hardkor.en'
 
 export function HardkorSpecs({ config }: { config?: any }) {
@@ -37,11 +36,11 @@ export function HardkorSpecs({ config }: { config?: any }) {
               <div>
                 {/* Photo showcase with badge */}
                 <div className="relative h-60 sm:h-72 w-full bg-slate-900 overflow-hidden">
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-black/30" />
                   <div className="absolute top-3 left-3">

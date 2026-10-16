@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
 import { StarRating } from '../StarRating'
 import { siteConfigSeyboldEn } from '../../siteConfig.seybold.en'
 
@@ -103,14 +102,12 @@ export function SeyboldHero({ config }: { config?: any }) {
           <div className="lg:col-span-5 grid grid-cols-2 gap-3 sm:gap-4">
             {/* Bento Main Large Card: Tracked Vermeer CTX100 on grass (Spans 2 cols) */}
             <div className="col-span-2 relative h-64 sm:h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200 group">
-              <Image
+              <img
                 src="/images/seybold/vermeer-grapple-lawn.jpg"
                 alt={siteConfig.hero.heroImageAlt}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                priority
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent pointer-events-none" />
               
               <div className="absolute top-3 left-3">
                 <span className="inline-flex items-center gap-1.5 rounded-md bg-white/95 backdrop-blur-sm px-2.5 py-1 text-[11px] font-bold text-emerald-900 shadow-sm">
@@ -119,7 +116,7 @@ export function SeyboldHero({ config }: { config?: any }) {
                 </span>
               </div>
 
-              <div className="absolute bottom-3 left-3 right-3 text-white">
+              <div className="absolute bottom-3 left-3 right-3 text-white pointer-events-none">
                 <div className="text-xs sm:text-sm font-black drop-shadow-sm">
                   {siteConfig.lang === 'ru' ? 'Вывоз бревен и корней через ухоженный газон' : 'Hauling Heavy Debris Without Turf Tear'}
                 </div>
@@ -131,14 +128,14 @@ export function SeyboldHero({ config }: { config?: any }) {
 
             {/* Bento Card 2: Spider Lift / Driveway Setup */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-200 group">
-              <Image
+              <img
                 src="/images/seybold/spider-lift-tall-pine.jpg"
                 alt="High aerial boom lift setup on driveway"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white pointer-events-none">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Высотные вышки 60+ футов' : '60+ Ft Aerial Lifts'}
                 </span>
@@ -150,14 +147,14 @@ export function SeyboldHero({ config }: { config?: any }) {
 
             {/* Bento Card 3: Coastal Palm Climber */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-200 group">
-              <Image
+              <img
                 src="/images/seybold/coastal-palm-climber.jpg"
                 alt="Arborist climbing coconut palm near waterfront"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white pointer-events-none">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Арбо-альпинизм у воды' : 'Coastal Arborist Rigging'}
                 </span>

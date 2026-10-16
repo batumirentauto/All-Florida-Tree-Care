@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 import { siteConfigHardkorEn } from '../../siteConfig.hardkor.en'
 
 export function HardkorGallery({ config }: { config?: any }) {
@@ -113,11 +112,11 @@ export function HardkorGallery({ config }: { config?: any }) {
               className="bg-[#0f172a] rounded-2xl border border-slate-800 overflow-hidden shadow-xl hover:border-red-500/50 hover:shadow-2xl transition-all group flex flex-col justify-between"
             >
               <div className="relative h-64 w-full bg-slate-900 overflow-hidden">
-                <Image
+                <img
                   src={item.src}
                   alt={item.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent opacity-80" />
               </div>
