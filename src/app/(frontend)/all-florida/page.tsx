@@ -32,16 +32,19 @@ export default function AllFloridaEnglishPage() {
 
   return (
     <div className="min-h-screen bg-[#080d1a] text-slate-100 selection:bg-amber-400 selection:text-slate-950">
-      {/* Back to Hub shortcut bar */}
-      <div className="bg-slate-950/90 border-b border-slate-800 py-1 px-4 text-xs text-slate-400 flex items-center justify-between">
-        <a href="/" className="inline-flex items-center gap-1.5 text-amber-400 hover:text-amber-300 font-semibold transition">
+      {/* Very Top Row: All Crews Navigation & Language Switcher */}
+      <div className="bg-slate-950/95 border-b border-slate-800 py-2 px-4 sm:px-6 text-xs flex items-center justify-between">
+        <a
+          href="/"
+          className="inline-flex items-center gap-1.5 bg-amber-500 text-slate-950 hover:bg-amber-400 font-bold px-3 py-1 rounded shadow transition text-xs"
+        >
           <span>←</span>
-          <span>Каталог всех бригад (Hub)</span>
+          <span>All Crews</span>
         </a>
         <div className="flex items-center gap-2">
-          <span className="text-slate-500">Язык:</span>
-          <span className="font-bold text-white bg-slate-800 px-1.5 py-0.5 rounded text-[10px]">EN</span>
-          <a href="/all-florida/ru" className="text-slate-400 hover:text-white transition text-[10px]">RU</a>
+          <span className="text-slate-400 hidden xs:inline">Language:</span>
+          <span className="font-bold text-white bg-slate-800 px-2 py-0.5 rounded text-[11px]">EN</span>
+          <a href="/all-florida/ru" className="text-slate-400 hover:text-white transition text-[11px] px-1.5 py-0.5">RU</a>
         </div>
       </div>
 

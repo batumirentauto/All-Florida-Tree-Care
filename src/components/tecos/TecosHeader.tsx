@@ -43,15 +43,6 @@ export const TecosHeader: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>
-
-            <a
-              href="/"
-              className="inline-flex items-center gap-1 text-[11px] font-semibold text-yellow-400 hover:text-yellow-300 transition bg-slate-900 border border-slate-800 px-2 py-0.5 rounded-md"
-              title="Перейти в общий каталог бригад"
-            >
-              <span>←</span>
-              <span>{siteConfig.lang === 'ru' ? 'Все бригады' : 'All Crews'}</span>
-            </a>
           </div>
         </div>
       </div>
