@@ -43,6 +43,15 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>
+
+            <a
+              href="/"
+              className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 hover:text-amber-300 transition bg-slate-900 border border-slate-800 px-2.5 py-0.5 rounded-md"
+              title="Перейти в общий каталог бригад"
+            >
+              <span>←</span>
+              <span>{siteConfig.lang === 'ru' ? 'Все бригады' : 'All Crews'}</span>
+            </a>
           </div>
         </div>
       </div>
@@ -50,7 +59,7 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
       {/* Main navigation header */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <div className="min-w-0">
-          <a href={siteConfig.lang === 'ru' ? '/ru' : '/'} className="group block focus:outline-none">
+          <a href={siteConfig.lang === 'ru' ? '/all-florida/ru' : '/all-florida'} className="group block focus:outline-none">
             <span className="block text-sm font-extrabold tracking-tight text-white group-hover:text-amber-400 sm:text-xl leading-tight transition-colors">
               <span className="sm:hidden">{siteConfig.shortName} <span className="font-normal text-xs text-amber-300/80 block">{siteConfig.lang === 'ru' ? 'Спил деревьев и пней' : 'Tree & Stump Care'}</span></span>
               <span className="hidden sm:inline">{siteConfig.businessName}</span>
