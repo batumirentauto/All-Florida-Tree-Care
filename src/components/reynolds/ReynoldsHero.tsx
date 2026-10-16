@@ -64,11 +64,10 @@ export function ReynoldsHero({ config }: { config?: any }) {
             <div className="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 border-t border-slate-800">
               <div className="flex items-center gap-3 bg-slate-900/70 p-3 rounded-xl border border-slate-800 shadow-xs">
                 <div className="flex flex-col">
-                  <div className="flex items-center gap-1">
-                    <StarRating value={siteConfig.ratingValue} size="xs" />
-                    <span className="font-black text-white text-xs">{siteConfig.rating}</span>
+                  <div className="flex items-center gap-1.5">
+                    <StarRating value={siteConfig.ratingValue || 4.7} size="sm" />
                   </div>
-                  <span className="text-[11px] text-slate-400 mt-0.5">
+                  <span className="text-[11px] text-slate-400 mt-1">
                     {siteConfig.lang === 'ru' ? '27 проверенных отзывов' : '27 Verified Reviews'}
                   </span>
                 </div>

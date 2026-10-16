@@ -34,7 +34,7 @@ export const siteConfigReynoldsRu = {
 
   trustBadges: [
     {
-      title: 'Рейтинг Google 4.7',
+      title: 'Проверенные отзывы Google',
       desc: '27 подтвержденных отзывов от риелторов, управляющих недвижимостью и домовладельцев',
       icon: 'star',
     },
@@ -233,6 +233,6 @@ export const siteConfigReynoldsRu = {
     allCrews: 'Все бригады',
     allCrewsLink: '/',
     viewReviews: 'Смотреть все 27 отзывов в Google Карты',
-    googleRating: '4.7 / 5.0 рейтинг Google (27 проверенных отзывов)',
+    googleRating: 'Отзывы Google (27 проверенных отзывов)',
   },
 }

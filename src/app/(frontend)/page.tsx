@@ -519,10 +519,10 @@ export default function CrewsHubPage() {
               {/* Stats & Equipment */}
               <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
-                  <div className="text-slate-400 text-[11px]">Рейтинг Google:</div>
+                  <div className="text-slate-400 text-[11px]">Отзывы Google:</div>
                   <div className="text-sky-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
                     <StarRating value={4.7} size="xs" />
-                    <span>4.7 (27 проверенных отзывов)</span>
+                    <span>(27 проверенных отзывов)</span>
                   </div>
                 </div>
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">

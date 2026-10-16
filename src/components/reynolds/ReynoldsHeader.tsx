@@ -44,8 +44,7 @@ export function ReynoldsHeader({ config }: { config?: any }) {
               className="flex items-center gap-1.5 hover:text-sky-400 transition"
               title="Google Maps Profile"
             >
-              <StarRating value={siteConfig.ratingValue} size="xs" />
-              <span className="font-bold text-white text-xs">{siteConfig.rating}</span>
+              <StarRating value={siteConfig.ratingValue || 4.7} size="xs" />
               <span className="text-slate-400 text-xs hidden xs:inline">
                 ({siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзыва' : 'reviews'})
               </span>

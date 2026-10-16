@@ -34,7 +34,7 @@ export const siteConfigReynoldsEn = {
 
   trustBadges: [
     {
-      title: '4.7 Google Rating',
+      title: 'Top Google Reviews',
       desc: '27 Verified 5-Star Reviews from local homeowners, realtors & property managers',
       icon: 'star',
     },
@@ -233,6 +233,6 @@ export const siteConfigReynoldsEn = {
     allCrews: 'All Crews',
     allCrewsLink: '/',
     viewReviews: 'Read All 27 Reviews on Google Maps',
-    googleRating: '4.7 / 5.0 Google Rating (27 Verified Reviews)',
+    googleRating: 'Google Rating (27 Verified Reviews)',
   },
 }

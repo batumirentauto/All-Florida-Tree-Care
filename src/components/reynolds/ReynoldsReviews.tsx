@@ -12,14 +12,11 @@ export function ReynoldsReviews({ config }: { config?: any }) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         {/* Section Header with 4.7 Summary Badge */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 rounded-full bg-sky-950/80 border border-sky-700/60 px-4 py-1.5 mb-3 shadow-md">
-            <StarRating value={siteConfig.ratingValue} size="xs" />
-            <span className="text-xs font-black text-white">
-              {siteConfig.rating} {siteConfig.lang === 'ru' ? 'из 5.0 в Google Maps' : 'out of 5.0 on Google Maps'}
-            </span>
+          <div className="inline-flex items-center gap-2.5 rounded-full bg-sky-950/80 border border-sky-700/60 px-4 py-1.5 mb-3 shadow-md">
+            <StarRating value={siteConfig.ratingValue || 4.7} size="sm" />
             <span className="text-emerald-400">•</span>
             <span className="text-xs font-bold text-sky-300">
-              {siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'подтвержденных отзывов' : 'Verified Reviews'}
+              {siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'подтвержденных отзывов в Google Maps' : 'Verified Google Maps Reviews'}
             </span>
           </div>
 
