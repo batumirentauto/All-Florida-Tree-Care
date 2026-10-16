@@ -1,6 +1,7 @@
 import { siteConfig as defaultSiteConfig } from '../siteConfig'
 import type { SiteConfig } from '../types/siteConfig'
 import { ExpressCalculator } from './ExpressCalculator'
+import { StarRating } from './StarRating'
 
 export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
@@ -87,7 +88,7 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   <div className="rounded-xl bg-slate-950/90 backdrop-blur-md p-3 border border-slate-700/80 shadow-lg text-xs">
                     <div className="flex items-center justify-between text-white font-bold">
                       <div className="flex items-center gap-2 text-amber-400">
-                        <span className="tracking-widest text-xs">★★★★★</span>
+                        <StarRating value={siteConfig.ratingValue || (siteConfig.rating ? parseFloat(siteConfig.rating) : 5)} size="xs" />
                         {siteConfig.rating ? (
                           <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">{siteConfig.rating}</span>
                         ) : null}

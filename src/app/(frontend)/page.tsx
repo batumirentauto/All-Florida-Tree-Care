@@ -1,5 +1,6 @@
 import React from 'react'
 import type { Metadata } from 'next'
+import { StarRating } from '../../components/StarRating'
 
 export const metadata: Metadata = {
   title: 'Florida Tree Care Crews | Каталог макетов для бригад',
@@ -74,7 +75,10 @@ export default function CrewsHubPage() {
               <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Рейтинг Google:</div>
-                  <div className="text-amber-400 font-bold font-mono mt-0.5">★★★★★ 4.9 (50+ отзывов)</div>
+                  <div className="text-amber-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={4.9} size="xs" />
+                    <span>4.9 (50+ отзывов)</span>
+                  </div>
                 </div>
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
@@ -162,7 +166,10 @@ export default function CrewsHubPage() {
               <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Рейтинг Google:</div>
-                  <div className="text-emerald-400 font-bold font-mono mt-0.5">★★★★★ 5.0 Google Verified</div>
+                  <div className="text-emerald-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 Verified</span>
+                  </div>
                 </div>
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
@@ -240,7 +247,10 @@ export default function CrewsHubPage() {
               <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Рейтинг Google:</div>
-                  <div className="text-yellow-400 font-bold font-mono mt-0.5">★★★★★ (23 отзыва в Google)</div>
+                  <div className="text-yellow-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={4.5} size="xs" />
+                    <span>(23 отзыва в Google)</span>
+                  </div>
                 </div>
                 <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
                   <div className="text-slate-400 text-[11px]">Телефон бригады:</div>

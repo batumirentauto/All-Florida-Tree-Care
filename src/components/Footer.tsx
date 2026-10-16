@@ -1,5 +1,6 @@
 import { siteConfig as defaultSiteConfig } from '../siteConfig'
 import type { SiteConfig } from '../types/siteConfig'
+import { StarRating } from './StarRating'
 
 export const Footer: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
@@ -85,7 +86,10 @@ export const Footer: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-between text-slate-400 hover:text-amber-400 transition"
                 >
-                  <span>{siteConfig.rating ? `${siteConfig.rating} ★ • ` : '★★★★★ • '}{siteConfig.reviewCount} {siteConfig.ui.googleReviews}</span>
+                  <div className="flex items-center gap-1.5">
+                    <StarRating value={siteConfig.ratingValue || (siteConfig.rating ? parseFloat(siteConfig.rating) : 5)} size="xs" />
+                    <span>• {siteConfig.reviewCount} {siteConfig.ui.googleReviews}</span>
+                  </div>
                   <span className="text-[10px] text-amber-400 font-semibold underline">Google Maps →</span>
                 </a>
               </div>

@@ -1,8 +1,11 @@
 import { siteConfig as defaultSiteConfig } from '../siteConfig'
 import type { SiteConfig } from '../types/siteConfig'
+import { StarRating } from './StarRating'
 
 export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
+  const ratingNum = siteConfig.ratingValue || (siteConfig.rating ? parseFloat(siteConfig.rating) : 5)
+
   return (
     <section id="reviews" className="py-20 bg-[#080d1a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -10,7 +13,7 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-slate-800 pb-8">
           <div>
             <div className="flex items-center gap-3">
-              <span className="flex text-amber-400 text-lg tracking-widest" aria-label="5 stars">★★★★★</span>
+              <StarRating value={ratingNum} size="md" />
               <span className="text-xs sm:text-sm font-bold text-white bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-lg shadow-sm">
                 {siteConfig.rating ? `${siteConfig.rating} ` : ''}{siteConfig.ui.googleReviews}
               </span>
@@ -60,11 +63,7 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
                 {/* Stars and Source with generous breathing room and clear divider */}
                 <div className="flex flex-wrap items-center justify-between gap-3 pb-3.5 mb-5 border-b border-slate-800/80">
                   <div className="flex items-center gap-3">
-                    <div className="flex text-amber-400 text-sm tracking-widest" aria-label="5 stars">
-                      {Array.from({ length: review.rating }).map((_, i) => (
-                        <span key={i}>★</span>
-                      ))}
-                    </div>
+                    <StarRating value={review.rating} size="xs" />
                     <span className="text-xs font-mono font-bold text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-800/60">
                       {review.rating}.0
                     </span>

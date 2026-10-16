@@ -13,6 +13,7 @@ export const siteConfigTecosEn = {
   fullAddress: "2511 32nd Ave E, Bradenton, FL 34208",
   mapsUrl: "https://maps.google.com/?q=Tecos+Total+Tree+LLC+Bradenton+FL",
   rating: "",
+  ratingValue: 4.5,
   reviewCount: "23",
   licenseBadge: "Licensed & Insured Commercial Tree Service",
   experienceYears: "12+",
@@ -22,110 +23,110 @@ export const siteConfigTecosEn = {
   hero: {
     badge: "Don & Crew • Bradenton, Lakewood Ranch & Sarasota",
     headline: "Heavy Crane Tree Removal & Precision Stump Grinding",
-    subhead: "Safe piecemeal dismantling of massive trees, canopy wind-thinning, and deep root grinding. Don personally plans every job so your lawn, pool cage, and roof remain pristine.",
+    subhead: "Sectional dismantlement of hazardous trees, hurricane canopy thinning, and deep root grinding. Don directly plans every cut and rigging angle to protect structures, pool cages, and lawn turf.",
     ctaCall: "Call (941) 345-0444",
     ctaText: "Text Photos for an Estimate",
     heroImage: "/images/tecos/crane-street.jpg",
-    heroImageAlt: "Teco's Total Tree mobile crane and crew performing heavy tree removal in Bradenton"
+    heroImageAlt: "Teco's Total Tree mobile crane and crew performing tree removal in Bradenton"
   },
 
   trustBadges: [
     { 
-      title: "Planned Top-to-Bottom, Zero Lawn Gouging", 
-      desc: "Don inspects your property before cutting, mapping rigging angles so massive limbs come down smoothly without gouging sod or rutting driveways." 
+      title: "Detailed Pre-Cut Layout", 
+      desc: "Don inspects your property before making a cut, identifying irrigation lines, fences, and septic tanks to map out safe rigging and drop zones." 
     },
     { 
-      title: "Heavy Mobile Crane & Aerial Rigging", 
-      desc: "For oversized oaks and towering pines over tile roofs or wires, our crane lifts multi-ton sections clear over structures with millimeter precision." 
+      title: "Mobile Crane & Aerial Rigging", 
+      desc: "For heavy oaks and leaning pines close to tile roofs or power lines, our mobile crane lifts heavy wood sections straight up and over structures." 
     },
     { 
-      title: "High-Horsepower Vermeer Stump Grinding", 
-      desc: "Our commercial Vermeer and tracked grinders pulverize stumps deep below grade and chase lateral roots without knocking down fences." 
+      title: "Commercial Vermeer Grinder", 
+      desc: "Our high-horsepower Vermeer machine grinds stumps 10\"–14\" below grade and traces visible surface lateral roots, preparing ground for sod or pavers." 
     },
     { 
-      title: "Same-Day Turnkey Debris Haul-Away", 
-      desc: "We feed limbs into heavy chippers, load timber into high-walled dump trailers, and blow sidewalks clean — leaving your yard spotless." 
+      title: "Full Debris Hauling & Blow Cleanup", 
+      desc: "Wood is processed and hauled in our high-capacity dump trailer, and all walkways, driveways, and lawns are blown clean before departure." 
     }
   ],
 
   services: [
     {
       id: "crane-tree-removal",
-      title: "Heavy Crane & Precision Tree Removal",
-      tagline: "Mobile Crane, Rigging Pulleys & Ground Shields",
-      desc: "Complete sectional dismantling of massive live oaks, hazardous leaning pines, and declining trees. We rig and lower every piece away from roofs, pool cages, and powerlines.",
-      features: ["Mobile Crane Capability", "Controlled Rigging Over Roofs", "Zero Lawn Damage Guarantee"]
+      title: "Sectional Tree Removal (Crane & Rigging)",
+      tagline: "Controlled Dismantling Near Buildings & Wires",
+      desc: "Piecemeal removal of mature live oaks, dead trees, and storm-stressed pines. Heavy sections are rigged with pulleys or hoisted by crane away from structures.",
+      features: ["Mobile Crane Rigging", "Ground Protection Mats", "Tight Space Dismantling"]
     },
     {
       id: "emergency-service",
-      title: "Same-Day Emergency Storm & Hazard Response",
-      tagline: "Fast Manatee & Sarasota County Dispatch",
-      desc: "Rapid response for storm-damaged trunks, split limbs resting on roofs, or fallen trees blocking driveways after severe Florida windstorms and hurricanes.",
-      features: ["Same-Day Emergency Service", "Powerline Hazard Clearance", "Downed Trunk Extraction"]
+      title: "Same-Day Storm Damage & Hazard Clearing",
+      tagline: "Rapid Response for Split Trunks & Blocked Drives",
+      desc: "Emergency removal of fallen trees, storm-snapped branches resting on roofs, and limbs tangled near service drops across Manatee and Sarasota counties.",
+      features: ["Same-Day Emergency Dispatch", "Overhead Wire Clearance", "Downed Trunk Extraction"]
     },
     {
       id: "canopy-trimming",
-      title: "Canopy Trimming & Hurricane Wind Thinning",
-      tagline: "Roof Clearance, Deadwood Pruning & Sun Exposure",
-      desc: "Professional crown thinning and deadwood removal to improve hurricane airflow, keep branches safely away from roof tiles, and enhance canopy beauty.",
-      features: ["Hurricane Wind Mitigation", "10+ Ft Roof Clearance", "Aesthetic Tree Shaping"]
+      title: "Canopy Thinning & Roof Clearance",
+      tagline: "Deadwood Removal & Wind Mitigation",
+      desc: "Targeted thinning of interior branches to reduce wind resistance during summer storms, providing a clean 6 to 10-foot buffer from roof tiles and gutters.",
+      features: ["Roof Buffer Clearance", "Deadwood Removal", "Balanced Weight Distribution"]
     },
     {
       id: "stump-grinding",
-      title: "Commercial Vermeer Stump Grinding",
-      tagline: "10\"–14\" Below Grade with Root Chasing",
-      desc: "Our high-horsepower Vermeer stump grinder eliminates stubborn stumps and follows surface lateral roots, preparing your yard for lush sod or paving.",
-      features: ["Vermeer Deep Grinding", "Lateral Root Chasing", "Window & Fence Protection"]
+      title: "Vermeer Stump Grinding Below Grade",
+      tagline: "10\"–14\" Deep with Lateral Root Tracing",
+      desc: "High-power Vermeer cutter wheel pulverizes stumps well below grade and chases lateral surface roots with protective safety screens shielding surrounding windows.",
+      features: ["10\"–14\" Sub-Grade Depth", "Surface Root Tracing", "Protective Shield Barriers"]
     },
     {
       id: "commercial-tree-care",
-      title: "Commercial & Office Park Tree Care",
-      tagline: "Medical Clinics, Storefronts & HOA Communities",
-      desc: "Rapid scheduling for commercial properties. We trim large oaks and clear walkways while keeping parking lots open, clean, and safe for customers.",
-      features: ["Minimal Business Disruption", "Clean Parking & Sidewalks", "HOA & Commercial Invoicing"]
+      title: "Commercial & Office Grounds Maintenance",
+      tagline: "Clinics, Retail Plazas & HOA Properties",
+      desc: "Scheduled canopy care and tree clearing for commercial centers. Work is phased to keep parking spaces, walkways, and business entrances accessible and safe.",
+      features: ["Phased Parking Lot Access", "Debris-Free Sidewalks", "HOA & Commercial Billing"]
     },
     {
       id: "palm-tree-service",
-      title: "Florida Palm Trimming & Removal",
+      title: "Palm Trimming, Skinning & Removal",
       tagline: "Queen, Sabal, Royal & Tall Fan Palms",
-      desc: "Pruning dead fronds, seed pods, and hazardous leaning palms. We skin trunks cleanly and haul away all heavy fronds and organic debris.",
-      features: ["Tall Palm Trimming", "Complete Frond Haul-Away", "Trunk Skinning & Shaping"]
+      desc: "Pruning yellowing fronds, cutting seed pods, trunk boot skinning, and complete takedown of diseased or overgrown palms of any height.",
+      features: ["Seed Pod & Frond Removal", "Trunk Skinning", "Complete Organic Disposal"]
     }
   ],
 
   howEstimatesWork: {
-    title: "Get a Straightforward Estimate in 3 Easy Steps",
-    step1: "Snap 2 clear photos of the tree, limbs, or stump from wide and close angles.",
-    step2: "Note approximate height and mention fences, gates, pool cages, or powerlines.",
-    step3: "Text photos to (941) 345-0444. Don will review your job and text back a straightforward dollar quote."
+    title: "How to Get a Quote in 3 Steps",
+    step1: "Take 2 clear photos: one wide shot showing nearby fences/roofs, and one close-up of the trunk base or stump.",
+    step2: "Note approximate height and mention gates, pool cages, or nearby power lines.",
+    step3: "Text photos to (941) 345-0444. Don will review the scope and reply with a straightforward dollar estimate."
   },
 
   realisticComparison: {
-    title: "Why Property Owners Choose Teco's Total Tree",
+    title: "Equipment & Execution Reality",
     diyRental: [
-      "Inexperienced contractors drag heavy timber over lawns, leaving deep ruts and broken sprinkler lines",
-      "Rental stump grinders stall on dense Florida live oak roots and take hours of backbreaking effort",
-      "Uninsured crews risk dropping heavy limbs onto pool screens, gutters, or overhead service drops",
-      "Cut trees down and leave massive wood piles on the curb for homeowners to dispose of"
+      "Lightweight rental grinders stall on dense live oak root systems and take hours of manual struggle",
+      "Uninsured handymen risk dropping heavy limbs onto pool enclosures, roof gutters, or service lines",
+      "Crews lacking ground mats drag logs over sod, tearing up grass and crushing shallow irrigation heads",
+      "Contractors who leave large brush piles at the curb, requiring homeowners to schedule county pickup"
     ],
     commercialWay: [
-      "Don personally maps the take-down plan top-to-bottom so your turf and landscaping stay untouched",
-      "High-horsepower Vermeer stump grinders pulverize root balls deep below grade in minutes",
-      "Heavy mobile crane and precision arborist rigging lift multi-ton limbs safely clear of all structures",
-      "High-capacity dump truck and Diamond C trailer haul away all debris the same day — yard blown clean"
+      "Commercial Vermeer stump grinders pulverize large root systems below grade in a single pass",
+      "Mobile crane and arborist rigging pulleys lift and lower heavy sections away from structures",
+      "Don plans transport paths on site to protect turf, driveways, and landscape beds",
+      "High-wall dump truck and trailer haul away all timber and chips the same day with blower cleanup"
     ]
   },
 
   gallery: {
     badge: "Real Bradenton & Sarasota Job Sites",
-    title: "Our Commercial Equipment & Crew in Action",
-    subhead: "No rented garden tools or unverified subcontractors. We arrive with dedicated heavy cranes, commercial Vermeer stump grinders, high-walled dump trucks, and seasoned tree professionals.",
+    title: "Our Equipment & Crew in Action",
+    subhead: "We operate commercial-grade tree equipment: dedicated mobile cranes, high-capacity Vermeer stump grinders, Diamond C dump trailers, and professional Stihl saws.",
     items: [
       {
         src: "/images/tecos/crane-street.jpg",
         alt: "Teco's Total Tree mobile crane lifting tree limbs over residential home in Bradenton",
-        title: "Heavy Mobile Crane Setup",
-        badge: "Zero Impact Rigging",
+        title: "Mobile Crane Operation",
+        badge: "Over-Roof Rigging",
         desc: "Lifting multi-ton tree sections safely over roofs and delicate landscaping in Bradenton."
       },
       {
@@ -138,8 +139,8 @@ export const siteConfigTecosEn = {
       {
         src: "/images/tecos/dump-truck-trailer.jpg",
         alt: "Heavy dump truck with high mesh walls towing Diamond C equipment trailer",
-        title: "Heavy Dump Truck & Haul Fleet",
-        badge: "Turnkey Debris Removal",
+        title: "Dump Truck & Trailer Fleet",
+        badge: "Debris Removal",
         desc: "High-capacity commercial dump truck and trailer hauling all timber and wood chips away."
       },
       {
@@ -147,21 +148,21 @@ export const siteConfigTecosEn = {
         alt: "Before and after photo of mature live oak tree trimming at commercial office 6124",
         title: "Commercial Oak Trimming Before & After",
         badge: "Commercial Office Park",
-        desc: "Canopy pruned for healthy growth with spotless sidewalk and parking clearance completed in 2 days."
+        desc: "Canopy pruned for healthy growth with sidewalk and parking clearance completed in 2 days."
       },
       {
         src: "/images/tecos/van-crew.jpg",
         alt: "Teco's work van with debris trailer and crew on job site",
-        title: "Teco's Work Van & Ground Crew",
-        badge: "Seasoned Local Crew",
+        title: "Teco's Crew & Service Van",
+        badge: "Local Crew",
         desc: "Don and crew on site equipped with Stihl chainsaws, safety gear, and complete cleanup tools."
       },
       {
         src: "/images/tecos/tall-pine-takedown.jpg",
         alt: "Arborist climber dismantling towering pine tree near boundary fence",
         title: "High-Canopy Pine Takedown",
-        badge: "Extreme Height Access",
-        desc: "Safe sectional takedown of towering pines near boundary fences and overhead electric lines."
+        badge: "Height Access",
+        desc: "Sectional takedown of towering pines near boundary fences and overhead electric lines."
       }
     ]
   },
@@ -170,56 +171,56 @@ export const siteConfigTecosEn = {
     {
       author: "Kelly Nelson",
       rating: 5,
-      tag: "38-Year Land Worker Recommendation",
+      tag: "38-Year Land Worker Feedback",
       text: "Don runs an amazing business with top notch staff... works like a well oiled machine. Personal, professional and fast... as God is my witness they take care of my every tree. Having worked on the land for 38 years, I know quality work when I see it!",
       source: "Verified Google Review"
     },
     {
       author: "Michael Wood",
       rating: 5,
-      tag: "Careful Planning & Fair Price",
+      tag: "Top-to-Bottom Planning",
       text: "Don arrived on time and explained how he would take the tree apart from top to bottom so property was not gouged up. No one else spent the time like Tecos. Everything went perfect at a fair price! Will definitely call again.",
       source: "Local Guide • 164 Reviews"
     },
     {
       author: "Anti Aging And Ketamine Center",
       rating: 5,
-      tag: "Commercial Office & Clinic",
+      tag: "Commercial Office Grounds",
       text: "Trimmed a very large oak tree in front of our commercial medical office quickly within 2 days. The parking lot and sidewalks were kept completely neat and safe for our patients. We were so impressed we immediately hired them for our home trees too!",
       source: "Verified Business Client"
     },
     {
       author: "Jamie Starr",
       rating: 5,
-      tag: "Same-Day Emergency Response",
+      tag: "Same-Day Hazard Clearing",
       text: "Quick response time. Same day service of tree removal and haul away. Very fair price and friendly, hardworking crew. They had the dangerous tree down and yard cleaned up before sunset.",
       source: "Verified Google Review"
     },
     {
       author: "Rob Riley",
       rating: 5,
-      tag: "Tall Palm Trimming & Spotless Haul",
+      tag: "Palm Trimming & Debris Haul",
       text: "Trimmed 2 tall palm trees, hauled off ALL debris (and there was a lot!) and blew the yard clean. Extremely careful around landscaping obstacles. Great communication from Don from start to finish.",
       source: "Verified Google Review"
     },
     {
       author: "Jon Lassa",
       rating: 5,
-      tag: "Powerline & Property Safety",
+      tag: "Power Line Clearance",
       text: "Very careful working around overhead powerlines and fences, absolutely no property damage. They rank near the top of any contractor I have ever hired in Florida. Honest, capable, and thorough.",
       source: "Verified Google Review"
     },
     {
       author: "Ryan Felts",
       rating: 5,
-      tag: "Neighborhood Favorite",
+      tag: "Neighborhood Tree Trimming",
       text: "Cut and trimmed trees for our house and several neighbors down the block. Amazing to watch how skilled they are cutting high canopy trees safely and keeping everything controlled.",
       source: "Local Guide • 39 Reviews"
     },
     {
       author: "Ellen James",
       rating: 5,
-      tag: "Spotless Yard Cleanup",
+      tag: "Rake & Blower Cleanup",
       text: "Safe, fast, and completely clean job. They raked and hauled every branch away. Don and the crew were courteous, on time, and left our property in pristine condition. Highly recommend!",
       source: "Verified Google Review"
     }
@@ -313,10 +314,10 @@ export const siteConfigTecosEn = {
     fastResponse: "Fast Quote Turnaround:",
     fastResponseDesc: "Send 2 photos by text to get a straightforward dollar quote from Don within 1 hour.",
     heroCheckmarks: [
-      { strong: "Written Quote in Under 1 Hour", text: "straightforward dollar price from 2 photos — zero delays, zero hidden fees" },
-      { strong: "Heavy Mobile Crane Rigging", text: "controlled lifts safely carry massive limbs over roofs, fences, and powerlines" },
-      { strong: "Zero Turf Ruts or Gouged Lawns", text: "Don plans every drop angle so your grass, pool screen, and driveway stay pristine" },
-      { strong: "Emergency Same-Day Dispatch", text: "rapid response for fallen trunks and split branches across Bradenton & Sarasota" },
+      { strong: "Direct Owner Assessment", text: "Don reviews photos personally — no third-party sales brokers" },
+      { strong: "Mobile Crane Rigging", text: "controlled lifts carry heavy trunk sections over roofs and wires" },
+      { strong: "Property Protection", text: "rigging paths and ground mats prevent damage to turf, fences, and pavers" },
+      { strong: "Same-Day Debris Hauling", text: "high-capacity dump trailer hauls all wood away with blower cleanup" },
     ],
     fastestEstimate: "Fastest Estimate Method",
     estimateSub: "Skip waiting on scheduled site visits. Send photos directly from your phone for a quick, straightforward dollar price.",
@@ -329,30 +330,30 @@ export const siteConfigTecosEn = {
     tapToText: "Tap to Text Photos to Teco's Total Tree:",
     preferCalling: "Prefer calling?",
     callDirectly: "Call directly at",
-    servicesCategory: "Heavy Equipment Capabilities",
+    servicesCategory: "Commercial Capabilities",
     servicesTitle: "Professional Tree Removal & Care Services",
     servicesSub: "Every service is performed using dedicated commercial machinery operated directly by Don and our seasoned crew. We do not rush jobs or leave debris piles behind.",
     textForQuote: "Text for Quote",
     formQuote: "Form Quote →",
-    comparisonCategory: "Real Contractor Insights",
-    comparisonSub: "Lightweight rental tools bounce on Florida oak roots and careless crews gouge lawns. Here is why Don's heavy crane and Vermeer equipment deliver superior results.",
-    diyTitle: "Other Companies & DIY Rentals",
+    comparisonCategory: "Contractor Insights",
+    comparisonSub: "Lightweight rental tools bounce on Florida oak roots and careless crews damage landscaping. Here is how commercial equipment delivers clean, predictable results.",
+    diyTitle: "Rental Tools & General Labor",
     diySubtitle: "The High-Effort / High-Risk Option",
-    diyBadge: "Limited Capability",
-    diyNote: "Trade Reality: Most contractors drag heavy wood across lawns, leaving deep ruts, or leave massive brush piles on the curb for homeowners to haul.",
-    commercialTitle: "Teco's Total Tree Heavy Fleet",
-    commercialSubtitle: "The Professional Contractor Way",
-    commercialBadge: "Heavy Crane + Vermeer Grinder",
-    commercialRibbon: "Recommended Choice",
-    commercialNote: "No equipment deposits. No trailer towing. No lawn damage. Our crew handles the entire project safely and blows the yard clean.",
+    diyBadge: "Limited Equipment",
+    diyNote: "Trade Reality: Light rental tools take hours on live oak roots, and unverified workers often leave large debris piles on the curb.",
+    commercialTitle: "Teco's Total Tree Equipment",
+    commercialSubtitle: "Commercial Contractor Way",
+    commercialBadge: "Crane + Vermeer Grinder",
+    commercialRibbon: "Contractor Fleet",
+    commercialNote: "No equipment rental deposits. No trailer towing. Our crew handles takedown, stump grinding, and hauling on schedule.",
     reviewsCategory: "Verified Local Feedback",
-    reviewsSub: "Unfiltered reviews from property owners, medical clinics, and residents across",
+    reviewsSub: "Reviews from property owners, medical clinics, and residents across",
     reviewsBadge: "Verified Google Reviews",
     reviewsGoogle: "Google Reviews",
     propertyOwner: "Property Owner • Florida",
     areasCategory: "Local Dispatch Coverage",
     areasTitle: "Service Areas Across",
-    areasSub: "Direct mobile dispatch with crane, Vermeer stump grinder, and high-walled dump trailers. Serving Bradenton, Lakewood Ranch, Sarasota & Manatee County.",
+    areasSub: "Direct dispatch with crane, Vermeer stump grinder, and high-walled dump trailers. Serving Bradenton, Lakewood Ranch, Sarasota & Manatee County.",
     checkNeighborhood: "Check Your Neighborhood",
     dispatchNotice: "Direct dispatch service fleet equipped with safety containment curtains & complete cleanup kit.",
     formCategory: "Straightforward Estimates",
@@ -370,7 +371,7 @@ export const siteConfigTecosEn = {
     formUrgent: "Need an immediate reply? You can also",
     footerCoreServices: "Core Services",
     footerLicensing: "Licensing & Coverage",
-    footerLiability: "Full commercial general liability coverage for residential properties, commercial facilities, and HOA communities.",
+    footerLiability: "Commercial general liability coverage for residential properties, commercial facilities, and HOA communities.",
     footerRights: "All rights reserved.",
     footerModular: "Modular config: siteConfig.tecos.en.js"
   }

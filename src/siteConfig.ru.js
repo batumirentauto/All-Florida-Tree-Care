@@ -13,6 +13,7 @@ export const siteConfigRu = {
   fullAddress: "2840 21st St Ct E, Palmetto, FL 34221",
   mapsUrl: "https://maps.app.goo.gl/hdLrE1cP6UX1NF7F9",
   rating: "4.9",
+  ratingValue: 4.9,
   reviewCount: "50+",
   licenseBadge: "Лицензировано и застраховано (Страховка $1,000,000)",
   experienceYears: "15+ лет",

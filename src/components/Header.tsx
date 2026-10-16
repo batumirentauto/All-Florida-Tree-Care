@@ -1,9 +1,11 @@
 import React from 'react'
 import { siteConfig as defaultSiteConfig } from '../siteConfig'
 import type { SiteConfig } from '../types/siteConfig'
+import { StarRating } from './StarRating'
 
 export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
   const siteConfig = config || defaultSiteConfig
+  const ratingNum = siteConfig.ratingValue || (siteConfig.rating ? parseFloat(siteConfig.rating) : 5)
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-[#080d1a]/95 backdrop-blur-md">
@@ -30,12 +32,10 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2.5 hover:opacity-85 transition"
+              className="flex items-center gap-2 hover:opacity-85 transition"
               title="Google Maps Profile"
             >
-              <div className="flex text-amber-400 tracking-wider text-xs" aria-label="5 stars">
-                {'★★★★★'}
-              </div>
+              <StarRating value={ratingNum} size="xs" />
               {siteConfig.rating ? (
                 <span className="font-bold text-white bg-slate-900/80 px-1.5 py-0.5 rounded text-xs border border-slate-800">
                   {siteConfig.rating}
