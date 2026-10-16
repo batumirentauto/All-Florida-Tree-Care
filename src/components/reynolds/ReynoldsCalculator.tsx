@@ -81,8 +81,8 @@ export function ReynoldsCalculator({ config }: { config?: any }) {
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-slate-300">
             {siteConfig.lang === 'ru'
-              ? 'Как отмечает риелтор Трой Роббинс: цены Роберта выгоднее конкурентов при безупречном качестве. Рассчитайте вилку и отправьте фото напрямую Роберту Рейнольдсу.'
-              : 'As confirmed by realtor Troy Robbins: our prices consistently beat competing bids with uncompromising quality. Select your scope and text photos to Rob.'}
+              ? 'Укажите параметры задачи для быстрого расчета ориентировочной стоимости. Для фиксации точной сметы отправьте фото объекта напрямую Робу Рейнольдсу.'
+              : 'Select your project scope for an instant ballpark estimate. For a guaranteed fixed quote, text job photos directly to Rob Reynolds.'}
           </p>
         </div>
 
@@ -231,7 +231,7 @@ export function ReynoldsCalculator({ config }: { config?: any }) {
                   </div>
                   <div className="flex items-center gap-2 text-xs text-slate-300">
                     <span className="text-emerald-400">✓</span>
-                    <span>{siteConfig.lang === 'ru' ? 'Цены выгоднее конкурентов (кейс риелтора)' : 'Prices beat competing quotes (realtor verified)'}</span>
+                    <span>{siteConfig.lang === 'ru' ? 'Бесплатная оценка по фото за 30 минут' : 'Free photo estimate within 30 minutes'}</span>
                   </div>
                   <div className="flex items-center gap-2 text-xs text-slate-300">
                     <span className="text-emerald-400">✓</span>

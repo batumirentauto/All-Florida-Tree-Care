@@ -205,24 +205,24 @@ export const siteConfigReynoldsEn = {
 
   faq: [
     {
-      q: 'Why do Sarasota realtors and property managers recommend Robert Reynolds?',
-      a: 'Realtors like Troy Robbins and Paradise Palms Realty Group trust Rob because he provides honest, transparent pricing that often beats competing bids, shows up strictly on schedule, and delivers dramatic curb appeal upgrades that directly increase property appraisal value before listing.',
+      q: 'Do I need a permit from Sarasota County to remove a tree on my property?',
+      a: 'Under Florida Statute 163.045, trees presenting documentation of danger or structural risk can be removed without local permit delays. For protected grand live oaks or healthy trees within Sarasota County tree ordinances, we assist homeowners in verifying compliance before cutting.',
     },
     {
-      q: 'How does oak thinning protect my home during Florida hurricanes?',
-      a: 'Mature live oaks have dense, heavy leaf canopies that act like sails in high hurricane winds, generating massive torque that can uproot trees or snap giant limbs onto roofs. By selectively thinning the interior canopy, wind passes freely through the crown, dramatically reducing structural wind load while preserving the natural beauty of the tree.',
+      q: 'Will heavy loaders or bucket trucks damage my driveway, lawn, or irrigation?',
+      a: 'No. We operate compact machinery engineered with low-ground-pressure turf tires and deploy heavy-duty composite ground protection mats under all outriggers and drive paths. We locate sprinkler heads and paver borders prior to entry.',
     },
     {
-      q: 'Can you trim tall privacy hedges that are 12 to 15 feet high?',
-      a: 'Yes. As noted in Marvin Shebroe’s verified review (where we trimmed a 60-foot long, 14-foot high hedge), we operate specialized hydraulic equipment and aerial trimmers to sculpt razor-straight boundary screens safely without destroying adjacent flowerbeds.',
+      q: 'What insurance coverage do you carry for high-reach tree work?',
+      a: 'Robert Reynolds Landscape, Inc. maintains full Florida state registration, comprehensive commercial General Liability insurance, and complete Workers Compensation coverage for every crew member on site. Homeowners are 100% protected against liability.',
     },
     {
-      q: 'Do you bring your own heavy equipment to remove giant tree trunks?',
-      a: 'Yes. We operate our own articulated boom bucket truck, New Holland compact loaders, and hydraulic log grapple units. We do not leave heavy trunk rounds rotting on your lawn for weeks; we mechanically lift and haul them away immediately.',
+      q: 'Do you provide complete stump grinding along with tree removals?',
+      a: 'Yes. We utilize specialized mechanical stump grinders that mill tree stumps 6 to 12 inches below grade level. The area is backfilled with rich organic mulch or leveled with topsoil ready for fresh sod or flowerbed plantings.',
     },
     {
-      q: 'Can you trim overgrown branches that block sunlight from our pool?',
-      a: 'Absolutely. A common request from Sarasota homeowners (such as Chris Crew) is elevating and cutting back dense trees hanging over pool cages and boundary fences to restore long, warm evening sunshine to the lanai while eliminating falling leaves in the pool skimmer.',
+      q: 'How quickly can I get an estimate and do you require upfront deposits?',
+      a: 'You can receive a preliminary ballpark estimate within 30 minutes simply by texting job photos to Rob, or schedule a free on-site consultation. We do not require upfront deposits for standard projects; payment is due only when work is complete and the yard is spotless.',
     },
   ],
 
