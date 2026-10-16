@@ -1,0 +1,238 @@
+export const siteConfigReynoldsEn = {
+  lang: 'en',
+  businessName: 'Robert Reynolds Landscape & Tree Service',
+  legalName: 'Robert Reynolds Landscape, Inc.',
+  shortName: 'Robert Reynolds',
+  ownerName: 'Robert Reynolds ("Rob")',
+  tagline: 'Precision Tree Removal, Canopy Thinning & Full Estate Landscape Transformations',
+  slogan: "Sarasota's Trusted Tree & Landscape Authority Since 2004",
+  phone: '(941) 356-2761',
+  phoneAlt: '(941) 960-1147',
+  phoneRaw: '9413562761',
+  city: 'Sarasota',
+  state: 'FL',
+  zip: '34233',
+  streetAddress: '4694 Ashton Rd',
+  fullAddress: '4694 Ashton Rd, Sarasota, FL 34233 (Ashton Center)',
+  mapsUrl: 'https://maps.google.com/?q=Robert+Reynolds+Landscape+Inc+Sarasota+FL',
+  rating: '4.7',
+  ratingValue: 4.7,
+  reviewCount: '27',
+  licenseBadge: 'Licensed & Insured • Florida State Reg • Full Workmans Comp',
+  experienceYears: '20+',
+  workingHours: 'Mon – Fri: 9:00 AM – 4:00 PM • 24/7 Storm Dispatch',
+  addressNotes: 'HQ & Fleet Depot: Ashton Center, 4694 Ashton Rd, Sarasota, FL',
+
+  hero: {
+    badge: 'Sarasota County • Trusted by Top Realtors & Estate Managers',
+    headline: 'Expert Tree Removal, Aerial Bucket Work & Complete Estate Landscape Curb Appeal',
+    subhead: 'Hands-on leadership by Rob Reynolds. From surgical crane and bucket truck removals over residential rooflines to hurricane wind-thinning of majestic live oaks and spotless cleanup.',
+    ctaPrimary: 'Call Rob Directly',
+    ctaSecondary: 'Text Photos for Fast Quote',
+    heroImageAlt: 'Robert Reynolds commercial landscape and tree service truck fleet in Sarasota FL',
+  },
+
+  trustBadges: [
+    {
+      title: '4.7 Google Rating',
+      desc: '27 Verified 5-Star Reviews from local homeowners, realtors & property managers',
+      icon: 'star',
+    },
+    {
+      title: 'Heavy In-House Fleet',
+      desc: 'Aerial bucket truck, hydraulic log grapple, New Holland loaders & STIHL pro saws',
+      icon: 'truck',
+    },
+    {
+      title: 'Realtor & Estate Partner',
+      desc: 'First-choice contractor for pre-listing curb appeal and hurricane oak risk mitigation',
+      icon: 'shield',
+    },
+  ],
+
+  services: [
+    {
+      id: 'hazard-tree-removal',
+      title: 'Hazardous Tree Removal & Dismantling',
+      tagline: 'Zero Impact Near Homes & Enclosures',
+      desc: 'Controlled piecemeal takedown of dead, diseased, or hurricane-damaged oaks, pines, and palms. Stationed bucket trucks and ground rigging prevent any contact with rooflines or pool cages.',
+      features: ['Roof & fence line protection', 'Dead oak & hollow trunk extraction', 'Spotless rake & blow debris haul-away'],
+    },
+    {
+      id: 'oak-thinning-hurricane',
+      title: 'Majestic Oak Thinning & Hurricane Mitigation',
+      tagline: 'Wind-Tunnel Canopy Relief',
+      desc: 'Selective thinning of mature live oak crowns to allow hurricane-force winds to pass cleanly through rather than pushing trees over onto homes, as proven across Sarasota storms.',
+      features: ['Wind-resistance crown reduction', 'Removal of heavy overhanging limbs', 'Preserves shade while protecting structures'],
+    },
+    {
+      id: 'pool-sunlight-clearance',
+      title: 'Pool & Fence Line Canopy Elevation',
+      tagline: 'Maximize Sunlight & Privacy',
+      desc: 'Surgical pruning of encroaching branches over boundary fences and lanais, restoring warm evening sunshine to swimming pools while enhancing backyard aesthetics.',
+      features: ['Extended evening pool sunshine', 'Clearance over fence boundaries', 'Maintains dense lower privacy screening'],
+    },
+    {
+      id: 'large-hedge-sculpting',
+      title: 'High-Reach Hedge Sculpting & Trimming',
+      tagline: 'Up to 14+ Ft Tall & 60+ Ft Long',
+      desc: 'Specialized hydraulic and aerial shaping for massive privacy hedges, ficus walls, and podocarpus screens. Razor-straight vertical lines with thorough ground sweep cleanup.',
+      features: ['Precision laser-straight hedge lines', 'Handles 10–15 ft overgrown borders', 'Complete branch mulching & haul-away'],
+    },
+    {
+      id: 'mature-palm-transplant',
+      title: 'Mature Palm Planting & Tree Spade Relocation',
+      tagline: 'Bismarckia, Medjool & Coconut Palms',
+      desc: 'Heavy New Holland mechanized loaders transport and plant colossal mature palm specimens with intact root systems, instantly transforming residential curb appeal.',
+      features: ['Heavy hydraulic ball & burlap lifting', 'Precision root-depth leveling', 'Deep organic staking & watering setup'],
+    },
+    {
+      id: 'estate-renovation-lighting',
+      title: 'Total Landscape Renovation & Sodding',
+      tagline: 'Pre-Listing Curb Appeal & Outdoor Lighting',
+      desc: 'Comprehensive outdoor makeovers favored by leading Sarasota realtors: old bed rip-out, premium sod installation, low-voltage architectural lighting, and designer plantings.',
+      features: ['Floratam & Zoysia sod installation', 'Low-voltage LED landscape lighting', 'Boosts property appraisal before listing'],
+    },
+  ],
+
+  equipment: [
+    {
+      name: 'Commercial Fleet Hauler & Crew Truck',
+      badge: 'Branded Sarasota Pride',
+      image: '/images/reynolds/fleet-truck-livery.jpg',
+      specs: [
+        { label: 'Vehicle Type', value: 'Cab-Over Heavy Hauler' },
+        { label: 'Payload Body', value: 'Enclosed Tool + Dump Box' },
+        { label: 'Direct Line', value: '(941) 356-2761' },
+      ],
+      desc: 'Custom-built commercial fleet truck fully outfitted with professional chainsaws, pole saws, commercial mowers, and high-capacity debris hauling compartments.',
+    },
+    {
+      name: 'Articulated High-Reach Bucket Truck',
+      badge: 'Roof & Wire Clearance',
+      image: '/images/reynolds/bucket-truck-cropped.jpg',
+      specs: [
+        { label: 'Reach', value: '45+ Ft Aerial Working Height' },
+        { label: 'Positioning', value: 'Zero-Driveway Damage Outriggers' },
+        { label: 'Application', value: 'High Canopy Pruning & Takedown' },
+      ],
+      desc: 'Safely elevates our certified tree cutter directly into high live oak and pine canopies over two-story roofs without risking climber slips or roof tile breakage.',
+    },
+    {
+      name: 'Heavy Hydraulic Log Grapple Loader',
+      badge: 'Multi-Ton Log Moving',
+      image: '/images/reynolds/log-grapple-cropped.jpg',
+      specs: [
+        { label: 'Attachment', value: 'Dual Hydraulic Claws' },
+        { label: 'Capacity', value: 'Giant Multi-Ton Oak Trunks' },
+        { label: 'Efficiency', value: 'Mechanized Loading in Minutes' },
+      ],
+      desc: 'Powerful articulated compact loader equipped with heavy-duty timber grapples. Lifts colossal trunk sections cleanly off lawns without ripping turf or crushing driveways.',
+    },
+    {
+      name: 'New Holland Loader & Palm Spade Unit',
+      badge: 'Exotic Specimen Planting',
+      image: '/images/reynolds/new-holland-loader-cropped.jpg',
+      specs: [
+        { label: 'Machine', value: 'New Holland Heavy Compact Loader' },
+        { label: 'Target', value: 'Mature Bismarck & Royal Palms' },
+        { label: 'Root Protection', value: 'Full Intact Root Ball Rigging' },
+      ],
+      desc: 'Specialized hydraulic machinery for transporting, maneuvering, and precisely seating colossal multi-thousand-pound exotic palms into tight estate courtyards.',
+    },
+  ],
+
+  reviews: [
+    {
+      author: 'Troy Robbins',
+      location: 'Sarasota Realtor • 22 Reviews',
+      rating: 5,
+      date: '8 years ago',
+      highlight: 'Better prices than other quotes • Handled multiple homes for my real estate clients',
+      text: 'Rob and his team have handled multiple jobs for me both personally at my house and for clients of mine that I represent in my real estate career. Not only do they provide great service, but their prices are better than other quotes we have gotten! If you are in need of working with a trustworthy, professional landscaper then I would highly recommend working with them.',
+    },
+    {
+      author: 'Marvin Shebroe',
+      location: 'Local Resident • 61 Reviews',
+      rating: 5,
+      date: '8 years ago',
+      highlight: '60-ft hedge & thinned 4 majestic oaks for hurricane wind safety',
+      text: 'We hired Robert to do our 60 foot 14 ft high hedge. So glad we did. While Robert was out at my house he pointed out the Oak tree branches that were overhanging my house and suggested that the branches should be removed for safety. He also recommended that my 4 majestic Oaks be thinned as a precaution should we get another hurricane so they would not catch the wind. They now look beautiful and I have peace of mind.',
+    },
+    {
+      author: 'Chris Crew',
+      location: 'Homeowner • 11 Reviews',
+      rating: 5,
+      date: '8 years ago',
+      highlight: 'Cut trees over fence to give our pool more evening sunshine',
+      text: 'Rob and his team were fantastic! I have used other companies in the past and they lacked what Rob and his team had: they were professional, prompt and had quick response. We had trees hanging over a fence and he gave me and my wife more sunshine to be able to enjoy our pool longer in the evening. A huge thank you for helping us enjoy our home!',
+    },
+    {
+      author: 'Stevie Krumm',
+      location: 'Local Property Manager • 16 Reviews',
+      rating: 5,
+      date: '7 years ago',
+      highlight: 'Manages 4 estate properties • Stellar customer service & reasonable prices',
+      text: 'I cannot tell you how long I have been looking for a reliable company. Robert Reynolds Landscape fits the bill! I am a local property manager and they have started taking care of four lawns/properties that I manage. Their prices are reasonable, the customer service is stellar! I highly recommend using them for any and all landscaping and tree needs.',
+    },
+    {
+      author: 'Cindy Trombino',
+      location: 'Homeowner • 17 Reviews',
+      rating: 5,
+      date: '8 years ago',
+      highlight: 'Fast and careful with removing very large trees & spotless cleanup',
+      text: 'Professional, reliable and trustworthy crew. Rob Reynolds was easy to talk with and was knowledgeable about what to do in our yard. Got a quote and the crew came out to start work on time as scheduled. They were fast and careful with removing very large trees, and trimming what was needed. I was also pleasantly surprised how well they cleaned up the debris too.',
+    },
+    {
+      author: 'Paradise Palms Realty Group',
+      location: 'Commercial Real Estate Partner • 3 Reviews',
+      rating: 5,
+      date: '8 years ago',
+      highlight: 'From tree trimming to full renovations • Answers phone and shows up on time',
+      text: 'We have used Rob and his crew several times. From tree trimming, simple bush replacement to full landscape renovations, Robert Reynolds has done excellent work. He answers phone calls, shows up on time and gets the job done!',
+    },
+  ],
+
+  serviceAreas: [
+    { name: 'Sarasota (Ashton HQ)', zip: '34233, 34231, 34232', note: 'Central Depot • Rapid Mobilization' },
+    { name: 'Siesta Key', zip: '34242', note: 'Coastal Palms, Wind Trimming & Salt-Tolerant Plants' },
+    { name: 'Palmer Ranch', zip: '34238', note: 'HOA Canopy Elevation & Master Suite Tree Pruning' },
+    { name: 'Lakewood Ranch', zip: '34202, 34211', note: 'Full Estate Makeovers & Specimen Palm Installs' },
+    { name: 'Venice & Nokomis', zip: '34275, 34285', note: 'Hazardous Pine & Oak Removal & Storm Mitigation' },
+    { name: 'Longboat Key & Bird Key', zip: '34228, 34236', note: 'High-End Waterfront Estate Tree Surgery' },
+    { name: 'Bradenton & Fruitville', zip: '34205, 34240', note: 'Acreage Mowing, Hedge Sculpting & Tree Removal' },
+  ],
+
+  faq: [
+    {
+      q: 'Why do Sarasota realtors and property managers recommend Robert Reynolds?',
+      a: 'Realtors like Troy Robbins and Paradise Palms Realty Group trust Rob because he provides honest, transparent pricing that often beats competing bids, shows up strictly on schedule, and delivers dramatic curb appeal upgrades that directly increase property appraisal value before listing.',
+    },
+    {
+      q: 'How does oak thinning protect my home during Florida hurricanes?',
+      a: 'Mature live oaks have dense, heavy leaf canopies that act like sails in high hurricane winds, generating massive torque that can uproot trees or snap giant limbs onto roofs. By selectively thinning the interior canopy, wind passes freely through the crown, dramatically reducing structural wind load while preserving the natural beauty of the tree.',
+    },
+    {
+      q: 'Can you trim tall privacy hedges that are 12 to 15 feet high?',
+      a: 'Yes. As noted in Marvin Shebroe’s verified review (where we trimmed a 60-foot long, 14-foot high hedge), we operate specialized hydraulic equipment and aerial trimmers to sculpt razor-straight boundary screens safely without destroying adjacent flowerbeds.',
+    },
+    {
+      q: 'Do you bring your own heavy equipment to remove giant tree trunks?',
+      a: 'Yes. We operate our own articulated boom bucket truck, New Holland compact loaders, and hydraulic log grapple units. We do not leave heavy trunk rounds rotting on your lawn for weeks; we mechanically lift and haul them away immediately.',
+    },
+    {
+      q: 'Can you trim overgrown branches that block sunlight from our pool?',
+      a: 'Absolutely. A common request from Sarasota homeowners (such as Chris Crew) is elevating and cutting back dense trees hanging over pool cages and boundary fences to restore long, warm evening sunshine to the lanai while eliminating falling leaves in the pool skimmer.',
+    },
+  ],
+
+  ui: {
+    callRob: 'Call Rob (941) 356-2761',
+    officeLine: 'Office: (941) 960-1147',
+    textPhotos: 'Text Photos For Quote',
+    allCrews: 'All Crews',
+    allCrewsLink: '/',
+    viewReviews: 'Read All 27 Reviews on Google Maps',
+    googleRating: '4.7 / 5.0 Google Rating (27 Verified Reviews)',
+  },
+}
