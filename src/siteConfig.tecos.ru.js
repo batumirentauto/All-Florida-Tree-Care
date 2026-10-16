@@ -11,7 +11,7 @@ export const siteConfigTecosRu = {
   zip: "34208",
   streetAddress: "2511 32nd Ave E",
   fullAddress: "2511 32nd Ave E, Bradenton, FL 34208",
-  mapsUrl: "https://maps.google.com/?q=Tecos+Total+Tree+LLC+Bradenton+FL",
+  mapsUrl: "https://maps.app.goo.gl/SpQ6NxTEbGMgCCN6A",
   rating: "",
   ratingValue: 4.5,
   reviewCount: "23",
