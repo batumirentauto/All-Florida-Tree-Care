@@ -43,32 +43,6 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>
             </a>
-
-            {/* Language Switcher Button (EN / RU) */}
-            <div className="flex items-center rounded-lg bg-slate-900 p-0.5 border border-slate-800 text-[11px] font-mono">
-              <a
-                href="/"
-                className={`px-2 py-0.5 rounded transition ${
-                  siteConfig.lang === 'en'
-                    ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-black shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-                title="Switch to English version"
-              >
-                EN
-              </a>
-              <a
-                href="/ru"
-                className={`px-2 py-0.5 rounded transition ${
-                  siteConfig.lang === 'ru'
-                    ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-black shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-                title="Переключить на русскую версию"
-              >
-                RU
-              </a>
-            </div>
           </div>
         </div>
       </div>
