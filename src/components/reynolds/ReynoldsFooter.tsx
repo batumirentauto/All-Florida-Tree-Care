@@ -34,10 +34,16 @@ export function ReynoldsFooter({ config }: { config?: any }) {
                 : 'Articulated high-boom tree removal, hydraulic log loading, hurricane oak mitigation, and complete estate landscape curb appeal across Sarasota County.'}
             </p>
 
-            <div className="flex items-center gap-2 text-xs">
+            <a
+              href={siteConfig.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs text-slate-300 hover:text-sky-300 transition"
+            >
+              <span className="font-semibold text-white">Google Maps</span>
               <StarRating value={siteConfig.ratingValue || 4.7} size="xs" />
-              <span className="text-slate-400">({siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзывов в Google' : 'Google reviews'})</span>
-            </div>
+              <span className="text-slate-400">({siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзывов' : 'reviews'})</span>
+            </a>
           </div>
 
           {/* Col 2: Services Quick Links */}

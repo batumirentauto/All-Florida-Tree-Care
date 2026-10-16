@@ -62,16 +62,25 @@ export function ReynoldsHero({ config }: { config?: any }) {
 
             {/* 3 Core Trust Badges in Bento strip */}
             <div className="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 border-t border-slate-800">
-              <div className="flex items-center gap-3 bg-slate-900/70 p-3 rounded-xl border border-slate-800 shadow-xs">
+              <a
+                href={siteConfig.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-slate-900/70 hover:bg-slate-900 p-3 rounded-xl border border-slate-800 hover:border-sky-500/50 shadow-xs transition group"
+              >
                 <div className="flex flex-col">
                   <div className="flex items-center gap-1.5">
                     <StarRating value={siteConfig.ratingValue || 4.7} size="sm" />
                   </div>
-                  <span className="text-[11px] text-slate-400 mt-1">
-                    {siteConfig.lang === 'ru' ? '27 проверенных отзывов' : '27 Verified Reviews'}
-                  </span>
+                  <div className="flex items-center gap-1 text-[11px] text-slate-300 mt-1">
+                    <span className="font-semibold text-white group-hover:text-sky-300 transition">Google Maps</span>
+                    <span className="text-slate-500">•</span>
+                    <span className="text-slate-400">
+                      {siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзывов' : 'reviews'}
+                    </span>
+                  </div>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center gap-2.5 bg-slate-900/70 p-3 rounded-xl border border-slate-800 shadow-xs">
                 <div className="h-7 w-7 rounded-lg bg-emerald-950/80 border border-emerald-800/80 text-emerald-400 flex items-center justify-center shrink-0">

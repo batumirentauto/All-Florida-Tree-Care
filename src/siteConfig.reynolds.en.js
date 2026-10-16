@@ -34,7 +34,7 @@ export const siteConfigReynoldsEn = {
 
   trustBadges: [
     {
-      title: 'Top Google Reviews',
+      title: 'Google Maps Reviews',
       desc: '27 Verified 5-Star Reviews from local homeowners, realtors & property managers',
       icon: 'star',
     },

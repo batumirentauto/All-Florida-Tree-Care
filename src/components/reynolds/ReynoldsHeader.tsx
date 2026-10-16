@@ -41,12 +41,18 @@ export function ReynoldsHeader({ config }: { config?: any }) {
               href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 hover:text-sky-400 transition"
+              className="flex items-center gap-1.5 hover:text-sky-300 transition"
               title="Google Maps Profile"
             >
+              <span className="font-semibold text-white text-xs flex items-center gap-1">
+                <svg className="w-3.5 h-3.5 text-sky-400 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                Google Maps
+              </span>
               <StarRating value={siteConfig.ratingValue || 4.7} size="xs" />
               <span className="text-slate-400 text-xs hidden xs:inline">
-                ({siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзыва' : 'reviews'})
+                ({siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'отзывов' : 'reviews'})
               </span>
             </a>
 

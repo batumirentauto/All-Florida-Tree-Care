@@ -13,10 +13,17 @@ export function ReynoldsReviews({ config }: { config?: any }) {
         {/* Section Header with 4.7 Summary Badge */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2.5 rounded-full bg-sky-950/80 border border-sky-700/60 px-4 py-1.5 mb-3 shadow-md">
+            <span className="text-xs font-black text-white flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5 text-sky-400 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              Google Maps
+            </span>
+            <span className="text-slate-600">•</span>
             <StarRating value={siteConfig.ratingValue || 4.7} size="sm" />
-            <span className="text-emerald-400">•</span>
+            <span className="text-slate-600">•</span>
             <span className="text-xs font-bold text-sky-300">
-              {siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'подтвержденных отзывов в Google Maps' : 'Verified Google Maps Reviews'}
+              {siteConfig.reviewCount} {siteConfig.lang === 'ru' ? 'проверенных отзывов' : 'Verified Reviews'}
             </span>
           </div>
 

@@ -34,7 +34,7 @@ export const siteConfigReynoldsRu = {
 
   trustBadges: [
     {
-      title: 'Проверенные отзывы Google',
+      title: 'Отзывы на Google Maps',
       desc: '27 подтвержденных отзывов от риелторов, управляющих недвижимостью и домовладельцев',
       icon: 'star',
     },
