@@ -59,16 +59,19 @@ export function ReynoldsSpecs({ config }: { config?: any }) {
                     {item.desc}
                   </p>
 
-                  {/* Spec Chips */}
-                  <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-5 border-t border-slate-800/80">
+                  {/* Technical Specifications */}
+                  <div className="mt-6 space-y-2 pt-5 border-t border-slate-800/80">
                     {item.specs.map((spec: any, sIdx: number) => (
-                      <div key={sIdx} className="bg-slate-900/90 rounded-xl p-3 border border-slate-800">
-                        <div className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider">
+                      <div
+                        key={sIdx}
+                        className="bg-slate-900/80 rounded-xl px-3.5 py-2.5 border border-slate-800/80 flex items-center justify-between gap-3"
+                      >
+                        <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0">
                           {spec.label}
-                        </div>
-                        <div className="text-xs font-bold text-white mt-0.5 leading-snug">
+                        </span>
+                        <span className="text-xs font-bold text-white text-right leading-snug break-words">
                           {spec.value}
-                        </div>
+                        </span>
                       </div>
                     ))}
                   </div>

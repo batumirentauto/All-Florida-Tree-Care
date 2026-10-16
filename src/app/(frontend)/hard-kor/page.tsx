@@ -33,18 +33,20 @@ export default function HardkorEnglishPage() {
   return (
     <div className="min-h-screen bg-[#090d16] text-white selection:bg-red-600 selection:text-white font-sans antialiased">
       {/* Very Top Row: All Crews Navigation & Language Switcher */}
-      <div className="bg-black border-b border-slate-800 py-2 px-4 sm:px-6 text-xs flex items-center justify-between">
-        <a
-          href="/"
-          className="inline-flex items-center gap-1.5 bg-red-600 text-white hover:bg-red-500 font-bold px-3 py-1 rounded shadow transition text-xs"
-        >
-          <span>←</span>
-          <span>All Crews</span>
-        </a>
-        <div className="flex items-center gap-2">
-          <span className="text-slate-400 hidden xs:inline">Language:</span>
-          <span className="font-black text-white bg-red-700 px-2 py-0.5 rounded text-[11px]">EN</span>
-          <a href="/hard-kor/ru" className="text-slate-400 hover:text-white transition text-[11px] font-semibold px-1.5 py-0.5">RU</a>
+      <div className="bg-black border-b border-slate-800 text-xs">
+        <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-2 sm:px-6">
+          <a
+            href="/"
+            className="inline-flex items-center gap-1.5 bg-red-600 text-white hover:bg-red-500 font-bold px-3 py-1 rounded shadow transition text-xs"
+          >
+            <span>←</span>
+            <span>All Crews</span>
+          </a>
+          <div className="flex items-center gap-2">
+            <span className="text-slate-400 hidden xs:inline">Language:</span>
+            <span className="font-black text-white bg-red-700 px-2 py-0.5 rounded text-[11px]">EN</span>
+            <a href="/hard-kor/ru" className="text-slate-400 hover:text-white transition text-[11px] font-semibold px-1.5 py-0.5">RU</a>
+          </div>
         </div>
       </div>
 

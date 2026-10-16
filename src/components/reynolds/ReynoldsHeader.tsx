@@ -19,8 +19,8 @@ export function ReynoldsHeader({ config }: { config?: any }) {
   return (
     <header className="sticky top-0 z-40 bg-[#080e1a]/95 backdrop-blur-md border-b border-sky-500/20 shadow-lg text-white transition-all">
       {/* Top micro verification bar */}
-      <div className="bg-black/80 border-b border-slate-800/80 px-4 py-1 text-xs text-slate-400">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3">
+      <div className="bg-black/80 border-b border-slate-800/80 text-xs text-slate-400">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-1.5 sm:px-6">
           <div className="flex items-center gap-2">
             <span className="flex h-2 w-2 relative">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
@@ -40,7 +40,7 @@ export function ReynoldsHeader({ config }: { config?: any }) {
               href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 hover:text-sky-300 transition"
+              className="flex items-center gap-1.5 hover:text-sky-300 transition shrink-0"
               title="Google Maps Profile"
             >
               <span className="font-semibold text-white text-xs flex items-center gap-1">
@@ -57,7 +57,7 @@ export function ReynoldsHeader({ config }: { config?: any }) {
 
             <span className="text-slate-700 hidden xs:inline">|</span>
 
-            <span className="text-[11px] font-bold text-sky-300 bg-sky-950/80 border border-sky-800/80 px-2 py-0.5 rounded-full hidden sm:inline">
+            <span className="text-[11px] font-bold text-sky-300 bg-sky-950/80 border border-sky-800/80 px-2 py-0.5 rounded-full hidden sm:inline shrink-0">
               {siteConfig.lang === 'ru' ? 'Выбор риелторов Сарасоты' : 'Top Realtor Recommended'}
             </span>
           </div>
@@ -67,22 +67,23 @@ export function ReynoldsHeader({ config }: { config?: any }) {
       {/* Main navigation row */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         {/* Brand identity */}
-        <a href="#hero" className="flex items-center gap-3 group">
-          <div className="h-10 w-10 sm:h-11 sm:w-11 rounded-xl bg-gradient-to-br from-sky-500 to-emerald-600 text-white flex flex-col items-center justify-center font-black shadow-md shadow-sky-700/30 group-hover:scale-105 transition-transform border border-sky-400/40">
+        <a href="#hero" className="flex items-center gap-3 group shrink-0">
+          <div className="h-10 w-10 sm:h-11 sm:w-11 rounded-xl bg-gradient-to-br from-sky-500 to-emerald-600 text-white flex flex-col items-center justify-center font-black shadow-md shadow-sky-700/30 group-hover:scale-105 transition-transform border border-sky-400/40 shrink-0">
             <span className="text-[13px] sm:text-[14px] tracking-tight leading-none">RRL</span>
             <span className="text-[7.5px] font-extrabold tracking-widest text-emerald-100 uppercase leading-none mt-0.5">ELITE</span>
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="text-base sm:text-lg font-black tracking-tight text-white group-hover:text-sky-400 transition-colors">
+              <span className="text-base sm:text-lg font-black tracking-tight text-white group-hover:text-sky-400 transition-colors whitespace-nowrap">
                 Robert Reynolds
               </span>
             </div>
-            <div className="text-[11px] font-semibold text-slate-400 flex items-center gap-1.5">
+            <div className="text-[11px] font-semibold text-slate-400 flex items-center gap-1.5 whitespace-nowrap">
               <span className="text-emerald-400 font-bold">Landscape & Tree</span>
               <span className="text-slate-600">•</span>
-              <span className="text-slate-300 hidden sm:inline">{siteConfig.slogan}</span>
-              <span className="text-slate-300 sm:hidden">Sarasota, FL</span>
+              <span className="text-slate-300">
+                {siteConfig.lang === 'ru' ? 'Сарасота, FL • с 2004 г.' : 'Sarasota, FL • Est. 2004'}
+              </span>
             </div>
           </div>
         </a>

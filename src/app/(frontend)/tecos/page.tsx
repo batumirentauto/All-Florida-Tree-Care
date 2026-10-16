@@ -35,18 +35,20 @@ export default function TecosEnglishPage() {
   return (
     <div className="min-h-screen bg-[#090d16] text-slate-100 selection:bg-yellow-400 selection:text-slate-950 font-sans antialiased">
       {/* Very Top Row: All Crews Navigation & Language Switcher */}
-      <div className="bg-black/95 border-b border-yellow-500/20 py-2 px-4 sm:px-6 text-xs flex items-center justify-between">
-        <a
-          href="/"
-          className="inline-flex items-center gap-1.5 bg-yellow-400 text-slate-950 hover:bg-yellow-300 font-bold px-3 py-1 rounded shadow transition text-xs"
-        >
-          <span>←</span>
-          <span>All Crews</span>
-        </a>
-        <div className="flex items-center gap-2">
-          <span className="text-slate-400 hidden xs:inline">Language:</span>
-          <span className="font-black text-slate-950 bg-yellow-400 px-2 py-0.5 rounded text-[11px]">EN</span>
-          <a href="/tecos/ru" className="text-slate-400 hover:text-white transition text-[11px] font-semibold px-1.5 py-0.5">RU</a>
+      <div className="bg-black/95 border-b border-yellow-500/20 text-xs">
+        <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-2 sm:px-6">
+          <a
+            href="/"
+            className="inline-flex items-center gap-1.5 bg-yellow-400 text-slate-950 hover:bg-yellow-300 font-bold px-3 py-1 rounded shadow transition text-xs"
+          >
+            <span>←</span>
+            <span>All Crews</span>
+          </a>
+          <div className="flex items-center gap-2">
+            <span className="text-slate-400 hidden xs:inline">Language:</span>
+            <span className="font-black text-slate-950 bg-yellow-400 px-2 py-0.5 rounded text-[11px]">EN</span>
+            <a href="/tecos/ru" className="text-slate-400 hover:text-white transition text-[11px] font-semibold px-1.5 py-0.5">RU</a>
+          </div>
         </div>
       </div>
 
