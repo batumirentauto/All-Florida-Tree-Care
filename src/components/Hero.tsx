@@ -77,8 +77,8 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               {/* Photo Showcase with Boom Truck */}
               <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-slate-950">
                 <img
-                  src="/images/all-florida-truck-bucket.jpg"
-                  alt="All Florida Tree Care 60+ Ft Commercial Bucket Truck"
+                  src={siteConfig.hero.heroImage || "/images/all-florida-truck-bucket.jpg"}
+                  alt={siteConfig.hero.heroImageAlt || siteConfig.businessName}
                   className="h-full w-full object-cover"
                 />
 
@@ -88,7 +88,9 @@ export const Hero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                     <div className="flex items-center justify-between text-white font-bold">
                       <div className="flex items-center gap-2 text-amber-400">
                         <span className="tracking-widest text-xs">★★★★★</span>
-                        <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">{siteConfig.rating}</span>
+                        {siteConfig.rating ? (
+                          <span className="font-mono text-xs text-amber-300 font-bold bg-amber-950/80 px-1.5 py-0.5 rounded border border-amber-900/60">{siteConfig.rating}</span>
+                        ) : null}
                         <span className="text-slate-300 text-[11px] font-normal">({siteConfig.reviewCount} {siteConfig.ui.googleReviews})</span>
                       </div>
                       <span className="text-[11px] text-slate-400 font-normal">{siteConfig.city.split(',')[0]}</span>

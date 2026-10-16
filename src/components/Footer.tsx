@@ -85,7 +85,7 @@ export const Footer: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-between text-slate-400 hover:text-amber-400 transition"
                 >
-                  <span>{siteConfig.rating} ★ • {siteConfig.reviewCount} {siteConfig.ui.googleReviews}</span>
+                  <span>{siteConfig.rating ? `${siteConfig.rating} ★ • ` : '★★★★★ • '}{siteConfig.reviewCount} {siteConfig.ui.googleReviews}</span>
                   <span className="text-[10px] text-amber-400 font-semibold underline">Google Maps →</span>
                 </a>
               </div>

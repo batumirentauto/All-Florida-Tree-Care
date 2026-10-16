@@ -12,7 +12,7 @@ export const ReviewsSection: React.FC<{ config?: SiteConfig }> = ({ config }) =>
             <div className="flex items-center gap-3">
               <span className="flex text-amber-400 text-lg tracking-widest" aria-label="5 stars">★★★★★</span>
               <span className="text-xs sm:text-sm font-bold text-white bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-lg shadow-sm">
-                {siteConfig.rating} {siteConfig.ui.googleReviews}
+                {siteConfig.rating ? `${siteConfig.rating} ` : ''}{siteConfig.ui.googleReviews}
               </span>
             </div>
             <h2 className="mt-2 text-2xl sm:text-4xl font-extrabold text-white">

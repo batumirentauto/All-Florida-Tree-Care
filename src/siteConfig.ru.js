@@ -24,7 +24,9 @@ export const siteConfigRu = {
     headline: "Профессиональный спил деревьев и дробление пней",
     subhead: "Безопасный демонтаж аварийных деревьев, кронирование и корчевка пней фрезой. Защищаем кровлю, стекла и сетки бассейнов от падения веток — чистый газон за 1 день.",
     ctaCall: "Позвонить: (941) 587-9271",
-    ctaText: "Отправить фото для оценки"
+    ctaText: "Отправить фото для оценки",
+    heroImage: "/images/all-florida-truck-bucket.jpg",
+    heroImageAlt: "Автовышка All Florida Tree Care 18+ метров"
   },
 
   trustBadges: [

@@ -36,9 +36,11 @@ export const Header: React.FC<{ config?: SiteConfig }> = ({ config }) => {
               <div className="flex text-amber-400 tracking-wider text-xs" aria-label="5 stars">
                 {'★★★★★'}
               </div>
-              <span className="font-bold text-white bg-slate-900/80 px-1.5 py-0.5 rounded text-xs border border-slate-800">
-                {siteConfig.rating}
-              </span>
+              {siteConfig.rating ? (
+                <span className="font-bold text-white bg-slate-900/80 px-1.5 py-0.5 rounded text-xs border border-slate-800">
+                  {siteConfig.rating}
+                </span>
+              ) : null}
               <span className="text-slate-400 hidden xs:inline text-xs">
                 ({siteConfig.reviewCount} {siteConfig.ui.googleReviews})
               </span>

@@ -24,7 +24,9 @@ export const siteConfigEn = {
     headline: "Precision Tree Removal & Stump Grinding",
     subhead: "Safe sectional dismantling of hazardous trees and aerial canopy pruning. We protect roofs, lanai screens, and irrigation lines — spotless yard finish in one day.",
     ctaCall: "Call (941) 587-9271",
-    ctaText: "Text Photos for an Estimate"
+    ctaText: "Text Photos for an Estimate",
+    heroImage: "/images/all-florida-truck-bucket.jpg",
+    heroImageAlt: "All Florida Tree Care 60+ Ft Commercial Bucket Truck"
   },
 
   trustBadges: [
