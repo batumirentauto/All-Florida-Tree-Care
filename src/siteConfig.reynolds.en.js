@@ -97,17 +97,6 @@ export const siteConfigReynoldsEn = {
 
   equipment: [
     {
-      name: 'Commercial Fleet Hauler & Crew Truck',
-      badge: 'Branded Sarasota Pride',
-      image: '/images/reynolds/fleet-truck-livery.jpg',
-      specs: [
-        { label: 'Vehicle Type', value: 'Cab-Over Heavy Hauler' },
-        { label: 'Payload Body', value: 'Enclosed Tool + Dump Box' },
-        { label: 'Direct Line', value: '(941) 356-2761' },
-      ],
-      desc: 'Custom-built commercial fleet truck fully outfitted with professional chainsaws, pole saws, commercial mowers, and high-capacity debris hauling compartments.',
-    },
-    {
       name: 'Articulated High-Reach Bucket Truck',
       badge: 'Roof & Wire Clearance',
       image: '/images/reynolds/bucket-truck-cropped.jpg',

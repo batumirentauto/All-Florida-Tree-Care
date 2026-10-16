@@ -26,8 +26,8 @@ export function ReynoldsSpecs({ config }: { config?: any }) {
           </p>
         </div>
 
-        {/* 4 Fleet & Rigging Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        {/* 3 Specialized Heavy Equipment Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {siteConfig.equipment.map((item: any, idx: number) => (
             <div
               key={idx}

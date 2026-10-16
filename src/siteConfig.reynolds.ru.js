@@ -97,17 +97,6 @@ export const siteConfigReynoldsRu = {
 
   equipment: [
     {
-      name: 'Фирменный тяжелый грузовик Robert Reynolds',
-      badge: 'Гордость Сарасоты',
-      image: '/images/reynolds/fleet-truck-livery.jpg',
-      specs: [
-        { label: 'Тип шасси', value: 'Тяжелый бескапотный грузовик' },
-        { label: 'Кузов', value: 'Инструментальный отсек + самосвальный бункер' },
-        { label: 'Прямой телефон', value: '(941) 356-2761' },
-      ],
-      desc: 'Большой специализированный грузовик с фирменной оклейкой. Полностью укомплектован профессиональными пилами STIHL, высотными сучкорезами и вместительным кузовом для быстрого вывоза веток.',
-    },
-    {
       name: 'Автовышка со стрелой и люлькой (Bucket Truck)',
       badge: 'Высотный спил над крышами',
       image: '/images/reynolds/bucket-truck-cropped.jpg',

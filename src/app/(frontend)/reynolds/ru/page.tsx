@@ -6,7 +6,6 @@ import { ReynoldsHero } from '../../../../components/reynolds/ReynoldsHero'
 import { ReynoldsSpecs } from '../../../../components/reynolds/ReynoldsSpecs'
 import { ReynoldsServices } from '../../../../components/reynolds/ReynoldsServices'
 import { ReynoldsCalculator } from '../../../../components/reynolds/ReynoldsCalculator'
-import { ReynoldsGallery } from '../../../../components/reynolds/ReynoldsGallery'
 import { ReynoldsReviews } from '../../../../components/reynolds/ReynoldsReviews'
 import { ReynoldsServiceAreas } from '../../../../components/reynolds/ReynoldsServiceAreas'
 import { ReynoldsFooter } from '../../../../components/reynolds/ReynoldsFooter'
@@ -65,10 +64,7 @@ export default function ReynoldsRussianPage() {
         {/* Interactive Instant Estimator */}
         <ReynoldsCalculator config={config} />
 
-        {/* Real Photo Gallery */}
-        <ReynoldsGallery config={config} />
-
-        {/* Verified 4.7 Google Reviews */}
+        {/* Verified Google Maps Reviews */}
         <ReynoldsReviews config={config} />
 
         {/* Service Territory & FAQ Accordion */}

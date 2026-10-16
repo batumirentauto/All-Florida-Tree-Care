@@ -132,34 +132,34 @@ export function ReynoldsHero({ config }: { config?: any }) {
               </div>
             </div>
 
-            {/* Bottom Left Card: Bucket Truck over Roof */}
+            {/* Bottom Left Card: Arborist Canopy Climber */}
             <div className="relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md hover:border-sky-500/50 transition-colors">
               <img
-                src="/images/reynolds/bucket-truck-cropped.jpg"
-                alt="Robert Reynolds bucket truck operating over roof in Sarasota"
+                src="/images/reynolds/arborist-climber-canopy.jpg"
+                alt="Robert Reynolds tree climber with STIHL saw in high canopy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
               <div className="absolute bottom-2 left-2 right-2">
                 <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
-                  {siteConfig.lang === 'ru' ? 'Автовышка над крышей' : 'Aerial Bucket Truck'}
+                  {siteConfig.lang === 'ru' ? 'Верхолаз в кроне с пилой STIHL' : 'Precision Canopy Climber'}
                 </span>
               </div>
             </div>
 
-            {/* Bottom Right Card: Hydraulic Log Grapple or New Holland Loader */}
+            {/* Bottom Right Card: Commercial Mower Grounds Care */}
             <div className="relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md hover:border-emerald-500/50 transition-colors">
               <img
-                src="/images/reynolds/log-grapple-cropped.jpg"
-                alt="Hydraulic log grapple moving heavy timber"
+                src="/images/reynolds/commercial-mower-lawn.jpg"
+                alt="Commercial zero-turn mower maintaining estate lawn"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
               <div className="absolute bottom-2 left-2 right-2">
                 <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
-                  {siteConfig.lang === 'ru' ? 'Челюстной захват бревен' : 'Hydraulic Log Grapple'}
+                  {siteConfig.lang === 'ru' ? 'Преображение газона поместья' : 'Estate Grounds & Turf Care'}
                 </span>
               </div>
             </div>

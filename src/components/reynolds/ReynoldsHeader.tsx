@@ -11,7 +11,6 @@ export function ReynoldsHeader({ config }: { config?: any }) {
   const navLinks = [
     { label: siteConfig.lang === 'ru' ? 'Услуги' : 'Services', href: '#services' },
     { label: siteConfig.lang === 'ru' ? 'Спецтехника' : 'Equipment', href: '#equipment' },
-    { label: siteConfig.lang === 'ru' ? 'Галерея' : 'Gallery', href: '#gallery' },
     { label: siteConfig.lang === 'ru' ? 'Калькулятор' : 'Estimator', href: '#calculator' },
     { label: siteConfig.lang === 'ru' ? 'Отзывы' : 'Reviews', href: '#reviews' },
     { label: siteConfig.lang === 'ru' ? 'Контакты' : 'Contact', href: '#contact' },
