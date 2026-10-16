@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 import { siteConfigSeyboldEn } from '../../siteConfig.seybold.en'
 
 export function SeyboldGallery({ config }: { config?: any }) {
@@ -111,11 +110,11 @@ export function SeyboldGallery({ config }: { config?: any }) {
               className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs hover:shadow-md transition-shadow group flex flex-col justify-between"
             >
               <div className="relative h-60 w-full bg-slate-100 overflow-hidden">
-                <Image
+                <img
                   src={item.src}
                   alt={item.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                 />
               </div>
               <div className="p-4 flex-1 flex flex-col justify-between">

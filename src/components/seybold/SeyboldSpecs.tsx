@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
 import { siteConfigSeyboldEn } from '../../siteConfig.seybold.en'
 
 export function SeyboldSpecs({ config }: { config?: any }) {
@@ -37,11 +36,11 @@ export function SeyboldSpecs({ config }: { config?: any }) {
               <div>
                 {/* Photo showcase with badge */}
                 <div className="relative h-56 sm:h-64 w-full bg-slate-100 overflow-hidden group">
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
                   />
                   <div className="absolute top-3 left-3">
                     <span className="inline-flex items-center rounded-md bg-white/95 backdrop-blur-sm px-2.5 py-1 text-xs font-bold text-emerald-900 shadow-xs border border-slate-200/60">
