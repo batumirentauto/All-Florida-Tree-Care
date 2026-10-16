@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { StarRating } from '../StarRating'
 import { siteConfigSeyboldEn } from '../../siteConfig.seybold.en'
 
@@ -102,13 +103,14 @@ export function SeyboldHero({ config }: { config?: any }) {
           <div className="lg:col-span-5 grid grid-cols-2 gap-3 sm:gap-4">
             {/* Bento Main Large Card: Tracked Vermeer CTX100 on grass (Spans 2 cols) */}
             <div className="col-span-2 relative h-64 sm:h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200 group">
-              <img
+              <Image
                 src="/images/seybold/vermeer-grapple-lawn.jpg"
                 alt={siteConfig.hero.heroImageAlt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="eager"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
               
               <div className="absolute top-3 left-3">
                 <span className="inline-flex items-center gap-1.5 rounded-md bg-white/95 backdrop-blur-sm px-2.5 py-1 text-[11px] font-bold text-emerald-900 shadow-sm">
@@ -129,13 +131,13 @@ export function SeyboldHero({ config }: { config?: any }) {
 
             {/* Bento Card 2: Spider Lift / Driveway Setup */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-200 group">
-              <img
+              <Image
                 src="/images/seybold/spider-lift-tall-pine.jpg"
                 alt="High aerial boom lift setup on driveway"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
               <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Высотные вышки 60+ футов' : '60+ Ft Aerial Lifts'}
@@ -148,13 +150,13 @@ export function SeyboldHero({ config }: { config?: any }) {
 
             {/* Bento Card 3: Coastal Palm Climber */}
             <div className="relative h-44 sm:h-48 rounded-2xl overflow-hidden shadow-sm border border-slate-200 group">
-              <img
+              <Image
                 src="/images/seybold/coastal-palm-climber.jpg"
                 alt="Arborist climbing coconut palm near waterfront"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
               <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
                 <span className="text-[10px] sm:text-[11px] font-bold block leading-tight">
                   {siteConfig.lang === 'ru' ? 'Арбо-альпинизм у воды' : 'Coastal Arborist Rigging'}
