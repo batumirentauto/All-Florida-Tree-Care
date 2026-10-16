@@ -24,8 +24,8 @@ export default function CrewsHubPage() {
             <span className="text-slate-600 hidden sm:inline">•</span>
             <span className="hidden sm:inline text-slate-400">Единая панель макетов бригад</span>
           </div>
-          <div className="text-xs font-mono text-amber-400 font-medium">
-            3 активные бригады
+          <div className="text-xs font-mono text-emerald-400 font-bold">
+            4 активные бригады
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@ export default function CrewsHubPage() {
           </p>
         </div>
 
-        {/* Crews Grid */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Crews Grid: 2x2 Layout for 4 Active Crews */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Crew Card 1: All Florida Tree Care LLC */}
           <div className="relative rounded-2xl border-2 border-amber-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-amber-400 group">
             <div>
@@ -309,30 +309,124 @@ export default function CrewsHubPage() {
               </div>
             </div>
           </div>
+
+          {/* Crew Card 4: Seybold Property Solutions (SPS) */}
+          <div className="relative rounded-2xl border-2 border-emerald-500/50 bg-gradient-to-b from-slate-900/95 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-emerald-400 group">
+            <div>
+              {/* Header Badge */}
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-emerald-950/90 border border-emerald-700/80 px-2.5 py-1 text-xs font-bold text-emerald-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  В этом проекте • Светлая тема
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #4
+                </span>
+              </div>
+
+              {/* Title & Location */}
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-emerald-400 transition">
+                Seybold Property Solutions (SPS)
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Ellenton, Bradenton, Parrish, Sarasota</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-emerald-400 font-semibold">Райан Сейболд (Ryan Seybold)</span>
+              </div>
+
+              {/* Stats & Equipment */}
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Рейтинг Google:</div>
+                  <div className="text-emerald-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 (23 отзыва, 100% высший балл)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефоны бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(941) 212-8294 • (941) 812-2741</div>
+                </div>
+              </div>
+
+              {/* Strengths & Features */}
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Гусеничный Vermeer CTX100: 0 повреждений и колеи на газоне</li>
+                  <li>• Очистка дубов от испанского мха (оценка Master Gardener)</li>
+                  <li>• Дробление пней в 5 см от заборов гидрофрезой</li>
+                  <li>• Экстренный выезд 24/7: ликвидация завалов за 2 часа</li>
+                </ul>
+              </div>
+
+              {/* Color Scheme Tag */}
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-emerald-950/60 border border-emerald-800/60 px-2 py-0.5 text-emerald-300 font-mono">
+                  Clean Light Theme & Florida Emerald
+                </span>
+              </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/seybold"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 px-4 py-2 text-xs font-black text-slate-950 shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/seybold/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-emerald-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://maps.google.com/?q=Seybold+Property+Solutions+Ellenton+FL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Slot for Crew #4 (Placeholder for next client) */}
+        {/* Slot for Crew #5 (Placeholder for next client) */}
         <div className="mt-8 rounded-2xl border-2 border-dashed border-slate-800 bg-slate-950/40 p-8 text-center">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-slate-900 border border-slate-800 text-amber-400 font-black text-xl">
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-slate-900 border border-slate-800 text-emerald-400 font-black text-xl">
             +
           </div>
           <h3 className="mt-3 text-lg font-bold text-white">
-            Готово к добавлению следующей бригады (Бригада #4)
+            Готово к добавлению следующей бригады (Бригада #5)
           </h3>
           <p className="mt-1 text-xs text-slate-400 max-w-lg mx-auto leading-relaxed">
-            Как только появится следующая бригада во Флориде (Тампа, Орландо, Клируотер или Майами) — мы просто создадим для неё конфиг и новую страницу (например, <code className="text-amber-300 font-mono">/crew-4</code>).
+            Как только появится следующая бригада во Флориде — мы просто добавим для неё конфиг, фотографии и страницы без перезапуска серверов.
           </p>
         </div>
 
         {/* Workflow Guide */}
         <div className="mt-10 rounded-xl bg-slate-900/60 border border-slate-800 p-5 text-xs text-slate-400">
           <div className="font-bold text-slate-200 mb-1">Как быстро передавать ссылки клиентам:</div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-2">
             <div>
-              <span className="text-slate-300 font-semibold">• Бригада All Florida:</span> прямая ссылка <span className="text-amber-400 font-mono">/all-florida</span> (EN) или <span className="text-amber-400 font-mono">/all-florida/ru</span>.
+              <span className="text-slate-300 font-semibold">• All Florida Tree Care:</span> прямая ссылка <span className="text-amber-400 font-mono">/all-florida</span> (EN) или <span className="text-amber-400 font-mono">/all-florida/ru</span>.
             </div>
             <div>
-              <span className="text-slate-300 font-semibold">• Бригада Teco&apos;s Total Tree:</span> прямая ссылка <span className="text-yellow-400 font-mono">/tecos</span> (EN) или <span className="text-yellow-400 font-mono">/tecos/ru</span>.
+              <span className="text-slate-300 font-semibold">• Teco&apos;s Total Tree:</span> прямая ссылка <span className="text-yellow-400 font-mono">/tecos</span> (EN) или <span className="text-yellow-400 font-mono">/tecos/ru</span>.
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Seybold Property Solutions:</span> прямая ссылка <span className="text-emerald-400 font-mono">/seybold</span> (EN) или <span className="text-emerald-400 font-mono">/seybold/ru</span>.
             </div>
           </div>
         </div>
