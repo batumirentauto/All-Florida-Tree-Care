@@ -97,48 +97,48 @@ export const siteConfigHardkorEn = {
 
   equipment: [
     {
-      name: "Industrial Grapple Claw-Truck",
-      badge: "Heavy Duty Rapid Cleanup",
-      image: "/images/hardkor/hard-kor-elite-uniform.jpg",
-      specs: [
-        { label: "Loader Type", value: "Hydraulic Knuckle-Boom Grapple" },
-        { label: "Haul Capacity", value: "Multi-Ton Heavy Log Body" },
-        { label: "Cleanup Speed", value: "Debris Gone in Minutes" }
-      ],
-      desc: "Mechanized timber extraction. Eliminates the back-breaking delay of manual loading, hauling entire mature tree canopies and heavy trunks off-site immediately."
-    },
-    {
-      name: "Mobile Crane Rigging Fleet",
-      badge: "Tight Urban Precision",
-      image: "/images/hardkor/trunk-rounds-between-houses.jpg",
-      specs: [
-        { label: "Access", value: "Compact St. Pete Front Yards" },
-        { label: "Safety", value: "100% Aerial Tie-Off Rigging" },
-        { label: "Target", value: "Roofs, Fences & Power Lines" }
-      ],
-      desc: "Safely stationed in narrow residential driveways. Lifts heavy sections of live oak straight up over homes, eliminating impacts on underlying patios and breezeways."
-    },
-    {
-      name: "Manual Arborist Climbing Rigging",
-      badge: "Zero Machinery Footprint",
-      image: "/images/hardkor/climber-over-roof-gutter.jpg",
-      specs: [
-        { label: "Climber", value: "Karode Reid & Elite Verifiers" },
-        { label: "Technique", value: "Block & Tackle Friction Rigging" },
-        { label: "Turf Impact", value: "Zero Tire Marks on Grass" }
-      ],
-      desc: "For rear courtyards where no crane can reach. Reid climbs into the crown, anchoring friction rigging lines to lower limbs gently above delicate gutter systems."
-    },
-    {
       name: "Professional STIHL Heavy Saw Fleet",
       badge: "Severe Timber Processing",
-      image: "/images/hardkor/cutting-colossal-stump-stihl.jpg",
+      image: "/images/hardkor/stihl-saw-action.jpg",
       specs: [
         { label: "Equipment", value: "STIHL Professional Powerheads" },
         { label: "Bar Lengths", value: "Up to 36″–42″ Guide Bars" },
         { label: "Capacity", value: "Colossal 6+ Ft Diameter Trunks" }
       ],
       desc: "Heavy-displacement commercial chainsaws capable of cutting through iron-dense mature live oak root flares and monster trunks cleanly in record time."
+    },
+    {
+      name: "Overhead Crane & Sling Roof Rigging",
+      badge: "Overhead Sling Rigging",
+      image: "/images/hardkor/crane-sling-roof-rigging.jpg",
+      specs: [
+        { label: "Access", value: "Suspended Over Roofs & Wires" },
+        { label: "Safety", value: "High-Tension Slings & Rigging Cables" },
+        { label: "Target", value: "Roofs, Patios & Screen Enclosures" }
+      ],
+      desc: "Lifting multi-ton fallen oaks directly off crushed residential roofs. Dynamic slings secure timber in mid-air before cutting, protecting delicate roof structures."
+    },
+    {
+      name: "Manual Arborist Climbing Rigging",
+      badge: "Precision Gutter Clearance",
+      image: "/images/hardkor/climber-gutter-rigging.jpg",
+      specs: [
+        { label: "Climber", value: "Karode Reid Personally On-Site" },
+        { label: "Technique", value: "Block & Tackle Friction Rigging" },
+        { label: "Turf Impact", value: "Zero Tire Marks on Grass" }
+      ],
+      desc: "For rear courtyards where no machine can fit. Reid climbs into the crown, anchoring friction rigging lines to lower limbs gently above delicate gutter systems."
+    },
+    {
+      name: "Emergency Storm Mobilization Gear",
+      badge: "Hard Kor Elite Response",
+      image: "/images/hardkor/ladder-rigging-crew.jpg",
+      specs: [
+        { label: "Gear", value: "Heavy-Duty Ladders & Climbing Harnesses" },
+        { label: "Crew", value: "Uniformed Hard Kor FL, LLC Team" },
+        { label: "Availability", value: "24/7 Rapid Emergency Dispatch" }
+      ],
+      desc: "Comprehensive mobile storm response arsenal for immediate clearing of fractured trees, splintered limbs, and storm-damaged properties across Pinellas."
     }
   ],
 

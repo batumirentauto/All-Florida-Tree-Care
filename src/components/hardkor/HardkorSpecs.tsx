@@ -35,7 +35,7 @@ export function HardkorSpecs({ config }: { config?: any }) {
             >
               <div>
                 {/* Photo showcase with badge */}
-                <div className="relative h-60 sm:h-72 w-full bg-slate-900 overflow-hidden">
+                <div className="relative h-64 sm:h-80 w-full bg-slate-900 overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.name}
