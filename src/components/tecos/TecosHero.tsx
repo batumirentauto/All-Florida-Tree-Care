@@ -96,11 +96,16 @@ export const TecosHero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
                 <div className="absolute top-3 left-3">
                   <span className="inline-flex items-center gap-1.5 rounded bg-yellow-400 px-2.5 py-1 text-[11px] font-black uppercase tracking-wider text-slate-950 shadow">
-                    Mobile Crane Rigging
+                    {siteConfig.lang === 'ru' ? 'Поддержка автокрана' : 'Mobile Crane Rigging'}
                   </span>
                 </div>
                 <div className="absolute bottom-3 left-3 right-3 text-xs text-slate-200">
-                  <span className="font-bold text-white">Over-Roof Crane Access:</span> lifts multi-ton sections safely over roofs and delicate landscaping.
+                  <span className="font-bold text-white">
+                    {siteConfig.lang === 'ru' ? 'Спуск через крышу:' : 'Over-Roof Crane Access:'}
+                  </span>{' '}
+                  {siteConfig.lang === 'ru'
+                    ? 'безопасный перенос срезанных ветвей и стволов над строениями.'
+                    : 'lifts multi-ton sections safely over roofs and delicate landscaping.'}
                 </div>
               </div>
             </div>
@@ -118,11 +123,11 @@ export const TecosHero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
                   <div className="absolute top-2 left-2">
                     <span className="rounded bg-slate-900/90 border border-yellow-500/50 px-2 py-0.5 text-[10px] font-bold text-yellow-400">
-                      Vermeer 14&quot; Sub-Grade
+                      {siteConfig.lang === 'ru' ? 'Фреза Vermeer 25–35 см' : 'Vermeer 14" Sub-Grade'}
                     </span>
                   </div>
                   <div className="absolute bottom-2 left-2 right-2 text-[11px] text-slate-300 font-medium">
-                    Deep root pulverization
+                    {siteConfig.lang === 'ru' ? 'Глубокое удаление корней' : 'Deep root pulverization'}
                   </div>
                 </div>
               </div>
@@ -138,11 +143,11 @@ export const TecosHero: React.FC<{ config?: SiteConfig }> = ({ config }) => {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
                   <div className="absolute top-2 left-2">
                     <span className="rounded bg-slate-900/90 border border-yellow-500/50 px-2 py-0.5 text-[10px] font-bold text-yellow-400">
-                      Commercial Clinic Job
+                      {siteConfig.lang === 'ru' ? 'Кейс клиники 6124' : 'Commercial Clinic Job'}
                     </span>
                   </div>
                   <div className="absolute bottom-2 left-2 right-2 text-[11px] text-slate-300 font-medium">
-                    Parking & sidewalk clearance
+                    {siteConfig.lang === 'ru' ? 'Чистый тротуар и парковка' : 'Parking & sidewalk clearance'}
                   </div>
                 </div>
               </div>

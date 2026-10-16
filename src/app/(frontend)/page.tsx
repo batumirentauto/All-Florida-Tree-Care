@@ -262,7 +262,7 @@ export default function CrewsHubPage() {
               <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
                 <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
                 <ul className="space-y-1 text-slate-300">
-                  <li>• Тяжелый автокран: подъем стволов над крышами и проводами</li>
+                  <li>• Поддержка автокрана: перенос тяжелых ветвей над крышами</li>
                   <li>• Мощная фреза Vermeer: корчевка пней на глубину 25–35 см</li>
                   <li>• Дон рассчитывает спуск: 0 повреждений газона и плитки</li>
                   <li>• Выезд в день обращения + самосвал Diamond C</li>

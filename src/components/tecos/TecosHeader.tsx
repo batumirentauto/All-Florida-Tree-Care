@@ -26,7 +26,7 @@ export const TecosHeader: React.FC<{ config?: SiteConfig }> = ({ config }) => {
             </span>
             <span className="hidden text-slate-700 md:inline">•</span>
             <span className="hidden text-slate-400 md:inline font-mono">
-              HQ: Bradenton, FL
+              {siteConfig.lang === 'ru' ? 'База: Брейдентон, Флорида' : 'HQ: Bradenton, FL'}
             </span>
           </div>
 
