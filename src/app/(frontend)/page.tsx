@@ -25,7 +25,7 @@ export default function CrewsHubPage() {
             <span className="hidden sm:inline text-slate-400">Единая панель макетов бригад</span>
           </div>
           <div className="text-xs font-mono text-emerald-400 font-bold">
-            8 активных бригад (Флорида и Орегон)
+            13 активных бригад (Флорида и Орегон)
           </div>
         </div>
       </div>
@@ -764,6 +764,431 @@ export default function CrewsHubPage() {
               </div>
             </div>
           </div>
+
+          {/* Crew Card 9: Allwood Tree Service */}
+          <div className="relative rounded-2xl border-2 border-emerald-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-emerald-400 group">
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-emerald-950/80 border border-emerald-800/80 px-2.5 py-1 text-xs font-bold text-emerald-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                  Новый лендинг • Готов
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #9
+                </span>
+              </div>
+
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-emerald-400 transition">
+                Allwood Tree Service
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Jacksonville & Fruit Cove, FL</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-emerald-400 font-semibold">Владелец Джеймс</span>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Отзывы на Google Maps:</div>
+                  <div className="text-emerald-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={4.9} size="xs" />
+                    <span>4.9 (58 проверенных отзывов)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(904) 315-8870</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Спил вековых дубов и магнолий в стесненных условиях</li>
+                  <li>• Дробление пней мощной фрезой Vermeer SC852 на глубину до 25 дюймов</li>
+                  <li>• Расчистка ранчо, конных владений и участков от 1 до 20+ акров</li>
+                  <li>• Расчет сметы на следующее утро и оперативный выезд</li>
+                </ul>
+              </div>
+
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-emerald-950/60 border border-emerald-800/60 px-2 py-0.5 text-emerald-300 font-mono">
+                  Deep Emerald & Forest Green
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/allwood"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/allwood/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-emerald-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://www.google.com/maps/place/Allwood+Tree+Service/@30.076977,-81.6405676,17z/data=!3m1!4b1!4m6!3m5!1s0x88e5d1d7de49e8a1:0x361a13038384a192!8m2!3d30.0769724!4d-81.6379873!16s%2Fg%2F11dxm5p968"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Crew Card 10: Hawkinberry Tree Company */}
+          <div className="relative rounded-2xl border-2 border-sky-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-sky-400 group">
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-sky-950/80 border border-sky-800/80 px-2.5 py-1 text-xs font-bold text-sky-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-sky-400" />
+                  Новый лендинг • Готов
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #10
+                </span>
+              </div>
+
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-sky-400 transition">
+                Hawkinberry Tree Company
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Jacksonville Beach & Ponte Vedra, FL</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-sky-400 font-semibold">Джефф Хокинберри</span>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Отзывы на Google Maps:</div>
+                  <div className="text-sky-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 (32 проверенных отзыва)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(904) 545-8376</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Гусеничный спайдер-подъемник Platform Basket 18.90 Pro (высота 18+ м)</li>
+                  <li>• Проезжает в садовые калитки и проходы шириной от 90 см без повреждения газона</li>
+                  <li>• Ювелирная обрезка крон в охранной зоне проводов ЛЭП и сервисных вводов</li>
+                  <li>• Идеальная чистота территории «под грабли» после завершения работ</li>
+                </ul>
+              </div>
+
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-sky-950/60 border border-sky-800/60 px-2 py-0.5 text-sky-300 font-mono">
+                  Coastal Sky & Ocean Blue
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/hawkinberry"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/hawkinberry/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-sky-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://www.google.com/maps/place/Hawkinberry+Tree+Company/@30.2979045,-81.4102687,17z/data=!3m1!4b1!4m6!3m5!1s0x4ca5d49d4f3877b:0xb28f3e7c0c976ae9!8m2!3d30.2979045!4d-81.4102687!16s%2Fg%2F11xw4q79f_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Crew Card 11: Tally Trees */}
+          <div className="relative rounded-2xl border-2 border-amber-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-amber-400 group">
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-amber-950/80 border border-amber-800/80 px-2.5 py-1 text-xs font-bold text-amber-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+                  Новый лендинг • Готов
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #11
+                </span>
+              </div>
+
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-amber-400 transition">
+                Tally Trees
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Tallahassee & Leon County, FL</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-amber-400 font-semibold">Тяжелый такелаж</span>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Отзывы на Google Maps:</div>
+                  <div className="text-amber-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 (36 проверенных отзывов)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(850) 509-6805</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Мобильный автокран для подъема срезанных сосен прямо через крыши</li>
+                  <li>• Погрузчик CAT с гидравлическим захватом, работающий по защитным настилам</li>
+                  <li>• Безопасный демонтаж дуплистых и расколотых опасных стволов</li>
+                  <li>• Срочный выезд на устранение угрозы дому в течение 48 часов</li>
+                </ul>
+              </div>
+
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-amber-950/60 border border-amber-800/60 px-2 py-0.5 text-amber-300 font-mono">
+                  CAT Industrial Gold & Amber
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/tally"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/tally/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-amber-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://www.google.com/maps/place/Tally+Trees/@30.4444942,-84.2591755,17z/data=!3m1!4b1!4m6!3m5!1s0x88ec597b684a58b9:0x8b9c5ac2a7b43195!8m2!3d30.4444942!4d-84.2591755!16s%2Fg%2F11p55sn001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Crew Card 12: Bramlitt Tree Service LLC */}
+          <div className="relative rounded-2xl border-2 border-teal-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-teal-400 group">
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-teal-950/80 border border-teal-800/80 px-2.5 py-1 text-xs font-bold text-teal-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-teal-400" />
+                  Новый лендинг • Готов
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #12
+                </span>
+              </div>
+
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-teal-400 transition">
+                Bramlitt Tree Service
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Green Cove Springs & Clay County, FL</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-teal-400 font-semibold">Дерек Брамлитт</span>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Отзывы на Google Maps:</div>
+                  <div className="text-teal-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 (62 проверенных отзыва)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(904) 646-8862</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Алмазная фигурная стрижка стволов финиковых пальм Сильвестра (Diamond Cut)</li>
+                  <li>• Отвод тяжелых ветвей королевских пальм от черепицы и водостоков</li>
+                  <li>• Честная расстановка приоритетов: что спилить срочно, а что безопасно сохранить</li>
+                  <li>• Полный вывоз волокон и пальмовых остатков, безупречный порядок на газоне</li>
+                </ul>
+              </div>
+
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-teal-950/60 border border-teal-800/60 px-2 py-0.5 text-teal-300 font-mono">
+                  Florida Coastal Teal & Emerald
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/bramlitt"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/bramlitt/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-teal-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://www.google.com/maps/place/Bramlitt+Tree+Service+LLC/@29.9873597,-81.6900902,17z/data=!3m1!4b1!4m6!3m5!1s0x88e5d7d99d7cdb13:0xebdfd4c9775f7b07!8m2!3d29.9873597!4d-81.6900902!16s%2Fg%2F11spl2ftsv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Crew Card 13: Dane’s Tree & Excavation Service */}
+          <div className="relative rounded-2xl border-2 border-emerald-500/40 bg-gradient-to-b from-slate-900/90 to-slate-950 p-6 shadow-xl flex flex-col justify-between transition hover:border-emerald-400 group">
+            <div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-emerald-950/80 border border-emerald-800/80 px-2.5 py-1 text-xs font-bold text-emerald-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                  Новый лендинг • Готов
+                </span>
+                <span className="font-mono text-xs font-bold text-slate-400">
+                  Бригада #13
+                </span>
+              </div>
+
+              <h2 className="mt-4 text-xl font-black text-white group-hover:text-emerald-400 transition">
+                Dane’s Tree & Excavation
+              </h2>
+              <div className="mt-1 text-xs text-slate-300 flex flex-wrap items-center gap-1.5">
+                <span>📍 Aumsville, Salem & Marion County, OR</span>
+                <span className="text-slate-600">•</span>
+                <span className="text-emerald-400 font-semibold">Вальщик Дейн</span>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 gap-2 text-xs">
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Отзывы на Google Maps:</div>
+                  <div className="text-emerald-400 font-bold font-mono mt-0.5 flex items-center gap-1.5">
+                    <StarRating value={5.0} size="xs" />
+                    <span>5.0 (43 проверенных отзыва)</span>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-slate-950/80 border border-slate-800 p-2.5">
+                  <div className="text-slate-400 text-[11px]">Телефон бригады:</div>
+                  <div className="text-white font-bold font-mono mt-0.5">(971) 720-7509</div>
+                </div>
+              </div>
+
+              <div className="mt-4 text-xs text-slate-300 leading-relaxed bg-slate-950/50 rounded-xl p-3 border border-slate-800/70">
+                <div className="font-semibold text-white mb-1">Специфика и преимущества:</div>
+                <ul className="space-y-1 text-slate-300">
+                  <li>• Направленная валка леса с укладкой ствола точно между навесами и кемперами</li>
+                  <li>• Верхолазный спил 25–40-метровых дугласовых пихт на гаффах в тесных дворах</li>
+                  <li>• Снятие опасных 6-метровых зависших ветвей-«убийц» (widowmakers)</li>
+                  <li>• Раскряжевка на дровяные чурки 40 см + возможности мини-экскавации</li>
+                </ul>
+              </div>
+
+              <div className="mt-3 flex items-center gap-2 text-[11px] text-slate-400">
+                <span>Палитра:</span>
+                <span className="inline-flex items-center gap-1 rounded bg-emerald-950/60 border border-emerald-800/60 px-2 py-0.5 text-emerald-300 font-mono">
+                  Oregon Timber Forest & Moss Green
+                </span>
+              </div>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-800/80 flex flex-col gap-2">
+              <a
+                href="/danes"
+                className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:brightness-110"
+              >
+                <span>Открыть макет (English)</span>
+                <span>→</span>
+              </a>
+
+              <div className="flex gap-2">
+                <a
+                  href="/danes/ru"
+                  className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs font-bold text-slate-200 hover:border-emerald-400 transition"
+                  title="Русская версия"
+                >
+                  <span>Русская версия</span>
+                </a>
+
+                <a
+                  href="https://www.google.com/maps/place/Dane%E2%80%99s+Tree+%26+Excavation+Service/@44.8453759,-122.8685648,17z/data=!3m1!4b1!4m6!3m5!1s0x54bff7e18f263f01:0xcdc814a1c1dc8e33!8m2!3d44.8453759!4d-122.8685648!16s%2Fg%2F11xssx4h0w"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-400 hover:text-white transition"
+                  title="Google Maps"
+                >
+                  <span>Карты ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Status Callout Banner */}
@@ -772,10 +1197,10 @@ export default function CrewsHubPage() {
             ✓
           </div>
           <h3 className="mt-3 text-lg font-bold text-white">
-            Все 8 бригад полностью развернуты и готовы к демонстрации
+            Все 13 бригад полностью развернуты и готовы к демонстрации
           </h3>
           <p className="mt-1 text-xs text-slate-400 max-w-lg mx-auto leading-relaxed">
-            Каждая бригада имеет уникальный брендинг, цветовую схему, реальные фотографии техники, подтвержденные отзывы Google и полноценные версии на русском и английском языках.
+            Каждая бригада имеет уникальный брендинг, цветовую схему, реальные проверенные фотографии техники, подтвержденные отзывы Google и полноценные версии на русском и английском языках.
           </p>
         </div>
 
@@ -784,7 +1209,7 @@ export default function CrewsHubPage() {
           <div className="font-bold text-slate-200 mb-1">Как быстро передавать ссылки клиентам:</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-2">
             <div>
-              <span className="text-slate-300 font-semibold">• All Florida Tree Care:</span> <span className="text-amber-400 font-mono">/all-florida</span>
+              <span className="text-slate-300 font-semibold">• All Florida Tree:</span> <span className="text-amber-400 font-mono">/all-florida</span>
             </div>
             <div>
               <span className="text-slate-300 font-semibold">• Teco&apos;s Total Tree:</span> <span className="text-yellow-400 font-mono">/tecos</span>
@@ -793,7 +1218,7 @@ export default function CrewsHubPage() {
               <span className="text-slate-300 font-semibold">• Seybold Solutions:</span> <span className="text-emerald-400 font-mono">/seybold</span>
             </div>
             <div>
-              <span className="text-slate-300 font-semibold">• Hard Kor Tree Care:</span> <span className="text-red-400 font-mono">/hard-kor</span>
+              <span className="text-slate-300 font-semibold">• Hard Kor Tree:</span> <span className="text-red-400 font-mono">/hard-kor</span>
             </div>
             <div>
               <span className="text-slate-300 font-semibold">• Robert Reynolds:</span> <span className="text-sky-400 font-mono">/reynolds</span>
@@ -803,6 +1228,21 @@ export default function CrewsHubPage() {
             </div>
             <div>
               <span className="text-slate-300 font-semibold">• Patrick Myers (OR):</span> <span className="text-sky-400 font-mono">/myers</span>
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Allwood Tree:</span> <span className="text-emerald-400 font-mono">/allwood</span>
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Hawkinberry Tree:</span> <span className="text-sky-400 font-mono">/hawkinberry</span>
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Tally Trees:</span> <span className="text-amber-400 font-mono">/tally</span>
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Bramlitt Tree:</span> <span className="text-teal-400 font-mono">/bramlitt</span>
+            </div>
+            <div>
+              <span className="text-slate-300 font-semibold">• Dane’s Tree (OR):</span> <span className="text-emerald-400 font-mono">/danes</span>
             </div>
           </div>
         </div>
