@@ -220,30 +220,30 @@ export default function TreeLeadsCatalogPage() {
                   )}
 
                   {/* Business Name */}
-                  <h2 className="mt-3 text-lg font-black text-white group-hover:text-amber-400 transition leading-snug">
+                  <h2 className="mt-3 text-lg font-black text-white group-hover:text-amber-400 transition leading-snug break-words">
                     {item.name}
                   </h2>
 
                   {/* Rating & Phone */}
                   <div className="mt-2 space-y-1.5 text-xs">
-                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2">
-                      <span className="text-slate-400">Рейтинг Google:</span>
-                      <div className="flex items-center gap-1.5 font-bold text-amber-400 font-mono">
+                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2 gap-2">
+                      <span className="text-slate-400 shrink-0">Рейтинг Google:</span>
+                      <div className="flex items-center gap-1.5 font-bold text-amber-400 font-mono shrink-0">
                         <StarRating value={item.rating} size="xs" />
                         <span>{item.ratingStr} ({item.reviewCount})</span>
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2">
-                      <span className="text-slate-400">Владелец / Контакт:</span>
-                      <span className="text-slate-200 font-semibold">{item.ownerRu}</span>
+                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2 gap-2">
+                      <span className="text-slate-400 shrink-0">Владелец / Контакт:</span>
+                      <span className="text-slate-200 font-semibold truncate text-right">{item.ownerRu}</span>
                     </div>
 
-                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2">
-                      <span className="text-slate-400">Телефон:</span>
+                    <div className="flex items-center justify-between rounded-lg bg-slate-950/80 border border-slate-800/80 p-2 gap-2">
+                      <span className="text-slate-400 shrink-0">Телефон:</span>
                       <a
                         href={`tel:${item.phoneRaw}`}
-                        className="text-amber-400 font-bold font-mono hover:underline"
+                        className="text-amber-400 font-bold font-mono hover:underline truncate text-right"
                       >
                         {item.phone}
                       </a>

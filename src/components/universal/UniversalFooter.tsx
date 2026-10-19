@@ -7,7 +7,7 @@ export function UniversalFooter({ config, themeName }: { config: any; themeName?
   const theme = getTheme(themeName || config.theme)
 
   return (
-    <footer className="bg-black border-t border-slate-900 text-slate-400 py-12 text-xs">
+    <footer className="bg-black border-t border-slate-900 text-slate-400 pt-12 pb-24 sm:pb-12 text-xs">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Col 1: Identity */}

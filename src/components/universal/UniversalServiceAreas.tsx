@@ -40,10 +40,13 @@ export function UniversalServiceAreas({ config, themeName }: { config: any; them
                   {config.lang === 'ru' ? 'Населенные пункты выезда' : 'Key Communities Served'}
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {(config.serviceAreas?.cities || [config.city]).map((c: string, idx: number) => (
+                  {(Array.isArray(config.serviceAreas)
+                    ? config.serviceAreas.map((a: any) => (typeof a === 'string' ? a : a.name))
+                    : config.serviceAreas?.cities || [config.city]
+                  ).map((c: string, idx: number) => (
                     <span
                       key={idx}
-                      className={`text-xs font-semibold ${theme.badgeText} ${theme.badgeBg} ${theme.badgeBorder} border px-3 py-1 rounded-lg`}
+                      className={`text-xs font-semibold ${theme.badgeText} ${theme.badgeBg} ${theme.badgeBorder} border px-3 py-1 rounded-lg break-words max-w-full`}
                     >
                       {c}
                     </span>
@@ -120,7 +123,7 @@ export function UniversalServiceAreas({ config, themeName }: { config: any; them
                       onClick={() => toggleFaq(idx)}
                       className="w-full flex items-center justify-between p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-white gap-3"
                     >
-                      <span>{faqItem.question}</span>
+                      <span className="break-words min-w-0 pr-2">{faqItem.question || faqItem.q}</span>
                       <svg
                         className={`w-5 h-5 shrink-0 text-slate-400 transition-transform ${isOpen ? 'rotate-180 text-white' : ''}`}
                         fill="none"
@@ -131,8 +134,8 @@ export function UniversalServiceAreas({ config, themeName }: { config: any; them
                       </svg>
                     </button>
                     {isOpen && (
-                      <div className="px-4 pb-5 sm:px-5 sm:pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800/60 pt-3">
-                        {faqItem.answer}
+                      <div className="px-4 pb-5 sm:px-5 sm:pb-5 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800/60 pt-3 break-words">
+                        {faqItem.answer || faqItem.a}
                       </div>
                     )}
                   </div>

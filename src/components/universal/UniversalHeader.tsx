@@ -67,29 +67,29 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
       {/* Main navigation row */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         {/* Brand identity */}
-        <a href="#hero" className="flex items-center gap-3 group shrink-0">
-          <div className={`flex h-11 w-11 items-center justify-center rounded-xl ${theme.badgeBg} ${theme.badgeBorder} border ${theme.accentText} shadow-md`}>
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <a href="#hero" className="flex items-center gap-2.5 sm:gap-3 group min-w-0 pr-2">
+          <div className={`flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl ${theme.badgeBg} ${theme.badgeBorder} border ${theme.accentText} shadow-md shrink-0`}>
+            <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
             </svg>
           </div>
-          <div>
-            <div className={`font-black text-lg sm:text-xl tracking-tight text-white ${theme.accentTextHover} transition-colors flex items-center gap-1.5`}>
-              <span>{config.businessName}</span>
+          <div className="min-w-0">
+            <div className={`font-black text-sm sm:text-base lg:text-xl tracking-tight text-white ${theme.accentTextHover} transition-colors truncate`}>
+              <span>{config.shortName || config.businessName}</span>
             </div>
-            <p className="text-[11px] text-slate-300 font-medium hidden sm:block">
+            <p className="text-[11px] text-slate-300 font-medium hidden md:block truncate max-w-xs lg:max-w-md">
               {config.tagline}
             </p>
           </div>
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-4 xl:gap-6 shrink-0">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-semibold text-slate-300 ${theme.accentTextHover} transition-colors`}
+              className={`text-sm font-semibold text-slate-300 ${theme.accentTextHover} transition-colors whitespace-nowrap`}
             >
               {link.label}
             </a>
@@ -97,12 +97,12 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
         </nav>
 
         {/* Action button & Phone */}
-        <div className="hidden sm:flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-3 shrink-0">
           <a
             href={`tel:${config.phoneRaw}`}
-            className={`inline-flex items-center gap-2 rounded-xl ${theme.btnPrimary} ${theme.btnPrimaryHover} text-white font-black px-4 py-2.5 text-sm shadow-md ${theme.btnShadow} transition-all hover:scale-[1.02] active:scale-[0.98]`}
+            className={`inline-flex items-center gap-2 rounded-xl ${theme.btnPrimary} ${theme.btnPrimaryHover} text-white font-black px-3.5 py-2 sm:px-4 sm:py-2.5 text-xs sm:text-sm shadow-md ${theme.btnShadow} transition-all hover:scale-[1.02] active:scale-[0.98] whitespace-nowrap`}
           >
-            <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="w-4 h-4 text-white shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
             <span>{config.phone}</span>
@@ -112,7 +112,7 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
         {/* Mobile menu toggle */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 rounded-lg bg-slate-900 border border-slate-700 text-slate-300 hover:text-white"
+          className="lg:hidden p-2 rounded-lg bg-slate-900 border border-slate-700 text-slate-300 hover:text-white shrink-0"
           aria-label="Toggle navigation menu"
         >
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -70,12 +70,12 @@ export function UniversalReviews({ config, themeName }: { config: any; themeName
               </div>
 
               {/* Author & Verification Footer */}
-              <div className={`mt-6 pt-4 border-t ${theme.borderSubtle} flex items-center justify-between`}>
-                <div>
-                  <div className="text-xs font-bold text-white flex items-center gap-1.5">
+              <div className={`mt-6 pt-4 border-t ${theme.borderSubtle} flex items-center justify-between gap-3`}>
+                <div className="min-w-0 pr-2">
+                  <div className="text-xs font-bold text-white flex items-center gap-1.5 truncate">
                     <span>{rev.author}</span>
                   </div>
-                  <div className="text-[11px] text-slate-400 mt-0.5">
+                  <div className="text-[11px] text-slate-400 mt-0.5 truncate">
                     {rev.authorMeta || (config.lang === 'ru' ? 'Подтвержденный клиент' : 'Verified Google Maps User')}
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export function UniversalReviews({ config, themeName }: { config: any; themeName
                   href={config.mapsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`text-[10px] font-bold ${theme.accentText} bg-black/40 px-2 py-1 rounded border border-slate-700/60 hover:text-white transition`}
+                  className={`text-[10px] font-bold ${theme.accentText} bg-black/40 px-2 py-1 rounded border border-slate-700/60 hover:text-white transition shrink-0 whitespace-nowrap`}
                 >
                   Google Maps ↗
                 </a>

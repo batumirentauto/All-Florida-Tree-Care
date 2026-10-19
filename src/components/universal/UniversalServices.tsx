@@ -32,10 +32,10 @@ export function UniversalServices({ config, themeName }: { config: any; themeNam
               <div>
                 {/* Header with icon & badge */}
                 <div className="flex items-center justify-between gap-3 mb-4">
-                  <div className={`h-11 w-11 rounded-xl ${theme.badgeBg} ${theme.badgeBorder} border ${theme.accentText} flex items-center justify-center font-bold text-lg`}>
+                  <div className={`h-11 w-11 rounded-xl ${theme.badgeBg} ${theme.badgeBorder} border ${theme.accentText} flex items-center justify-center font-bold text-lg shrink-0`}>
                     0{idx + 1}
                   </div>
-                  <span className={`text-[11px] font-bold ${theme.badgeText} bg-black/40 px-2.5 py-1 rounded-full border border-slate-700/60`}>
+                  <span className={`text-[11px] font-bold ${theme.badgeText} bg-black/40 px-2.5 py-1 rounded-full border border-slate-700/60 break-words max-w-[190px] xs:max-w-[240px] sm:max-w-none text-right`}>
                     {service.tagline}
                   </span>
                 </div>

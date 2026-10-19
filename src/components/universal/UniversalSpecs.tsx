@@ -78,7 +78,7 @@ export function UniversalSpecs({ config, themeName }: { config: any; themeName?:
                         <span className={`text-[11px] font-semibold ${theme.badgeText}/80 uppercase tracking-wider shrink-0`}>
                           {spec.label}
                         </span>
-                        <span className="text-xs font-bold text-white text-right leading-snug break-words">
+                        <span className="text-xs font-bold text-white text-right leading-snug break-words min-w-0">
                           {spec.value}
                         </span>
                       </div>

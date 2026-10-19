@@ -33,12 +33,12 @@ export function UniversalHero({ config, themeName }: { config: any; themeName?: 
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-3xl sm:text-5xl lg:text-[46px] font-black tracking-tight text-white leading-[1.12]">
+            <h1 className="text-3xl sm:text-5xl lg:text-[46px] font-black tracking-tight text-white leading-[1.12] break-words">
               {config.hero.headline}
             </h1>
 
             {/* Subheading */}
-            <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-normal">
+            <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-normal break-words">
               {config.hero.subhead}
             </p>
 
