@@ -45,6 +45,49 @@ export default function CrewsHubPage() {
           </p>
         </div>
 
+        {/* Featured Tree Leads Folder / Workspace Card */}
+        <div className="mt-10 overflow-hidden rounded-3xl border-2 border-amber-500/60 bg-gradient-to-br from-slate-900 via-amber-950/20 to-slate-950 p-6 sm:p-8 shadow-2xl transition hover:border-amber-400">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+            <div className="max-w-2xl">
+              <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/50 bg-amber-950/60 px-3.5 py-1 text-xs font-bold text-amber-300">
+                <span className="h-2 w-2 rounded-full bg-amber-400 animate-ping" />
+                Новая выделенная папка • Tree Leads
+              </div>
+              <h2 className="mt-3 text-2xl sm:text-3xl font-black text-white flex items-center gap-2.5">
+                <span>📁</span>
+                <span>База «Tree Leads» (235 новых компаний)</span>
+              </h2>
+              <p className="mt-2 text-sm text-slate-300 leading-relaxed">
+                Все новые компании из базы <code className="text-amber-400 font-mono font-bold">tree_leads</code> вынесены в отдельный интерактивный каталог. Внутри реализован мгновенный поиск по названию, фильтрация по штатам (Флорида, Техас, Джорджия, Каролины и др.) и прямой доступ к макетам на английском и русском языках.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2 text-xs font-mono">
+                <span className="rounded-lg bg-slate-950/90 border border-slate-800 px-3 py-1 text-slate-200">
+                  🏢 235 макетов
+                </span>
+                <span className="rounded-lg bg-slate-950/90 border border-slate-800 px-3 py-1 text-amber-400 font-bold">
+                  ⭐ Средний рейтинг 4.9
+                </span>
+                <span className="rounded-lg bg-slate-950/90 border border-slate-800 px-3 py-1 text-emerald-400">
+                  📍 10+ штатов США
+                </span>
+                <span className="rounded-lg bg-slate-950/90 border border-slate-800 px-3 py-1 text-sky-400">
+                  🌐 EN / RU версии
+                </span>
+              </div>
+            </div>
+
+            <div className="shrink-0 w-full sm:w-auto">
+              <a
+                href="/tree-leads"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-500 px-6 py-4 text-sm font-black text-slate-950 shadow-xl hover:shadow-amber-500/25 transition hover:scale-[1.02] active:scale-[0.98]"
+              >
+                <span className="text-xl">📁</span>
+                <span>Открыть папку Tree Leads →</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Crews Grid: Grid Layout for 5 Active Crews */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Crew Card 1: All Florida Tree Care LLC */}

@@ -171,7 +171,7 @@ export function UniversalHero({ config, themeName }: { config: any; themeName?: 
                   </div>
                 </div>
               </div>
-            ) : (
+            ) : bento?.main?.image ? (
               <div className={`relative h-80 sm:h-96 lg:h-[420px] rounded-2xl overflow-hidden border ${theme.borderAccent} bg-slate-900 group shadow-2xl`}>
                 <img
                   src={bento.main.image}
@@ -192,6 +192,42 @@ export function UniversalHero({ config, themeName }: { config: any; themeName?: 
                   <span className={`font-mono text-xs font-black ${theme.badgeText} ${theme.badgeBg} px-2.5 py-1.5 rounded border ${theme.badgeBorder}`}>
                     {config.phone}
                   </span>
+                </div>
+              </div>
+            ) : (
+              <div className={`relative h-80 sm:h-96 lg:h-[420px] rounded-2xl overflow-hidden border ${theme.borderAccent} bg-gradient-to-br from-slate-900 via-slate-950 to-black p-6 sm:p-8 flex flex-col justify-between shadow-2xl`}>
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <span className={`text-xs font-extrabold uppercase tracking-widest ${theme.badgeText} ${theme.badgeBg} border ${theme.badgeBorder} px-2.5 py-1 rounded`}>
+                      {config.lang === 'ru' ? 'Оперативный выезд' : 'Commercial Dispatch'}
+                    </span>
+                    <span className="text-xs font-mono text-slate-400">
+                      📍 {config.city}, {config.state}
+                    </span>
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-black text-white">
+                    {config.businessName}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                    {config.slogan || config.tagline}
+                  </p>
+                </div>
+                <div className="border-t border-slate-800 pt-4 flex items-center justify-between">
+                  <div>
+                    <div className="text-[11px] text-slate-400 font-mono">
+                      {config.lang === 'ru' ? 'Телефон диспетчера:' : 'Direct Dispatch Line:'}
+                    </div>
+                    <div className="text-base font-bold text-white font-mono mt-0.5">
+                      {config.phone}
+                    </div>
+                  </div>
+                  <a
+                    href={`tel:${config.phoneRaw}`}
+                    className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-black text-white ${theme.btnPrimary} ${theme.btnPrimaryHover} shadow transition`}
+                  >
+                    <span>📞</span>
+                    <span>{config.lang === 'ru' ? 'Позвонить' : 'Call Now'}</span>
+                  </a>
                 </div>
               </div>
             )}
