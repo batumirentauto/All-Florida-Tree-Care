@@ -38,6 +38,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# generated screenshots
+/screenshots/
+
+
 .env
 
 /media
