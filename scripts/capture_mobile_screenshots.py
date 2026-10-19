@@ -86,15 +86,16 @@ def get_company_slugs(leads_only=False):
             
     return slugs
 
-def capture_screenshot(url, output_path, viewport=DEFAULT_VIEWPORT, wait_ms=DEFAULT_WAIT_MS):
-    """Take a first-screen mobile screenshot using Playwright Chromium."""
+def capture_screenshot(url, output_path, mode="hero", width="390", wait_ms=DEFAULT_WAIT_MS):
+    """Take a high-fidelity mobile screenshot using Playwright worker."""
+    worker_script = os.path.join(os.path.dirname(__file__), "screenshot_worker.cjs")
     cmd = [
-        "npx", "playwright", "screenshot",
-        "-b", "chromium",
-        "--viewport-size", viewport,
-        "--wait-for-timeout", str(wait_ms),
+        "node", worker_script,
         url,
-        output_path
+        output_path,
+        mode,
+        str(width),
+        str(wait_ms)
     ]
     res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     if res.returncode != 0:
@@ -102,15 +103,16 @@ def capture_screenshot(url, output_path, viewport=DEFAULT_VIEWPORT, wait_ms=DEFA
     return True, None
 
 def main():
-    parser = argparse.ArgumentParser(description="Capture first-screen mobile screenshots of company pages.")
+    parser = argparse.ArgumentParser(description="Capture high-fidelity mobile screenshots of company pages.")
     parser.add_argument("--slug", help="Company slug or comma-separated slugs (e.g. 'myers' or 'myers,holcomb')")
     parser.add_argument("--all", action="store_true", help="Capture screenshots for all companies")
     parser.add_argument("--leads", action="store_true", help="Capture screenshots for tree-leads companies")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of companies to capture")
     parser.add_argument("--lang", choices=["en", "ru", "both"], default="both", help="Language versions to capture")
+    parser.add_argument("--mode", choices=["hero", "viewport", "full"], default="hero", help="Capture mode: 'hero' (all desktop first-screen content: text + photos, default), 'viewport' (single 844px screen), 'full' (entire page)")
     parser.add_argument("--base-url", default=DEFAULT_BASE_URL, help=f"Base URL of website (default: {DEFAULT_BASE_URL})")
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR, help=f"Directory to save images (default: {DEFAULT_OUTPUT_DIR})")
-    parser.add_argument("--viewport", default=DEFAULT_VIEWPORT, help=f"Mobile viewport 'W, H' (default: {DEFAULT_VIEWPORT})")
+    parser.add_argument("--width", default="390", help="Mobile width in px (default: 390)")
     parser.add_argument("--wait", default=DEFAULT_WAIT_MS, help=f"Wait in ms before screenshot (default: {DEFAULT_WAIT_MS})")
     
     args = parser.parse_args()
@@ -136,7 +138,7 @@ def main():
     print("ALL FLORIDA TREE CARE — MOBILE SCREENSHOT ENGINE")
     print(f"Target Companies: {len(slugs)}")
     print(f"Language:         {args.lang}")
-    print(f"Viewport:         {args.viewport} (First-screen mobile)")
+    print(f"Mode:             {args.mode} (Mobile Width: {args.width}px)")
     print(f"Base URL:         {args.base_url}")
     print(f"Output Directory: {args.output_dir}")
     print("=" * 65)
@@ -164,7 +166,7 @@ def main():
     try:
         for idx, (slug, lang, url, out_path) in enumerate(total_tasks, 1):
             print(f"[{idx}/{len(total_tasks)}] Capturing {slug} [{lang}] -> {os.path.basename(out_path)}...", end="", flush=True)
-            ok, err = capture_screenshot(url, out_path, viewport=args.viewport, wait_ms=args.wait)
+            ok, err = capture_screenshot(url, out_path, mode=args.mode, width=args.width, wait_ms=args.wait)
             if ok:
                 file_size_kb = os.path.getsize(out_path) / 1024
                 print(f" OK ({file_size_kb:.1f} KB)")
