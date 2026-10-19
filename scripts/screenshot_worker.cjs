@@ -22,26 +22,19 @@ try {
   }
 }
 
-async function capture() {
-  const args = process.argv.slice(2);
-  if (args.length < 2) {
-    console.error('Usage: node screenshot_worker.js <url> <outputPath> [mode=hero|viewport|full] [width=390] [waitMs=1200]');
-    process.exit(1);
-  }
+async function processPage(browser, item) {
+  const width = parseInt(item.width, 10) || 390;
+  const waitMs = parseInt(item.waitMs, 10) || 1200;
+  const mode = item.mode || 'hero';
 
-  const [url, outputPath, mode = 'hero', widthStr = '390', waitMsStr = '1200'] = args;
-  const width = parseInt(widthStr, 10) || 390;
-  const waitMs = parseInt(waitMsStr, 10) || 1200;
+  const page = await browser.newPage({
+    viewport: { width, height: 2000 },
+    deviceScaleFactor: 2 // Ultra-sharp Retina quality for client previews
+  });
 
-  const browser = await playwright.chromium.launch();
   try {
-    const page = await browser.newPage({
-      viewport: { width, height: 2000 },
-      deviceScaleFactor: 2 // Ultra-sharp Retina quality for client previews
-    });
+    await page.goto(item.url, { waitUntil: 'networkidle', timeout: 30000 });
 
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
-    
     // Wait for hero images and animations to settle
     if (waitMs > 0) {
       await page.waitForTimeout(waitMs);
@@ -68,22 +61,72 @@ async function capture() {
       });
 
       await page.screenshot({
-        path: outputPath,
+        path: item.outputPath,
         clip: { x: 0, y: 0, width, height: heroBottom }
       });
     } else if (mode === 'viewport') {
-      // Standard iPhone 14/15 844px single viewport
       await page.setViewportSize({ width, height: 844 });
       await page.screenshot({
-        path: outputPath
+        path: item.outputPath
       });
     } else if (mode === 'full') {
       await page.screenshot({
-        path: outputPath,
+        path: item.outputPath,
         fullPage: true
       });
     }
+  } finally {
+    await page.close();
+  }
+}
 
+async function capture() {
+  const args = process.argv.slice(2);
+  if (args.length === 0) {
+    console.error('Usage: node screenshot_worker.js <url> <outputPath> [mode] [width] [waitMs]');
+    console.error('   or: node screenshot_worker.js --batch <batchJsonFile> [concurrency]');
+    process.exit(1);
+  }
+
+  if (args[0] === '--batch') {
+    const batchFile = args[1];
+    const concurrency = parseInt(args[2], 10) || 3;
+    const tasks = JSON.parse(fs.readFileSync(batchFile, 'utf8'));
+
+    const browser = await playwright.chromium.launch();
+    let currentIdx = 0;
+
+    async function worker() {
+      while (currentIdx < tasks.length) {
+        const item = tasks[currentIdx++];
+        try {
+          await processPage(browser, item);
+          console.log(`OK:${item.outputPath}`);
+        } catch (err) {
+          console.error(`ERROR:${item.outputPath}:${err.message}`);
+        }
+      }
+    }
+
+    try {
+      await Promise.all(Array.from({ length: concurrency }, () => worker()));
+    } finally {
+      await browser.close();
+    }
+    return;
+  }
+
+  // Single URL mode
+  const [url, outputPath, mode = 'hero', widthStr = '390', waitMsStr = '1200'] = args;
+  const browser = await playwright.chromium.launch();
+  try {
+    await processPage(browser, {
+      url,
+      outputPath,
+      mode,
+      width: widthStr,
+      waitMs: waitMsStr
+    });
     console.log(`OK:${outputPath}`);
   } finally {
     await browser.close();
@@ -94,3 +137,4 @@ capture().catch((err) => {
   console.error('ERROR:', err.message);
   process.exit(1);
 });
+
