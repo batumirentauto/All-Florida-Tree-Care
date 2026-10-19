@@ -126,20 +126,47 @@ def audit_routes():
 def audit_component_overflow_rules():
     print("\nAuditing responsive component typography & overflow rules...")
     
-    checks = [
-        ("UniversalHeader.tsx", ["min-w-0", "truncate", "shrink-0", "whitespace-nowrap"]),
-        ("UniversalHero.tsx", ["break-words", "shrink-0", "bento?.main?.image"]),
-        ("UniversalSpecs.tsx", ["min-w-0", "break-words"]),
-        ("UniversalServices.tsx", ["break-words", "shrink-0"]),
-        ("UniversalReviews.tsx", ["min-w-0", "shrink-0", "truncate"]),
-        ("UniversalServiceAreas.tsx", ["break-words", "shrink-0"]),
-        ("UniversalFooter.tsx", ["pb-24 sm:pb-12"]),
-        ("UniversalMobileBar.tsx", ["truncate", "shrink-0", "fixed bottom-0"])
+    # Check all headers across the codebase (universal + bespoke)
+    header_checks = [
+        ("src/components/universal/UniversalHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/myers/MyersHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/holcomb/HolcombHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/reynolds/ReynoldsHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/hardkor/HardkorHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/seybold/SeyboldHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+        ("src/components/tecos/TecosHeader.tsx", ["min-w-0", "truncate", "shrink-0"]),
+    ]
+    
+    other_checks = [
+        ("src/components/universal/UniversalHero.tsx", ["break-words", "shrink-0", "bento?.main?.image"]),
+        ("src/components/universal/UniversalSpecs.tsx", ["min-w-0", "break-words"]),
+        ("src/components/universal/UniversalServices.tsx", ["break-words", "shrink-0"]),
+        ("src/components/universal/UniversalReviews.tsx", ["min-w-0", "shrink-0", "truncate"]),
+        ("src/components/universal/UniversalServiceAreas.tsx", ["break-words", "shrink-0"]),
+        ("src/components/universal/UniversalFooter.tsx", ["pb-24 sm:pb-12"]),
+        ("src/components/universal/UniversalMobileBar.tsx", ["truncate", "shrink-0", "fixed bottom-0"])
     ]
     
     passed = True
-    for comp_name, required_tokens in checks:
-        comp_path = os.path.join("src/components/universal", comp_name)
+    print("Checking Header Components (Mobile Burger Zero-Blowout Integrity):")
+    for comp_path, required_tokens in header_checks:
+        comp_name = os.path.basename(comp_path)
+        if not os.path.exists(comp_path):
+            print(f"  [FAIL] {comp_name} not found at {comp_path}!")
+            passed = False
+            continue
+            
+        content = open(comp_path, 'r', encoding='utf-8').read()
+        missing = [tok for tok in required_tokens if tok not in content]
+        if missing:
+            print(f"  [WARN] {comp_name} missing expected header overflow tokens: {missing}")
+            passed = False
+        else:
+            print(f"  [PASS] {comp_name}: zero-blowout header tokens verified ({', '.join(required_tokens)})")
+
+    print("\nChecking Universal Page Components:")
+    for comp_path, required_tokens in other_checks:
+        comp_name = os.path.basename(comp_path)
         if not os.path.exists(comp_path):
             print(f"  [FAIL] {comp_name} not found!")
             passed = False

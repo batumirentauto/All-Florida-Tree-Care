@@ -20,22 +20,22 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
     <header className={`sticky top-0 z-40 ${theme.bgBody}/95 backdrop-blur-md ${theme.borderSubtle} border-b shadow-lg text-white transition-all`}>
       {/* Top micro verification bar */}
       <div className="bg-black/80 border-b border-slate-800/80 text-xs text-slate-400">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-1.5 sm:px-6">
-          <div className="flex items-center gap-2">
-            <span className="flex h-2 w-2 relative">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-1.5 sm:px-6 sm:gap-3">
+          <div className="flex items-center gap-2 min-w-0">
+            <span className="flex h-2 w-2 relative shrink-0">
               <span className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${theme.name === 'sky' ? 'bg-sky-400' : theme.name === 'amber' ? 'bg-amber-400' : theme.name === 'teal' ? 'bg-teal-400' : 'bg-emerald-400'}`}></span>
               <span className={`relative inline-flex rounded-full h-2 w-2 ${theme.name === 'sky' ? 'bg-sky-500' : theme.name === 'amber' ? 'bg-amber-500' : theme.name === 'teal' ? 'bg-teal-500' : 'bg-emerald-500'}`}></span>
             </span>
-            <span className={`font-bold ${theme.accentText} text-[11px] sm:text-xs tracking-wide uppercase`}>
+            <span className={`font-bold ${theme.accentText} text-[11px] sm:text-xs tracking-wide uppercase truncate`}>
               {config.lang === 'ru' ? 'Выезд на штормовые завалы' : 'Emergency Storm Dispatch'}
             </span>
-            <span className="text-slate-700 hidden sm:inline">•</span>
-            <span className="text-slate-400 hidden md:inline text-[11px]">
+            <span className="text-slate-700 hidden sm:inline shrink-0">•</span>
+            <span className="text-slate-400 hidden md:inline text-[11px] truncate">
               {config.addressNotes || `${config.city}, ${config.state}`}
             </span>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <a
               href={config.mapsUrl}
               target="_blank"
@@ -65,7 +65,7 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
       </div>
 
       {/* Main navigation row */}
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-3 py-3 sm:px-6 sm:gap-4">
         {/* Brand identity */}
         <a href="#hero" className="flex items-center gap-2.5 sm:gap-3 group min-w-0 pr-2">
           <div className={`flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl ${theme.badgeBg} ${theme.badgeBorder} border ${theme.accentText} shadow-md shrink-0`}>
@@ -96,33 +96,33 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
           ))}
         </nav>
 
-        {/* Action button & Phone */}
-        <div className="hidden sm:flex items-center gap-3 shrink-0">
+        {/* Action button & Mobile toggle grouped on right */}
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <a
             href={`tel:${config.phoneRaw}`}
-            className={`inline-flex items-center gap-2 rounded-xl ${theme.btnPrimary} ${theme.btnPrimaryHover} text-white font-black px-3.5 py-2 sm:px-4 sm:py-2.5 text-xs sm:text-sm shadow-md ${theme.btnShadow} transition-all hover:scale-[1.02] active:scale-[0.98] whitespace-nowrap`}
+            className={`hidden sm:inline-flex items-center gap-2 rounded-xl ${theme.btnPrimary} ${theme.btnPrimaryHover} text-white font-black px-3.5 py-2 sm:px-4 sm:py-2.5 text-xs sm:text-sm shadow-md ${theme.btnShadow} transition-all hover:scale-[1.02] active:scale-[0.98] whitespace-nowrap`}
           >
             <svg className="w-4 h-4 text-white shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
             <span>{config.phone}</span>
           </a>
-        </div>
 
-        {/* Mobile menu toggle */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 rounded-lg bg-slate-900 border border-slate-700 text-slate-300 hover:text-white shrink-0"
-          aria-label="Toggle navigation menu"
-        >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            {mobileMenuOpen ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
-        </button>
+          {/* Mobile menu toggle */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="lg:hidden p-2 rounded-lg bg-slate-900 border border-slate-700 text-slate-300 hover:text-white shrink-0"
+            aria-label="Toggle navigation menu"
+          >
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {mobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Mobile dropdown */}
