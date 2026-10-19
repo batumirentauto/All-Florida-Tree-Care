@@ -47,11 +47,22 @@ async function capture() {
       await page.waitForTimeout(waitMs);
     }
 
+    // Hide directory top bar (All Crews / Language switcher) so mockups look 100% bespoke
+    await page.evaluate(() => {
+      const link = document.querySelector('a[href="/"]');
+      if (link) {
+        const bar = link.closest('div.border-b') || link.parentElement?.parentElement;
+        if (bar) bar.remove();
+      }
+    });
+
+    await page.waitForTimeout(200);
+
     if (mode === 'hero') {
       // Dynamically measure the bottom of the hero section
       const heroBottom = await page.evaluate(() => {
         const hero = document.querySelector('section#hero') || document.querySelector('main > section:first-of-type');
-        if (!hero) return 1450;
+        if (!hero) return 1420;
         const rect = hero.getBoundingClientRect();
         return Math.ceil(rect.bottom + window.scrollY);
       });
