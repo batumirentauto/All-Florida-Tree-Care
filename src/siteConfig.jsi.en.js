@@ -7,15 +7,15 @@ export const siteConfigJsiEn = {
   "shortName": "JSI Tree Service LLC",
   "ownerName": "Nathan",
   "ownerFirstName": "Nathan",
-  "tagline": "Commercial Forestry Timber Harvesting, Bucket Truck Felling & Log Hauling",
-  "slogan": "Heavy Forestry Rigging, Large Pine Stand Management & Clean Land Clearances Across Burke County",
+  "tagline": "Commercial Forestry Bucket Rigging & High-Volume Timber Deck Staging",
+  "slogan": "Western North Carolina Commercial Timber Operations & Mountain Land Clearing",
   "phone": "(828) 448-7047",
   "phoneRaw": "8284487047",
   "city": "Morganton",
   "state": "NC",
   "zip": "28655",
-  "streetAddress": "1463 Paul and Lula Miller Rd",
-  "fullAddress": "1463 Paul and Lula Miller Rd, Morganton, NC 28655",
+  "streetAddress": "Burke County Foothills Corridor",
+  "fullAddress": "Burke County Foothills Corridor, Morganton, NC 28655",
   "mapsUrl": "https://www.google.com/maps/place/JSI+Tree+Service+LLC/@35.7924148,-81.7595816,17z/data=!3m1!4b1!4m6!3m5!1s0x8850cff32f30a6f1:0x4b2c07abb3c9b4ce!8m2!3d35.7924148!4d-81.7595816!16s%2Fg%2F11t4dzzmbz?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=9a499d81-cee2-4d46-8d42-f91dbb43d715",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,29 +23,21 @@ export const siteConfigJsiEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Morganton Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1463 Paul and Lula Miller Rd, Morganton, NC 28655",
+  "addressNotes": "Operational Depot: Burke County Foothills Corridor, Morganton, NC 28655",
   "hero": {
     "badge": "Morganton, NC • 4.9 Google Maps Verified (52 Reviews)",
-    "headline": "Commercial Forestry Timber Harvesting, Bucket Truck Felling & Log Hauling",
+    "headline": "Commercial Forestry Bucket Rigging & High-Volume Timber Deck Staging",
     "subhead": "Direct owner dispatch by Nathan with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Nathan (828) 448-7047",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/jsi/photo_001.jpg",
-        "label": "Heavy Stand Canopy Felling",
-        "alt": "Commercial Forestry Bucket Truck"
+        "image": "/images/jsi/photo_001_crop.jpg",
+        "label": "Commercial Forestry Bucket Truck",
+        "alt": "Commercial forestry bucket truck with boom staged at edge of pine woods clearing"
       },
-      "sub1": {
-        "image": "/images/jsi/photo_002.jpg",
-        "label": "Commercial Timber Handling",
-        "alt": "Bucked Pine Timber Log Staging Package"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Grade-Level Clearing Finish",
-        "alt": "Subsurface Stump Milling & Ground Restoration"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigJsiEn = {
   ],
   "equipment": [
     {
-      "name": "Commercial Forestry Bucket Truck",
-      "badge": "Heavy Stand Canopy Felling",
-      "image": "/images/jsi/photo_001.jpg",
+      "name": "Harvested Timber Log Deck Staging",
+      "badge": "Timber Deck Management",
+      "image": "/images/jsi/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigJsiEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Heavy-duty forestry bucket truck deployed along rural pine timber stand for controlled canopy harvesting."
+      "desc": "Photo shows heavy harvested hardwood and pine timber logs sectioned and neatly stacked in an open pasture staging deck awaiting haul transport."
     },
     {
-      "name": "Bucked Pine Timber Log Staging Package",
-      "badge": "Commercial Timber Handling",
-      "image": "/images/jsi/photo_002.jpg",
+      "name": "Forestry Aerial Bucket Boom Unit",
+      "badge": "70-Foot Working Height",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigJsiEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Bucked pine timber logs neatly stacked along rural acreage field for transport to regional mills."
+      "desc": "Heavy-duty insulated aerial bucket truck with 70-foot reach, outriggers, and chip dump box for safe crown takedowns near power corridors."
     },
     {
-      "name": "Subsurface Stump Milling & Ground Restoration",
-      "badge": "Grade-Level Clearing Finish",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Heavy Timber Skidder & Log Crane Specs",
+      "badge": "Commercial Land Clearing",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigJsiEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished ground leveling after pine extraction, backfilled and cleared of obstructive root flares."
+      "desc": "High-torque hydraulic grapple skidders and knuckleboom loaders for extracting massive tree boles from rough mountain terrain."
     }
   ],
   "reviews": [

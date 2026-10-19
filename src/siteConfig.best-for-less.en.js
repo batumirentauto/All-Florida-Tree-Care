@@ -7,15 +7,15 @@ export const siteConfigBestForLessEn = {
   "shortName": "Best For Less Tree Care",
   "ownerName": "James",
   "ownerFirstName": "James",
-  "tagline": "100+ Ft Douglas Fir Climbing, Giant Timber Dismantling & Sawmill Bucking",
-  "slogan": "Top-Down Conifer Removals, Heavy Timber Rigging & Competitive Rates Across Clark County",
+  "tagline": "Extreme Conifer Topping, High Spar Rigging & Heavy Log Bucking",
+  "slogan": "Pacific Northwest High Climbers, 80+ Foot Spar Topping & Fair Upfront Pricing",
   "phone": "(360) 771-1450",
   "phoneRaw": "3607711450",
   "city": "Vancouver",
   "state": "WA",
-  "zip": "98684",
-  "streetAddress": "2508 NE 138th Ave",
-  "fullAddress": "2508 NE 138th Ave, Vancouver, WA 98684",
+  "zip": "98661",
+  "streetAddress": "Columbia River Highway Corridor",
+  "fullAddress": "Columbia River Highway Corridor, Vancouver, WA 98661",
   "mapsUrl": "https://www.google.com/maps/place/Best+For+Less+Tree+Care/@45.6411988,-122.5310826,17z/data=!3m1!4b1!4m6!3m5!1s0x5495a54b3a6fffff:0x116a4da7a76e9b30!8m2!3d45.6411988!4d-122.5310826!16s%2Fg%2F11fll64sxw?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=6d87415d-8342-4ce5-a4b1-a58529fb2be1",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigBestForLessEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Vancouver Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 2508 NE 138th Ave, Vancouver, WA 98684",
+  "addressNotes": "Operational Depot: Columbia River Highway Corridor, Vancouver, WA 98661",
   "hero": {
     "badge": "Vancouver, WA • 5.0 Google Maps Verified (34 Reviews)",
-    "headline": "100+ Ft Douglas Fir Climbing, Giant Timber Dismantling & Sawmill Bucking",
+    "headline": "Extreme Conifer Topping, High Spar Rigging & Heavy Log Bucking",
     "subhead": "Direct owner dispatch by James with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call James (360) 771-1450",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/best-for-less/photo_001.jpg",
-        "label": "Technical Spar Dismantling",
-        "alt": "100+ Ft Douglas Fir Spar Climbing & Rigging Gear"
+        "image": "/images/best-for-less/photo_002_crop.jpg",
+        "label": "High Spar Climber Topping at 80+ Ft",
+        "alt": "Arborist high climber topping dual conifer spars high above tree line"
       },
       "sub1": {
-        "image": "/images/best-for-less/photo_002.jpg",
-        "label": "Large Diameter Timber Handling",
-        "alt": "Heavy-Duty Timber Bucking Saw Package"
+        "image": "/images/best-for-less/photo_003_crop.jpg",
+        "label": "4-Foot Hardwood Trunk Bucking",
+        "alt": "Loggers bucking 4-foot diameter hardwood log into firewood rounds with big saws"
       },
       "sub2": {
-        "image": "/images/best-for-less/photo_003.jpg",
-        "label": "Urban Street & Powerline Clearance",
-        "alt": "Giant Conifer Hazard Assessment Package"
+        "image": "/images/best-for-less/photo_001_crop.jpg",
+        "label": "100-Ft Fir Takedown Assessment",
+        "alt": "Ground logger surveying massive 100-ft evergreen tree adjacent to residential home"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigBestForLessEn = {
   ],
   "equipment": [
     {
-      "name": "100+ Ft Douglas Fir Spar Climbing & Rigging Gear",
-      "badge": "Technical Spar Dismantling",
-      "image": "/images/best-for-less/photo_002.jpg",
+      "name": "Backyard Tree Reduction & Pruning",
+      "badge": "Tight-Access Crown Work",
+      "image": "/images/best-for-less/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigBestForLessEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist climber strapped at the top of a stripped 100+ ft twin spar conifer, systematically chunking down timber."
+      "desc": "Photo shows arborist ground crew managing canopy reduction on a mature backyard shade tree close to wooden structures and garden borders."
     },
     {
-      "name": "Heavy-Duty Timber Bucking Saw Package",
-      "badge": "Large Diameter Timber Handling",
-      "image": "/images/best-for-less/photo_003.jpg",
+      "name": "High-Tension Bull Ropes & Rigging Kit",
+      "badge": "Heavy Spar Lowering",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigBestForLessEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Two ground sawyers in protective ear gear bucking massive 4-to-5 foot diameter conifer rounds on residential driveway."
+      "desc": "Industrial-grade friction brakes (Port-a-Wrap) and double-braid synthetic bull ropes for lowering multi-ton tree sections without ground impact."
     },
     {
-      "name": "Giant Conifer Hazard Assessment Package",
-      "badge": "Urban Street & Powerline Clearance",
-      "image": "/images/best-for-less/photo_001.jpg",
+      "name": "Stihl Commercial Heavy Timber Saws",
+      "badge": "Large Diameter Cutting",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigBestForLessEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo captures the scale of a colossal twin-stem Douglas fir towering over residential street lines before safe takedown."
+      "desc": "Heavyweight chainsaws with up to 36-inch guide bars for rapidly bucking massive old-growth fir and cedar logs into manageable sections."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigBestForLessEn = {
   "serviceAreas": [
     {
       "name": "Vancouver (Central Depot)",
-      "zip": "98684",
+      "zip": "98661",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Vancouver Residential Corridor",
-      "zip": "98684",
+      "zip": "98661",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Vancouver Outer Acreage & Estates",
-      "zip": "98684",
+      "zip": "98661",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "98684",
+      "zip": "98661",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "98684",
+      "zip": "98661",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "98684",
+      "zip": "98661",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

@@ -7,15 +7,15 @@ export const siteConfigEatonEn = {
   "shortName": "Eaton Tree Removal",
   "ownerName": "Chris",
   "ownerFirstName": "Chris",
-  "tagline": "Mountain Cabin Hazard Tree Removal, Steep Slope Rigging & Fire Mitigation",
-  "slogan": "Expert Blue Ridge Arborist Climbing, Precision Chimney Clearance & Spotless Cleanups Across Fannin County",
+  "tagline": "Steep Mountain Hillside Felling, Pine Clearing & View Pruning",
+  "slogan": "North Georgia Mountain Arborists, Cabin Perimeter Clearing & Technical Winching",
   "phone": "(404) 227-0193",
   "phoneRaw": "4042270193",
   "city": "Blue Ridge",
   "state": "GA",
   "zip": "30513",
-  "streetAddress": "273 Orvin Lance Dr #2092",
-  "fullAddress": "273 Orvin Lance Dr #2092, Blue Ridge, GA 30513",
+  "streetAddress": "Appalachian Mountain Foothills",
+  "fullAddress": "Appalachian Mountain Foothills, Blue Ridge, GA 30513",
   "mapsUrl": "https://www.google.com/maps/place/Eaton+Tree+Removal/@34.8732811,-84.3005742,17z/data=!3m1!4b1!4m6!3m5!1s0x885fa7eceec43c2d:0xeca741ace43516ee!8m2!3d34.8732811!4d-84.3005742!16s%2Fg%2F11rhppmddy?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=6b6deb32-6c53-43d9-ac76-422b05927fb3",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigEatonEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Blue Ridge Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 273 Orvin Lance Dr #2092, Blue Ridge, GA 30513",
+  "addressNotes": "Operational Depot: Appalachian Mountain Foothills, Blue Ridge, GA 30513",
   "hero": {
     "badge": "Blue Ridge, GA • 4.9 Google Maps Verified (35 Reviews)",
-    "headline": "Mountain Cabin Hazard Tree Removal, Steep Slope Rigging & Fire Mitigation",
+    "headline": "Steep Mountain Hillside Felling, Pine Clearing & View Pruning",
     "subhead": "Direct owner dispatch by Chris with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Chris (404) 227-0193",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/eaton/photo_001.jpg",
-        "label": "Steep Slope & Deck Defense",
-        "alt": "Mountain Cabin Hazard Pine Removal Package"
+        "image": "/images/eaton/photo_002_crop.jpg",
+        "label": "Steep Hillside Cabin Felling",
+        "alt": "Steep hillside pine felling and brush clearing behind mountain cabin"
       },
       "sub1": {
-        "image": "/images/eaton/photo_002.jpg",
-        "label": "Micro-Clearance Sectional Lowering",
-        "alt": "Chimney & Roofline Precision Climber Kit"
+        "image": "/images/eaton/photo_003_crop.jpg",
+        "label": "Heavy Hillside Timber Inspection",
+        "alt": "Loggers standing on slope examining massive felled pine log"
       },
       "sub2": {
-        "image": "/images/eaton/photo_003.jpg",
-        "label": "Natural Aesthetic Preservation",
-        "alt": "Clean Pine Straw & Grounds Restoration Package"
+        "image": "/images/eaton/photo_001_crop.jpg",
+        "label": "Mountain Cabin Canopy Assessment",
+        "alt": "Tall mountain pines framing rustic wooden cabin under cloudy sky"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigEatonEn = {
   ],
   "equipment": [
     {
-      "name": "Mountain Cabin Hazard Pine Removal Package",
-      "badge": "Steep Slope & Deck Defense",
-      "image": "/images/eaton/photo_001.jpg",
+      "name": "Backyard Perimeter Clearance & Deck Protection",
+      "badge": "Cabin Grounds Clearing",
+      "image": "/images/eaton/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigEatonEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Photo shows towering hazard pines leaning over a Blue Ridge mountain cabin roofline, requiring precision rigging."
+      "desc": "Photo shows cleared residential grounds behind mountain cabin deck after removing hazardous leaning pine trees."
     },
     {
-      "name": "Chimney & Roofline Precision Climber Kit",
-      "badge": "Micro-Clearance Sectional Lowering",
-      "image": "/images/eaton/photo_002.jpg",
+      "name": "Scenic Mountain Vista Thinning & Pruning",
+      "badge": "Valley View Elevation",
+      "image": "/images/eaton/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigEatonEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber dismantling heavy pine trunk sections directly adjacent to stone fireplace chimneys and tin roofs."
+      "desc": "Photo shows vista window opened through mountain pines overlooking the Blue Ridge valley following strategic crown thinning."
     },
     {
-      "name": "Clean Pine Straw & Grounds Restoration Package",
-      "badge": "Natural Aesthetic Preservation",
-      "image": "/images/eaton/photo_003.jpg",
+      "name": "Mountain Terrain Rigging & Winch Kit",
+      "badge": "Steep Slope Felling",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigEatonEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo demonstrates pristine cabin yard finish with pine straw leveled smooth and zero branch debris remaining."
+      "desc": "Specialized heavy-duty timber winches, dynamic ground anchors, and directional pulling gear engineered for steep Appalachian slopes."
     }
   ],
   "reviews": [

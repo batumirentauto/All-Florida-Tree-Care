@@ -7,15 +7,15 @@ export const siteConfigLimbwalkersRu = {
   "shortName": "Limbwalkers Tree & Crane Service",
   "ownerName": "Калеб",
   "ownerFirstName": "Калеб",
-  "tagline": "Спил деревьев тяжелым краном Palfinger PK 65002-SH и высотный такелаж",
-  "slogan": "Снятие деревьев краном через крыши домов, сертифицированные арбористы и абсолютная безопасность",
+  "tagline": "Спил краном-манипулятором, вывоз грейфером и снятие деревьев с крыш",
+  "slogan": "Спил деревьев тяжелым автокраном, ликвидация последствий бурь и планировка двора мини-погрузчиком",
   "phone": "(828) 413-7227",
   "phoneRaw": "8284137227",
   "city": "Моргантон",
   "state": "Северная Каролина",
   "zip": "28655",
-  "streetAddress": "1006 St Marys Church Rd",
-  "fullAddress": "1006 St Marys Church Rd, Morganton, NC 28655",
+  "streetAddress": "Foothills High Country Corridor",
+  "fullAddress": "Foothills High Country Corridor, Morganton, NC 28655",
   "mapsUrl": "https://www.google.com/maps/place/Limbwalkers+Tree+%26+Crane+Service/@35.7735732,-81.7404691,17z/data=!3m1!4b1!4m6!3m5!1s0x8850cf05e4da7679:0xc3e33363f2cebc0c!8m2!3d35.7735732!4d-81.7404691!16s%2Fg%2F11clyslyqt?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=75375ab5-4f93-411c-9062-160adc930138",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigLimbwalkersRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Моргантон",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: 1006 St Marys Church Rd, Morganton, NC 28655",
+  "addressNotes": "База выезда техники: Foothills High Country Corridor, Morganton, NC 28655",
   "hero": {
     "badge": "Моргантон, Северная Каролина • Рейтинг 4.9 на Google Maps (155 отзывов)",
-    "headline": "Спил деревьев тяжелым краном Palfinger PK 65002-SH и высотный такелаж",
+    "headline": "Спил краном-манипулятором, вывоз грейфером и снятие деревьев с крыш",
     "subhead": "Прямой выезд владельца (Калеб), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((828) 413-7227)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/limbwalkers/photo_001.jpg",
-        "label": "Подъем деревьев через крыши домов",
-        "alt": "Тяжелый манипулятор-кран Palfinger PK 65002-SH"
+        "image": "/images/limbwalkers/photo_006_crop.jpg",
+        "label": "Спил автокраном над крышей",
+        "alt": "Кран-манипулятор переносит тяжелую ветку дуба над крышей гаража"
       },
       "sub1": {
-        "image": "/images/limbwalkers/photo_002.jpg",
-        "label": "Спил без падения на землю",
-        "alt": "Система арбористского спила с фиксацией на крюке крана"
+        "image": "/images/limbwalkers/photo_005_crop.jpg",
+        "label": "Упавшее на кровлю дерево",
+        "alt": "Тяжелый ветровал: упавшие деревья на крыше дома и гаража после шторма"
       },
       "sub2": {
-        "image": "/images/limbwalkers/photo_003.jpg",
-        "label": "Погрузка стволов до 5 тонн",
-        "alt": "Комплекс перемещения многотонных бревен-великанов"
+        "image": "/images/limbwalkers/photo_013_crop.jpg",
+        "label": "Грейферный лесовоз с захватом",
+        "alt": "Грузовик с гидроманипулятором и грейферным захватом на вывозе бревен"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigLimbwalkersRu = {
   ],
   "equipment": [
     {
-      "name": "Тяжелый манипулятор-кран Palfinger PK 65002-SH",
-      "badge": "Подъем деревьев через крыши домов",
-      "image": "/images/limbwalkers/photo_001.jpg",
+      "name": "Крановый такелаж тяжелых бревен",
+      "badge": "Подъем многотонных стволов",
+      "image": "/images/limbwalkers/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +152,12 @@ export const siteConfigLimbwalkersRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Тяжелый кран Palfinger на фото поднят над коттеджем для вертикального переноса спиленных верхушек."
+      "desc": "На фото зафиксирован подъем многотонного бревна на стропах крана над подъездной дорожкой для безопасной погрузки."
     },
     {
-      "name": "Система арбористского спила с фиксацией на крюке крана",
-      "badge": "Спил без падения на землю",
-      "image": "/images/limbwalkers/photo_002.jpg",
+      "name": "Выравнивание участка гусеничным мини-погрузчиком",
+      "badge": "Планировка грунта",
+      "image": "/images/limbwalkers/photo_011_crop.jpg",
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +172,12 @@ export const siteConfigLimbwalkersRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Арборист на фото закреплен со страховкой к стреле крана, срезая крону для мгновенного подъема в воздух."
+      "desc": "На фото показан компактный гусеничный погрузчик, выравнивающий грунт во дворе после корчевки пней."
     },
     {
-      "name": "Комплекс перемещения многотонных бревен-великанов",
-      "badge": "Погрузка стволов до 5 тонн",
-      "image": "/images/limbwalkers/photo_003.jpg",
+      "name": "Спил пня под корень перед фрезерованием",
+      "badge": "Подготовка к дроблению",
+      "image": "/images/limbwalkers/photo_009_crop.jpg",
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +192,7 @@ export const siteConfigLimbwalkersRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Кран на фото плавно опускает многотонное бревно прямо в кузов лесовоза без касания газона."
+      "desc": "На фото показан низко срезанный пень на открытой поляне, подготовленный к быстрому измельчению фрезой."
     }
   ],
   "reviews": [

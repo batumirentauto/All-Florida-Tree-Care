@@ -7,15 +7,15 @@ export const siteConfigAlwaysGrindingEn = {
   "shortName": "Always Grinding Tree & Stump Removal",
   "ownerName": "Dustin",
   "ownerFirstName": "Dustin",
-  "tagline": "Carlton SP8018 TRX Track Stump Grinding & Subsurface Root Eradication",
-  "slogan": "High-Horsepower Root Flare Milling, Gate-Access Maneuverability & Clean Grounds Across North Georgia",
+  "tagline": "Carlton Track Stump Grinding & Steep-Slope Hardwood Excavation",
+  "slogan": "High-Power Carlton SP8018 TRX Track Milling, Hillside Access & Spotless Cleanups",
   "phone": "(404) 797-1784",
   "phoneRaw": "4047971784",
   "city": "Flowery Branch",
   "state": "GA",
   "zip": "30542",
-  "streetAddress": "Hall & Gwinnett Dispatch",
-  "fullAddress": "Hall & Gwinnett Dispatch, Flowery Branch, GA 30542",
+  "streetAddress": "Lake Lanier Foothills Corridor",
+  "fullAddress": "Lake Lanier Foothills Corridor, Flowery Branch, GA 30542",
   "mapsUrl": "https://www.google.com/maps/place/Always+Grinding+Tree+%26+Stump+Removal/@34.2007085,-83.963505,10z/data=!3m1!4b1!4m6!3m5!1s0x88f5f3007f06af01:0xbd82a23df0d22bfd!8m2!3d34.2007084!4d-83.963505!16s%2Fg%2F11h5rzqhy8?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=cd481452-3f25-4baa-b70c-e1ab0f04be40",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigAlwaysGrindingEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Flowery Branch Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: Hall & Gwinnett Dispatch, Flowery Branch, GA 30542",
+  "addressNotes": "Operational Depot: Lake Lanier Foothills Corridor, Flowery Branch, GA 30542",
   "hero": {
     "badge": "Flowery Branch, GA • 5.0 Google Maps Verified (152 Reviews)",
-    "headline": "Carlton SP8018 TRX Track Stump Grinding & Subsurface Root Eradication",
+    "headline": "Carlton Track Stump Grinding & Steep-Slope Hardwood Excavation",
     "subhead": "Direct owner dispatch by Dustin with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Dustin (404) 797-1784",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/always-grinding/photo_001.jpg",
-        "label": "Commercial High-Output Milling",
-        "alt": "Carlton SP8018 TRX Track Stump Grinder"
+        "image": "/images/always-grinding/photo_001_crop.jpg",
+        "label": "Carlton Track Grinder on Terrace",
+        "alt": "Carlton SP8018 TRX commercial track stump grinder positioned on upper retaining wall terrace"
       },
       "sub1": {
-        "image": "/images/always-grinding/photo_002.jpg",
-        "label": "Complete Anchor Root Elimination",
-        "alt": "High-Torque Hardwood Root Flare Milling Kit"
+        "image": "/images/always-grinding/photo_003_crop.jpg",
+        "label": "Track Machine Residential Access",
+        "alt": "Carlton track grinder unloading from equipment trailer down driveway with zero turf rutting"
       },
       "sub2": {
-        "image": "/images/always-grinding/photo_003.jpg",
-        "label": "Zero Lawn Rutting Guarantee",
-        "alt": "Turf-Friendly Low Ground Pressure Track System"
+        "image": "/images/always-grinding/photo_004_crop.jpg",
+        "label": "Roofline Overhang Mitigation",
+        "alt": "Mature hardwood canopy overhanging residential roofline prior to pruning"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigAlwaysGrindingEn = {
   ],
   "equipment": [
     {
-      "name": "Carlton SP8018 TRX Track Stump Grinder",
-      "badge": "Commercial High-Output Milling",
-      "image": "/images/always-grinding/photo_001.jpg",
+      "name": "Carlton SP8018 TRX Steep Hillside Milling",
+      "badge": "Steep-Slope Track Stability",
+      "image": "/images/always-grinding/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigAlwaysGrindingEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Heavy-duty self-propelled Carlton track grinder shown in photo pulverizing massive oak stump flares deep below lawn grade."
+      "desc": "Photo shows the Carlton commercial track grinder tackling massive root balls on a steep dirt embankment where wheeled machines cannot operate."
     },
     {
-      "name": "High-Torque Hardwood Root Flare Milling Kit",
-      "badge": "Complete Anchor Root Elimination",
-      "image": "/images/always-grinding/photo_002.jpg",
+      "name": "Broken Storm Limb & Canopy Hazard Extraction",
+      "badge": "Hanging Limb Rigging",
+      "image": "/images/always-grinding/photo_005_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigAlwaysGrindingEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Deep milling action shown in photo converting tough surface roots into fine organic mulch for immediate sod installation."
+      "desc": "Photo shows hazardous broken branch suspended dangerously inside the crown over property grounds, rigged and safely brought down."
     },
     {
-      "name": "Turf-Friendly Low Ground Pressure Track System",
-      "badge": "Zero Lawn Rutting Guarantee",
-      "image": "/images/always-grinding/photo_003.jpg",
+      "name": "Carlton SP8018 TRX Track Grinder Specs",
+      "badge": "High-Output Diesel Power",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigAlwaysGrindingEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the smooth, backfilled mulch bed on green residential turf, leaving clean ground without rut marks."
+      "desc": "Heavy-duty rubber tracked stump cutter equipped with hydraulic ground drive, 18-inch cut depth below grade, and turf-safe weight distribution."
     }
   ],
   "reviews": [

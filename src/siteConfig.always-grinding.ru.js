@@ -7,15 +7,15 @@ export const siteConfigAlwaysGrindingRu = {
   "shortName": "Always Grinding Tree & Stump Removal",
   "ownerName": "Дастин",
   "ownerFirstName": "Дастин",
-  "tagline": "Дробление пней гусеничной фрезой Carlton SP8018 TRX и выравнивание грунта",
-  "slogan": "Мощное фрезерование массивных пней дуба и сосны с сохранением газона в Северной Джорджии",
+  "tagline": "Дробление пней гусеничной фрезой Carlton и работа на крутых склонах",
+  "slogan": "Гусеничная пнедробилка Carlton SP8018 TRX, работа на сложных террасах и чистота",
   "phone": "(404) 797-1784",
   "phoneRaw": "4047971784",
   "city": "Флауэри-Бранч",
   "state": "Джорджия",
   "zip": "30542",
-  "streetAddress": "Hall & Gwinnett Dispatch",
-  "fullAddress": "Hall & Gwinnett Dispatch, Flowery Branch, GA 30542",
+  "streetAddress": "Lake Lanier Foothills Corridor",
+  "fullAddress": "Lake Lanier Foothills Corridor, Flowery Branch, GA 30542",
   "mapsUrl": "https://www.google.com/maps/place/Always+Grinding+Tree+%26+Stump+Removal/@34.2007085,-83.963505,10z/data=!3m1!4b1!4m6!3m5!1s0x88f5f3007f06af01:0xbd82a23df0d22bfd!8m2!3d34.2007084!4d-83.963505!16s%2Fg%2F11h5rzqhy8?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=cd481452-3f25-4baa-b70c-e1ab0f04be40",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigAlwaysGrindingRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Флауэри-Бранч",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: Hall & Gwinnett Dispatch, Flowery Branch, GA 30542",
+  "addressNotes": "База выезда техники: Lake Lanier Foothills Corridor, Flowery Branch, GA 30542",
   "hero": {
     "badge": "Флауэри-Бранч, Джорджия • Рейтинг 5.0 на Google Maps (152 отзывов)",
-    "headline": "Дробление пней гусеничной фрезой Carlton SP8018 TRX и выравнивание грунта",
+    "headline": "Дробление пней гусеничной фрезой Carlton и работа на крутых склонах",
     "subhead": "Прямой выезд владельца (Дастин), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((404) 797-1784)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/always-grinding/photo_001.jpg",
-        "label": "Промышленная мощность фрезерования",
-        "alt": "Гусеничная пнедробилка Carlton SP8018 TRX"
+        "image": "/images/always-grinding/photo_001_crop.jpg",
+        "label": "Carlton TRX на террасе",
+        "alt": "Гусеничная пнедробилка Carlton SP8018 TRX на верхней террасе подпорной стены"
       },
       "sub1": {
-        "image": "/images/always-grinding/photo_002.jpg",
-        "label": "Удаление якорных корней",
-        "alt": "Комплекс измельчения поверхностных корней"
+        "image": "/images/always-grinding/photo_003_crop.jpg",
+        "label": "Заезд техники во двор",
+        "alt": "Спуск гусеничной машины с прицепа по дорожке без повреждения газона"
       },
       "sub2": {
-        "image": "/images/always-grinding/photo_003.jpg",
-        "label": "Защита дерна от продавливания",
-        "alt": "Гусеничная система бережного движения по газону"
+        "image": "/images/always-grinding/photo_004_crop.jpg",
+        "label": "Устранение веток над крышей",
+        "alt": "Опасная крона дерева, нависающая над крышей жилого дома перед опиловкой"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigAlwaysGrindingRu = {
   ],
   "equipment": [
     {
-      "name": "Гусеничная пнедробилка Carlton SP8018 TRX",
-      "badge": "Промышленная мощность фрезерования",
-      "image": "/images/always-grinding/photo_001.jpg",
+      "name": "Дробление корней на крутом склоне",
+      "badge": "Работа на крутых откосах",
+      "image": "/images/always-grinding/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +152,12 @@ export const siteConfigAlwaysGrindingRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Мощная гусеничная пнедробилка Carlton на фото измельчает массивный пень дуба значительно ниже уровня травы."
+      "desc": "На фото запечатлена фреза Carlton на крутом склоне: гусеничное шасси обеспечивает устойчивость при измельчении корней на крутых откосах."
     },
     {
-      "name": "Комплекс измельчения поверхностных корней",
-      "badge": "Удаление якорных корней",
-      "image": "/images/always-grinding/photo_002.jpg",
+      "name": "Спил надломленных ветвей после шторма",
+      "badge": "Снятие зависших ветвей",
+      "image": "/images/always-grinding/photo_005_crop.jpg",
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +172,12 @@ export const siteConfigAlwaysGrindingRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Глубокая фрезеровка на фото превращает твердые корни в органическую мульчу, готовую для посадки газона."
+      "desc": "На фото показана надломленная штормом ветка, зависшая в кроне над участком: безопасный демонтаж с использованием арбористского такелажа."
     },
     {
-      "name": "Гусеничная система бережного движения по газону",
-      "badge": "Защита дерна от продавливания",
-      "image": "/images/always-grinding/photo_003.jpg",
+      "name": "Характеристики Carlton SP8018 TRX",
+      "badge": "Турбодизельная мощность",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +192,7 @@ export const siteConfigAlwaysGrindingRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "На фото запечатлен ровный слой мульчи на зеленом газоне после удаления пня: ни одной колеи от тяжелой техники."
+      "desc": "Профессиональная гусеничная пнедробилка: глубина фрезерования до 45 см ниже уровня грунта, бережное распределение веса по дерну."
     }
   ],
   "reviews": [

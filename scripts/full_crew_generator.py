@@ -361,9 +361,9 @@ def build_company_configs(slug):
         "ctaPrimary": f"Call {meta['owner_en'].split()[0]} {meta['phone']}",
         "ctaSecondary": "Request Free Estimate",
         "bentoPhotos": {
-          "main": { "image": meta['main_photo'], "label": meta['equip1']['badge_en'], "alt": meta['equip1']['name_en'] },
-          "sub1": { "image": meta['sub1_photo'], "label": meta['equip2']['badge_en'], "alt": meta['equip2']['name_en'] },
-          "sub2": { "image": meta['sub2_photo'], "label": meta['equip3']['badge_en'], "alt": meta['equip3']['name_en'] }
+          "main": { "image": meta['main_photo'], "label": meta.get('bento_main_label_en', meta['equip1']['badge_en']), "alt": meta.get('bento_main_alt_en', meta['equip1']['name_en']) },
+          "sub1": ({ "image": meta['sub1_photo'], "label": meta.get('bento_sub1_label_en', meta['equip2']['badge_en']), "alt": meta.get('bento_sub1_alt_en', meta['equip2']['name_en']) } if meta.get('sub1_photo') and meta.get('sub2_photo') else None),
+          "sub2": ({ "image": meta['sub2_photo'], "label": meta.get('bento_sub2_label_en', meta['equip3']['badge_en']), "alt": meta.get('bento_sub2_alt_en', meta['equip3']['name_en']) } if meta.get('sub1_photo') and meta.get('sub2_photo') else None)
         }
       },
       "trustBadges": [
@@ -419,9 +419,9 @@ def build_company_configs(slug):
         "ctaPrimary": f"Позвонить ({meta['phone']})",
         "ctaSecondary": "Рассчитать смету",
         "bentoPhotos": {
-          "main": { "image": meta['main_photo'], "label": meta['equip1']['badge_ru'], "alt": meta['equip1']['name_ru'] },
-          "sub1": { "image": meta['sub1_photo'], "label": meta['equip2']['badge_ru'], "alt": meta['equip2']['name_ru'] },
-          "sub2": { "image": meta['sub2_photo'], "label": meta['equip3']['badge_ru'], "alt": meta['equip3']['name_ru'] }
+          "main": { "image": meta['main_photo'], "label": meta.get('bento_main_label_ru', meta['equip1']['badge_ru']), "alt": meta.get('bento_main_alt_ru', meta['equip1']['name_ru']) },
+          "sub1": ({ "image": meta['sub1_photo'], "label": meta.get('bento_sub1_label_ru', meta['equip2']['badge_ru']), "alt": meta.get('bento_sub1_alt_ru', meta['equip2']['name_ru']) } if meta.get('sub1_photo') and meta.get('sub2_photo') else None),
+          "sub2": ({ "image": meta['sub2_photo'], "label": meta.get('bento_sub2_label_ru', meta['equip3']['badge_ru']), "alt": meta.get('bento_sub2_alt_ru', meta['equip3']['name_ru']) } if meta.get('sub1_photo') and meta.get('sub2_photo') else None)
         }
       },
       "trustBadges": [

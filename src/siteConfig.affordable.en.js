@@ -7,8 +7,8 @@ export const siteConfigAffordableEn = {
   "shortName": "Affordable Tree and Palm Tree Services",
   "ownerName": "Francisco",
   "ownerFirstName": "Francisco",
-  "tagline": "Precision Palm Skinning, High-Climbing Felling & Crown Shaping Sacramento",
-  "slogan": "Expert Palm Care, Hazardous Tree Removals & Complete Frond Cleanups Across Sacramento County",
+  "tagline": "High-Canopy Palm Trimming, Architectural Crown Shaping & Rigging",
+  "slogan": "Skilled Arborist Climbing, Diamond Palm Trunk Skinning & Zero Damage Tree Work",
   "phone": "(916) 701-6839",
   "phoneRaw": "9167016839",
   "city": "Sacramento",
@@ -26,25 +26,25 @@ export const siteConfigAffordableEn = {
   "addressNotes": "Operational Depot: 2797 65th Ave, Sacramento, CA 95822",
   "hero": {
     "badge": "Sacramento, CA • 4.7 Google Maps Verified (93 Reviews)",
-    "headline": "Precision Palm Skinning, High-Climbing Felling & Crown Shaping Sacramento",
+    "headline": "High-Canopy Palm Trimming, Architectural Crown Shaping & Rigging",
     "subhead": "Direct owner dispatch by Francisco with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Francisco (916) 701-6839",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/affordable/photo_001.jpg",
-        "label": "High-Canopy Precision",
-        "alt": "Aerial Palm Climbing & Tree Saddle Package"
+        "image": "/images/affordable/photo_001_crop.jpg",
+        "label": "High Canopy Climber Aloft",
+        "alt": "Arborist climber in harness skinning tall palm trunk with spurs and rigging"
       },
       "sub1": {
-        "image": "/images/affordable/photo_002.jpg",
-        "label": "Ornamental Palm Care",
-        "alt": "Precision Palm Skinning & Crown Shaping Kit"
+        "image": "/images/affordable/photo_007_crop.jpg",
+        "label": "Palm Frond Consolidation",
+        "alt": "Cut palm fronds and trimmed skirt neatly piled for chipping"
       },
       "sub2": {
-        "image": "/images/affordable/photo_003.jpg",
-        "label": "Clean Ground Operations",
-        "alt": "High-Capacity Frond & Brush Haul-Away Trailer"
+        "image": "/images/affordable/photo_009_crop.jpg",
+        "label": "Architectural Crown Finish",
+        "alt": "Manicured queen palms over residential patio and pool enclosure"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigAffordableEn = {
   ],
   "equipment": [
     {
-      "name": "Aerial Palm Climbing & Tree Saddle Package",
-      "badge": "High-Canopy Precision",
-      "image": "/images/affordable/photo_001.jpg",
+      "name": "High-Altitude Arborist Harness & Saddle Rig",
+      "badge": "High-Canopy Rigging",
+      "image": "/images/affordable/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigAffordableEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist climber shown in photo harnessed at the top of a tall palm tree, methodically pruning heavy skirts and seed pods."
+      "desc": "Photo shows arborist climber positioned securely inside the high palm crown using climbing spurs and safety saddle to perform precision frond thinning."
     },
     {
-      "name": "Precision Palm Skinning & Crown Shaping Kit",
-      "badge": "Ornamental Palm Care",
-      "image": "/images/affordable/photo_002.jpg",
+      "name": "Diamond Palm Trunk Skinning & Shaving",
+      "badge": "Precision Trunk Shaving",
+      "image": "/images/affordable/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigAffordableEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Photo shows the manicured result of two tall residential palms with uniform pineapple cuts and balanced green crowns."
+      "desc": "Photo shows close-up detail of manicured queen palm trunk shaved clean with uniform diamond geometry and healthy crown flare."
     },
     {
-      "name": "High-Capacity Frond & Brush Haul-Away Trailer",
-      "badge": "Clean Ground Operations",
-      "image": "/images/affordable/photo_003.jpg",
+      "name": "Residential Crown Elevation & Shaping",
+      "badge": "Crown Elevation Finish",
+      "image": "/images/affordable/photo_008_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigAffordableEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Ground crew shown in photo bundling and loading piles of dense palm fronds, ensuring the lawn and sidewalk are clear."
+      "desc": "Photo shows a mature fan palm elevated and shaped in front of a residential home, maintaining full clearance away from the roofline and entrance."
     }
   ],
   "reviews": [

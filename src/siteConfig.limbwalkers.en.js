@@ -7,15 +7,15 @@ export const siteConfigLimbwalkersEn = {
   "shortName": "Limbwalkers Tree & Crane Service",
   "ownerName": "Caleb",
   "ownerFirstName": "Caleb",
-  "tagline": "Palfinger PK 65002-SH Crane Tree Removals & Technical Dismantling",
-  "slogan": "Heavy Crane Extraction Over Luxury Homes, Certified Climbers & Zero Drop Damage Across Western NC",
+  "tagline": "Heavy Knuckleboom Crane Removal, Grapple Truck Hauling & Emergency Roof Rescue",
+  "slogan": "High-Tonnage Hydraulic Crane Takedowns, Storm Disaster Recovery & Bobcat Yard Grading",
   "phone": "(828) 413-7227",
   "phoneRaw": "8284137227",
   "city": "Morganton",
   "state": "NC",
   "zip": "28655",
-  "streetAddress": "1006 St Marys Church Rd",
-  "fullAddress": "1006 St Marys Church Rd, Morganton, NC 28655",
+  "streetAddress": "Foothills High Country Corridor",
+  "fullAddress": "Foothills High Country Corridor, Morganton, NC 28655",
   "mapsUrl": "https://www.google.com/maps/place/Limbwalkers+Tree+%26+Crane+Service/@35.7735732,-81.7404691,17z/data=!3m1!4b1!4m6!3m5!1s0x8850cf05e4da7679:0xc3e33363f2cebc0c!8m2!3d35.7735732!4d-81.7404691!16s%2Fg%2F11clyslyqt?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=75375ab5-4f93-411c-9062-160adc930138",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigLimbwalkersEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Morganton Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1006 St Marys Church Rd, Morganton, NC 28655",
+  "addressNotes": "Operational Depot: Foothills High Country Corridor, Morganton, NC 28655",
   "hero": {
     "badge": "Morganton, NC • 4.9 Google Maps Verified (155 Reviews)",
-    "headline": "Palfinger PK 65002-SH Crane Tree Removals & Technical Dismantling",
+    "headline": "Heavy Knuckleboom Crane Removal, Grapple Truck Hauling & Emergency Roof Rescue",
     "subhead": "Direct owner dispatch by Caleb with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Caleb (828) 413-7227",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/limbwalkers/photo_001.jpg",
-        "label": "Zero Impact Over-Roof Lifting",
-        "alt": "Palfinger PK 65002-SH High-Performance Knuckle Boom Crane"
+        "image": "/images/limbwalkers/photo_006_crop.jpg",
+        "label": "Knuckleboom Crane Overhead Removal",
+        "alt": "Commercial knuckleboom arborist crane lifting heavy branches clear of residential garage"
       },
       "sub1": {
-        "image": "/images/limbwalkers/photo_002.jpg",
-        "label": "Aerial Precision Dismantling",
-        "alt": "Crane-Tethered Climber Rigging Package"
+        "image": "/images/limbwalkers/photo_005_crop.jpg",
+        "label": "Severe Roof Blowdown Impact",
+        "alt": "Massive storm blowdown trees crushed across residential home and garage roof"
       },
       "sub2": {
-        "image": "/images/limbwalkers/photo_003.jpg",
-        "label": "Heavy Timber Extraction",
-        "alt": "Massive Multi-Ton Trunk Round Lowering Rig"
+        "image": "/images/limbwalkers/photo_013_crop.jpg",
+        "label": "Commercial Grapple Loader Truck",
+        "alt": "Heavy red knuckleboom grapple loader truck servicing mature tree canopy"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigLimbwalkersEn = {
   ],
   "equipment": [
     {
-      "name": "Palfinger PK 65002-SH High-Performance Knuckle Boom Crane",
-      "badge": "Zero Impact Over-Roof Lifting",
-      "image": "/images/limbwalkers/photo_001.jpg",
+      "name": "Heavy Timber Crane Sling Rigging",
+      "badge": "Precision Crane Lifting",
+      "image": "/images/limbwalkers/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigLimbwalkersEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Heavy Palfinger knuckle boom crane deployed in residential driveway, lifting massive tree sections over rooftops."
+      "desc": "Photo shows the hydraulic crane arm lifting a massive horizontal hardwood tree trunk in synthetic balance slings high above the driveway."
     },
     {
-      "name": "Crane-Tethered Climber Rigging Package",
-      "badge": "Aerial Precision Dismantling",
-      "image": "/images/limbwalkers/photo_002.jpg",
+      "name": "Track Compact Loader Ground Grading",
+      "badge": "Bobcat Lot Restoration",
+      "image": "/images/limbwalkers/photo_011_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigLimbwalkersEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber tethered to crane hook cutting high canopy limbs for gentle aerial extraction over houses."
+      "desc": "Photo shows orange compact track loader actively grading and leveling soil in a residential yard following tree extraction."
     },
     {
-      "name": "Massive Multi-Ton Trunk Round Lowering Rig",
-      "badge": "Heavy Timber Extraction",
-      "image": "/images/limbwalkers/photo_003.jpg",
+      "name": "Hardwood Stump Flush-Cut & Milling Prep",
+      "badge": "Stump Extraction Prep",
+      "image": "/images/limbwalkers/photo_009_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigLimbwalkersEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Heavy crane lowering massive hardwood trunk round directly onto transport flatbed with zero lawn contact."
+      "desc": "Photo shows hardwood stump cleanly sectioned at ground level in open yard, prepared for subsurface grinding without disturbing surroundings."
     }
   ],
   "reviews": [

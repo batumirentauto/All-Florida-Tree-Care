@@ -30,3 +30,13 @@
   - Если речь о фирменном грузовике (Fleet Truck) — на фото обязан быть грузовик/тягач с логотипом/номером на борту.
   - Если речь о чистом газоне/убранной территории (Clean Lawn) — на фото обязана быть приведенная в порядок территория.
 - **Обязательный аудит содержимого фото:** Перед привязкой изображения к карточке ассистент обязан проверить содержимое каждого файла, чтобы подпись и текст на 100% совпадали с тем, что физически запечатлено на фотографии.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

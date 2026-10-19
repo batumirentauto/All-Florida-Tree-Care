@@ -7,15 +7,15 @@ export const siteConfigWoodfellasRu = {
   "shortName": "WoodFellas Tree Service",
   "ownerName": "Джон",
   "ownerFirstName": "Джон",
-  "tagline": "Спил деревьев на склонах Теннесси, высотная автовышка и дробление пней",
-  "slogan": "Пунктуальный сервис по спилу деревьев, аккуратная работа у домов и чистый газон",
+  "tagline": "Контролируемый посекционный спил, дробление пней и чистота во дворе",
+  "slogan": "Арбористы горных районов Теннесси, аккуратная работа и идеальный порядок",
   "phone": "(423) 270-4224",
   "phoneRaw": "4232704224",
   "city": "Джонсон-Сити",
   "state": "Теннесси",
   "zip": "37604",
-  "streetAddress": "Peachtree St",
-  "fullAddress": "Peachtree St, Johnson City, TN 37604",
+  "streetAddress": "Appalachian Highlands Corridor",
+  "fullAddress": "Appalachian Highlands Corridor, Johnson City, TN 37604",
   "mapsUrl": "https://www.google.com/maps/place/WoodFellas+Tree+Service/@36.322659,-82.3715945,17z/data=!3m1!4b1!4m6!3m5!1s0x81785c79a0a9b539:0x25643b8ec428149a!8m2!3d36.322659!4d-82.3715945!16s%2Fg%2F11kjplg0t4?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=eaeb6012-7476-4822-b7b4-4430de80f160",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,29 +23,21 @@ export const siteConfigWoodfellasRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Джонсон-Сити",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: Peachtree St, Johnson City, TN 37604",
+  "addressNotes": "База выезда техники: Appalachian Highlands Corridor, Johnson City, TN 37604",
   "hero": {
     "badge": "Джонсон-Сити, Теннесси • Рейтинг 5.0 на Google Maps (39 отзывов)",
-    "headline": "Спил деревьев на склонах Теннесси, высотная автовышка и дробление пней",
+    "headline": "Контролируемый посекционный спил, дробление пней и чистота во дворе",
     "subhead": "Прямой выезд владельца (Джон), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((423) 270-4224)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Работа над крышами домов",
-        "alt": "Телескопическая автовышка Altec 18+ метров"
+        "image": "/images/tecos/clean-ground-crew_crop.jpg",
+        "label": "Чистовая уборка территории",
+        "alt": "Бригада арбористов производит уборку и очистку газона после спила дерева"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Полное уничтожение корневых шеек",
-        "alt": "Промышленная пнедробилка глубокого фрезерования"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Гарантия идеального порядка",
-        "alt": "Комплекс чистовой уборки и восстановления дерна"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigWoodfellasRu = {
   ],
   "equipment": [
     {
-      "name": "Телескопическая автовышка Altec 18+ метров",
-      "badge": "Работа над крышами домов",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Посекционный спил деревьев",
+      "badge": "Безопасный спил",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +144,12 @@ export const siteConfigWoodfellasRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Автовышка поднята над крышей для аккуратного удаления нависающих ветвей без риска падения на кровлю."
+      "desc": "Специальные тормозные блоки и веревки для безопасного пошагового спуска частей дерева в ограниченном пространстве."
     },
     {
-      "name": "Промышленная пнедробилка глубокого фрезерования",
-      "badge": "Полное уничтожение корневых шеек",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Гусеничная пнедробилка",
+      "badge": "Глубокое измельчение корней",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +164,12 @@ export const siteConfigWoodfellasRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Фреза перемалывает твердые пни дуба и гикори на глубину 30 см ниже уровня дерна."
+      "desc": "Самоходная машина на резиновых гусеницах для прохода через калитки и быстрого удаления пней ниже уровня дерна."
     },
     {
-      "name": "Комплекс чистовой уборки и восстановления дерна",
-      "badge": "Гарантия идеального порядка",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Вывоз мусора и восстановление газона",
+      "badge": "Сдача чистого участка",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +184,7 @@ export const siteConfigWoodfellasRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Вид готового газона после удаления пня: яма засыпана, поверхность выровнена без следов мусора."
+      "desc": "Дробилка веток и ранцевые воздуходувки: полный вывоз порубочных остатков и наведение порядка во дворе."
     }
   ],
   "reviews": [

@@ -7,15 +7,15 @@ export const siteConfigRosalesEn = {
   "shortName": "M Rosales Tree Service",
   "ownerName": "Rodrigo",
   "ownerFirstName": "Rodrigo",
-  "tagline": "Houston Live Oak Felling, Bucket Truck Trimming & Brush Chipping",
-  "slogan": "Precision Urban Tree Takedowns, Hurricane Canopy Elevation & Spotless Grounds Across Harris County",
+  "tagline": "Commercial Brush Chipping, Pine Canopy Rigging & Deep Stump Milling",
+  "slogan": "Commercial Chipping Fleet, Expert Houston Climbers & Zero Turf Disturbance",
   "phone": "(281) 804-5020",
   "phoneRaw": "2818045020",
   "city": "Houston",
   "state": "TX",
-  "zip": "77055",
-  "streetAddress": "1929 Coulcrest Dr",
-  "fullAddress": "1929 Coulcrest Dr, Houston, TX 77055",
+  "zip": "77084",
+  "streetAddress": "Harris County Metro Corridor",
+  "fullAddress": "Harris County Metro Corridor, Houston, TX 77084",
   "mapsUrl": "https://www.google.com/maps/place/M+Rosales+Tree+Service/@29.8065125,-95.4990732,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c5332defb201:0xfdfb3017647c70e!8m2!3d29.8065125!4d-95.4990732!16s%2Fg%2F11pwykbbc9?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=581e2c47-bf00-4ae2-8e22-97a6f29bbb36",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigRosalesEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Houston Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1929 Coulcrest Dr, Houston, TX 77055",
+  "addressNotes": "Operational Depot: Harris County Metro Corridor, Houston, TX 77084",
   "hero": {
     "badge": "Houston, TX • 5.0 Google Maps Verified (82 Reviews)",
-    "headline": "Houston Live Oak Felling, Bucket Truck Trimming & Brush Chipping",
+    "headline": "Commercial Brush Chipping, Pine Canopy Rigging & Deep Stump Milling",
     "subhead": "Direct owner dispatch by Rodrigo with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Rodrigo (281) 804-5020",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/rosales/photo_001.jpg",
-        "label": "Precise Residential Trimming",
-        "alt": "Urban Street Aerial Bucket Truck"
+        "image": "/images/rosales/photo_001_crop.jpg",
+        "label": "Commercial Brush Chipper & Chip Truck",
+        "alt": "High-capacity orange brush chipper hitched to commercial forestry dump truck with crew"
       },
       "sub1": {
-        "image": "/images/rosales/photo_002.jpg",
-        "label": "Climbing Specialist",
-        "alt": "High-Canopy Oak Climber Rigging Package"
+        "image": "/images/rosales/photo_011_crop.jpg",
+        "label": "High Pine Canopy Climber",
+        "alt": "Arborist climber aloft in high pine crown against clear blue sky"
       },
       "sub2": {
-        "image": "/images/rosales/photo_003.jpg",
-        "label": "Rapid Ground Clearing",
-        "alt": "High-Volume Branch Chipping & Cleanup Rig"
+        "image": "/images/rosales/photo_008_crop.jpg",
+        "label": "Architectural Entranceway Pruning",
+        "alt": "Manicured live oak tree framing residential paved entrance and manicured flowerbeds"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigRosalesEn = {
   ],
   "equipment": [
     {
-      "name": "Urban Street Aerial Bucket Truck",
-      "badge": "Precise Residential Trimming",
-      "image": "/images/rosales/photo_001.jpg",
+      "name": "Roadside Fleet Staging & Active Chipping",
+      "badge": "Active Brush Processing",
+      "image": "/images/rosales/photo_010_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigRosalesEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Bucket truck positioned on residential street lifting operator high into mature oak canopy for thinning."
+      "desc": "Photo shows forestry chip truck and chipper staged along residential curb, feeding cut oak branches directly into the enclosed box."
     },
     {
-      "name": "High-Canopy Oak Climber Rigging Package",
-      "badge": "Climbing Specialist",
-      "image": "/images/rosales/photo_002.jpg",
+      "name": "Subsurface Stump Milling & Grass Restoration",
+      "badge": "Zero Lawn Impact Finish",
+      "image": "/images/rosales/photo_012_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigRosalesEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber in harness pruning heavy oak branches away from residential roof overhangs."
+      "desc": "Photo shows finished stump grinding cavity in lush green lawn, backfilled with clean mulch with zero tracking on surrounding sod."
     },
     {
-      "name": "High-Volume Branch Chipping & Cleanup Rig",
-      "badge": "Rapid Ground Clearing",
-      "image": "/images/rosales/photo_003.jpg",
+      "name": "Roofline Hazard Clearance & Gable Protection",
+      "badge": "Gable Roof Clearance",
+      "image": "/images/rosales/photo_013_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigRosalesEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Ground sawyers feeding massive piles of cut branches into disc chipper for clean driveway transport."
+      "desc": "Photo shows tall pine tree soaring over a residential gable roofline, with hazardous overhang branches safely trimmed back."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigRosalesEn = {
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",
-      "zip": "77055",
+      "zip": "77084",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Houston Residential Corridor",
-      "zip": "77055",
+      "zip": "77084",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Houston Outer Acreage & Estates",
-      "zip": "77055",
+      "zip": "77084",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "77055",
+      "zip": "77084",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "77055",
+      "zip": "77084",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "77055",
+      "zip": "77084",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

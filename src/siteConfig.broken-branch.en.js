@@ -7,15 +7,15 @@ export const siteConfigBrokenBranchEn = {
   "shortName": "Broken Branch Tree Removal",
   "ownerName": "Fred",
   "ownerFirstName": "Fred",
-  "tagline": "Emergency Storm Fallen Timber Relief, Bobcat Grapple Hauling & High Climbing",
-  "slogan": "Urgent Storm Response, Crushed Structure Relief & Safe Crane Dismantling Across Fulton & Saratoga",
+  "tagline": "Emergency Storm Tree Rigging & High Conifer Hazard Mitigation",
+  "slogan": "Upstate NY Climbers, Hazard Limb Rigging & Complete Debris Cleanup",
   "phone": "(518) 752-9009",
   "phoneRaw": "5187529009",
   "city": "Broadalbin",
   "state": "NY",
   "zip": "12025",
-  "streetAddress": "141 Honeywell Corners Rd",
-  "fullAddress": "141 Honeywell Corners Rd, Broadalbin, NY 12025",
+  "streetAddress": "Great Sacandaga Lake Route",
+  "fullAddress": "Great Sacandaga Lake Route, Broadalbin, NY 12025",
   "mapsUrl": "https://www.google.com/maps/place/Broken+Branch+Tree+Removal/@43.057411,-74.175678,17z/data=!3m1!4b1!4m6!3m5!1s0x89de5f2f3054f441:0xa16273a172c1eab1!8m2!3d43.057411!4d-74.175678!16s%2Fg%2F1tfjx8qt?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=6eaccfc8-5ed3-4c98-94ea-e1598a9e326c",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigBrokenBranchEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Broadalbin Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 141 Honeywell Corners Rd, Broadalbin, NY 12025",
+  "addressNotes": "Operational Depot: Great Sacandaga Lake Route, Broadalbin, NY 12025",
   "hero": {
     "badge": "Broadalbin, NY • 5.0 Google Maps Verified (33 Reviews)",
-    "headline": "Emergency Storm Fallen Timber Relief, Bobcat Grapple Hauling & High Climbing",
+    "headline": "Emergency Storm Tree Rigging & High Conifer Hazard Mitigation",
     "subhead": "Direct owner dispatch by Fred with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Fred (518) 752-9009",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/broken-branch/photo_001.jpg",
-        "label": "Low-Impact Heavy Debris Moving",
-        "alt": "Bobcat MT100 Mini-Track Loader with Hydraulic Log Grapple"
+        "image": "/images/broken-branch/photo_003_crop.jpg",
+        "label": "High Conifer Rigging Climber",
+        "alt": "Arborist climber ascending high pine tree trunk among hardwood canopy"
       },
       "sub1": {
-        "image": "/images/broken-branch/photo_002.jpg",
-        "label": "Zero Additional Structural Impact",
-        "alt": "Emergency Storm Damage & Structure Extraction Rig"
+        "image": "/images/broken-branch/photo_001_crop.jpg",
+        "label": "Hazard Branch Lawn Impact",
+        "alt": "Large broken pine branch fallen onto residential lawn near house corner"
       },
       "sub2": {
-        "image": "/images/broken-branch/photo_003.jpg",
-        "label": "High-Spur Technical Ascents",
-        "alt": "Aerial Pine Climbing & Friction Rigging Gear"
+        "image": "/images/broken-branch/photo_002_crop.jpg",
+        "label": "Storm Risk Porch Assessment",
+        "alt": "View of storm-damaged trees and residential yard under cloudy sky"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigBrokenBranchEn = {
   ],
   "equipment": [
     {
-      "name": "Bobcat MT100 Mini-Track Loader with Hydraulic Log Grapple",
-      "badge": "Low-Impact Heavy Debris Moving",
-      "image": "/images/broken-branch/photo_002.jpg",
+      "name": "High-Strength Arborist Climbing & Rigging Saddle",
+      "badge": "Canopy Ascent Rig",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigBrokenBranchEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "White Bobcat mini-track loader with hydraulic log grapple moving heavy fallen pine limbs with zero lawn tearing."
+      "desc": "Multi-point safety harness with steel-core fliplines and climbing spurs, allowing arborists to safely access tight canopy sections without bucket trucks."
     },
     {
-      "name": "Emergency Storm Damage & Structure Extraction Rig",
-      "badge": "Zero Additional Structural Impact",
-      "image": "/images/broken-branch/photo_001.jpg",
+      "name": "Commercial Brush Chipper & Wood Processing",
+      "badge": "High-Output Chipping",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigBrokenBranchEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Photo shows massive storm-fallen pine crushing children's playset, requiring surgical sectioning and rigging relief."
+      "desc": "Heavy-duty chipper that rapidly converts fallen branches, twigs, and storm debris into premium organic ground mulch."
     },
     {
-      "name": "Aerial Pine Climbing & Friction Rigging Gear",
-      "badge": "High-Spur Technical Ascents",
-      "image": "/images/broken-branch/photo_003.jpg",
+      "name": "Sectional Rigging Lines & Structural Protection",
+      "badge": "Controlled Lowering",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigBrokenBranchEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Arborist climber in tree saddle and spurs ascending tall pine trunk to establish high friction rigging points."
+      "desc": "Arborist lowering blocks, friction brakes, and synthetic bull ropes to dismantle overhanging branches without touching roofing or fences."
     }
   ],
   "reviews": [

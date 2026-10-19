@@ -7,15 +7,15 @@ export const siteConfigAllensEn = {
   "shortName": "Allen's Tree Service",
   "ownerName": "Mr. Allen",
   "ownerFirstName": "Mr.",
-  "tagline": "Rayco Commercial Stump Grinding, Canopy Clearance & Debris Hauling",
-  "slogan": "Punctual Professional Tree Care, Boom Truck Clearance & Spotless Cleanups Across Wake County",
+  "tagline": "Rayco Commercial Stump Grinding & Heavy Dump Hauling Fleet",
+  "slogan": "Family-Operated Arborist Rigging, Commercial Debris Hauling & Spotless Cleanups",
   "phone": "(919) 761-3159",
   "phoneRaw": "9197613159",
   "city": "Youngsville",
   "state": "NC",
   "zip": "27596",
-  "streetAddress": "4554 NC-98",
-  "fullAddress": "4554 NC-98, Youngsville, NC 27596",
+  "streetAddress": "Cedar Creek Corridor",
+  "fullAddress": "Cedar Creek Corridor, Youngsville, NC 27596",
   "mapsUrl": "https://www.google.com/maps/place/Allen's+Tree+Service/@35.9686894,-78.4024283,17z/data=!3m1!4b1!4m6!3m5!1s0x89ac4c199492c2b5:0x7b7703a45dd787b7!8m2!3d35.9686894!4d-78.4024283!16s%2Fg%2F11g6qypvnn?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=d3893dae-dc79-40f5-be01-781587d3f31b",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigAllensEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Youngsville Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 4554 NC-98, Youngsville, NC 27596",
+  "addressNotes": "Operational Depot: Cedar Creek Corridor, Youngsville, NC 27596",
   "hero": {
     "badge": "Youngsville, NC • 5.0 Google Maps Verified (43 Reviews)",
-    "headline": "Rayco Commercial Stump Grinding, Canopy Clearance & Debris Hauling",
+    "headline": "Rayco Commercial Stump Grinding & Heavy Dump Hauling Fleet",
     "subhead": "Direct owner dispatch by Mr. Allen with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Mr. (919) 761-3159",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/allens/photo_001.jpg",
-        "label": "Subsurface Root Flare Milling",
-        "alt": "Rayco Commercial Stump Grinder"
+        "image": "/images/allens/photo_001_crop.jpg",
+        "label": "Commercial Rayco Stump Milling",
+        "alt": "Operator in Allen Tree Service shirt running commercial Rayco stump grinder by fence"
       },
       "sub1": {
-        "image": "/images/allens/photo_002.jpg",
-        "label": "Spotless Property Guarantee",
-        "alt": "High-Sided Debris Haul Trailer & Industrial Blowers"
+        "image": "/images/allens/photo_002_crop.jpg",
+        "label": "Heavy Dump Fleet & Blower Sweep",
+        "alt": "Branded tandem-axle dump trailer and crew member with STIHL backpack blower"
       },
       "sub2": {
-        "image": "/images/allens/photo_003.jpg",
-        "label": "Architectural Branch Elevation",
-        "alt": "Estate Canopy Clearance & Driveway Trimming Rig"
+        "image": "/images/allens/photo_003_crop.jpg",
+        "label": "Spotless Driveway Sweep",
+        "alt": "Clean concrete driveway with mulch pile neatly staged to the side"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigAllensEn = {
   ],
   "equipment": [
     {
-      "name": "Rayco Commercial Stump Grinder",
-      "badge": "Subsurface Root Flare Milling",
-      "image": "/images/allens/photo_001.jpg",
+      "name": "Long Driveway Canopy Elevation & Thinning",
+      "badge": "Canopy Clearance Pruning",
+      "image": "/images/allens/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigAllensEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Rayco stump grinder operated by Mr. Allen shown in photo milling large hardwood stumps deep below turf level."
+      "desc": "Photo shows completed canopy elevation along a paved residential driveway, opening clear vehicle clearance and healthy sunlight penetration."
     },
     {
-      "name": "High-Sided Debris Haul Trailer & Industrial Blowers",
-      "badge": "Spotless Property Guarantee",
-      "image": "/images/allens/photo_002.jpg",
+      "name": "Rayco Commercial Stump Grinder Unit",
+      "badge": "High-Torque Milling Cutter",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigAllensEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Photo shows the branded Allen's Tree Service transport trailer and ground crew blowing driveways completely clear."
+      "desc": "Compact multi-wheel self-propelled stump grinder equipped with carbide-tipped teeth for deep subsurface root flare milling."
     },
     {
-      "name": "Estate Canopy Clearance & Driveway Trimming Rig",
-      "badge": "Architectural Branch Elevation",
-      "image": "/images/allens/photo_004.jpg",
+      "name": "Branded Heavy Tandem Debris Dump Trailer",
+      "badge": "High-Capacity Timber Hauling",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigAllensEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the elevated canopy line along a private residential driveway, allowing safe delivery truck clearance."
+      "desc": "High-sided heavy commercial hydraulic dump trailer designed for hauling large timber logs and tons of chipped organic mulch in a single run."
     }
   ],
   "reviews": [

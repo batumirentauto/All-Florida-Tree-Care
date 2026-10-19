@@ -7,15 +7,15 @@ export const siteConfigLmTreeEn = {
   "shortName": "L&M Tree Service",
   "ownerName": "Logan & Tyler",
   "ownerFirstName": "Logan",
-  "tagline": "Aerial Crane & Bucket Takedowns, High-Volume Chipping & Lawn Care",
-  "slogan": "Experienced Brothers Team, Precision Hazard Tree Dismantling & Spotless Cleanups Across Eastern Oklahoma",
+  "tagline": "Storm Split Limb Removal, Wound Flush-Cuts & Clean Ground Care",
+  "slogan": "Family-Owned Oklahoma Arborists, Storm Damage Cleanup & Pristine Turf Care",
   "phone": "(918) 616-9466",
   "phoneRaw": "9186169466",
   "city": "Muskogee",
   "state": "OK",
   "zip": "74403",
-  "streetAddress": "1003 S F St",
-  "fullAddress": "1003 S F St, Muskogee, OK 74403",
+  "streetAddress": "Eastern Oklahoma Plains Corridor",
+  "fullAddress": "Eastern Oklahoma Plains Corridor, Muskogee, OK 74403",
   "mapsUrl": "https://www.google.com/maps/place/L%26M+Tree+Service/@35.7361694,-95.3657499,17z/data=!3m1!4b1!4m6!3m5!1s0x87b5e1fde0fcfce5:0x299031636b2bafcd!8m2!3d35.7361694!4d-95.3657499!16s%2Fg%2F11g1pmxbqc?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=8056b998-3ae6-4fbf-ab6e-994b95aab775",
   "rating": "4.7",
   "ratingValue": 4.7,
@@ -23,28 +23,28 @@ export const siteConfigLmTreeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Muskogee Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1003 S F St, Muskogee, OK 74403",
+  "addressNotes": "Operational Depot: Eastern Oklahoma Plains Corridor, Muskogee, OK 74403",
   "hero": {
     "badge": "Muskogee, OK • 4.7 Google Maps Verified (50 Reviews)",
-    "headline": "Aerial Crane & Bucket Takedowns, High-Volume Chipping & Lawn Care",
+    "headline": "Storm Split Limb Removal, Wound Flush-Cuts & Clean Ground Care",
     "subhead": "Direct owner dispatch by Logan & Tyler with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Logan (918) 616-9466",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/lm-tree/photo_001.jpg",
-        "label": "Heavy Branch Extraction",
-        "alt": "Aerial Crane & Bucket Tree Lowering Package"
+        "image": "/images/lm-tree/photo_001_crop.jpg",
+        "label": "Storm Split Limb Extraction",
+        "alt": "Large snapped storm-damaged branch split from mature tree trunk onto residential lawn"
       },
       "sub1": {
-        "image": "/images/lm-tree/photo_002.jpg",
-        "label": "Rapid Branch Reduction",
-        "alt": "High-Speed Commercial Chipping Crew"
+        "image": "/images/lm-tree/photo_003_crop.jpg",
+        "label": "Trunk Wound Flush Cut",
+        "alt": "Close-up of clean flush cut on storm-broken tree trunk with crew member in background"
       },
       "sub2": {
-        "image": "/images/lm-tree/photo_003.jpg",
-        "label": "Immaculate Finish Guarantee",
-        "alt": "Clean Residential Lawn & Turf Package"
+        "image": "/images/lm-tree/photo_004_crop.jpg",
+        "label": "Manual Brush Hauling Sweep",
+        "alt": "Crew member carrying cut tree limbs across front lawn to haul truck"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigLmTreeEn = {
   ],
   "equipment": [
     {
-      "name": "Aerial Crane & Bucket Tree Lowering Package",
-      "badge": "Heavy Branch Extraction",
-      "image": "/images/lm-tree/photo_001.jpg",
+      "name": "Driveway Canopy Elevation & Pruning",
+      "badge": "Driveway Clearance",
+      "image": "/images/lm-tree/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigLmTreeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Aerial lift lowering heavy hardwood branch over residential property without lawn or structural impact."
+      "desc": "Photo shows mature shade tree next to residential concrete driveway with crown trimmed and elevated for clear vehicle access."
     },
     {
-      "name": "High-Speed Commercial Chipping Crew",
-      "badge": "Rapid Branch Reduction",
-      "image": "/images/lm-tree/photo_002.jpg",
+      "name": "Heavy Chipper Truck & Enclosed Dump Box",
+      "badge": "High-Volume Chipping",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigLmTreeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Ground crew feeding branch piles into industrial chipper with dedicated blower clearing driveways."
+      "desc": "Commercial medium-duty chip hauler with custom steel sideboards and top tarp, paired with high-volume Vermeer disc chipper."
     },
     {
-      "name": "Clean Residential Lawn & Turf Package",
-      "badge": "Immaculate Finish Guarantee",
-      "image": "/images/lm-tree/photo_003.jpg",
+      "name": "Arborist Rigging Line & Bull Rope Package",
+      "badge": "Safe Limb Lowering",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigLmTreeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the immaculate front lawn after tree removal, completely raked without wood debris."
+      "desc": "High-tenacity polyester lowering lines and friction blocks that prevent torn branches from dropping onto fences and flowerbeds."
     }
   ],
   "reviews": [

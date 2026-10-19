@@ -7,15 +7,15 @@ export const siteConfigColumbusEn = {
   "shortName": "Columbus Georgia Tree Removal",
   "ownerName": "Russell",
   "ownerFirstName": "Russell",
-  "tagline": "Technical Hardwood Felling, Powerline Clearance & Stump Grinding",
-  "slogan": "Reliable Tree Takedowns, Fast Morning Estimates & Clean Grounds Across Chattahoochee Valley",
+  "tagline": "Controlled Hardwood Felling, Track Stump Milling & Chipping Fleet",
+  "slogan": "Chattahoochee Valley Tree Care, Rigging Accuracy & Fair Upfront Pricing",
   "phone": "(706) 580-2933",
   "phoneRaw": "7065802933",
   "city": "Columbus",
   "state": "GA",
-  "zip": "31901",
-  "streetAddress": "Chattahoochee Valley Base",
-  "fullAddress": "Chattahoochee Valley Base, Columbus, GA 31901",
+  "zip": "31904",
+  "streetAddress": "Chattahoochee Valley Corridor",
+  "fullAddress": "Chattahoochee Valley Corridor, Columbus, GA 31904",
   "mapsUrl": "https://www.google.com/maps/place/Columbus+Georgia+Tree+Removal/@32.45106,-84.9395035,12z/data=!3m1!4b1!4m6!3m5!1s0x88f333427865f1d1:0x7eb175241436ea70!8m2!3d32.45106!4d-84.9395036!16s%2Fg%2F11j0sgtk1l?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=eeeeef7a-e6cf-4db5-a5f8-0a2d078c8ba4",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,29 +23,21 @@ export const siteConfigColumbusEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Columbus Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: Chattahoochee Valley Base, Columbus, GA 31901",
+  "addressNotes": "Operational Depot: Chattahoochee Valley Corridor, Columbus, GA 31904",
   "hero": {
     "badge": "Columbus, GA • 5.0 Google Maps Verified (20 Reviews)",
-    "headline": "Technical Hardwood Felling, Powerline Clearance & Stump Grinding",
+    "headline": "Controlled Hardwood Felling, Track Stump Milling & Chipping Fleet",
     "subhead": "Direct owner dispatch by Russell with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Russell (706) 580-2933",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Over-Roof Precision Reach",
-        "alt": "Altec Aerial Boom Truck"
+        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
+        "label": "Controlled Pine Takedown",
+        "alt": "Arborist rigging tall pine tree for sectional takedown"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Deep Subsurface Milling",
-        "alt": "Commercial Track Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "100% Debris Haul-Away",
-        "alt": "High-Volume Disc Chipper & Loader Package"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigColumbusEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Aerial Boom Truck",
-      "badge": "Over-Roof Precision Reach",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Commercial Sectional Rigging & Tree Felling",
+      "badge": "Structural Safety Rigging",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigColumbusEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Commercial bucket truck reaches into high oak canopies to lower heavy hazard branches away from rooftops."
+      "desc": "Precision lowering setup with friction brakes to dismantle large hazardous trees limb by limb over homes and fences."
     },
     {
-      "name": "Commercial Track Stump Grinder",
-      "badge": "Deep Subsurface Milling",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "High-Torque Track Stump Grinder Unit",
+      "badge": "Subsurface Milling",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigColumbusEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Carbide cutting wheel pulverizes large Georgia oak and pine stumps 12 inches below lawn grade."
+      "desc": "Self-propelled rubber track stump grinder that eliminates stumps 12 inches below grade while protecting residential lawn surfaces."
     },
     {
-      "name": "High-Volume Disc Chipper & Loader Package",
-      "badge": "100% Debris Haul-Away",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Hydraulic Brush Chipper & Debris Haul Box",
+      "badge": "Rapid Site Clearance",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigColumbusEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Commercial chipper processes large branch piles into mulch, hauling all debris away from the property."
+      "desc": "Commercial brush chipper with high-velocity discharge chute loading wood chips directly into heavy enclosed haul rigs."
     }
   ],
   "reviews": [
@@ -240,32 +232,32 @@ export const siteConfigColumbusEn = {
   "serviceAreas": [
     {
       "name": "Columbus (Central Depot)",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Columbus Residential Corridor",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Columbus Outer Acreage & Estates",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "31901",
+      "zip": "31904",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "31901",
+      "zip": "31904",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

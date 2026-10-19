@@ -7,15 +7,15 @@ export const siteConfigMorgansEn = {
   "shortName": "Morgan's Tree & Stump Removal",
   "ownerName": "Mike Morgan",
   "ownerFirstName": "Mike",
-  "tagline": "High-Power Commercial Stump Grinding & Subsurface Root Flare Milling",
-  "slogan": "Punctual Stump Removal Specialist, Deep Grade Milling & Clean Backfilling Across York County",
+  "tagline": "Hazard Limb Removal, Flush Stump Cutting & Clean Lawn Care",
+  "slogan": "Piedmont Arborist Rigging, Fence Protection & Spotless Yard Handover",
   "phone": "(803) 981-9085",
   "phoneRaw": "8039819085",
   "city": "Rock Hill",
   "state": "SC",
   "zip": "29730",
-  "streetAddress": "2564 Juniper Ln",
-  "fullAddress": "2564 Juniper Ln, Rock Hill, SC 29730",
+  "streetAddress": "Piedmont Carolina Corridor",
+  "fullAddress": "Piedmont Carolina Corridor, Rock Hill, SC 29730",
   "mapsUrl": "https://www.google.com/maps/place/Morgan's+Tree+%26+Stump+Removal/@34.8984396,-80.9718784,17z/data=!3m1!4b1!4m6!3m5!1s0x885687e9a1cfe3e9:0x81317a7e44a4fbb6!8m2!3d34.8984396!4d-80.9718784!16s%2Fg%2F1tf_n_yh?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=9dcf688b-f75d-4a80-b0f1-604e14dc8dda",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigMorgansEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Rock Hill Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 2564 Juniper Ln, Rock Hill, SC 29730",
+  "addressNotes": "Operational Depot: Piedmont Carolina Corridor, Rock Hill, SC 29730",
   "hero": {
     "badge": "Rock Hill, SC • 5.0 Google Maps Verified (29 Reviews)",
-    "headline": "High-Power Commercial Stump Grinding & Subsurface Root Flare Milling",
+    "headline": "Hazard Limb Removal, Flush Stump Cutting & Clean Lawn Care",
     "subhead": "Direct owner dispatch by Mike Morgan with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Mike (803) 981-9085",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/morgans/photo_001.jpg",
-        "label": "High-Torque Root Flare Pulverizing",
-        "alt": "Commercial Front-Yard Stump Grinder"
+        "image": "/images/morgans/photo_001_crop.jpg",
+        "label": "Fence-Line Split Branch Fracture",
+        "alt": "Large broken hazard limb dangling along residential wooden fence line"
       },
       "sub1": {
-        "image": "/images/morgans/photo_002.jpg",
-        "label": "Smooth Cavity Backfilling",
-        "alt": "Rich Organic Mulch Backfill Package"
+        "image": "/images/morgans/photo_004_crop.jpg",
+        "label": "Flush Stump Cut & Root Flare",
+        "alt": "Close-up of flush-cut tree stump surrounded by sawdust in fence corner"
       },
       "sub2": {
-        "image": "/images/morgans/photo_003.jpg",
-        "label": "Spotless Yard Finish",
-        "alt": "Raked Clean Turf & Sidewalk Sweep Kit"
+        "image": "/images/morgans/photo_006_crop.jpg",
+        "label": "Manicured Finished Backyard Lawn",
+        "alt": "Manicured green residential backyard lawn after complete tree removal"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigMorgansEn = {
   ],
   "equipment": [
     {
-      "name": "Commercial Front-Yard Stump Grinder",
-      "badge": "High-Torque Root Flare Pulverizing",
-      "image": "/images/morgans/photo_001.jpg",
+      "name": "Delicate Split-Rail Fence Limb Extraction",
+      "badge": "Fence Safety Work",
+      "image": "/images/morgans/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigMorgansEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "High-output commercial stump grinder actively milling large hardwood stump in residential front yard."
+      "desc": "Photo shows snapped tree branch broken off trunk right beside a split-rail wooden fence with birdhouse, removed without touching rails."
     },
     {
-      "name": "Rich Organic Mulch Backfill Package",
-      "badge": "Smooth Cavity Backfilling",
-      "image": "/images/morgans/photo_002.jpg",
+      "name": "High-Volume Brush Chipping & Debris Staging",
+      "badge": "Branch Staging",
+      "image": "/images/morgans/photo_005_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigMorgansEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Milled wood chips backfilled neatly into ground depression for level lawn turf finish."
+      "desc": "Photo shows felled tree branches and dense vegetative growth staged in the yard ready for wood chipper processing."
     },
     {
-      "name": "Raked Clean Turf & Sidewalk Sweep Kit",
-      "badge": "Spotless Yard Finish",
-      "image": "/images/morgans/photo_003.jpg",
+      "name": "Screened Porch Proximity Tree Dismantling",
+      "badge": "Porch Protection",
+      "image": "/images/morgans/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigMorgansEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the finished residential lawn raked smooth and clean without leftover wood chips."
+      "desc": "Photo shows cleared yard next to an elevated screened porch where a hazardous tree was dismantled with zero impact on screens."
     }
   ],
   "reviews": [

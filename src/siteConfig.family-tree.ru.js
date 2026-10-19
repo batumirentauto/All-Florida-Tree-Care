@@ -7,15 +7,15 @@ export const siteConfigFamilyTreeRu = {
   "shortName": "Family Tree Service LLC",
   "ownerName": "Джейкоб",
   "ownerFirstName": "Джейкоб",
-  "tagline": "Спил прибрежных дубов, автовышка над строениями и дробление пней",
-  "slogan": "Семейная бригада по спилу деревьев, защита от ураганов и чистый газон в Сент-Мэрис",
+  "tagline": "Уход за виргинскими дубами, такелажный спил и вывоз порубочных остатков",
+  "slogan": "Арбористы прибрежной полосы, бережный уход за дубами и честные понятные цены",
   "phone": "(912) 464-4535",
   "phoneRaw": "9124644535",
   "city": "Сент-Мэрис",
   "state": "Джорджия",
   "zip": "31558",
-  "streetAddress": "106 Flamingo Dr",
-  "fullAddress": "106 Flamingo Dr, St Marys, GA 31558",
+  "streetAddress": "Coastal Georgia Maritime Corridor",
+  "fullAddress": "Coastal Georgia Maritime Corridor, St Marys, GA 31558",
   "mapsUrl": "https://www.google.com/maps/place/Family+Tree+Service+LLC/@30.4782458,-81.6249666,17z/data=!3m1!4b1!4m6!3m5!1s0x88e505528dd38abd:0x3603723de9bc527a!8m2!3d30.4782458!4d-81.6249666!16s%2Fg%2F11hdc3q3w5?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=7a713b83-9ae7-4d35-86f7-a3ffcdea4334",
   "rating": "4.6",
   "ratingValue": 4.6,
@@ -23,28 +23,28 @@ export const siteConfigFamilyTreeRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Сент-Мэрис",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: 106 Flamingo Dr, St Marys, GA 31558",
+  "addressNotes": "База выезда техники: Coastal Georgia Maritime Corridor, St Marys, GA 31558",
   "hero": {
     "badge": "Сент-Мэрис, Джорджия • Рейтинг 4.6 на Google Maps (71 отзывов)",
-    "headline": "Спил прибрежных дубов, автовышка над строениями и дробление пней",
+    "headline": "Уход за виргинскими дубами, такелажный спил и вывоз порубочных остатков",
     "subhead": "Прямой выезд владельца (Джейкоб), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((912) 464-4535)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/family-tree/photo_001.jpg",
-        "label": "Такелаж тяжелых бревен",
-        "alt": "Комплекс посекционного спила прибрежных дубов"
+        "image": "/images/family-tree/photo_001_crop.jpg",
+        "label": "Кронирование виргинского дуба",
+        "alt": "Крупные дубы над жилым домом после санитарной обрезки и формирования кроны"
       },
       "sub1": {
-        "image": "/images/family-tree/photo_002.jpg",
-        "label": "Безопасный высотный доступ",
-        "alt": "Автовышка для работы над улицами и проводами"
+        "image": "/images/family-tree/photo_007_crop.jpg",
+        "label": "Такелажный трос в кроне",
+        "alt": "Такелажная веревка, закрепленная в кроне дуба для плавного спуска тяжелых ветвей"
       },
       "sub2": {
-        "image": "/images/family-tree/photo_003.jpg",
-        "label": "Глубокое измельчение корней",
-        "alt": "Промышленная гидравлическая пнедробилка"
+        "image": "/images/family-tree/photo_004_crop.jpg",
+        "label": "Спил пня под корень у забора",
+        "alt": "Пень, срезанный вровень с землей вплотную к деревянному забору"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigFamilyTreeRu = {
   ],
   "equipment": [
     {
-      "name": "Комплекс посекционного спила прибрежных дубов",
-      "badge": "Такелаж тяжелых бревен",
-      "image": "/images/family-tree/photo_001.jpg",
+      "name": "Самосвальный прицеп и чистая обочина",
+      "badge": "Порядок у дороги",
+      "image": "/images/family-tree/photo_008_crop.jpg",
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +152,12 @@ export const siteConfigFamilyTreeRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Арборист на фото спускает массивные части ствола дуба над забором с помощью тормозных блоков."
+      "desc": "На фото показан прицеп для вывоза древесины на краю улицы: газон подстрижен, асфальт выметен, проезд открыт."
     },
     {
-      "name": "Автовышка для работы над улицами и проводами",
-      "badge": "Безопасный высотный доступ",
-      "image": "/images/family-tree/photo_002.jpg",
+      "name": "Обрезка кроны вдоль забора",
+      "badge": "Защита забора и крыши",
+      "image": "/images/family-tree/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +172,12 @@ export const siteConfigFamilyTreeRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Автовышка на фото поднята над улицей для аккуратной обрезки крон над линиями коммуникаций."
+      "desc": "На фото показаны ветви дуба с испанским мхом, отведенные от деревянного забора и водостоков дома."
     },
     {
-      "name": "Промышленная гидравлическая пнедробилка",
-      "badge": "Глубокое измельчение корней",
-      "image": "/images/family-tree/photo_003.jpg",
+      "name": "Подъем кроны во дворе дома",
+      "badge": "Уход за дворовыми дубами",
+      "image": "/images/family-tree/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +192,7 @@ export const siteConfigFamilyTreeRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Пнедробилка на фото измельчает широкую корневую шейку дуба ниже уровня травы для укладки дерна."
+      "desc": "На фото запечатлен большой дуб во дворе: сухие ветви удалены, нижний ярус поднят для лучшего освещения газона."
     }
   ],
   "reviews": [

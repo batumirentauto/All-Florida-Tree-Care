@@ -112,62 +112,89 @@ export function UniversalHero({ config, themeName }: { config: any; themeName?: 
           </div>
 
           {/* Right Column: Visual Bento Showcase (5 cols) */}
-          <div className="lg:col-span-5 grid grid-cols-2 gap-3.5">
-            {/* Top Large Feature Photo */}
-            <div className={`col-span-2 relative h-56 sm:h-64 rounded-2xl overflow-hidden border ${theme.borderAccent} bg-slate-900 group shadow-xl`}>
-              <img
-                src={bento.main.image}
-                alt={bento.main.alt || config.hero.heroImageAlt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="eager"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
-              <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
-                <div>
-                  <span className={`text-[10px] font-extrabold uppercase tracking-widest ${theme.badgeText} ${theme.badgeBg} border ${theme.badgeBorder} px-2 py-0.5 rounded`}>
-                    {bento.main.label}
-                  </span>
-                  <p className="text-xs font-bold text-white mt-1">
-                    {config.legalName || config.businessName}
-                  </p>
+          <div className="lg:col-span-5">
+            {bento.sub1?.image && bento.sub2?.image ? (
+              <div className="grid grid-cols-2 gap-3.5">
+                {/* Top Large Feature Photo */}
+                <div className={`col-span-2 relative h-56 sm:h-64 rounded-2xl overflow-hidden border ${theme.borderAccent} bg-slate-900 group shadow-xl`}>
+                  <img
+                    src={bento.main.image}
+                    alt={bento.main.alt || config.hero.heroImageAlt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="eager"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
+                    <div>
+                      <span className={`text-[10px] font-extrabold uppercase tracking-widest ${theme.badgeText} ${theme.badgeBg} border ${theme.badgeBorder} px-2 py-0.5 rounded`}>
+                        {bento.main.label}
+                      </span>
+                      <p className="text-xs font-bold text-white mt-1">
+                        {config.legalName || config.businessName}
+                      </p>
+                    </div>
+                    <span className={`font-mono text-xs font-black ${theme.badgeText} ${theme.badgeBg} px-2 py-1 rounded border ${theme.badgeBorder}`}>
+                      {config.phone}
+                    </span>
+                  </div>
                 </div>
-                <span className={`font-mono text-xs font-black ${theme.badgeText} ${theme.badgeBg} px-2 py-1 rounded border ${theme.badgeBorder}`}>
-                  {config.phone}
-                </span>
-              </div>
-            </div>
 
-            {/* Bottom Left Card Photo */}
-            <div className={`relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md ${theme.borderHover} transition-colors`}>
-              <img
-                src={bento.sub1.image}
-                alt={bento.sub1.alt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-2 left-2 right-2">
-                <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
-                  {bento.sub1.label}
-                </span>
-              </div>
-            </div>
+                {/* Bottom Left Card Photo */}
+                <div className={`relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md ${theme.borderHover} transition-colors`}>
+                  <img
+                    src={bento.sub1.image}
+                    alt={bento.sub1.alt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  <div className="absolute bottom-2 left-2 right-2">
+                    <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
+                      {bento.sub1.label}
+                    </span>
+                  </div>
+                </div>
 
-            {/* Bottom Right Card Photo */}
-            <div className={`relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md ${theme.borderHover} transition-colors`}>
-              <img
-                src={bento.sub2.image}
-                alt={bento.sub2.alt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-2 left-2 right-2">
-                <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
-                  {bento.sub2.label}
-                </span>
+                {/* Bottom Right Card Photo */}
+                <div className={`relative h-44 sm:h-48 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 group shadow-md ${theme.borderHover} transition-colors`}>
+                  <img
+                    src={bento.sub2.image}
+                    alt={bento.sub2.alt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                  <div className="absolute bottom-2 left-2 right-2">
+                    <span className="text-[10px] font-bold text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm block truncate">
+                      {bento.sub2.label}
+                    </span>
+                  </div>
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className={`relative h-80 sm:h-96 lg:h-[420px] rounded-2xl overflow-hidden border ${theme.borderAccent} bg-slate-900 group shadow-2xl`}>
+                <img
+                  src={bento.main.image}
+                  alt={bento.main.alt || config.hero.heroImageAlt}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                  <div>
+                    <span className={`text-xs font-extrabold uppercase tracking-widest ${theme.badgeText} ${theme.badgeBg} border ${theme.badgeBorder} px-2.5 py-1 rounded`}>
+                      {bento.main.label}
+                    </span>
+                    <p className="text-sm font-bold text-white mt-1.5">
+                      {config.legalName || config.businessName}
+                    </p>
+                  </div>
+                  <span className={`font-mono text-xs font-black ${theme.badgeText} ${theme.badgeBg} px-2.5 py-1.5 rounded border ${theme.badgeBorder}`}>
+                    {config.phone}
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

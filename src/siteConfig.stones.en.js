@@ -7,15 +7,15 @@ export const siteConfigStonesEn = {
   "shortName": "Stone's Tree Service and Stump Grinding",
   "ownerName": "Christian Stone",
   "ownerFirstName": "Christian",
-  "tagline": "Bandit Stump Grinding, Large Hardwood Removal & Yard Raking Taylors",
-  "slogan": "Prompt Family-Owned Tree Care, Commercial Stump Milling & Spotless Grounds Across Greenville County",
+  "tagline": "Commercial Vermeer Fleet, Subsurface Root Milling & Estate Ground Care",
+  "slogan": "Commercial Transport Fleet, Precision Root Flare Excavation & Spotless Estate Grounds",
   "phone": "(864) 914-1381",
   "phoneRaw": "8649141381",
   "city": "Taylors",
   "state": "SC",
   "zip": "29687",
-  "streetAddress": "14 Freeman Dr",
-  "fullAddress": "14 Freeman Dr, Taylors, SC 29687",
+  "streetAddress": "Greenville County Upstate Corridor",
+  "fullAddress": "Greenville County Upstate Corridor, Taylors, SC 29687",
   "mapsUrl": "https://www.google.com/maps/place/Stone's+Tree+Service+and+Stump+Grinding/@34.9186816,-82.3020256,17z/data=!3m1!4b1!4m6!3m5!1s0xa577eddddd3470e1:0x146ed3ca9dbb6722!8m2!3d34.9186816!4d-82.3020256!16s%2Fg%2F11m61bs1d3?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=3c1efe36-23a0-48db-b48f-451f25b8ca62",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigStonesEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Taylors Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 14 Freeman Dr, Taylors, SC 29687",
+  "addressNotes": "Operational Depot: Greenville County Upstate Corridor, Taylors, SC 29687",
   "hero": {
     "badge": "Taylors, SC • 4.9 Google Maps Verified (32 Reviews)",
-    "headline": "Bandit Stump Grinding, Large Hardwood Removal & Yard Raking Taylors",
+    "headline": "Commercial Vermeer Fleet, Subsurface Root Milling & Estate Ground Care",
     "subhead": "Direct owner dispatch by Christian Stone with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Christian (864) 914-1381",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/stones/photo_001.jpg",
-        "label": "Deep Subsurface Milling",
-        "alt": "Bandit Commercial High-Power Stump Grinder"
+        "image": "/images/stones/photo_002_crop.jpg",
+        "label": "Commercial Vermeer Equipment Hauler",
+        "alt": "Commercial flatbed hauler truck loaded with yellow Vermeer forestry machinery on residential curb"
       },
       "sub1": {
-        "image": "/images/stones/photo_002.jpg",
-        "label": "Anchor Root Obliteration",
-        "alt": "Large Oak Stump Removal & Cavity Prep Package"
+        "image": "/images/stones/photo_006_crop.jpg",
+        "label": "Manicured Estate Ground Finish",
+        "alt": "Finished residential landscape with paved circular driveway and manicured shrubbery"
       },
       "sub2": {
-        "image": "/images/stones/photo_003.jpg",
-        "label": "Spotless Property Guarantee",
-        "alt": "Raked Clean Turf & Grounds Finish Kit"
+        "image": "/images/stones/photo_007_crop.jpg",
+        "label": "Graded Forest Border Mulch Bed",
+        "alt": "Forest boundary line graded and mulched cleanly behind manicured residential lawn"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigStonesEn = {
   ],
   "equipment": [
     {
-      "name": "Bandit Commercial High-Power Stump Grinder",
-      "badge": "Deep Subsurface Milling",
-      "image": "/images/stones/photo_001.jpg",
+      "name": "Subsurface Root Flare Exploration & Stump Prep",
+      "badge": "Root Flare Excavation",
+      "image": "/images/stones/photo_008_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigStonesEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Bandit high-power stump grinder chewing through massive oak and pine roots below residential lawn grade."
+      "desc": "Photo shows massive pine stump with extensive radial surface roots exposed prior to deep grinding below grade."
     },
     {
-      "name": "Large Oak Stump Removal & Cavity Prep Package",
-      "badge": "Anchor Root Obliteration",
-      "image": "/images/stones/photo_002.jpg",
+      "name": "Full Lot Brush Clearing & Mulch Bed Grading",
+      "badge": "Lot Brush Clearance",
+      "image": "/images/stones/photo_009_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigStonesEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Massive oak root flare completely dismantled and milled into fine wood mulch ready for backfill."
+      "desc": "Photo shows open residential ground completely cleared of brush and stumps, covered in a smooth, uniform layer of organic mulch."
     },
     {
-      "name": "Raked Clean Turf & Grounds Finish Kit",
-      "badge": "Spotless Property Guarantee",
-      "image": "/images/stones/photo_003.jpg",
+      "name": "Close-Proximity Foundation Felling & Trunk Bucking",
+      "badge": "Foundation Tree Removal",
+      "image": "/images/stones/photo_010_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigStonesEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the finished lawn raked smooth with wood chips leveled flat and pathways blown clean."
+      "desc": "Photo shows massive tree trunk sectioned in tight space directly adjacent to residential brick foundation and patio."
     }
   ],
   "reviews": [

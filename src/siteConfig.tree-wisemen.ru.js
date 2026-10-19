@@ -7,15 +7,15 @@ export const siteConfigTreeWisemenRu = {
   "shortName": "Tree Wisemen Upstate",
   "ownerName": "Эван",
   "ownerFirstName": "Эван",
-  "tagline": "Снятие деревьев автокраном, высотный спил стволов и чистый газон",
-  "slogan": "Безопасный спил деревьев автокраном через крыши домов и порядок на участке в Андерсоне",
+  "tagline": "Спил деревьев тяжелым гидрокраном, собственный автопарк и удаление пней",
+  "slogan": "Спил краном без удара о землю, полный арсенал техники на объекте и чистота",
   "phone": "(415) 850-7584",
   "phoneRaw": "4158507584",
   "city": "Андерсон",
   "state": "Южная Каролина",
   "zip": "29621",
-  "streetAddress": "Upstate SC Corridor",
-  "fullAddress": "Upstate SC Corridor, Anderson, SC 29621",
+  "streetAddress": "Upstate Lake Hartwell Corridor",
+  "fullAddress": "Upstate Lake Hartwell Corridor, Anderson, SC 29621",
   "mapsUrl": "https://www.google.com/maps/place/Tree+Wisemen+Upstate/@34.4568959,-82.896309,9z/data=!3m1!4b1!4m6!3m5!1s0x885815089c5b03b9:0xef0cc669d93ae9bc!8m2!3d34.4568959!4d-82.896309!16s%2Fg%2F11rwsb9vfd?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=5c3a522f-c8e3-4c98-94e0-0bc4261cdaaf",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigTreeWisemenRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Андерсон",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: Upstate SC Corridor, Anderson, SC 29621",
+  "addressNotes": "База выезда техники: Upstate Lake Hartwell Corridor, Anderson, SC 29621",
   "hero": {
     "badge": "Андерсон, Южная Каролина • Рейтинг 4.9 на Google Maps (71 отзывов)",
-    "headline": "Снятие деревьев автокраном, высотный спил стволов и чистый газон",
+    "headline": "Спил деревьев тяжелым гидрокраном, собственный автопарк и удаление пней",
     "subhead": "Прямой выезд владельца (Эван), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((415) 850-7584)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tree-wisemen/photo_001.jpg",
-        "label": "Подъем без удара о землю",
-        "alt": "Комплекс удаления деревьев с привлечением автокрана"
+        "image": "/images/tree-wisemen/photo_005_crop.jpg",
+        "label": "Подъем тяжелой ветви краном",
+        "alt": "Стрела мобильного автокрана на стропах поднимает огромную срезанную ветку над домом"
       },
       "sub1": {
-        "image": "/images/tree-wisemen/photo_002.jpg",
-        "label": "Точный спил верхушек",
-        "alt": "Высотный альпинистский комплект для спила стволов"
+        "image": "/images/tree-wisemen/photo_002_crop.jpg",
+        "label": "Автопарк бригады на объекте",
+        "alt": "Грузовик-щеповоз, пнедробилка Vermeer и мини-погрузчик на участке заказчика"
       },
       "sub2": {
-        "image": "/images/tree-wisemen/photo_003.jpg",
-        "label": "Идеально чистый подъездной путь",
-        "alt": "Комплекс чистовой уборки асфальта и газона"
+        "image": "/images/tree-wisemen/photo_004_crop.jpg",
+        "label": "Спил ветвей с поддержкой крана",
+        "alt": "Верхолаз в развилке дерева закрепляет строп крана перед выполнением валочного реза"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigTreeWisemenRu = {
   ],
   "equipment": [
     {
-      "name": "Комплекс удаления деревьев с привлечением автокрана",
-      "badge": "Подъем без удара о землю",
-      "image": "/images/tree-wisemen/photo_001.jpg",
+      "name": "Спил гигантского пня у забора",
+      "badge": "Толстомерные пни",
+      "image": "/images/tree-wisemen/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +152,12 @@ export const siteConfigTreeWisemenRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Тяжелый автокран на фото вертикально поднимает крону спиленного дерева прямо через крышу дома."
+      "desc": "На фото показан массивный пень диаметром более метра у границы забора, спиленный под фрезерование."
     },
     {
-      "name": "Высотный альпинистский комплект для спила стволов",
-      "badge": "Точный спил верхушек",
-      "image": "/images/tree-wisemen/photo_002.jpg",
+      "name": "Подъем кроны вдоль улицы",
+      "badge": "Проезд по улице",
+      "image": "/images/tree-wisemen/photo_001_crop.jpg",
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +172,12 @@ export const siteConfigTreeWisemenRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Верхолаз на стволе на фото закрепляет стропы крана для безопасного среза верхушки дерева."
+      "desc": "На фото показаны деревья перед домом: крона приподнята для свободного проезда автотранспорта по улице."
     },
     {
-      "name": "Комплекс чистовой уборки асфальта и газона",
-      "badge": "Идеально чистый подъездной путь",
-      "image": "/images/tree-wisemen/photo_003.jpg",
+      "name": "Структурная оценка кроны",
+      "badge": "Санитарная обрезка",
+      "image": "/images/tree-wisemen/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +192,7 @@ export const siteConfigTreeWisemenRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "На фотографии показана чистая подъездная дорога после завершения работ: все опилки выметены начисто."
+      "desc": "На фото зафиксирована крона крупного дерева после удаления перекрещивающихся и сухих ветвей."
     }
   ],
   "reviews": [

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "tree removal Puyallup WA",
     "tree service Puyallup",
     "stump grinding Puyallup",
-    "emergency tree service 98374",
+    "emergency tree service 98371",
     "Wade tree service",
   ],
 }

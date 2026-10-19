@@ -7,15 +7,15 @@ export const siteConfigTafoyaEn = {
   "shortName": "Tafoya's Tree Service & Stump Grinding",
   "ownerName": "Nester Tafoya",
   "ownerFirstName": "Nester",
-  "tagline": "High Canopy Climbing, Bucket Truck Fence Clearance & Stump Grinding",
-  "slogan": "Master Arborist Climbing, Sectional Lowering & Zero Fence Damage Across North Harris County",
+  "tagline": "High-Output Brush Chipping, Track Skid Steer Clearing & Poolside Palms",
+  "slogan": "Commercial Chip Trucks, Branded Track Skid Loaders (713-594-5062) & Spotless Yards",
   "phone": "(713) 594-5062",
   "phoneRaw": "7135945062",
   "city": "Houston",
   "state": "TX",
-  "zip": "77038",
-  "streetAddress": "2610 Woodsdale Blvd",
-  "fullAddress": "2610 Woodsdale Blvd, Houston, TX 77038",
+  "zip": "77017",
+  "streetAddress": "South Houston Commercial Corridor",
+  "fullAddress": "South Houston Commercial Corridor, Houston, TX 77017",
   "mapsUrl": "https://www.google.com/maps/place/Tafoya's+Tree+Service+%26+Stump+Grinding/@29.9246258,-95.4583739,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c93dde965f59:0x5cb474939b43a986!8m2!3d29.9246258!4d-95.4583739!16s%2Fg%2F11bycl0g_g?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=386394ec-982b-4e21-9e27-da849fd2e9af",
   "rating": "4.8",
   "ratingValue": 4.8,
@@ -23,28 +23,28 @@ export const siteConfigTafoyaEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Houston Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 2610 Woodsdale Blvd, Houston, TX 77038",
+  "addressNotes": "Operational Depot: South Houston Commercial Corridor, Houston, TX 77017",
   "hero": {
     "badge": "Houston, TX • 4.8 Google Maps Verified (99 Reviews)",
-    "headline": "High Canopy Climbing, Bucket Truck Fence Clearance & Stump Grinding",
+    "headline": "High-Output Brush Chipping, Track Skid Steer Clearing & Poolside Palms",
     "subhead": "Direct owner dispatch by Nester Tafoya with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Nester (713) 594-5062",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tafoya/photo_001.jpg",
-        "label": "Controlled Canopy Dismantling",
-        "alt": "High Climber & Base Friction Rigging Package"
+        "image": "/images/tafoya/photo_009_crop.jpg",
+        "label": "Commercial Chipper & Chip Hauler Fleet",
+        "alt": "Yellow commercial brush chipper blowing chips directly into big black chip dump truck on street"
       },
       "sub1": {
-        "image": "/images/tafoya/photo_002.jpg",
-        "label": "Zero Fence Contact",
-        "alt": "Aerial Bucket Truck Near Fence Line"
+        "image": "/images/tafoya/photo_015_crop.jpg",
+        "label": "Branded Track Skid Steer (713-594-5062)",
+        "alt": "Yellow track skid steer loader branded with phone 713-594-5062 working in woods"
       },
       "sub2": {
-        "image": "/images/tafoya/photo_003.jpg",
-        "label": "Fast Ground Mobilization",
-        "alt": "Ground Sawyers & High-Speed Wood Haul Crew"
+        "image": "/images/tafoya/photo_001_crop.jpg",
+        "label": "Arborist Climber Aloft on High Spar",
+        "alt": "Arborist climber aloft rigging high oak tree spar against clear blue sky"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigTafoyaEn = {
   ],
   "equipment": [
     {
-      "name": "High Climber & Base Friction Rigging Package",
-      "badge": "Controlled Canopy Dismantling",
-      "image": "/images/tafoya/photo_001.jpg",
+      "name": "Tracked Stump Grinder & Mini-Skid Driveway Sweep",
+      "badge": "Driveway Timber Clearing",
+      "image": "/images/tafoya/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigTafoyaEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist climber high on hardwood trunk rigging heavy boughs with ground friction brake control."
+      "desc": "Photo shows tracked stump grinder and compact loader working together on concrete driveway clearing fallen branches and milling roots."
     },
     {
-      "name": "Aerial Bucket Truck Near Fence Line",
-      "badge": "Zero Fence Contact",
-      "image": "/images/tafoya/photo_002.jpg",
+      "name": "Poolside Palm Tree Trimming & Skirt Shaving",
+      "badge": "Poolside Palm Care",
+      "image": "/images/tafoya/photo_011_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigTafoyaEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Bucket truck elevated near residential fence trimming overhangs safely away from neighbor boundaries."
+      "desc": "Photo shows arborists trimming and shaping a mature fan palm right beside a residential swimming pool enclosure."
     },
     {
-      "name": "Ground Sawyers & High-Speed Wood Haul Crew",
-      "badge": "Fast Ground Mobilization",
-      "image": "/images/tafoya/photo_003.jpg",
+      "name": "Fence-Line Stump Grinding & Yard Sweep",
+      "badge": "Fence-Line Root Milling",
+      "image": "/images/tafoya/photo_005_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigTafoyaEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Ground crew with commercial chainsaws sectioning timber rounds and clearing yard immediately."
+      "desc": "Photo shows fenced backyard after a large stump next to a wooden privacy fence was completely ground below grade and swept clean."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigTafoyaEn = {
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",
-      "zip": "77038",
+      "zip": "77017",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Houston Residential Corridor",
-      "zip": "77038",
+      "zip": "77017",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Houston Outer Acreage & Estates",
-      "zip": "77038",
+      "zip": "77017",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "77038",
+      "zip": "77017",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "77038",
+      "zip": "77017",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "77038",
+      "zip": "77017",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

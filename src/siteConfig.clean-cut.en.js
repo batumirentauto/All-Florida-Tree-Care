@@ -7,15 +7,15 @@ export const siteConfigCleanCutEn = {
   "shortName": "Clean Cut Tree Service",
   "ownerName": "Wade",
   "ownerFirstName": "Wade",
-  "tagline": "Precision Conifer Felling, Aerial Rigging & Spotless Grounds Puyallup",
-  "slogan": "Professional Pacific Northwest Tree Felling, Strict Property Protection & Fair Estimates",
+  "tagline": "High-Altitude Douglas Fir Topping, Heavy Timber Felling & Rigging",
+  "slogan": "Pacific Northwest Spar Climbers, 70+ Foot High Rigging & Spotless Cleanups",
   "phone": "(253) 249-4432",
   "phoneRaw": "2532494432",
   "city": "Puyallup",
   "state": "WA",
-  "zip": "98374",
-  "streetAddress": "10512 137th St E #37",
-  "fullAddress": "10512 137th St E #37, Puyallup, WA 98374",
+  "zip": "98371",
+  "streetAddress": "Pierce County Valley Corridor",
+  "fullAddress": "Pierce County Valley Corridor, Puyallup, WA 98371",
   "mapsUrl": "https://www.google.com/maps/place/Clean+Cut+Tree+Service/@47.1316301,-122.2887025,17z/data=!3m1!4b1!4m6!3m5!1s0x5490fd5579ce6e91:0x5007cb918b969e10!8m2!3d47.1316301!4d-122.2887025!16s%2Fg%2F1vxvhkms?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=d00f6606-f283-4f2c-90b7-4f371a6e7280",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigCleanCutEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Puyallup Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 10512 137th St E #37, Puyallup, WA 98374",
+  "addressNotes": "Operational Depot: Pierce County Valley Corridor, Puyallup, WA 98371",
   "hero": {
     "badge": "Puyallup, WA • 5.0 Google Maps Verified (40 Reviews)",
-    "headline": "Precision Conifer Felling, Aerial Rigging & Spotless Grounds Puyallup",
+    "headline": "High-Altitude Douglas Fir Topping, Heavy Timber Felling & Rigging",
     "subhead": "Direct owner dispatch by Wade with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Wade (253) 249-4432",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/clean-cut/photo_001.jpg",
-        "label": "Millimeter Target Dropping",
-        "alt": "Commercial Conifer Directional Felling Package"
+        "image": "/images/clean-cut/photo_005_crop.jpg",
+        "label": "High Spar Climber Topping at 70+ Ft",
+        "alt": "High spar climber topping tall pine tree spar against sky"
       },
       "sub1": {
-        "image": "/images/clean-cut/photo_002.jpg",
-        "label": "Overhead Hazard Neutralization",
-        "alt": "Conifer Climber Rigging & High Spar Control Kit"
+        "image": "/images/clean-cut/photo_006_crop.jpg",
+        "label": "Lead Arborist with Heavy Spars",
+        "alt": "Lead arborist standing by sectioned timber trunk and massive rounds"
       },
       "sub2": {
-        "image": "/images/clean-cut/photo_003.jpg",
-        "label": "Spotless Clean Pavement",
-        "alt": "Clean Ground Driveway Restoration Package"
+        "image": "/images/clean-cut/photo_001_crop.jpg",
+        "label": "Directional Driveway Felling",
+        "alt": "Long limbed trunk felled with pinpoint accuracy along asphalt driveway"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigCleanCutEn = {
   ],
   "equipment": [
     {
-      "name": "Commercial Conifer Directional Felling Package",
-      "badge": "Millimeter Target Dropping",
-      "image": "/images/clean-cut/photo_001.jpg",
+      "name": "Professional Climbing Spikes & Canopy Saddle",
+      "badge": "High Canopy Rigging",
+      "image": "/images/clean-cut/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigCleanCutEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Photo shows the surgical base notch and directional felling of a tall Pacific Northwest conifer away from residential lines."
+      "desc": "Photo shows arborist climber ascending inside high fir tree canopy using professional climbing spurs and flipline to limb the trunk on the way up."
     },
     {
-      "name": "Conifer Climber Rigging & High Spar Control Kit",
-      "badge": "Overhead Hazard Neutralization",
-      "image": "/images/clean-cut/photo_002.jpg",
+      "name": "Controlled Canopy Sectional Dismantling",
+      "badge": "Branch Sectioning",
+      "image": "/images/clean-cut/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigCleanCutEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Climber harnessed high in the conifer canopy securing rigging lines to lower massive limbs without lawn impact."
+      "desc": "Photo shows arborist maneuvering among high evergreen boughs to remove heavy lateral branches safely before felling the main timber spar."
     },
     {
-      "name": "Clean Ground Driveway Restoration Package",
-      "badge": "Spotless Clean Pavement",
-      "image": "/images/clean-cut/photo_003.jpg",
+      "name": "Mature Evergreen Structure Mitigation",
+      "badge": "Shed & Fence Protection",
+      "image": "/images/clean-cut/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigCleanCutEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the finished driveway completely cleared of saw chips and twigs, leaving no tracks or damage."
+      "desc": "Photo shows tall mature Douglas fir trees adjacent to residential shed and fence line, carefully targeted for hazardous limb mitigation."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigCleanCutEn = {
   "serviceAreas": [
     {
       "name": "Puyallup (Central Depot)",
-      "zip": "98374",
+      "zip": "98371",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Puyallup Residential Corridor",
-      "zip": "98374",
+      "zip": "98371",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Puyallup Outer Acreage & Estates",
-      "zip": "98374",
+      "zip": "98371",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "98374",
+      "zip": "98371",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "98374",
+      "zip": "98371",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "98374",
+      "zip": "98371",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

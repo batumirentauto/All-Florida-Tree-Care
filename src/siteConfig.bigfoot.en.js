@@ -7,15 +7,15 @@ export const siteConfigBigfootEn = {
   "shortName": "Bigfoot tree care",
   "ownerName": "Dave",
   "ownerFirstName": "Dave",
-  "tagline": "Pacific Northwest Conifer Felling, Canopy Deadwooding & Stump Grinding",
-  "slogan": "Precision Conifer Removals, Storm Damage Mitigation & Spotless Cleanups Across South King County",
+  "tagline": "Precision Track Stump Grinding & Subsurface Root Flare Milling",
+  "slogan": "Commercial Track Grinding Machinery, Gate-Access Capability & Zero Lawn Rutting",
   "phone": "(253) 293-1046",
   "phoneRaw": "2532931046",
   "city": "Kent",
   "state": "WA",
   "zip": "98032",
-  "streetAddress": "4822 S 252nd Pl",
-  "fullAddress": "4822 S 252nd Pl, Kent, WA 98032",
+  "streetAddress": "King County Regional Route",
+  "fullAddress": "King County Regional Route, Kent, WA 98032",
   "mapsUrl": "https://www.google.com/maps/place/Bigfoot+tree+care/@47.375699,-122.273046,17z/data=!3m1!4b1!4m6!3m5!1s0xad505c2c2941e141:0xffb586c0c5b1f588!8m2!3d47.375699!4d-122.273046!16s%2Fg%2F11w8tkwy0t?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=5e1f2335-69b4-4c84-b6d0-ef24212e33fb",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,29 +23,21 @@ export const siteConfigBigfootEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Kent Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 4822 S 252nd Pl, Kent, WA 98032",
+  "addressNotes": "Operational Depot: King County Regional Route, Kent, WA 98032",
   "hero": {
     "badge": "Kent, WA • 4.9 Google Maps Verified (31 Reviews)",
-    "headline": "Pacific Northwest Conifer Felling, Canopy Deadwooding & Stump Grinding",
+    "headline": "Precision Track Stump Grinding & Subsurface Root Flare Milling",
     "subhead": "Direct owner dispatch by Dave with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Dave (253) 293-1046",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Overhead Canopy Precision",
-        "alt": "Aerial Bucket Truck Rig"
+        "image": "/images/tecos/tracked-grinder_crop.jpg",
+        "label": "Commercial Track Stump Grinder",
+        "alt": "Tracked commercial stump grinder operating in residential yard"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Deep Root Eradication",
-        "alt": "Subsurface Stump Milling Machine"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Fast Debris Haul-Away",
-        "alt": "Heavy Brush Reduction & Chipping Unit"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigBigfootEn = {
   ],
   "equipment": [
     {
-      "name": "Aerial Bucket Truck Rig",
-      "badge": "Overhead Canopy Precision",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Track-Mounted Commercial Stump Grinder",
+      "badge": "Narrow Gate Access",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigBigfootEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Telescopic boom deployed above roofs to trim hazardous conifer branches with complete line-drop control."
+      "desc": "Compact self-propelled track grinder that easily navigates 36-inch garden gates to eliminate backyard stumps with zero turf damage."
     },
     {
-      "name": "Subsurface Stump Milling Machine",
-      "badge": "Deep Root Eradication",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Subsurface Root Flare Milling Package",
+      "badge": "Deep Cut Grinding",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigBigfootEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Carbide cutting wheel mills out cedar and fir root balls 12 inches below ground level for lawn reseeding."
+      "desc": "Deep-grinding cutting wheel with carbide teeth that penetrates up to 14 inches below grade to prevent regrowth and allow immediate replanting."
     },
     {
-      "name": "Heavy Brush Reduction & Chipping Unit",
-      "badge": "Fast Debris Haul-Away",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Turf-Protection Ground Mats & Cleanup Kit",
+      "badge": "Lawn Shield System",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigBigfootEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Commercial chipper and Bobcat loader package clears massive branch volumes without damaging driveways."
+      "desc": "High-density polyethylene ground mats to protect sensitive sod during machine travel, followed by thorough rake and blower sweeping."
     }
   ],
   "reviews": [

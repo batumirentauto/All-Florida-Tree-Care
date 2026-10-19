@@ -7,15 +7,15 @@ export const siteConfigTreeWisemenEn = {
   "shortName": "Tree Wisemen Upstate",
   "ownerName": "Evan",
   "ownerFirstName": "Evan",
-  "tagline": "Crane-Assisted Tree Removals, High Spar Climbing & Driveway Cleanups",
-  "slogan": "Heavy Crane Efficiency, Controlled Timber Extraction & Fair Quotes Across Anderson & Greenville",
+  "tagline": "Hydraulic Mobile Crane Takedowns, Complete Commercial Fleet & Big Stump Cuts",
+  "slogan": "High-Tonnage Hydraulic Crane Rigging, Full Arborist Fleet on Site & Spotless Yards",
   "phone": "(415) 850-7584",
   "phoneRaw": "4158507584",
   "city": "Anderson",
   "state": "SC",
   "zip": "29621",
-  "streetAddress": "Upstate SC Corridor",
-  "fullAddress": "Upstate SC Corridor, Anderson, SC 29621",
+  "streetAddress": "Upstate Lake Hartwell Corridor",
+  "fullAddress": "Upstate Lake Hartwell Corridor, Anderson, SC 29621",
   "mapsUrl": "https://www.google.com/maps/place/Tree+Wisemen+Upstate/@34.4568959,-82.896309,9z/data=!3m1!4b1!4m6!3m5!1s0x885815089c5b03b9:0xef0cc669d93ae9bc!8m2!3d34.4568959!4d-82.896309!16s%2Fg%2F11rwsb9vfd?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=5c3a522f-c8e3-4c98-94e0-0bc4261cdaaf",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigTreeWisemenEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Anderson Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: Upstate SC Corridor, Anderson, SC 29621",
+  "addressNotes": "Operational Depot: Upstate Lake Hartwell Corridor, Anderson, SC 29621",
   "hero": {
     "badge": "Anderson, SC • 4.9 Google Maps Verified (71 Reviews)",
-    "headline": "Crane-Assisted Tree Removals, High Spar Climbing & Driveway Cleanups",
+    "headline": "Hydraulic Mobile Crane Takedowns, Complete Commercial Fleet & Big Stump Cuts",
     "subhead": "Direct owner dispatch by Evan with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Evan (415) 850-7584",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tree-wisemen/photo_001.jpg",
-        "label": "Zero Drop Hazard Lifting",
-        "alt": "Heavy Crane-Assisted Tree Removal Package"
+        "image": "/images/tree-wisemen/photo_005_crop.jpg",
+        "label": "Hydraulic Crane Heavy Branch Lift",
+        "alt": "Heavy hydraulic mobile crane boom with sling lifting enormous tree branch suspended high in sky"
       },
       "sub1": {
-        "image": "/images/tree-wisemen/photo_002.jpg",
-        "label": "Precision Spar Takedowns",
-        "alt": "High Spar Climber & Rigging Saddle Kit"
+        "image": "/images/tree-wisemen/photo_002_crop.jpg",
+        "label": "Complete Fleet on Residential Site",
+        "alt": "Forestry chip truck, Vermeer stump grinder, and compact loader staged on front residential lawn"
       },
       "sub2": {
-        "image": "/images/tree-wisemen/photo_003.jpg",
-        "label": "Spotless Clean Pavement",
-        "alt": "Paved Driveway & Turf Clean Package"
+        "image": "/images/tree-wisemen/photo_004_crop.jpg",
+        "label": "Arborist Rigging with Crane Assist",
+        "alt": "Arborist climber rigged in tree crotch with blue crane boom poised above tree"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigTreeWisemenEn = {
   ],
   "equipment": [
     {
-      "name": "Heavy Crane-Assisted Tree Removal Package",
-      "badge": "Zero Drop Hazard Lifting",
-      "image": "/images/tree-wisemen/photo_001.jpg",
+      "name": "Massive Hardwood Stump Boundary Flush-Cut",
+      "badge": "Large Stump Management",
+      "image": "/images/tree-wisemen/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigTreeWisemenEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Heavy mobile crane lifting massive tree canopy section vertically over residential property."
+      "desc": "Photo shows massive 4-foot diameter hardwood stump cut level next to a chain-link and privacy fence line, ready for grinding."
     },
     {
-      "name": "High Spar Climber & Rigging Saddle Kit",
-      "badge": "Precision Spar Takedowns",
-      "image": "/images/tree-wisemen/photo_002.jpg",
+      "name": "Street Frontage Canopy Elevation & Trimming",
+      "badge": "Streetline Pruning",
+      "image": "/images/tree-wisemen/photo_001_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigTreeWisemenEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber strapped high on tall spar trunk attaching crane slings for controlled extraction."
+      "desc": "Photo shows front yard mature shade trees trimmed and elevated away from the road and overhead residential service drop."
     },
     {
-      "name": "Paved Driveway & Turf Clean Package",
-      "badge": "Spotless Clean Pavement",
-      "image": "/images/tree-wisemen/photo_003.jpg",
+      "name": "Deciduous Crown Assessment & Thinning",
+      "badge": "Canopy Health Care",
+      "image": "/images/tree-wisemen/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigTreeWisemenEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the finished concrete estate driveway completely cleared of sawdust and brush."
+      "desc": "Photo shows large mature deciduous tree structure inspected and selectively thinned to remove crossing branches and deadwood."
     }
   ],
   "reviews": [

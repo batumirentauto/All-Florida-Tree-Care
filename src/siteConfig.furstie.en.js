@@ -7,15 +7,15 @@ export const siteConfigFurstieEn = {
   "shortName": "Furstie Tree & Stump, LLC",
   "ownerName": "Nate Furstie",
   "ownerFirstName": "Nate",
-  "tagline": "Heavy Timber Extraction, Kubota Grapple Loading & Bucket Rigging",
-  "slogan": "Professional Commercial Fleet, Tractor Grapple Efficiency & Clean Grounds Across Orange County",
+  "tagline": "Commercial Dump Fleet, Bucket Boom Pruning & Emergency Storm Hauling",
+  "slogan": "Owner-Operated Heavy Fleet, Aerial Bucket Access & Total Driveway Clearance",
   "phone": "(734) 637-6297",
   "phoneRaw": "7346376297",
   "city": "Efland",
   "state": "NC",
   "zip": "27243",
-  "streetAddress": "5010 Harmony Church Rd",
-  "fullAddress": "5010 Harmony Church Rd, Efland, NC 27243",
+  "streetAddress": "Orange County Triangle Corridor",
+  "fullAddress": "Orange County Triangle Corridor, Efland, NC 27243",
   "mapsUrl": "https://www.google.com/maps/place/Furstie+Tree+%26+Stump,+LLC/@36.1329792,-79.1921275,17z/data=!3m1!4b1!4m6!3m5!1s0x9b83a43b2af2ab3:0xf6d01b83949457d6!8m2!3d36.1329792!4d-79.1921275!16s%2Fg%2F11kc5j3hcl?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=ac9a1a32-e75e-4c24-bb77-86fee5524848",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigFurstieEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Efland Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 5010 Harmony Church Rd, Efland, NC 27243",
+  "addressNotes": "Operational Depot: Orange County Triangle Corridor, Efland, NC 27243",
   "hero": {
     "badge": "Efland, NC • 5.0 Google Maps Verified (66 Reviews)",
-    "headline": "Heavy Timber Extraction, Kubota Grapple Loading & Bucket Rigging",
+    "headline": "Commercial Dump Fleet, Bucket Boom Pruning & Emergency Storm Hauling",
     "subhead": "Direct owner dispatch by Nate Furstie with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Nate (734) 637-6297",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/furstie/photo_001.jpg",
-        "label": "High-Efficiency Timber Transport",
-        "alt": "Heavy Stake Dump Truck with Kubota Tractor Grapple"
+        "image": "/images/furstie/photo_001_crop.jpg",
+        "label": "Commercial Dump Truck & Tractor Rig",
+        "alt": "Red commercial dump truck and tractor equipment trailer loading tree debris"
       },
       "sub1": {
-        "image": "/images/furstie/photo_002.jpg",
-        "label": "High Canopy Access",
-        "alt": "Aerial Forestry Bucket Truck"
+        "image": "/images/furstie/photo_002_crop.jpg",
+        "label": "Bucket Truck Canopy Pruning",
+        "alt": "Operator in bucket boom aloft pruning branches near residential house"
       },
       "sub2": {
-        "image": "/images/furstie/photo_003.jpg",
-        "label": "Clean Debris Processing",
-        "alt": "Commercial Brush Chipper & Direct Dump Body"
+        "image": "/images/furstie/photo_006_crop.jpg",
+        "label": "Sunlit Finished Residential Yard",
+        "alt": "Finished two-story residential home with clean sunlit yard after tree pruning"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigFurstieEn = {
   ],
   "equipment": [
     {
-      "name": "Heavy Stake Dump Truck with Kubota Tractor Grapple",
-      "badge": "High-Efficiency Timber Transport",
-      "image": "/images/furstie/photo_001.jpg",
+      "name": "Emergency Driveway Storm Blowdown Removal",
+      "badge": "Driveway Blockage Extraction",
+      "image": "/images/furstie/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigFurstieEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "High-sided commercial stake dump truck paired with Kubota tractor grapple loading large hardwood timber rounds."
+      "desc": "Photo shows massive fallen hardwood completely blocking a residential gravel driveway after severe storm damage."
     },
     {
-      "name": "Aerial Forestry Bucket Truck",
-      "badge": "High Canopy Access",
-      "image": "/images/furstie/photo_002.jpg",
+      "name": "Driveway Reopening & Complete Timber Clearance",
+      "badge": "100% Cleared Access",
+      "image": "/images/furstie/photo_008_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigFurstieEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Aerial bucket deployed high into dense hardwood canopy for controlled limb sectioning and lowering."
+      "desc": "Photo shows the exact same gravel driveway reopened and completely cleared of all wood and brush, ready for daily traffic."
     },
     {
-      "name": "Commercial Brush Chipper & Direct Dump Body",
-      "badge": "Clean Debris Processing",
-      "image": "/images/furstie/photo_003.jpg",
+      "name": "Heavy Oak Timber Bucking & Tractor Staging",
+      "badge": "Heavy Log Management",
+      "image": "/images/furstie/photo_010_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigFurstieEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Commercial disc chipper blowing fine wood chips directly into enclosed truck body leaving clean driveway."
+      "desc": "Photo shows massive hardwood trunk sectioned into large rounds on the lawn, staged for tractor loader removal."
     }
   ],
   "reviews": [

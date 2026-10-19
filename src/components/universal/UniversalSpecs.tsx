@@ -30,21 +30,34 @@ export function UniversalSpecs({ config, themeName }: { config: any; themeName?:
               className={`${theme.bgCard} rounded-2xl border ${theme.borderSubtle} shadow-xl ${theme.borderHover} transition-all overflow-hidden flex flex-col justify-between group`}
             >
               <div>
-                {/* Photo showcase with badge: standard img tag with h-64 sm:h-80 */}
-                <div className="relative h-64 sm:h-80 w-full bg-slate-900 overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                  <div className={`absolute inset-0 bg-gradient-to-t from-[${theme.bgCard.replace('bg-[', '').replace(']', '')}] via-transparent to-black/30`} />
-                  <div className="absolute top-3 left-3">
-                    <span className={`inline-flex items-center rounded-lg ${theme.badgeBg} backdrop-blur-md px-3 py-1 text-xs font-bold ${theme.badgeText} shadow-md border ${theme.badgeBorder}`}>
+                {/* Photo showcase or sleek technical spec header */}
+                {item.image ? (
+                  <div className="relative h-64 sm:h-80 w-full bg-slate-900 overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-black/30" />
+                    <div className="absolute top-3 left-3">
+                      <span className={`inline-flex items-center rounded-lg ${theme.badgeBg} backdrop-blur-md px-3 py-1 text-xs font-bold ${theme.badgeText} shadow-md border ${theme.badgeBorder}`}>
+                        {item.badge}
+                      </span>
+                    </div>
+                  </div>
+                ) : (
+                  <div className={`p-6 border-b ${theme.borderSubtle} bg-gradient-to-br from-slate-900/90 to-slate-950 flex items-center justify-between`}>
+                    <span className={`inline-flex items-center rounded-lg ${theme.badgeBg} px-3 py-1 text-xs font-bold ${theme.badgeText} border ${theme.badgeBorder}`}>
                       {item.badge}
                     </span>
+                    <div className={`w-9 h-9 rounded-xl ${theme.badgeBg} border ${theme.badgeBorder} ${theme.accentText} flex items-center justify-center shrink-0`}>
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                      </svg>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {/* Content info */}
                 <div className="p-6">

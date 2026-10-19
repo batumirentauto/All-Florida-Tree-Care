@@ -7,15 +7,15 @@ export const siteConfigSuttonsEn = {
   "shortName": "Sutton's Tree Service Inc",
   "ownerName": "Mr. Sutton",
   "ownerFirstName": "Mr.",
-  "tagline": "Coastal Carolina Pine Felling, Bucket Truck Trimming & Stump Grinding",
-  "slogan": "Trusted Military & Residential Tree Care, Fast Storm Hazard Mitigation Across Onslow County",
+  "tagline": "Track Stump Grinding, Crane-Assisted Felling & Coastal Tree Care",
+  "slogan": "Veteran-Friendly Tree Care, Heavy Crane Capability & Fair Upfront Pricing",
   "phone": "(910) 577-1111",
   "phoneRaw": "9105771111",
   "city": "Midway Park",
   "state": "NC",
   "zip": "28544",
-  "streetAddress": "2132 Lake St",
-  "fullAddress": "2132 Lake St, Midway Park, NC 28544",
+  "streetAddress": "Onslow County Coastal Corridor",
+  "fullAddress": "Onslow County Coastal Corridor, Midway Park, NC 28544",
   "mapsUrl": "https://www.google.com/maps/place/Sutton's+Tree+Service+Inc/@34.7179538,-77.3155166,17z/data=!3m1!4b1!4m6!3m5!1s0x89a904cec8dde475:0x6397476dadbee66!8m2!3d34.7179538!4d-77.3155166!16s%2Fg%2F1tdx9kj5?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=d8be317f-b887-4877-bc40-0eb85bab823b",
   "rating": "4.8",
   "ratingValue": 4.8,
@@ -23,29 +23,21 @@ export const siteConfigSuttonsEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Midway Park Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 2132 Lake St, Midway Park, NC 28544",
+  "addressNotes": "Operational Depot: Onslow County Coastal Corridor, Midway Park, NC 28544",
   "hero": {
     "badge": "Midway Park, NC • 4.8 Google Maps Verified (24 Reviews)",
-    "headline": "Coastal Carolina Pine Felling, Bucket Truck Trimming & Stump Grinding",
+    "headline": "Track Stump Grinding, Crane-Assisted Felling & Coastal Tree Care",
     "subhead": "Direct owner dispatch by Mr. Sutton with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Mr. (910) 577-1111",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Coastal Canopy Access",
-        "alt": "Altec Aerial Bucket Truck Rig"
+        "image": "/images/tecos/tracked-grinder_crop.jpg",
+        "label": "Track Stump Grinder Unit",
+        "alt": "Commercial track stump grinder operating in residential yard"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Deep Subsurface Milling",
-        "alt": "Rayco Commercial Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "100% Debris Haul-Away",
-        "alt": "Bandit 12X Brush Chipper & Haul Rig"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigSuttonsEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Aerial Bucket Truck Rig",
-      "badge": "Coastal Canopy Access",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Commercial Track Stump Grinder Unit",
+      "badge": "Narrow Gate Track Machine",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigSuttonsEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Telescopic boom deployed to trim coastal pines and hardwoods away from residential rooflines and power drops."
+      "desc": "Low ground-pressure rubber track machine that accesses fenced backyards to mill tough pine and oak stumps without tearing turf."
     },
     {
-      "name": "Rayco Commercial Stump Grinder",
-      "badge": "Deep Subsurface Milling",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Crane-Assisted Hazardous Tree Felling",
+      "badge": "Zero-Drop Crane Rigging",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigSuttonsEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "High-torque grinder pulverizes tough Carolina pine root flares 10–14 inches below lawn grade."
+      "desc": "Mobile crane rigging setup that lifts multi-ton tree canopies straight up and away from residential homes and power lines."
     },
     {
-      "name": "Bandit 12X Brush Chipper & Haul Rig",
+      "name": "Heavy Debris Dump Fleet & Site Sweep",
       "badge": "100% Debris Haul-Away",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigSuttonsEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "High-capacity chipper and haul trailer clears massive branch piles, leaving driveways and turf immaculate."
+      "desc": "Heavy-duty dump trucks and industrial blowers ensuring every branch and wood chip is hauled away immediately."
     }
   ],
   "reviews": [

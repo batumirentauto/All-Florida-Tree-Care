@@ -7,15 +7,15 @@ export const siteConfigTlgEn = {
   "shortName": "TLG Tree Service LLC",
   "ownerName": "Oliver",
   "ownerFirstName": "Oliver",
-  "tagline": "Raleigh Hardwood Felling, Canopy Elevation & Vermeer Stump Grinding",
-  "slogan": "Precision Urban Arborist Care, Next-Day Estimates & Spotless Cleanups Across Wake County",
+  "tagline": "Precision Hardwood Felling, Track Stump Grinding & Site Restoration",
+  "slogan": "Research Triangle Arborist Services, Controlled Rigging & Fair Upfront Pricing",
   "phone": "(984) 242-7561",
   "phoneRaw": "9842427561",
   "city": "Raleigh",
   "state": "NC",
-  "zip": "27615",
-  "streetAddress": "7145 Broomfield Way",
-  "fullAddress": "7145 Broomfield Way, Raleigh, NC 27615",
+  "zip": "27604",
+  "streetAddress": "Capital City Research Triangle Route",
+  "fullAddress": "Capital City Research Triangle Route, Raleigh, NC 27604",
   "mapsUrl": "https://www.google.com/maps/place/TLG+Tree+Service+LLC/@35.8784324,-78.5964498,17z/data=!3m1!4b1!4m6!3m5!1s0x89ac59272e97561f:0xdd29580b7220167f!8m2!3d35.8784324!4d-78.5964498!16s%2Fg%2F11hg51w8w_?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=dc53dd3c-cbbf-4e54-b9c4-1ee3814124f8",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,29 +23,21 @@ export const siteConfigTlgEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Raleigh Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 7145 Broomfield Way, Raleigh, NC 27615",
+  "addressNotes": "Operational Depot: Capital City Research Triangle Route, Raleigh, NC 27604",
   "hero": {
     "badge": "Raleigh, NC • 4.9 Google Maps Verified (29 Reviews)",
-    "headline": "Raleigh Hardwood Felling, Canopy Elevation & Vermeer Stump Grinding",
+    "headline": "Precision Hardwood Felling, Track Stump Grinding & Site Restoration",
     "subhead": "Direct owner dispatch by Oliver with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Oliver (984) 242-7561",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Over-Roof Reach Precision",
-        "alt": "Altec Aerial Telescopic Bucket Truck"
+        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
+        "label": "Controlled Sectional Takedown",
+        "alt": "Arborist climber rigging tall pine tree for sectional takedown"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Deep Subsurface Milling",
-        "alt": "Rayco Commercial Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "100% Debris Haul-Away",
-        "alt": "Bandit Disc Chipper & Haul Trailer"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigTlgEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Aerial Telescopic Bucket Truck",
-      "badge": "Over-Roof Reach Precision",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Precision Sectional Tree Removal Rigging",
+      "badge": "Controlled Lowering",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigTlgEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Commercial bucket truck reaching high over residential roofs to remove hazardous deadwood safely."
+      "desc": "Friction brake lowering devices and high-strength bull ropes allowing arborists to safely dismantle heavy trees near residential homes."
     },
     {
-      "name": "Rayco Commercial Stump Grinder",
-      "badge": "Deep Subsurface Milling",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Low-Impact Track Stump Grinder Unit",
+      "badge": "Subsurface Milling",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigTlgEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Carbide cutting wheel pulverizes large oak and pine stumps 12 inches below lawn grade."
+      "desc": "Rubber tracked self-propelled stump grinder that passes through standard backyard gates and grinds root flares below grade."
     },
     {
-      "name": "Bandit Disc Chipper & Haul Trailer",
-      "badge": "100% Debris Haul-Away",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Brush Chipper & Complete Turf Restoration",
+      "badge": "Spotless Property Finish",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigTlgEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Heavy-duty chipper processes branches into fresh wood chips, leaving paved driveways spotless."
+      "desc": "Commercial disc brush chipper paired with backpack blowers to haul away all chipped organic debris with zero lawn mess."
     }
   ],
   "reviews": [
@@ -240,32 +232,32 @@ export const siteConfigTlgEn = {
   "serviceAreas": [
     {
       "name": "Raleigh (Central Depot)",
-      "zip": "27615",
+      "zip": "27604",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Raleigh Residential Corridor",
-      "zip": "27615",
+      "zip": "27604",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Raleigh Outer Acreage & Estates",
-      "zip": "27615",
+      "zip": "27604",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "27615",
+      "zip": "27604",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "27615",
+      "zip": "27604",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "27615",
+      "zip": "27604",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

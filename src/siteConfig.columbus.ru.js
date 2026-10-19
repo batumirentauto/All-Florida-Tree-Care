@@ -7,15 +7,15 @@ export const siteConfigColumbusRu = {
   "shortName": "Columbus Georgia Tree Removal",
   "ownerName": "Рассел",
   "ownerFirstName": "Рассел",
-  "tagline": "Спил вековых дубов, расчистка охранных зон ЛЭП и дробление пней",
-  "slogan": "Надежный спил деревьев любой сложности, быстрый выезд на смету и порядок на участке",
+  "tagline": "Валка деревьев, гусеничное дробление пней и измельчение веток",
+  "slogan": "Надежные арбористы региона Колумбус, аккуратный спил и честная смета",
   "phone": "(706) 580-2933",
   "phoneRaw": "7065802933",
   "city": "Колумбус",
   "state": "Джорджия",
-  "zip": "31901",
-  "streetAddress": "Chattahoochee Valley Base",
-  "fullAddress": "Chattahoochee Valley Base, Columbus, GA 31901",
+  "zip": "31904",
+  "streetAddress": "Chattahoochee Valley Corridor",
+  "fullAddress": "Chattahoochee Valley Corridor, Columbus, GA 31904",
   "mapsUrl": "https://www.google.com/maps/place/Columbus+Georgia+Tree+Removal/@32.45106,-84.9395035,12z/data=!3m1!4b1!4m6!3m5!1s0x88f333427865f1d1:0x7eb175241436ea70!8m2!3d32.45106!4d-84.9395036!16s%2Fg%2F11j0sgtk1l?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=eeeeef7a-e6cf-4db5-a5f8-0a2d078c8ba4",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,29 +23,21 @@ export const siteConfigColumbusRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Колумбус",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: Chattahoochee Valley Base, Columbus, GA 31901",
+  "addressNotes": "База выезда техники: Chattahoochee Valley Corridor, Columbus, GA 31904",
   "hero": {
     "badge": "Колумбус, Джорджия • Рейтинг 5.0 на Google Maps (20 отзывов)",
-    "headline": "Спил вековых дубов, расчистка охранных зон ЛЭП и дробление пней",
+    "headline": "Валка деревьев, гусеничное дробление пней и измельчение веток",
     "subhead": "Прямой выезд владельца (Рассел), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((706) 580-2933)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Работа над крышами и ЛЭП",
-        "alt": "Автовышка Altec с изолированной стрелой"
+        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
+        "label": "Контролируемый спил сосны",
+        "alt": "Арборист на сосне подготавливает ствол к посекционному спилу"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Глубокое измельчение корней",
-        "alt": "Мощная пнедробилка"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Полный вывоз мусора",
-        "alt": "Измельчитель веток и погрузчик"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigColumbusRu = {
   ],
   "equipment": [
     {
-      "name": "Автовышка Altec с изолированной стрелой",
-      "badge": "Работа над крышами и ЛЭП",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Посекционный спил и такелаж",
+      "badge": "Защита имущества",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +144,12 @@ export const siteConfigColumbusRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Автовышка для аккуратного спила нависающих крон дуба над крышами домов без удара о кровельное покрытие."
+      "desc": "Такелажный комплекс с тормозными барабанами для пошагового безопасного спуска ветвей над постройками."
     },
     {
-      "name": "Мощная пнедробилка",
-      "badge": "Глубокое измельчение корней",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Гусеничная пнедробилка",
+      "badge": "Глубокое дробление",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +164,12 @@ export const siteConfigColumbusRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Фреза перемалывает крупные пни на глубину до 30 см ниже дерна для восстановления газона."
+      "desc": "Самоходная фреза на резиновых гусеницах для быстрого удаления пней ниже уровня дерна без следов на траве."
     },
     {
-      "name": "Измельчитель веток и погрузчик",
-      "badge": "Полный вывоз мусора",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Измельчитель веток и вывоз щепы",
+      "badge": "Полная утилизация",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +184,7 @@ export const siteConfigColumbusRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Измельчитель быстро перерабатывает сучья и ветки в щепу, оставляя территорию убранной."
+      "desc": "Дробилка веток с автоподачей, направляющая щепу прямо в кузов грузовика для чистоты во дворе."
     }
   ],
   "reviews": [
@@ -240,32 +232,32 @@ export const siteConfigColumbusRu = {
   "serviceAreas": [
     {
       "name": "Колумбус (Основная база)",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Центральная диспетчерская • Быстрый выезд на смету"
     },
     {
       "name": "Колумбус — Жилой сектор",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Спил аварийных деревьев во дворах и у заборов"
     },
     {
       "name": "Колумбус — Пригородные участки",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Расчистка участков и дробление пней"
     },
     {
       "name": "Округ и прилегающие районы Джорджия",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Санитарная обрезка крон и высотный спил"
     },
     {
       "name": "Коттеджные поселки и частные владения",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Уход за зрелыми деревьями и защита от ветров"
     },
     {
       "name": "Аварийная зона штормового реагирования",
-      "zip": "31901",
+      "zip": "31904",
       "note": "Срочный разбор завалов и снятие стволов с крыш"
     }
   ],

@@ -7,15 +7,15 @@ export const siteConfigWoodfellasEn = {
   "shortName": "WoodFellas Tree Service",
   "ownerName": "John",
   "ownerFirstName": "John",
-  "tagline": "Tennessee Mountain Hardwood Felling, Bucket Truck Pruning & Stump Grinding",
-  "slogan": "Punctual Mountain Arborist Care, Precision Felling & Spotless Cleanups Across Washington County",
+  "tagline": "Controlled Sectional Takedowns, Track Stump Grinding & Site Restoration",
+  "slogan": "Appalachian Highlands Tree Experts, Safe Rigging & Spotless Cleanups",
   "phone": "(423) 270-4224",
   "phoneRaw": "4232704224",
   "city": "Johnson City",
   "state": "TN",
   "zip": "37604",
-  "streetAddress": "Peachtree St",
-  "fullAddress": "Peachtree St, Johnson City, TN 37604",
+  "streetAddress": "Appalachian Highlands Corridor",
+  "fullAddress": "Appalachian Highlands Corridor, Johnson City, TN 37604",
   "mapsUrl": "https://www.google.com/maps/place/WoodFellas+Tree+Service/@36.322659,-82.3715945,17z/data=!3m1!4b1!4m6!3m5!1s0x81785c79a0a9b539:0x25643b8ec428149a!8m2!3d36.322659!4d-82.3715945!16s%2Fg%2F11kjplg0t4?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=eaeb6012-7476-4822-b7b4-4430de80f160",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,29 +23,21 @@ export const siteConfigWoodfellasEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Johnson City Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: Peachtree St, Johnson City, TN 37604",
+  "addressNotes": "Operational Depot: Appalachian Highlands Corridor, Johnson City, TN 37604",
   "hero": {
     "badge": "Johnson City, TN • 5.0 Google Maps Verified (39 Reviews)",
-    "headline": "Tennessee Mountain Hardwood Felling, Bucket Truck Pruning & Stump Grinding",
+    "headline": "Controlled Sectional Takedowns, Track Stump Grinding & Site Restoration",
     "subhead": "Direct owner dispatch by John with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call John (423) 270-4224",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Over-Roof Precision Canopy Reach",
-        "alt": "Altec Aerial Telescopic Bucket Truck"
+        "image": "/images/tecos/clean-ground-crew_crop.jpg",
+        "label": "Professional Ground Crew & Turf Care",
+        "alt": "Tree service ground crew performing clean turf sweep after tree takedown"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Complete Root Flare Eradication",
-        "alt": "High-Power Subsurface Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Spotless Property Finish",
-        "alt": "Finished Ground Restoration & Clean Turf Package"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigWoodfellasEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Aerial Telescopic Bucket Truck",
-      "badge": "Over-Roof Precision Canopy Reach",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Professional Tree Felling & Sectional Dismantling",
+      "badge": "Controlled Sectional Rigging",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigWoodfellasEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Aerial bucket truck deployed over rooflines to trim hazardous hardwood limbs with tag-line lowering."
+      "desc": "Arborist lowering blocks and dynamic rigging systems to safely lower heavy hardwood sections in tight residential spaces."
     },
     {
-      "name": "High-Power Subsurface Stump Grinder",
-      "badge": "Complete Root Flare Eradication",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Tracked Stump Grinder & Root Milling",
+      "badge": "Subsurface Milling",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigWoodfellasEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Commercial grinder pulverizes tough oak and hickory stump flares 12 inches below lawn grade."
+      "desc": "Self-propelled rubber track machine that navigates garden gates and grinds tree stumps below grade without lawn damage."
     },
     {
-      "name": "Finished Ground Restoration & Clean Turf Package",
-      "badge": "Spotless Property Finish",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Complete Site Debris Cleanup & Turf Restoration",
+      "badge": "100% Debris Haul-Away",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigWoodfellasEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished lawn view showing leveled, backfilled soil after stump removal, completely clear of debris."
+      "desc": "Commercial brush chipper and industrial blowers ensuring every branch, log, and wood chip is hauled away immediately."
     }
   ],
   "reviews": [

@@ -7,15 +7,15 @@ export const siteConfigProBeaverEn = {
   "shortName": "Pro Beaver Tree Service",
   "ownerName": "Ivan",
   "ownerFirstName": "Ivan",
-  "tagline": "Compact Track Loader Grapple Hauling, Oak Climbing & Wood Chipping",
-  "slogan": "Mechanized Tree Takedowns, High-Efficiency Turf Protection & Clean Grounds Across Union County",
+  "tagline": "Directional Timber Felling, Spar Pollarding & Lot Clearing",
+  "slogan": "Skilled Arborist Climbers, Heavy Chainsaw Timber Bucking & Clean Ground Handover",
   "phone": "(980) 833-4894",
   "phoneRaw": "9808334894",
   "city": "Waxhaw",
   "state": "NC",
   "zip": "28173",
-  "streetAddress": "7114 Lancaster Hwy",
-  "fullAddress": "7114 Lancaster Hwy, Waxhaw, NC 28173",
+  "streetAddress": "Union County Carolina Corridor",
+  "fullAddress": "Union County Carolina Corridor, Waxhaw, NC 28173",
   "mapsUrl": "https://www.google.com/maps/place/Pro+Beaver+Tree+Service/@34.8741225,-80.6606256,17z/data=!3m1!4b1!4m6!3m5!1s0x88542d2c38d61a13:0x64f5115d917f6f34!8m2!3d34.8741225!4d-80.6606256!16s%2Fg%2F11x6j_306_?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=a20d40ce-5d04-4951-b559-4b5590a24937",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigProBeaverEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Waxhaw Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 7114 Lancaster Hwy, Waxhaw, NC 28173",
+  "addressNotes": "Operational Depot: Union County Carolina Corridor, Waxhaw, NC 28173",
   "hero": {
     "badge": "Waxhaw, NC • 5.0 Google Maps Verified (26 Reviews)",
-    "headline": "Compact Track Loader Grapple Hauling, Oak Climbing & Wood Chipping",
+    "headline": "Directional Timber Felling, Spar Pollarding & Lot Clearing",
     "subhead": "Direct owner dispatch by Ivan with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Ivan (980) 833-4894",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/pro-beaver/photo_001.jpg",
-        "label": "Low Ground Pressure Handling",
-        "alt": "Compact Track Loader with Heavy Timber Grapple"
+        "image": "/images/pro-beaver/photo_002_crop.jpg",
+        "label": "Directional Hardwood Timber Felling",
+        "alt": "Massive felled tree trunk cleanly sectioned into large logs on yard grounds"
       },
       "sub1": {
-        "image": "/images/pro-beaver/photo_002.jpg",
-        "label": "Sectional Drop Control",
-        "alt": "Certified Climber Oak Dismantling Kit"
+        "image": "/images/pro-beaver/photo_009_crop.jpg",
+        "label": "Arborist Climber Aloft on Multi-Spar",
+        "alt": "Arborist climber perched atop pollarded hardwood trunk following limb removal"
       },
       "sub2": {
-        "image": "/images/pro-beaver/photo_003.jpg",
-        "label": "Rapid Branch Volume Reduction",
-        "alt": "Commercial Disc Wood Chipper Package"
+        "image": "/images/pro-beaver/photo_001_crop.jpg",
+        "label": "Porch Proximity Tree Assessment",
+        "alt": "Large mature deciduous shade tree standing beside residential porch"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigProBeaverEn = {
   ],
   "equipment": [
     {
-      "name": "Compact Track Loader with Heavy Timber Grapple",
-      "badge": "Low Ground Pressure Handling",
-      "image": "/images/pro-beaver/photo_001.jpg",
+      "name": "Sectional Pollarding & Vertical Spar Dismantling",
+      "badge": "Vertical Spar Work",
+      "image": "/images/pro-beaver/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigProBeaverEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Compact track loader equipped with hydraulic timber grapple moving heavy logs without tearing established sod."
+      "desc": "Photo shows multi-stem tree trunk pollarded and stripped of dangerous branches by garden fence, standing safely ready for final cuts."
     },
     {
-      "name": "Certified Climber Oak Dismantling Kit",
-      "badge": "Sectional Drop Control",
-      "image": "/images/pro-beaver/photo_002.jpg",
+      "name": "Lot Clearance & Heavy Timber Log Extraction",
+      "badge": "Timber Lot Clearing",
+      "image": "/images/pro-beaver/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigProBeaverEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber in tree saddle cutting heavy oak branches with dedicated lowering lines away from rooflines."
+      "desc": "Photo shows cleared residential lot with felled pine log sectioned and sawdust cleaned away from nearby buildings."
     },
     {
-      "name": "Commercial Disc Wood Chipper Package",
-      "badge": "Rapid Branch Volume Reduction",
-      "image": "/images/pro-beaver/photo_003.jpg",
+      "name": "Structural Proximity Timber Staging & Clearing",
+      "badge": "Structure Clearance",
+      "image": "/images/pro-beaver/photo_010_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigProBeaverEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Heavy-duty wood chipper processing large branch piles into mulch for complete and spotless property haul-away."
+      "desc": "Photo shows cut pine rounds and low stump cleanly sectioned along residential home corner without any contact with the building."
     }
   ],
   "reviews": [

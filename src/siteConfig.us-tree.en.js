@@ -7,15 +7,15 @@ export const siteConfigUsTreeEn = {
   "shortName": "US TREE REMOVAL",
   "ownerName": "Cass",
   "ownerFirstName": "Cass",
-  "tagline": "Urban Street Bucket Truck Felling, Commercial Chipping & Pavement Care",
-  "slogan": "Metro Detroit Tree Removal Experts, High-Reach Bucket Capabilities & Spotless Cleanups",
+  "tagline": "Utility Wire Canopy Clearance, Roofline Pruning & Brush Hauling",
+  "slogan": "Metro Detroit Arborist Rigging, Tight Backyard Access & Spotless Cleanups",
   "phone": "(313) 936-4140",
   "phoneRaw": "3139364140",
   "city": "Dearborn",
   "state": "MI",
   "zip": "48126",
-  "streetAddress": "14349 W Warren Ave",
-  "fullAddress": "14349 W Warren Ave, Dearborn, MI 48126",
+  "streetAddress": "Metro Detroit Residential Corridor",
+  "fullAddress": "Metro Detroit Residential Corridor, Dearborn, MI 48126",
   "mapsUrl": "https://www.google.com/maps/place/US+TREE+REMOVAL/@42.3437042,-83.1838612,17z/data=!3m1!4b1!4m6!3m5!1s0xa831bdb7503f36cd:0xdf5eb13413257b59!8m2!3d42.3437042!4d-83.1838612!16s%2Fg%2F11r_k6kb65?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=b285dfcc-c746-4ac4-8c60-c61546e8f107",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigUsTreeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Dearborn Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 14349 W Warren Ave, Dearborn, MI 48126",
+  "addressNotes": "Operational Depot: Metro Detroit Residential Corridor, Dearborn, MI 48126",
   "hero": {
     "badge": "Dearborn, MI • 5.0 Google Maps Verified (113 Reviews)",
-    "headline": "Urban Street Bucket Truck Felling, Commercial Chipping & Pavement Care",
+    "headline": "Utility Wire Canopy Clearance, Roofline Pruning & Brush Hauling",
     "subhead": "Direct owner dispatch by Cass with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Cass (313) 936-4140",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/us-tree/photo_001.jpg",
-        "label": "High Canopy Street Reach",
-        "alt": "Telescopic Urban Street Bucket Truck"
+        "image": "/images/us-tree/photo_005_crop.jpg",
+        "label": "Canopy Thinning & Utility Wire Clearance",
+        "alt": "Large pruned deciduous tree canopy between two garages with utility lines clear and sun shining"
       },
       "sub1": {
-        "image": "/images/us-tree/photo_002.jpg",
-        "label": "Rapid Street Debris Clearing",
-        "alt": "Commercial Chipper Truck & Enclosed Chip Body"
+        "image": "/images/us-tree/photo_001_crop.jpg",
+        "label": "Arborist Climber Aloft Clearing Roof",
+        "alt": "Tree climber working in tree crown trimming branches safely away from garage roof"
       },
       "sub2": {
-        "image": "/images/us-tree/photo_003.jpg",
-        "label": "Immaculate Urban Finish",
-        "alt": "Clean Pavement & Sidewalk Sweep Kit"
+        "image": "/images/us-tree/photo_008_crop.jpg",
+        "label": "Debris Consolidation & Staging",
+        "alt": "Large brush pile cut and staged neatly by garage and chain-link fence for haul away"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigUsTreeEn = {
   ],
   "equipment": [
     {
-      "name": "Telescopic Urban Street Bucket Truck",
-      "badge": "High Canopy Street Reach",
-      "image": "/images/us-tree/photo_001.jpg",
+      "name": "Backyard Tree Crown Elevation & Fence Line Care",
+      "badge": "Backyard Canopy Work",
+      "image": "/images/us-tree/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigUsTreeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Commercial bucket truck elevated along urban street dismantling heavy tree branches near powerlines."
+      "desc": "Photo shows mature deciduous tree in fenced residential yard with lower branches pruned for full sunlight and fence clearance."
     },
     {
-      "name": "Commercial Chipper Truck & Enclosed Chip Body",
-      "badge": "Rapid Street Debris Clearing",
-      "image": "/images/us-tree/photo_002.jpg",
+      "name": "Heavy Overgrowth Clearance Along Home Wall",
+      "badge": "Foundation Clearance",
+      "image": "/images/us-tree/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigUsTreeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Heavy-duty chipper truck processing branch piles directly into enclosed body for immediate street reopening."
+      "desc": "Photo shows dense overhanging tree branches cleared away from residential brick home wall and concrete walkway."
     },
     {
-      "name": "Clean Pavement & Sidewalk Sweep Kit",
-      "badge": "Immaculate Urban Finish",
-      "image": "/images/us-tree/photo_003.jpg",
+      "name": "Yard Raking & Organic Debris Cleanup",
+      "badge": "Spotless Yard Finish",
+      "image": "/images/us-tree/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigUsTreeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows the finished paved street and sidewalk completely cleared of wood chips and leaves."
+      "desc": "Photo shows residential yard raked clean and leaf debris neatly collected along garage wall after pruning."
     }
   ],
   "reviews": [

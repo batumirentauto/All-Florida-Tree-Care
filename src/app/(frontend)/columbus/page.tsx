@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "tree removal Columbus GA",
     "tree service Columbus",
     "stump grinding Columbus",
-    "emergency tree service 31901",
+    "emergency tree service 31904",
     "Russell tree service",
   ],
 }

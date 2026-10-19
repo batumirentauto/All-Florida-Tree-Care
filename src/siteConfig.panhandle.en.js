@@ -7,15 +7,15 @@ export const siteConfigPanhandleEn = {
   "shortName": "Panhandle Tree Pros LLC",
   "ownerName": "Mike",
   "ownerFirstName": "Mike",
-  "tagline": "Florida Panhandle Pine Felling, Mini Excavator Grapple & Lot Clearing",
-  "slogan": "Dependable Panhandle Tree Takedowns, Mechanical Timber Moving & Clean Grounds Across Washington County",
+  "tagline": "Arborist Climber Rigging, Tight-Quarters Felling & Alleyway Clearance",
+  "slogan": "Florida Panhandle Certified Climbers, High Safety Standards & Spotless Cleanups",
   "phone": "(850) 851-5297",
   "phoneRaw": "8508515297",
   "city": "Chipley",
   "state": "FL",
   "zip": "32428",
-  "streetAddress": "1836 Hagar Ave",
-  "fullAddress": "1836 Hagar Ave, Chipley, FL 32428",
+  "streetAddress": "Florida Panhandle I-10 Corridor",
+  "fullAddress": "Florida Panhandle I-10 Corridor, Chipley, FL 32428",
   "mapsUrl": "https://www.google.com/maps/place/Panhandle+Tree+Pros+LLC/@30.5837619,-85.5883153,17z/data=!3m1!4b1!4m6!3m5!1s0xa322432f6c442ec3:0xb52161bc48d0af5b!8m2!3d30.5837619!4d-85.5883153!16s%2Fg%2F11mk9rdyc_?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=c63c14ea-9815-4eea-ba92-02249f488f80",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigPanhandleEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Chipley Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1836 Hagar Ave, Chipley, FL 32428",
+  "addressNotes": "Operational Depot: Florida Panhandle I-10 Corridor, Chipley, FL 32428",
   "hero": {
     "badge": "Chipley, FL • 5.0 Google Maps Verified (27 Reviews)",
-    "headline": "Florida Panhandle Pine Felling, Mini Excavator Grapple & Lot Clearing",
+    "headline": "Arborist Climber Rigging, Tight-Quarters Felling & Alleyway Clearance",
     "subhead": "Direct owner dispatch by Mike with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Mike (850) 851-5297",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/panhandle/photo_001.jpg",
-        "label": "Over-Home Directional Control",
-        "alt": "Residential Pine Felling & Rigging Package"
+        "image": "/images/panhandle/photo_005_crop.jpg",
+        "label": "Arborist Climber with Neon Rigging",
+        "alt": "Arborist climber in helmet and safety harness with neon climbing ropes in canopy"
       },
       "sub1": {
-        "image": "/images/panhandle/photo_002.jpg",
-        "label": "Low-Impact Turf Handling",
-        "alt": "Mini Excavator with Hydraulic Log Grapple"
+        "image": "/images/panhandle/photo_001_crop.jpg",
+        "label": "Leaning Tree by Residential Structure",
+        "alt": "Large leaning hardwood tree growing tight beside residential turquoise home"
       },
       "sub2": {
-        "image": "/images/panhandle/photo_003.jpg",
-        "label": "Raked Clean Turf Guarantee",
-        "alt": "Finished Residential Lawn Clean Package"
+        "image": "/images/panhandle/photo_003_crop.jpg",
+        "label": "Cleared Alleyway & Structure Access",
+        "alt": "Narrow passage between homes cleared of overgrown branches and debris"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigPanhandleEn = {
   ],
   "equipment": [
     {
-      "name": "Residential Pine Felling & Rigging Package",
-      "badge": "Over-Home Directional Control",
-      "image": "/images/panhandle/photo_001.jpg",
+      "name": "Overhang Canopy Pruning Above Sunroom",
+      "badge": "Sunroom Canopy Clearance",
+      "image": "/images/panhandle/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigPanhandleEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Large Florida pine tree sectioned safely adjacent to residential home with tag-line guidance."
+      "desc": "Photo shows multi-stem tree canopy spreading over residential roof and sunroom, trimmed back to prevent roof and glass damage."
     },
     {
-      "name": "Mini Excavator with Hydraulic Log Grapple",
-      "badge": "Low-Impact Turf Handling",
-      "image": "/images/panhandle/photo_002.jpg",
+      "name": "Debris Hauling Access & Truck Staging",
+      "badge": "Narrow Access Staging",
+      "image": "/images/panhandle/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigPanhandleEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Compact excavator lifting and stacking heavy pine logs with zero lawn rutting or pavement damage."
+      "desc": "Photo shows cleared driveway alleyway with service truck staged for dragging and loading tree limbs from tight backyards."
     },
     {
-      "name": "Finished Residential Lawn Clean Package",
-      "badge": "Raked Clean Turf Guarantee",
-      "image": "/images/panhandle/photo_003.jpg",
+      "name": "Tight-Access Arborist Rigging Kit",
+      "badge": "Zero-Impact Dismantling",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigPanhandleEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished front yard view showing clean turf and paved driveway cleared of all timber debris."
+      "desc": "Lightweight arborist friction blocks, false crotch slings, and taglines designed for safely lowering heavy limbs in tight residential setbacks."
     }
   ],
   "reviews": [

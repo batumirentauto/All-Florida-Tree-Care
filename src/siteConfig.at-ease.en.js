@@ -7,15 +7,15 @@ export const siteConfigAtEaseEn = {
   "shortName": "At Ease Land & Tree Services LLC",
   "ownerName": "John",
   "ownerFirstName": "John",
-  "tagline": "Acreage Pasture Clearing, Excavator Timber Logging & Storm Tree Removal",
-  "slogan": "Heavy Hydraulic Land Clearing, Downed Pecan & Oak Extraction Across Southwest Georgia",
+  "tagline": "Emergency Storm Felling, Heavy Oak Bucking & Lawn Restoration",
+  "slogan": "Veteran-Led Precision Tree Removal, Honest Pricing & Immediate South Georgia Dispatch",
   "phone": "(229) 977-1139",
   "phoneRaw": "2299771139",
   "city": "Cairo",
   "state": "GA",
   "zip": "39828",
-  "streetAddress": "Grady & Thomas Counties Base",
-  "fullAddress": "Grady & Thomas Counties Base, Cairo, GA 39828",
+  "streetAddress": "South Georgia Pine Belt",
+  "fullAddress": "South Georgia Pine Belt, Cairo, GA 39828",
   "mapsUrl": "https://www.google.com/maps/place/At+Ease+Land+%26+Tree+Services+LLC/@30.7447025,-84.077607,10z/data=!3m1!4b1!4m6!3m5!1s0x88edb1ce2dd9156f:0x5fd1524c876c068c!8m2!3d30.7447025!4d-84.077607!16s%2Fg%2F11kfw_fbr5?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=ee6283c1-1cd8-4684-bd9b-35b2d32ac554",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigAtEaseEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Cairo Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: Grady & Thomas Counties Base, Cairo, GA 39828",
+  "addressNotes": "Operational Depot: South Georgia Pine Belt, Cairo, GA 39828",
   "hero": {
     "badge": "Cairo, GA • 4.9 Google Maps Verified (82 Reviews)",
-    "headline": "Acreage Pasture Clearing, Excavator Timber Logging & Storm Tree Removal",
+    "headline": "Emergency Storm Felling, Heavy Oak Bucking & Lawn Restoration",
     "subhead": "Direct owner dispatch by John with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call John (229) 977-1139",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/at-ease/photo_001.jpg",
-        "label": "Pasture & Log Mobilization",
-        "alt": "Compact Hydraulic Excavator with Timber Grapple"
+        "image": "/images/at-ease/photo_005_crop.jpg",
+        "label": "Uprooted Storm Oak Extraction",
+        "alt": "Massive uprooted oak tree fallen across front lawn with giant root ball exposed"
       },
       "sub1": {
-        "image": "/images/at-ease/photo_002.jpg",
-        "label": "Agricultural Boundary Defense",
-        "alt": "Rural Fence Line & Pasture Clearing Kit"
+        "image": "/images/at-ease/photo_001_crop.jpg",
+        "label": "Heavy Timber Chainsaw Bucking",
+        "alt": "Logger standing on felled massive oak trunk bucking timber with heavy saw"
       },
       "sub2": {
-        "image": "/images/at-ease/photo_003.jpg",
-        "label": "Rapid Downed Tree Relief",
-        "alt": "Heavy Storm Timber Bucking & Hauling Rig"
+        "image": "/images/at-ease/photo_004_crop.jpg",
+        "label": "Graded Lawn & Root Cavity Fill",
+        "alt": "Smoothly graded soil bed and manicured turf after root ball extraction"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigAtEaseEn = {
   ],
   "equipment": [
     {
-      "name": "Compact Hydraulic Excavator with Timber Grapple",
-      "badge": "Pasture & Log Mobilization",
-      "image": "/images/at-ease/photo_001.jpg",
+      "name": "Forestry Boundary Clearance & Stump Flush-Cut",
+      "badge": "Perimeter Tree Management",
+      "image": "/images/at-ease/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigAtEaseEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Compact excavator shown in photo sorting and moving heavy bucked hardwood logs across open pasture acreage."
+      "desc": "Photo shows completed pine thinning and flush-cut stumps along a residential boundary fence, opening wide sunlight exposure."
     },
     {
-      "name": "Rural Fence Line & Pasture Clearing Kit",
-      "badge": "Agricultural Boundary Defense",
-      "image": "/images/at-ease/photo_002.jpg",
+      "name": "Storm Blowdown Canopy Debris Clearing",
+      "badge": "Rapid Storm Cleanup",
+      "image": "/images/at-ease/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigAtEaseEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Cleared boundary line shown in photo with dense tree limbs set back away from farm wire fencing."
+      "desc": "Photo shows sprawling fallen canopy across open grass field being sectioned into timber and staged for chip processing."
     },
     {
-      "name": "Heavy Storm Timber Bucking & Hauling Rig",
-      "badge": "Rapid Downed Tree Relief",
-      "image": "/images/at-ease/photo_003.jpg",
+      "name": "Heavy Excavation & Timber Winching Package",
+      "badge": "High-Capacity Extraction Gear",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigAtEaseEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Heavy storm-fallen pecan hardwood trunk dismantled and loaded for transport, opening rural access roads."
+      "desc": "Heavy steel cable winches, high-tonnage snatch blocks, and compact track machinery for pulling down hung-up trees and stabilizing root plates."
     }
   ],
   "reviews": [

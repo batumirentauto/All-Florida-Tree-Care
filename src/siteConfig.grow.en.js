@@ -7,15 +7,15 @@ export const siteConfigGrowEn = {
   "shortName": "G.R.O.W. Outdoor Services, Inc",
   "ownerName": "Donnie",
   "ownerFirstName": "Donnie",
-  "tagline": "Grand Live Oak Climbing, High Rigging & Manicured Lawn Care",
-  "slogan": "Premier Outdoor Care, Technical Tree Climbing & Turnkey Debris Cleanups Across West Jacksonville",
+  "tagline": "Emergency Structural Tree Extraction, Rigging & Shed Protection",
+  "slogan": "Rapid Storm Disaster Response, Controlled Rigging & Zero Further Structural Damage",
   "phone": "(904) 859-4188",
   "phoneRaw": "9048594188",
   "city": "Jacksonville",
   "state": "FL",
-  "zip": "32234",
-  "streetAddress": "18001 Wells Rd",
-  "fullAddress": "18001 Wells Rd, Jacksonville, FL 32234",
+  "zip": "32244",
+  "streetAddress": "Westside Jacksonville Corridor",
+  "fullAddress": "Westside Jacksonville Corridor, Jacksonville, FL 32244",
   "mapsUrl": "https://www.google.com/maps/place/G.R.O.W.+Outdoor+Services,+Inc/@30.2460258,-81.941427,17z/data=!3m1!4b1!4m6!3m5!1s0x88e5ebb99655cc49:0xfe9f4c43450d37ba!8m2!3d30.2460258!4d-81.941427!16s%2Fg%2F11h42z_nnv?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=23836604-33bc-4ad2-a0c0-7945f50d1f57",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigGrowEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Jacksonville Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 18001 Wells Rd, Jacksonville, FL 32234",
+  "addressNotes": "Operational Depot: Westside Jacksonville Corridor, Jacksonville, FL 32244",
   "hero": {
     "badge": "Jacksonville, FL • 4.9 Google Maps Verified (50 Reviews)",
-    "headline": "Grand Live Oak Climbing, High Rigging & Manicured Lawn Care",
+    "headline": "Emergency Structural Tree Extraction, Rigging & Shed Protection",
     "subhead": "Direct owner dispatch by Donnie with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Donnie (904) 859-4188",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/grow/photo_001.jpg",
-        "label": "Aerial Master Rigging",
-        "alt": "Live Oak Climber & Trunk Rigging Package"
+        "image": "/images/grow/photo_003_crop.jpg",
+        "label": "Emergency Roof Tree Strike Extraction",
+        "alt": "Heavy snapped tree limb fallen directly across residential shed roof"
       },
       "sub1": {
-        "image": "/images/grow/photo_002.jpg",
-        "label": "Controlled Ground Staging",
-        "alt": "Heavy Hardwood Log Staging & Transport Package"
+        "image": "/images/grow/photo_005_crop.jpg",
+        "label": "Structural Impact Stabilization",
+        "alt": "Close-up of fractured tree limb resting on damaged corner of residential shed"
       },
       "sub2": {
-        "image": "/images/grow/photo_003.jpg",
-        "label": "Pristine Ground Guarantee",
-        "alt": "Spotless Manicured Estate Turf Finish"
+        "image": "/images/grow/photo_004_crop.jpg",
+        "label": "Ground Crew Chainsaw Sectioning",
+        "alt": "Ground worker in high-vis vest bucking fallen tree limb off structure"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigGrowEn = {
   ],
   "equipment": [
     {
-      "name": "Live Oak Climber & Trunk Rigging Package",
-      "badge": "Aerial Master Rigging",
-      "image": "/images/grow/photo_001.jpg",
+      "name": "High Canopy Arborist Friction Rigging Line",
+      "badge": "Controlled Overhead Rigging",
+      "image": "/images/grow/photo_001_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigGrowEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist climber in saddle rigging massive live oak trunk sections with static friction lines above delicate turf."
+      "desc": "Photo shows arborist rigging line suspended in high mossy oak crown to lift heavy limbs off the roofline without sudden drop."
     },
     {
-      "name": "Heavy Hardwood Log Staging & Transport Package",
-      "badge": "Controlled Ground Staging",
-      "image": "/images/grow/photo_002.jpg",
+      "name": "Standing Hollow Spar Takedown",
+      "badge": "Hazard Spar Removal",
+      "image": "/images/grow/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigGrowEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Bucked oak and hardwood log rounds staged neatly on protective mats for hydraulic grapple loading."
+      "desc": "Photo shows hollow dead tree trunk standing right beside building corner, carefully felled in sections to prevent structural collapse."
     },
     {
-      "name": "Spotless Manicured Estate Turf Finish",
-      "badge": "Pristine Ground Guarantee",
-      "image": "/images/grow/photo_003.jpg",
+      "name": "Precision Structural Protection Package",
+      "badge": "Roof & Siding Shielding",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigGrowEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo shows perfectly clean estate lawn after large oak extraction, completely raked without wood chips."
+      "desc": "Heavy-duty rigging slings, load-bearing lifting jacks, and plywood structural pads to cushion roofs during delicate tree removal."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigGrowEn = {
   "serviceAreas": [
     {
       "name": "Jacksonville (Central Depot)",
-      "zip": "32234",
+      "zip": "32244",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Jacksonville Residential Corridor",
-      "zip": "32234",
+      "zip": "32244",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Jacksonville Outer Acreage & Estates",
-      "zip": "32234",
+      "zip": "32244",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "32234",
+      "zip": "32244",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "32234",
+      "zip": "32244",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "32234",
+      "zip": "32244",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

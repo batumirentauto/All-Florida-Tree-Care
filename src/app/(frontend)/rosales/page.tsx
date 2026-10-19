@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "tree removal Houston TX",
     "tree service Houston",
     "stump grinding Houston",
-    "emergency tree service 77055",
+    "emergency tree service 77084",
     "Rodrigo tree service",
   ],
 }

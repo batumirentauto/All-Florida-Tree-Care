@@ -7,15 +7,15 @@ export const siteConfigSuperiorEn = {
   "shortName": "Superior Tree Service aka little tree lady",
   "ownerName": "Naomi",
   "ownerFirstName": "Naomi",
-  "tagline": "Technical Hardwood Felling, Aerial Canopy Trimming & Stump Removal",
-  "slogan": "Prompt Residential Tree Care, Strict Property Boundary Respect & Spotless Cleanups Across Coweta County",
+  "tagline": "Precision Canopy Trimming, High Rigging & Commercial Stump Milling",
+  "slogan": "Coweta County Arborist Specialists, Structural Rigging & Spotless Cleanups",
   "phone": "(678) 491-4703",
   "phoneRaw": "6784914703",
   "city": "Senoia",
   "state": "GA",
   "zip": "30276",
-  "streetAddress": "2158 Luther Bailey Rd",
-  "fullAddress": "2158 Luther Bailey Rd, Senoia, GA 30276",
+  "streetAddress": "Coweta County Historic Route",
+  "fullAddress": "Coweta County Historic Route, Senoia, GA 30276",
   "mapsUrl": "https://www.google.com/maps/place/Superior+Tree+Service+aka+little+tree+lady/@33.2576964,-84.6010281,17z/data=!3m1!4b1!4m6!3m5!1s0x88f495ab7fb1a417:0x3131988193411775!8m2!3d33.2576964!4d-84.6010281!16s%2Fg%2F11h3g760q4?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=00212a14-6131-4710-83fb-ef1f9ff2ca67",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,29 +23,21 @@ export const siteConfigSuperiorEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Senoia Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 2158 Luther Bailey Rd, Senoia, GA 30276",
+  "addressNotes": "Operational Depot: Coweta County Historic Route, Senoia, GA 30276",
   "hero": {
     "badge": "Senoia, GA • 4.9 Google Maps Verified (31 Reviews)",
-    "headline": "Technical Hardwood Felling, Aerial Canopy Trimming & Stump Removal",
+    "headline": "Precision Canopy Trimming, High Rigging & Commercial Stump Milling",
     "subhead": "Direct owner dispatch by Naomi with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Naomi (678) 491-4703",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Safe Over-Roof Canopy Reach",
-        "alt": "Altec Aerial Boom Truck Package"
+        "image": "/images/tecos/climber-canopy_crop.jpg",
+        "label": "High Canopy Arborist Rigging",
+        "alt": "Arborist climber in safety saddle rigging limbs inside mature hardwood canopy"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Tight-Yard Access Rigging",
-        "alt": "Arborist Tree Saddle & Climbing Package"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Smooth Grade Finish",
-        "alt": "Commercial Stump Grinder & Ground Restoration"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigSuperiorEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Aerial Boom Truck Package",
-      "badge": "Safe Over-Roof Canopy Reach",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Technical Arborist Rigging & Canopy Trimming",
+      "badge": "Controlled Canopy Access",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigSuperiorEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Aerial bucket deployed high over rooflines to trim hazardous branches with complete tag-line control."
+      "desc": "High-angle rope access gear allowing skilled climbers to dismantle overhanging branches above roofs without structural contact."
     },
     {
-      "name": "Arborist Tree Saddle & Climbing Package",
-      "badge": "Tight-Yard Access Rigging",
-      "image": "/images/arborist-climbing-oak-canopy.jpg",
+      "name": "High-Output Commercial Stump Grinder",
+      "badge": "Subsurface Milling",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigSuperiorEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber accessing high hardwood canopies where heavy machinery cannot fit, lowering limbs on ropes."
+      "desc": "Commercial track grinder that pulverizes tough hardwood stumps and root flares 10–14 inches below grade."
     },
     {
-      "name": "Commercial Stump Grinder & Ground Restoration",
-      "badge": "Smooth Grade Finish",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Chipper Truck & Heavy Debris Removal",
+      "badge": "Complete Site Cleanliness",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigSuperiorEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Subsurface milling eliminates tough stump flares, leaving clean backfilled soil ready for grass seed."
+      "desc": "High-capacity chipper and dump truck fleet with commercial blowers leaving driveways and yards completely spotless."
     }
   ],
   "reviews": [

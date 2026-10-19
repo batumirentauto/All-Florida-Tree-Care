@@ -7,15 +7,15 @@ export const siteConfigMaldonadoEn = {
   "shortName": "Maldonado Tree Service",
   "ownerName": "Maldonado",
   "ownerFirstName": "Maldonado",
-  "tagline": "High Pine Climbing, Driveway Bucket Takedowns & Stump Grinding",
-  "slogan": "Experienced Climbers, Safe Sectional Tree Dismantling & Clean Grounds Across North Houston",
+  "tagline": "Chainsaw Timber Sectioning, Oak Crown Topping & Driveway Blower Sweep",
+  "slogan": "Hardworking Houston Arborist Crew, Precision Rigging & Spotless Lawn Handover",
   "phone": "(832) 679-5637",
   "phoneRaw": "8326795637",
   "city": "Houston",
   "state": "TX",
-  "zip": "77060",
-  "streetAddress": "214 La Fonda Dr",
-  "fullAddress": "214 La Fonda Dr, Houston, TX 77060",
+  "zip": "77093",
+  "streetAddress": "North Houston Metro Corridor",
+  "fullAddress": "North Houston Metro Corridor, Houston, TX 77093",
   "mapsUrl": "https://www.google.com/maps/place/Maldonado+Tree+Service/@29.9247908,-95.4003805,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c9e82ea998af:0x60c6baab7e7d7b31!8m2!3d29.9247908!4d-95.4003805!16s%2Fg%2F11rdgl5c90?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=4d4cfddb-6cc0-45b0-a3d6-73e2250f1e1f",
   "rating": "4.7",
   "ratingValue": 4.7,
@@ -23,28 +23,28 @@ export const siteConfigMaldonadoEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Houston Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 214 La Fonda Dr, Houston, TX 77060",
+  "addressNotes": "Operational Depot: North Houston Metro Corridor, Houston, TX 77093",
   "hero": {
     "badge": "Houston, TX • 4.7 Google Maps Verified (35 Reviews)",
-    "headline": "High Pine Climbing, Driveway Bucket Takedowns & Stump Grinding",
+    "headline": "Chainsaw Timber Sectioning, Oak Crown Topping & Driveway Blower Sweep",
     "subhead": "Direct owner dispatch by Maldonado with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Maldonado (832) 679-5637",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/maldonado/photo_001.jpg",
-        "label": "Technical Spar Removal",
-        "alt": "High-Spur Pine Climber & Spar Rigging Kit"
+        "image": "/images/maldonado/photo_013_crop.jpg",
+        "label": "Lead Chainsaw Operator Bucking Oak",
+        "alt": "Lead arborist in orange shirt and hardhat bucking large oak trunk into rounds"
       },
       "sub1": {
-        "image": "/images/maldonado/photo_002.jpg",
-        "label": "Safe Overhead Branch Relief",
-        "alt": "Driveway-Positioned Aerial Bucket Truck"
+        "image": "/images/maldonado/photo_010_crop.jpg",
+        "label": "Canopy Climber Topping High Spar",
+        "alt": "Arborist climber atop limbed oak tree spar during sectional dismantling"
       },
       "sub2": {
-        "image": "/images/maldonado/photo_003.jpg",
-        "label": "Zero Debris Guarantee",
-        "alt": "Spotless Clean Turf & Lawn Restoration Package"
+        "image": "/images/maldonado/photo_012_crop.jpg",
+        "label": "Driveway Chipper & Blower Sweep",
+        "alt": "STIHL backpack blower and wood chipper cleaning concrete driveway of tree debris"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigMaldonadoEn = {
   ],
   "equipment": [
     {
-      "name": "High-Spur Pine Climber & Spar Rigging Kit",
-      "badge": "Technical Spar Removal",
-      "image": "/images/maldonado/photo_001.jpg",
+      "name": "Chainsaw Flush-Cut Stump Reduction",
+      "badge": "Flush-Cut Preparation",
+      "image": "/images/maldonado/photo_005_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigMaldonadoEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist climber in spurs high on tall pine trunk systematically dismantling top branches over fences."
+      "desc": "Photo shows clean flush cut on hardwood stump resting in landscape mulch bed with chainsaw alongside."
     },
     {
-      "name": "Driveway-Positioned Aerial Bucket Truck",
-      "badge": "Safe Overhead Branch Relief",
-      "image": "/images/maldonado/photo_002.jpg",
+      "name": "Architectural Live Oak Structural Thinning",
+      "badge": "Live Oak Preservation",
+      "image": "/images/maldonado/photo_007_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigMaldonadoEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Commercial bucket truck reaching into high front yard canopy for safe deadwood felling."
+      "desc": "Photo shows spreading live oak tree in front residential yard pruned for balanced branch architecture and wind resistance."
     },
     {
-      "name": "Spotless Clean Turf & Lawn Restoration Package",
-      "badge": "Zero Debris Guarantee",
-      "image": "/images/maldonado/photo_003.jpg",
+      "name": "Overhanging Garage Roofline Clearance",
+      "badge": "Roof Hazard Mitigation",
+      "image": "/images/maldonado/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigMaldonadoEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished yard view showing clean turf and raked flower beds after pine tree removal."
+      "desc": "Photo shows dense tree canopy hanging directly over residential garage roof, targeted for clearance trimming to protect shingles."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigMaldonadoEn = {
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",
-      "zip": "77060",
+      "zip": "77093",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Houston Residential Corridor",
-      "zip": "77060",
+      "zip": "77093",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Houston Outer Acreage & Estates",
-      "zip": "77060",
+      "zip": "77093",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "77060",
+      "zip": "77093",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "77060",
+      "zip": "77093",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "77060",
+      "zip": "77093",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

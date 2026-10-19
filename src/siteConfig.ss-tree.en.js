@@ -7,15 +7,15 @@ export const siteConfigSsTreeEn = {
   "shortName": "S & S Tree Service",
   "ownerName": "Scott",
   "ownerFirstName": "Scott",
-  "tagline": "Southside Tree Removal, Bucket Truck Trimming & Stump Grinding",
-  "slogan": "Professional Hazard Tree Takedowns, Strict Ground Protection & Fair Quotes Across Mandarin & St. Johns",
+  "tagline": "Commercial Tree Removal, Heavy Rigging & Track Stump Grinding",
+  "slogan": "Precision Jacksonville Tree Care, Ground Protection Mats & Spotless Handover",
   "phone": "(904) 510-9359",
   "phoneRaw": "9045109359",
   "city": "Jacksonville",
   "state": "FL",
-  "zip": "32258",
-  "streetAddress": "13720 Old St Augustine Rd",
-  "fullAddress": "13720 Old St Augustine Rd, Jacksonville, FL 32258",
+  "zip": "32210",
+  "streetAddress": "Duval County St Johns River Corridor",
+  "fullAddress": "Duval County St Johns River Corridor, Jacksonville, FL 32210",
   "mapsUrl": "https://www.google.com/maps/place/S+%26+S+Tree+Service/@30.1419615,-81.5536865,17z/data=!3m1!4b1!4m6!3m5!1s0x88e5cdf6607d10a1:0xc42259041ae82a88!8m2!3d30.1419615!4d-81.5536865!16s%2Fg%2F11mw01sx9d?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=c20d2c80-1115-4747-a58c-ed58bc491bb2",
   "rating": "4.7",
   "ratingValue": 4.7,
@@ -23,29 +23,21 @@ export const siteConfigSsTreeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Jacksonville Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 13720 Old St Augustine Rd, Jacksonville, FL 32258",
+  "addressNotes": "Operational Depot: Duval County St Johns River Corridor, Jacksonville, FL 32210",
   "hero": {
     "badge": "Jacksonville, FL • 4.7 Google Maps Verified (32 Reviews)",
-    "headline": "Southside Tree Removal, Bucket Truck Trimming & Stump Grinding",
+    "headline": "Commercial Tree Removal, Heavy Rigging & Track Stump Grinding",
     "subhead": "Direct owner dispatch by Scott with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Scott (904) 510-9359",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Over-Roof Precision Canopy Reach",
-        "alt": "Altec 60-Ft Aerial Bucket Truck"
+        "image": "/images/tecos/heavy-rigging_crop.jpg",
+        "label": "Heavy Sectional Rigging",
+        "alt": "Arborist crew performing heavy sectional tree lowering with bull ropes"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Subsurface Root Eradication",
-        "alt": "Rayco Commercial Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Clean Backfilled Finish",
-        "alt": "Ground Restoration & Mulch Backfill Package"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigSsTreeEn = {
   ],
   "equipment": [
     {
-      "name": "Altec 60-Ft Aerial Bucket Truck",
-      "badge": "Over-Roof Precision Canopy Reach",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Heavy Tree Removal & Sectional Lowering",
+      "badge": "Controlled Sectional Takedown",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigSsTreeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Telescopic aerial lift deployed over rooflines to trim hazardous live oak branches safely without drop damage."
+      "desc": "Complete arborist rigging system with friction lowering brakes and high-tenacity bull ropes for dismantling dangerous trees above houses."
     },
     {
-      "name": "Rayco Commercial Stump Grinder",
-      "badge": "Subsurface Root Eradication",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Commercial Track Stump Grinder Unit",
+      "badge": "Subsurface Milling",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigSsTreeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "High-torque grinder pulverizes large pine and oak root flares 10–14 inches below lawn grade for sodding."
+      "desc": "Self-propelled rubber track grinder capable of passing narrow gates and milling stumps 12 inches below ground grade."
     },
     {
-      "name": "Ground Restoration & Mulch Backfill Package",
-      "badge": "Clean Backfilled Finish",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Enclosed Debris Haul Trailer & Turf Protection",
+      "badge": "Zero Yard Damage System",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigSsTreeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished lawn view showing leveled, backfilled soil after stump removal, completely clear of tire ruts."
+      "desc": "Heavy debris dump trailer paired with poly ground mats to prevent tire rutting on wet Florida sandy turf."
     }
   ],
   "reviews": [
@@ -240,32 +232,32 @@ export const siteConfigSsTreeEn = {
   "serviceAreas": [
     {
       "name": "Jacksonville (Central Depot)",
-      "zip": "32258",
+      "zip": "32210",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Jacksonville Residential Corridor",
-      "zip": "32258",
+      "zip": "32210",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Jacksonville Outer Acreage & Estates",
-      "zip": "32258",
+      "zip": "32210",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "32258",
+      "zip": "32210",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "32258",
+      "zip": "32210",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "32258",
+      "zip": "32210",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

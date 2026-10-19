@@ -7,15 +7,15 @@ export const siteConfigINoahGuyEn = {
   "shortName": "I NOAH GUY TREE & OUTDOORS LLC",
   "ownerName": "Noah",
   "ownerFirstName": "Noah",
-  "tagline": "Precision Palm Diamond Cuts, Tight-Yard Pruning & Mulch Ring Landscaping",
-  "slogan": "Artisan Palm Grooming, Canopy Balancing & Clean Residential Tree Services Across North Florida",
+  "tagline": "Manicured Sabal Palm Shaping, Date Palm Diamond Cuts & Yard Pruning",
+  "slogan": "Residential Florida Palm Specialists, Clean Diamond Shaving & Immaculate Grounds",
   "phone": "(904) 200-4381",
   "phoneRaw": "9042004381",
   "city": "Jacksonville",
   "state": "FL",
-  "zip": "32218",
-  "streetAddress": "North Jacksonville Corridor",
-  "fullAddress": "North Jacksonville Corridor, Jacksonville, FL 32218",
+  "zip": "32225",
+  "streetAddress": "Atlantic Blvd Coastal Corridor",
+  "fullAddress": "Atlantic Blvd Coastal Corridor, Jacksonville, FL 32225",
   "mapsUrl": "https://www.google.com/maps/place/I+NOAH+GUY+TREE+%26+OUTDOORS+LLC/@30.4047236,-81.683107,10z/data=!3m1!4b1!4m6!3m5!1s0x63d869fcfd7bed1f:0x667da869a1fa8761!8m2!3d30.4047236!4d-81.683107!16s%2Fg%2F11xp62pfks?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=128d2e5d-0151-46aa-a083-d3da1b79717e",
   "rating": "5.0",
   "ratingValue": 5.0,
@@ -23,28 +23,28 @@ export const siteConfigINoahGuyEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Jacksonville Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: North Jacksonville Corridor, Jacksonville, FL 32218",
+  "addressNotes": "Operational Depot: Atlantic Blvd Coastal Corridor, Jacksonville, FL 32225",
   "hero": {
     "badge": "Jacksonville, FL • 5.0 Google Maps Verified (32 Reviews)",
-    "headline": "Precision Palm Diamond Cuts, Tight-Yard Pruning & Mulch Ring Landscaping",
+    "headline": "Manicured Sabal Palm Shaping, Date Palm Diamond Cuts & Yard Pruning",
     "subhead": "Direct owner dispatch by Noah with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Noah (904) 200-4381",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/i-noah-guy/photo_001.jpg",
-        "label": "Signature Florida Palm Care",
-        "alt": "Manicured Sabal Palm & Mulch Ring Package"
+        "image": "/images/i-noah-guy/photo_001_crop.jpg",
+        "label": "Manicured Florida Sabal Palms",
+        "alt": "Beautifully manicured sabal palms on residential front lawn with mulch beds"
       },
       "sub1": {
-        "image": "/images/i-noah-guy/photo_002.jpg",
-        "label": "Precision Pineapple Trunk Trim",
-        "alt": "Diamond-Cut Canary Island Date Palm Package"
+        "image": "/images/i-noah-guy/photo_002_crop.jpg",
+        "label": "Pineapple Cut Date Palm",
+        "alt": "Pineapple-cut Canary Island date palm pruned neatly against vinyl fence"
       },
       "sub2": {
-        "image": "/images/i-noah-guy/photo_003.jpg",
-        "label": "Architectural Crown Sculpting",
-        "alt": "Tight-Corridor Ornamental Canopy Pruning Kit"
+        "image": "/images/i-noah-guy/photo_003_crop.jpg",
+        "label": "Side Yard Canopy Elevation",
+        "alt": "Trimmed ornamental hardwood tree in residential side yard between houses"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigINoahGuyEn = {
   ],
   "equipment": [
     {
-      "name": "Manicured Sabal Palm & Mulch Ring Package",
-      "badge": "Signature Florida Palm Care",
-      "image": "/images/i-noah-guy/photo_001.jpg",
+      "name": "Precision Palm Pruning & Skirt Shaving Gear",
+      "badge": "Diamond Shaving Tools",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigINoahGuyEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Pair of manicured Sabal Palmetto palms with clean mulch rings and balanced frond canopies on lush green lawn."
+      "desc": "Specialized curved palm knives, pole saws, and non-invasive climbing gear designed to trim fronds and sculpt trunks without wounding tree bark."
     },
     {
-      "name": "Diamond-Cut Canary Island Date Palm Package",
-      "badge": "Precision Pineapple Trunk Trim",
-      "image": "/images/i-noah-guy/photo_002.jpg",
+      "name": "Turf-Friendly Debris Transport Cart",
+      "badge": "Low-Impact Lawn Transport",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigINoahGuyEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Diamond-cut Canary Island Date Palm pineapple crown trim along pristine white residential vinyl fencing."
+      "desc": "Pneumatic-tired transport carts that haul hundreds of pounds of wet palm boots and fronds across golf-course quality sod with zero tracking."
     },
     {
-      "name": "Tight-Corridor Ornamental Canopy Pruning Kit",
-      "badge": "Architectural Crown Sculpting",
-      "image": "/images/i-noah-guy/photo_003.jpg",
+      "name": "High-Velocity Leaf Blower & Lawn Rake Kit",
+      "badge": "Spotless Clean Finish",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigINoahGuyEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Structural crown pruning of ornamental trees in tight residential side yard without fence contact."
+      "desc": "Industrial backpack blowers and fine-tine rakes that collect all palm seeds, loose fronds, and fiber dust from landscape mulch beds."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigINoahGuyEn = {
   "serviceAreas": [
     {
       "name": "Jacksonville (Central Depot)",
-      "zip": "32218",
+      "zip": "32225",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Jacksonville Residential Corridor",
-      "zip": "32218",
+      "zip": "32225",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Jacksonville Outer Acreage & Estates",
-      "zip": "32218",
+      "zip": "32225",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "32218",
+      "zip": "32225",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "32218",
+      "zip": "32225",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "32218",
+      "zip": "32225",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

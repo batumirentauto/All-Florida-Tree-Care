@@ -7,15 +7,15 @@ export const siteConfigBartolomeEn = {
   "shortName": "Bartolome's Tree service",
   "ownerName": "Bartolome",
   "ownerFirstName": "Bartolome",
-  "tagline": "Technical Hardwood Felling, Aerial Canopy Trimming & Stump Removal",
-  "slogan": "Precision Tree Removals, Dedicated Safety Rigging & Clean Lawns Across Lee & Harnett Counties",
+  "tagline": "Commercial Forestry Hauling, High Canopy Rigging & Total Debris Removal",
+  "slogan": "Direct Arborist Crew Dispatch, High-Capacity Haul Fleet & Spotless Cleanups",
   "phone": "(919) 356-3501",
   "phoneRaw": "9193563501",
   "city": "Sanford",
   "state": "NC",
   "zip": "27330",
-  "streetAddress": "29 Hart Dr",
-  "fullAddress": "29 Hart Dr, Sanford, NC 27330",
+  "streetAddress": "Lee County Arborist Route",
+  "fullAddress": "Lee County Arborist Route, Sanford, NC 27330",
   "mapsUrl": "https://www.google.com/maps/place/Bartolome's+Tree+service/@35.4454466,-79.1767604,17z/data=!3m1!4b1!4m6!3m5!1s0x89aca767235c8439:0x82d86e5386c706ec!8m2!3d35.4454466!4d-79.1767604!16s%2Fg%2F11hx3nt8kq?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=5d9557f2-37ec-4235-a944-2de5b48f6954",
   "rating": "4.8",
   "ratingValue": 4.8,
@@ -23,29 +23,21 @@ export const siteConfigBartolomeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Sanford Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 29 Hart Dr, Sanford, NC 27330",
+  "addressNotes": "Operational Depot: Lee County Arborist Route, Sanford, NC 27330",
   "hero": {
     "badge": "Sanford, NC • 4.8 Google Maps Verified (33 Reviews)",
-    "headline": "Technical Hardwood Felling, Aerial Canopy Trimming & Stump Removal",
+    "headline": "Commercial Forestry Hauling, High Canopy Rigging & Total Debris Removal",
     "subhead": "Direct owner dispatch by Bartolome with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Bartolome (919) 356-3501",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Safe Over-Roof Access",
-        "alt": "Altec Telescopic Aerial Bucket Truck"
+        "image": "/images/tecos/dump-truck-trailer_crop.jpg",
+        "label": "Commercial Tree Care Fleet",
+        "alt": "Commercial tree service truck and equipment trailer staged for residential job"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Deep Below-Grade Milling",
-        "alt": "Rayco Commercial Stump Grinder"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "High-Speed Debris Reduction",
-        "alt": "Bandit 12X Commercial Brush Chipper Package"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigBartolomeEn = {
   ],
   "equipment": [
     {
-      "name": "Altec Telescopic Aerial Bucket Truck",
-      "badge": "Safe Over-Roof Access",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Forestry Bucket Truck & Canopy Rigging",
+      "badge": "Aerial High Reach",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigBartolomeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Altec commercial bucket truck positioned to reach high over residential rooflines for precision canopy pruning."
+      "desc": "Commercial insulated aerial boom truck enabling safe overhead access to prune hazardous branches overhanging roofs and utility lines."
     },
     {
-      "name": "Rayco Commercial Stump Grinder",
-      "badge": "Deep Below-Grade Milling",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "High-Capacity Commercial Brush Chipper",
+      "badge": "High-Volume Chipping",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigBartolomeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Heavy carbide tooth cutter wheel mills tough Carolina pine and oak stumps 10–14 inches below grade."
+      "desc": "Industrial disc chipper processing tree limbs up to 12 inches in diameter directly into enclosed truck containers."
     },
     {
-      "name": "Bandit 12X Commercial Brush Chipper Package",
-      "badge": "High-Speed Debris Reduction",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Heavy Debris Haul Fleet & Site Sweep",
+      "badge": "100% Debris Haul-Away",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigBartolomeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "High-capacity disc chipper processes branches and large limb wood into fresh mulch for rapid haul-away."
+      "desc": "Dedicated heavy dump trucks and industrial blowers ensuring every log, branch, and twig is hauled away with zero mess left behind."
     }
   ],
   "reviews": [

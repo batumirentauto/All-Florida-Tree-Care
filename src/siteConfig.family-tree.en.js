@@ -7,15 +7,15 @@ export const siteConfigFamilyTreeEn = {
   "shortName": "Family Tree Service LLC",
   "ownerName": "Jacob",
   "ownerFirstName": "Jacob",
-  "tagline": "Coastal Live Oak Removal, Bucket Truck Rigging & Stump Grinding",
-  "slogan": "Reliable Family Tree Care, Hurricane Storm Defense & Clean Yards Across Camden County",
+  "tagline": "Florida Live Oak Care, Precision Branch Rigging & Debris Hauling",
+  "slogan": "Coastal Georgia & North Florida Arborists, Spotless Cleanups & Fair Upfront Pricing",
   "phone": "(912) 464-4535",
   "phoneRaw": "9124644535",
   "city": "St Marys",
   "state": "GA",
   "zip": "31558",
-  "streetAddress": "106 Flamingo Dr",
-  "fullAddress": "106 Flamingo Dr, St Marys, GA 31558",
+  "streetAddress": "Coastal Georgia Maritime Corridor",
+  "fullAddress": "Coastal Georgia Maritime Corridor, St Marys, GA 31558",
   "mapsUrl": "https://www.google.com/maps/place/Family+Tree+Service+LLC/@30.4782458,-81.6249666,17z/data=!3m1!4b1!4m6!3m5!1s0x88e505528dd38abd:0x3603723de9bc527a!8m2!3d30.4782458!4d-81.6249666!16s%2Fg%2F11hdc3q3w5?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=7a713b83-9ae7-4d35-86f7-a3ffcdea4334",
   "rating": "4.6",
   "ratingValue": 4.6,
@@ -23,28 +23,28 @@ export const siteConfigFamilyTreeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • St Marys Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 106 Flamingo Dr, St Marys, GA 31558",
+  "addressNotes": "Operational Depot: Coastal Georgia Maritime Corridor, St Marys, GA 31558",
   "hero": {
     "badge": "St Marys, GA • 4.6 Google Maps Verified (71 Reviews)",
-    "headline": "Coastal Live Oak Removal, Bucket Truck Rigging & Stump Grinding",
+    "headline": "Florida Live Oak Care, Precision Branch Rigging & Debris Hauling",
     "subhead": "Direct owner dispatch by Jacob with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Jacob (912) 464-4535",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/family-tree/photo_001.jpg",
-        "label": "Heavy Hardwood Rigging",
-        "alt": "Coastal Live Oak Sectional Dismantling Package"
+        "image": "/images/family-tree/photo_001_crop.jpg",
+        "label": "Live Oak Canopy Management",
+        "alt": "Mature Florida live oaks framing residential home and manicured lawn"
       },
       "sub1": {
-        "image": "/images/family-tree/photo_002.jpg",
-        "label": "Safe Street Elevation",
-        "alt": "Aerial Bucket Truck Over-Street Reach"
+        "image": "/images/family-tree/photo_007_crop.jpg",
+        "label": "Arborist Rigging Line in Oak",
+        "alt": "Arborist bull rope rigged in live oak crown with cut branches below"
       },
       "sub2": {
-        "image": "/images/family-tree/photo_003.jpg",
-        "label": "Deep Below-Grade Milling",
-        "alt": "Commercial Hydraulic Stump Grinder"
+        "image": "/images/family-tree/photo_004_crop.jpg",
+        "label": "Low-Cut Fence-Line Stump",
+        "alt": "Tree stump cut low to lawn grade right along wooden privacy fence"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigFamilyTreeEn = {
   ],
   "equipment": [
     {
-      "name": "Coastal Live Oak Sectional Dismantling Package",
-      "badge": "Heavy Hardwood Rigging",
-      "image": "/images/family-tree/photo_001.jpg",
+      "name": "Heavy Debris Trailer & Manicured Curbside",
+      "badge": "Clean Curbside Hauling",
+      "image": "/images/family-tree/photo_008_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigFamilyTreeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Arborist rigging heavy live oak timber branches over residential fence line with controlled friction brakes."
+      "desc": "Photo shows heavy equipment debris trailer parked neatly along the street curb with spotless lawn edging after job completion."
     },
     {
-      "name": "Aerial Bucket Truck Over-Street Reach",
-      "badge": "Safe Street Elevation",
-      "image": "/images/family-tree/photo_002.jpg",
+      "name": "Fence-Line Canopy Clearance & Moss Thinning",
+      "badge": "Fence & Roof Clearance",
+      "image": "/images/family-tree/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigFamilyTreeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Commercial bucket truck positioned along residential street elevating heavy canopy limbs above power infrastructure."
+      "desc": "Photo shows live oak branches and Spanish moss thinned away from residential privacy fencing and home gutters."
     },
     {
-      "name": "Commercial Hydraulic Stump Grinder",
-      "badge": "Deep Below-Grade Milling",
-      "image": "/images/family-tree/photo_003.jpg",
+      "name": "Backyard Structural Elevation & Pruning",
+      "badge": "Backyard Oak Care",
+      "image": "/images/family-tree/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigFamilyTreeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Heavy-duty stump grinder chewing wide oak root flares below turf level for clean backyard restoration."
+      "desc": "Photo shows mature shade oak in fenced residential backyard with deadwood removed and branches elevated over the yard."
     }
   ],
   "reviews": [

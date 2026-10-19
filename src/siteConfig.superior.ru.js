@@ -7,15 +7,15 @@ export const siteConfigSuperiorRu = {
   "shortName": "Superior Tree Service aka little tree lady",
   "ownerName": "Наоми",
   "ownerFirstName": "Наоми",
-  "tagline": "Посекционный спил дубов, высотная обрезка крон над домами и дробление пней",
-  "slogan": "Аккуратный спил аварийных деревьев, уважение границ участков и чистый газон в Сеное",
+  "tagline": "Аккуратное кронирование, верхолазный спил и дробление пней",
+  "slogan": "Профессиональные арбористы округа Коуита, бережный спил и чистый участок",
   "phone": "(678) 491-4703",
   "phoneRaw": "6784914703",
   "city": "Сеноя",
   "state": "Джорджия",
   "zip": "30276",
-  "streetAddress": "2158 Luther Bailey Rd",
-  "fullAddress": "2158 Luther Bailey Rd, Senoia, GA 30276",
+  "streetAddress": "Coweta County Historic Route",
+  "fullAddress": "Coweta County Historic Route, Senoia, GA 30276",
   "mapsUrl": "https://www.google.com/maps/place/Superior+Tree+Service+aka+little+tree+lady/@33.2576964,-84.6010281,17z/data=!3m1!4b1!4m6!3m5!1s0x88f495ab7fb1a417:0x3131988193411775!8m2!3d33.2576964!4d-84.6010281!16s%2Fg%2F11h3g760q4?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=00212a14-6131-4710-83fb-ef1f9ff2ca67",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,29 +23,21 @@ export const siteConfigSuperiorRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Сеноя",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: 2158 Luther Bailey Rd, Senoia, GA 30276",
+  "addressNotes": "База выезда техники: Coweta County Historic Route, Senoia, GA 30276",
   "hero": {
     "badge": "Сеноя, Джорджия • Рейтинг 4.9 на Google Maps (31 отзывов)",
-    "headline": "Посекционный спил дубов, высотная обрезка крон над домами и дробление пней",
+    "headline": "Аккуратное кронирование, верхолазный спил и дробление пней",
     "subhead": "Прямой выезд владельца (Наоми), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((678) 491-4703)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Работа над крышами строений",
-        "alt": "Телескопическая автовышка Altec"
+        "image": "/images/tecos/climber-canopy_crop.jpg",
+        "label": "Верхолазные работы в кроне",
+        "alt": "Арборист на высоте закрепляет стропы в кроне большого дерева"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Спил в стесненных дворах",
-        "alt": "Комплект альпинистского снаряжения для верхолазов"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Чистая засыпка без колеи",
-        "alt": "Пнедробилка и выравнивание территории"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigSuperiorRu = {
   ],
   "equipment": [
     {
-      "name": "Телескопическая автовышка Altec",
-      "badge": "Работа над крышами строений",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Такелажный спил и обрезка кроны",
+      "badge": "Контролируемый спуск",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +144,12 @@ export const siteConfigSuperiorRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Автовышка поднята над кровлей для безопасного спила нависающих ветвей дуба на оттяжках."
+      "desc": "Альпинистское снаряжение для разбора нависших над крышами ветвей с плавным спуском на веревках."
     },
     {
-      "name": "Комплект альпинистского снаряжения для верхолазов",
-      "badge": "Спил в стесненных дворах",
-      "image": "/images/arborist-climbing-oak-canopy.jpg",
+      "name": "Мощная пнедробилка",
+      "badge": "Дробление ниже уровня дерна",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +164,12 @@ export const siteConfigSuperiorRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Арборист на высоте спускает тяжелые сучья на веревках в труднодоступных для техники дворах."
+      "desc": "Самоходная фреза для полного измельчения пней твердых пород на глубину до 35 см."
     },
     {
-      "name": "Пнедробилка и выравнивание территории",
-      "badge": "Чистая засыпка без колеи",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "Грузовик-щеповоз и вывоз отходов",
+      "badge": "Чистовая уборка",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +184,7 @@ export const siteConfigSuperiorRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Глубокое измельчение пней с аккуратной засыпкой лунки и выравниванием участка под газон."
+      "desc": "Автопарк для переработки веток в щепу и вывоза бревен с финальной продувкой дорожек воздуходувками."
     }
   ],
   "reviews": [

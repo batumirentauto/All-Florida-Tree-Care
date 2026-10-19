@@ -7,15 +7,15 @@ export const siteConfigWatereeEn = {
   "shortName": "Wateree Tree RemovalLLC",
   "ownerName": "David",
   "ownerFirstName": "David",
-  "tagline": "Mature Oak Canopy Elevation, Roofline Setback & Subsurface Stump Milling",
-  "slogan": "Precision Hardwood Pruning, Safe Roof Clearances & Spotless Grounds Across Kershaw County",
+  "tagline": "Mature Oak Crown Preservation, Structural Clearance & Timber Care",
+  "slogan": "Midlands South Carolina Arborists, Gentle Property Rigging & Honest Upfront Pricing",
   "phone": "(803) 445-6434",
   "phoneRaw": "8034456434",
   "city": "Lugoff",
   "state": "SC",
   "zip": "29078",
-  "streetAddress": "1370 Longtown Rd",
-  "fullAddress": "1370 Longtown Rd, Lugoff, SC 29078",
+  "streetAddress": "Wateree River Midlands Route",
+  "fullAddress": "Wateree River Midlands Route, Lugoff, SC 29078",
   "mapsUrl": "https://www.google.com/maps/place/Wateree+Tree+RemovalLLC/@34.3016607,-80.7397753,17z/data=!3m1!4b1!4m6!3m5!1s0x8855fc5e185ff6ad:0xd537b228d60935fe!8m2!3d34.3016607!4d-80.7397753!16s%2Fg%2F11hy9p2jdg?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=74f66c1c-a2ca-4506-b55a-8d3934abc4fe",
   "rating": "4.5",
   "ratingValue": 4.5,
@@ -23,29 +23,21 @@ export const siteConfigWatereeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Lugoff Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 1370 Longtown Rd, Lugoff, SC 29078",
+  "addressNotes": "Operational Depot: Wateree River Midlands Route, Lugoff, SC 29078",
   "hero": {
     "badge": "Lugoff, SC • 4.5 Google Maps Verified (32 Reviews)",
-    "headline": "Mature Oak Canopy Elevation, Roofline Setback & Subsurface Stump Milling",
+    "headline": "Mature Oak Crown Preservation, Structural Clearance & Timber Care",
     "subhead": "Direct owner dispatch by David with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call David (803) 445-6434",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/wateree/photo_001.jpg",
-        "label": "Roofline Setback & Canopy Health",
-        "alt": "Pruned Centerpiece Residential Oak Package"
+        "image": "/images/wateree/photo_001_crop.jpg",
+        "label": "Mature Oak Structural Clearance",
+        "alt": "Huge mature shade oak tree right by residential house porch and yard"
       },
-      "sub1": {
-        "image": "/images/wateree/photo_002.jpg",
-        "label": "Architectural Clearance",
-        "alt": "Mature Oak Canopy Elevation Above Driveway"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Smooth Lawn Grade Finish",
-        "alt": "Finished Ground Leveling & Stump Cavity Backfill"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigWatereeEn = {
   ],
   "equipment": [
     {
-      "name": "Pruned Centerpiece Residential Oak Package",
-      "badge": "Roofline Setback & Canopy Health",
-      "image": "/images/wateree/photo_001.jpg",
+      "name": "Hardwood Crown Structure Inspection & Thinning",
+      "badge": "Canopy Thinning & Care",
+      "image": "/images/wateree/photo_002_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +144,12 @@ export const siteConfigWatereeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Large residential oak trimmed and deadwooded with clear roofline setback and immaculate clean yard."
+      "desc": "Photo shows upward view into strong trunk scaffold and crown of mature shade oak tree pruned for wind resilience."
     },
     {
-      "name": "Mature Oak Canopy Elevation Above Driveway",
-      "badge": "Architectural Clearance",
-      "image": "/images/wateree/photo_002.jpg",
+      "name": "Precision Residential Rigging Kit",
+      "badge": "Porch & Roof Protection",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +164,12 @@ export const siteConfigWatereeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Mature oak canopy thinning and branch elevation above driveway allowing vehicle clearance."
+      "desc": "Synthetic bull ropes and arborist lowering friction blocks that guide heavy limbs safely away from porches and rooflines."
     },
     {
-      "name": "Finished Ground Leveling & Stump Cavity Backfill",
-      "badge": "Smooth Lawn Grade Finish",
-      "image": "/images/finished-stump-removal-ground.jpg",
+      "name": "High-Volume Chipper Truck Package",
+      "badge": "Clean Site Handover",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +184,7 @@ export const siteConfigWatereeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Subsurface stump grinding finish with backfilled soil leveled smooth and ready for turf restoration."
+      "desc": "Industrial brush chipper and enclosed dump box paired with backpack blowers to leave the yard completely clean."
     }
   ],
   "reviews": [

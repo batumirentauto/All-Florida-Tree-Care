@@ -7,15 +7,15 @@ export const siteConfigNorvellsEn = {
   "shortName": "Norvell's Tree & Landscape Services LLC",
   "ownerName": "Stevie",
   "ownerFirstName": "Stevie",
-  "tagline": "Compact Tracked Spider Lift Felling & Emergency Storm Roof Relief",
-  "slogan": "Specialized Compact Lift Access, Storm-Split Timber Extraction & Safe Rigging Across Upstate SC",
+  "tagline": "Track Spider Lift Canopy Access & Emergency Storm Tree Removal",
+  "slogan": "Compact Track Spider Lift Reach, Storm Disaster Recovery & Spotless Yards",
   "phone": "(864) 345-0466",
   "phoneRaw": "8643450466",
   "city": "Spartanburg",
   "state": "SC",
-  "zip": "29306",
-  "streetAddress": "161 Bearden Heights Rd",
-  "fullAddress": "161 Bearden Heights Rd, Spartanburg, SC 29306",
+  "zip": "29301",
+  "streetAddress": "Upstate Carolina Foothills",
+  "fullAddress": "Upstate Carolina Foothills, Spartanburg, SC 29301",
   "mapsUrl": "https://www.google.com/maps/place/Norvell's+Tree+%26+Landscape+Services+LLC/@34.8773786,-81.9424369,17z/data=!3m1!4b1!4m6!3m5!1s0x88579fbe54b74839:0x6585dee26398c11c!8m2!3d34.8773786!4d-81.9424369!16s%2Fg%2F11rf0jf0v1?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=0596be09-5184-44a7-9a15-efd046d817d3",
   "rating": "4.8",
   "ratingValue": 4.8,
@@ -23,28 +23,28 @@ export const siteConfigNorvellsEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Spartanburg Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 161 Bearden Heights Rd, Spartanburg, SC 29306",
+  "addressNotes": "Operational Depot: Upstate Carolina Foothills, Spartanburg, SC 29301",
   "hero": {
     "badge": "Spartanburg, SC • 4.8 Google Maps Verified (22 Reviews)",
-    "headline": "Compact Tracked Spider Lift Felling & Emergency Storm Roof Relief",
+    "headline": "Track Spider Lift Canopy Access & Emergency Storm Tree Removal",
     "subhead": "Direct owner dispatch by Stevie with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Stevie (864) 345-0466",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/norvells/photo_001.jpg",
-        "label": "Narrow Gate High-Canopy Access",
-        "alt": "Bright Red Compact Tracked Spider Lift"
+        "image": "/images/norvells/photo_001_crop.jpg",
+        "label": "Track Spider Lift Canopy Ascent",
+        "alt": "Red track compact spider lift with outriggers deployed reaching up into tall hardwood tree"
       },
       "sub1": {
-        "image": "/images/norvells/photo_002.jpg",
-        "label": "Tension Relief & Hazard Extraction",
-        "alt": "Storm-Split Hardwood Trunk Relief Package"
+        "image": "/images/norvells/photo_002_crop.jpg",
+        "label": "Massive Storm Split Trunk on Lawn",
+        "alt": "Emergency storm disaster: massive split tree trunk fallen across residential front lawn"
       },
       "sub2": {
-        "image": "/images/norvells/photo_003.jpg",
-        "label": "Fast Property Rehabilitation",
-        "alt": "Emergency Roof Tarping & Property Clearance Kit"
+        "image": "/images/norvells/photo_003_crop.jpg",
+        "label": "Clean Ground & Yard Restoration",
+        "alt": "Residential lawn cleared and raked after complete tree removal near brick home"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigNorvellsEn = {
   ],
   "equipment": [
     {
-      "name": "Bright Red Compact Tracked Spider Lift",
-      "badge": "Narrow Gate High-Canopy Access",
-      "image": "/images/norvells/photo_001.jpg",
+      "name": "Tracked Spider Lift / Compact Aerial Boom",
+      "badge": "72-Foot Narrow Access",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigNorvellsEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Red compact tracked spider lift reaching high into tight residential tree canopy with low turf pressure."
+      "desc": "Narrow-chassis rubber track spider lift that fits through a 36-inch garden gate and elevates operators up to 72 feet into tight canopies."
     },
     {
-      "name": "Storm-Split Hardwood Trunk Relief Package",
-      "badge": "Tension Relief & Hazard Extraction",
-      "image": "/images/norvells/photo_002.jpg",
+      "name": "Sectional Chainsaw Rigging & Ground Protection",
+      "badge": "Controlled Sectioning",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigNorvellsEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Storm-split heavy hardwood trunk fallen across yard sectioned safely without property impact."
+      "desc": "Friction lowering blocks and heavy synthetic rigging lines designed to bring down massive hardwood timber without impacting lawns."
     },
     {
-      "name": "Emergency Roof Tarping & Property Clearance Kit",
-      "badge": "Fast Property Rehabilitation",
-      "image": "/images/norvells/photo_003.jpg",
+      "name": "Rapid Storm Disaster Response Fleet",
+      "badge": "24/7 Storm Recovery",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigNorvellsEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Emergency roof clearance and debris removal completed after fallen tree extraction."
+      "desc": "Equipped with heavy timber winches, commercial brush chippers, and debris trucks for immediate clearance of fallen storm trees."
     }
   ],
   "reviews": [
@@ -240,32 +240,32 @@ export const siteConfigNorvellsEn = {
   "serviceAreas": [
     {
       "name": "Spartanburg (Central Depot)",
-      "zip": "29306",
+      "zip": "29301",
       "note": "Primary dispatch yard • Fast same-day quotes"
     },
     {
       "name": "Spartanburg Residential Corridor",
-      "zip": "29306",
+      "zip": "29301",
       "note": "Backyard hazard felling & tight gate access"
     },
     {
       "name": "Spartanburg Outer Acreage & Estates",
-      "zip": "29306",
+      "zip": "29301",
       "note": "Heavy timber takedowns & stump milling"
     },
     {
       "name": "Surrounding County Communities",
-      "zip": "29306",
+      "zip": "29301",
       "note": "Canopy deadwooding & structural pruning"
     },
     {
       "name": "Subdivision & Commercial Properties",
-      "zip": "29306",
+      "zip": "29301",
       "note": "HOA compliance felling & turf preservation"
     },
     {
       "name": "Priority Storm Relief Zone",
-      "zip": "29306",
+      "zip": "29301",
       "note": "24/7 emergency fallen tree roof clearance"
     }
   ],

@@ -7,15 +7,15 @@ export const siteConfigTdTreeEn = {
   "shortName": "T & D Professional Tree Removal",
   "ownerName": "Timothy & Don",
   "ownerFirstName": "Timothy",
-  "tagline": "Gulf Coast Pine Felling, Powerline Clearance & Bucket Takedowns",
-  "slogan": "Veteran-Operated Precision Tree Care, Hurricane Storm Defense & Clean Grounds Across Harrison County",
+  "tagline": "Bucket Truck Roofline Clearance, High Canopy Elevation & Acreage Care",
+  "slogan": "Mississippi Gulf Coast Arborists, Aerial Bucket Access & Careful House Protection",
   "phone": "(228) 206-2351",
   "phoneRaw": "2282062351",
   "city": "Saucier",
   "state": "MS",
   "zip": "39574",
-  "streetAddress": "20306 Twin Lakes Dr",
-  "fullAddress": "20306 Twin Lakes Dr, Saucier, MS 39574",
+  "streetAddress": "Gulf Coast Pine Belt Corridor",
+  "fullAddress": "Gulf Coast Pine Belt Corridor, Saucier, MS 39574",
   "mapsUrl": "https://www.google.com/maps/place/T+%26+D+Professional+Tree+Removal/@30.5580588,-89.1802527,17z/data=!3m1!4b1!4m6!3m5!1s0x889c473a9e8238e1:0x40f5db0f9c9cf83d!8m2!3d30.5580588!4d-89.1802527!16s%2Fg%2F11c594dmnv?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=f7dea943-1e52-4182-add9-95e64bebddb9",
   "rating": "4.9",
   "ratingValue": 4.9,
@@ -23,28 +23,28 @@ export const siteConfigTdTreeEn = {
   "licenseBadge": "Licensed & Insured Arborists • Full Commercial General Liability • Saucier Registered",
   "experienceYears": "12+",
   "workingHours": "Mon – Sat: 7:30 AM – 6:30 PM • 24/7 Emergency Storm Dispatch",
-  "addressNotes": "Operational Depot: 20306 Twin Lakes Dr, Saucier, MS 39574",
+  "addressNotes": "Operational Depot: Gulf Coast Pine Belt Corridor, Saucier, MS 39574",
   "hero": {
     "badge": "Saucier, MS • 4.9 Google Maps Verified (65 Reviews)",
-    "headline": "Gulf Coast Pine Felling, Powerline Clearance & Bucket Takedowns",
+    "headline": "Bucket Truck Roofline Clearance, High Canopy Elevation & Acreage Care",
     "subhead": "Direct owner dispatch by Timothy & Don with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Timothy (228) 206-2351",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/td-tree/photo_001.jpg",
-        "label": "Utility Line Clearance",
-        "alt": "Commercial Bucket Truck Powerline Clearance Rig"
+        "image": "/images/td-tree/photo_005_crop.jpg",
+        "label": "Aerial Bucket Boom Roof Clearance",
+        "alt": "Bucket truck aerial boom elevated high trimming branches directly over two-story residential roof"
       },
       "sub1": {
-        "image": "/images/td-tree/photo_002.jpg",
-        "label": "Tight-Corridor Rigging",
-        "alt": "Hazard Pine Sectional Climber Kit"
+        "image": "/images/td-tree/photo_003_crop.jpg",
+        "label": "Mature Shade Tree Structure Check",
+        "alt": "Massive mature shade tree canopy over two-story white residential home"
       },
       "sub2": {
-        "image": "/images/td-tree/photo_003.jpg",
-        "label": "Zero Timber Left Behind",
-        "alt": "Spotless Rural Estate Grounds Cleanup Package"
+        "image": "/images/td-tree/photo_002_crop.jpg",
+        "label": "Driveway Perimeter & Flagpole Care",
+        "alt": "Trimmed garden bed and trees along gravel driveway with American flag"
       }
     }
   },
@@ -135,9 +135,9 @@ export const siteConfigTdTreeEn = {
   ],
   "equipment": [
     {
-      "name": "Commercial Bucket Truck Powerline Clearance Rig",
-      "badge": "Utility Line Clearance",
-      "image": "/images/td-tree/photo_001.jpg",
+      "name": "Overhead Utility Line & Roof Bucket Boom",
+      "badge": "High-Reach Utility Safety",
+      "image": "/images/td-tree/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigTdTreeEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Commercial bucket truck elevated along utility powerlines trimming hazardous pine branches away from cables."
+      "desc": "Photo shows the bucket truck boom operator carefully maneuvering between utility service lines and the upper residential siding."
     },
     {
-      "name": "Hazard Pine Sectional Climber Kit",
-      "badge": "Tight-Corridor Rigging",
-      "image": "/images/td-tree/photo_002.jpg",
+      "name": "Residential Siding Clearance & Deadwood Trim",
+      "badge": "Structural Clearance",
+      "image": "/images/td-tree/photo_004_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigTdTreeEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "Arborist climber high on leaning pine trunk systematically sectioning limbs over residential structures."
+      "desc": "Photo shows clean vertical clearance established along two-story white siding after trimming back hazardous touching limbs."
     },
     {
-      "name": "Spotless Rural Estate Grounds Cleanup Package",
-      "badge": "Zero Timber Left Behind",
-      "image": "/images/td-tree/photo_003.jpg",
+      "name": "Acreage Grounds Tree Care & Perimeter Clean",
+      "badge": "Acreage Property Care",
+      "image": "/images/td-tree/photo_001_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigTdTreeEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Finished yard view after pine tree removal, raked smooth with all logs and branches hauled away."
+      "desc": "Photo shows expansive rural residential acreage with driveway, lawn, and arbor structure cleanly maintained following tree pruning."
     }
   ],
   "reviews": [

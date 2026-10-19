@@ -7,15 +7,15 @@ export const siteConfigBartolomeRu = {
   "shortName": "Bartolome's Tree service",
   "ownerName": "Бартоломе",
   "ownerFirstName": "Бартоломе",
-  "tagline": "Посекционный спил дубов и сосен, высотная обрезка крон и дробление пней",
-  "slogan": "Аккуратный спил деревьев любой сложности, безопасный такелаж и чистая территория в округе Ли",
+  "tagline": "Вывоз порубочных остатков, высотный спил и комплексная очистка",
+  "slogan": "Прямой выезд бригады, собственный самосвальный транспорт и образцовый порядок",
   "phone": "(919) 356-3501",
   "phoneRaw": "9193563501",
   "city": "Сэнфорд",
   "state": "Северная Каролина",
   "zip": "27330",
-  "streetAddress": "29 Hart Dr",
-  "fullAddress": "29 Hart Dr, Sanford, NC 27330",
+  "streetAddress": "Lee County Arborist Route",
+  "fullAddress": "Lee County Arborist Route, Sanford, NC 27330",
   "mapsUrl": "https://www.google.com/maps/place/Bartolome's+Tree+service/@35.4454466,-79.1767604,17z/data=!3m1!4b1!4m6!3m5!1s0x89aca767235c8439:0x82d86e5386c706ec!8m2!3d35.4454466!4d-79.1767604!16s%2Fg%2F11hx3nt8kq?authuser=0&entry=tts&g_ep=EgoyMDI2MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=5d9557f2-37ec-4235-a944-2de5b48f6954",
   "rating": "4.8",
   "ratingValue": 4.8,
@@ -23,29 +23,21 @@ export const siteConfigBartolomeRu = {
   "licenseBadge": "Лицензированные специалисты • Полная коммерческая страховка ответственности • Сэнфорд",
   "experienceYears": "12+",
   "workingHours": "Пн – Сб: 7:30 – 18:30 • Аварийный выезд 24/7",
-  "addressNotes": "База выезда техники: 29 Hart Dr, Sanford, NC 27330",
+  "addressNotes": "База выезда техники: Lee County Arborist Route, Sanford, NC 27330",
   "hero": {
     "badge": "Сэнфорд, Северная Каролина • Рейтинг 4.8 на Google Maps (33 отзывов)",
-    "headline": "Посекционный спил дубов и сосен, высотная обрезка крон и дробление пней",
+    "headline": "Вывоз порубочных остатков, высотный спил и комплексная очистка",
     "subhead": "Прямой выезд владельца (Бартоломе), прозрачная смета и оперативный запуск работ. Посекционный спил аварийных деревьев рядом с постройками, фрезерование пней ниже уровня дерна и тщательная уборка территории.",
     "ctaPrimary": "Позвонить ((919) 356-3501)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/oak-trimming-bucket-truck.jpg",
-        "label": "Безопасный доступ над крышами",
-        "alt": "Телескопическая автовышка Altec 18+ метров"
+        "image": "/images/tecos/dump-truck-trailer_crop.jpg",
+        "label": "Собственный парк техники",
+        "alt": "Грузовой автомобиль и прицеп для вывоза древесины на объекте"
       },
-      "sub1": {
-        "image": "/images/arborist-climbing-oak-canopy.jpg",
-        "label": "Глубокое фрезерование корней",
-        "alt": "Пнедробилка Rayco повышенной мощности"
-      },
-      "sub2": {
-        "image": "/images/finished-stump-removal-ground.jpg",
-        "label": "Скоростная переработка веток в щепу",
-        "alt": "Промышленный измельчитель веток Bandit 12X"
-      }
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -135,9 +127,9 @@ export const siteConfigBartolomeRu = {
   ],
   "equipment": [
     {
-      "name": "Телескопическая автовышка Altec 18+ метров",
-      "badge": "Безопасный доступ над крышами",
-      "image": "/images/oak-trimming-bucket-truck.jpg",
+      "name": "Автовышка для работы в кроне",
+      "badge": "Высотный доступ",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -152,12 +144,12 @@ export const siteConfigBartolomeRu = {
           "value": "Сохранность дерна и дорожек"
         }
       ],
-      "desc": "Автовышка Altec для безопасного удаления нависающих крон над жилыми домами без риска падения сучьев."
+      "desc": "Автогидроподъемник для безопасного спила ветвей, нависающих над жилыми постройками и линиями электропередач."
     },
     {
-      "name": "Пнедробилка Rayco повышенной мощности",
-      "badge": "Глубокое фрезерование корней",
-      "image": "/images/rayco-grinding-stump.jpg",
+      "name": "Промышленный измельчитель веток",
+      "badge": "Быстрая переработка",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -172,12 +164,12 @@ export const siteConfigBartolomeRu = {
           "value": "Опытные верхолазы и вальщики"
         }
       ],
-      "desc": "Фреза с карбидными резцами измельчает прочные сосновые и дубовые пни на глубину до 35 см ниже дерна."
+      "desc": "Дробилка веток для оперативной переработки стволов и веток диаметром до 30 см прямо во дворе заказчика."
     },
     {
-      "name": "Промышленный измельчитель веток Bandit 12X",
-      "badge": "Скоростная переработка веток в щепу",
-      "image": "/images/commercial-equipment-bobcat-bandit.jpg",
+      "name": "Вывоз мусора и финальная продувка",
+      "badge": "Полный вывоз отходов",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -192,7 +184,7 @@ export const siteConfigBartolomeRu = {
           "value": "Продувка ранцевыми воздуходувками"
         }
       ],
-      "desc": "Дробилка перерабатывает ветви диаметром до 30 см в щепу, оставляя территорию чистой."
+      "desc": "Самосвальная техника и ранцевые воздуходувки: вывозим 100% древесных остатков и выметаем дорожки начисто."
     }
   ],
   "reviews": [

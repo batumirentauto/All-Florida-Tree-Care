@@ -7,8 +7,8 @@ export const siteConfigAIntegrityEn = {
   "shortName": "A Integrity Tree Surgeons Inc",
   "ownerName": "Steve",
   "ownerFirstName": "Steve",
-  "tagline": "Precision Oak Felling, Vermeer Stump Grinding & Complete Turf Restoration",
-  "slogan": "Family-Operated Arborist Rigging, Fair Upfront Pricing & Spotless Cleanups Across Jacksonville",
+  "tagline": "Precision Hardwood Sectioning, Track Stump Milling & Lawn Preservation",
+  "slogan": "Direct Owner Oversight, Vermeer Track Grinding & Spotless Jacksonville Yard Cleanups",
   "phone": "(904) 487-0197",
   "phoneRaw": "9044870197",
   "city": "Jacksonville",
@@ -26,25 +26,25 @@ export const siteConfigAIntegrityEn = {
   "addressNotes": "Operational Depot: Beach Blvd Corridor, Jacksonville, FL 32216",
   "hero": {
     "badge": "Jacksonville, FL • 4.7 Google Maps Verified (218 Reviews)",
-    "headline": "Precision Oak Felling, Vermeer Stump Grinding & Complete Turf Restoration",
+    "headline": "Precision Hardwood Sectioning, Track Stump Milling & Lawn Preservation",
     "subhead": "Direct owner dispatch by Steve with transparent estimates and same-week scheduling. Specialized in precision sectional takedowns of dangerous trees, subsurface stump milling, and leaving residential yards immaculately raked.",
     "ctaPrimary": "Call Steve (904) 487-0197",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/a-integrity/photo_001.jpg",
-        "label": "Subsurface Root Flare Milling",
-        "alt": "Vermeer SC362 Commercial Track Stump Grinder"
+        "image": "/images/a-integrity/photo_014_crop.jpg",
+        "label": "Heavy Oak Timber Sectioning",
+        "alt": "Bucked oak timber logs sectioned cleanly along driveway"
       },
       "sub1": {
-        "image": "/images/a-integrity/photo_003.jpg",
-        "label": "Controlled Overhead Lowering",
-        "alt": "Arborist Sectional Rigging & Lowering Kit"
+        "image": "/images/a-integrity/photo_005_crop.jpg",
+        "label": "Hardwood Stump Assessment",
+        "alt": "Large tree stump prepared for grinding in residential yard"
       },
       "sub2": {
-        "image": "/images/a-integrity/photo_002.jpg",
-        "label": "Spotless Property Finish",
-        "alt": "Restored Lawn & Clean Ground Package"
+        "image": "/images/a-integrity/photo_007_crop.jpg",
+        "label": "Pristine Ground Restoration",
+        "alt": "Clean residential backyard following complete tree extraction"
       }
     }
   },
@@ -136,8 +136,8 @@ export const siteConfigAIntegrityEn = {
   "equipment": [
     {
       "name": "Vermeer SC362 Commercial Track Stump Grinder",
-      "badge": "Subsurface Root Flare Milling",
-      "image": "/images/a-integrity/photo_001.jpg",
+      "badge": "Commercial Subsurface Grinding",
+      "image": "/images/a-integrity/photo_006_crop.jpg",
       "specs": [
         {
           "label": "Deployment",
@@ -152,12 +152,12 @@ export const siteConfigAIntegrityEn = {
           "value": "Zero Lawn Impact Guarantee"
         }
       ],
-      "desc": "Compact self-propelled track grinder shown in photo working in residential enclosure, milling tough hardwood stumps without disturbing established grass."
+      "desc": "Photo shows the Vermeer SC362 commercial track grinder with operator actively milling a massive hardwood stump next to a residential outbuilding."
     },
     {
-      "name": "Arborist Sectional Rigging & Lowering Kit",
-      "badge": "Controlled Overhead Lowering",
-      "image": "/images/a-integrity/photo_003.jpg",
+      "name": "Heavy Hardwood Sectional Rigging & Bucking",
+      "badge": "Controlled Timber Staging",
+      "image": "/images/a-integrity/photo_016_crop.jpg",
       "specs": [
         {
           "label": "Operation",
@@ -172,12 +172,12 @@ export const siteConfigAIntegrityEn = {
           "value": "Dedicated Ground Crew"
         }
       ],
-      "desc": "High-strength friction lowering setup shown in photo controlling massive tree branches away from perimeter fencing and delicate home structures."
+      "desc": "Photo shows heavy hardwood trunk sections cut into manageable rounds and neatly lined along the paved driveway without blocking access."
     },
     {
-      "name": "Restored Lawn & Clean Ground Package",
-      "badge": "Spotless Property Finish",
-      "image": "/images/a-integrity/photo_002.jpg",
+      "name": "Restored Residential Turf & Ground Finish",
+      "badge": "Spotless Property Handover",
+      "image": "/images/a-integrity/photo_003_crop.jpg",
       "specs": [
         {
           "label": "Finish",
@@ -192,7 +192,7 @@ export const siteConfigAIntegrityEn = {
           "value": "Industrial Blower Sweep"
         }
       ],
-      "desc": "Photo demonstrates the finished residential lawn after stump extraction, showing neatly leveled soil and cleanly manicured turf without rutting."
+      "desc": "Photo shows the residential perimeter and lawn neatly raked and restored after complete branch removal and root clearance."
     }
   ],
   "reviews": [
