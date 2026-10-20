@@ -1,5 +1,6 @@
 export const siteConfigUnitedStructuresFencingRestorationTreeServiceSalemEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "united-structures-fencing-restoration-tree-service-salem",
   "theme": "amber",
   "businessName": "United Structures | Fencing | Restoration | Tree Service Salem",

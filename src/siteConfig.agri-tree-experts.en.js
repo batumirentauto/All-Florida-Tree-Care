@@ -1,5 +1,6 @@
 export const siteConfigAgriTreeExpertsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "agri-tree-experts",
   "theme": "sky",
   "businessName": "Agri Tree Experts",

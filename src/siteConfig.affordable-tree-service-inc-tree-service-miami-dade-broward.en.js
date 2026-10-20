@@ -1,5 +1,6 @@
 export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "affordable-tree-service-inc-tree-service-miami-dade-broward",
   "theme": "teal",
   "businessName": "Affordable Tree Service, Inc. - Tree Service Miami-Dade & Broward",

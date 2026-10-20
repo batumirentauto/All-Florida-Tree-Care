@@ -1,5 +1,6 @@
 export const siteConfigImbersTreeServiceLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "imbers-tree-service-llc",
   "theme": "teal",
   "businessName": "Imber's Tree Service LLC",

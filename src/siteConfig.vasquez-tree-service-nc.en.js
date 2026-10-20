@@ -1,5 +1,6 @@
 export const siteConfigVasquezTreeServiceNcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "vasquez-tree-service-nc",
   "theme": "emerald",
   "businessName": "Vasquez Tree Service NC",

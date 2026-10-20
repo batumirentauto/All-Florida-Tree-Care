@@ -1,5 +1,6 @@
 export const siteConfigBigDawgsStumpgrindingAndEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "big-dawgs-stumpgrinding-and",
   "theme": "amber",
   "businessName": "Big Dawgs Stumpgrinding and Tree Service",

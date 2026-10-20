@@ -1,5 +1,6 @@
 export const siteConfigJbTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jb-tree-care",
   "theme": "amber",
   "businessName": "JB Tree Care",

@@ -1,5 +1,6 @@
 export const siteConfigPuregreenTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "puregreen-tree-service",
   "theme": "emerald",
   "businessName": "PureGreen Tree Service",

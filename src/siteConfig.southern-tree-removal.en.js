@@ -1,5 +1,6 @@
 export const siteConfigSouthernTreeRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "southern-tree-removal",
   "theme": "sky",
   "businessName": "Southern Tree Removal",

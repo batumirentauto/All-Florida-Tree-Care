@@ -1,5 +1,6 @@
 export const siteConfigExploreTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "explore-tree-service",
   "theme": "emerald",
   "businessName": "Explore Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigPensacolaTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pensacola-tree-service",
   "theme": "teal",
   "businessName": "Pensacola Tree Service LLC",

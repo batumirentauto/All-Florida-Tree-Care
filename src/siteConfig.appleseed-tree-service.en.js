@@ -1,5 +1,6 @@
 export const siteConfigAppleseedTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "appleseed-tree-service",
   "theme": "sky",
   "businessName": "Appleseed Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigTreemanEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "treeman",
   "theme": "teal",
   "businessName": "Treeman",

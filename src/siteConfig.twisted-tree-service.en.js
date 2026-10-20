@@ -1,5 +1,6 @@
 export const siteConfigTwistedTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "twisted-tree-service",
   "theme": "emerald",
   "businessName": "Twisted Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigRamosTreeServiceIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "ramos-tree-service-inc",
   "theme": "amber",
   "businessName": "Ramos Tree Service Inc.",

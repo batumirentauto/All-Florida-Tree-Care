@@ -1,5 +1,6 @@
 export const siteConfigPennysTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pennys-tree-service",
   "theme": "amber",
   "businessName": "Penny's Tree Service",

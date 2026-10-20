@@ -1,5 +1,6 @@
 export const siteConfigSkyHighTreeRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "sky-high-tree-removal",
   "theme": "sky",
   "businessName": "Sky High Tree Removal",

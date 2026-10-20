@@ -1,5 +1,6 @@
 export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "all-green-tree-care-raleigh-durham",
   "theme": "teal",
   "businessName": "All Green Tree Care Raleigh – Durham Inc",

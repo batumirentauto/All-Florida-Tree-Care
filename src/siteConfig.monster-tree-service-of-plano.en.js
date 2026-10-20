@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfPlanoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-plano",
   "theme": "teal",
   "businessName": "Monster Tree Service of Plano",

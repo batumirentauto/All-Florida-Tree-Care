@@ -1,5 +1,6 @@
 export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurroundingAreasEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas",
   "theme": "amber",
   "businessName": "Wildwood Tree Care, LLC - Tree Removal Tree Service Puyallup and Surrounding Areas",

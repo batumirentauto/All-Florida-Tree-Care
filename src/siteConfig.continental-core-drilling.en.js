@@ -1,5 +1,6 @@
 export const siteConfigContinentalCoreDrillingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "continental-core-drilling",
   "theme": "emerald",
   "businessName": "Continental Core Drilling & Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigASandovalTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-sandoval-tree-service",
   "theme": "amber",
   "businessName": "A Sandoval Tree Service",

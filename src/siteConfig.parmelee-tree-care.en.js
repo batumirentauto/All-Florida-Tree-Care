@@ -1,5 +1,6 @@
 export const siteConfigParmeleeTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "parmelee-tree-care",
   "theme": "emerald",
   "businessName": "Parmelee Tree Care",

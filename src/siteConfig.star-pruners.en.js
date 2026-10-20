@@ -1,5 +1,6 @@
 export const siteConfigStarPrunersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "star-pruners",
   "theme": "teal",
   "businessName": "Star Pruners",

@@ -1,5 +1,6 @@
 export const siteConfigTopShelfTreeServiceLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "top-shelf-tree-service-landscaping",
   "theme": "emerald",
   "businessName": "Top Shelf Tree Service & Landscaping",

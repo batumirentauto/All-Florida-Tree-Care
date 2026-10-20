@@ -40,7 +40,7 @@ export function UniversalCompanyPage({
   const enUrl = config.enUrl || `/${config.slug}`
   const ruUrl = config.ruUrl || `/${config.slug}/ru`
 
-  const shouldHideTopBar = hideTopBar ?? config.hideTopBar ?? (!isRu && NEW_SCRAPE_SLUGS.has(config.slug))
+  const shouldHideTopBar = hideTopBar ?? config.hideTopBar ?? (!isRu)
 
   return (
     <div className={`min-h-screen ${theme.bgBody} text-white selection:bg-emerald-500 selection:text-white font-sans antialiased`}>

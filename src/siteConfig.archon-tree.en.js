@@ -1,5 +1,6 @@
 export const siteConfigArchonTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "archon-tree",
   "theme": "amber",
   "businessName": "ARCHON TREE",

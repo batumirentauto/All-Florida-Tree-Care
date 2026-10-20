@@ -1,5 +1,6 @@
 export const siteConfigTopTierTreeSpecialistEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "top-tier-tree-specialist",
   "theme": "amber",
   "businessName": "Top Tier Tree Specialist",

@@ -1,5 +1,6 @@
 export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "cut-it-right-tree-land-clearing-services-corp",
   "theme": "amber",
   "businessName": "Cut it Right Tree & Land Clearing Services, Corp",

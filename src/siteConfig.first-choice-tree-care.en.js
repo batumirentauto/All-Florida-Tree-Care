@@ -1,5 +1,6 @@
 export const siteConfigFirstChoiceTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "first-choice-tree-care",
   "theme": "teal",
   "businessName": "First Choice Tree Care",

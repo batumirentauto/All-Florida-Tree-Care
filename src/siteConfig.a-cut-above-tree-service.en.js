@@ -1,5 +1,6 @@
 export const siteConfigACutAboveTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-cut-above-tree-service",
   "theme": "sky",
   "businessName": "A Cut Above Tree Service",

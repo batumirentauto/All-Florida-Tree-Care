@@ -1,5 +1,6 @@
 export const siteConfigJasonHamiltonEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jason-hamilton",
   "theme": "emerald",
   "businessName": "Jason Hamilton Tree Service",

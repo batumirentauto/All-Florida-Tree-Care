@@ -1,5 +1,6 @@
 export const siteConfigTexasTreeAuthorityEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "texas-tree-authority",
   "theme": "teal",
   "businessName": "Texas Tree Authority",

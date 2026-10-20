@@ -1,5 +1,6 @@
 export const siteConfigTroncossLandEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "troncoss-land",
   "theme": "sky",
   "businessName": "Troncos's Land",

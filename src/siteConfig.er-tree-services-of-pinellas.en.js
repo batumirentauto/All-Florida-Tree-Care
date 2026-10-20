@@ -1,5 +1,6 @@
 export const siteConfigErTreeServicesOfPinellasEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "er-tree-services-of-pinellas",
   "theme": "sky",
   "businessName": "ER TREE SERVICES OF PINELLAS",

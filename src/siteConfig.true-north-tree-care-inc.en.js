@@ -1,5 +1,6 @@
 export const siteConfigTrueNorthTreeCareIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "true-north-tree-care-inc",
   "theme": "emerald",
   "businessName": "True North Tree Care Inc.",

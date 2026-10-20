@@ -1,5 +1,6 @@
 export const siteConfigACutAboveLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-cut-above-landscaping",
   "theme": "teal",
   "businessName": "A Cut Above Landscaping",

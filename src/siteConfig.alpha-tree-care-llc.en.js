@@ -1,5 +1,6 @@
 export const siteConfigAlphaTreeCareLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "alpha-tree-care-llc",
   "theme": "amber",
   "businessName": "Alpha Tree Care, LLC",

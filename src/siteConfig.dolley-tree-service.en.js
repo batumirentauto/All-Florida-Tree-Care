@@ -1,5 +1,6 @@
 export const siteConfigDolleyTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dolley-tree-service",
   "theme": "amber",
   "businessName": "Dolley tree service",

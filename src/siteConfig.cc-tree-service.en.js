@@ -1,5 +1,6 @@
 export const siteConfigCcTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "cc-tree-service",
   "theme": "sky",
   "businessName": "CC Tree Service",

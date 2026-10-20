@@ -1,5 +1,6 @@
 export const siteConfigRecoveryTreeTrimmingAndLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "recovery-tree-trimming-and-landscaping",
   "theme": "sky",
   "businessName": "Recovery Tree Trimming and Landscaping",

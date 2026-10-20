@@ -1,5 +1,6 @@
 export const siteConfigBladeRunnerTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "blade-runner-tree-service",
   "theme": "amber",
   "businessName": "Blade Runner Tree Service",

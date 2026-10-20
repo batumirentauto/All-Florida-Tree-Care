@@ -1,5 +1,6 @@
 export const siteConfigLonghornLandscapeSolutionsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "longhorn-landscape-solutions",
   "theme": "sky",
   "businessName": "Longhorn Landscape Solutions LLC",

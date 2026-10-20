@@ -1,5 +1,6 @@
 export const siteConfigCareGreenLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "care-green-landscaping",
   "theme": "teal",
   "businessName": "Care Green Landscaping & Tree Service",

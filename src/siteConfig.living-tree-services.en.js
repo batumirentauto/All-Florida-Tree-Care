@@ -1,5 +1,6 @@
 export const siteConfigLivingTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "living-tree-services",
   "theme": "teal",
   "businessName": "Living Tree Services",

@@ -1,5 +1,6 @@
 export const siteConfigChapmansTreeServiceIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "chapmans-tree-service-inc",
   "theme": "teal",
   "businessName": "Chapman's Tree Service Inc.",

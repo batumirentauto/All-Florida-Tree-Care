@@ -1,5 +1,6 @@
 export const siteConfigMorganTreeLandServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "morgan-tree-land-service",
   "theme": "emerald",
   "businessName": "Morgan Tree & Land Service, LLC",

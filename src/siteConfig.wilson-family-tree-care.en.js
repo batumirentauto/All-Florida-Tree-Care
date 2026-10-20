@@ -1,5 +1,6 @@
 export const siteConfigWilsonFamilyTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wilson-family-tree-care",
   "theme": "sky",
   "businessName": "Wilson Family Tree Care, LLC",

@@ -1,5 +1,6 @@
 export const siteConfigWestValleyArboristsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "west-valley-arborists",
   "theme": "emerald",
   "businessName": "West Valley Arborists",

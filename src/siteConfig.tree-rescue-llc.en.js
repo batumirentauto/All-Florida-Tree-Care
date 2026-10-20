@@ -1,5 +1,6 @@
 export const siteConfigTreeRescueLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-rescue-llc",
   "theme": "teal",
   "businessName": "Tree Rescue, LLC",

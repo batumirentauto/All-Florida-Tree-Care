@@ -1,5 +1,6 @@
 export const siteConfigHernandezLawncareAndMorellcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "hernandez-lawncare-and-morellc",
   "theme": "emerald",
   "businessName": "Hernandez Lawncare And More,LLC",

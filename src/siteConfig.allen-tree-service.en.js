@@ -1,5 +1,6 @@
 export const siteConfigAllenTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "allen-tree-service",
   "theme": "emerald",
   "businessName": "Allen Tree Service",

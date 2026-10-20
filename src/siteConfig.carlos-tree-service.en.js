@@ -1,5 +1,6 @@
 export const siteConfigCarlosTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "carlos-tree-service",
   "theme": "sky",
   "businessName": "Carlos Tree Service",

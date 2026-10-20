@@ -1,5 +1,6 @@
 export const siteConfigKristianTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "kristian-tree-service",
   "theme": "emerald",
   "businessName": "Kristian Tree Service",

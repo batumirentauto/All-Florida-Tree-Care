@@ -1,5 +1,6 @@
 export const siteConfigArborBarberTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "arbor-barber-tree-service",
   "theme": "emerald",
   "businessName": "Arbor Barber Tree Service",

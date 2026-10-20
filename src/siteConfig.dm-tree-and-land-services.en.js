@@ -1,5 +1,6 @@
 export const siteConfigDmTreeAndLandServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dm-tree-and-land-services",
   "theme": "sky",
   "businessName": "D&M Tree and Land Services, LLC",

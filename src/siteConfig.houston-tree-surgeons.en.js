@@ -1,5 +1,6 @@
 export const siteConfigHoustonTreeSurgeonsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "houston-tree-surgeons",
   "theme": "emerald",
   "businessName": "Houston Tree Surgeons",

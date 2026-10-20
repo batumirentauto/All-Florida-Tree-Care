@@ -1,5 +1,6 @@
 export const siteConfigCltTreeLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "clt-tree-llc",
   "theme": "emerald",
   "businessName": "CLT Tree LLC",

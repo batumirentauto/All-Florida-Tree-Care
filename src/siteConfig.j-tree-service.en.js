@@ -1,5 +1,6 @@
 export const siteConfigJTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "j-tree-service",
   "theme": "emerald",
   "businessName": "J Tree Service",

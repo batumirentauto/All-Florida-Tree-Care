@@ -1,5 +1,6 @@
 export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "discount-professional-tree-service-and-firewood",
   "theme": "sky",
   "businessName": "Discount Professional Tree Service and Firewood",

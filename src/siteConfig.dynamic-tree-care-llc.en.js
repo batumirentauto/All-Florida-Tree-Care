@@ -1,5 +1,6 @@
 export const siteConfigDynamicTreeCareLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dynamic-tree-care-llc",
   "theme": "teal",
   "businessName": "Dynamic Tree Care, LLC",

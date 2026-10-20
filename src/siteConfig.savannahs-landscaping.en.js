@@ -1,5 +1,6 @@
 export const siteConfigSavannahsLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "savannahs-landscaping",
   "theme": "amber",
   "businessName": "Savannah's Landscaping Services",

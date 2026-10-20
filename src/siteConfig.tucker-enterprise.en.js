@@ -1,5 +1,6 @@
 export const siteConfigTuckerEnterpriseEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tucker-enterprise",
   "theme": "teal",
   "businessName": "Tucker Enterprise Services",

@@ -1,5 +1,6 @@
 export const siteConfigDivineTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "divine-tree-care",
   "theme": "emerald",
   "businessName": "Divine Tree Care",

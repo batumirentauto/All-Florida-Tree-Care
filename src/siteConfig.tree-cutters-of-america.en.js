@@ -1,5 +1,6 @@
 export const siteConfigTreeCuttersOfAmericaEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-cutters-of-america",
   "theme": "sky",
   "businessName": "Tree Cutters of America",

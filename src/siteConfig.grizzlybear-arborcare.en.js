@@ -1,5 +1,6 @@
 export const siteConfigGrizzlybearArborcareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "grizzlybear-arborcare",
   "theme": "amber",
   "businessName": "Grizzlybear Arborcare",

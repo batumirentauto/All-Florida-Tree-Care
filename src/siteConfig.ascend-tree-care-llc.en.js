@@ -1,5 +1,6 @@
 export const siteConfigAscendTreeCareLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "ascend-tree-care-llc",
   "theme": "teal",
   "businessName": "Ascend Tree Care LLC",

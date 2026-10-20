@@ -1,5 +1,6 @@
 export const siteConfigBigDogStumpTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "big-dog-stump-tree",
   "theme": "teal",
   "businessName": "Big Dog Stump & Tree",

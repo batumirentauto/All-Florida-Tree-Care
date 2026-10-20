@@ -1,5 +1,6 @@
 export const siteConfigAffordableArborCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "affordable-arbor-care",
   "theme": "emerald",
   "businessName": "Affordable Arbor Care",

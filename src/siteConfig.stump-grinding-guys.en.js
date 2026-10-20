@@ -1,5 +1,6 @@
 export const siteConfigStumpGrindingGuysEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "stump-grinding-guys",
   "theme": "sky",
   "businessName": "Stump Grinding Guys",

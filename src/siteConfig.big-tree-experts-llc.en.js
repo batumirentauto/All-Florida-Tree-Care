@@ -1,5 +1,6 @@
 export const siteConfigBigTreeExpertsLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "big-tree-experts-llc",
   "theme": "sky",
   "businessName": "Big Tree Experts Llc",

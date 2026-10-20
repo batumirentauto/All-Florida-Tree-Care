@@ -1,5 +1,6 @@
 export const siteConfigYatesTreeIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "yates-tree-inc",
   "theme": "amber",
   "businessName": "Yates Tree Inc.",

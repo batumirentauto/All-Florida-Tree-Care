@@ -1,5 +1,6 @@
 export const siteConfigPfeiferTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pfeifer-tree-service",
   "theme": "sky",
   "businessName": "Pfeifer Tree Service",

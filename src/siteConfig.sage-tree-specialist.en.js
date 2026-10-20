@@ -1,5 +1,6 @@
 export const siteConfigSageTreeSpecialistEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "sage-tree-specialist",
   "theme": "sky",
   "businessName": "Sage Tree Specialist",

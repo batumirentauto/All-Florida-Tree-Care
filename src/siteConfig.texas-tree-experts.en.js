@@ -1,5 +1,6 @@
 export const siteConfigTexasTreeExpertsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "texas-tree-experts",
   "theme": "sky",
   "businessName": "Texas Tree Experts",

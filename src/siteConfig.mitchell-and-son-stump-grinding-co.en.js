@@ -1,5 +1,6 @@
 export const siteConfigMitchellAndSonStumpGrindingCoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mitchell-and-son-stump-grinding-co",
   "theme": "emerald",
   "businessName": "Mitchell and Son Stump Grinding Co.",

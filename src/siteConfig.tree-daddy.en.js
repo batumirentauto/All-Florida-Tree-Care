@@ -1,5 +1,6 @@
 export const siteConfigTreeDaddyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-daddy",
   "theme": "amber",
   "businessName": "Tree Daddy",

@@ -1,5 +1,6 @@
 export const siteConfigTreevantageEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "treevantage",
   "theme": "sky",
   "businessName": "TreeVantage",

@@ -1,5 +1,6 @@
 export const siteConfigTrinityForestTreeCareServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "trinity-forest-tree-care-service",
   "theme": "teal",
   "businessName": "Trinity Forest Tree Care Service",

@@ -1,5 +1,6 @@
 export const siteConfigARTreeServiceIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-r-tree-service-inc",
   "theme": "amber",
   "businessName": "A & R Tree Service, Inc",

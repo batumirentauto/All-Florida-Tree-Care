@@ -1,5 +1,6 @@
 export const siteConfigEliteQualityTreeStumpGrindingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "elite-quality-tree-stump-grinding",
   "theme": "amber",
   "businessName": "Elite Quality Tree & Stump-Grinding Llc",

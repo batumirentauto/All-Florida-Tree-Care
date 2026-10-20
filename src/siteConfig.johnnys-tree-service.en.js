@@ -1,5 +1,6 @@
 export const siteConfigJohnnysTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "johnnys-tree-service",
   "theme": "amber",
   "businessName": "Johnny's Tree Service",

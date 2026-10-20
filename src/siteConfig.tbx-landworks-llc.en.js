@@ -1,5 +1,6 @@
 export const siteConfigTbxLandworksLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tbx-landworks-llc",
   "theme": "sky",
   "businessName": "TBX Landworks LLC",

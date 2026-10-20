@@ -1,5 +1,6 @@
 export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "gutierrez-sons-tree-services-and-landscaping",
   "theme": "sky",
   "businessName": "Gutierrez & Sons Tree Services and Landscaping",

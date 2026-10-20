@@ -1,5 +1,6 @@
 export const siteConfigTreesOfGeorgiaIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "trees-of-georgia-inc",
   "theme": "amber",
   "businessName": "Trees of Georgia, Inc.",

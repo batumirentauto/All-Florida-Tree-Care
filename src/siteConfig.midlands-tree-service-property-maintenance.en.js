@@ -1,5 +1,6 @@
 export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "midlands-tree-service-property-maintenance",
   "theme": "sky",
   "businessName": "Midlands Tree Service & Property Maintenance",

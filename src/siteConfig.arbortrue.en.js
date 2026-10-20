@@ -1,5 +1,6 @@
 export const siteConfigArbortrueEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "arbortrue",
   "theme": "sky",
   "businessName": "ArborTrue",

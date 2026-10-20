@@ -1,5 +1,6 @@
 export const siteConfigKatsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "kats-tree-service",
   "theme": "sky",
   "businessName": "Kats Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigPolyTimberTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "poly-timber-tree-service",
   "theme": "amber",
   "businessName": "Poly Timber Tree Service Inc.",

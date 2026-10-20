@@ -1,5 +1,6 @@
 export const siteConfigYourTreeGuyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "your-tree-guy",
   "theme": "teal",
   "businessName": "Your Tree Guy",

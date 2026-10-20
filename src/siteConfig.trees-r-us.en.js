@@ -1,5 +1,6 @@
 export const siteConfigTreesRUsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "trees-r-us",
   "theme": "emerald",
   "businessName": "Trees R Us",

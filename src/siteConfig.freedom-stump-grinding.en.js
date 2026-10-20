@@ -1,5 +1,6 @@
 export const siteConfigFreedomStumpGrindingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "freedom-stump-grinding",
   "theme": "emerald",
   "businessName": "Freedom Stump Grinding",

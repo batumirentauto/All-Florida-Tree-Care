@@ -1,5 +1,6 @@
 export const siteConfigAperfecttreecomTotallyTreesYardNoteEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "aperfecttreecom-totally-trees-yard-note",
   "theme": "sky",
   "businessName": "aPerfectTree.com Totally Trees Yard Note Tree Service, LLC",

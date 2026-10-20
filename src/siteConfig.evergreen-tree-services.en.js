@@ -1,5 +1,6 @@
 export const siteConfigEvergreenTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "evergreen-tree-services",
   "theme": "sky",
   "businessName": "Evergreen Tree Services",

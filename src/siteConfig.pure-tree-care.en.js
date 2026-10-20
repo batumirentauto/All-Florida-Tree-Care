@@ -1,5 +1,6 @@
 export const siteConfigPureTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pure-tree-care",
   "theme": "sky",
   "businessName": "Pure Tree Care",

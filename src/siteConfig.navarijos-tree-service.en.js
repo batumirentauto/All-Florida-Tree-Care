@@ -1,5 +1,6 @@
 export const siteConfigNavarijosTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "navarijos-tree-service",
   "theme": "sky",
   "businessName": "Navarijo’s tree service",

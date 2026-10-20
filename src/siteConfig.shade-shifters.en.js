@@ -1,5 +1,6 @@
 export const siteConfigShadeShiftersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "shade-shifters",
   "theme": "teal",
   "businessName": "Shade Shifters Tree Service",

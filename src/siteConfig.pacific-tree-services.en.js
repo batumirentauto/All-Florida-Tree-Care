@@ -1,5 +1,6 @@
 export const siteConfigPacificTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pacific-tree-services",
   "theme": "emerald",
   "businessName": "Pacific Tree Services",

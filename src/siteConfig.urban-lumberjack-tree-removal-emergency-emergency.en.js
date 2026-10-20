@@ -1,5 +1,6 @@
 export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "urban-lumberjack-tree-removal-emergency-emergency",
   "theme": "teal",
   "businessName": "Urban Lumberjack | Tree Removal Emergency | Emergency Tree Service",

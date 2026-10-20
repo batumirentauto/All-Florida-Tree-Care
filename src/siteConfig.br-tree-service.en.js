@@ -1,5 +1,6 @@
 export const siteConfigBrTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "br-tree-service",
   "theme": "sky",
   "businessName": "B&R Tree Service",

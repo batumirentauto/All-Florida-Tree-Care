@@ -1,5 +1,6 @@
 export const siteConfigAlphaTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "alpha-tree-services",
   "theme": "teal",
   "businessName": "Alpha Tree Services",

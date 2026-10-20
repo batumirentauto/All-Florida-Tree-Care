@@ -1,5 +1,6 @@
 export const siteConfigGreenLimbTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "green-limb-tree-service",
   "theme": "teal",
   "businessName": "Green Limb Tree Service",

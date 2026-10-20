@@ -1,5 +1,6 @@
 export const siteConfigLaneTreeDoctorEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "lane-tree-doctor",
   "theme": "teal",
   "businessName": "Lane Tree Doctor",

@@ -1,5 +1,6 @@
 export const siteConfigAlamoCityTreeServiceLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "alamo-city-tree-service-landscaping",
   "theme": "emerald",
   "businessName": "Alamo City Tree Service & Landscaping",

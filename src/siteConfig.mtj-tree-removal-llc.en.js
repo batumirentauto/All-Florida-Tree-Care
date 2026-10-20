@@ -1,5 +1,6 @@
 export const siteConfigMtjTreeRemovalLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mtj-tree-removal-llc",
   "theme": "emerald",
   "businessName": "MTJ Tree Removal LLC",

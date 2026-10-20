@@ -1,5 +1,6 @@
 export const siteConfigLjrTreeServicesIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "ljr-tree-services-inc",
   "theme": "amber",
   "businessName": "LJR Tree Services Inc",

@@ -1,5 +1,6 @@
 export const siteConfigArborCareSolutionsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "arbor-care-solutions",
   "theme": "amber",
   "businessName": "Arbor Care Solutions",

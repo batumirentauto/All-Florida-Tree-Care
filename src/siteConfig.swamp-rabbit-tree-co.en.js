@@ -1,5 +1,6 @@
 export const siteConfigSwampRabbitTreeCoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "swamp-rabbit-tree-co",
   "theme": "teal",
   "businessName": "Swamp Rabbit Tree Co",

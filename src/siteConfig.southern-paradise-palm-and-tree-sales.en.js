@@ -1,5 +1,6 @@
 export const siteConfigSouthernParadisePalmAndTreeSalesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "southern-paradise-palm-and-tree-sales",
   "theme": "teal",
   "businessName": "Southern Paradise Palm and Tree Sales",

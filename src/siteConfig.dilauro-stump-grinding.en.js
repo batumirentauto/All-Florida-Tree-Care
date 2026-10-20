@@ -1,5 +1,6 @@
 export const siteConfigDilauroStumpGrindingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dilauro-stump-grinding",
   "theme": "amber",
   "businessName": "DiLauro Stump Grinding",

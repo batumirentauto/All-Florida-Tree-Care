@@ -1,5 +1,6 @@
 export const siteConfigSanchezAndSonsServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "sanchez-and-sons-services",
   "theme": "emerald",
   "businessName": "Sanchez and Sons Services, LLC",

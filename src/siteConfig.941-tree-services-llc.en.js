@@ -1,5 +1,6 @@
 export const siteConfigCompany941TreeServicesLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "941-tree-services-llc",
   "theme": "sky",
   "businessName": "941 Tree Services LLC",

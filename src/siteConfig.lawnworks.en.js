@@ -1,5 +1,6 @@
 export const siteConfigLawnworksEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "lawnworks",
   "theme": "sky",
   "businessName": "LawnWorks",

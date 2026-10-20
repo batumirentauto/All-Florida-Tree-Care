@@ -1,5 +1,6 @@
 export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "very-good-stump-grinding-tree-removal",
   "theme": "amber",
   "businessName": "Very Good Stump Grinding & Tree Removal",

@@ -1,5 +1,6 @@
 export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "3-monkeys-tree-service-san-antonio",
   "theme": "amber",
   "businessName": "3 Monkeys Tree Service San Antonio",

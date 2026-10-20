@@ -1,5 +1,6 @@
 export const siteConfigArtisticTreesIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "artistic-trees-inc",
   "theme": "emerald",
   "businessName": "Artistic Trees Inc",

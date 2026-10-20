@@ -1,5 +1,6 @@
 export const siteConfigTomsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "toms-tree-service",
   "theme": "sky",
   "businessName": "Tom’s Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigSotosLawnAndEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "sotos-lawn-and",
   "theme": "emerald",
   "businessName": "Soto's Lawn and Tree Service",

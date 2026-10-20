@@ -1,5 +1,6 @@
 export const siteConfigHappysTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "happys-tree-service",
   "theme": "amber",
   "businessName": "Happy's Tree Service",

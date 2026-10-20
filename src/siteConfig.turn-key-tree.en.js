@@ -1,5 +1,6 @@
 export const siteConfigTurnKeyTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "turn-key-tree",
   "theme": "sky",
   "businessName": "Turn Key Tree",

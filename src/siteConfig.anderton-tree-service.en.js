@@ -1,5 +1,6 @@
 export const siteConfigAndertonTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "anderton-tree-service",
   "theme": "teal",
   "businessName": "Anderton Tree Service",

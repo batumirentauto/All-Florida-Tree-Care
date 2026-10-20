@@ -1,5 +1,6 @@
 export const siteConfigJesseScottsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jesse-scotts",
   "theme": "amber",
   "businessName": "Jesse Scotts",

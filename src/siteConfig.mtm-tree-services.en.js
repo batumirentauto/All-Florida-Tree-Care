@@ -1,5 +1,6 @@
 export const siteConfigMtmTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mtm-tree-services",
   "theme": "amber",
   "businessName": "MTM Tree Services",

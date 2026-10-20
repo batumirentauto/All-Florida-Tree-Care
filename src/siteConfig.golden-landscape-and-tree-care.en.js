@@ -1,5 +1,6 @@
 export const siteConfigGoldenLandscapeAndTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "golden-landscape-and-tree-care",
   "theme": "teal",
   "businessName": "Golden landscape and tree care",

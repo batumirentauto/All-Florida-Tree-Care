@@ -1,5 +1,6 @@
 export const siteConfigWaltersTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "walters-tree-service",
   "theme": "teal",
   "businessName": "Walter’s Tree Service",

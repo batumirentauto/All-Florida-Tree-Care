@@ -1,5 +1,6 @@
 export const siteConfigCompany5StarTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "5-star-tree-service",
   "theme": "teal",
   "businessName": "5 Star Tree Service",

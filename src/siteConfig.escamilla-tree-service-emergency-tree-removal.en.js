@@ -1,5 +1,6 @@
 export const siteConfigEscamillaTreeServiceEmergencyTreeRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "escamilla-tree-service-emergency-tree-removal",
   "theme": "teal",
   "businessName": "Escamilla Tree Service - Emergency Tree Removal",

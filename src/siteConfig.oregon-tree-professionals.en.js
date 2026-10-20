@@ -1,5 +1,6 @@
 export const siteConfigOregonTreeProfessionalsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "oregon-tree-professionals",
   "theme": "teal",
   "businessName": "Oregon Tree Professionals LLC",

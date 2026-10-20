@@ -1,5 +1,6 @@
 export const siteConfigMatiasTreeServiceAndLandscapeContractorEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "matias-tree-service-and-landscape-contractor",
   "theme": "emerald",
   "businessName": "Matias tree service and landscape contractor",

@@ -1,5 +1,6 @@
 export const siteConfigJimmisTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jimmis-tree-services",
   "theme": "teal",
   "businessName": "Jimmi's Tree Services",

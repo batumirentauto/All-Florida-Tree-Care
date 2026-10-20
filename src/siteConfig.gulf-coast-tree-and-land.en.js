@@ -1,5 +1,6 @@
 export const siteConfigGulfCoastTreeAndLandEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "gulf-coast-tree-and-land",
   "theme": "teal",
   "businessName": "Gulf Coast Tree and Land",

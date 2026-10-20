@@ -1,5 +1,6 @@
 export const siteConfigSouthCoastLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "south-coast-landscaping",
   "theme": "amber",
   "businessName": "South Coast Landscaping Inc.",

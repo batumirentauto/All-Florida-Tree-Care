@@ -1,5 +1,6 @@
 export const siteConfigSuperAffordableEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "super-affordable",
   "theme": "amber",
   "businessName": "Super Affordable Tree Service",

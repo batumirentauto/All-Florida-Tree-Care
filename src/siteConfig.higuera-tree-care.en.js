@@ -1,5 +1,6 @@
 export const siteConfigHigueraTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "higuera-tree-care",
   "theme": "sky",
   "businessName": "Higuera Tree Care",

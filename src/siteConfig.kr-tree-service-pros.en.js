@@ -1,5 +1,6 @@
 export const siteConfigKrTreeServiceProsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "kr-tree-service-pros",
   "theme": "teal",
   "businessName": "K&R TREE SERVICE PROS",

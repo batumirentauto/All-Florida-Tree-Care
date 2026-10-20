@@ -1,5 +1,6 @@
 export const siteConfigGeneralTreeServiceIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "general-tree-service-inc",
   "theme": "sky",
   "businessName": "General Tree Service, Inc.",

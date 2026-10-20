@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfTheCoastEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-the-coast",
   "theme": "sky",
   "businessName": "Monster Tree Service of the Coast",

@@ -1,5 +1,6 @@
 export const siteConfigLeafItToUsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "leaf-it-to-us",
   "theme": "emerald",
   "businessName": "Leaf It To Us Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigGreenlineTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "greenline-tree-service",
   "theme": "emerald",
   "businessName": "Greenline Tree Service",

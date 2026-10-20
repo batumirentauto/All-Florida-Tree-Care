@@ -1,5 +1,6 @@
 export const siteConfigGomezTreeServiceLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "gomez-tree-service-llc",
   "theme": "sky",
   "businessName": "Gomez Tree Service LLC",

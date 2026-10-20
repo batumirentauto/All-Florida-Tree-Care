@@ -1,5 +1,6 @@
 export const siteConfigTreekeeperTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "treekeeper-tree-service",
   "theme": "amber",
   "businessName": "Treekeeper Tree Service Inc.",

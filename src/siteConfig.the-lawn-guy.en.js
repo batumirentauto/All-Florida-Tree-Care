@@ -1,5 +1,6 @@
 export const siteConfigTheLawnGuyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "the-lawn-guy",
   "theme": "emerald",
   "businessName": "The Lawn Guy",

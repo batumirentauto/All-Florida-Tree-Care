@@ -1,5 +1,6 @@
 export const siteConfigAlamowTreeCoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "alamow-tree-co",
   "theme": "amber",
   "businessName": "Alamow & Tree Co.",

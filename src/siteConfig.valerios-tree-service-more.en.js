@@ -1,5 +1,6 @@
 export const siteConfigValeriosTreeServiceMoreEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "valerios-tree-service-more",
   "theme": "sky",
   "businessName": "Valerio's Tree Service & More",

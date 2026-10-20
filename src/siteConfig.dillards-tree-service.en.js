@@ -1,5 +1,6 @@
 export const siteConfigDillardsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dillards-tree-service",
   "theme": "teal",
   "businessName": "Dillard's Tree Service",

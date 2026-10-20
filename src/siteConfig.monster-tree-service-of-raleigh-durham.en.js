@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-raleigh-durham",
   "theme": "sky",
   "businessName": "Monster Tree Service of Raleigh Durham",

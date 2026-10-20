@@ -1,5 +1,6 @@
 export const siteConfigTheUrbanForestersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "the-urban-foresters",
   "theme": "amber",
   "businessName": "The Urban Foresters",

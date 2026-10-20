@@ -1,5 +1,6 @@
 export const siteConfigNoyolasTreeServiceLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "noyolas-tree-service-llc",
   "theme": "amber",
   "businessName": "Noyola's Tree Service, LLC",

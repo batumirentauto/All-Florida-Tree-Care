@@ -1,5 +1,6 @@
 export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "cheap-guy-tree-and-stump-removal",
   "theme": "sky",
   "businessName": "Cheap Guy Tree and Stump Removal",

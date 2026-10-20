@@ -1,5 +1,6 @@
 export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "forest-outdoor-living-llc-hardscaping-landscaping",
   "theme": "sky",
   "businessName": "Forest Outdoor Living LLC Hardscaping & Landscaping",

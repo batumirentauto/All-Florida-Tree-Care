@@ -1,5 +1,6 @@
 export const siteConfigExtremeTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "extreme-tree-service",
   "theme": "amber",
   "businessName": "Extreme Tree Service",

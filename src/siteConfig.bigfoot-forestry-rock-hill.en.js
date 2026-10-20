@@ -1,5 +1,6 @@
 export const siteConfigBigfootForestryRockHillEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "bigfoot-forestry-rock-hill",
   "theme": "emerald",
   "businessName": "Bigfoot Forestry - Rock Hill",

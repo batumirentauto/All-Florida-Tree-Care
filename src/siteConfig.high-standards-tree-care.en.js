@@ -1,5 +1,6 @@
 export const siteConfigHighStandardsTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "high-standards-tree-care",
   "theme": "teal",
   "businessName": "High Standards Tree Care LLC",

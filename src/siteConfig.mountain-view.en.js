@@ -1,5 +1,6 @@
 export const siteConfigMountainViewEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mountain-view",
   "theme": "amber",
   "businessName": "Mountain View Tree Service",

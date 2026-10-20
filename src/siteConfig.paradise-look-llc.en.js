@@ -1,5 +1,6 @@
 export const siteConfigParadiseLookLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "paradise-look-llc",
   "theme": "teal",
   "businessName": "Paradise Look LLC",

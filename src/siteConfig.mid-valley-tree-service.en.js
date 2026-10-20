@@ -1,5 +1,6 @@
 export const siteConfigMidValleyTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mid-valley-tree-service",
   "theme": "teal",
   "businessName": "Mid-Valley Tree Service",

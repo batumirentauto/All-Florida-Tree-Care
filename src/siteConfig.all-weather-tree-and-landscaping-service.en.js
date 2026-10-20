@@ -1,5 +1,6 @@
 export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "all-weather-tree-and-landscaping-service",
   "theme": "sky",
   "businessName": "All Weather Tree and Landscaping Service, Inc.",

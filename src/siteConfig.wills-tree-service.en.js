@@ -1,5 +1,6 @@
 export const siteConfigWillsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wills-tree-service",
   "theme": "teal",
   "businessName": "Wills Tree Service",

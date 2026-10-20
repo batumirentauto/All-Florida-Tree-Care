@@ -1,5 +1,6 @@
 export const siteConfigPiedmontTreeExpertsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "piedmont-tree-experts",
   "theme": "emerald",
   "businessName": "Piedmont Tree Experts",

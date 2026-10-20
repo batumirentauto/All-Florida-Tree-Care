@@ -1,5 +1,6 @@
 export const siteConfigArborEliteEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "arbor-elite",
   "theme": "teal",
   "businessName": "Arbor Elite",

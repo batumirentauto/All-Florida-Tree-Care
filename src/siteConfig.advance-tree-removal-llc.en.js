@@ -1,5 +1,6 @@
 export const siteConfigAdvanceTreeRemovalLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "advance-tree-removal-llc",
   "theme": "sky",
   "businessName": "Advance Tree Removal LLC",

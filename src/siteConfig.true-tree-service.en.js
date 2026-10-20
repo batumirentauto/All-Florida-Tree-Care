@@ -1,5 +1,6 @@
 export const siteConfigTrueTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "true-tree-service",
   "theme": "amber",
   "businessName": "True Tree Service",

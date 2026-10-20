@@ -1,5 +1,6 @@
 export const siteConfigSpeerOutdoorSolutionsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "speer-outdoor-solutions",
   "theme": "emerald",
   "businessName": "Speer Outdoor Solutions",

@@ -1,5 +1,6 @@
 export const siteConfigGrandOaksTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "grand-oaks-tree-service",
   "theme": "amber",
   "businessName": "Grand Oaks Tree Service",

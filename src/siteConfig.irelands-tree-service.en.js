@@ -1,5 +1,6 @@
 export const siteConfigIrelandsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "irelands-tree-service",
   "theme": "sky",
   "businessName": "Ireland's Tree Service",

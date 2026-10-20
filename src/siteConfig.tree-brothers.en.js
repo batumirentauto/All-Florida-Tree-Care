@@ -1,5 +1,6 @@
 export const siteConfigTreeBrothersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-brothers",
   "theme": "teal",
   "businessName": "Tree Brothers Tree Service",

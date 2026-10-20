@@ -1,5 +1,6 @@
 export const siteConfigGermanTreeServiceIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "german-tree-service-inc",
   "theme": "amber",
   "businessName": "German Tree Service, Inc",

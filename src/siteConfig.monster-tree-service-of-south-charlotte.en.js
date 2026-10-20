@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfSouthCharlotteEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-south-charlotte",
   "theme": "emerald",
   "businessName": "Monster Tree Service of South Charlotte",

@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-texas-gulf-coast",
   "theme": "amber",
   "businessName": "Monster Tree Service of Texas Gulf Coast",

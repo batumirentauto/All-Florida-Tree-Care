@@ -1,5 +1,6 @@
 export const siteConfigJoelsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "joels-tree-service",
   "theme": "sky",
   "businessName": "Joel's tree service",

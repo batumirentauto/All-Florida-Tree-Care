@@ -1,5 +1,6 @@
 export const siteConfigWausonTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wauson-tree-service",
   "theme": "sky",
   "businessName": "Wauson Tree Service",

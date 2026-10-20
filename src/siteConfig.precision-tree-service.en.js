@@ -1,5 +1,6 @@
 export const siteConfigPrecisionTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "precision-tree-service",
   "theme": "teal",
   "businessName": "Precision Tree Service",

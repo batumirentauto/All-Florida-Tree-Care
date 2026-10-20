@@ -1,5 +1,6 @@
 export const siteConfigCutchinsTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "cutchins-tree-service",
   "theme": "teal",
   "businessName": "Cutchins Tree Service",

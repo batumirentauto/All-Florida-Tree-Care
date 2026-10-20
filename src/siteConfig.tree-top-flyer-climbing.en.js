@@ -1,5 +1,6 @@
 export const siteConfigTreeTopFlyerClimbingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-top-flyer-climbing",
   "theme": "amber",
   "businessName": "Tree Top Flyer Climbing Services, LLC",

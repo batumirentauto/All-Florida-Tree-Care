@@ -1,5 +1,6 @@
 export const siteConfigParamountTreeCompanyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "paramount-tree-company",
   "theme": "sky",
   "businessName": "Paramount Tree Company",

@@ -1,5 +1,6 @@
 export const siteConfigRrTreeServicesLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "rr-tree-services-llc",
   "theme": "teal",
   "businessName": "R&R Tree Services LLC",

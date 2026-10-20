@@ -1,5 +1,6 @@
 export const siteConfigHenriquezTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "henriquez-tree-service",
   "theme": "sky",
   "businessName": "Henriquez Tree Service",

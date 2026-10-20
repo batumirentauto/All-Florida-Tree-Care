@@ -1,5 +1,6 @@
 export const siteConfigMahaloTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mahalo-tree-service",
   "theme": "teal",
   "businessName": "Mahalo Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigTreecoJacksonvilleFlEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "treeco-jacksonville-fl",
   "theme": "emerald",
   "businessName": "Treeco Jacksonville FL",

@@ -1,5 +1,6 @@
 export const siteConfigHamiltonTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "hamilton-tree-service",
   "theme": "emerald",
   "businessName": "Hamilton Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigStumps2GoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "stumps-2-go",
   "theme": "emerald",
   "businessName": "Stumps 2 Go",

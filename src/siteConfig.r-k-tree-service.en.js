@@ -1,5 +1,6 @@
 export const siteConfigRKTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "r-k-tree-service",
   "theme": "amber",
   "businessName": "R & K Tree Service",

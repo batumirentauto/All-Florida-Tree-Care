@@ -1,5 +1,6 @@
 export const siteConfigHugemAndCutemEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "hugem-and-cutem",
   "theme": "amber",
   "businessName": "Hug'em and Cut'em Tree Service",

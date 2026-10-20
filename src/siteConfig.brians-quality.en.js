@@ -1,5 +1,6 @@
 export const siteConfigBriansQualityEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "brians-quality",
   "theme": "teal",
   "businessName": "Brian's Quality Tree Service",

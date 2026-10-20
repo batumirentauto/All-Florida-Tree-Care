@@ -1,5 +1,6 @@
 export const siteConfigTreeServiceAdvisorEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-service-advisor",
   "theme": "sky",
   "businessName": "Tree Service Advisor",

@@ -1,5 +1,6 @@
 export const siteConfigAcadiaTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "acadia-tree-care",
   "theme": "teal",
   "businessName": "Acadia Tree Care",

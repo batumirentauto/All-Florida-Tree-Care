@@ -1,5 +1,6 @@
 export const siteConfigHighPointTreeFenceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "high-point-tree-fence",
   "theme": "amber",
   "businessName": "High Point Tree & Fence",

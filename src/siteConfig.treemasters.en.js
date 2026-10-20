@@ -1,5 +1,6 @@
 export const siteConfigTreemastersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "treemasters",
   "theme": "sky",
   "businessName": "Treemasters",

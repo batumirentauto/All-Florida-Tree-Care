@@ -1,5 +1,6 @@
 export const siteConfigGardenOaksTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "garden-oaks-tree-service",
   "theme": "teal",
   "businessName": "Garden Oaks Tree Service LLC",

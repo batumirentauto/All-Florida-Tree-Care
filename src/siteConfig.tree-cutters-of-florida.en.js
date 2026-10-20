@@ -1,5 +1,6 @@
 export const siteConfigTreeCuttersOfFloridaEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-cutters-of-florida",
   "theme": "emerald",
   "businessName": "Tree Cutters of Florida",

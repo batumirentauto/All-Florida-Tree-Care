@@ -1,5 +1,6 @@
 export const siteConfigAmericanTreeSolutionsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "american-tree-solutions",
   "theme": "sky",
   "businessName": "American Tree Solutions",

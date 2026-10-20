@@ -1,5 +1,6 @@
 export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "heartwood-tree-care-asheville-nc",
   "theme": "teal",
   "businessName": "Heartwood Tree Care Asheville NC",

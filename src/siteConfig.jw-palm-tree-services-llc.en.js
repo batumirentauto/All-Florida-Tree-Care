@@ -1,5 +1,6 @@
 export const siteConfigJwPalmTreeServicesLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jw-palm-tree-services-llc",
   "theme": "sky",
   "businessName": "JW Palm Tree Services LLC",

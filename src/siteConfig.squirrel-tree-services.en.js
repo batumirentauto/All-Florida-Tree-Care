@@ -1,5 +1,6 @@
 export const siteConfigSquirrelTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "squirrel-tree-services",
   "theme": "amber",
   "businessName": "Squirrel Tree Services, Inc.",

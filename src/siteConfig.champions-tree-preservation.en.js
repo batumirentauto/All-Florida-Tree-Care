@@ -1,5 +1,6 @@
 export const siteConfigChampionsTreePreservationEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "champions-tree-preservation",
   "theme": "amber",
   "businessName": "Champions Tree Preservation",

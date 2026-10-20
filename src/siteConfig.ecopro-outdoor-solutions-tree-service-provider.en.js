@@ -1,5 +1,6 @@
 export const siteConfigEcoproOutdoorSolutionsTreeServiceProviderEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "ecopro-outdoor-solutions-tree-service-provider",
   "theme": "emerald",
   "businessName": "Ecopro Outdoor Solutions: Tree Service Provider",

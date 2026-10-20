@@ -1,5 +1,6 @@
 export const siteConfigWimberleyTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wimberley-tree-service",
   "theme": "emerald",
   "businessName": "Wimberley Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigGreenValleyTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "green-valley-tree-service",
   "theme": "sky",
   "businessName": "Green Valley Tree Service",

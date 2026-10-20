@@ -1,5 +1,6 @@
 export const siteConfigNorthernCraftTreeSolutionsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "northern-craft-tree-solutions",
   "theme": "emerald",
   "businessName": "Northern Craft Tree Solutions",

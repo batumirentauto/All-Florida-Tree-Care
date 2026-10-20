@@ -1,5 +1,6 @@
 export const siteConfigLeflerTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "lefler-tree-service",
   "theme": "amber",
   "businessName": "Lefler Tree Service",

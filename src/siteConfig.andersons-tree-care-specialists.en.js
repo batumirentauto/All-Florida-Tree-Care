@@ -1,5 +1,6 @@
 export const siteConfigAndersonsTreeCareSpecialistsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "andersons-tree-care-specialists",
   "theme": "amber",
   "businessName": "Anderson's Tree Care Specialists",

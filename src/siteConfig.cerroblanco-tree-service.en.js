@@ -1,5 +1,6 @@
 export const siteConfigCerroblancoTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "cerroblanco-tree-service",
   "theme": "emerald",
   "businessName": "Cerroblanco Tree Service LLC",

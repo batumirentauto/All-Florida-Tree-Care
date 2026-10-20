@@ -1,5 +1,6 @@
 export const siteConfigAForceOfNatureEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-force-of-nature",
   "theme": "emerald",
   "businessName": "A Force of Nature Tree Service LLC",

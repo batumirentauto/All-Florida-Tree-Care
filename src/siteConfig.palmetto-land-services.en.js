@@ -1,5 +1,6 @@
 export const siteConfigPalmettoLandServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "palmetto-land-services",
   "theme": "amber",
   "businessName": "Palmetto Land Services",

@@ -1,5 +1,6 @@
 export const siteConfigAsayTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "asay-tree-service",
   "theme": "amber",
   "businessName": "Asay Tree Service",

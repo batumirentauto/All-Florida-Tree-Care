@@ -1,5 +1,6 @@
 export const siteConfigTimberlandTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "timberland-tree-service",
   "theme": "teal",
   "businessName": "Timberland Tree Service",

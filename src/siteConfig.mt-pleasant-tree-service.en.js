@@ -1,5 +1,6 @@
 export const siteConfigMtPleasantTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "mt-pleasant-tree-service",
   "theme": "teal",
   "businessName": "Mt Pleasant Tree Service",

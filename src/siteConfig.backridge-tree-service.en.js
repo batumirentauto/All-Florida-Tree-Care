@@ -1,5 +1,6 @@
 export const siteConfigBackridgeTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "backridge-tree-service",
   "theme": "emerald",
   "businessName": "Backridge Tree Service",

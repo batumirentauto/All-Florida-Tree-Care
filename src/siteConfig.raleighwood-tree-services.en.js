@@ -1,5 +1,6 @@
 export const siteConfigRaleighwoodTreeServicesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "raleighwood-tree-services",
   "theme": "emerald",
   "businessName": "Raleighwood Tree Services, LLC",

@@ -1,5 +1,6 @@
 export const siteConfigGeorgiaTreeRemovalEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "georgia-tree-removal",
   "theme": "emerald",
   "businessName": "Georgia Tree Removal",

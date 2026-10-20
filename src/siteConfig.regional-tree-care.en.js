@@ -1,5 +1,6 @@
 export const siteConfigRegionalTreeCareEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "regional-tree-care",
   "theme": "emerald",
   "businessName": "Regional Tree Care",

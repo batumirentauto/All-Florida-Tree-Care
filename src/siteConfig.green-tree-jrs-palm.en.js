@@ -1,5 +1,6 @@
 export const siteConfigGreenTreeJrsPalmEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "green-tree-jrs-palm",
   "theme": "amber",
   "businessName": "GREEN TREE JRS PALM TREE SERVICE",

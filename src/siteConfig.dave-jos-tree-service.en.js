@@ -1,5 +1,6 @@
 export const siteConfigDaveJosTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "dave-jos-tree-service",
   "theme": "emerald",
   "businessName": "Dave & Jo's Tree Service",

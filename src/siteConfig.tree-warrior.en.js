@@ -1,5 +1,6 @@
 export const siteConfigTreeWarriorEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-warrior",
   "theme": "emerald",
   "businessName": "TREE WARRIOR",

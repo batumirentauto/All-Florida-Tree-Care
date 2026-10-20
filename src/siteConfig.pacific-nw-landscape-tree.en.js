@@ -1,5 +1,6 @@
 export const siteConfigPacificNwLandscapeTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pacific-nw-landscape-tree",
   "theme": "sky",
   "businessName": "Pacific NW Landscape & Tree Services",

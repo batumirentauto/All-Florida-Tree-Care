@@ -1,5 +1,6 @@
 export const siteConfigAndersTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "anders-tree-service",
   "theme": "emerald",
   "businessName": "Anders Tree Service",

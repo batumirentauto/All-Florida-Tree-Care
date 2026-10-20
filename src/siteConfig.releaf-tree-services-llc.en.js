@@ -1,5 +1,6 @@
 export const siteConfigReleafTreeServicesLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "releaf-tree-services-llc",
   "theme": "amber",
   "businessName": "Releaf Tree Services LLC",

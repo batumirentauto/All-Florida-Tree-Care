@@ -1,5 +1,6 @@
 export const siteConfigGrahamTreeServicesIncEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "graham-tree-services-inc",
   "theme": "emerald",
   "businessName": "Graham Tree Services Inc",

@@ -1,5 +1,6 @@
 export const siteConfigAkaTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "aka-tree-service",
   "theme": "emerald",
   "businessName": "AKA Tree Service",

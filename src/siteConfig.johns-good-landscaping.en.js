@@ -1,5 +1,6 @@
 export const siteConfigJohnsGoodLandscapingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "johns-good-landscaping",
   "theme": "emerald",
   "businessName": "John's Good Landscaping Services",

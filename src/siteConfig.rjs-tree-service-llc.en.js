@@ -1,5 +1,6 @@
 export const siteConfigRjsTreeServiceLlcEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "rjs-tree-service-llc",
   "theme": "sky",
   "businessName": "RJ's Tree Service, LLC",

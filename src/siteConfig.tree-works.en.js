@@ -1,5 +1,6 @@
 export const siteConfigTreeWorksEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-works",
   "theme": "teal",
   "businessName": "Tree Works",

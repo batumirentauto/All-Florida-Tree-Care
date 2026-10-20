@@ -1,5 +1,6 @@
 export const siteConfigTreeServiceSanDiegoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-service-san-diego",
   "theme": "emerald",
   "businessName": "Tree Service San Diego",

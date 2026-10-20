@@ -1,5 +1,6 @@
 export const siteConfigRealStumpBustersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "real-stump-busters",
   "theme": "teal",
   "businessName": "Real Stump Busters",

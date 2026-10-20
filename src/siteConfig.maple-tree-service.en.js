@@ -1,5 +1,6 @@
 export const siteConfigMapleTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "maple-tree-service",
   "theme": "sky",
   "businessName": "Maple Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigTampaTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tampa-tree-service",
   "theme": "amber",
   "businessName": "Tampa Tree Service",

@@ -1,5 +1,6 @@
 export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "modern-coastal-llc-landscaping-lawn-care-service",
   "theme": "amber",
   "businessName": "Modern Coastal LLC - Landscaping & Lawn Care Service",

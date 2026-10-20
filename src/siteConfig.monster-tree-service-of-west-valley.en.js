@@ -1,5 +1,6 @@
 export const siteConfigMonsterTreeServiceOfWestValleyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "monster-tree-service-of-west-valley",
   "theme": "teal",
   "businessName": "Monster Tree Service of West Valley",

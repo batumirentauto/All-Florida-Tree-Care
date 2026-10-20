@@ -1,5 +1,6 @@
 export const siteConfigCamposTreeServiceEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "campos-tree-service",
   "theme": "amber",
   "businessName": "Campos tree service",

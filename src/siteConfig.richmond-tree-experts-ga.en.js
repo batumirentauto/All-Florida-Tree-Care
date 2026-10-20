@@ -1,5 +1,6 @@
 export const siteConfigRichmondTreeExpertsGaEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "richmond-tree-experts-ga",
   "theme": "teal",
   "businessName": "Richmond Tree Experts GA",
