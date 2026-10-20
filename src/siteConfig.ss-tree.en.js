@@ -33,7 +33,7 @@ export const siteConfigSsTreeEn = {
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tecos/heavy-rigging_crop.jpg",
+        "image": "/images/ss-tree/photo_001.jpg",
         "label": "Heavy Sectional Rigging",
         "alt": "Arborist crew performing heavy sectional tree lowering with bull ropes"
       },

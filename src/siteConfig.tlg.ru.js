@@ -31,11 +31,7 @@ export const siteConfigTlgRu = {
     "ctaPrimary": "Позвонить ((984) 242-7561)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
-        "label": "Посекционный спил сосны",
-        "alt": "Арборист на сосне подготавливает ствол к посекционному спилу"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

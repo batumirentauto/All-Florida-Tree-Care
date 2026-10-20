@@ -32,11 +32,7 @@ export const siteConfigTlgEn = {
     "ctaPrimary": "Call Oliver (984) 242-7561",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
-        "label": "Controlled Sectional Takedown",
-        "alt": "Arborist climber rigging tall pine tree for sectional takedown"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

@@ -118,7 +118,7 @@ export const siteConfigHawkinberryEn = {
     {
       name: 'Platform Basket 18.90 Pro Rubber-Tracked Spider Lift',
       badge: 'Narrow Gate Specialist',
-      image: '/images/hawkinberry/photo_001.jpg',
+      image: '/images/hawkinberry/photo_006.jpg',
       specs: [
         { label: 'Working Height', value: '59.8 Ft (18.2 m) Reach' },
         { label: 'Transit Width', value: 'Retracts to under 36 Inches' },

@@ -31,11 +31,7 @@ export const siteConfigBartolomeRu = {
     "ctaPrimary": "Позвонить ((919) 356-3501)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/dump-truck-trailer_crop.jpg",
-        "label": "Собственный парк техники",
-        "alt": "Грузовой автомобиль и прицеп для вывоза древесины на объекте"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

@@ -32,11 +32,7 @@ export const siteConfigColumbusEn = {
     "ctaPrimary": "Call Russell (706) 580-2933",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
-        "label": "Controlled Pine Takedown",
-        "alt": "Arborist rigging tall pine tree for sectional takedown"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

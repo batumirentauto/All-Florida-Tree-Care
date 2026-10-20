@@ -32,11 +32,7 @@ export const siteConfigBigfootEn = {
     "ctaPrimary": "Call Dave (253) 293-1046",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tracked-grinder_crop.jpg",
-        "label": "Commercial Track Stump Grinder",
-        "alt": "Tracked commercial stump grinder operating in residential yard"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

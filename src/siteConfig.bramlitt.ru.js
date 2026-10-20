@@ -117,7 +117,7 @@ export const siteConfigBramlittRu = {
     {
       name: 'Набор инструмента для фигурной стрижки пальм',
       badge: 'Фирменный рисунок Diamond Cut',
-      image: '/images/bramlitt/photo_002.jpg',
+      image: '/images/bramlitt/photo_003.jpg',
       specs: [
         { label: 'Виды пальм', value: 'Сильвестра, Канарские финиковые, Меджул' },
         { label: 'Техника', value: 'Срезание черешков под углом с формовкой граней' },
@@ -128,7 +128,7 @@ export const siteConfigBramlittRu = {
     {
       name: 'Комплект диагностики состояния пальм',
       badge: 'Оценка после заморозков',
-      image: '/images/bramlitt/photo_001.jpg',
+      image: null,
       specs: [
         { label: 'Анализ', value: 'Проверка плотности ствола и точки роста' },
         { label: 'Здоровье', value: 'Выявление скрытой гнили под черешками' },
@@ -139,7 +139,7 @@ export const siteConfigBramlittRu = {
     {
       name: 'Специализированная высотная лестничная система',
       badge: 'Без контакта с фасадами',
-      image: '/images/bramlitt/photo_003.jpg',
+      image: null,
       specs: [
         { label: 'Высота', value: 'Многосекционная устойчивая лестница' },
         { label: 'Безопасность', value: 'Безопасный доступ вплотную к карнизам' },

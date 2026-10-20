@@ -32,11 +32,7 @@ export const siteConfigWoodfellasEn = {
     "ctaPrimary": "Call John (423) 270-4224",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/clean-ground-crew_crop.jpg",
-        "label": "Professional Ground Crew & Turf Care",
-        "alt": "Tree service ground crew performing clean turf sweep after tree takedown"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

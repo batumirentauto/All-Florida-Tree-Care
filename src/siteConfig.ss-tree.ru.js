@@ -32,7 +32,7 @@ export const siteConfigSsTreeRu = {
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tecos/heavy-rigging_crop.jpg",
+        "image": "/images/ss-tree/photo_001.jpg",
         "label": "Силовой такелаж стволов",
         "alt": "Арбористы производят спуск тяжелых частей ствола на тросах"
       },

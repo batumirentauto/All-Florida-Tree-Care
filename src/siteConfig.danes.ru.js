@@ -117,7 +117,7 @@ export const siteConfigDanesRu = {
     {
       name: 'Комплект валочного инструмента STIHL MS 500i',
       badge: 'Инжекторная мощность валки',
-      image: '/images/danes/photo_002.jpg',
+      image: '/images/danes/photo_001.jpg',
       specs: [
         { label: 'Инструмент', value: 'Бензопила STIHL MS 500i с электронным впрыском' },
         { label: 'Функция', value: 'Высокоточный направляющий рез и контроль недопила' },
@@ -128,7 +128,7 @@ export const siteConfigDanesRu = {
     {
       name: 'Высотный верхолазный комплект для работы на пихтах',
       badge: 'Работа на высоте от 25 метров',
-      image: '/images/danes/photo_005.jpg',
+      image: '/images/danes/photo_003.jpg',
       specs: [
         { label: 'Высота подъема', value: 'Пихты Дугласа высотой от 25 до 40+ метров' },
         { label: 'Оснастка', value: 'Стальной охват, гаффы и тормозные блоки' },
@@ -139,7 +139,7 @@ export const siteConfigDanesRu = {
     {
       name: 'Комплект для раскряжевки и заготовки дров',
       badge: 'Порядок на участке',
-      image: '/images/danes/photo_004.jpg',
+      image: '/images/danes/photo_006.jpg',
       specs: [
         { label: 'Продукт', value: 'Ровные дровяные чурки для печей и каминов' },
         { label: 'Утилизация', value: 'Измельчение в щепу или вывоз остатков' },

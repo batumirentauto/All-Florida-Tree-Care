@@ -118,7 +118,7 @@ export const siteConfigDanesEn = {
     {
       name: 'Precision Hinge Falling Package (STIHL MS 500i)',
       badge: 'Fuel-Injected Falling Power',
-      image: '/images/danes/photo_002.jpg',
+      image: '/images/danes/photo_001.jpg',
       specs: [
         { label: 'Equipment', value: 'STIHL MS 500i Injection Chainsaw' },
         { label: 'Capability', value: 'High-Torque Face-Cut & Hinge Control' },
@@ -129,7 +129,7 @@ export const siteConfigDanesEn = {
     {
       name: 'High-Altitude Spur Climbing & Rigging System',
       badge: '80+ Ft Conifer Specialist',
-      image: '/images/danes/photo_005.jpg',
+      image: '/images/danes/photo_003.jpg',
       specs: [
         { label: 'Working Height', value: '80 to 120+ Ft Douglas Firs' },
         { label: 'Gear', value: 'Steel-Core Flipline & Friction Lowering Blocks' },
@@ -140,7 +140,7 @@ export const siteConfigDanesEn = {
     {
       name: 'Pasture Timber Bucking & Firewood Processing Rig',
       badge: 'Neat Site Organization',
-      image: '/images/danes/photo_004.jpg',
+      image: '/images/danes/photo_006.jpg',
       specs: [
         { label: 'Output', value: 'Clean Firewood Rounds Bucked on Contour' },
         { label: 'Disposal', value: 'Chipping, Haul-Away or On-Site Seasoning' },

@@ -32,11 +32,7 @@ export const siteConfigBartolomeEn = {
     "ctaPrimary": "Call Bartolome (919) 356-3501",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/dump-truck-trailer_crop.jpg",
-        "label": "Commercial Tree Care Fleet",
-        "alt": "Commercial tree service truck and equipment trailer staged for residential job"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

@@ -32,7 +32,7 @@ export const siteConfigSuperiorRu = {
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tecos/climber-canopy_crop.jpg",
+        "image": "/images/superior/photo_001.jpg",
         "label": "Верхолазные работы в кроне",
         "alt": "Арборист на высоте закрепляет стропы в кроне большого дерева"
       },

@@ -117,7 +117,7 @@ export const siteConfigHawkinberryRu = {
     {
       name: 'Гусеничный спайдер-подъемник Platform Basket 18.90 Pro',
       badge: 'Проходит в садовые калитки',
-      image: '/images/hawkinberry/photo_001.jpg',
+      image: '/images/hawkinberry/photo_006.jpg',
       specs: [
         { label: 'Рабочая высота', value: '18,2 м (стрела с гуськом)' },
         { label: 'Ширина в сложенном виде', value: 'Менее 90 см' },

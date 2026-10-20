@@ -31,11 +31,7 @@ export const siteConfigSuttonsRu = {
     "ctaPrimary": "Позвонить ((910) 577-1111)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tracked-grinder_crop.jpg",
-        "label": "Гусеничная пнедробилка",
-        "alt": "Гусеничная пнедробилка измельчает пень на приусадебном участке"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

@@ -117,7 +117,7 @@ export const siteConfigTallyRu = {
     {
       name: 'Гидравлический мобильный автокран',
       badge: 'Вертикальный подъем над домами',
-      image: '/images/tally/photo_001.jpg',
+      image: '/images/tally/photo_006.jpg',
       specs: [
         { label: 'Назначение', value: 'Подъем срезанных крон через крыши зданий' },
         { label: 'Оснастка', value: 'Стальной трос и сертифицированные чалки' },
@@ -128,7 +128,7 @@ export const siteConfigTallyRu = {
     {
       name: 'Колесный погрузчик CAT с лесным захватом',
       badge: 'Работа на защитных щитах',
-      image: '/images/tally/photo_003.jpg',
+      image: '/images/tally/photo_005.jpg',
       specs: [
         { label: 'Навеска', value: 'Гидравлический бревнозахват высокой емкости' },
         { label: 'Защита дерна', value: 'Настил фанерных защитных щитов' },

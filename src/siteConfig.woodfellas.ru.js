@@ -31,11 +31,7 @@ export const siteConfigWoodfellasRu = {
     "ctaPrimary": "Позвонить ((423) 270-4224)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/clean-ground-crew_crop.jpg",
-        "label": "Чистовая уборка территории",
-        "alt": "Бригада арбористов производит уборку и очистку газона после спила дерева"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

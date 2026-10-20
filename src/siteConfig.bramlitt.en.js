@@ -118,7 +118,7 @@ export const siteConfigBramlittEn = {
     {
       name: 'Artisan Palm Sculpting & Shaving Kit',
       badge: 'Signature Diamond Pattern',
-      image: '/images/bramlitt/photo_002.jpg',
+      image: '/images/bramlitt/photo_003.jpg',
       specs: [
         { label: 'Species', value: 'Sylvester, Medjool & Phoenix Date Palms' },
         { label: 'Technique', value: 'Beveled Boot Shaving & Trunk Contouring' },
@@ -129,7 +129,7 @@ export const siteConfigBramlittEn = {
     {
       name: 'Pre-Cut Palm Assessment Unit',
       badge: 'Freeze & Decay Diagnosis',
-      image: '/images/bramlitt/photo_001.jpg',
+      image: null,
       specs: [
         { label: 'Evaluation', value: 'Trunk Density & Frond Growth Health' },
         { label: 'Safety', value: 'Identifies Underlying Palm Fungal Rot' },
@@ -140,7 +140,7 @@ export const siteConfigBramlittEn = {
     {
       name: 'Architectural Roof Clearance Ladder Rig',
       badge: 'Zero House Contact',
-      image: '/images/bramlitt/photo_003.jpg',
+      image: null,
       specs: [
         { label: 'Reach', value: 'Multi-Section Commercial Ladder Setup' },
         { label: 'Clearance', value: 'Safe Spacing From Shingles & Power Lines' },

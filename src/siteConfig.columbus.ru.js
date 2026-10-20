@@ -31,11 +31,7 @@ export const siteConfigColumbusRu = {
     "ctaPrimary": "Позвонить ((706) 580-2933)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tall-pine-takedown_crop.jpg",
-        "label": "Контролируемый спил сосны",
-        "alt": "Арборист на сосне подготавливает ствол к посекционному спилу"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

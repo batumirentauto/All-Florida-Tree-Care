@@ -33,7 +33,7 @@ export const siteConfigSuperiorEn = {
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
       "main": {
-        "image": "/images/tecos/climber-canopy_crop.jpg",
+        "image": "/images/superior/photo_001.jpg",
         "label": "High Canopy Arborist Rigging",
         "alt": "Arborist climber in safety saddle rigging limbs inside mature hardwood canopy"
       },

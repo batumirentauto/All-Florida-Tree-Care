@@ -118,7 +118,7 @@ export const siteConfigTallyEn = {
     {
       name: 'Hydraulic Mobile Boom Crane',
       badge: 'Aerial Rigging Over Structures',
-      image: '/images/tally/photo_001.jpg',
+      image: '/images/tally/photo_006.jpg',
       specs: [
         { label: 'Application', value: 'Vertical Canopy Pick Over Residential Roofs' },
         { label: 'Rigging', value: 'Steel Hoist Cable & Certified Chokers' },
@@ -129,7 +129,7 @@ export const siteConfigTallyEn = {
     {
       name: 'CAT Compact Wheel Loader with Log Grapple',
       badge: 'Ground Transport on Lawn Mats',
-      image: '/images/tally/photo_003.jpg',
+      image: '/images/tally/photo_005.jpg',
       specs: [
         { label: 'Attachment', value: 'High-Capacity Hydraulic Log Grapple' },
         { label: 'Turf Shield', value: 'Plywood & Composite Ground Protection Mats' },

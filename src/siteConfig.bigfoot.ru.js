@@ -31,11 +31,7 @@ export const siteConfigBigfootRu = {
     "ctaPrimary": "Позвонить ((253) 293-1046)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tracked-grinder_crop.jpg",
-        "label": "Гусеничная пнедробилка",
-        "alt": "Гусеничная пнедробилка измельчает пень на приусадебном участке"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

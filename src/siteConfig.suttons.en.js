@@ -32,11 +32,7 @@ export const siteConfigSuttonsEn = {
     "ctaPrimary": "Call Mr. (910) 577-1111",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tecos/tracked-grinder_crop.jpg",
-        "label": "Track Stump Grinder Unit",
-        "alt": "Commercial track stump grinder operating in residential yard"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
