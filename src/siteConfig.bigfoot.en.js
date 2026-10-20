@@ -1,5 +1,6 @@
 export const siteConfigBigfootEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "bigfoot",
   "theme": "sky",
   "businessName": "Bigfoot tree care",

@@ -1,5 +1,6 @@
 export const siteConfigTdTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "td-tree",
   "theme": "teal",
   "businessName": "T & D Professional Tree Removal",

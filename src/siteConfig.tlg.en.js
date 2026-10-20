@@ -1,5 +1,6 @@
 export const siteConfigTlgEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tlg",
   "theme": "amber",
   "businessName": "TLG Tree Service LLC",

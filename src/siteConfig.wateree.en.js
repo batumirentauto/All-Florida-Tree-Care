@@ -1,5 +1,6 @@
 export const siteConfigWatereeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "wateree",
   "theme": "amber",
   "businessName": "Wateree Tree RemovalLLC",

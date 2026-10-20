@@ -1,5 +1,6 @@
 export const siteConfigTreeWisemenEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tree-wisemen",
   "theme": "emerald",
   "businessName": "Tree Wisemen Upstate",

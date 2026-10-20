@@ -1,5 +1,6 @@
 export const siteConfigProBeaverEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "pro-beaver",
   "theme": "emerald",
   "businessName": "Pro Beaver Tree Service",

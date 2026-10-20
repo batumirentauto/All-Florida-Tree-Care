@@ -1,5 +1,6 @@
 export const siteConfigJsiEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "jsi",
   "theme": "emerald",
   "businessName": "JSI Tree Service LLC",

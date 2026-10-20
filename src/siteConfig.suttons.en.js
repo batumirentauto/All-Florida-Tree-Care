@@ -1,5 +1,6 @@
 export const siteConfigSuttonsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "suttons",
   "theme": "emerald",
   "businessName": "Sutton's Tree Service Inc",

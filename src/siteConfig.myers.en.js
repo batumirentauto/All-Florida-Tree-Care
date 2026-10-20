@@ -1,5 +1,6 @@
 export const siteConfigMyersEn = {
   lang: 'en',
+  hideTopBar: true,
   businessName: 'Patrick Myers Tree Service',
   legalName: 'Patrick Myers Tree Service LLC',
   shortName: 'Patrick Myers',

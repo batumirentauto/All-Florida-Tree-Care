@@ -1,5 +1,6 @@
 export const siteConfigLmTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "lm-tree",
   "theme": "teal",
   "businessName": "L&M Tree Service",

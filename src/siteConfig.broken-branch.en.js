@@ -1,5 +1,6 @@
 export const siteConfigBrokenBranchEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "broken-branch",
   "theme": "emerald",
   "businessName": "Broken Branch Tree Removal",

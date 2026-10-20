@@ -1,5 +1,6 @@
 export const siteConfigPanhandleEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "panhandle",
   "theme": "sky",
   "businessName": "Panhandle Tree Pros LLC",

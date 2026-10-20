@@ -1,5 +1,6 @@
 export const siteConfigAlwaysGrindingEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "always-grinding",
   "theme": "sky",
   "businessName": "Always Grinding Tree & Stump Removal",

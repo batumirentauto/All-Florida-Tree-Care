@@ -1,5 +1,6 @@
 export const siteConfigBramlittEn = {
   lang: 'en',
+  hideTopBar: true,
   slug: 'bramlitt',
   theme: 'teal',
   businessName: 'Bramlitt Tree Service',

@@ -1,5 +1,6 @@
 export const siteConfigAffordableEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "affordable",
   "theme": "teal",
   "businessName": "Affordable Tree and Palm Tree Services",

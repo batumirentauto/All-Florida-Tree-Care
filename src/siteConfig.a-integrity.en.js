@@ -1,5 +1,6 @@
 export const siteConfigAIntegrityEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "a-integrity",
   "theme": "emerald",
   "businessName": "A Integrity Tree Surgeons Inc",

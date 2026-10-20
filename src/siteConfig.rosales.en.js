@@ -1,5 +1,6 @@
 export const siteConfigRosalesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "rosales",
   "theme": "sky",
   "businessName": "M Rosales Tree Service",

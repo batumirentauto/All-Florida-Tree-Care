@@ -1,5 +1,6 @@
 export const siteConfigHolcombEn = {
   lang: 'en',
+  hideTopBar: true,
   businessName: 'Holcomb Timber & Tree Services',
   legalName: 'Holcomb Timber & Tree Services LLC',
   shortName: 'Holcomb Tree',

@@ -1,5 +1,6 @@
 export const siteConfigNorvellsEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "norvells",
   "theme": "amber",
   "businessName": "Norvell's Tree & Landscape Services LLC",

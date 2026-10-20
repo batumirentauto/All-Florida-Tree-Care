@@ -1,5 +1,6 @@
 export const siteConfigSuperiorEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "superior",
   "theme": "sky",
   "businessName": "Superior Tree Service aka little tree lady",

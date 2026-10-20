@@ -1,5 +1,6 @@
 export const siteConfigMaldonadoEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "maldonado",
   "theme": "emerald",
   "businessName": "Maldonado Tree Service",

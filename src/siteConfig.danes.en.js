@@ -1,5 +1,6 @@
 export const siteConfigDanesEn = {
   lang: 'en',
+  hideTopBar: true,
   slug: 'danes',
   theme: 'emerald',
   businessName: 'Dane’s Tree & Excavation',

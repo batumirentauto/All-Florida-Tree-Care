@@ -1,5 +1,6 @@
 export const siteConfigBestForLessEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "best-for-less",
   "theme": "amber",
   "businessName": "Best For Less Tree Care",

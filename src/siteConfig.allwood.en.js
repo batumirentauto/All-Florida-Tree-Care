@@ -1,5 +1,6 @@
 export const siteConfigAllwoodEn = {
   lang: 'en',
+  hideTopBar: true,
   slug: 'allwood',
   theme: 'emerald',
   businessName: 'Allwood Tree Service',

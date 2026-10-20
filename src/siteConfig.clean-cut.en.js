@@ -1,5 +1,6 @@
 export const siteConfigCleanCutEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "clean-cut",
   "theme": "teal",
   "businessName": "Clean Cut Tree Service",

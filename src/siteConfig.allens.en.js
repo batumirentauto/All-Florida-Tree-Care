@@ -1,5 +1,6 @@
 export const siteConfigAllensEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "allens",
   "theme": "amber",
   "businessName": "Allen's Tree Service",

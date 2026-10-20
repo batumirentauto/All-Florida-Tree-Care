@@ -1,5 +1,6 @@
 export const siteConfigFamilyTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "family-tree",
   "theme": "emerald",
   "businessName": "Family Tree Service LLC",

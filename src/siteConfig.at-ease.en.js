@@ -1,5 +1,6 @@
 export const siteConfigAtEaseEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "at-ease",
   "theme": "emerald",
   "businessName": "At Ease Land & Tree Services LLC",

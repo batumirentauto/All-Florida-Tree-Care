@@ -1,5 +1,6 @@
 export const siteConfigBartolomeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "bartolome",
   "theme": "teal",
   "businessName": "Bartolome's Tree service",

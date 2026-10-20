@@ -1,5 +1,6 @@
 export const siteConfigWoodfellasEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "woodfellas",
   "theme": "sky",
   "businessName": "WoodFellas Tree Service",

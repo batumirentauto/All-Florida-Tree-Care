@@ -1,5 +1,6 @@
 export const siteConfigFurstieEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "furstie",
   "theme": "teal",
   "businessName": "Furstie Tree & Stump, LLC",

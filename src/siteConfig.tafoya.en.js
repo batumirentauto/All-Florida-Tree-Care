@@ -1,5 +1,6 @@
 export const siteConfigTafoyaEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "tafoya",
   "theme": "sky",
   "businessName": "Tafoya's Tree Service & Stump Grinding",

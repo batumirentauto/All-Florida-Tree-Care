@@ -1,5 +1,6 @@
 export const siteConfigStonesEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "stones",
   "theme": "amber",
   "businessName": "Stone's Tree Service and Stump Grinding",

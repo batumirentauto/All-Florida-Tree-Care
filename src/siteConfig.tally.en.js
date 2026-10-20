@@ -1,5 +1,6 @@
 export const siteConfigTallyEn = {
   lang: 'en',
+  hideTopBar: true,
   slug: 'tally',
   theme: 'amber',
   businessName: 'Tally Trees',

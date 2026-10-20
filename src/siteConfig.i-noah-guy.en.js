@@ -1,5 +1,6 @@
 export const siteConfigINoahGuyEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "i-noah-guy",
   "theme": "sky",
   "businessName": "I NOAH GUY TREE & OUTDOORS LLC",

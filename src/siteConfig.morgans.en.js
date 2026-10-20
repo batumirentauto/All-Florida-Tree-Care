@@ -1,5 +1,6 @@
 export const siteConfigMorgansEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "morgans",
   "theme": "teal",
   "businessName": "Morgan's Tree & Stump Removal",

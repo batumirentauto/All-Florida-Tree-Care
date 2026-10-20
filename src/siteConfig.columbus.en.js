@@ -1,5 +1,6 @@
 export const siteConfigColumbusEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "columbus",
   "theme": "amber",
   "businessName": "Columbus Georgia Tree Removal",

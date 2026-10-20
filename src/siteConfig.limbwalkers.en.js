@@ -1,5 +1,6 @@
 export const siteConfigLimbwalkersEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "limbwalkers",
   "theme": "amber",
   "businessName": "Limbwalkers Tree & Crane Service",

@@ -1,5 +1,6 @@
 export const siteConfigSsTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "ss-tree",
   "theme": "teal",
   "businessName": "S & S Tree Service",

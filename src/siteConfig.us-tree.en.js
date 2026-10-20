@@ -1,5 +1,6 @@
 export const siteConfigUsTreeEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "us-tree",
   "theme": "teal",
   "businessName": "US TREE REMOVAL",

@@ -1,5 +1,6 @@
 export const siteConfigEatonEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "eaton",
   "theme": "sky",
   "businessName": "Eaton Tree Removal",

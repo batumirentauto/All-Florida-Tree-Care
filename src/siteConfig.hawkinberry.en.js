@@ -1,5 +1,6 @@
 export const siteConfigHawkinberryEn = {
   lang: 'en',
+  hideTopBar: true,
   slug: 'hawkinberry',
   theme: 'sky',
   businessName: 'Hawkinberry Tree Company',

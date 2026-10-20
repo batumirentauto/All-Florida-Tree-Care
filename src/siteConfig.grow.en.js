@@ -1,5 +1,6 @@
 export const siteConfigGrowEn = {
   "lang": "en",
+  "hideTopBar": true,
   "slug": "grow",
   "theme": "amber",
   "businessName": "G.R.O.W. Outdoor Services, Inc",
