@@ -202,8 +202,10 @@ def load_new_scrape_original_messages():
         import add_outreach_messages
         res = {}
         for cname, msg in add_outreach_messages.MESSAGES.items():
-            res[clean_key(cname)] = msg
-            res[cname.strip()] = msg
+            clean_m = msg.replace('\n\nReply STOP to opt out', '').replace('Reply STOP to opt out', '').strip()
+            clean_m = clean_m.replace('mobile site concept', 'mobile showcase concept').replace('site concept', 'showcase concept').replace('mobile site', 'showcase')
+            res[clean_key(cname)] = clean_m
+            res[cname.strip()] = clean_m
         return res
     except Exception as e:
         print("Error loading original messages from add_outreach_messages.py:", e)
@@ -313,7 +315,7 @@ def extract_owner(raw_name, lead_item, config_item):
     return None
 
 def build_original_message(raw_name, rating, city, owner_name, proof, fleet, benefit):
-    """Build the original message format (with preview attached)."""
+    """Build the original message format (with preview attached) using showcase terminology without STOP opt-out."""
     clean_biz = clean_biz_name(raw_name)
     try:
         r_val = float(rating)
@@ -327,14 +329,13 @@ def build_original_message(raw_name, rating, city, owner_name, proof, fleet, ben
     greeting = f"Hey {owner_name}," if owner_name else f"Hey {clean_biz} team,"
 
     p1 = f"{greeting} saw {rating_phrase} {location_phrase} and how much locals value {proof}."
-    p2 = f"Put together a fast mobile site concept for {clean_biz} featuring your {fleet}, {benefit}, and a built-in 10-second price estimator for homeowners (preview attached)."
+    p2 = f"Put together a fast mobile showcase concept for {clean_biz} featuring your {fleet}, {benefit}, and a built-in 10-second price estimator for homeowners (preview attached)."
     p3 = "Zero pressure or cost to take a look. If you'd like to check out the full live demo on your phone, just reply 'yes' and I’ll send over the link! — George"
-    p4 = "Reply STOP to opt out"
 
-    return f"{p1}\n\n{p2}\n\n{p3}\n\n{p4}"
+    return f"{p1}\n\n{p2}\n\n{p3}"
 
 def build_4_messages(raw_name, rating, city, owner_name, fleet):
-    """Build the 4 new adapted options without links or attachments."""
+    """Build the 4 new adapted options using showcase terminology without links or STOP opt-outs."""
     clean_biz = clean_biz_name(raw_name)
     try:
         r_val = float(rating)
@@ -357,44 +358,40 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
         g3 = f"Hello {clean_biz},"
         g4 = f"Greetings {clean_biz} team,"
 
-    # OPTION 1: Complete Turnkey Website
+    # OPTION 1: Complete Custom Showcase (Готовая витрина)
     msg1 = (
         f"{g1}\n\n"
-        f"Put together a complete, turnkey website for {clean_biz}. I pulled in your real equipment photos, "
+        f"Put together a complete, custom showcase for {clean_biz}. I pulled in your real equipment photos, "
         f"verified service areas {loc_phrase}, and {rating_phrase}. "
-        f"The site is fully responsive — loads blazing fast and looks sharp whether homeowners visit on a smartphone or a desktop computer.\n\n"
-        f"Want me to send over the link to check it out? — George\n\n"
-        f"Reply STOP to opt out"
+        f"The showcase is fully responsive — loads blazing fast and looks sharp whether homeowners visit on a smartphone or a desktop computer.\n\n"
+        f"Want me to send over the link to check it out? — George"
     )
 
-    # OPTION 2: Conversion & Instant Estimator
+    # OPTION 2: Conversion & Instant Estimator (Конверсия и смета)
     msg2 = (
         f"{g2}\n\n"
         f"Saw your tree service profile {loc_phrase} — you have a stellar reputation, but high-ticket commercial and residential jobs "
-        f"need a modern web presence to close fast. Built a full interactive website for {clean_biz} featuring a 10-second price estimator, "
+        f"need a modern showcase to close fast. Built a full interactive showcase for {clean_biz} featuring a 10-second price estimator, "
         f"your heavy equipment specs, and instant quote booking on any device.\n\n"
-        f"Can I send the link over to take a quick look? Zero cost or obligation. — George\n\n"
-        f"Reply STOP to opt out"
+        f"Can I send the link over to take a quick look? Zero cost or obligation. — George"
     )
 
-    # OPTION 3: Direct Quick Question
+    # OPTION 3: Direct Quick Question (Проектная витрина)
     msg3 = (
         f"{g3}\n\n"
-        f"Do you have a quick minute? My team and I built a brand-new, full-scale website for {clean_biz} — complete with spam-protected "
+        f"Do you have a quick minute? My team and I built a brand-new project showcase for {clean_biz} — complete with spam-protected "
         f"quote requests, live project highlights, and seamless layout on both mobile phones and desktop PCs. "
         f"No sales pitch or strings attached, just wanted to share what we built for you.\n\n"
-        f"Where is best to send the link — right here or by email? — George\n\n"
-        f"Reply STOP to opt out"
+        f"Where is best to send the link — right here or by email? — George"
     )
 
-    # OPTION 4: Equipment & Property Protection
+    # OPTION 4: Equipment & Property Protection (Витрина техники и безопасности)
     msg4 = (
         f"{g4}\n\n"
-        f"Built a dedicated, high-performance website specifically for {clean_biz} serving {loc_city}. "
+        f"Built a dedicated, high-performance showcase specifically for {clean_biz} serving {loc_city}. "
         f"We focused heavily on eliminating homeowner fears: showcasing your {fleet}, controlled rigging over rooflines, "
-        f"and guaranteed spotless turf cleanups. The page runs lightning-fast across all phones, tablets, and desktop monitors.\n\n"
-        f"Would you be open to taking a quick look? — George\n\n"
-        f"Reply STOP to opt out"
+        f"and guaranteed spotless turf cleanups. The showcase runs lightning-fast across all phones, tablets, and desktop monitors.\n\n"
+        f"Would you be open to taking a quick look? — George"
     )
 
     return msg1, msg2, msg3, msg4
@@ -455,7 +452,7 @@ def process_table(is_new_scrape, base_dir, site_configs, leads_data, original_ns
 
     message_columns = [
         'Сообщение для рассылки',
-        'Сообщение 1 (Готовый сайт)',
+        'Сообщение 1 (Готовая витрина)',
         'Сообщение 2 (Конверсия и смета)',
         'Сообщение 3 (Прямой вопрос)',
         'Сообщение 4 (Техника и безопасность)'
@@ -512,7 +509,7 @@ def process_table(is_new_scrape, base_dir, site_configs, leads_data, original_ns
         # Override/Set created page url
         row_dict['Ссылка на созданную страницу'] = page_url
         row_dict['Сообщение для рассылки'] = orig_msg
-        row_dict['Сообщение 1 (Готовый сайт)'] = m1
+        row_dict['Сообщение 1 (Готовая витрина)'] = m1
         row_dict['Сообщение 2 (Конверсия и смета)'] = m2
         row_dict['Сообщение 3 (Прямой вопрос)'] = m3
         row_dict['Сообщение 4 (Техника и безопасность)'] = m4
