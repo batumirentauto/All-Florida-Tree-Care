@@ -2,25 +2,18 @@
 """
 scripts/add_multi_outreach_messages.py
 
-Generates 4 personalized English outreach messages (Option 1, 2, 3, 4) for every company
-in both:
+Updates both CSV and XLSX tables in:
   1. /Users/workpc/Documents/google-maps-scraper/output/new_scrape/
   2. /Users/workpc/Documents/google-maps-scraper/output/tree_leads/
 
-Messages contain:
-  - NO links
-  - NO attachments / media mentions
-  - Full desktop & mobile responsiveness emphasis
-  - Authentic owner names or dynamic company greetings
-  - City / Area, rating, and verified equipment
-  - Low-friction conversational CTAs
-  - Compliant 'Reply STOP to opt out' footer
-
-Updates both companies.csv and companies.xlsx in both folders with 4 dedicated columns:
-  - 'Сообщение 1 (Готовый сайт)'
-  - 'Сообщение 2 (Конверсия и смета)'
-  - 'Сообщение 3 (Прямой вопрос)'
-  - 'Сообщение 4 (Техника и безопасность)'
+Key updates:
+  - Adds 'Ссылка на созданную страницу' (URL to our created site for each company).
+  - Restores 'Сообщение для рассылки' (the previous original outreach message).
+  - Keeps all 4 new adapted options without links/media:
+      * 'Сообщение 1 (Готовый сайт)'
+      * 'Сообщение 2 (Конверсия и смета)'
+      * 'Сообщение 3 (Прямой вопрос)'
+      * 'Сообщение 4 (Техника и безопасность)'
 """
 
 import os
@@ -32,10 +25,10 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# Paths
 WORKSPACE = "/Users/workpc/Documents/All Florida Tree Care"
 NEW_SCRAPE_DIR = "/Users/workpc/Documents/google-maps-scraper/output/new_scrape"
 TREE_LEADS_DIR = "/Users/workpc/Documents/google-maps-scraper/output/tree_leads"
+BASE_SITE_URL = "https://all-florida-tree-care-production.up.railway.app"
 
 US_STATE_CODES = {
     'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
@@ -56,6 +49,68 @@ NON_HUMAN_NAMES = {
     'champion', 'superior', 'precision', 'premier', 'elite', 'budget', 'local',
     'southern', 'american', 'true', 'ultimate', 'custom', 'classic', 'first',
     'national', 'metro', 'city', 'state', 'county', 'commercial', 'residential'
+}
+
+# Explicit mapping for new_scrape (43 companies)
+NEW_SCRAPE_SLUG_MAP = {
+    'a integrity tree surgeons inc': 'a-integrity',
+    'affordable tree and palm tree services': 'affordable',
+    'allen\'s tree service': 'allens',
+    'allens tree service': 'allens',
+    'allwood tree service': 'allwood',
+    'always grinding tree & stump removal': 'always-grinding',
+    'at ease land & tree services llc': 'at-ease',
+    'bartolome\'s tree service': 'bartolome',
+    'bartolomes tree service': 'bartolome',
+    'best for less tree care': 'best-for-less',
+    'bigfoot tree care': 'bigfoot',
+    'bramlitt tree service llc': 'bramlitt',
+    'broken branch tree removal': 'broken-branch',
+    'clean cut tree service': 'clean-cut',
+    'columbus georgia tree removal': 'columbus',
+    'dane’s tree & excavation service': 'danes',
+    'dane\'s tree & excavation service': 'danes',
+    'danes tree & excavation service': 'danes',
+    'eaton tree removal': 'eaton',
+    'family tree service llc': 'family-tree',
+    'furstie tree & stump, llc': 'furstie',
+    'furstie tree & stump llc': 'furstie',
+    'g.r.o.w. outdoor services, inc': 'grow',
+    'g.r.o.w. outdoor services inc': 'grow',
+    'grow outdoor services inc': 'grow',
+    'hawkinberry tree company': 'hawkinberry',
+    'holcomb timber & tree services llc': 'holcomb',
+    'i noah guy tree & outdoors llc': 'i-noah-guy',
+    'jsi tree service llc': 'jsi',
+    'l&m tree service': 'lm-tree',
+    'limbwalkers tree & crane service': 'limbwalkers',
+    'm rosales tree service': 'rosales',
+    'maldonado tree service': 'maldonado',
+    'morgan\'s tree & stump removal': 'morgans',
+    'morgans tree & stump removal': 'morgans',
+    'norvell\'s tree & landscape services llc': 'norvells',
+    'norvells tree & landscape services llc': 'norvells',
+    'panhandle tree pros llc': 'panhandle',
+    'patrick myers tree service llc': 'myers',
+    'pro beaver tree service': 'pro-beaver',
+    's & s tree service': 'ss-tree',
+    'ss tree service': 'ss-tree',
+    'stone\'s tree service and stump grinding': 'stones',
+    'stones tree service and stump grinding': 'stones',
+    'superior tree service aka little tree lady': 'superior',
+    'sutton\'s tree service inc': 'suttons',
+    'suttons tree service inc': 'suttons',
+    't & d professional tree removal': 'td-tree',
+    'td professional tree removal': 'td-tree',
+    'tafoya\'s tree service & stump grinding': 'tafoya',
+    'tafoyas tree service & stump grinding': 'tafoya',
+    'tally trees': 'tally',
+    'tlg tree service llc': 'tlg',
+    'tree wisemen upstate': 'tree-wisemen',
+    'us tree removal': 'us-tree',
+    'wateree tree removalllc': 'wateree',
+    'wateree tree removal llc': 'wateree',
+    'woodfellas tree service': 'woodfellas'
 }
 
 MANUAL_LOCATION_OVERRIDES = {
@@ -98,14 +153,29 @@ def load_site_configs():
     for c in configs:
         try:
             txt = open(c, encoding='utf-8').read()
-            m = re.search(r'export const \w+ = (\{.*?\});?\s*$', txt, re.DOTALL)
-            if m:
-                d = json.loads(m.group(1))
-                bname = d.get('businessName', '')
-                if bname:
-                    data[clean_key(bname)] = d
-                if d.get('slug'):
-                    data[d['slug']] = d
+            bname_m = re.search(r'businessName:\s*[\'\"](.*?)[\'\"]', txt)
+            legal_m = re.search(r'legalName:\s*[\'\"](.*?)[\'\"]', txt)
+            owner_m = re.search(r'ownerFirstName:\s*[\'\"](.*?)[\'\"]', txt)
+            slug_m = re.search(r'slug:\s*[\'\"](.*?)[\'\"]', txt)
+            city_m = re.search(r'city:\s*[\'\"](.*?)[\'\"]', txt)
+
+            fn_slug = os.path.basename(c).replace('siteConfig.', '').replace('.en.js', '')
+            slug = slug_m.group(1) if slug_m else fn_slug
+
+            entry = {
+                'slug': slug,
+                'businessName': bname_m.group(1) if bname_m else '',
+                'legalName': legal_m.group(1) if legal_m else '',
+                'ownerFirstName': owner_m.group(1) if owner_m else '',
+                'city': city_m.group(1) if city_m else ''
+            }
+
+            if entry['businessName']:
+                data[clean_key(entry['businessName'])] = entry
+            if entry['legalName']:
+                data[clean_key(entry['legalName'])] = entry
+            data[clean_key(slug)] = entry
+            data[clean_key(fn_slug)] = entry
         except Exception:
             pass
     return data
@@ -125,35 +195,19 @@ def load_leads_data():
         print("Error parsing leadsData.ts:", e)
         return {}
 
-def load_new_scrape_overrides():
-    """Load hand-curated data from add_outreach_messages.py for new_scrape."""
+def load_new_scrape_original_messages():
     try:
         import sys
         sys.path.append(os.path.join(WORKSPACE, 'scripts'))
         import add_outreach_messages
-        owners = {}
-        cities = {}
-        fleets = {}
+        res = {}
         for cname, msg in add_outreach_messages.MESSAGES.items():
-            ck = clean_key(cname)
-            # owner
-            m_own = re.match(r'^Hey\s+([A-Za-z]+),', msg)
-            if m_own and m_own.group(1).lower() not in ['team', 'there', 'all']:
-                owners[ck] = m_own.group(1)
-            # city
-            m_ct = re.search(r'(?:in|across)\s+([A-Za-z\s]+?)(?:\s+and\b|,)', msg)
-            if m_ct:
-                cities[ck] = m_ct.group(1).strip()
-            # fleet
-            m_fl = re.search(r'featuring your\s+([^,]+(?:,[^,]+)?),\s*(?:and\s+)?spotless', msg)
-            if not m_fl:
-                m_fl = re.search(r'featuring your\s+(.+?),\s*and a built-in', msg)
-            if m_fl:
-                fleets[ck] = m_fl.group(1).strip()
-        return owners, cities, fleets
+            res[clean_key(cname)] = msg
+            res[cname.strip()] = msg
+        return res
     except Exception as e:
-        print("Notice: could not load new_scrape overrides:", e)
-        return {}, {}, {}
+        print("Error loading original messages from add_outreach_messages.py:", e)
+        return {}
 
 def find_company_folder(base_dir, raw_name):
     norm = re.sub(r'[:|/\\?*\"<>]', ' ', raw_name)
@@ -187,31 +241,46 @@ def analyze_reviews_and_equipment(folder_path, config_item):
     has_tight = any(w in reviews_text for w in ['tight', 'fence', 'roof', 'power', 'close', 'lean', 'hazard'])
     has_palm = 'palm' in reviews_text
 
+    # Proof
     if has_crane:
+        proof = "how safely your crew coordinates hydraulic crane picks to hoist massive canopy branches right over tight rooflines"
         fleet = "heavy crane rigging capabilities"
     elif has_spider:
+        proof = "that your compact aerial lift maneuvers through tight residential gates without disturbing lawn turf"
         fleet = "compact spider lift access"
     elif has_storm:
+        proof = "how rapidly your emergency crew mobilizes to clear storm hazards and hung-up limbs safely"
         fleet = "24/7 emergency dispatch and heavy timber rigging"
     elif has_tight and has_clean:
+        proof = "how smoothly your crew executes precision takedowns in tight backyard spaces and leaves properties spotless"
         fleet = "controlled sectional lowering gear"
     elif has_stump:
+        proof = "that your commercial stump milling grinds deep root balls below grade with total clean backfilling"
         fleet = "high-horsepower stump grinder and chipping fleet"
     elif has_palm:
+        proof = "your crew's precision palm trimming and hazardous frond clearing with zero damage to underlying landscape"
         fleet = "specialized palm and aerial bucket fleet"
     else:
+        proof = "how smoothly your team handles hazardous tree removals and leaves residential yards immaculately cleaned"
         fleet = "commercial rigging equipment and chipping fleet"
 
-    return fleet
+    # Benefit
+    if has_clean:
+        benefit = "spotless yard cleanups"
+    elif has_stump:
+        benefit = "subsurface stump milling"
+    elif has_storm:
+        benefit = "24/7 storm damage dispatch"
+    else:
+        benefit = "zero-turf-damage lawn protection"
 
-def extract_city(raw_name, addr, lead_item, config_item, ns_cities):
+    return proof, fleet, benefit
+
+def extract_city(raw_name, addr, lead_item, config_item):
     ck = clean_key(raw_name)
-    if ck in ns_cities and ns_cities[ck]:
-        return ns_cities[ck]
     if ck in MANUAL_LOCATION_OVERRIDES:
         return MANUAL_LOCATION_OVERRIDES[ck][0]
     
-    # From address string
     if addr and addr.strip() != 'Не указан':
         m = re.search(r',\s*([^,]+),\s*([A-Z]{2})\s+(\d{5})', addr)
         if m and m.group(2) in US_STATE_CODES:
@@ -230,11 +299,7 @@ def extract_city(raw_name, addr, lead_item, config_item, ns_cities):
 
     return 'Florida'
 
-def extract_owner(raw_name, lead_item, config_item, ns_owners):
-    ck = clean_key(raw_name)
-    if ck in ns_owners and ns_owners[ck]:
-        return ns_owners[ck]
-
+def extract_owner(raw_name, lead_item, config_item):
     cand = None
     if config_item and config_item.get('ownerFirstName'):
         cand = config_item['ownerFirstName'].strip()
@@ -247,7 +312,29 @@ def extract_owner(raw_name, lead_item, config_item, ns_owners):
             return cand
     return None
 
+def build_original_message(raw_name, rating, city, owner_name, proof, fleet, benefit):
+    """Build the original message format (with preview attached)."""
+    clean_biz = clean_biz_name(raw_name)
+    try:
+        r_val = float(rating)
+        r_str = f"{r_val:.1f}"
+    except:
+        r_str = "top-rated"
+        
+    rating_phrase = f"your {r_str} rating" if r_str != "top-rated" else "your stellar reputation"
+    location_phrase = f"in {city}" if city and city != "Florida" else "across the area"
+    
+    greeting = f"Hey {owner_name}," if owner_name else f"Hey {clean_biz} team,"
+
+    p1 = f"{greeting} saw {rating_phrase} {location_phrase} and how much locals value {proof}."
+    p2 = f"Put together a fast mobile site concept for {clean_biz} featuring your {fleet}, {benefit}, and a built-in 10-second price estimator for homeowners (preview attached)."
+    p3 = "Zero pressure or cost to take a look. If you'd like to check out the full live demo on your phone, just reply 'yes' and I’ll send over the link! — George"
+    p4 = "Reply STOP to opt out"
+
+    return f"{p1}\n\n{p2}\n\n{p3}\n\n{p4}"
+
 def build_4_messages(raw_name, rating, city, owner_name, fleet):
+    """Build the 4 new adapted options without links or attachments."""
     clean_biz = clean_biz_name(raw_name)
     try:
         r_val = float(rating)
@@ -259,7 +346,6 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
     loc_phrase = f"in {city}" if city and city != "Florida" else "across the area"
     loc_city = city if city and city != "Florida" else "your local area"
 
-    # Diverse Greetings
     if owner_name:
         g1 = f"Hey {owner_name},"
         g2 = f"Hi {owner_name},"
@@ -271,7 +357,7 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
         g3 = f"Hello {clean_biz},"
         g4 = f"Greetings {clean_biz} team,"
 
-    # OPTION 1: Complete Turnkey Website (Сценарий 1)
+    # OPTION 1: Complete Turnkey Website
     msg1 = (
         f"{g1}\n\n"
         f"Put together a complete, turnkey website for {clean_biz}. I pulled in your real equipment photos, "
@@ -281,7 +367,7 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
         f"Reply STOP to opt out"
     )
 
-    # OPTION 2: Conversion & Instant Estimator (Сценарий 2)
+    # OPTION 2: Conversion & Instant Estimator
     msg2 = (
         f"{g2}\n\n"
         f"Saw your tree service profile {loc_phrase} — you have a stellar reputation, but high-ticket commercial and residential jobs "
@@ -291,7 +377,7 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
         f"Reply STOP to opt out"
     )
 
-    # OPTION 3: Direct Quick Question (Сценарий 4)
+    # OPTION 3: Direct Quick Question
     msg3 = (
         f"{g3}\n\n"
         f"Do you have a quick minute? My team and I built a brand-new, full-scale website for {clean_biz} — complete with spam-protected "
@@ -301,7 +387,7 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
         f"Reply STOP to opt out"
     )
 
-    # OPTION 4: Equipment & Property Protection (Сценарий 5)
+    # OPTION 4: Equipment & Property Protection
     msg4 = (
         f"{g4}\n\n"
         f"Built a dedicated, high-performance website specifically for {clean_biz} serving {loc_city}. "
@@ -313,14 +399,28 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
 
     return msg1, msg2, msg3, msg4
 
-NEW_MESSAGE_COLUMNS = [
-    'Сообщение 1 (Готовый сайт)',
-    'Сообщение 2 (Конверсия и смета)',
-    'Сообщение 3 (Прямой вопрос)',
-    'Сообщение 4 (Техника и безопасность)'
-]
+def resolve_page_url(is_new_scrape, cname, lead_item, config_item):
+    slug = None
+    ck = clean_key(cname)
+    norm_cname = cname.lower().strip()
 
-def process_dataset(base_dir, site_configs, leads_data, ns_owners, ns_cities, ns_fleets):
+    if is_new_scrape:
+        if norm_cname in NEW_SCRAPE_SLUG_MAP:
+            slug = NEW_SCRAPE_SLUG_MAP[norm_cname]
+        elif ck in NEW_SCRAPE_SLUG_MAP:
+            slug = NEW_SCRAPE_SLUG_MAP[ck]
+
+    if not slug and lead_item and lead_item.get('slug'):
+        slug = lead_item['slug']
+
+    if not slug and config_item and config_item.get('slug'):
+        slug = config_item['slug']
+
+    if slug:
+        return f"{BASE_SITE_URL}/{slug}"
+    return "—"
+
+def process_table(is_new_scrape, base_dir, site_configs, leads_data, original_ns_msgs):
     csv_path = os.path.join(base_dir, 'companies.csv')
     xlsx_path = os.path.join(base_dir, 'companies.xlsx')
 
@@ -328,78 +428,111 @@ def process_dataset(base_dir, site_configs, leads_data, ns_owners, ns_cities, ns
         print(f"Skipping {base_dir} (files not found)")
         return
 
-    print(f"\nProcessing {base_dir}...")
+    print(f"\nProcessing {base_dir} (is_new_scrape={is_new_scrape})...")
 
-    # 1. Read existing CSV
-    with open(csv_path, mode='r', encoding='utf-8') as f:
+    with open(csv_path, mode='r', encoding='utf-8-sig') as f:
         reader = csv.reader(f)
         header = next(reader)
         rows = list(reader)
 
-    # Remove BOM from first column header if present
     if header and header[0].startswith('\ufeff'):
         header[0] = header[0].replace('\ufeff', '')
 
-    # Identify indices
-    col_name_idx = 0
-    col_rating_idx = header.index('Оценка') if 'Оценка' in header else 2
-    col_addr_idx = header.index('Адрес') if 'Адрес' in header else -1
+    # Standard base columns definition
+    if is_new_scrape:
+        base_columns = [
+            'Название', 'Ссылка на Google Maps', 'Оценка', 'Количество отзывов',
+            'Наличие сайта', 'Ссылка на сайт', 'Ссылка на созданную страницу',
+            'Контактный номер', 'Оператор связи', 'MMS Gateway'
+        ]
+    else:
+        base_columns = [
+            'Название', 'Ссылка на Google Maps', 'Оценка', 'Количество отзывов',
+            'Наличие сайта', 'Ссылка на сайт', 'Ссылка на созданную страницу',
+            'Проблема с сайтом', 'Контактный номер', 'Наличие iMessage',
+            'Оператор связи', 'MMS Gateway', 'Адрес', 'Штат'
+        ]
 
-    # Remove existing 'Сообщение для рассылки' or old message columns if present
-    cols_to_remove = ['Сообщение для рассылки'] + NEW_MESSAGE_COLUMNS
-    kept_indices = [i for i, h in enumerate(header) if h not in cols_to_remove]
-    clean_header = [header[i] for i in kept_indices]
+    message_columns = [
+        'Сообщение для рассылки',
+        'Сообщение 1 (Готовый сайт)',
+        'Сообщение 2 (Конверсия и смета)',
+        'Сообщение 3 (Прямой вопрос)',
+        'Сообщение 4 (Техника и безопасность)'
+    ]
 
-    # Generate 4 messages for each row
-    generated_rows = []
-    messages_by_cname = {}
+    final_header = base_columns + message_columns
 
-    for row in rows:
-        cleaned_row = [row[i] if i < len(row) else '' for i in kept_indices]
-        cname = row[col_name_idx].strip()
-        rating = row[col_rating_idx].strip() if col_rating_idx < len(row) else ''
-        addr = row[col_addr_idx].strip() if col_addr_idx >= 0 and col_addr_idx < len(row) else ''
+    col_map = {col_name: idx for idx, col_name in enumerate(header)}
+
+    processed_rows = []
+    for r in rows:
+        cname = r[col_map['Название']].strip() if 'Название' in col_map and col_map['Название'] < len(r) else ''
+        rating = r[col_map['Оценка']].strip() if 'Оценка' in col_map and col_map['Оценка'] < len(r) else ''
+        addr = r[col_map['Адрес']].strip() if 'Адрес' in col_map and col_map['Адрес'] < len(r) else ''
 
         ck = clean_key(cname)
         cfg = site_configs.get(ck)
         lead = leads_data.get(ck)
         folder = find_company_folder(base_dir, cname)
 
-        owner = extract_owner(cname, lead, cfg, ns_owners)
-        city = extract_city(cname, addr, lead, cfg, ns_cities)
-        
-        # fleet
-        if ck in ns_fleets and ns_fleets[ck]:
-            fleet = ns_fleets[ck]
+        owner = extract_owner(cname, lead, cfg)
+        city = extract_city(cname, addr, lead, cfg)
+        proof, fleet, benefit = analyze_reviews_and_equipment(folder, cfg)
+
+        # 1. URL to our created page
+        page_url = resolve_page_url(is_new_scrape, cname, lead, cfg)
+
+        # 2. Original message (restored)
+        if is_new_scrape and (cname in original_ns_msgs or ck in original_ns_msgs):
+            orig_msg = original_ns_msgs.get(cname, original_ns_msgs.get(ck))
         else:
-            fleet = analyze_reviews_and_equipment(folder, cfg)
+            orig_msg = build_original_message(cname, rating, city, owner, proof, fleet, benefit)
 
+        # Enhance owner and city from original message if not present
+        if not owner and orig_msg:
+            m_own = re.match(r'^Hey\s+([A-Za-z]+),', orig_msg)
+            if m_own and m_own.group(1).lower() not in ['team', 'there', 'all']:
+                owner = m_own.group(1)
+
+        if (not city or city == 'Florida') and orig_msg:
+            m_ct = re.search(r'(?:in|across)\s+([A-Za-z\s]+?)(?:\s+and\b|,)', orig_msg)
+            if m_ct:
+                city = m_ct.group(1).strip()
+
+        # 3. 4 new message options
         m1, m2, m3, m4 = build_4_messages(cname, rating, city, owner, fleet)
-        cleaned_row.extend([m1, m2, m3, m4])
-        generated_rows.append(cleaned_row)
-        messages_by_cname[cname] = (m1, m2, m3, m4)
 
-    final_header = clean_header + NEW_MESSAGE_COLUMNS
+        # Build row
+        row_dict = {}
+        for col in header:
+            if col in col_map and col_map[col] < len(r):
+                row_dict[col] = r[col_map[col]]
 
-    # Save CSV (UTF-8 with BOM for Excel compatibility)
+        # Override/Set created page url
+        row_dict['Ссылка на созданную страницу'] = page_url
+        row_dict['Сообщение для рассылки'] = orig_msg
+        row_dict['Сообщение 1 (Готовый сайт)'] = m1
+        row_dict['Сообщение 2 (Конверсия и смета)'] = m2
+        row_dict['Сообщение 3 (Прямой вопрос)'] = m3
+        row_dict['Сообщение 4 (Техника и безопасность)'] = m4
+
+        final_row = [row_dict.get(col, '') for col in final_header]
+        processed_rows.append(final_row)
+
+    # Save CSV
     with open(csv_path, mode='w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(final_header)
-        writer.writerows(generated_rows)
-    print(f"  [OK] Updated CSV: {csv_path} ({len(generated_rows)} rows, {len(final_header)} columns)")
+        writer.writerows(processed_rows)
+    print(f"  [OK] Saved CSV: {csv_path} ({len(processed_rows)} rows, {len(final_header)} columns)")
 
-    # 2. Update XLSX
+    # Save XLSX
     wb = openpyxl.load_workbook(xlsx_path)
     sheet = wb.active
-
-    # Read original sheet headers
-    orig_xlsx_headers = [cell.value for cell in sheet[1]]
-
-    # Rebuild sheet cleanly
     wb.remove(sheet)
     new_sheet = wb.create_sheet(title="Companies")
 
-    # Header styling
     header_font = Font(name="Calibri", size=11, bold=True, color="000000")
     header_fill = PatternFill(start_color="EAEAEA", end_color="EAEAEA", fill_type="solid")
     header_align = Alignment(horizontal="center", vertical="center", wrap_text=True)
@@ -410,7 +543,6 @@ def process_dataset(base_dir, site_configs, leads_data, ns_owners, ns_cities, ns
         bottom=Side(style='thin', color='D9D9D9')
     )
 
-    # Write Header
     for col_idx, h_text in enumerate(final_header, 1):
         cell = new_sheet.cell(row=1, column=col_idx, value=h_text)
         cell.font = header_font
@@ -418,33 +550,45 @@ def process_dataset(base_dir, site_configs, leads_data, ns_owners, ns_cities, ns
         cell.alignment = header_align
         cell.border = thin_border
 
-    # Write Data
     data_font = Font(name="Calibri", size=10)
+    link_font = Font(name="Calibri", size=10, color="0563C1", underline="single")
     msg_align = Alignment(vertical="top", wrap_text=True)
     center_align = Alignment(horizontal="center", vertical="center")
     default_align = Alignment(vertical="center")
 
-    for r_idx, row_data in enumerate(generated_rows, 2):
+    for r_idx, row_data in enumerate(processed_rows, 2):
         for c_idx, val in enumerate(row_data, 1):
             cell = new_sheet.cell(row=r_idx, column=c_idx, value=val)
             cell.font = data_font
             cell.border = thin_border
-            
-            # Message columns alignment
-            if c_idx > len(clean_header):
+            h_name = final_header[c_idx - 1]
+
+            if h_name in message_columns:
                 cell.alignment = msg_align
-            elif final_header[c_idx - 1] in ['Оценка', 'Количество отзывов', 'Наличие сайта', 'Наличие iMessage', 'Штат', 'Проблема с сайтом']:
+            elif h_name in ['Оценка', 'Количество отзывов', 'Наличие сайта', 'Наличие iMessage', 'Штат', 'Проблема с сайтом']:
                 cell.alignment = center_align
+            elif h_name == 'Ссылка на созданную страницу':
+                cell.alignment = default_align
+                if val.startswith('http'):
+                    cell.font = link_font
+                    cell.hyperlink = val
+            elif h_name in ['Ссылка на Google Maps', 'Ссылка на сайт']:
+                cell.alignment = default_align
+                if str(val).startswith('http'):
+                    cell.font = link_font
+                    cell.hyperlink = val
             else:
                 cell.alignment = default_align
 
     # Column Widths
     for c_idx, h_text in enumerate(final_header, 1):
         col_letter = get_column_letter(c_idx)
-        if h_text in NEW_MESSAGE_COLUMNS:
+        if h_text in message_columns:
             new_sheet.column_dimensions[col_letter].width = 58
         elif h_text in ['Название', 'Адрес']:
             new_sheet.column_dimensions[col_letter].width = 30
+        elif h_text == 'Ссылка на созданную страницу':
+            new_sheet.column_dimensions[col_letter].width = 45
         elif h_text in ['Ссылка на Google Maps', 'Ссылка на сайт']:
             new_sheet.column_dimensions[col_letter].width = 25
         elif h_text in ['MMS Gateway']:
@@ -456,20 +600,20 @@ def process_dataset(base_dir, site_configs, leads_data, ns_owners, ns_cities, ns
 
     new_sheet.row_dimensions[1].height = 28
     wb.save(xlsx_path)
-    print(f"  [OK] Updated XLSX: {xlsx_path} with 4 message columns and styling")
+    print(f"  [OK] Saved XLSX: {xlsx_path} with styling and hyperlinked URLs")
 
 def main():
-    print("Loading database, siteConfigs and overrides...")
+    print("Loading databases, siteConfigs and original messages...")
     site_configs = load_site_configs()
     leads_data = load_leads_data()
-    ns_owners, ns_cities, ns_fleets = load_new_scrape_overrides()
+    original_ns_msgs = load_new_scrape_original_messages()
 
-    print(f"Loaded {len(site_configs)} siteConfigs, {len(leads_data)} treeLeads, {len(ns_owners)} new_scrape owners.")
+    print(f"Loaded {len(site_configs)} siteConfigs, {len(leads_data)} treeLeads, {len(original_ns_msgs)} new_scrape messages.")
 
-    process_dataset(NEW_SCRAPE_DIR, site_configs, leads_data, ns_owners, ns_cities, ns_fleets)
-    process_dataset(TREE_LEADS_DIR, site_configs, leads_data, ns_owners, ns_cities, ns_fleets)
+    process_table(True, NEW_SCRAPE_DIR, site_configs, leads_data, original_ns_msgs)
+    process_table(False, TREE_LEADS_DIR, site_configs, leads_data, original_ns_msgs)
 
-    print("\nAll datasets successfully updated with 4 adapted outreach options!")
+    print("\nTables successfully updated with restored previous messages and created page URLs!")
 
 if __name__ == '__main__':
     main()
