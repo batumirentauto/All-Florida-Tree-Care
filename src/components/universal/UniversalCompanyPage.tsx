@@ -40,7 +40,8 @@ export function UniversalCompanyPage({
   const enUrl = config.enUrl || `/${config.slug}`
   const ruUrl = config.ruUrl || `/${config.slug}/ru`
 
-  const shouldHideTopBar = hideTopBar ?? config.hideTopBar ?? (!isRu)
+  // Hide top bar completely on all English pages, or if explicitly configured
+  const shouldHideTopBar = !isRu || Boolean(hideTopBar) || Boolean(config.hideTopBar)
 
   return (
     <div className={`min-h-screen ${theme.bgBody} text-white selection:bg-emerald-500 selection:text-white font-sans antialiased`}>
