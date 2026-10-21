@@ -153,11 +153,11 @@ def load_site_configs():
     for c in configs:
         try:
             txt = open(c, encoding='utf-8').read()
-            bname_m = re.search(r'businessName:\s*[\'\"](.*?)[\'\"]', txt)
-            legal_m = re.search(r'legalName:\s*[\'\"](.*?)[\'\"]', txt)
-            owner_m = re.search(r'ownerFirstName:\s*[\'\"](.*?)[\'\"]', txt)
-            slug_m = re.search(r'slug:\s*[\'\"](.*?)[\'\"]', txt)
-            city_m = re.search(r'city:\s*[\'\"](.*?)[\'\"]', txt)
+            bname_m = re.search(r'["\']?businessName["\']?:\s*[\'\"](.*?)[\'\"]', txt)
+            legal_m = re.search(r'["\']?legalName["\']?:\s*[\'\"](.*?)[\'\"]', txt)
+            owner_m = re.search(r'["\']?(?:ownerFirstName|ownerName)["\']?:\s*[\'\"](.*?)[\'\"]', txt)
+            slug_m = re.search(r'["\']?slug["\']?:\s*[\'\"](.*?)[\'\"]', txt)
+            city_m = re.search(r'["\']?city["\']?:\s*[\'\"](.*?)[\'\"]', txt)
 
             fn_slug = os.path.basename(c).replace('siteConfig.', '').replace('.en.js', '')
             slug = slug_m.group(1) if slug_m else fn_slug
