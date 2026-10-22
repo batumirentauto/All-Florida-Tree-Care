@@ -26,7 +26,7 @@ TREE_LEADS_DIR = "/Users/workpc/Documents/google-maps-scraper/output/tree_leads"
 TARGET_CSV_NAME = "companies tree removers 250 - companies.csv.csv"
 CLEAN_CSV_NAME = "companies tree removers 250 - companies.csv"
 TARGET_XLSX_NAME = "companies tree removers 250 - companies.xlsx"
-BASE_SITE_URL = "https://all-florida-tree-care-production.up.railway.app"
+BASE_SITE_URL = "https://tree-portal.up.railway.app"
 
 US_STATE_CODES = {
     'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
@@ -471,11 +471,11 @@ def main():
 
         # URL to created page
         page_url = resolve_page_url(cname, lead, cfg)
-        # If already present in table, keep it if valid
+        # If already present in table, keep it if valid (migrating old domain)
         if 'Ссылка на созданную страницу' in col_map and col_map['Ссылка на созданную страницу'] < len(r):
             curr_url = r[col_map['Ссылка на созданную страницу']].strip()
             if curr_url and curr_url.startswith('http'):
-                page_url = curr_url
+                page_url = curr_url.replace("all-florida-tree-care-production.up.railway.app", "tree-portal.up.railway.app")
 
         # Build original message without STOP and using showcase
         orig_msg = build_original_message(cname, rating, city, owner, proof, fleet, benefit)

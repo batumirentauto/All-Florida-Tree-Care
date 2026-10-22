@@ -28,7 +28,7 @@ from openpyxl.utils import get_column_letter
 WORKSPACE = "/Users/workpc/Documents/All Florida Tree Care"
 NEW_SCRAPE_DIR = "/Users/workpc/Documents/google-maps-scraper/output/new_scrape"
 TREE_LEADS_DIR = "/Users/workpc/Documents/google-maps-scraper/output/tree_leads"
-BASE_SITE_URL = "https://all-florida-tree-care-production.up.railway.app"
+BASE_SITE_URL = "https://tree-portal.up.railway.app"
 
 US_STATE_CODES = {
     'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
