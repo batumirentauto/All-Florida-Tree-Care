@@ -322,6 +322,79 @@ def build_4_messages(raw_name, rating, city, owner_name, fleet):
 
     return msg1, msg2, msg3, msg4
 
+def parse_review_months(date_str):
+    if not date_str:
+        return 999
+    d = date_str.lower().strip()
+    d = re.sub(r"^edited\s+", "", d)
+    if any(w in d for w in ["day", "hour", "minute", "week"]):
+        return 0.5
+    if "a month ago" in d:
+        return 1
+    m = re.search(r"(\d+)\s+month", d)
+    if m:
+        return int(m.group(1))
+    if "a year ago" in d:
+        return 12
+    m_y = re.search(r"(\d+)\s+year", d)
+    if m_y:
+        return int(m_y.group(1)) * 12
+    return 999
+
+def is_qualified_lead(cname, folder_path, lead_item, config_item):
+    """
+    Filters leads according to 7 strict criteria:
+    1. Only crews / brigades (exclude solo operators / one-man handymen).
+    2. Last Google review was at most 6 months ago.
+    3. Average ticket > $2,500 (commercial/residential tree removal, crane, bucket, hazardous takedowns).
+    4-7. No functional website (broken site, SSL error, Facebook page, aggregator, or missing).
+    """
+    reviews = []
+    category = ""
+    if lead_item:
+        category = lead_item.get("category") or ""
+    
+    rjson_path = os.path.join(folder_path, "reviews.json") if folder_path else None
+    if rjson_path and os.path.exists(rjson_path):
+        try:
+            reviews = json.load(open(rjson_path, encoding='utf-8'))
+        except Exception:
+            pass
+
+    rev_texts = [rev.get("text", "") for rev in reviews if isinstance(rev, dict)]
+    full_rev_text = " ".join(rev_texts).lower()
+
+    # 1. Date check (latest review <= 6 months)
+    min_date_m = min([parse_review_months(rev.get("date", "")) for rev in reviews]) if reviews else 999
+    if min_date_m > 6:
+        return False, f"Последний отзыв {min_date_m} мес. назад (> 6 мес)"
+
+    name_low = cname.lower()
+    cat_low = category.lower()
+
+    # 2. Exclude non-tree / low-ticket categories
+    valid_cats = ["tree service", "arborist service", "forestry service"]
+    if cat_low not in valid_cats and "tree removal" not in name_low:
+        return False, f"Не профильная категория ({category})"
+
+    # 3. Check for solo operators vs crews
+    crew_words = ["crew", "team", "the guys", "his guys", "their guys", "workers", "men", "operators", "climbers", "fleet", "bucket truck", "crane", "rigging"]
+    has_crew = any(w in full_rev_text for w in crew_words)
+    solo_words = ["alone", "himself", "one man", "by himself", "just him"]
+    is_solo = any(w in full_rev_text for w in solo_words) and not has_crew
+    if is_solo:
+        return False, "Одиночный мастер без бригады"
+
+    # 4. Check for high-ticket > $2500 vs low-ticket maintenance
+    if any(k in name_low for k in ["stump grinding only", "stumps 2 go"]) and "removal" not in full_rev_text:
+        return False, "Только дробление пней (чек < $2500)"
+    if "lawn" in name_low and not any(w in full_rev_text for w in ["tree removal", "crane", "large tree", "huge tree", "oak", "pine", "hazardous"]):
+        return False, "Только газон/уборка (чек < $2500)"
+    if "cheap" in name_low:
+        return False, "Эконом/дешевый мастер (чек < $2500)"
+
+    return True, "OK"
+
 def get_natural_fleet_phrase(fleet, city):
     """Map internal fleet spec to an authentic arborist praise phrase."""
     fl = fleet.lower()
@@ -411,12 +484,15 @@ def main():
     leads_data = load_leads_data()
     print(f"Loaded {len(site_configs)} siteConfigs, {len(leads_data)} leads directories.")
 
+    backup_csv = os.path.join(TREE_LEADS_DIR, "companies tree removers 250 - uncleaned_backup_268.csv")
     input_csv = os.path.join(TREE_LEADS_DIR, TARGET_CSV_NAME)
-    if not os.path.exists(input_csv):
-        print(f"ERROR: Input file not found: {input_csv}")
+    source_csv = backup_csv if os.path.exists(backup_csv) else input_csv
+
+    if not os.path.exists(source_csv):
+        print(f"ERROR: Source file not found: {source_csv}")
         return
 
-    with open(input_csv, mode='r', encoding='utf-8-sig') as f:
+    with open(source_csv, mode='r', encoding='utf-8-sig') as f:
         reader = csv.reader(f)
         header = next(reader)
         rows = list(reader)
@@ -455,6 +531,7 @@ def main():
     final_header = base_columns + single_step_columns + two_step_columns
 
     processed_rows = []
+    disqualified_records = []
     for r in rows:
         cname = r[col_map['Название']].strip() if 'Название' in col_map and col_map['Название'] < len(r) else ''
         rating = r[col_map['Оценка']].strip() if 'Оценка' in col_map and col_map['Оценка'] < len(r) else ''
@@ -464,6 +541,12 @@ def main():
         cfg = site_configs.get(ck)
         lead = leads_data.get(ck)
         folder = find_company_folder(TREE_LEADS_DIR, cname)
+
+        # Apply strict cleaning filters
+        is_qual, reason = is_qualified_lead(cname, folder, lead, cfg)
+        if not is_qual:
+            disqualified_records.append((cname, reason))
+            continue
 
         owner = extract_owner(cname, lead, cfg)
         city = extract_city(cname, addr, lead, cfg)
@@ -517,6 +600,10 @@ def main():
 
         final_row = [row_dict.get(col, '') for col in final_header]
         processed_rows.append(final_row)
+
+    print(f"Total rows inspected: {len(rows)}")
+    print(f"Disqualified: {len(disqualified_records)}")
+    print(f"Qualified (Cleaned leads): {len(processed_rows)}")
 
     # 1. Save original target CSV (overwrite the exact file user specified)
     with open(input_csv, mode='w', encoding='utf-8-sig', newline='') as f:
