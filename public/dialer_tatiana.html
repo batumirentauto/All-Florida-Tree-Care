@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZONUS TREE SERVICE PLAYBOOK — Звонилка Татьяны (Линия #102)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Plus Jakarta Sans', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  .tab-btn.active {
+    background: #047857;
+    color: #ffffff;
+    border-color: #34d399;
+  }
+</style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased selection:bg-emerald-500 selection:text-slate-950">
+
+  <!-- TOP STICKY HEADER -->
+  <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur border-b border-slate-800 px-4 py-2.5 shadow-2xl">
+    <div class="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-700 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg shadow-emerald-950/60 border border-emerald-400/40">
+          Z
+        </div>
+        <div>
+          <div class="text-[11px] font-bold text-emerald-400 uppercase tracking-widest flex items-center gap-1.5">
+            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            ZONUS TREE SERVICE PLAYBOOK &bull; ТАТЬЯНА (ЛИНИЯ #102)
+          </div>
+          <div class="text-sm font-extrabold text-white flex items-center gap-2">
+            <span id="headerLeadCounter">Контакт #1 из 50</span>
+            <span class="text-slate-600">|</span>
+            <span class="text-teal-300 font-semibold text-xs">Адаптация триггеров Динары под Tree Care</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Domain Selector + Stats toggle -->
+      <div class="flex items-center gap-2">
+        <div class="flex items-center bg-slate-950 border border-slate-700 rounded-lg p-1 text-[11px]">
+          <span class="text-slate-400 px-2 font-medium">Домен ссылки:</span>
+          <button id="btnDomTreePortal" onclick="setDomain('tree-portal.up.railway.app')" class="px-2 py-0.5 rounded font-mono font-bold bg-emerald-500 text-slate-950 transition">tree-portal</button>
+          <button id="btnDomZonus" onclick="setDomain('zonus.co')" class="px-2 py-0.5 rounded font-mono font-bold text-slate-400 hover:text-white transition">zonus.co</button>
+        </div>
+
+        <button onclick="toggleLogModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-bold px-3 py-1.5 rounded-lg transition flex items-center gap-1.5">
+          <span>📋 Журнал</span>
+          <span id="totalLoggedCountBadge" class="bg-emerald-500 text-slate-950 text-[10px] px-1.5 py-0.2 rounded-full font-black">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN WRAPPER -->
+  <main class="flex-1 max-w-5xl w-full mx-auto p-4 space-y-4">
+
+    <!-- PROGRESS BAR & QUICK STATS -->
+    <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex-1 min-w-[220px]">
+        <div class="flex justify-between text-xs text-slate-400 mb-1 font-medium">
+          <span>Прогресс обзвона: <strong id="progressText" class="text-emerald-400">0 / 50</strong></span>
+          <span id="progressPercent" class="font-mono text-slate-300">0%</span>
+        </div>
+        <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+          <div id="progressBarFill" class="bg-gradient-to-r from-emerald-500 to-teal-400 h-full w-0 transition-all duration-300"></div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-1.5 text-[11px] font-mono shrink-0">
+        <span class="bg-emerald-950/80 text-emerald-400 border border-emerald-800/60 px-2 py-1 rounded-md" id="statAgreed" title="Согласились на SMS">🟢 0</span>
+        <span class="bg-amber-950/80 text-amber-400 border border-amber-800/60 px-2 py-1 rounded-md" id="statCallback" title="Перезвонить завтра в 9:30">🟡 0</span>
+        <span class="bg-teal-950/80 text-teal-400 border border-teal-800/60 px-2 py-1 rounded-md" id="statPhotos" title="Скинули фото техники">📸 0</span>
+        <span class="bg-indigo-950/80 text-indigo-400 border border-indigo-800/60 px-2 py-1 rounded-md" id="statVoicemail" title="Автоответчик (Voicemail)">📼 0</span>
+        <span class="bg-slate-800 text-slate-300 border border-slate-700 px-2 py-1 rounded-md" id="statNoAnswer" title="Не ответил / Сброс">⚪ 0</span>
+        <span class="bg-rose-950/80 text-rose-400 border border-rose-800/60 px-2 py-1 rounded-md" id="statDeclined" title="Отказ">🔴 0</span>
+      </div>
+    </div>
+
+    <!-- 4 СЕКРЕТА СОГЛАСИЯ ПОДРЯДЧИКОВ -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-[11px]">
+      <div class="bg-slate-900 border border-slate-800 rounded-lg p-2.5 border-t-2 border-t-emerald-500">
+        <div class="font-bold text-white mb-0.5">1. Контроль своих данных</div>
+        <div class="text-slate-400 text-[10.5px]">«Проверить, всё ли правильно» включает рефлекс хозяина проверить контакты.</div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-lg p-2.5 border-t-2 border-t-teal-500">
+        <div class="font-bold text-white mb-0.5">2. Фото их автопарка</div>
+        <div class="text-slate-400 text-[10.5px]">«...добавить фото автовышек и дробилок». Подрядчик видит: это о нём.</div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-lg p-2.5 border-t-2 border-t-sky-500">
+        <div class="font-bold text-white mb-0.5">3. Снятие давления</div>
+        <div class="text-slate-400 text-[10.5px]">«Definitely not asking to buy anything right now» мгновенно гасит агрессию.</div>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 rounded-lg p-2.5 border-t-2 border-t-amber-500">
+        <div class="font-bold text-white mb-0.5">4. Якорь: созвон в 9:30</div>
+        <div class="text-slate-400 text-[10.5px]">«Посмотрите вечером, а я наберу завтра в 9:30». Превращает спам в диалог.</div>
+      </div>
+    </div>
+
+    <!-- SCRIPT TABS SELECTOR -->
+    <div class="flex items-center gap-1.5 border-b border-slate-800 pb-2">
+      <button onclick="switchTab('call1')" id="tabCall1Btn" class="tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold border border-emerald-500/50 transition flex items-center gap-1.5">
+        <span>🎯 ЗВОНОК №1: ПЕРВЫЙ КОНТАКТ</span>
+      </button>
+      <button onclick="switchTab('call2')" id="tabCall2Btn" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold border border-slate-800 text-slate-400 hover:text-white transition flex items-center gap-1.5">
+        <span>💰 ЗВОНОК №2: ДОЖИМ НА $2,500</span>
+      </button>
+      <button onclick="switchTab('cheatSheet')" id="tabCheatSheetBtn" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold border border-slate-800 text-slate-400 hover:text-white transition flex items-center gap-1.5">
+        <span>🛡 6 ВОЗРАЖЕНИЙ (CHEAT SHEET)</span>
+      </button>
+    </div>
+
+    <!-- TAB 1 CONTENT: CALL #1 -->
+    <div id="tabCall1Content" class="space-y-3">
+      
+      <!-- 1. Прямой разговор с владельцем (Direct to Owner Hook) -->
+      <div class="bg-gradient-to-br from-slate-900 to-slate-950 border-2 border-emerald-500/50 rounded-2xl p-4 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-emerald-400 mb-2">
+          <span class="flex items-center gap-2">
+            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            1. ПРЯМОЙ РАЗГОВОР С ВЛАДЕЛЬЦЕМ (DIRECT TO OWNER HOOK) — БЕЗ «QUICK CALL»
+          </span>
+          <span class="bg-emerald-950 border border-emerald-800 text-emerald-300 text-[10px] px-2 py-0.5 rounded font-mono">ОСНОВНОЙ СКРИПТ</span>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-3.5 mb-2 relative">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold text-slate-500 uppercase font-mono">EN: ЧИТАТЬ СПОКОЙНО И УВЕРЕННО</span>
+            <button onclick="copyText('scriptCall1Owner')" class="text-emerald-400 hover:text-emerald-300 text-[11px] font-bold underline">Копировать EN</button>
+          </div>
+          <div id="scriptCall1Owner" class="text-xs sm:text-sm text-slate-100 font-semibold leading-relaxed font-sans">
+            “Hey [Owner Name / Company], Tatyana here with Zonus. I was looking at your 5-star Google reviews for [Company Name] — we put together a free mobile preview for your tree business so homeowners can tap and call your emergency crew in one second. Zero cost, zero strings attached — just wanted to shoot you a quick link on your cell so you can double check if we got all your services and phone number right, and see if you have any photos of your bucket trucks, chippers, or climbing crew you want added in. Is this cell good to text?”
+          </div>
+        </div>
+
+        <div class="text-[11px] text-slate-400 bg-slate-950/60 p-2.5 rounded-lg border border-slate-900 leading-relaxed italic">
+          RU: «Здравствуйте, [Имя / Название], это Татьяна из Zonus. Я сейчас смотрю ваши 5-звездочные отзывы в Google — мы собрали бесплатное мобильное превью для вашей компании по спилу деревьев, чтобы клиенты могли вызвать вашу бригаду в один клик. Это полностью бесплатно и без обязательств — хотела скинуть ссылку на сотовый, чтобы вы проверили, всё ли правильно указано по услугам и телефону, и если у вас есть фото ваших автовышек, измельчителей или альпинистов, мы их тоже поставим. Сюда можно скинуть ссылку?»
+        </div>
+      </div>
+
+      <!-- 2. Проход секретаря / диспетчера (Front Desk / Gatekeeper Branch) -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-lg">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-sky-400 mb-2">
+          <span>2. ПРОХОД СЕКРЕТАРЯ / ДИСПЕТЧЕРА (FRONT DESK BRANCH)</span>
+          <span class="bg-sky-950 border border-sky-800 text-sky-300 text-[10px] px-2 py-0.5 rounded font-mono">ПРОВЕРЕНО НА ARNETT</span>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 mb-2">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold text-slate-500 uppercase font-mono">EN: ВХОД ЧЕРЕЗ ВЫЕЗД НА ОБЪЕКТ</span>
+            <button onclick="copyText('scriptGatekeeper')" class="text-sky-400 hover:text-sky-300 text-[11px] font-bold underline">Копировать EN</button>
+          </div>
+          <div id="scriptGatekeeper" class="text-xs text-slate-200 font-medium leading-relaxed">
+            “Hi! Is [Owner Name / the owner] around, or is he out on a tree job right now?<br><br>
+            <strong class="text-sky-300">[IF OUT / WHAT IS THIS REGARDING]:</strong> Got it! We build fast mobile showcases specifically for tree removal and emergency storm services. We put together a clean mobile preview for [Company Name] featuring your 5-star Google reviews. What's the best cell number I can text the link to so he can tap it when he comes off the job site tonight?”
+          </div>
+        </div>
+
+        <div class="text-[11px] text-slate-400 bg-slate-950/60 p-2.5 rounded-lg border border-slate-900 italic">
+          RU: «Здравствуйте! [Имя владельца] на месте или сейчас на объекте на спиле? [ЕСЛИ НА ВЫЕЗДЕ / ПО КАКОМУ ВОПРОСУ]: Поняла! Мы собираем быстрые мобильные витрины специально для компаний по удалению деревьев и аварийной расчистке. Собрали превью для [Название] с вашими 5★ отзывами. На какой мобильный лучше отправить ссылку, чтобы он открыл ее вечером, когда вернется с выезда?»
+        </div>
+      </div>
+
+      <!-- 3. Перелом возражения «Not Interested» (Победный маневр Сиерры) -->
+      <div class="bg-slate-900 border border-amber-800/60 rounded-2xl p-4 shadow-lg">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-amber-400 mb-2">
+          <span>3. ПЕРЕЛОМ ВОЗРАЖЕНИЯ «NOT INTERESTED» (ПОБЕДНЫЙ МАНЕВР СИЕРРЫ)</span>
+          <span class="bg-amber-950 border border-amber-800 text-amber-300 text-[10px] px-2 py-0.5 rounded font-mono">100% СПАСЕНИЕ ЛИДА</span>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 mb-2">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold text-slate-500 uppercase font-mono">EN: СНЯТИЕ ДАВЛЕНИЯ + АКЦЕНТ НА ДОРОГИЕ ЗАКАЗЫ</span>
+            <button onclick="copyText('scriptSierraRescue')" class="text-amber-400 hover:text-amber-300 text-[11px] font-bold underline">Копировать EN</button>
+          </div>
+          <div id="scriptSierraRescue" class="text-xs text-slate-200 font-medium leading-relaxed">
+            “Totally understand! We're definitely not asking to buy or implement anything right now. I'm just making sure you're not missing high-dollar tree removal calls in your area. It has zero obligation and takes literally 15 seconds to scroll on your phone. What do you think?”
+          </div>
+        </div>
+
+        <div class="text-[11px] text-slate-400 bg-slate-950/60 p-2.5 rounded-lg border border-slate-900 italic">
+          RU: «Прекрасно вас понимаю! Мы точно не просим ничего покупать или заказывать прямо сейчас. Я просто хочу убедиться, что вы не упускаете дорогие заказы на удаление деревьев в вашем районе. Это ни к чему не обязывает и занимает буквально 15 секунд прокрутить экран. Что скажете?»
+        </div>
+      </div>
+
+      <!-- 4. Выход после согласия: фиксация звонка на завтра на 9:30 утра -->
+      <div class="bg-emerald-950/40 border border-emerald-600/60 rounded-2xl p-4 shadow-lg">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-emerald-400 mb-2">
+          <span>4. ВЫХОД ПОСЛЕ СОГЛАСИЯ: ФИКСАЦИЯ ЗВОНКА НА ЗАВТРА НА 9:30 УТРА (LOCKING 9:30 AM CALLBACK)</span>
+          <span class="bg-emerald-950 border border-emerald-500 text-emerald-300 text-[10px] px-2 py-0.5 rounded font-mono">ФИНАЛ ЗВОНКА</span>
+        </div>
+
+        <div class="bg-slate-950 border border-emerald-900/60 rounded-xl p-3 mb-2">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold text-slate-500 uppercase font-mono">EN: СОГЛАСОВАНИЕ СОЗВОНА В 9:30 И СБРОС ВЫЗОВА</span>
+            <button onclick="copyText('scriptLockCallback')" class="text-emerald-400 hover:text-emerald-300 text-[11px] font-bold underline">Копировать EN</button>
+          </div>
+          <div id="scriptLockCallback" class="text-xs text-emerald-100 font-semibold leading-relaxed">
+            “Got it, sending it over right now! Take a quick scroll tonight whenever you're off the road and out of the bucket, and I'll give you a short buzz tomorrow morning around 9:30 to see what you think. Sound good? ... Appreciate it, [Owner / Sir]. Talk to you tomorrow morning!” [HANG UP]
+          </div>
+        </div>
+
+        <div class="text-[11px] text-slate-300 bg-slate-950/80 p-2.5 rounded-lg border border-slate-900 italic">
+          RU: «Отлично, отправляю прямо сейчас! Посмотрите вечером, когда закончите смену и слезете с вышки, а я наберу вас завтра утром около 9:30 узнать ваше мнение. Договорились? ... Спасибо, хорошего дня, услышимся завтра в 9:30!»
+        </div>
+      </div>
+
+      <!-- 5. ЕСЛИ СРАБОТАЛ АВТООТВЕТЧИК (VOICEMAIL BOX) -->
+      <div class="bg-indigo-950/40 border border-indigo-700/60 rounded-2xl p-4 shadow-lg">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-indigo-300 mb-2">
+          <span>📼 5. ЕСЛИ СРАБОТАЛ АВТООТВЕТЧИК (VOICEMAIL — 15 СЕКУНД)</span>
+          <span class="bg-indigo-950 border border-indigo-600 text-indigo-200 text-[10px] px-2 py-0.5 rounded font-mono">СКРИПТ СООБЩЕНИЯ</span>
+        </div>
+
+        <div class="bg-slate-950 border border-indigo-900/60 rounded-xl p-3 mb-2">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold text-slate-500 uppercase font-mono">EN: ЧИТАТЬ НА АВТООТВЕТЧИК БЫСТРО И ЧЕТКО</span>
+            <button onclick="copyText('scriptVoicemailText')" class="text-indigo-400 hover:text-indigo-300 text-[11px] font-bold underline">Копировать EN</button>
+          </div>
+          <div id="scriptVoicemailText" class="text-xs text-indigo-100 font-semibold leading-relaxed">
+            “Hey [Company Name], this is Tatyana with Zonus. We put together a free mobile preview for your tree crew featuring your 5-star Google reviews and equipment. I’m shooting over a quick text with the link right now so you can take a look when you come off the tree tonight. Have a great day!”
+          </div>
+        </div>
+
+        <div class="text-[11px] text-slate-400 bg-slate-950/80 p-2.5 rounded-lg border border-slate-900 italic">
+          RU: «Здравствуйте, [Название], это Татьяна из Zonus. Мы собрали бесплатное мобильное превью для вашей бригады с вашими 5★ отзывами и техникой. Я прямо сейчас отправляю вам СМС со ссылкой, чтобы вы посмотрели вечером, когда закончите смену на дереве. Хорошего дня!»<br>
+          <strong class="text-indigo-300 not-italic">➔ После записи сообщения: нажать кнопку «📼 Автоответчик» и сразу отправить СМС со ссылкой!</strong>
+        </div>
+      </div>
+
+      <!-- СПЕЦИФИКА И ТАБУ -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs">
+        <div class="bg-emerald-950/30 border border-emerald-900/50 rounded-xl p-3 text-emerald-200">
+          <div class="font-bold text-emerald-400 mb-1.5 flex items-center gap-1.5">
+            <span>✅</span> Специфика Tree Service (что говорить):
+          </div>
+          <ul class="space-y-1 list-disc list-inside text-[11px]">
+            <li>Упоминать технику: <strong>bucket trucks</strong> (вышки), <strong>chippers</strong> (дробилки), <strong>stump grinders</strong>, <strong>cranes</strong> (краны).</li>
+            <li>Упоминать команду: <strong>certified arborists</strong>, <strong>climbers</strong> (верхолазы).</li>
+            <li>Фокус на дорогие заказы: аварийный спил после шторма ($3,000–$8,000+).</li>
+          </ul>
+        </div>
+
+        <div class="bg-rose-950/30 border border-rose-900/50 rounded-xl p-3 text-rose-200">
+          <div class="font-bold text-rose-400 mb-1.5 flex items-center gap-1.5">
+            <span>❌</span> Строжайшие табу для Татьяны:
+          </div>
+          <ul class="space-y-1 list-disc list-inside text-[11px]">
+            <li>Не говорить <strong>«quick call»</strong> — звучит как дешевый телемаркетинг.</li>
+            <li>Не использовать <strong>«Awesome!»</strong>, <strong>«Amazing!»</strong>, <strong>«Super!»</strong>.</li>
+            <li>Никаких оправданий безопасности: слова <strong>«virus»</strong>, <strong>«phishing»</strong>, <strong>«not spam»</strong> запрещены.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TAB 2 CONTENT: CALL #2 & CLOSING GUIDE ($2,500 TURNKEY) -->
+    <div id="tabCall2Content" class="space-y-3 hidden">
+      <div class="bg-gradient-to-br from-slate-900 to-slate-950 border-2 border-emerald-500/50 rounded-2xl p-4 shadow-xl">
+        <div class="flex items-center justify-between text-xs font-black uppercase text-emerald-400 mb-2 border-b border-slate-800 pb-2">
+          <span>💰 СЦЕНАРИЙ ЗВОНКА №2 (THE 45-SECOND WALKTHROUGH & ДОЖИМ НА $2,500)</span>
+          <span class="text-[10px] font-mono text-emerald-300">ОКУПАЕМОСТЬ С 1 ДЕРЕВА</span>
+        </div>
+
+        <div class="space-y-3 text-xs">
+          <!-- Step 1 -->
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-3">
+            <div class="flex justify-between items-center mb-1 text-[10px] font-bold text-slate-400 uppercase font-mono">
+              <span>ШАГ 1: ПРИВЕТСТВИЕ И ВЕРИФИКАЦИЯ (ЗВОНИТЬ РОВНО В 9:30 AM US TIME)</span>
+              <button onclick="copyText('scriptCall2Step1')" class="text-emerald-400 hover:text-emerald-300 text-[10px] font-bold underline">Копировать EN</button>
+            </div>
+            <div id="scriptCall2Step1" class="text-slate-100 font-semibold leading-relaxed font-sans">
+              “Morning [Owner Name], Tatyana checking back as promised. Did you get a chance to open that text link last night? Did we get all your tree services, emergency response info, and phone number right, or is there anything we should tweak?”
+            </div>
+            <div class="text-[11px] text-slate-400 italic mt-1">
+              RU: «Доброе утро, [Имя], это Татьяна, как и договаривались вчера. Удалось вчера открыть ссылку из СМС? Всё ли верно указано по услугам спила, аварийным выездам и телефону, или нужно что-то подправить?»
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-slate-950 border border-teal-800/60 rounded-xl p-3">
+            <div class="flex justify-between items-center mb-1 text-[10px] font-bold text-teal-400 uppercase font-mono">
+              <span>📸 ШАГ 2: СБОР ЖИВЫХ ФОТО ТЕХНИКИ И БРИГАДЫ (THE EQUIPMENT HOOK)</span>
+              <button onclick="copyText('scriptCall2Step2')" class="text-teal-400 hover:text-teal-300 text-[10px] font-bold underline">Копировать EN</button>
+            </div>
+            <div id="scriptCall2Step2" class="text-slate-100 font-semibold leading-relaxed font-sans">
+              “By the way, you can just text over photos of your bucket trucks, wood chippers, cranes, and your climbing crew directly to this number. We’ll plug them right onto your site so homeowners see your real heavy rigs and certified arborists instead of generic stock photos. When homeowners see your actual trucks and clean yard protection, they call immediately. Feel free to text them over anytime today!”
+            </div>
+            <div class="text-[11px] text-slate-400 italic mt-1">
+              RU: «Кстати, вы можете скинуть прямо на этот номер фотографии ваших автовышек, измельчителей веток, кранов и вашей бригады верхолазов. Мы разместим их прямо на сайте, чтобы клиенты видели вашу реальную тяжелую технику и арбористов, а не стоковые картинки. Когда заказчики видят реальные машины и защиту газона, они заказывают сразу. Можете скинуть прямо сюда в ответ на СМС!»
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-slate-950 border border-emerald-800/60 rounded-xl p-3">
+            <div class="flex justify-between items-center mb-1 text-[10px] font-bold text-emerald-400 uppercase font-mono">
+              <span>💎 ШАГ 3: ОФФЕР ПОД КЛЮЧ ($2,500 TURNKEY OFFER) — ОКУПАЕМОСТЬ С 1 ДЕРЕВА</span>
+              <button onclick="copyText('scriptCall2Step3')" class="text-emerald-400 hover:text-emerald-300 text-[10px] font-bold underline">Копировать EN</button>
+            </div>
+            <div id="scriptCall2Step3" class="text-slate-100 font-semibold leading-relaxed font-sans">
+              “We do the full turnkey setup for a flat $2,500 — we connect your official dot-com domain, set up Google indexing, ultra-fast mobile emergency hosting, and zero monthly fees. In the tree business, literally one single large hazardous oak removal, crane takedown, or emergency storm job brings in $3,500 to $8,000+, so this site completely pays for itself on your very first big call. If you text me your truck and crew photos today, we can have your official site fully live within 24 hours. Want us to lock this in for you?”
+            </div>
+            <div class="text-[11px] text-slate-400 italic mt-1">
+              RU: «Мы запускаем сайт под ключ за фиксированные $2,500: подключаем официальный .com домен, настраиваем индексацию в Google, сверхбыстрый мобильный хостинг и ноль абонентской платы. В сфере спила деревьев буквально один сложный спил аварийного дуба или вызов с автокраном приносит от $3,500 до $8,000+, поэтому сайт окупается с первого же серьезного заказа. Если скинете фото техники — запустим сайт за 24 часа. Фиксируем за вами?»
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bg-slate-950 border border-sky-800/60 rounded-xl p-3">
+            <div class="flex justify-between items-center mb-1 text-[10px] font-bold text-sky-400 uppercase font-mono">
+              <span>⚡ ШАГ 4: ДАУНСЕЛЛ 50/50 (ЕСЛИ КЛИЕНТ КОЛЕБЛЕТСЯ ПО ЦЕНЕ) — ЛЕГКИЙ ВХОД</span>
+              <button onclick="copyText('scriptCall2Step4')" class="text-sky-400 hover:text-sky-300 text-[10px] font-bold underline">Копировать EN</button>
+            </div>
+            <div id="scriptCall2Step4" class="text-slate-100 font-semibold leading-relaxed font-sans">
+              “Understood. If $2,500 all at once is tight, we can split it: $1,250 today to launch under your official domain within 24 hours with your real trucks on it, and the second $1,250 in 30 days after you start taking tree calls through it. Fair enough?”
+            </div>
+            <div class="text-[11px] text-slate-400 italic mt-1">
+              RU: «Понимаю. Если сразу $2,500 неудобно, мы можем разбить сумму: $1,250 сейчас, чтобы запуститься под вашим доменом за 24 часа с вашей реальной техникой, а вторые $1,250 — через 30 дней, когда пойдут первые звонки на спил. Договорились?»
+            </div>
+          </div>
+        </div>
+
+        <!-- Arguments & Agency Hate -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 mt-3 text-xs">
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <div class="font-bold text-amber-300 mb-1">💡 Экономика Tree Service для аргументации:</div>
+            <ul class="space-y-1 text-slate-300 text-[11px]">
+              <li>• Мелкая обрезка веток: $200 – $500.</li>
+              <li>• Удаление среднего дерева: $1,200 – $2,500.</li>
+              <li>• Сложный спил аварийного дерева / кран: <strong>$4,000 – $10,000+</strong>.</li>
+              <li>• Аргумент: «Сайт нужен не для обрезки кустов, а чтобы брать крупные контракты на аварийные деревья».</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+            <div class="font-bold text-rose-300 mb-1">⚠️ Почему агентства их бесят:</div>
+            <ul class="space-y-1 text-slate-300 text-[11px]">
+              <li>• Агентства берут $500–$1,000 каждый месяц годами.</li>
+              <li>• Агентства ставят чужие стоковые фото мужиков в касках из фотобанков.</li>
+              <li>• <strong>Наш козырь:</strong> $0 ежемесячно, 100% собственность и реальные фото их автопарка.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3 CONTENT: 6 OBJECTIONS CHEAT SHEET -->
+    <div id="tabCheatSheetContent" class="space-y-2.5 hidden">
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl">
+        <div class="text-xs font-black uppercase text-sky-400 mb-3 border-b border-slate-800 pb-2 flex items-center justify-between">
+          <span>🛡 БРОНЕБОЙНЫЙ CHEAT SHEET: ОТРАБОТКА 6 ВОЗРАЖЕНИЙ РУБЩИКОВ ДЕРЕВЬЕВ</span>
+          <span class="text-[10px] font-mono text-slate-400">Точные ответы американским подрядчикам</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+
+          <!-- 1 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-sky-300">1. «I haven’t looked at it yet / busy up in a tree»</span>
+              <span class="text-[9.5px] font-mono bg-sky-950 border border-sky-800 text-sky-300 px-1.5 py-0.5 rounded">СОВМЕСТНЫЙ ПРОСМОТР</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “Totally understand, stay safe up there! Tell you what — whenever you're on the ground, pull up that text message real quick, takes literally 15 seconds to scroll. And by the way, you can text over photos of your bucket trucks, chippers, or crew straight to this number and we'll plug them in. Let me know when you take a look!”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Уважаем тяжелый труд арбориста. Предлагаем открыть СМС на 15 секунд, как только спустится на землю, и закинуть фото техники прямо в ответное СМС.
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-emerald-300">2. «$2,500 is too expensive / no budget»</span>
+              <span class="text-[9.5px] font-mono bg-emerald-950 border border-emerald-800 text-emerald-300 px-1.5 py-0.5 rounded">ОКУПАЕМОСТЬ С 1 ДЕРЕВА</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “Understood. But in tree work, literally one single hazardous tree takedown or storm removal is $3,500 to $6,000+. So this pays for itself on your very first serious call. Plus, zero monthly fees — traditional marketing agencies charge $500 to $800 every single month forever. If $2,500 all at once is tight, we can do 50/50: $1,250 now to launch within 24 hours under your domain, you text me your truck photos, and the second $1,250 in 30 days. Fair enough?”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Показываем окупаемость с 1 выезда на спил ($4k+) + бьем по агентствам, сосущим абонентку + предлагаем сплит 50/50.
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-amber-300">3. «We already have plenty of work / Word of mouth only»</span>
+              <span class="text-[9.5px] font-mono bg-amber-950 border border-amber-800 text-amber-300 px-1.5 py-0.5 rounded">ФИЛЬТР НА $5,000+</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “Word of mouth is the absolute best reputation, 100%! The only reason we built this: younger families moving into your area don't know the local names yet. When a tree leans toward their roof after a storm, they search Google on their phone. Plus, this isn't about small $150 limb prunings — it positions you for the big $5,000 to $10,000 crane removals with your heavy equipment featured.”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Новые жители не знают старых арбористов. Сайт нужен не ради обрезки кустов за $150, а чтобы забирать жирные заказы на аварийный спил под $10,000.
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-purple-300">4. «We already have a website / Facebook page»</span>
+              <span class="text-[9.5px] font-mono bg-purple-950 border border-purple-800 text-purple-300 px-1.5 py-0.5 rounded">СКОРОСТЬ ПРИ ШТОРМЕ</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “100%, and that's great! Most tree services already had an older desktop site or a Facebook page. But during storm emergencies, over 90% of homeowners search from a phone with branches on their roof or driveway blocked. Ours loads in under 1 second and is built for pure 1-tap emergency calls with your real bucket trucks front and center. You can point your official domain right here.”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Во время ураганов люди не сидят за компьютерами — они в панике тыкают в телефон. Наш сайт загружается за 1 секунду и дает мгновенный вызов бригады.
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-teal-300">5. «Just send an email with the pricing»</span>
+              <span class="text-[9.5px] font-mono bg-teal-950 border border-teal-800 text-teal-300 px-1.5 py-0.5 rounded">ОБМЕН НА ФОТО ТЕХНИКИ</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “Happy to send an email! What's your best email address? I'll send the full breakdown over right now. And in the meantime, feel free to text over photos of your bucket trucks, chippers, or crew right to this cell — we'll drop them onto your live preview today so you can see how sharp it looks before you decide!”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Берем email, но сразу переводим диалог на отправку фото техники в СМС. Пока клиент ждет email, он вовлекается в отправку реальных фото.
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="bg-slate-950 border border-slate-800 p-3 rounded-xl">
+            <div class="flex justify-between items-start mb-1">
+              <span class="font-bold text-rose-300">6. «Need to talk to my business partner»</span>
+              <span class="text-[9.5px] font-mono bg-rose-950 border border-rose-800 text-rose-300 px-1.5 py-0.5 rounded">ФИКСАЦИЯ ВРЕМЕНИ</span>
+            </div>
+            <div class="text-slate-200 leading-relaxed text-[11px] mb-1">
+              “100%, definitely want both partners on board. Just forward that text message with the link to them so they can tap it on their phone. What do you think is the main question they'll have? ... Got it. I’ll give you a short buzz tomorrow around 10 AM after you’ve had a chance to show them. Sound good?”
+            </div>
+            <div class="text-[10.5px] text-slate-400 italic">
+              RU: Уважаем партнерство, выясняем скрытый вопрос и жестко фиксируем созвон на завтра в 10:00.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CURRENT LEAD CARD -->
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-2xl relative">
+
+      <!-- Top Row: Lead Index + Rating -->
+      <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3 mb-4">
+        <div class="flex items-center gap-2">
+          <span id="leadBadgeId" class="bg-emerald-500 text-slate-950 font-black text-xs px-2.5 py-1 rounded-lg font-mono">#1</span>
+          <h1 id="leadName" class="text-lg sm:text-xl font-black text-white">Company Name</h1>
+        </div>
+        <div class="flex items-center gap-2">
+          <span id="leadRatingBadge" class="bg-amber-950/80 border border-amber-800/70 text-amber-300 font-bold text-xs px-2.5 py-1 rounded-lg flex items-center gap-1 font-mono">
+            ⭐ 4.9 (120 отзывов)
+          </span>
+          <span id="leadImessageBadge" class="bg-sky-950/80 border border-sky-800/70 text-sky-300 font-bold text-xs px-2 py-1 rounded-lg font-mono hidden">
+            💬 iMessage
+          </span>
+        </div>
+      </div>
+
+      <!-- Lead Details Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5 text-xs">
+        <!-- Left Column: Phone & Location -->
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between bg-slate-950 p-2.5 rounded-xl border border-slate-800/80">
+            <div>
+              <div class="text-[10px] text-slate-500 uppercase font-bold">Телефон компании:</div>
+              <div id="leadPhoneDisplay" class="text-base font-black text-emerald-400 font-mono tracking-wide">+1 000-000-0000</div>
+            </div>
+            <button onclick="copyPhone()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] font-bold px-2.5 py-1.5 rounded-lg border border-slate-700 transition">
+              Скопировать
+            </button>
+          </div>
+
+          <div class="bg-slate-950 p-2.5 rounded-xl border border-slate-800/80">
+            <div class="text-[10px] text-slate-500 uppercase font-bold">Локация и адрес:</div>
+            <div id="leadAddressDisplay" class="text-slate-200 font-medium truncate">Jacksonville, FL</div>
+          </div>
+        </div>
+
+        <!-- Right Column: Online Status & Links -->
+        <div class="space-y-2.5">
+          <div class="bg-slate-950 p-2.5 rounded-xl border border-slate-800/80">
+            <div class="text-[10px] text-slate-500 uppercase font-bold">Текущий сайт / Проблема:</div>
+            <div id="leadSiteProblemDisplay" class="text-amber-400 font-semibold truncate">Сайт не работает или отсутствует</div>
+          </div>
+
+          <div class="bg-slate-950 p-2.5 rounded-xl border border-slate-800/80 flex items-center justify-between gap-2">
+            <div class="truncate">
+              <div class="text-[10px] text-slate-500 uppercase font-bold">Ссылка на макет (Showcase):</div>
+              <a id="leadShowcaseLink" href="#" target="_blank" class="text-teal-400 hover:underline font-mono text-xs font-semibold truncate block">
+                https://tree-portal.up.railway.app/...
+              </a>
+            </div>
+            <button onclick="copyShowcaseUrl()" class="shrink-0 bg-slate-800 hover:bg-slate-700 text-teal-300 text-[11px] font-bold px-2 py-1 rounded border border-slate-700">
+              URL
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIG ACTION BUTTONS: CALL & SMS -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+        <a id="btnCallHref" href="#" class="flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-black text-sm py-3.5 px-4 rounded-xl shadow-lg shadow-emerald-950/50 transition transform active:scale-95">
+          <span class="text-base">📞</span>
+          <span>НАБРАТЬ НОМЕР (CALL NOW)</span>
+        </a>
+
+        <a id="btnSmsHref" href="#" class="flex items-center justify-center gap-2 bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-400 hover:to-cyan-500 text-slate-950 font-black text-sm py-3.5 px-4 rounded-xl shadow-lg shadow-cyan-950/50 transition transform active:scale-95">
+          <span class="text-base">💬</span>
+          <span>ОТПРАВИТЬ SMS СО ССЫЛКОЙ</span>
+        </a>
+      </div>
+
+      <!-- SMS SENDING SEQUENCE BOX (From Page 3 Algorithm) -->
+      <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 mb-4">
+        <div class="text-[10px] font-bold text-slate-400 uppercase mb-2 flex items-center justify-between">
+          <span class="text-emerald-400 font-mono">📱 АЛГОРИТМ ОТПРАВКИ 2 СООБЩЕНИЙ (ДЛЯ КРАСИВОГО ПРЕВЬЮ НА IOS/ANDROID)</span>
+          <span class="text-slate-500 text-[10px]">Пункт 1 памятки</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+          <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="text-[10px] text-slate-500 font-bold mb-1">СМС #1 (Текст интро):</div>
+              <div id="smsMsg1Text" class="text-slate-200 text-[11px] font-sans leading-relaxed">
+                Hey! Tatyana here with Zonus. Here’s the free mobile preview we put together for your tree crew:
+              </div>
+            </div>
+            <button onclick="copyText('smsMsg1Text')" class="mt-2 text-emerald-400 hover:text-emerald-300 text-[10px] font-bold underline self-start">
+              Копировать текст СМС 1
+            </button>
+          </div>
+
+          <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="text-[10px] text-slate-500 font-bold mb-1">СМС #2 (Чистая ссылка для превью-карточки):</div>
+              <div id="smsMsg2Link" class="text-teal-300 text-[11px] font-mono break-all">
+                https://tree-portal.up.railway.app/...
+              </div>
+            </div>
+            <button onclick="copyText('smsMsg2Link')" class="mt-2 text-teal-400 hover:text-teal-300 text-[10px] font-bold underline self-start">
+              Копировать ссылку СМС 2
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CALL OUTCOME LOGGING (1-Click) -->
+      <div class="bg-slate-950 border border-slate-800/90 rounded-xl p-3.5">
+        <div class="text-[11px] font-bold text-slate-400 uppercase mb-2 flex items-center justify-between">
+          <span>Фиксация результата звонка:</span>
+          <span id="footerLeadStatus" class="text-slate-500 font-mono text-[10px]">Статус: не обработан</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mb-3">
+          <button onclick="logStatusAndNext('AGREED')" class="bg-emerald-950/60 hover:bg-emerald-900/80 border border-emerald-700/60 text-emerald-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            🟢 Согласен на SMS
+          </button>
+          <button onclick="logStatusAndNext('CALLBACK_930')" class="bg-amber-950/60 hover:bg-amber-900/80 border border-amber-700/60 text-amber-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            🟡 Созвон в 9:30 AM
+          </button>
+          <button onclick="logStatusAndNext('PHOTOS_SENT')" class="bg-teal-950/60 hover:bg-teal-900/80 border border-teal-700/60 text-teal-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            📸 Скинул фото
+          </button>
+          <button onclick="logStatusAndNext('VOICEMAIL')" class="bg-indigo-950/60 hover:bg-indigo-900/80 border border-indigo-700/60 text-indigo-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            📼 Автоответчик
+          </button>
+          <button onclick="logStatusAndNext('NO_ANSWER')" class="bg-slate-800 hover:bg-slate-700 border border-slate-600 text-slate-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            ⚪ Не ответил
+          </button>
+          <button onclick="logStatusAndNext('DECLINED')" class="bg-rose-950/60 hover:bg-rose-900/80 border border-rose-700/60 text-rose-300 font-bold text-xs py-2 px-1 rounded-lg transition text-center">
+            🔴 Отказ
+          </button>
+        </div>
+
+        <!-- Optional Note Input -->
+        <div class="flex gap-2">
+          <input id="leadNoteInput" type="text" placeholder="Имя владельца (если назвал) / заметка (напр: Clint, перезвонить в 9:30 AM, просил email: info@...)" class="bg-slate-900 border border-slate-800 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 flex-1 focus:outline-none focus:border-emerald-500">
+          <button onclick="saveCurrentNote()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold px-3 py-1.5 rounded-lg border border-slate-700 transition">
+            Сохранить заметку
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <div class="flex items-center justify-between mt-4 pt-3 border-t border-slate-800/80">
+        <button onclick="prevLead()" class="text-xs font-bold text-slate-400 hover:text-white flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800 transition">
+          <span>←</span> Предыдущий
+        </button>
+
+        <span class="text-[11px] text-slate-500 font-mono">Клавиши: [← Назад] [Вперед →]</span>
+
+        <button onclick="nextLead()" class="text-xs font-bold text-slate-400 hover:text-white flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-800 transition">
+          Следующий <span>→</span>
+        </button>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- MODAL: CALL LOG TABLE -->
+  <div id="logModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+        <div class="font-black text-white text-sm flex items-center gap-2">
+          <span>📋</span> Журнал звонков Татьяны (Все 50 лидов)
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="exportCsv()" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 text-xs font-bold px-3 py-1.5 rounded-lg transition">
+            📥 Скачать CSV с отчетом
+          </button>
+          <button onclick="toggleLogModal()" class="text-slate-400 hover:text-white text-sm font-bold px-2 py-1">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <div class="flex-1 overflow-auto p-4">
+        <table class="w-full text-left text-xs border-collapse font-sans">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 font-mono text-[10px] uppercase">
+              <th class="py-2">#</th>
+              <th class="py-2">Компания</th>
+              <th class="py-2">Телефон</th>
+              <th class="py-2">Статус</th>
+              <th class="py-2">Заметка / Имя владельца</th>
+            </tr>
+          </thead>
+          <tbody id="logTableBody" class="divide-y divide-slate-800/60">
+            <!-- Rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const leadsData = [{"id": 1, "name": "Monster Tree Service of West Valley", "phone": "+1 408-837-7053", "mapsUrl": "https://www.google.com/maps/place/Monster+Tree+Service+of+West+Valley/@37.287933,-122.0240544,11z/data=!3m1!4b1!4m6!3m5!1s0x808fcd6aeaf1c67f:0x8abd865972559d45!8m2!3d37.287933!4d-122.0240544!16s%2Fg%2F11fjs98gyw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "200", "siteStatus": "Есть", "siteUrl": "https://www.monstertreeservice.com/west-valley/?utm_source=GMB&utm_medium=organic&utm_campaign=SanJose", "createdPageUrl": "https://zonus.co/monster-tree-service-of-west-valley", "slug": "monster-tree-service-of-west-valley", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Нет", "carrier": "VoIP / Virtual", "address": "Не указан", "state": "FL"}, {"id": 2, "name": "Twisted Tree Service", "phone": "+1 478-550-3504", "mapsUrl": "https://www.google.com/maps/place/Twisted+Tree+Service/@32.7073431,-83.6564123,17z/data=!3m1!4b1!4m6!3m5!1s0x88f3fb560c6db8bb:0x4d5e7c970ebe5ffd!8m2!3d32.7073431!4d-83.6564123!16s%2Fg%2F11gg74sq78?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "190", "siteStatus": "Есть", "siteUrl": "https://twistedtreeservice.com/", "createdPageUrl": "https://zonus.co/twisted-tree-service", "slug": "twisted-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "Landline", "address": "2435 Industrial Park Dr, Macon, GA 31216, United States", "state": "GA"}, {"id": 3, "name": "Monster Tree Service of Texas Gulf Coast", "phone": "+1 713-364-7731", "mapsUrl": "https://www.google.com/maps/place/Monster+Tree+Service+of+Texas+Gulf+Coast/@29.6907266,-95.1033742,17z/data=!3m1!4b1!4m6!3m5!1s0x86409f238ace39bf:0xcf549db21ad1f716!8m2!3d29.6907266!4d-95.1033742!16s%2Fg%2F11jdd47xpy?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "186", "siteStatus": "Есть", "siteUrl": "https://www.monstertreeservice.com/texas-gulf-coast/", "createdPageUrl": "https://zonus.co/monster-tree-service-of-texas-gulf-coast", "slug": "monster-tree-service-of-texas-gulf-coast", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Да", "carrier": "ONVOY, LLC - TX", "address": "2310 E Lonesome Dove, Deer Park, TX 77536, United States", "state": "TX"}, {"id": 4, "name": "R & K Tree Service", "phone": "+1 828-216-6407", "mapsUrl": "https://www.google.com/maps/place/R+%26+K+Tree+Service/@35.7271075,-82.5584929,17z/data=!3m1!4b1!4m6!3m5!1s0x885a2010b119734d:0x124b8220448d9b6!8m2!3d35.7271075!4d-82.5584929!16s%2Fg%2F1thpxk51?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "184", "siteStatus": "Есть", "siteUrl": "https://rk-tree.com/", "createdPageUrl": "https://zonus.co/r-k-tree-service", "slug": "r-k-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Landline", "address": "36 Old Mars Hill Hwy, Weaverville, NC 28787, United States", "state": "NC"}, {"id": 5, "name": "Trees of Georgia, Inc.", "phone": "+1 770-882-4955", "mapsUrl": "https://www.google.com/maps/place/Trees+of+Georgia,+Inc./@34.0546632,-84.3342789,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5731d3dcafc6b:0xc9ac9f738b944e25!8m2!3d34.0546632!4d-84.3342789!16s%2Fg%2F11h3mwh4km?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "184", "siteStatus": "Есть", "siteUrl": "https://treesofga.com/", "createdPageUrl": "https://zonus.co/trees-of-georgia-inc", "slug": "trees-of-georgia-inc", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "T-Mobile", "address": "11285 Elkins Rd Ste H-5-B, Roswell, GA 30076, United States", "state": "GA"}, {"id": 6, "name": "Monster Tree Service of Raleigh Durham", "phone": "+1 919-765-8733", "mapsUrl": "https://www.google.com/maps/place/Monster+Tree+Service+of+Raleigh+Durham/@35.8395545,-78.673222,11z/data=!3m1!4b1!4m6!3m5!1s0x89aced5cbbe68c8d:0xc67b528f108a0150!8m2!3d35.8395545!4d-78.673222!16s%2Fg%2F11h65b05l7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "182", "siteStatus": "Есть", "siteUrl": "https://www.whymonster.com/", "createdPageUrl": "https://zonus.co/monster-tree-service-of-raleigh-durham", "slug": "monster-tree-service-of-raleigh-durham", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Да", "carrier": "PAETEC ITEL, LLC", "address": "Не указан", "state": "FL"}, {"id": 7, "name": "Troncos's Land", "phone": "+1 813-751-9443", "mapsUrl": "https://www.google.com/maps/place/Troncos's+Land/@28.1294678,-82.3408527,17z/data=!3m1!4b1!4m6!3m5!1s0x24ecb0a215f6c2f5:0xabde459a32c7a608!8m2!3d28.1294678!4d-82.3408527!16s%2Fg%2F11sr9vk9gv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "180", "siteStatus": "Есть", "siteUrl": "https://troncosland.com/", "createdPageUrl": "https://zonus.co/troncoss-land", "slug": "troncoss-land", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "AT&T Mobility", "address": "9202 Celebration Ct, Tampa, FL 33647, United States", "state": "FL"}, {"id": 8, "name": "Very Good Stump Grinding & Tree Removal", "phone": "+1 971-266-4078", "mapsUrl": "https://www.google.com/maps/place/Very+Good+Stump+Grinding+%26+Tree+Removal/@45.3854433,-122.7382893,17z/data=!3m1!4b1!4m6!3m5!1s0x5495733e0aefad13:0xaec7ff6d12915fae!8m2!3d45.3854433!4d-122.7382893!16s%2Fg%2F11kpz0zld8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "177", "siteStatus": "Есть", "siteUrl": "https://www.verygoodstumpgrinding.com/", "createdPageUrl": "https://zonus.co/very-good-stump-grinding-tree-removal", "slug": "very-good-stump-grinding-tree-removal", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "VoIP / Virtual", "address": "5780 SW Childs Rd, Lake Oswego, OR 97035, United States", "state": "OR"}, {"id": 9, "name": "Treekeeper Tree Service Inc.", "phone": "+1 503-998-6076", "mapsUrl": "https://www.google.com/maps/place/Treekeeper+Tree+Service+Inc./@45.4100546,-122.4417636,17z/data=!3m1!4b1!4m6!3m5!1s0x54950a3d00000001:0x907c8ac6f258832e!8m2!3d45.4100546!4d-122.4417636!16s%2Fg%2F1tc_w9bx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "177", "siteStatus": "Есть", "siteUrl": "https://treekeepertreeservice.com/", "createdPageUrl": "https://zonus.co/treekeeper-tree-service", "slug": "treekeeper-tree-service", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Нет", "carrier": "Landline", "address": "15550 SE Royer Rd, Damascus, OR 97089, United States", "state": "OR"}, {"id": 10, "name": "American Tree Solutions", "phone": "+1 904-884-0345", "mapsUrl": "https://www.google.com/maps/place/American+Tree+Solutions/@30.2864325,-81.6423576,17z/data=!3m1!4b1!4m6!3m5!1s0x647743048eb40323:0xd3c30f5d64a531b!8m2!3d30.2864325!4d-81.6423576!16s%2Fg%2F11k3k34x_d?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "177", "siteStatus": "Есть", "siteUrl": "https://americantreesolutionsfl.com/", "createdPageUrl": "https://zonus.co/american-tree-solutions", "slug": "american-tree-solutions", "siteProblem": "Сайт не открывается (Таймаут соединения)", "imessage": "Да", "carrier": "T-Mobile", "address": "2071 Emerson St Unit 1, Jacksonville, FL 32207, United States", "state": "FL"}, {"id": 11, "name": "Higuera Tree Care", "phone": "+1 619-300-1340", "mapsUrl": "https://www.google.com/maps/place/Higuera+Tree+Care/data=!4m7!3m6!1s0x80d94c2dcf0c5b61:0x5f5d8c551eb670c2!8m2!3d32.5927113!4d-117.0531582!16s%2Fg%2F11c524d8zg!19sChIJYVsMzy1M2YARwnC2HlWMXV8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1", "rating": "4.9", "reviewCount": "172", "siteStatus": "Есть", "siteUrl": "https://www.higueratreecare.com/", "createdPageUrl": "https://zonus.co/higuera-tree-care", "slug": "higuera-tree-care", "siteProblem": "Сайт не открывается (Таймаут соединения)", "imessage": "Нет", "carrier": "Landline", "address": "187 Mace St Suite H, Chula Vista, CA 91911, United States", "state": "CA"}, {"id": 12, "name": "Precision Tree Service", "phone": "+1 360-840-8776", "mapsUrl": "https://www.google.com/maps/place/Precision+Tree+Service/@48.6892689,-122.4333984,17z/data=!3m1!4b1!4m6!3m5!1s0x54856fdd02e1a829:0xf7ddf9a7d1f286d8!8m2!3d48.6892689!4d-122.4333984!16s%2Fg%2F11bwk_yx5z?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "171", "siteStatus": "Есть", "siteUrl": "https://precisiontree.services/", "createdPageUrl": "https://zonus.co/precision-tree-service", "slug": "precision-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "T-Mobile", "address": "1075 Old Samish Rd, Bellingham, WA 98229, United States", "state": "WA"}, {"id": 13, "name": "Garden Oaks Tree Service LLC", "phone": "+1 832-886-8202", "mapsUrl": "https://www.google.com/maps/place/Garden+Oaks+Tree+Service+LLC/@29.9642767,-95.4690603,17z/data=!3m1!4b1!4m6!3m5!1s0x8640cb857e4f0753:0x7b55e98dd17eac96!8m2!3d29.9642767!4d-95.4690603!16s%2Fg%2F11n22_9zsb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "168", "siteStatus": "Есть", "siteUrl": "http://gardenoakstreeservicellc.com/", "createdPageUrl": "https://zonus.co/garden-oaks-tree-service", "slug": "garden-oaks-tree-service", "siteProblem": "Сайт не открывается (Домен не найден / DNS ошибка)", "imessage": "Да", "carrier": "T-Mobile", "address": "2711 Grand Canyon Dr, Houston, TX 77067, United States", "state": "TX"}, {"id": 14, "name": "Tom’s Tree Service", "phone": "+1 714-531-5379", "mapsUrl": "https://www.google.com/maps/place/Tom%E2%80%99s+Tree+Service/@33.640814,-117.7803964,10z/data=!3m1!4b1!4m6!3m5!1s0x82f774bcb16bfc5d:0xaf21db92907993e0!8m2!3d33.640814!4d-117.7803964!16s%2Fg%2F11x792hh1j?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "168", "siteStatus": "Есть", "siteUrl": "https://www.betterthanbeavers.com/", "createdPageUrl": "https://zonus.co/toms-tree-service", "slug": "toms-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Landline", "address": "Не указан", "state": "FL"}, {"id": 15, "name": "Squirrel Tree Services, Inc.", "phone": "+1 404-397-5820", "mapsUrl": "https://www.google.com/maps/place/Squirrel+Tree+Services,+Inc./@34.1439487,-84.1926883,17z/data=!3m1!4b1!4m6!3m5!1s0x88f59b8b95618cfd:0xbbe132daf12eb6aa!8m2!3d34.1439487!4d-84.1926883!16s%2Fg%2F11cm76y33t?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "167", "siteStatus": "Есть", "siteUrl": "http://squirreltreeservices.com/", "createdPageUrl": "https://zonus.co/squirrel-tree-services", "slug": "squirrel-tree-services", "siteProblem": "Сайт не открывается (UNABLE_TO_VERIFY_LEAF_SIGNATURE)", "imessage": "Да", "carrier": "T-Mobile", "address": "4130 Ivy Summit Ct, Cumming, GA 30041, United States", "state": "GA"}, {"id": 16, "name": "Texas Tree Authority", "phone": "+1 210-251-4232", "mapsUrl": "https://www.google.com/maps/place/Texas+Tree+Authority/@29.5098104,-98.6281411,17z/data=!3m1!4b1!4m6!3m5!1s0x40ea99fe9af53a0d:0x91f1d747a6d92847!8m2!3d29.5098104!4d-98.6281411!16s%2Fg%2F11wp7zdmfl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "166", "siteStatus": "Есть", "siteUrl": "https://texastreeauthority.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp", "createdPageUrl": "https://zonus.co/texas-tree-authority", "slug": "texas-tree-authority", "siteProblem": "Сайт не открывается (Ошибка HTTP 520)", "imessage": "Да", "carrier": "TWC IP ENABLED SERVICES, ", "address": "7540 Bandera Rd #3, San Antonio, TX 78238, United States", "state": "TX"}, {"id": 17, "name": "Cerroblanco Tree Service LLC", "phone": "+1 321-987-2999", "mapsUrl": "https://www.google.com/maps/place/Cerroblanco+Tree+Service+LLC/@28.6602416,-81.359427,17z/data=!3m1!4b1!4m6!3m5!1s0x88e771cfd5db2acd:0xd4c8ca301aeeadf1!8m2!3d28.6602416!4d-81.359427!16s%2Fg%2F11gh_fhs1x?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "161", "siteStatus": "Есть", "siteUrl": "https://m.facebook.com/CerroblancoTreeService/", "createdPageUrl": "https://zonus.co/cerroblanco-tree-service", "slug": "cerroblanco-tree-service", "siteProblem": "Страница Facebook вместо сайта", "imessage": "Нет", "carrier": "T-Mobile", "address": "Orienta Ave, Altamonte Springs, FL 32701, United States", "state": "FL"}, {"id": 18, "name": "Asay Tree Service", "phone": "+1 941-225-9488", "mapsUrl": "https://www.google.com/maps/place/Asay+Tree+Service/@27.4216365,-82.584694,11z/data=!3m1!4b1!4m6!3m5!1s0x610eb93fb7d63639:0x2ce9c065fa6aaaca!8m2!3d27.4216366!4d-82.584694!16s%2Fg%2F11svwj1t1f?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "158", "siteStatus": "Есть", "siteUrl": "https://asaytree.com/", "createdPageUrl": "https://zonus.co/asay-tree-service", "slug": "asay-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "T-Mobile", "address": "Не указан", "state": "FL"}, {"id": 19, "name": "941 Tree Services LLC", "phone": "+1 941-225-9343", "mapsUrl": "https://www.google.com/maps/place/941+Tree+Services+LLC/@27.3541679,-82.4999584,17z/data=!3m1!4b1!4m6!3m5!1s0x88c33fa411689437:0x184d4050f3db89ab!8m2!3d27.3541679!4d-82.4999584!16s%2Fg%2F11r9_26z7f?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "157", "siteStatus": "Есть", "siteUrl": "https://941treeservices.com/", "createdPageUrl": "https://zonus.co/941-tree-services-llc", "slug": "941-tree-services-llc", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "T-Mobile", "address": "1916 Crampton Ave, Sarasota, FL 34235, United States", "state": "FL"}, {"id": 20, "name": "K&R TREE SERVICE PROS", "phone": "+1 409-229-0550", "mapsUrl": "https://www.google.com/maps/place/K%26R+TREE+SERVICE+PROS/@29.8321318,-95.3533342,17z/data=!3m1!4b1!4m6!3m5!1s0x8640b96b7bdba923:0x2d4d348513556c27!8m2!3d29.8321318!4d-95.3533342!16s%2Fg%2F11ptx_1rrg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "156", "siteStatus": "Есть", "siteUrl": "https://krtreeservicepros.com/", "createdPageUrl": "https://zonus.co/kr-tree-service-pros", "slug": "kr-tree-service-pros", "siteProblem": "Сайт не открывается (Домен не найден / DNS ошибка)", "imessage": "Нет", "carrier": "T-Mobile", "address": "1710 Eubanks St, Houston, TX 77093, United States", "state": "TX"}, {"id": 21, "name": "R&R Tree Services LLC", "phone": "+1 843-934-7678", "mapsUrl": "https://www.google.com/maps/place/R%26R+Tree+Services+LLC/@32.9948685,-80.006923,9z/data=!3m1!4b1!4m6!3m5!1s0x88fe8d9f63893287:0x89e2325f28e736a3!8m2!3d32.9948685!4d-80.006923!16s%2Fg%2F11p650k_54?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "150", "siteStatus": "Есть", "siteUrl": "https://randrtreeservicesllc.com/", "createdPageUrl": "https://zonus.co/rr-tree-services-llc", "slug": "rr-tree-services-llc", "siteProblem": "Сайт не открывается (Таймаут соединения)", "imessage": "Да", "carrier": "AT&T Mobility", "address": "Не указан", "state": "FL"}, {"id": 22, "name": "Trinity Forest Tree Care Service", "phone": "+1 817-609-1495", "mapsUrl": "https://www.google.com/maps/place/Trinity+Forest+Tree+Care+Service/@32.7003152,-97.4334636,17z/data=!3m1!4b1!4m6!3m5!1s0x864e0d4bbefcd909:0x731ac22330803792!8m2!3d32.7003152!4d-97.4334636!16s%2Fg%2F11gng6p7rt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "148", "siteStatus": "Есть", "siteUrl": "https://trinityforesttreecareservice.com/", "createdPageUrl": "https://zonus.co/trinity-forest-tree-care-service", "slug": "trinity-forest-tree-care-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "T-Mobile", "address": "6909 Sandalwood Ln, Fort Worth, TX 76116, United States", "state": "TX"}, {"id": 23, "name": "Extreme Tree Service", "phone": "+1 843-241-1615", "mapsUrl": "https://www.google.com/maps/place/Extreme+Tree+Service/@33.6581775,-78.9470459,11z/data=!3m1!4b1!4m6!3m5!1s0x63b95c526e57515d:0xd798fbdba152cb5f!8m2!3d33.6581775!4d-78.9470459!16s%2Fg%2F11x74vks7r?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "146", "siteStatus": "Есть", "siteUrl": "http://www.extremetreesc.com/", "createdPageUrl": "https://zonus.co/extreme-tree-service", "slug": "extreme-tree-service", "siteProblem": "Сайт не открывается (Ошибка HTTP 500)", "imessage": "Нет", "carrier": "T-Mobile", "address": "Не указан", "state": "FL"}, {"id": 24, "name": "Texas Tree Experts", "phone": "+1 512-981-3439", "mapsUrl": "https://www.google.com/maps/place/Texas+Tree+Experts/@30.1386658,-97.8911673,17z/data=!3m1!4b1!4m6!3m5!1s0x865b4f7323853989:0x2ae6b54adff72bff!8m2!3d30.1386658!4d-97.8911673!16s%2Fg%2F11kk9fl39b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "143", "siteStatus": "Есть", "siteUrl": "https://www.texastreeexperts.com/", "createdPageUrl": "https://zonus.co/texas-tree-experts", "slug": "texas-tree-experts", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "T-Mobile", "address": "1015 Quail Rd, Manchaca, TX 78652, United States", "state": "TX"}, {"id": 25, "name": "Artistic Trees Inc", "phone": "+1 210-561-0155", "mapsUrl": "https://www.google.com/maps/place/Artistic+Trees+Inc/@29.5106434,-98.6658831,9z/data=!3m1!4b1!4m6!3m5!1s0x865c68c398425031:0x6186fbe9e13b09ff!8m2!3d29.5106434!4d-98.665883!16s%2Fg%2F1tc_lkkw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "143", "siteStatus": "Есть", "siteUrl": "https://sanantoniotreecompany.com/", "createdPageUrl": "https://zonus.co/artistic-trees-inc", "slug": "artistic-trees-inc", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Да", "carrier": "Landline", "address": "Не указан", "state": "FL"}, {"id": 26, "name": "High Point Tree & Fence", "phone": "+1 336-861-9058", "mapsUrl": "https://www.google.com/maps/place/High+Point+Tree+%26+Fence/@35.9349439,-80.111669,10z/data=!3m1!4b1!4m6!3m5!1s0x88530c6d5f180919:0x62b123e428561253!8m2!3d35.934944!4d-80.111669!16s%2Fg%2F125_v2mlz?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "142", "siteStatus": "Есть", "siteUrl": "https://hptreeandfence.com/", "createdPageUrl": "https://zonus.co/high-point-tree-fence", "slug": "high-point-tree-fence", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "Landline", "address": "Не указан", "state": "FL"}, {"id": 27, "name": "Kats Tree Service", "phone": "+1 352-227-1103", "mapsUrl": "https://www.google.com/maps/place/Kats+Tree+Service/@28.90279,-81.861887,17z/data=!3m1!4b1!4m6!3m5!1s0x88e73265cfbc3dc9:0x3161b41ae5a1875d!8m2!3d28.90279!4d-81.861887!16s%2Fg%2F11g9kb7_b8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "140", "siteStatus": "Есть", "siteUrl": "https://katstreeservice.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_main_listing", "createdPageUrl": "https://zonus.co/kats-tree-service", "slug": "kats-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "VoIP / Virtual", "address": "5509 Indiana Dr, Lady Lake, FL 32159, United States", "state": "FL"}, {"id": 28, "name": "Pure Tree Care", "phone": "+1 919-726-7042", "mapsUrl": "https://www.google.com/maps/place/Pure+Tree+Care/@35.9074536,-78.9804134,10z/data=!3m1!4b1!4m6!3m5!1s0x89acc4913a813f3b:0x9545e2ffe3aff0d8!8m2!3d35.9074536!4d-78.9804134!16s%2Fg%2F11gf97150q?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "139", "siteStatus": "Есть", "siteUrl": "https://puretreecare.com/", "createdPageUrl": "https://zonus.co/pure-tree-care", "slug": "pure-tree-care", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "VoIP / Virtual", "address": "Не указан", "state": "FL"}, {"id": 29, "name": "Grizzlybear Arborcare", "phone": "+1 828-712-2400", "mapsUrl": "https://www.google.com/maps/place/Grizzlybear+Arborcare/@35.544408,-82.4728175,10z/data=!3m1!4b1!4m6!3m5!1s0x8859f31a40992f91:0x5d7c2c4f81e119bd!8m2!3d35.544408!4d-82.4728175!16s%2Fg%2F11gxn7cr5h?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "139", "siteStatus": "Есть", "siteUrl": "https://www.grizzlybeararborcare.com/", "createdPageUrl": "https://zonus.co/grizzlybear-arborcare", "slug": "grizzlybear-arborcare", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Landline", "address": "Не указан", "state": "FL"}, {"id": 30, "name": "Brian's Quality Tree Service", "phone": "+1 727-420-6188", "mapsUrl": "https://www.google.com/maps/place/Brian's+Quality+Tree+Service/@27.831732,-82.6772172,17z/data=!3m1!4b1!4m6!3m5!1s0x88c2e47123cacbf5:0xb348b9f9b4c6c09c!8m2!3d27.831732!4d-82.6772172!16s%2Fg%2F1tl1jp9k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "139", "siteStatus": "Есть", "siteUrl": "https://briansqualitytreecare.com/", "createdPageUrl": "https://zonus.co/brians-quality", "slug": "brians-quality", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Landline", "address": "6597 Wayne St, St. Petersburg, FL 33702, United States", "state": "FL"}, {"id": 31, "name": "Gutierrez & Sons Tree Services and Landscaping", "phone": "+1 310-596-6704", "mapsUrl": "https://www.google.com/maps/place/Gutierrez+%26+Sons+Tree+Services+and+Landscaping/@33.8680442,-118.2991875,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2b56ea521e07d:0xe94110653762892c!8m2!3d33.8680442!4d-118.2991875!16s%2Fg%2F11fkctnyln?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.7", "reviewCount": "136", "siteStatus": "Есть", "siteUrl": "https://www.gutierrezandsonstreeservice.com/", "createdPageUrl": "https://zonus.co/gutierrez-sons-tree-services-and-landscaping", "slug": "gutierrez-sons-tree-services-and-landscaping", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "VoIP / Virtual", "address": "879 W 179th St Suite 400 Office #55, Gardena, CA 90248, United States", "state": "CA"}, {"id": 32, "name": "Pfeifer Tree Service", "phone": "+1 941-900-6009", "mapsUrl": "https://www.google.com/maps/place/Pfeifer+Tree+Service/@27.3548965,-82.528777,17z/data=!3m1!4b1!4m6!3m5!1s0x88c33f6ec501cf1d:0x8c3e02a36acd94cc!8m2!3d27.3548965!4d-82.528777!16s%2Fg%2F11pddy1p_y?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "135", "siteStatus": "Есть", "siteUrl": "https://pfeifertreeservice.com/", "createdPageUrl": "https://zonus.co/pfeifer-tree-service", "slug": "pfeifer-tree-service", "siteProblem": "Ошибка безопасности (Истёк или недействителен SSL)", "imessage": "Нет", "carrier": "AT&T Mobility", "address": "2080 20th St, Sarasota, FL 34234, United States", "state": "FL"}, {"id": 33, "name": "Arbor Barber Tree Service", "phone": "+1 360-599-0727", "mapsUrl": "https://www.google.com/maps/place/Arbor+Barber+Tree+Service/@47.2596024,-122.0854522,17z/data=!3m1!4b1!4m6!3m5!1s0x5490f7bb96163539:0x38216dde8f161954!8m2!3d47.2596024!4d-122.0854522!16s%2Fg%2F11q1pfgm8c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "133", "siteStatus": "Есть", "siteUrl": "http://arborbarber.com/", "createdPageUrl": "https://zonus.co/arbor-barber-tree-service", "slug": "arbor-barber-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Verizon Wireless", "address": "38120 192nd Ave SE, Auburn, WA 98092, United States", "state": "WA"}, {"id": 34, "name": "Monster Tree Service of South Charlotte", "phone": "+1 704-741-4432", "mapsUrl": "https://www.google.com/maps/place/Monster+Tree+Service+of+South+Charlotte/@35.0777355,-80.728354,10z/data=!3m1!4b1!4m6!3m5!1s0x8854276d02593259:0x52fb2d1dac7eb075!8m2!3d35.0777355!4d-80.728354!16s%2Fg%2F11h3kz6wrj?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "132", "siteStatus": "Есть", "siteUrl": "https://www.monstertreeservice.com/south-charlotte/", "createdPageUrl": "https://zonus.co/monster-tree-service-of-south-charlotte", "slug": "monster-tree-service-of-south-charlotte", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Да", "carrier": "ONVOY, LLC - NC", "address": "Не указан", "state": "FL"}, {"id": 35, "name": "Treemasters", "phone": "+1 415-455-9933", "mapsUrl": "https://www.google.com/maps/place/Treemasters/@37.9585943,-122.5014592,17z/data=!3m1!4b1!4m6!3m5!1s0x80859bd266da85a5:0xc6f119ac98c4d5e4!8m2!3d37.9585943!4d-122.5014592!16s%2Fg%2F11fk99q83n?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "130", "siteStatus": "Есть", "siteUrl": "https://treemasters.com/?utm_source=google&utm_medium=gbp&utm_campaign=san_rafael", "createdPageUrl": "https://zonus.co/treemasters", "slug": "treemasters", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "PACIFIC (Landline)", "address": "3175 Kerner Blvd A, San Rafael, CA 94901, United States", "state": "CA"}, {"id": 36, "name": "Hug'em and Cut'em Tree Service", "phone": "+1 251-747-7514", "mapsUrl": "https://www.google.com/maps/place/Hug'em+and+Cut'em+Tree+Service/@30.6496731,-87.6367413,17z/data=!3m1!4b1!4m6!3m5!1s0x889a713cff043e47:0xf7b7393e8dba998!8m2!3d30.6496731!4d-87.6367413!16s%2Fg%2F11j3w5tcmf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "129", "siteStatus": "Есть", "siteUrl": "https://www.hugemandcutem.com/", "createdPageUrl": "https://zonus.co/hugem-and-cutem", "slug": "hugem-and-cutem", "siteProblem": "Сайт не открывается (Таймаут соединения)", "imessage": "Нет", "carrier": "T-Mobile", "address": "22660 Wing Ln, Robertsdale, AL 36567, United States", "state": "AL"}, {"id": 37, "name": "Monster Tree Service of the Coast", "phone": "+1 650-733-2090", "mapsUrl": "https://www.google.com/maps/place/Monster+Tree+Service+of+the+Coast/@37.4487045,-122.3241859,10z/data=!3m1!4b1!4m6!3m5!1s0x808f9ff2e6bdf52f:0xf187361374b1318a!8m2!3d37.4487045!4d-122.3241859!16s%2Fg%2F11gj7g9h7_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "129", "siteStatus": "Есть", "siteUrl": "https://www.monstertreeservice.com/coast/", "createdPageUrl": "https://zonus.co/monster-tree-service-of-the-coast", "slug": "monster-tree-service-of-the-coast", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Нет", "carrier": "ONVOY, LLC - CA", "address": "Не указан", "state": "FL"}, {"id": 38, "name": "Oregon Tree Professionals LLC", "phone": "+1 541-248-9038", "mapsUrl": "https://www.google.com/maps/place/Oregon+Tree+Professionals+LLC/@44.501259,-122.8532694,17z/data=!3m1!4b1!4m6!3m5!1s0x54c065d469bd74f9:0x297fc37bc278cc85!8m2!3d44.501259!4d-122.8532694!16s%2Fg%2F11j4gfx1ww?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "128", "siteStatus": "Есть", "siteUrl": "https://oregontreeprofessionals.com/", "createdPageUrl": "https://zonus.co/oregon-tree-professionals", "slug": "oregon-tree-professionals", "siteProblem": "Ошибка безопасности (Истёк или недействителен SSL)", "imessage": "Нет", "carrier": "T-Mobile", "address": "5725 S Santiam Hwy, Lebanon, OR 97355, United States", "state": "OR"}, {"id": 39, "name": "Georgia Tree Removal", "phone": "+1 404-396-4939", "mapsUrl": "https://www.google.com/maps/place/Georgia+Tree+Removal/@33.8936607,-83.1213368,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5e95cc42488bf:0x2ba14ad9897f796!8m2!3d33.8936607!4d-83.1213368!16s%2Fg%2F11j030r7cv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "127", "siteStatus": "Есть", "siteUrl": "https://georgia-tree-removal.com/", "createdPageUrl": "https://zonus.co/georgia-tree-removal", "slug": "georgia-tree-removal", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "T-Mobile", "address": "116 Buddy Faust Rd, Crawford, GA 30630, United States", "state": "GA"}, {"id": 40, "name": "TREE WARRIOR", "phone": "+1 360-335-4746", "mapsUrl": "https://www.google.com/maps/place/TREE+WARRIOR/@45.6341526,-122.3594384,17z/data=!3m1!4b1!4m6!3m5!1s0x5495bb57cf1aa759:0x4cd18d254b2d0c1d!8m2!3d45.6341526!4d-122.3594384!16s%2Fg%2F11qmbzdsm0?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "127", "siteStatus": "Есть", "siteUrl": "https://treewarriorllc.com/", "createdPageUrl": "https://zonus.co/tree-warrior", "slug": "tree-warrior", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "Verizon Wireless", "address": "30406 NE 15th St, Washougal, WA 98671, United States", "state": "WA"}, {"id": 41, "name": "Top Shelf Tree Service & Landscaping", "phone": "+1 727-906-6151", "mapsUrl": "https://www.google.com/maps/place/Top+Shelf+Tree+Service+%26+Landscaping/@27.8520645,-82.537276,10z/data=!3m1!4b1!4m6!3m5!1s0x88c2e3707806e999:0x7ee860f702a6d839!8m2!3d27.8520646!4d-82.537276!16s%2Fg%2F11cnt71r93?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "127", "siteStatus": "Есть", "siteUrl": "http://topshelftreeservice.com/", "createdPageUrl": "https://zonus.co/top-shelf-tree-service-landscaping", "slug": "top-shelf-tree-service-landscaping", "siteProblem": "Сайт не открывается (Ошибка HTTP 404)", "imessage": "Нет", "carrier": "T-Mobile", "address": "Не указан", "state": "FL"}, {"id": 42, "name": "AKA Tree Service", "phone": "+1 678-839-9219", "mapsUrl": "https://www.google.com/maps/place/AKA+Tree+Service/@33.9394951,-84.2280648,17z/data=!3m1!4b1!4m6!3m5!1s0x88f5a17f81f621f5:0xee62cfda0b8350fc!8m2!3d33.9394951!4d-84.2280648!16s%2Fg%2F11vq3fh9rr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "127", "siteStatus": "Есть", "siteUrl": "https://www.akatreeservice.com/?utm_source=google&utm_medium=gbp&utm_campaign=norcross", "createdPageUrl": "https://zonus.co/aka-tree-service", "slug": "aka-tree-service", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "ONVOY, LLC - GA", "address": "585 Langford Ln NW, Norcross, GA 30071, United States", "state": "GA"}, {"id": 43, "name": "Tree Cutters of America", "phone": "+1 404-426-5779", "mapsUrl": "https://www.google.com/maps/place/Tree+Cutters+of+America/@33.9783316,-84.4730595,17z/data=!3m1!4b1!4m6!3m5!1s0x88f513e35b518e13:0x9ecf38c63c86367!8m2!3d33.9783316!4d-84.4730595!16s%2Fg%2F11rtz3cq_d?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "122", "siteStatus": "Есть", "siteUrl": "http://www.treecuttersga.com/", "createdPageUrl": "https://zonus.co/tree-cutters-of-america", "slug": "tree-cutters-of-america", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Да", "carrier": "T-Mobile", "address": "2706 Benson Dr, Marietta, GA 30062, United States", "state": "GA"}, {"id": 44, "name": "Dolley tree service", "phone": "+1 919-236-7385", "mapsUrl": "https://www.google.com/maps/place/Dolley+tree+service/@35.8907035,-78.7626545,10z/data=!3m1!4b1!4m6!3m5!1s0x89acff4d0411fcf9:0x8fb4e9ab72d52757!8m2!3d35.8907036!4d-78.7626545!16s%2Fg%2F11b6jjlvqr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "119", "siteStatus": "Есть", "siteUrl": "http://dolleytree.com/", "createdPageUrl": "https://zonus.co/dolley-tree-service", "slug": "dolley-tree-service", "siteProblem": "Сайт не открывается (Ошибка HTTP 403)", "imessage": "Нет", "carrier": "T-Mobile", "address": "Не указан", "state": "FL"}, {"id": 45, "name": "Mendez Brothers Tree Service", "phone": "+1 559-666-2367", "mapsUrl": "https://www.google.com/maps/place/Mendez+Brothers+Tree+Service/@36.8203987,-119.8712375,17z/data=!3m1!4b1!4m6!3m5!1s0x80945f0ef3428553:0xe8227f51086b086a!8m2!3d36.8203987!4d-119.8712375!16s%2Fg%2F11fq_1_vlg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "119", "siteStatus": "Есть", "siteUrl": "https://treeprofresno.com/", "createdPageUrl": "https://zonus.co/mendez-brothers", "slug": "mendez-brothers", "siteProblem": "Сайт не открывается (Ошибка HTTP 520)", "imessage": "Нет", "carrier": "VoIP / Virtual", "address": "5631 N Figarden Dr #111, Fresno, CA 93722, United States", "state": "CA"}, {"id": 46, "name": "D&M Tree and Land Services, LLC", "phone": "+1 478-607-0458", "mapsUrl": "https://www.google.com/maps/place/D%26M+Tree+and+Land+Services,+LLC/@32.889513,-83.6059184,9z/data=!3m1!4b1!4m6!3m5!1s0x88f3f93f35275d41:0x9bdff6b129d186dd!8m2!3d32.889513!4d-83.6059184!16s%2Fg%2F11jb172ml7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "114", "siteStatus": "Есть", "siteUrl": "https://dandmtreeandland.com/", "createdPageUrl": "https://zonus.co/dm-tree-and-land-services", "slug": "dm-tree-and-land-services", "siteProblem": "Ошибка безопасности (Истёк или недействителен SSL)", "imessage": "Да", "carrier": "AT&T Mobility", "address": "Не указан", "state": "FL"}, {"id": 47, "name": "The Urban Foresters", "phone": "+1 281-884-9998", "mapsUrl": "https://www.google.com/maps/place/The+Urban+Foresters/@29.6367509,-95.5388165,17z/data=!3m1!4b1!4m6!3m5!1s0x8640e85d0e527fd9:0x41f0d6a67b862f5f!8m2!3d29.6367509!4d-95.5388165!16s%2Fg%2F11b7kknwlk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.9", "reviewCount": "114", "siteStatus": "Есть", "siteUrl": "https://theurbanforesters.com/?utm_source=GMB&utm_medium=GMB&utm_campaign=Sugarland", "createdPageUrl": "https://zonus.co/the-urban-foresters", "slug": "the-urban-foresters", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "VoIP / Virtual", "address": "12703 Stafford Rd A, Stafford, TX 77477, United States", "state": "TX"}, {"id": 48, "name": "ArborTrue", "phone": "+1 832-980-8733", "mapsUrl": "https://www.google.com/maps/place/ArborTrue/@29.7540595,-95.4027357,17z/data=!3m1!4b1!4m6!3m5!1s0x8640c0a36204bb4d:0xac55d4dc08ba4095!8m2!3d29.7540595!4d-95.4027357!16s%2Fg%2F11g9dn_dcb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.8", "reviewCount": "112", "siteStatus": "Есть", "siteUrl": "https://arbortrue.com/", "createdPageUrl": "https://zonus.co/arbortrue", "slug": "arbortrue", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Да", "carrier": "AT&T Mobility", "address": "1900 W Gray St #131862, Houston, TX 77019, United States", "state": "TX"}, {"id": 49, "name": "Evergreen Tree Services", "phone": "+1 503-625-4595", "mapsUrl": "https://www.google.com/maps/place/Evergreen+Tree+Services/@45.386045,-122.8678996,17z/data=!3m1!4b1!4m6!3m5!1s0x54956cfa839161b9:0x8eaed585717b1848!8m2!3d45.386045!4d-122.8678996!16s%2Fg%2F11ddwsyh5k?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "4.7", "reviewCount": "111", "siteStatus": "Есть", "siteUrl": "/aclk?sa=L&ai=DChsSEwihgr2Dr8OXAxWHEKIDHTFVCx0YACICCAEQABoCbGU&co=1&ase=2&gclid=EAIaIQobChMIoYK9g6_DlwMVhxCiAx0xVQsdEBAYASAAEgJ66fD_BwE&cid=CAASugHkaCgw90UxSKOO4m3tVNPzWZfcuFwPDn_lfZ2iH9V-RO1rwjPql0kqWNhz4lM3q2J2Sdd4gWL5Tj4jU28BiT9g4tlSNeMGwkIm8ZSBQIRv0ATRT7kai4l1bIyQokJHsEaBl5zDxE1-Y1d3cgLtXjp6MWELhk-YmnvJyeTuQq7q_1dwI4-jgFI3B24DEiSYgDkCQJ4FwWE-Hfn0ISgLBVN7uxiI2WZf46YdD6tG8jTTRFAMkibuG_Xmgjc&cce=2&category=acrcp_v1_32&sig=AOD64_1pR9goS06mb2cYRl1QFH7tb53vQQ&adurl&q&ctype=99&nis=5", "createdPageUrl": "https://zonus.co/evergreen-tree-services", "slug": "evergreen-tree-services", "siteProblem": "Сайт не открывается (ERR_INVALID_URL)", "imessage": "Нет", "carrier": "Landline", "address": "18787 SW Scholls-Sherwood Rd, Sherwood, OR 97140, United States", "state": "OR"}, {"id": 50, "name": "Wildwood Tree Care, LLC - Tree Removal Tree Service Puyallup and Surrounding Areas", "phone": "+1 253-243-8733", "mapsUrl": "https://www.google.com/maps/place/Wildwood+Tree+Care,+LLC+-+Tree+Removal+Tree+Service+Puyallup+and+Surrounding+Areas/@47.1109019,-122.3357439,17z/data=!3m1!4b1!4m6!3m5!1s0x549103a386f9dc9f:0xc629531b29b8304!8m2!3d47.1109019!4d-122.3357439!16s%2Fg%2F11fl1jt2wr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D", "rating": "5", "reviewCount": "110", "siteStatus": "Есть", "siteUrl": "http://wwtreecare.com/", "createdPageUrl": "https://zonus.co/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas", "slug": "wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas", "siteProblem": "Сайт не открывается (ECONNRESET)", "imessage": "Нет", "carrier": "VoIP / Virtual", "address": "Woodland Ave E, Puyallup, WA 98375, United States", "state": "WA"}];
+    let currentIndex = 0;
+    let selectedDomain = 'tree-portal.up.railway.app'; // Default to working live domain during Railway outage
+    let loggedCalls = JSON.parse(localStorage.getItem('tatiana_tree_calls') || '{}');
+
+    function switchTab(tabId) {
+      const c1 = document.getElementById('tabCall1Content');
+      const c2 = document.getElementById('tabCall2Content');
+      const cs = document.getElementById('tabCheatSheetContent');
+      const b1 = document.getElementById('tabCall1Btn');
+      const b2 = document.getElementById('tabCall2Btn');
+      const bs = document.getElementById('tabCheatSheetBtn');
+
+      c1.classList.add('hidden');
+      c2.classList.add('hidden');
+      cs.classList.add('hidden');
+      b1.className = 'tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold border border-slate-800 text-slate-400 hover:text-white transition';
+      b2.className = 'tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold border border-slate-800 text-slate-400 hover:text-white transition';
+      bs.className = 'tab-btn px-3.5 py-1.5 rounded-lg text-xs font-bold border border-slate-800 text-slate-400 hover:text-white transition';
+
+      if (tabId === 'call1') {
+        c1.classList.remove('hidden');
+        b1.className = 'tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold border border-emerald-500/50 transition';
+      } else if (tabId === 'call2') {
+        c2.classList.remove('hidden');
+        b2.className = 'tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold border border-emerald-500/50 transition';
+      } else if (tabId === 'cheatSheet') {
+        cs.classList.remove('hidden');
+        bs.className = 'tab-btn active px-3.5 py-1.5 rounded-lg text-xs font-bold border border-emerald-500/50 transition';
+      }
+    }
+
+    function setDomain(dom) {
+      selectedDomain = dom;
+      if (dom === 'zonus.co') {
+        document.getElementById('btnDomZonus').className = 'px-2 py-0.5 rounded font-mono font-bold bg-emerald-500 text-slate-950 transition';
+        document.getElementById('btnDomTreePortal').className = 'px-2 py-0.5 rounded font-mono font-bold text-slate-400 hover:text-white transition';
+      } else {
+        document.getElementById('btnDomTreePortal').className = 'px-2 py-0.5 rounded font-mono font-bold bg-emerald-500 text-slate-950 transition';
+        document.getElementById('btnDomZonus').className = 'px-2 py-0.5 rounded font-mono font-bold text-slate-400 hover:text-white transition';
+      }
+      renderCurrentLead();
+    }
+
+    function renderCurrentLead() {
+      if (!leadsData || leadsData.length === 0) return;
+      const lead = leadsData[currentIndex];
+
+      document.getElementById('headerLeadCounter').innerText = `Контакт #${currentIndex + 1} из ${leadsData.length}`;
+      document.getElementById('leadBadgeId').innerText = `#${lead.id}`;
+      document.getElementById('leadName').innerText = lead.name;
+
+      const ratingText = lead.rating ? `⭐ ${lead.rating} (${lead.reviewCount || 0} отзывов)` : 'Нет отзывов';
+      document.getElementById('leadRatingBadge').innerText = ratingText;
+
+      const imBadge = document.getElementById('leadImessageBadge');
+      if (lead.imessage === 'Да' || lead.imessage === true) {
+        imBadge.classList.remove('hidden');
+      } else {
+        imBadge.classList.add('hidden');
+      }
+
+      document.getElementById('leadPhoneDisplay').innerText = lead.phone || 'Нет номера';
+      document.getElementById('leadAddressDisplay').innerText = lead.address || lead.state || 'Флорида / США';
+      document.getElementById('leadSiteProblemDisplay').innerText = lead.siteProblem || 'Сайт отсутствует';
+
+      // Showcase URL calculation based on selected domain
+      const slug = lead.slug || '';
+      const showcaseUrl = `https://${selectedDomain}/${slug}`;
+      const showcaseA = document.getElementById('leadShowcaseLink');
+      showcaseA.href = showcaseUrl;
+      showcaseA.innerText = showcaseUrl;
+
+      // Phone Clean Href
+      const cleanPhone = (lead.phone || '').replace(/[^0-9+]/g, '');
+      document.getElementById('btnCallHref').href = `tel:${cleanPhone}`;
+
+      // SMS Href (Clean message with direct showcase link)
+      const cleanBizName = lead.name.replace(/,?\s*(LLC|Inc\.?|Corp\.?|Co\.?)\b/gi, '').trim();
+      const smsBody = `Hey ${cleanBizName}! Tatyana here with Zonus. Here’s the free mobile preview we put together for your tree crew:\n\n${showcaseUrl}\n\nTake a quick scroll to make sure we got your services and contact info right. If you have any truck, chipper, or climbing crew photos you want added, we can plug them right in!`;
+      document.getElementById('btnSmsHref').href = `sms:${cleanPhone}&body=${encodeURIComponent(smsBody)}`;
+
+      // Update SMS Box texts
+      document.getElementById('smsMsg1Text').innerText = `Hey ${cleanBizName}! Tatyana here with Zonus. Here’s the free mobile preview we put together for your tree crew:`;
+      document.getElementById('smsMsg2Link').innerText = showcaseUrl;
+
+      // Dynamic script replacements
+      document.getElementById('scriptCall1Owner').innerText = 
+        `“Hey ${cleanBizName}, Tatyana here with Zonus. I was looking at your 5-star Google reviews for ${cleanBizName} — we put together a free mobile preview for your tree business so homeowners can tap and call your emergency crew in one second. Zero cost, zero strings attached — just wanted to shoot you a quick link on your cell so you can double check if we got all your services and phone number right, and see if you have any photos of your bucket trucks, chippers, or climbing crew you want added in. Is this cell good to text?”`;
+
+      document.getElementById('scriptGatekeeper').innerHTML = 
+        `“Hi! Is the owner around, or is he out on a tree job right now?<br><br><strong class="text-sky-300">[IF OUT / WHAT IS THIS REGARDING]:</strong> Got it! We build fast mobile showcases specifically for tree removal and emergency storm services. We put together a clean mobile preview for ${cleanBizName} featuring your 5-star Google reviews. What's the best cell number I can text the link to so he can tap it when he comes off the job site tonight?”`;
+
+      const vmEl = document.getElementById('scriptVoicemailText');
+      if (vmEl) {
+        vmEl.innerText = `“Hey ${cleanBizName}, this is Tatyana with Zonus. We put together a free mobile preview for your tree crew featuring your 5-star Google reviews and equipment. I’m shooting over a quick text with the link right now so you can take a look when you come off the tree tonight. Have a great day!”`;
+      }
+
+      // Status restoration
+      const logged = loggedCalls[lead.phone];
+      if (logged) {
+        document.getElementById('footerLeadStatus').innerText = `Статус: ${formatStatusName(logged.status)}`;
+        document.getElementById('leadNoteInput').value = logged.note || '';
+      } else {
+        document.getElementById('footerLeadStatus').innerText = `Статус: не обработан`;
+        document.getElementById('leadNoteInput').value = '';
+      }
+
+      updateProgressBar();
+    }
+
+    function formatStatusName(st) {
+      if (st === 'AGREED') return '🟢 Согласен на SMS';
+      if (st === 'CALLBACK_930') return '🟡 Созвон в 9:30 AM';
+      if (st === 'PHOTOS_SENT') return '📸 Скинул фото';
+      if (st === 'VOICEMAIL') return '📼 Автоответчик';
+      if (st === 'NO_ANSWER') return '⚪ Не ответил';
+      if (st === 'DECLINED') return '🔴 Отказ';
+      return st;
+    }
+
+    function logStatusAndNext(status) {
+      const lead = leadsData[currentIndex];
+      const note = document.getElementById('leadNoteInput').value.trim();
+      
+      loggedCalls[lead.phone] = {
+        id: lead.id,
+        name: lead.name,
+        phone: lead.phone,
+        status: status,
+        note: note,
+        slug: lead.slug,
+        timestamp: new Date().toISOString()
+      };
+
+      localStorage.setItem('tatiana_tree_calls', JSON.stringify(loggedCalls));
+      updateStats();
+
+      if (currentIndex < leadsData.length - 1) {
+        currentIndex++;
+        renderCurrentLead();
+      } else {
+        alert('🎉 Отличная работа! Все 50 контактов пройдены!');
+      }
+    }
+
+    function saveCurrentNote() {
+      const lead = leadsData[currentIndex];
+      const note = document.getElementById('leadNoteInput').value.trim();
+      if (!loggedCalls[lead.phone]) {
+        loggedCalls[lead.phone] = {
+          id: lead.id,
+          name: lead.name,
+          phone: lead.phone,
+          status: 'NOTE',
+          note: note,
+          slug: lead.slug,
+          timestamp: new Date().toISOString()
+        };
+      } else {
+        loggedCalls[lead.phone].note = note;
+      }
+      localStorage.setItem('tatiana_tree_calls', JSON.stringify(loggedCalls));
+      alert('Заметка сохранена!');
+      updateStats();
+    }
+
+    function nextLead() {
+      if (currentIndex < leadsData.length - 1) {
+        currentIndex++;
+        renderCurrentLead();
+      }
+    }
+
+    function prevLead() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderCurrentLead();
+      }
+    }
+
+    function updateProgressBar() {
+      const total = leadsData.length;
+      const count = Object.keys(loggedCalls).length;
+      const pct = Math.round((count / total) * 100);
+      document.getElementById('progressText').innerText = `${count} / ${total}`;
+      document.getElementById('progressPercent').innerText = `${pct}%`;
+      document.getElementById('progressBarFill').style.width = `${pct}%`;
+    }
+
+    function updateStats() {
+      const values = Object.values(loggedCalls);
+      let agreed = 0, callback = 0, photos = 0, voicemail = 0, noAnswer = 0, declined = 0;
+      values.forEach(v => {
+        if (v.status === 'AGREED') agreed++;
+        else if (v.status === 'CALLBACK_930') callback++;
+        else if (v.status === 'PHOTOS_SENT') photos++;
+        else if (v.status === 'VOICEMAIL') voicemail++;
+        else if (v.status === 'NO_ANSWER') noAnswer++;
+        else if (v.status === 'DECLINED') declined++;
+      });
+
+      document.getElementById('statAgreed').innerText = `🟢 ${agreed}`;
+      document.getElementById('statCallback').innerText = `🟡 ${callback}`;
+      document.getElementById('statPhotos').innerText = `📸 ${photos}`;
+      document.getElementById('statVoicemail').innerText = `📼 ${voicemail}`;
+      document.getElementById('statNoAnswer').innerText = `⚪ ${noAnswer}`;
+      document.getElementById('statDeclined').innerText = `🔴 ${declined}`;
+      document.getElementById('totalLoggedCountBadge').innerText = values.length;
+      updateProgressBar();
+    }
+
+    function copyPhone() {
+      const phone = leadsData[currentIndex].phone;
+      navigator.clipboard.writeText(phone);
+      alert(`Номер скопирован: ${phone}`);
+    }
+
+    function copyShowcaseUrl() {
+      const slug = leadsData[currentIndex].slug || '';
+      const url = `https://${selectedDomain}/${slug}`;
+      navigator.clipboard.writeText(url);
+      alert(`Ссылка скопирована: ${url}`);
+    }
+
+    function copyText(elementId) {
+      const el = document.getElementById(elementId);
+      const text = el.innerText || el.textContent;
+      navigator.clipboard.writeText(text);
+      alert('Текст скопирован в буфер обмена!');
+    }
+
+    function toggleLogModal() {
+      const modal = document.getElementById('logModal');
+      modal.classList.toggle('hidden');
+      if (!modal.classList.contains('hidden')) {
+        renderLogTable();
+      }
+    }
+
+    function renderLogTable() {
+      const tbody = document.getElementById('logTableBody');
+      tbody.innerHTML = '';
+      leadsData.forEach((lead, idx) => {
+        const log = loggedCalls[lead.phone] || {};
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-slate-800/50';
+        tr.innerHTML = `
+          <td class="py-2 font-mono text-slate-500">#${idx + 1}</td>
+          <td class="py-2 font-bold text-white">${lead.name}</td>
+          <td class="py-2 font-mono text-emerald-400">${lead.phone}</td>
+          <td class="py-2">${formatStatusName(log.status || 'Не звонили')}</td>
+          <td class="py-2 text-slate-300 italic">${log.note || '-'}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function exportCsv() {
+      let csv = 'ID,Company,Phone,Status,Note,Timestamp\n';
+      leadsData.forEach((l, idx) => {
+        const log = loggedCalls[l.phone] || {};
+        const safeName = (l.name || '').replace(/"/g, '""');
+        const safeNote = (log.note || '').replace(/"/g, '""');
+        csv += `${idx + 1},"${safeName}","${l.phone}","${log.status || 'UNTOUCHED'}","${safeNote}","${log.timestamp || ''}"\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `Tatiana_Call_Report_${new Date().toISOString().slice(0,10)}.csv`;
+      a.click();
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (document.activeElement.tagName === 'INPUT') return;
+      if (e.key === 'ArrowRight') nextLead();
+      if (e.key === 'ArrowLeft') prevLead();
+    });
+
+    // Init
+    renderCurrentLead();
+    updateStats();
+  </script>
+</body>
+</html>
