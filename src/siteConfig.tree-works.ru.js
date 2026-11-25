@@ -31,21 +31,9 @@ export const siteConfigTreeWorksRu = {
     "ctaPrimary": "Позвонить (+1 980-734-3915)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-works/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Works"
-      },
-      "sub1": {
-        "image": "/images/tree-works/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-works/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeWorksRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-works/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeWorksRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-works/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeWorksRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-works/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigTreeWorksRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Cripe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My wife and I recently moved into our house last fall and noticed we needed to have a couple of trees removed and the rest trimmed around our house.  Tripp and company had been recommended by our neighbor, so we had them quote us for all th..."
-    },
-    {
-      "author": "Christopher Hutchins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had a great experience dealing with Tree Works.\nTripp was quick to come out and look at the work we wanted done.\nPricing estimate was very fair so we proceeded.\nA few days later they showed up right on time and did exactly what they said th..."
-    },
-    {
-      "author": "Matthew Rossi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tripp McKee and his entire team were professional, helpful, and courteous!  Their quote was fair and they were very quick to get the work scheduled and completed. Tree Works did not meander with the work and they cleaned up EVERYTHING!!! Af..."
-    },
-    {
-      "author": "Andrea Price",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree Works did a great job!! We had gotten quotes from well over 5 companies and Tripp was very honest and definitely didn't nickel and dime us.  We had trees big and small taken down and stumps ground down.  They got the job done quickly a..."
-    },
-    {
-      "author": "Michael Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree works were timely in calling you back and were timely in coming out for the service. Had 2 other estimates and they were by far the best price. Cheaper price did not mean cheaper service as they did the job and left everything cleaned ..."
-    }
-  ],
+        {
+            "author": "David Cripe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My wife and I recently moved into our house last fall and noticed we needed to have a couple of trees removed and the rest trimmed around our house.  Tripp and company had been recommended by our neighbor, so we had them quote us for all th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdToq2C7ZwpW1_0TziQNyMZJWnVtPjchVgceJd1hWED03WvaFwCr9vgqNkelPiU8Rxny0GN9JF5owCgnxNdufQtby_bsEHo2ab-w91f6uQedN5twN79F0y-vqQ0vJ-YDOhjjnjemw=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Christopher Hutchins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had a great experience dealing with Tree Works.\nTripp was quick to come out and look at the work we wanted done.\nPricing estimate was very fair so we proceeded.\nA few days later they showed up right on time and did exactly what they said th..."
+        },
+        {
+            "author": "Matthew Rossi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tripp McKee and his entire team were professional, helpful, and courteous!  Their quote was fair and they were very quick to get the work scheduled and completed. Tree Works did not meander with the work and they cleaned up EVERYTHING!!! Af..."
+        },
+        {
+            "author": "Andrea Price",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree Works did a great job!! We had gotten quotes from well over 5 companies and Tripp was very honest and definitely didn't nickel and dime us.  We had trees big and small taken down and stumps ground down.  They got the job done quickly a..."
+        },
+        {
+            "author": "Michael Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree works were timely in calling you back and were timely in coming out for the service. Had 2 other estimates and they were by far the best price. Cheaper price did not mean cheaper service as they did the job and left everything cleaned ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Matthews (Основная база)",

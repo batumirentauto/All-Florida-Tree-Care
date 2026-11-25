@@ -32,21 +32,9 @@ export const siteConfigLawnworksEn = {
     "ctaPrimary": "Call Rick +1 478-972-1014",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/lawnworks/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "LawnWorks tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/lawnworks/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/lawnworks/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLawnworksEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/lawnworks/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLawnworksEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/lawnworks/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLawnworksEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/lawnworks/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

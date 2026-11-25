@@ -31,21 +31,9 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalRu = {
     "ctaPrimary": "Позвонить (+1 971-266-4078)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Very Good Stump Grinding & Tree Removal"
-      },
-      "sub1": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kayla Ware",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bryce and the rest of the team are great communicators, and super kind! They arrived on time, got straight to work, and made sure to be mindful of my garden. Our tree was in a tough spot, but the final result is exactly what I was hoping fo..."
-    },
-    {
-      "author": "TtT",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Very Good Stump Grinding & Tree Removal. I first used them in September for a yucca stump, and the owner, Bryce, provided a quick, fair quote and did a great job.\n\nI reached out again in December when some arborvitae tree..."
-    },
-    {
-      "author": "Kiley Ford",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They Came, They Saw, They Conquered! Very Good Tree Service absolutely lived up to their name. Bryce and Jack run a well-oiled machine — truly top-of-the-line equipment, incredible teamwork, and zero wasted motion. Jack (who’s the one up th..."
-    },
-    {
-      "author": "Zachary Tippett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They did an outstanding job! Jack did a great job communicating during the quote process and before the appointment date. They also did an excellent job with the cleanup. I would highly recommend them for all tree services...."
-    },
-    {
-      "author": "Jane Reid",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bryce, Jack and crew did a great job removing a 100-foot fir. They followed our requests and left no trace other than a lot of firewood cut to size. They also went above and beyond by restoring a basketball hoop that had been out of whack f..."
-    }
-  ],
+        {
+            "author": "Kayla Ware",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bryce and the rest of the team are great communicators, and super kind! They arrived on time, got straight to work, and made sure to be mindful of my garden. Our tree was in a tough spot, but the final result is exactly what I was hoping fo...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezK65So4tnz3K7nKlN8-NvANhihjTn5JDK92P2adx0eJJi883Pf7j4N7RC3Qul2-fz9UvTcjdai-4XdrG_NqIP7LUdBBoHie2hGRESZJAIEAvoRbPESj0Z8G4nm8vYbciU56NtH7S4lYA5=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "TtT",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Very Good Stump Grinding & Tree Removal. I first used them in September for a yucca stump, and the owner, Bryce, provided a quick, fair quote and did a great job.\n\nI reached out again in December when some arborvitae tree...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwf-NZOg1QLi-wmXKRq5G5DDAGGdfE9pwZ4R3uspeItCY0xTIZ-3vi55-OI9sQG9Nm5NLMfka1TFbVpbaONGHDXQ7Ts1ZppezAMG2GNI6KWghatPBYW6fP9kgLR30vQdtcwbI573kpPrA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdclMGCvoVCj2zLJ0bsvAeFznub51_e92m3zi6UWUp6Qm76FHf5SEFvKPdVTvltG9RmMCacOyD8QxNpxq_Zz_rgtg3LogcRUykeG6QorbxkgZ96gT_BVi_4Ebcc8bXgDquYpcindkJ8dp0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kiley Ford",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They Came, They Saw, They Conquered! Very Good Tree Service absolutely lived up to their name. Bryce and Jack run a well-oiled machine — truly top-of-the-line equipment, incredible teamwork, and zero wasted motion. Jack (who’s the one up th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOatn8nMx7umSH08emWRuKxy-cmETxRDlnYdj-Kkq4rn_VBEeOkLwTWdt0O-Htf1C-6c8A35DOZDxo8ZunyPmfWfFVzcUpBEn8GrtoVbDHRWF48TO_SzMon_GbNj2bQyAn_PMpfHA0rOmk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLely2TbNNcdfEVBmVJrO7b0EF0UNYwVx8QD1JpqHbvTCZLVvnj_FLgVfz_HgLOp30VOQ4cLzYwKUbGUURMM3t86igIKzCDsq2MrGM3i3b4elPI8iWrQPURNalvH4w2lx6SitAXIhRY2e60=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUasRajPm9C1ZUUbua4UpwpBmFjLdRuO0DrOfWFL0U3ICkK6kPLCPWxTiUxmAoDjOman3j3Qrqda4JqyHg8xnnCK3qG6_TbQ0TySmDEs9CrcKBVFkqSvXW_CyEgNKOIpRjdp0LMMCxJfo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegCcOArhkzvEWStcsAy5K0r82MtPx8KpIfGYveU4Yk46Iimzp3nS6ahB-nFllhrqBBagakgYxnGnvR8uaQXINlYiu5cncXM2Ydm_65UMh0j1DzhC_cMc-q1FX4FVYZ8f0trd6f4Zz8SFZj=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Zachary Tippett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They did an outstanding job! Jack did a great job communicating during the quote process and before the appointment date. They also did an excellent job with the cleanup. I would highly recommend them for all tree services....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBy8LPN-IsNdA9J26qXt4TbfmcIRFsJrraVu4U2H3zy9VlrFo6NS9e4Evmxz9357t_ghS-xLV9ZfdQSkVPNAI6Rjarz3SYFJwJpVyQImAd_3nFk4Y1lG0J80ehJQJS2RIek1gFo6KZF9SB=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jane Reid",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bryce, Jack and crew did a great job removing a 100-foot fir. They followed our requests and left no trace other than a lot of firewood cut to size. They also went above and beyond by restoring a basketball hoop that had been out of whack f..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Lake Oswego (Основная база)",

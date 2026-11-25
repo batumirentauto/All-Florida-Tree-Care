@@ -31,21 +31,9 @@ export const siteConfigTreeServiceAdvisorRu = {
     "ctaPrimary": "Позвонить (+1 469-735-3587)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-service-advisor/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Service Advisor"
-      },
-      "sub1": {
-        "image": "/images/tree-service-advisor/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-service-advisor/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeServiceAdvisorRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-service-advisor/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeServiceAdvisorRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-service-advisor/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeServiceAdvisorRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-service-advisor/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigTreeServiceAdvisorRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "gene click",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Luis and his crew were amazing. They helped  give our house the curb appeal we were missing! They cleaned up dead limbs in several trees, shaped other trees to promote growth and even completely removed a tree, stump and all so we could wid..."
-    },
-    {
-      "author": "Julie Bonner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Luis and the team did a great job bringing down this dead giant in our front yard. They were extremely cautious of our home and the neighbors with the over hang. Team did get job cleaning up and very respectful of the property. I priced aro..."
-    },
-    {
-      "author": "Eric Banda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Luis and his crew did a great job.  He took the time to answer all my questions and was very professional.  They arrived on time and trimmed everything in a timely fashion.  After they were done they cleaned up and removed all the debris as..."
-    },
-    {
-      "author": "Michael Puttonen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Luis's crew did a fantastic job removing a dying pecan, a pecan tree that was leaning dangerously over my roof, and two other dead trees. They also trimmed other branches and limbs away from the roof. The double crew was courteous, fast and..."
-    },
-    {
-      "author": "Proper Barber",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing Experience from beginning to end! Very professional , extensive knowledge in his craft. Luis and his team are honest and hard working , very reasonable and competitive pricing ! They go above and beyond to make your home / business ..."
-    }
-  ],
+        {
+            "author": "gene click",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Luis and his crew were amazing. They helped  give our house the curb appeal we were missing! They cleaned up dead limbs in several trees, shaped other trees to promote growth and even completely removed a tree, stump and all so we could wid...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUz28XhTprmfWSQU694IBeEWy2az8LjfwlEDXIngGvlg2Sj8hWnPfQfALAJBE_C6QvErhcqVNdwL16Yj_H2fatj7Gr_XenzWjXQkzHtOLEp7titp4jnMeHkw-mG5UmrNyWd4I9ak1pTC6P=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejW_o-4QW-Z6Rbq_b_0PorAiMYrDHgPsbCDpcFjtVpZDxUs7s8paMw8DsDuslD-UqRYck_dWH55x_jDKN22Wl6lXJoFtjUMbP_QaDPb2DELlQz29XfsifjlS_oioiUoM0FKG2XIg06otys=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Julie Bonner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Luis and the team did a great job bringing down this dead giant in our front yard. They were extremely cautious of our home and the neighbors with the over hang. Team did get job cleaning up and very respectful of the property. I priced aro...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLek0sZGrR1wrWsnyFPJGIG7jgRLr-nI_ONNU_dOcPDPP7bCFr8Ai_cAtuhQjX80HApqcvQRySImb3xxUY-GRFZWAvUvMM2BekvGsW4SShcc4rqAerNBZlSgwc5QSQ-RrCaM8TmN=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdFIe3Id1QTFOhbs38ALMWpfw072H6Z2wVX3ivPm5-F5Ka2rTMFPRoKQKuG5y9PFCRvo_IJCW_gSeXHU6coQZBwiga_praF5XP8OqBJYo6rAemyzqbMMq3xd4UJm_sQIkZAMZJv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFaMy_Z7b-9f-VZLkIKG9OtSI_jZpyMj1ScSOCC-dCxMZGt7jVC59yMZyFBjwryxp7YvhZucX_oD8DI1mSs65CwFL8uhPaMCZrbuqbQlCDVdouFlyYeytKiV_NT3v3qDiivQMb=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Eric Banda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Luis and his crew did a great job.  He took the time to answer all my questions and was very professional.  They arrived on time and trimmed everything in a timely fashion.  After they were done they cleaned up and removed all the debris as...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemf6k1_bkyN__yE_OO3u5Eiz3lxuNtpFtafF8O8AqHzAZitZlInH9CY0zCGMxxI9K7jfQvL0cFwyaKQE2AukbmVxqwKdspptynKKBys-1SrJ9rEpRs1VDUuMu0p4ieRDeIZQtB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ-DZrpWWYS3_1H8JDi7C7iS5UBo9Xb6R-qCS3XrfuvhGVR5Unz9VIZqeIcTDOrT-5VXaj_hc8T-LmDiZnVsMCujnlG1BFKcEEMSndkvOJGKMYr9xF6qzYnaN7h0mPCH5zlijiVw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdoxeeZc9pBgqm6jzEsSPtlVOMPnxmcG2SnABb7AwCHOLEsNOlSGU-FDzRpwRDfb8yW7AFZSyM_F8pT71mrDT1_Li9m3ow9zyhW1JeYdX_zneHX5gouyw4tCI5YjAbWlIGNGlxP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhEIpp2inpJUsFmM5weae0YfQprVi5coGM73sXy1IsRPxqwjSUeTiHAmR7COJnt1VZsMArKuSGUw8Ur8YdboK69FdEns0K7JTsRnBgf2kCpE02hUmFit2XtZPZO6DwrO9k6k_dgA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Michael Puttonen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Luis's crew did a fantastic job removing a dying pecan, a pecan tree that was leaning dangerously over my roof, and two other dead trees. They also trimmed other branches and limbs away from the roof. The double crew was courteous, fast and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcotgwrkhda8rltinRoJVMVKYEbOrt3n05SX7Pq8QsCFFqhz7A20qvE6NStPLBIseQ4to5BXJsYqYGN0s2bJ3Exw_myaIyF5A_Yrh0gCHmBvFoIafNh5pPMY8ifPs_r-OYN3ZLO=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Proper Barber",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing Experience from beginning to end! Very professional , extensive knowledge in his craft. Luis and his team are honest and hard working , very reasonable and competitive pricing ! They go above and beyond to make your home / business ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Balch Springs (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigAlamoCityTreeServiceLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 210-887-7359)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Alamo City Tree Service & Landscaping"
-      },
-      "sub1": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigAlamoCityTreeServiceLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mitchell Penner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is My second time using Isacc and his company, Alamo city. Several years ago, we did work to our backyard and this go around we redesigned our front yard.\n\nIsaac and his crew were punctual, under budget, And did high-quality work and t..."
-    },
-    {
-      "author": "Kevin Reedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys showed up on time and ready to work!  They went above and beyond helping me cut down a very tall old sick sycamore tree at a great price!  Thank you guys for doing this big job and taking my worries away!  Great team here!  I ask..."
-    },
-    {
-      "author": "erin nichols",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alamo city tree service and landscaping was very prompt to my service request and scheduled the appointment really quickly as well. They did an amazing job and we will definitely hire them for more landscaping projects. Highly recommend...."
-    },
-    {
-      "author": "Krista Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alamo City was amazing! They were friendly, and professional, and did the work in a timely manner. They arrived when they said they would and even completed the job before expected even though they ran into a few issues with our current dra..."
-    },
-    {
-      "author": "Arturo De la Torre",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alamo City Tree Service and Landscaping has done a great job on my property on two different occasions. I hired them the first time to fill around the foundation of my home after a repair, and they came and got the job done right, fixed the..."
-    }
-  ],
+        {
+            "author": "Mitchell Penner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is My second time using Isacc and his company, Alamo city. Several years ago, we did work to our backyard and this go around we redesigned our front yard.\n\nIsaac and his crew were punctual, under budget, And did high-quality work and t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJPNY573tvWS-eRsdtmb01jbDAFO8W9uiOPDjAhb7czJ2wwXKy3CLQ0chRZ9z3HW5ZeSfXOYVoW6QDGEv-3SMDeuplIH5p3bSBVPTZaustCda3Zsacad8SAxawnn_bNZuOPVaJOBH6LnQ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Reedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys showed up on time and ready to work!  They went above and beyond helping me cut down a very tall old sick sycamore tree at a great price!  Thank you guys for doing this big job and taking my worries away!  Great team here!  I ask...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeD6BNkmej1teDaxYYbgBOgp-dTN42EZB_yge0uWVP9APB-vuMALvNS1DNKG3XgicooH37Um3Eq6w6VS_wnxK5kvslnHgsaZPYtlXaJr-0Vmif08ja2iR7O45ADYhiCMAICoz1Zkm5YP6l8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt39CRZUXiwJSBaaGfaM0_eXDzBY1O59Iu6QXTZBZ0dlW1yp9tOAhvlyCp3Wa112iZ54ghN1MFbT-eG4vynqhKKxnDxWq26WzPwE0VclPXle9XFaSp1AhQ9BQ0vz958Au_QOu3RvlAOMDk=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "erin nichols",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alamo city tree service and landscaping was very prompt to my service request and scheduled the appointment really quickly as well. They did an amazing job and we will definitely hire them for more landscaping projects. Highly recommend...."
+        },
+        {
+            "author": "Krista Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alamo City was amazing! They were friendly, and professional, and did the work in a timely manner. They arrived when they said they would and even completed the job before expected even though they ran into a few issues with our current dra...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfDv3sollOlqvqMWZWs2qgdsMZvIxh4BkiM4OHTOeQR89L41oLeUVIPnZ_Tv9dOXUsxIOyLRpcfQm0xw3I7VUJZY4L2Gpa5kGGAmUbbWssUian7hGNojpQgb1pWyKwc5BgsWdb6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdi5PAwk5towrrxetbmaBPUsbM1_1m2rAcUgClD8rE8lF1PbV3tA5b2z8zUGwdvwxERMHW1m0dkWEVXVTvTJvxbC9irSe1-GM39bLMM_qmYGlo0bKYDJ8Jte04DDVrOM0PwbOH7xA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeD5_9ysTd7-RBLb5MV7P4KuMvJgQvAbqc8S9ThuYdJTbp6ijusWI_G6yEH2V3x9EvDGoYH8XFNrmvoAkIyNMFrQWHMmaD4ip0kelyVsuKJtdK8NJC1TF_jNfLU6Uh6NRx60_0i=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeyOArk5l1UEolBkDklNZjlLNSd6YrXkOe2BPfx5uvhOO1Rsn-mpnU1L5XBj3j9_qHiEpYH7R2kBreRlvUdVHfp1J0hesWQvlyYFu4oQkt1dUXmy6DQnnxrAA25prVW_Jw7Gf_I=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Arturo De la Torre",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alamo City Tree Service and Landscaping has done a great job on my property on two different occasions. I hired them the first time to fill around the foundation of my home after a repair, and they came and got the job done right, fixed the...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4QwV-l23EZULGYsV6g5K-Pvvs1sUzogwkjvCILJU_cqqboWpBqGD-4s2pL4hiMmNcQnYnwNo8u1BRXzUi0QzLlxo6otGDeB1rrrNSNZtLxIRw-8XOoN35uHC4RD3lFAb9Tbxx=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfzEG2NDH5avsskRsyLuFeU93yeWjIUo4U3c2iB7LKYAlT3SdCHnY7KBFEAIGb2NBH4nfZEqjIgSPovTAJu65B2HeULmwVfy44tPQYCX0snZZLVeWNrxTHnOarCYHmXKIIe88d38g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5h3bn6c9PaKVB4qiGfukG1u58OECs22V0B56t4IxqwkunJOaC4I3ABdEbJM5vCUgOUNTsWy1RJRSA3OU0-NPUDUDDo24PU2bMmFeqAi5unlTLK9HY76z3u23-j0i4RiwKmmbT=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

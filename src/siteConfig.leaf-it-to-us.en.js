@@ -32,21 +32,9 @@ export const siteConfigLeafItToUsEn = {
     "ctaPrimary": "Call Jose +1 619-582-2459",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/leaf-it-to-us/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Leaf It To Us Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/leaf-it-to-us/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/leaf-it-to-us/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLeafItToUsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/leaf-it-to-us/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLeafItToUsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/leaf-it-to-us/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLeafItToUsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/leaf-it-to-us/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigLeafItToUsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kyle Ross",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Based on a recommendation from my neighbor, I finally moved forward with trimming the three 30’ trees in our front yard. Another neighbor suggested Leaf It To Us, having worked with them for years, so I reached out for a quote. Their pricing came in consistent with two other crews I contacted (which I suspect were unlicensed).\n\nDue to high demand, it took a bit longer than expected to get scheduled, but it was absolutely worth the wait. Jose and his crew did an excellent job—thorough cleanup, thoughtful shaping, and they followed my directions closely.\n\nAs a homeowner, it also gave me real peace of mind knowing I was working with a licensed company. Jose’s credentials and expertise were evident, and it was clear they approached the work with the long-term health of the trees in mind.\n\nHighly recommend."
-    },
-    {
-      "author": "Sandy Jorgensen-Funk",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have had Leaf It To Us come and trim our trees on multiple occasions and they’ve done a great job! Jose is friendly and It’s great to work with someone who is knowledgeable about tree trimming ( not just hacking them down)!"
-    },
-    {
-      "author": "Sally Nelson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I've used Jose and his crew several times in the past 2 years. Jose listens to my concerns, offers his advice about the best way to care for my trees.  He is reliable and his crew does a good job of cleaning things up when they are finished."
-    },
-    {
-      "author": "Amanda Saour",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Always always good, i have a huge tree and they trim it and looks so beautiful every time! Very trustworthy and clean up and dont damage anything!!! They are great and i will use there services as long as i can🙏 …"
-    },
-    {
-      "author": "Jim Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jose and his company having caring for our trees for several years and words can't describe how wonderful they are. Honest, on-time, professional, caring, a true pleasure to deal with. And Jose, being a certified arborist knows more about our trees and how to care for them than anyone we've met. Grateful to be part of the Leaf It To Us family of happy customers!"
-    }
-  ],
+        {
+            "author": "Kyle Ross",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Based on a recommendation from my neighbor, I finally moved forward with trimming the three 30’ trees in our front yard. Another neighbor suggested Leaf It To Us, having worked with them for years, so I reached out for a quote. Their pricing came in consistent with two other crews I contacted (which I suspect were unlicensed).\n\nDue to high demand, it took a bit longer than expected to get scheduled, but it was absolutely worth the wait. Jose and his crew did an excellent job—thorough cleanup, thoughtful shaping, and they followed my directions closely.\n\nAs a homeowner, it also gave me real peace of mind knowing I was working with a licensed company. Jose’s credentials and expertise were evident, and it was clear they approached the work with the long-term health of the trees in mind.\n\nHighly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdXvCAbBhJwBh8oa2RcjJVH8MTryYYcxFvGeoShfviAjam6uj6lgOqf5Xu7iYC28te9oDowR5m_CowZmX9qbefX8SvEKadm4JdYIOgWSXYFDvXp1zE18oIzreF76LqzEICUJ38KYfb2V4U=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcYVm_ueefVPya2udfdkPCwe6bJfCJwEKf0wJYa7-cO_Dxcfbpy_Pm_7YQQW1U0CJhBCBTiQdbq-X0KMqC03HT5hSIS82XG8wQtSs_ekRg6Uy1SlLxsAY-2NV3EasOOS4nv0UlCy1KOMCw_=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sandy Jorgensen-Funk",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have had Leaf It To Us come and trim our trees on multiple occasions and they’ve done a great job! Jose is friendly and It’s great to work with someone who is knowledgeable about tree trimming ( not just hacking them down)!"
+        },
+        {
+            "author": "Sally Nelson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I've used Jose and his crew several times in the past 2 years. Jose listens to my concerns, offers his advice about the best way to care for my trees.  He is reliable and his crew does a good job of cleaning things up when they are finished."
+        },
+        {
+            "author": "Amanda Saour",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Always always good, i have a huge tree and they trim it and looks so beautiful every time! Very trustworthy and clean up and dont damage anything!!! They are great and i will use there services as long as i can🙏 …",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdv5J4peY8QhLOp1o3S2bijeCMW_MuLSJPWkYJCIIPRhjOcHU8Ehnk4FGCQU-uud22r3gjnc-DMO91xW7tEfkJ5pa8Y06wXS1yBh33Kl6qp8I8UjLSKD036MLrteh8aDYFGNmenGA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jim Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jose and his company having caring for our trees for several years and words can't describe how wonderful they are. Honest, on-time, professional, caring, a true pleasure to deal with. And Jose, being a certified arborist knows more about our trees and how to care for them than anyone we've met. Grateful to be part of the Leaf It To Us family of happy customers!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

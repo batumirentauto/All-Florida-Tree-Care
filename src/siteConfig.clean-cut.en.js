@@ -32,21 +32,9 @@ export const siteConfigCleanCutEn = {
     "ctaPrimary": "Call Wade (253) 249-4432",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/clean-cut/photo_005_crop.jpg",
-        "label": "High Spar Climber Topping at 70+ Ft",
-        "alt": "High spar climber topping tall pine tree spar against sky"
-      },
-      "sub1": {
-        "image": "/images/clean-cut/photo_006_crop.jpg",
-        "label": "Lead Arborist with Heavy Spars",
-        "alt": "Lead arborist standing by sectioned timber trunk and massive rounds"
-      },
-      "sub2": {
-        "image": "/images/clean-cut/photo_001_crop.jpg",
-        "label": "Directional Driveway Felling",
-        "alt": "Long limbed trunk felled with pinpoint accuracy along asphalt driveway"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCleanCutEn = {
     {
       "name": "Professional Climbing Spikes & Canopy Saddle",
       "badge": "High Canopy Rigging",
-      "image": "/images/clean-cut/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCleanCutEn = {
     {
       "name": "Controlled Canopy Sectional Dismantling",
       "badge": "Branch Sectioning",
-      "image": "/images/clean-cut/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCleanCutEn = {
     {
       "name": "Mature Evergreen Structure Mitigation",
       "badge": "Shed & Fence Protection",
-      "image": "/images/clean-cut/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

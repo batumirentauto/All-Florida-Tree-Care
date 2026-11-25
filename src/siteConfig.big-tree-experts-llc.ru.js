@@ -31,21 +31,9 @@ export const siteConfigBigTreeExpertsLlcRu = {
     "ctaPrimary": "Позвонить (+1 706-668-8947)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/big-tree-experts-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Big Tree Experts Llc"
-      },
-      "sub1": {
-        "image": "/images/big-tree-experts-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/big-tree-experts-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigBigTreeExpertsLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/big-tree-experts-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigBigTreeExpertsLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/big-tree-experts-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigBigTreeExpertsLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/big-tree-experts-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigBigTreeExpertsLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "R S",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired Monkey Guy Tree Service to cut down a huge rubber tree at my mom's house in Fort Lauderdale that had grown out of control and was towering over my neighbor's house. I have used other tree service companies in the past at my prior ho..."
-    },
-    {
-      "author": "Ben Strickland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a huge white oak tree in our front yard that was causing a lot of problems and they came in and took that tree down and didn’t mess up the grass or break anything -they cleaned up real good and I am totally satisfied. I would definit..."
-    },
-    {
-      "author": "Tonya Geter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so appreciative of the work performed by Big Tree Experts. They were professional and the customer service was excellent.  They did a great job and cleaned up after removing the stomp.  I would definitely recommend using them to my fri..."
-    },
-    {
-      "author": "Jackie",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Outstanding Service & True Professionalism\n\nI can’t say enough great things about Miguel and his crew at Monkey Tree Services. For months, I was losing sleep over an 80-foot palm tree that was rotting from the inside out. With hurricane sea..."
-    },
-    {
-      "author": "William Canales",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Big Tree Experts did an outstanding job! They were professional, punctual, and worked safely and efficiently from start to finish. The crew was friendly, cleaned up everything after the job, and exceeded my expectations. I highly recommend ..."
-    }
-  ],
+        {
+            "author": "R S",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired Monkey Guy Tree Service to cut down a huge rubber tree at my mom's house in Fort Lauderdale that had grown out of control and was towering over my neighbor's house. I have used other tree service companies in the past at my prior ho...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8gDJuvrDzg2gPXoTwLRzTvPh7QjfKNuTpnpjGqbZbQsy8pjZvmgd0eY5oH4CBPRa3IIyD6dAETk9BsCamqFJRV3t3brMcMfp6iRsf5LB_y-NhZyeRgm-GmoQXnclbN16SdLWLsDzF6At3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSW6a9MEjrxjBYZuc0QNAhcjVpPs7kLIc7ErYrcBP2GcPV-eXHWen0cp8aHAY5Vcq_v72MIsYFwUAZPtkDRttl4JI34SJKPHxpqCeuRaKRPkJWXkCcv9T6C2bkV4MYj7XwlfREv1F-RW0j=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegoUpBdN7XJF85Bdnb5E8eSq6T3WjrwLNsMVBWxEjzhP0r8LxyBf8-Yz29_g3by9_WddbUyCxu7DmnwLeIHNOues4Pwn-f73zJg-BByOd9xyf8vXl4Rmfc4eP0Pp2hn7cV4tfFzmC4EQC4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfnmDOqywAWl12_73DgEXemTrYnfGUF-_IAGKDUYggWXIZH0sOm5tXHU_THVKtufBT0jg_psXXmPEi2YDB_E7pQ_Ufj34ae1YJsyO0wUw1AVTMpM14u_WTDPrn00TOsTrRF1cF5tG6bych=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ben Strickland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a huge white oak tree in our front yard that was causing a lot of problems and they came in and took that tree down and didn’t mess up the grass or break anything -they cleaned up real good and I am totally satisfied. I would definit...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc2_lhCLiuJhqjC4K34BRnbfVwVA6MnvCMaExRvYm8clTKD4bXdv7VcysRliqzSu39ErSDWTYQRxkq48yzYSrpS1zfC6KFCesHTnf3q5SrrOlYvFWipRTjYbxYfhxqB967PMOMF0psgTGCJ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tonya Geter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so appreciative of the work performed by Big Tree Experts. They were professional and the customer service was excellent.  They did a great job and cleaned up after removing the stomp.  I would definitely recommend using them to my fri...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHEEyjd8tcPQ3ltrYs1HEYn-jHHJdwnqz4wbXBYl0NREGI76TwS9hjyZzBRtpLAvbs__DdznNCepATQPwc4H0gLBzx2ocV2tce_7F_dD-wPDH81n68G3DLD1GVHXKCZ6UtPrsJ3AcPkTQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdWUjiJlsuS4g5eUd4xEZ9vmZsuRI6P3Rqteo6Jmc6IzNId-U1wYA_1HCZmSBisFPwLwGqFRSozszMnIneHiO_VCVwRQRl6eZvQuvcp4VxzwiJ_N0HHHuWBzMAPjlm5duUtIXD0k6qzA4Cd=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jackie",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Outstanding Service & True Professionalism\n\nI can’t say enough great things about Miguel and his crew at Monkey Tree Services. For months, I was losing sleep over an 80-foot palm tree that was rotting from the inside out. With hurricane sea...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfja38G4jy6VwVfo5qkhyjkTGofeEVtUgS3QTXkj9jpZFDxzk10pN-IAw-4-1H-gUcohfmsTGrdUhk4S7jLZC5GnNsvh1jwqp_PSKGkwSb3grV4YWKCCjRog9pY4emQE9X9c1W49x8hCaQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7NHGRHSx7MxaGgyIVko6VK9HTBvEfR4xaTPUHjg3tf9-HplJQzPzJVAigMAzVzi1ioMA9xKnr2l1f7QUamVBm59rouFgYGO5vlLTTghTS33XzZ2zoIM6Z3dM_0ttiYal15t1J7HuscZs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3Q7glymuiacNOwp4FG5GU4VpplKQ9OOEPEYWPBlyN546uLXKxHkjbEqzEN0DvJO99Kdjhcqh2NcC7aXZmO50-OGxxdcFDDPws35nzQKQIswNoRrwomASzt6cm5h-KvCIaG0VMb4rUgFHs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "William Canales",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Big Tree Experts did an outstanding job! They were professional, punctual, and worked safely and efficiently from start to finish. The crew was friendly, cleaned up everything after the job, and exceeded my expectations. I highly recommend ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

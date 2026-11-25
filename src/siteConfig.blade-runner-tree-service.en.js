@@ -32,21 +32,9 @@ export const siteConfigBladeRunnerTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 512-222-2200",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/blade-runner-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Blade Runner Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/blade-runner-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/blade-runner-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigBladeRunnerTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/blade-runner-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigBladeRunnerTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/blade-runner-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigBladeRunnerTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/blade-runner-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigBladeRunnerTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Julie Scales",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Blade Runner Tree Service did an exceptional job on the trees in my front yard!  They asked my opinion and really listened to me. I love the way the trees look!  It changes how my yard and house look. They helped me get more sun in my yard to keep my grass from dying due to too much shade. They were very professional and kind. I totally recommend Blade Runner Tree Service. My neighbor already had her trees taken care of today as well. Call them!  😊\n\n6-18-2025\nToday they came and installed sod in my front yard. It looks amazing!  Timothy answered all of my questions, AND taught me how to program my sprinkler system. He also set up a new watering schedule for the new grass. Bobby and Brady came by to check on everything, and I told them they did another exceptional job. Also, the guys are all sweethearts. I highly recommend this company."
-    },
-    {
-      "author": "S Sims",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a great experience with Blade Runner Tree Service.  Christian was friendly, professional and easy to work with.  The team came out and did a stellar job trimming all of our oak trees in the front and back yard. Additionally, they cleaned up an area on the side of our home that had been neglected for years.  It looks 100 times better!  They did a fantastic job cleaning up afterwards and Christian followed up to make sure we were satisfied with the job.  We are very pleased with the work and will definitely be using Blade Runner in the future."
-    },
-    {
-      "author": "Jim Parker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I can quite confidently recommend Blade Runner Tree Service for your tree care needs. We called for an estimate, and their rep (Christian) came out that same afternoon (Friday).  We received their quote on Monday, and felt it was a fair price to do the work we requested. Once we agreed to the deal, he scheduled a crew to arrive the next day (Tuesday).\n\nVinnie and Brady were the onsite crew members, and they arrived on time, and promptly went to work removing some potentially dangerous limbs overhanging our neighbor's property, cleaning up a bunch of \"suckers\" that were growing between the major limbs, and removing a few dead branches. They did an EXCELLENT job, cleaned up after their work quite nicely, and even blew the acorns and leaves off our sunroom roof while they were cleaning up the roof. They didn't even mind when Riley (our mini-schnauzer) came out to inspect their work!\n\nEveryone we have dealt with at Blade Runner were very nice, polite, and quite knowledgeable about what they do. Watching them safely work way up high in the trees was amazing. (I could NOT do that job, even in my youth!) And it was nice knowing we had a certified arborist leading the crew, and directing the pruning.\n\nThe result is night-and-day difference - simply stunning! The trees look so much healthier and ready to deal with any ice that may come our way this winter. I cannot thank Blade Runner (and Vinnie and Brady) enough for the excellent job they did for us."
-    },
-    {
-      "author": "Andrew Lochbaum",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Blade Runner Tree Service did a fabulous job with my tree removal.  Communications for getting a quote and for scheduling was easy. Crew arrived on time and were very professional.   The tree was in a hard spot and they took great care in protecting my house and then cleaning everything up nicely after they were done."
-    },
-    {
-      "author": "John Koza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Brady and Vinny did an excellent job on our large live oaks and cedars.  They were very professional and courteous-from estimate to cleanup!   Would highly recommend them."
-    }
-  ],
+        {
+            "author": "Julie Scales",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Blade Runner Tree Service did an exceptional job on the trees in my front yard!  They asked my opinion and really listened to me. I love the way the trees look!  It changes how my yard and house look. They helped me get more sun in my yard to keep my grass from dying due to too much shade. They were very professional and kind. I totally recommend Blade Runner Tree Service. My neighbor already had her trees taken care of today as well. Call them!  😊\n\n6-18-2025\nToday they came and installed sod in my front yard. It looks amazing!  Timothy answered all of my questions, AND taught me how to program my sprinkler system. He also set up a new watering schedule for the new grass. Bobby and Brady came by to check on everything, and I told them they did another exceptional job. Also, the guys are all sweethearts. I highly recommend this company.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDnNHVk6aLI5yPwQEvIOZKc4s38tDQqaJ1H0qeYU8C_OPEwRf32Rti3nwW7X-xbNOVBX9LbDecvy8wRYg8byB_Uhxtg1cg1nT_1Gw9_mlH78pE49NM6MCTo6ttjqxP8IuveaoXog=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfsgrdQ6gkVuKb61xg6rq4AoX4Deyemu3y9lla02-CkBhfC2GCwYQ7cvAq1H12fenls0yUg5IRz9tF7YFDzTnphDhDooUmDHg1XjBAmq7DH3u0G-avNz2rLMzqWjdwSTiHAdmhK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBj6wMRyHSWTU_0mHF5CJJNG_z7r5qafUWtvUd_uSuXN410VyfBU8Rpw1_J4pwhiiMsVcrUg6D2bC2zTPy5pV0MQ49i4R4cAiYQgHyay7FdAPMSCao-RHoQjxR2hgLjAPGkgdDcw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwNPkEiekvlMJ1aA28b-WWzhmg-QaiRoQcOkFdah6gAB5GT3g6J0xeKstKFT49Heq6UQRRxoMHSTYHy27R1Ayjw4giX_5vn9rmuFYH3NVvVpPC0YHRqf03eqU8HdIvJ0x2nO4xZDVRVLbw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "S Sims",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a great experience with Blade Runner Tree Service.  Christian was friendly, professional and easy to work with.  The team came out and did a stellar job trimming all of our oak trees in the front and back yard. Additionally, they cleaned up an area on the side of our home that had been neglected for years.  It looks 100 times better!  They did a fantastic job cleaning up afterwards and Christian followed up to make sure we were satisfied with the job.  We are very pleased with the work and will definitely be using Blade Runner in the future."
+        },
+        {
+            "author": "Jim Parker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I can quite confidently recommend Blade Runner Tree Service for your tree care needs. We called for an estimate, and their rep (Christian) came out that same afternoon (Friday).  We received their quote on Monday, and felt it was a fair price to do the work we requested. Once we agreed to the deal, he scheduled a crew to arrive the next day (Tuesday).\n\nVinnie and Brady were the onsite crew members, and they arrived on time, and promptly went to work removing some potentially dangerous limbs overhanging our neighbor's property, cleaning up a bunch of \"suckers\" that were growing between the major limbs, and removing a few dead branches. They did an EXCELLENT job, cleaned up after their work quite nicely, and even blew the acorns and leaves off our sunroom roof while they were cleaning up the roof. They didn't even mind when Riley (our mini-schnauzer) came out to inspect their work!\n\nEveryone we have dealt with at Blade Runner were very nice, polite, and quite knowledgeable about what they do. Watching them safely work way up high in the trees was amazing. (I could NOT do that job, even in my youth!) And it was nice knowing we had a certified arborist leading the crew, and directing the pruning.\n\nThe result is night-and-day difference - simply stunning! The trees look so much healthier and ready to deal with any ice that may come our way this winter. I cannot thank Blade Runner (and Vinnie and Brady) enough for the excellent job they did for us."
+        },
+        {
+            "author": "Andrew Lochbaum",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Blade Runner Tree Service did a fabulous job with my tree removal.  Communications for getting a quote and for scheduling was easy. Crew arrived on time and were very professional.   The tree was in a hard spot and they took great care in protecting my house and then cleaning everything up nicely after they were done."
+        },
+        {
+            "author": "John Koza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Brady and Vinny did an excellent job on our large live oaks and cedars.  They were very professional and courteous-from estimate to cleanup!   Would highly recommend them."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Austin (Central Depot)",

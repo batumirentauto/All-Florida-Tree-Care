@@ -31,21 +31,9 @@ export const siteConfigNavarijosTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 916-531-9503)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/navarijos-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Navarijo’s tree service"
-      },
-      "sub1": {
-        "image": "/images/navarijos-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/navarijos-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigNavarijosTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/navarijos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigNavarijosTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/navarijos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigNavarijosTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/navarijos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigNavarijosTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Reema Dhillon Brass",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Saul did an outstanding job removing our large mulberry tree. He offered an amazing price, completed the work quickly and efficiently, and left everything looking clean and beautiful. The entire process was smooth from start to finish, and ..."
-    },
-    {
-      "author": "Donald T",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a large leaning oak tree break and fall over on a calm summer afternoon. Saul scheduled the emergency clearing a couple days later, and had the job completed by mid-afternoon on a Saturday, with a fine crew of 4 hard workers. Reasona..."
-    },
-    {
-      "author": "Aleksandr Vakulchik",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I needed 22 stumps removed after SMUD cut down trees growing close to their power lines. A number of them were small, but 7 were quite large, 2 to 3 feet diameter. One company gave me a quote at told me that it’s a couple days of work. Saul..."
-    },
-    {
-      "author": "Liz N.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Second time using Navarijo’s tree service. I needed a small hedge removed down to the ground. They did an excellent job clearing the area removing all the branches and roots sticking up through the soil. Highly recommend...."
-    },
-    {
-      "author": "Mellisa L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Our tree in the backyard had fallen on the house and we called Maz Tree Service and were very happy with the responsiveness and how excellent of a job they did.  They were able to take care of us right away.  They removed the fallen limb on..."
-    }
-  ],
+        {
+            "author": "Reema Dhillon Brass",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Saul did an outstanding job removing our large mulberry tree. He offered an amazing price, completed the work quickly and efficiently, and left everything looking clean and beautiful. The entire process was smooth from start to finish, and ..."
+        },
+        {
+            "author": "Donald T",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a large leaning oak tree break and fall over on a calm summer afternoon. Saul scheduled the emergency clearing a couple days later, and had the job completed by mid-afternoon on a Saturday, with a fine crew of 4 hard workers. Reasona..."
+        },
+        {
+            "author": "Aleksandr Vakulchik",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I needed 22 stumps removed after SMUD cut down trees growing close to their power lines. A number of them were small, but 7 were quite large, 2 to 3 feet diameter. One company gave me a quote at told me that it’s a couple days of work. Saul...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdijdzeJumWRz7gsakOzj35HxyEjMYI4V7AoBGOPLpNCbWquLB-U2UZuQkl4G0aCKjx6akVjtgINKGwgrzdxPdsjSCkOHIIkmyiB7CQ2aUOpWW_8cDuGrHO0UDUkcjemdGRbTyeZnQIoa94=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc1wmyVJaKEQY7u6XbJC7QQCCP9hjAqgpUet8Cw4ohVACbvHiL3zxu0DLyIfcAqKcAlxfOwD_OZ7-Pb3TpQ3FT-pVGohuKYETa4zKwgs2bbMAnWywn7drST75mz4Oo7U05Ndvhl_uyhzqP0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Liz N.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Second time using Navarijo’s tree service. I needed a small hedge removed down to the ground. They did an excellent job clearing the area removing all the branches and roots sticking up through the soil. Highly recommend...."
+        },
+        {
+            "author": "Mellisa L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Our tree in the backyard had fallen on the house and we called Maz Tree Service and were very happy with the responsiveness and how excellent of a job they did.  They were able to take care of us right away.  They removed the fallen limb on...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDOU1zzzOlSI5CM3f1LQR1O81UzYTVB1f8Xv0E4VT_7OjE5vKmE74Db9yhmai1AAIKlMhhkWiyqvcOtbgYduw1j8ozzSp4rAGZM72ORFeBq2uxDDPTmyiYbNJN31clQ4m_Ebll=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8eN5g28XZ5LUMJFIUV9y-LbHNf3TLDKLiAVXcCj4c1HMekd40eTRfCpEniGN_h7Og-jDdsC516WMmgtsrq5S4mO7b4bKw6ZEmsBBlmkz0rR3nuo1KjYu891Sa14MLuQqOOe4Y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeqyjTWmCgE6sT6dHCk8utjPho_J2QoBo5UMxCJXW6cErVhbq6R6xVsEZc616rLsVsQoKZDolO5ssi5qawVpWAqXHo0hoUltM4r5TAOQh6R3f0gSYXYvuEVv3GcVx3CIDNZI3Dd8g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevkoRU5nm5JUruBnEZUa4816T33nGkvW9ghn-npfMlUHXchrBRVOulxcBigOYgLMxX6_qs693c6Ed7O_MsyQ5SQOe9Y2ZyTCNqUQAhthUF9Gx9Laiho-ZeGRpVwpo9NMr-AzdE=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

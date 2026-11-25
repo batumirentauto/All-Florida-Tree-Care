@@ -32,21 +32,9 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
     "ctaPrimary": "Call Noah +1 910-232-2940",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Modern Coastal LLC - Landscaping & Lawn Care Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Alex Davis",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wish I had hired these guys sooner. Did a phenomenal job on my front and back yard at a very competitive price. Much better than any other companies that have done the same work."
-    },
-    {
-      "author": "Allison Collins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Noah and team did an awesome job on our yard! On time, great job, and overall great service. Would highly recommend."
-    },
-    {
-      "author": "Jessica Saidenstat",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a fantastic experience with this family-owned landscaping company! They came out on short notice and did an incredible job with our yard—cutting down some trees, trimming bushes, and general yard cleanup. They worked quickly and efficiently, were super friendly, and left everything spotless. Their pricing was very fair for the amount of work they did, and the whole process was smooth from start to finish. It’s rare to find a company that’s not only great at what they do but also a pleasure to work with. Highly recommend!"
-    },
-    {
-      "author": "Brenda Musselman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Noah and his company. He started taking care of my yard years ago with just a push mower and has grown into a very reliable and professional company. Always willing to do the extras I may ask for. 👍 …"
-    },
-    {
-      "author": "Audrey Kessel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "As a new homeowner I was hesitant about hiring a company to take of my lawn but I’m so happy I found Modern Coastal. Patrick and his family do a wonderful job and are very personable and easy to work with. They did a full spring cleaning of the trees and bushes around my yard and have been coming out biweekly to mow the lawn. I highly recommend them!"
-    }
-  ],
+        {
+            "author": "Alex Davis",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wish I had hired these guys sooner. Did a phenomenal job on my front and back yard at a very competitive price. Much better than any other companies that have done the same work."
+        },
+        {
+            "author": "Allison Collins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Noah and team did an awesome job on our yard! On time, great job, and overall great service. Would highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcto6KLxZh_jhiyLIGlTAOGxkOmxyKgePuMCKN4-8iiR6TzbJ9IfNjZ6oO33t-QohMEgddyweeKBG1oqLok0qzsxrTli7MlzXTYCw12NoVmmqrXaXtCjk22yYo06c9UDWJBKLz_=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Saidenstat",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a fantastic experience with this family-owned landscaping company! They came out on short notice and did an incredible job with our yard—cutting down some trees, trimming bushes, and general yard cleanup. They worked quickly and efficiently, were super friendly, and left everything spotless. Their pricing was very fair for the amount of work they did, and the whole process was smooth from start to finish. It’s rare to find a company that’s not only great at what they do but also a pleasure to work with. Highly recommend!"
+        },
+        {
+            "author": "Brenda Musselman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Noah and his company. He started taking care of my yard years ago with just a push mower and has grown into a very reliable and professional company. Always willing to do the extras I may ask for. 👍 …"
+        },
+        {
+            "author": "Audrey Kessel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "As a new homeowner I was hesitant about hiring a company to take of my lawn but I’m so happy I found Modern Coastal. Patrick and his family do a wonderful job and are very personable and easy to work with. They did a full spring cleaning of the trees and bushes around my yard and have been coming out biweekly to mow the lawn. I highly recommend them!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wilmington (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigKatsTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 352-227-1103)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/kats-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Kats Tree Service"
-      },
-      "sub1": {
-        "image": "/images/kats-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/kats-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigKatsTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/kats-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigKatsTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/kats-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigKatsTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/kats-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigKatsTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Walt L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I contacted Kats Tree Service because I moved into a mobile home in Leesburg, FL with a large tree canopy over it.\n\nI knew I wanted a local company to Leesburg, FL with an ISA Certified Arborist like Kat to conduct a Tree Risk Assessment.  ..."
-    },
-    {
-      "author": "K C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a wonderful experience with Kat's Tree Service. The team was professional, courteous, and incredibly friendly throughout the entire process. We have a palm tree that needed the attention of a certified tree arborist, and we're so gla..."
-    },
-    {
-      "author": "Chris Bissett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very professional and prompt!  Great communication with immediate scheduling!  Their service is top notch from start to finish.  Equipment is state of the art.  I couldn’t have asked for a better experience.  Thank you Kat for a job well do..."
-    },
-    {
-      "author": "R. Lax",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Kat's Tree Service, LLC. I called four different companies, and Kat's Tree Service, LLC was the only one that returned my call and within an hour. They came out the very next day to provide me with an estimate. The owner ..."
-    },
-    {
-      "author": "Thomas Baran",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Kat  is very professional and super easy to work with. He came to our property to examine our mature orchid tree.  The tree was beautiful (in full bloom just before the cold hit) but not cold-tolerant and could not withstand the hard freeze..."
-    }
-  ],
+        {
+            "author": "Walt L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I contacted Kats Tree Service because I moved into a mobile home in Leesburg, FL with a large tree canopy over it.\n\nI knew I wanted a local company to Leesburg, FL with an ISA Certified Arborist like Kat to conduct a Tree Risk Assessment.  ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwoI4vTNbv0V6yb1v-uifP8VxP7SUeIudd7sPxEzXmuKSdSrNESgDskF7JNZsHXyy9NLNbHoUZIfUI3mO7JX-UpjReWXAj_aQ8crC0INDka2FhimeejCpN_V9agyBF5NqPfwXEdFrMh-2V=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "K C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a wonderful experience with Kat's Tree Service. The team was professional, courteous, and incredibly friendly throughout the entire process. We have a palm tree that needed the attention of a certified tree arborist, and we're so gla..."
+        },
+        {
+            "author": "Chris Bissett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very professional and prompt!  Great communication with immediate scheduling!  Their service is top notch from start to finish.  Equipment is state of the art.  I couldn’t have asked for a better experience.  Thank you Kat for a job well do..."
+        },
+        {
+            "author": "R. Lax",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Kat's Tree Service, LLC. I called four different companies, and Kat's Tree Service, LLC was the only one that returned my call and within an hour. They came out the very next day to provide me with an estimate. The owner ..."
+        },
+        {
+            "author": "Thomas Baran",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Kat  is very professional and super easy to work with. He came to our property to examine our mature orchid tree.  The tree was beautiful (in full bloom just before the cold hit) but not cold-tolerant and could not withstand the hard freeze..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Lady Lake (Основная база)",

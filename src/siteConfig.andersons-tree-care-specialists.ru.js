@@ -31,21 +31,9 @@ export const siteConfigAndersonsTreeCareSpecialistsRu = {
     "ctaPrimary": "Позвонить (+1 408-226-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/andersons-tree-care-specialists/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Anderson's Tree Care Specialists"
-      },
-      "sub1": {
-        "image": "/images/andersons-tree-care-specialists/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/andersons-tree-care-specialists/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAndersonsTreeCareSpecialistsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/andersons-tree-care-specialists/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAndersonsTreeCareSpecialistsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/andersons-tree-care-specialists/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAndersonsTreeCareSpecialistsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/andersons-tree-care-specialists/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigAndersonsTreeCareSpecialistsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "April Mosca",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Anderson’s tree company, Christian and his crew, were phenomenal! Their expertise and attention to detail were exceptional. They came in took down all our unwanted trees, ground the stumps and took all debris leaving our yard spotless. We a..."
-    },
-    {
-      "author": "Katie Shradar",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Anderson tree care came out and removed a 50+ ft palm tree from our back yard along with two smaller trees we had in the front. They used a crane to take the palm out efficiently and with very little mess. My kids loved watching all the act..."
-    },
-    {
-      "author": "Liliana Ramos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Kaitlyn walked us through the process from start to finish. She really knew what the trees needed. On the day of the tree pruning,  Kaitlyn and the crew did great. The trees look happier than they had been in years. They were prompt, effici..."
-    },
-    {
-      "author": "Goutham Bellary",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Because of High winds had a Branch that fell down blocking one of the cars parked in the dtive way. Straun was quick to respond in Unblocking the driveway himself and then coming back with a Crew at a later convenient date to do the Pruning..."
-    },
-    {
-      "author": "Teresa Rivera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had an amazing experience! From start to finish, the team at Anderson Tree Care demonstrated professionalism and provided comprehensive information. They thoroughly detailed the process, and the timeframe was excellent. My trees and brush..."
-    }
-  ],
+        {
+            "author": "April Mosca",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Anderson’s tree company, Christian and his crew, were phenomenal! Their expertise and attention to detail were exceptional. They came in took down all our unwanted trees, ground the stumps and took all debris leaving our yard spotless. We a...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkSVrQHTawcPR9w-kv-4OlTeRMh6ZoMKf75jcTn_eb95McDGNRDuutVynNVhwWxsn2-jPUZt-ge1mfFA5YCRNiRmiluXFfe8XkHfog7ES6wennWTCda6XiaUjBpIfn8k8vi_Zr2gPZ4UMY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedSQ9EO-l7h9iWWAMxR-6qaQwZbZow9_pNeLCptbAVOd2XlicOWbP7T61_Ku7o61MILvzFhRjO6i2WGuqp3nsSn4e_Mbpo7ySi9Elb0Rsocjp26vp8MnCwsEd64hsp8Iz2iQ3rmxiP6ek=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Shradar",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Anderson tree care came out and removed a 50+ ft palm tree from our back yard along with two smaller trees we had in the front. They used a crane to take the palm out efficiently and with very little mess. My kids loved watching all the act...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGELl6nnBgHQsQEqIBFN25WSPEXql_ak-UOLwEFxOxU89W1wAD0cN0iOPes4dHi2oGinXli_AKMs0tjGdX4olefj_wXdgeTXtdyMQepfsaiS0xXmZrqaMeAknDmRtkD3nbSBSo-GDBOR9S=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Liliana Ramos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Kaitlyn walked us through the process from start to finish. She really knew what the trees needed. On the day of the tree pruning,  Kaitlyn and the crew did great. The trees look happier than they had been in years. They were prompt, effici..."
+        },
+        {
+            "author": "Goutham Bellary",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Because of High winds had a Branch that fell down blocking one of the cars parked in the dtive way. Straun was quick to respond in Unblocking the driveway himself and then coming back with a Crew at a later convenient date to do the Pruning..."
+        },
+        {
+            "author": "Teresa Rivera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had an amazing experience! From start to finish, the team at Anderson Tree Care demonstrated professionalism and provided comprehensive information. They thoroughly detailed the process, and the timeframe was excellent. My trees and brush..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Jose (Основная база)",

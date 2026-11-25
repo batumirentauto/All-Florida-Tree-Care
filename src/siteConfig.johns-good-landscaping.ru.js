@@ -31,21 +31,9 @@ export const siteConfigJohnsGoodLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 510-379-6314)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/johns-good-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады John's Good Landscaping Services"
-      },
-      "sub1": {
-        "image": "/images/johns-good-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/johns-good-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJohnsGoodLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/johns-good-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJohnsGoodLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/johns-good-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJohnsGoodLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/johns-good-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigJohnsGoodLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jay Busby",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: OMG!! John and company came to my house today to remove a large tree that blew over in the storm last week and also a palm tree that is in the way. The price was fair and he is easy to work with. They finished the job completely and raked u..."
-    },
-    {
-      "author": "Lori Katz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great work! John is so friendly. He and his crew came on time and were very careful and professional in getting the job done quickly and properly, just how I wanted it.\n\nOutstanding job—we plan on using him again next week.\n\nThank you so ve..."
-    },
-    {
-      "author": "j brown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A picture is now posted after his reply of being scammed. Look at the picture and tell me if that looks good and who is being scammed. John lied about everything he was supposed to do. Did not on his price quote asked for more money in the ..."
-    },
-    {
-      "author": "Hayward",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jon did a great job. Fair pricing and beautiful job done. Great guy.  Using again in future...."
-    },
-    {
-      "author": "rachel ker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: French drain, fixed retaining walls and cut large overgrown palm trees. Appreciate John and his team very much. Professional, fair and quick!..."
-    }
-  ],
+        {
+            "author": "Jay Busby",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: OMG!! John and company came to my house today to remove a large tree that blew over in the storm last week and also a palm tree that is in the way. The price was fair and he is easy to work with. They finished the job completely and raked u...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfbTAuLV6h-nJ3WEEgTsANs0Tfd4FgNcTH1-5PYaapmQW1Q8FnKmzY1L9TQRriHaFnUZUzzRKn89LhV3n5oO5FkmAzDqYOkqbPhCput2V8IJUex12nvS7MwKPBCjJm7wD9q81u=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8uBwdOwoOw34A-gsOi3uZbhKr4pXt9aCcJWS3ax7JKzIyw7v-whk7QAJP-Ee3xdPIJNJ0JnqkI50UmP14hEGUfJOYdNPvceOXg19Nn-tNGSV9O6jTj1EAIOEkme_zSlD3X8vm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9u0QvLl2Sk4VfdpDQmrTE9WLBq13VqscnzI7l028WeqlOaEbFUqxNJV1mE4Ylay2G_S-FLg4cNHt7LxQ_63UiaZNqfDpPgP-zAb0mw-NAALyhJUwfJvGA4gCVYwhOi6zMRYPrDw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lori Katz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great work! John is so friendly. He and his crew came on time and were very careful and professional in getting the job done quickly and properly, just how I wanted it.\n\nOutstanding job—we plan on using him again next week.\n\nThank you so ve...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLew3WwTgSmK97L8cFuXeAien6vB7rJhlO6nN5bRf3ydZj0edAwVJvpzaYIboB16Uwmc6Khdoj8_jaW84RokxMaBJZgIt04VGevb03gANxtYz0e4CTixQmdRFoh2sGw0E0ukQJBfHA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "j brown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A picture is now posted after his reply of being scammed. Look at the picture and tell me if that looks good and who is being scammed. John lied about everything he was supposed to do. Did not on his price quote asked for more money in the ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePPQUcx0v52luxmvYB-wlf2tYadM8iAXwqmQ6d7wZDMD4giF7hNtH6y6j1DJ-1fhsODYXxuL2kqEJ0N67fwaEWXBgSabsWN_eJjBXO61-mIUUsq0e7xiHUMf_AseFJ0CuzCrBR=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Hayward",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jon did a great job. Fair pricing and beautiful job done. Great guy.  Using again in future...."
+        },
+        {
+            "author": "rachel ker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: French drain, fixed retaining walls and cut large overgrown palm trees. Appreciate John and his team very much. Professional, fair and quick!..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Oakland (Основная база)",

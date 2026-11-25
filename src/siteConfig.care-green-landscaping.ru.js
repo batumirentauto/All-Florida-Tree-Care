@@ -31,21 +31,9 @@ export const siteConfigCareGreenLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 972-465-9745)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/care-green-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Care Green Landscaping & Tree Service"
-      },
-      "sub1": {
-        "image": "/images/care-green-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/care-green-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCareGreenLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/care-green-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCareGreenLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/care-green-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCareGreenLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/care-green-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigCareGreenLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jason Billingslea",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys were amazing! Knew the business, had a fair price, showed up on time, worked hard, and cleaned up after themselves. They also collected leaves and mowed for us after they finished with the several trees on our property. Would rec..."
-    },
-    {
-      "author": "T.Reid Bonner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used Care Green for years to take care of our property and Trees in Sunnyvale. We have 10 acres and we always needed their help. We are happy to send a review that they are ABSOLUTELY THE BEST IN THE METROPLEX!!! Incredibly quick to..."
-    },
-    {
-      "author": "rachel c",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My family hired this company to trim trees, and they did an excellent job. They left no mess. The trees look fantastic now. We were particularly impressed with their professionalism and attention to detail throughout the entire process. Car..."
-    },
-    {
-      "author": "Rod Patrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Abraham's crew was excellent! They trimmed all five of our huge Live Oaks and the big Pecan. They worked together well as a team and their cleanup was exceptional!..."
-    },
-    {
-      "author": "E lizabeth Stroud",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend this company to do any trees service you need the quotes are very affordable and they get the job done and clean up after themselves as well. Thank you I am very satisfied with the work the crew did!!!!..."
-    }
-  ],
+        {
+            "author": "Jason Billingslea",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys were amazing! Knew the business, had a fair price, showed up on time, worked hard, and cleaned up after themselves. They also collected leaves and mowed for us after they finished with the several trees on our property. Would rec...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf6dbQp0QggEjHsjjNVm1_SjbD9ia88mgWaMBiCTIPPZctQ4FO0cBrToMp4SmluAAG4LcJUFE_AVeoFACPy-H-RuAmzmbSXBSTG5tlRvahjRIBn_Py-8zs_YMrr7gltLoFD4L4s=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcPO7KwHsKGdquSJ27gyHuwjBzJRavWn-sakbVq2rExUHHTFx_R6Z9orjDfOnRgv8e8na-yfH-l79NTjaoLHTZ8DgjjyKKJWdnwBpNlxn9TNe0P2xF47bXp4kHKKEdQ_PLtI5Kh1g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJo_e9v3xCuZNJdRN4YVPXrCbNQjfPdaHxSYS2lZTthqumlVSHVPxJGaPO1CJj0agwCP-WUTW2kgGdtxl5PFbIdXJ9EeikqBM_6Vx3Sl9MMZLov2FZ9t5ZVkwSz17FZDyeDjY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcexKkVvTMnDy-S1m976BKolMgDw8okpCoA2-8zRG9m53CoLVhFuZKexHdGYhpLg_rBvBt72s3HyK5Zoilc6ALwXQi8AQEq3dapecrUbUcCpvH14R3tYNEVo6gZrF67IN3Od2Lfig=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "T.Reid Bonner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used Care Green for years to take care of our property and Trees in Sunnyvale. We have 10 acres and we always needed their help. We are happy to send a review that they are ABSOLUTELY THE BEST IN THE METROPLEX!!! Incredibly quick to..."
+        },
+        {
+            "author": "rachel c",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My family hired this company to trim trees, and they did an excellent job. They left no mess. The trees look fantastic now. We were particularly impressed with their professionalism and attention to detail throughout the entire process. Car..."
+        },
+        {
+            "author": "Rod Patrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Abraham's crew was excellent! They trimmed all five of our huge Live Oaks and the big Pecan. They worked together well as a team and their cleanup was exceptional!..."
+        },
+        {
+            "author": "E lizabeth Stroud",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend this company to do any trees service you need the quotes are very affordable and they get the job done and clean up after themselves as well. Thank you I am very satisfied with the work the crew did!!!!..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Dallas (Основная база)",

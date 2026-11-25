@@ -31,21 +31,9 @@ export const siteConfigWaltersTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 214-694-5796)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/walters-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Walter’s Tree Service"
-      },
-      "sub1": {
-        "image": "/images/walters-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/walters-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigWaltersTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/walters-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigWaltersTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/walters-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigWaltersTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/walters-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigWaltersTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carla Hysell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used Walter's Tree Service several times over the past few years. Their quality of work is outstanding! They listen to the customer's needs and follow through. One of the most impressive aspects of their work is the way they clean u..."
-    },
-    {
-      "author": "Tawnia Wise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Walter is very professional. Great service and fast. He trimmed many trees and an overgrown vine around my house. I’ll definitely call him next time I need tree work done...."
-    },
-    {
-      "author": "Melissa Rosas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Walter and his crew did a huge trim on one of my +50 year old trees and completely cut down another extremely mature tree to fence level. They were very efficient and well prepared. Walter is very kind and did extra clean up work on his own..."
-    },
-    {
-      "author": "James Burney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Walter was very professional.  We had a troublesome tree that was growing over our power lines.  Him and his team took care of it for us.  Great service...."
-    },
-    {
-      "author": "Jeffrey sippola",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Called Walter at 3:30 on a Saturday to take a look at a big limb that was just barely hanging by small ripped bark and could fall at any minute.  He came out by about 4:20 and completed the job in about 30 minutes!  He had to send someone t..."
-    }
-  ],
+        {
+            "author": "Carla Hysell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used Walter's Tree Service several times over the past few years. Their quality of work is outstanding! They listen to the customer's needs and follow through. One of the most impressive aspects of their work is the way they clean u..."
+        },
+        {
+            "author": "Tawnia Wise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Walter is very professional. Great service and fast. He trimmed many trees and an overgrown vine around my house. I’ll definitely call him next time I need tree work done...."
+        },
+        {
+            "author": "Melissa Rosas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Walter and his crew did a huge trim on one of my +50 year old trees and completely cut down another extremely mature tree to fence level. They were very efficient and well prepared. Walter is very kind and did extra clean up work on his own..."
+        },
+        {
+            "author": "James Burney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Walter was very professional.  We had a troublesome tree that was growing over our power lines.  Him and his team took care of it for us.  Great service....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIz7D3zvNjaejQ-WVlzSYUMYxKiYJ5-Bs5E5XdGON0LwrY7Tg_tzKbHW_QLvyHVEZGG4aISMpvjs4qLjOzvuh5hElbFTOooE9aPinDC2g1KTXVNuxIVa2ZktY8mQLR505XADkKqlVAbkk=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1qkHDfeOi8pXXRBNzNZMOjQTW1wM1G5uDYTW1NWkGTL1jhayBP7xyzsmKEUN3TTbWVqwHy4DxmBQcYdrZ0ZpCRPOzdhwC7yrKmpJt_VwFd-0pnf3_0IpReKIYjp6-m9euokVyiVwFBZ0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeffrey sippola",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Called Walter at 3:30 on a Saturday to take a look at a big limb that was just barely hanging by small ripped bark and could fall at any minute.  He came out by about 4:20 and completed the job in about 30 minutes!  He had to send someone t..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Dallas (Основная база)",

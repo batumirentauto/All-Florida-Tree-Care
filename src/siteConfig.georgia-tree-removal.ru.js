@@ -31,21 +31,9 @@ export const siteConfigGeorgiaTreeRemovalRu = {
     "ctaPrimary": "Позвонить (+1 404-396-4939)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/georgia-tree-removal/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Georgia Tree Removal"
-      },
-      "sub1": {
-        "image": "/images/georgia-tree-removal/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/georgia-tree-removal/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGeorgiaTreeRemovalRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/georgia-tree-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGeorgiaTreeRemovalRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/georgia-tree-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGeorgiaTreeRemovalRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/georgia-tree-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,52 @@ export const siteConfigGeorgiaTreeRemovalRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Giesela Zavodny",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great people, great price, great job!!  Tiffany and Denise were very responsive to any questions we had about the job.  From the first phone call for an estimate to tree removal the process couldn't have been any better.  We would not hesit..."
-    },
-    {
-      "author": "Lauren Hardy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Super reliable service, fast scheduling, and great prices. One of the few companies that gave us a written free quote. They did a great job of cutting down a tree in our front yard and trimming another back. Highly recommend...."
-    },
-    {
-      "author": "Patricia Hunt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dennis and his team were outstanding! They responded quickly to our request for an estimate, coming out on a Sunday afternoon to meet with us.  They were able to get the work done within a week, at a fair price. Our trees look SO much healt..."
-    },
-    {
-      "author": "Angie Bray",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree next to my house. They came and took it down and cleaned up all the limbs and branches.  Very efficient, all while doing this in a timely manner.  Came and gave me an estimate, Very friendly. I would highly recommend Georgia tree Remov..."
-    },
-    {
-      "author": "Joel Kriner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dennis and Tiffany were great to work with. They were timely for their appraisals and work appointments, and were very professional, providing a prompt  written estimate, which was very fair. I had two trees completely removed, and four mor..."
-    }
-  ],
+        {
+            "author": "Giesela Zavodny",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great people, great price, great job!!  Tiffany and Denise were very responsive to any questions we had about the job.  From the first phone call for an estimate to tree removal the process couldn't have been any better.  We would not hesit..."
+        },
+        {
+            "author": "Lauren Hardy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Super reliable service, fast scheduling, and great prices. One of the few companies that gave us a written free quote. They did a great job of cutting down a tree in our front yard and trimming another back. Highly recommend...."
+        },
+        {
+            "author": "Patricia Hunt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dennis and his team were outstanding! They responded quickly to our request for an estimate, coming out on a Sunday afternoon to meet with us.  They were able to get the work done within a week, at a fair price. Our trees look SO much healt...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJtqmOxKyyE7W0xNrOcb1ao7LAm5noV2mlhA4RQ66nmSKvtW0TTP9yUR3RD-u5MNYbjvSFLXtoRHsSh2CACQgIQ0hJyc6-mU8vlCYFD6L1EnURoOwfsHubVvdyqQGJ_-Y4wioFgQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHhzNT_5giX0g4GaM2Ca8wiVRe_qVe1sU0dcqxrra0cepJbFiiClGbKJA5lZyILvjBB14fqwbARlbK4Oo2HmXxvIbaIhtcnSUZ6TglOLFkhUDLKxZv_Tfvv5X-VH5MU4529oZW=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjsi9hSkpSzfkvh5VRv6oTbkl0GYLwJ4mCOfvrrq4sSSGcg9WhOhGRR6k0j-W1MjaEcDj9K6PabWaYwPMXUl_LJjsxDTp3yrE_DoIJeCNBqaWSqt1ak_yyBQiScKnwtn48As2W=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Angie Bray",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree next to my house. They came and took it down and cleaned up all the limbs and branches.  Very efficient, all while doing this in a timely manner.  Came and gave me an estimate, Very friendly. I would highly recommend Georgia tree Remov..."
+        },
+        {
+            "author": "Joel Kriner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dennis and Tiffany were great to work with. They were timely for their appraisals and work appointments, and were very professional, providing a prompt  written estimate, which was very fair. I had two trees completely removed, and four mor..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Crawford (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigTafoyaRu = {
     "ctaPrimary": "Позвонить ((713) 594-5062)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tafoya/photo_009_crop.jpg",
-        "label": "Дробилка веток и грузовик-щеповоз",
-        "alt": "Желтый измельчитель веток выдувает щепу прямо в закрытый кузов грузовика на улице"
-      },
-      "sub1": {
-        "image": "/images/tafoya/photo_015_crop.jpg",
-        "label": "Гусеничный мини-погрузчик (713-594-5062)",
-        "alt": "Фирменный гусеничный мини-погрузчик с номером 713-594-5062 на расчистке участка"
-      },
-      "sub2": {
-        "image": "/images/tafoya/photo_001_crop.jpg",
-        "label": "Арборист на высоте на стволе",
-        "alt": "Верхолаз-арборист производит спил макушки высокого дерева на фоне неба"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTafoyaRu = {
     {
       "name": "Пнедробилка и мини-погрузчик на выезде",
       "badge": "Расчистка подъезда",
-      "image": "/images/tafoya/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTafoyaRu = {
     {
       "name": "Обрезка пальмы у бассейна",
       "badge": "Уход за пальмами у воды",
-      "image": "/images/tafoya/photo_011_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTafoyaRu = {
     {
       "name": "Дробление пня у деревянного забора",
       "badge": "Чистота у забора",
-      "image": "/images/tafoya/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

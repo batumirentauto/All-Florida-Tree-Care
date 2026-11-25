@@ -32,21 +32,9 @@ export const siteConfigArchonTreeEn = {
     "ctaPrimary": "Call Archon +1 253-858-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/archon-tree/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "ARCHON TREE tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/archon-tree/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/archon-tree/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigArchonTreeEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/archon-tree/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigArchonTreeEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/archon-tree/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigArchonTreeEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/archon-tree/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

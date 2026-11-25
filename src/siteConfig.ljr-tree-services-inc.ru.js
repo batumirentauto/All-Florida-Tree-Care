@@ -31,21 +31,9 @@ export const siteConfigLjrTreeServicesIncRu = {
     "ctaPrimary": "Позвонить (+1 408-712-4823)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ljr-tree-services-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады LJR Tree Services Inc"
-      },
-      "sub1": {
-        "image": "/images/ljr-tree-services-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/ljr-tree-services-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigLjrTreeServicesIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/ljr-tree-services-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigLjrTreeServicesIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/ljr-tree-services-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigLjrTreeServicesIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/ljr-tree-services-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigLjrTreeServicesIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "LASZLO NEMETH",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: LJR Tree Services did a beautiful job trimming my overgrown tree, very happy with the result. Thank you!..."
-    },
-    {
-      "author": "ADAM MARC AQUINO",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Professional tree care with a strong focus on doing the job right.\ncalled LJR for emergency tree service after a big branch cracked during the storm they showed up quicker than i expected and handled it safly very thankful for their quick r..."
-    },
-    {
-      "author": "Joanne Laus",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Fast and excellent work. Courteous crew. Before and after photos below...."
-    },
-    {
-      "author": "Mats Matsuo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This was my second time getting their work.\n\nWithin two hours of my initial contact, they came by to provide an estimation, and then, completed all the necessary work next day. I am very satisfied with their high quality, prompt, and profes..."
-    },
-    {
-      "author": "Jerry Liang",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Came for the free estimate, told him I needed to clear tree from fence. Came early and did the job and cleaned up well afterwards. Was concerned about over trimming and voiced his concern but followed through with what I asked him..."
-    }
-  ],
+        {
+            "author": "LASZLO NEMETH",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: LJR Tree Services did a beautiful job trimming my overgrown tree, very happy with the result. Thank you!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdFXdXmDYIrr7iRJzHUSvTGXnje17qDMnn27BLHNKWJqy7xlXNoQRurqND99onk0ZTosLn23xNzyyTR-54ND9eJm7qmSagSot2G7tr16II-Sdba2bXuC18DMixtInCUUVwEqNv4uEKEesex=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "ADAM MARC AQUINO",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Professional tree care with a strong focus on doing the job right.\ncalled LJR for emergency tree service after a big branch cracked during the storm they showed up quicker than i expected and handled it safly very thankful for their quick r..."
+        },
+        {
+            "author": "Joanne Laus",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Fast and excellent work. Courteous crew. Before and after photos below....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmNj38hzhUNsqOXTwah54iRURQULTdXHN70Hlj9AIiY7T2uVNTSaxEqO6xzyqxsvSugiyX6DeHuwfotgJi7Cm-_hQ6ZkoL5MIMjEglNWYV6HR-gpYfvA4SHYTeiJNs0AYWU8nyywFe1Pc=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGqpgvtwOo6jaPX0m7oOx59xyYELeP3e9xBghQt_t8dMD9vZIKfhwWlw5bxEKAxMlllp9JMBQeRWhBlEbJT5lW3-5KYmKzA2mtWsYRjPCER2BsV9vrQxr53zpfW69NxpE0fC-hay_Y6TgL=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mats Matsuo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This was my second time getting their work.\n\nWithin two hours of my initial contact, they came by to provide an estimation, and then, completed all the necessary work next day. I am very satisfied with their high quality, prompt, and profes..."
+        },
+        {
+            "author": "Jerry Liang",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Came for the free estimate, told him I needed to clear tree from fence. Came early and did the job and cleaned up well afterwards. Was concerned about over trimming and voiced his concern but followed through with what I asked him..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Jose (Основная база)",

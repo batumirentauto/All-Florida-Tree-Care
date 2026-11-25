@@ -31,21 +31,9 @@ export const siteConfigJdTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 425-836-8800)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jd-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады JD Tree Service"
-      },
-      "sub1": {
-        "image": "/images/jd-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jd-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJdTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jd-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJdTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jd-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJdTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jd-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigJdTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sally Solaro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Reached out to JD Tree Service at the recommendation of my landscaper. They responded quickly and John showed up on time for the estimate appointment. He was friendly, knowledgeable and talked me through the stump grind process. He gave me ..."
-    },
-    {
-      "author": "Robin Hayes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After the 4-5 inches of snow last week, we thought we’d lost our beautiful blooming tree , but thanks to the expertise of JD Tree service we were able to save it! Great job of assessing the problem, explaining, and properly pruning!..."
-    },
-    {
-      "author": "Paul Batig",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: John and team solved a very difficult problem for us, limbing multiple 80ft+ cottonwood trees which were overhanging our house on a hillside.  This was a very technical job which the team completed in a day, at the quoted price, with no dam..."
-    },
-    {
-      "author": "Erickson Family",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We highly recommend JD Tree Service!  Knowledgeable, professional, honest.  Our trees and bushes were trimmed exactly how we wanted them...."
-    },
-    {
-      "author": "Megan Taddonio",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have had many great experiences working with JD Tree Service. They are responsive, knowledgeable, and take great care in the work that they do. We try to have them come once a year to check on our tree health and do trimming. They recent..."
-    }
-  ],
+        {
+            "author": "Sally Solaro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Reached out to JD Tree Service at the recommendation of my landscaper. They responded quickly and John showed up on time for the estimate appointment. He was friendly, knowledgeable and talked me through the stump grind process. He gave me ..."
+        },
+        {
+            "author": "Robin Hayes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After the 4-5 inches of snow last week, we thought we’d lost our beautiful blooming tree , but thanks to the expertise of JD Tree service we were able to save it! Great job of assessing the problem, explaining, and properly pruning!..."
+        },
+        {
+            "author": "Paul Batig",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: John and team solved a very difficult problem for us, limbing multiple 80ft+ cottonwood trees which were overhanging our house on a hillside.  This was a very technical job which the team completed in a day, at the quoted price, with no dam...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfVet5UYNQNqW42XQR8ZbG-kShVgY5f97UN5TM727jRlPBrrOsiPDIlKZaNBRCcUHn0xSVe5r0ROlE0Y_xf0CieVlvTf1vg9RhgP39Aj-5uvZ2RqRSIhPr-XywePp5CUsvulqroAQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFc8hSjA-PnQ4j5D6ko8vKsTdK0Z0IG5OrZqlmWKFproMZXyXi57k-yqdQSfivXjNTyo_EV3E1R0_sKQe7zETc5P3lWgthJQQyyNjB1cWkvGjE-Be8-X4mlSxzjSqc8w3pjZox=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Erickson Family",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We highly recommend JD Tree Service!  Knowledgeable, professional, honest.  Our trees and bushes were trimmed exactly how we wanted them...."
+        },
+        {
+            "author": "Megan Taddonio",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have had many great experiences working with JD Tree Service. They are responsive, knowledgeable, and take great care in the work that they do. We try to have them come once a year to check on our tree health and do trimming. They recent..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

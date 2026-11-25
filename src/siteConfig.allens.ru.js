@@ -31,21 +31,9 @@ export const siteConfigAllensRu = {
     "ctaPrimary": "Позвонить ((919) 761-3159)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/allens/photo_001_crop.jpg",
-        "label": "Дробление пня фрезой Rayco",
-        "alt": "Оператор в фирменной футболке Allens Tree Service управляет пнедробилкой Rayco"
-      },
-      "sub1": {
-        "image": "/images/allens/photo_002_crop.jpg",
-        "label": "Самосвальный прицеп и воздуходувка",
-        "alt": "Фирменный самосвальный прицеп и продувка дорожки мощной воздуходувкой"
-      },
-      "sub2": {
-        "image": "/images/allens/photo_003_crop.jpg",
-        "label": "Чистая подъездная дорожка",
-        "alt": "Выметенный бетонный проезд со сложенной в стороне древесной щепой"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAllensRu = {
     {
       "name": "Подъем кроны вдоль подъездной аллеи",
       "badge": "Прочистка кроны",
-      "image": "/images/allens/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",

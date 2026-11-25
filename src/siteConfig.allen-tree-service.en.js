@@ -32,21 +32,9 @@ export const siteConfigAllenTreeServiceEn = {
     "ctaPrimary": "Call Scott +1 919-417-6881",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/allen-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Allen Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/allen-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/allen-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAllenTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/allen-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAllenTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/allen-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAllenTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/allen-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigAllenTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carolina Car Service",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had Allen Tree Service come out a month ago. They were extremely professional, efficient and conscientious. They did what we thought would take an entire day, in 5 hours. We will definitely be using them again!"
-    },
-    {
-      "author": "Ken Miller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Removed a number of very large trees from both front and back yard that were rotted/hollow on the inside.  Stump grinding too.\n\nNeeded crane to remove the 4 big ones in back and craned over the house in sections\n\nVery professional.\n\nPrice was fair given the number of large trees\n\nGreat crew and good cleanup at the end"
-    },
-    {
-      "author": "CAROLE MCDOWELL",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "To the crew that worked on Pickett Lane and Greenmont today, (you took down a huge tree right outside my windows and one in front of my house as well as trimming some trees) I watched you most all day and enjoyed every minute!!! You all are quite an impressive crew!!! I know your boss must be very proud of you. You all seemed to have a job and were in sync with each other in getting it done and I am sure you all must be very tired after a day like today! I am 80 years old and have seen a lot in my lifetime so I couldn’t let today end without giving you a shoutout!! I would highly recommend you to anyone that needs a young hardworking crew to do tree removal for them (and I don’t know a single one of you so I am speaking from my heart and eyes)!!"
-    },
-    {
-      "author": "Mark Kean",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Scott and his crew did a fantastic job with removing 5 trees, pruning others, grinding stumps, including safely removing a large tree that had fallen into a fork of another tree, 40 feet up, near our house/driveway (complicated).  Price was very competitive as well.   We set an appointment up a month before and in spite of many rainout days before they were on schedule and on time!  Highly recommended!"
-    },
-    {
-      "author": "Bozenna Macijewska",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had such a fantastic experience with Allen Tree Experts! Working with Omar and his team was an absolute delight from start to finish. Omar is a pleasure to work with and incredibly knowledgeable about tree care and removal. His expertise and professionalism shone through from the initial consultation to the final cleanup!\n\nWhen his team came out, they did an outstanding job. Their work truly transformed our yard, making it look more open and spacious. The team's respect for our property and our neighbors' was much appreciated. They were efficient, thorough, and considerate as they worked, paying attention to every detail and ensuring everything was done to the highest standards.\n\nWhat's even more remarkable is that a few of our neighbors noticed the amazing transformation while the team was still there and immediately requested their services! They're just that good!\n\nWe are always recommending Allen Tree Experts to our friends because we know they'll receive the same top-notch service and results. If you're looking for a tree removal company that combines expertise, professionalism, and outstanding results, look no further! They consistently exceed our expectations in every way, and we couldn't be happier!!"
-    }
-  ],
+        {
+            "author": "Carolina Car Service",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had Allen Tree Service come out a month ago. They were extremely professional, efficient and conscientious. They did what we thought would take an entire day, in 5 hours. We will definitely be using them again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIOLAcLGdzkCWL8cilp699rb58nfLsDnuuhwxqdJiiUDtZYFLHckym1WvEDi-Up0Jwlb3KGGQXCVUs0sJ-XYtPgyYF2jNM4p5oHSDYZCvwPR6cNRs9-_5lfLe6sQN3mEA6XeDq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJgqs8Yas7m6GewffdbklGSeYwyXxYChc8I-W0DfLUBd0G6DoVquX2CejHq3RirIvkoVa1u0XlV8cZgBLL4vZd5wPXZlMbOX55UxeDjbAMQeyeL2JqmFAlaAuTfxm3MvwHZrw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcumPMdUmBbn3XnrQ1HrLvqM6I2JaiTv53jl3063EOxtyPWHAQit728OBOVU-ELVGYwxRfchcULqerqfNWsUvi-rQJdFKUOsLk6mYmzBy5gMNDl7sE6F177ETFynyQVg53r7aP8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5cCGM3HrmlIN5Ra4jIax4vdBoWmfDzYx6RCFLYJHHpJT3gGyvKxHualy-E1TjQSKYJYlBu3Vwe7pzq5LsU8z6u9tn4zd037ZqdTTLNJKc5BtKqwJ0o-KUHcc1IVmHHY4xEUM=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ken Miller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Removed a number of very large trees from both front and back yard that were rotted/hollow on the inside.  Stump grinding too.\n\nNeeded crane to remove the 4 big ones in back and craned over the house in sections\n\nVery professional.\n\nPrice was fair given the number of large trees\n\nGreat crew and good cleanup at the end",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8HgsxZDK2AgIBgytJKQca5ZVy-Kt4082QbRGKyW2jEdJLTTubEgtFUTwJE2hD9kzCEfecDuYfuNcYDAveOD9HWoiPDMP5R6fWzQKUNup0sscJSR5vWXfdQ0MKybmerES793DE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcw5SuYqulo4rm8Dofj-HJekLQe6zogVVTXM-XtYtvS-IULRnbvg2ONJoIqXQsX8-ZjzwziAMzSsvkk4wP8nHIepJh3i7FdjCz7C4VF-8kifKRw2W0VIVmYE--WdGkFhabBqizY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd0BJuS-kegucUGHGoUKUUlGVjME3u-b_-r5QDINXj6UnfMGjfAXsu7brt-pJpjZLTaWfFwlvSB_NDKj7DK-nXb-l25uyTnY8VQurGIP_Y8Ilq3ZaxThfXKC11LVwjUkuaNNCRt=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "CAROLE MCDOWELL",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "To the crew that worked on Pickett Lane and Greenmont today, (you took down a huge tree right outside my windows and one in front of my house as well as trimming some trees) I watched you most all day and enjoyed every minute!!! You all are quite an impressive crew!!! I know your boss must be very proud of you. You all seemed to have a job and were in sync with each other in getting it done and I am sure you all must be very tired after a day like today! I am 80 years old and have seen a lot in my lifetime so I couldn’t let today end without giving you a shoutout!! I would highly recommend you to anyone that needs a young hardworking crew to do tree removal for them (and I don’t know a single one of you so I am speaking from my heart and eyes)!!"
+        },
+        {
+            "author": "Mark Kean",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Scott and his crew did a fantastic job with removing 5 trees, pruning others, grinding stumps, including safely removing a large tree that had fallen into a fork of another tree, 40 feet up, near our house/driveway (complicated).  Price was very competitive as well.   We set an appointment up a month before and in spite of many rainout days before they were on schedule and on time!  Highly recommended!"
+        },
+        {
+            "author": "Bozenna Macijewska",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had such a fantastic experience with Allen Tree Experts! Working with Omar and his team was an absolute delight from start to finish. Omar is a pleasure to work with and incredibly knowledgeable about tree care and removal. His expertise and professionalism shone through from the initial consultation to the final cleanup!\n\nWhen his team came out, they did an outstanding job. Their work truly transformed our yard, making it look more open and spacious. The team's respect for our property and our neighbors' was much appreciated. They were efficient, thorough, and considerate as they worked, paying attention to every detail and ensuring everything was done to the highest standards.\n\nWhat's even more remarkable is that a few of our neighbors noticed the amazing transformation while the team was still there and immediately requested their services! They're just that good!\n\nWe are always recommending Allen Tree Experts to our friends because we know they'll receive the same top-notch service and results. If you're looking for a tree removal company that combines expertise, professionalism, and outstanding results, look no further! They consistently exceed our expectations in every way, and we couldn't be happier!!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cary (Central Depot)",

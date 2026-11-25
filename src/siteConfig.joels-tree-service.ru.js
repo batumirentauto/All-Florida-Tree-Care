@@ -31,21 +31,9 @@ export const siteConfigJoelsTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 336-497-8237)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/joels-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Joel's tree service"
-      },
-      "sub1": {
-        "image": "/images/joels-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/joels-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJoelsTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/joels-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJoelsTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/joels-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJoelsTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/joels-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigJoelsTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "William Steffen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Joel's tree service was outstanding. They were a great value and provided tremendous service. They were quick and thorough, checking with me frequently to see if the work being done was what was agreed upon. I will use their services again ..."
-    },
-    {
-      "author": "Dustin Frericks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Joel has cut down several trees on my property.   He and his guys are polite and very professional.   If you need a tree taken down, look no further.  I can not speak highly enough of their work.  So impressed.   The best tree company aroun..."
-    },
-    {
-      "author": "Phil M",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They did an awesome job and pricing better than the 3 other services that quoted us. Especially our back yard is at an angle with power lines as well they maneuvered and cleared the job less than 3 hrs and no damage to our deck. Will recomm..."
-    },
-    {
-      "author": "Annya Roland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Joel’s Tree service came out and took a dead tree down, they did a very well job! Left no mess behind very respectful and gave us a fair price. Everywhere else wanted double. Call Joel if you have any tree needs! Very hard worker!..."
-    },
-    {
-      "author": "Lee Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: EXCEPTIONAL SERVICE!!! 10/10… 5 stars and more!!! Joel and his team are the top tier, hardworking, get the job done type of people you want to handle your Tree removal needs! Joel didn’t waste anytime from the moment he quoted me, until the..."
-    }
-  ],
+        {
+            "author": "William Steffen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Joel's tree service was outstanding. They were a great value and provided tremendous service. They were quick and thorough, checking with me frequently to see if the work being done was what was agreed upon. I will use their services again ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgbwA4YtZFqSK1enMFORPO08t6PdbCTFhE05ES08H17ZvTtWYtO2zAYbxlvGqlwEDCWxmnR0t8Nxe4TKavx8LQt5SB9Emm18K9OqS9gXNgl774Eq5bVe9m_D-U0BtZRs-t-DIs5A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXf6Ok7xsvI4vLR1R_R8SFtV2ssWKlKsl8fEuhQLFsqLmuTQHDHJComcX_l_vFQjmRmiawNid9gI5ZLptRoprjBmYMO4URcsVwKEhpqjnP2biqPKNlOpM043ya1VchcoZopmPjiw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemm8yPU6Jte--OCgoyVBVwUCZPrYREPTqfTRSLRV7J3zpPXrQH2Zs5hrGgR0pXuR0YsEtKqu_J5ewkjm-_9PBuZmEO1vDUQMu0cHLlRIoComwW6BNvg1WewvEnlKyotlNJYxga=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd7ILXHyWzMiFDLrHYvV5yLMZll1SoUyPxmeLavL2Fs-9nUs_a6Vly5iHBribeEckiXrGYN0s8UXHUG3c0kedbFJ_bpoqZEB3Tskqbddv05zfLUVbKkjMawoWuWCQ0ww_KPB6KW=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dustin Frericks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Joel has cut down several trees on my property.   He and his guys are polite and very professional.   If you need a tree taken down, look no further.  I can not speak highly enough of their work.  So impressed.   The best tree company aroun..."
+        },
+        {
+            "author": "Phil M",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They did an awesome job and pricing better than the 3 other services that quoted us. Especially our back yard is at an angle with power lines as well they maneuvered and cleared the job less than 3 hrs and no damage to our deck. Will recomm...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCSDjNMfWf1dZ5lWVqC2N2NjSrJazxmMWcvxVaCqc7zXf7qSkFtf34VzmIJ8XTgJKlmHXV6FyRHsunHF666xhPJWTw1EQepUqfNpR_S4KPoLWn-RTSm4OpSh7hgob05DZOSwY=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Annya Roland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Joel’s Tree service came out and took a dead tree down, they did a very well job! Left no mess behind very respectful and gave us a fair price. Everywhere else wanted double. Call Joel if you have any tree needs! Very hard worker!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdC-LTE1wU_K8tDKlbiC4hqRuHvfD0FLgs795TBFCNMDgpEELphT531SO3jzY0T--P9yBHnj5FEywwzgShFrqYzCIF5y3c6XetetrWeMjDTWtTsVMIFvhWut7MVKmF9tzdN0QF8fQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCCec8rpebuW9XfIItpWGTAXrZ39DboaWfPBaSnSuispddB38rmYxyIQtIBUpafj__zLAHggN1o-mq_vgQp2lUuQDndTWFqIxIMtyCViS9_ZNvY7nDB4s0JRf7icHT-z2lsgk6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfpoND12b-6zRPEGork8wI4MB1mM81B8CxqRwYLQY2AzOK84khfUyNtlunXHnYw1fczc0UbpF1cJqcQ_B6UTjyQ03gFNiBaJRRbEGp9AqUhzAyKnmuahR1Ae1OiAFxpdwtR_0h0PA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lee Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: EXCEPTIONAL SERVICE!!! 10/10… 5 stars and more!!! Joel and his team are the top tier, hardworking, get the job done type of people you want to handle your Tree removal needs! Joel didn’t waste anytime from the moment he quoted me, until the..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

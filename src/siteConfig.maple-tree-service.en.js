@@ -32,21 +32,9 @@ export const siteConfigMapleTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 909-239-3979",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/maple-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Maple Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/maple-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/maple-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMapleTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/maple-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMapleTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/maple-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMapleTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/maple-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,65 @@ export const siteConfigMapleTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Andrew Somali",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Manuel and Maple Tree Service did a great job removing multiple mini tree stumps from our property. They were professional, efficient, and left everything clean when the job was done. Their pricing was also very competitive compared to other companies we contacted. Highly recommend Manuel and his team for anyone needing stump removal or tree services!"
-    },
-    {
-      "author": "Poli Guzman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Thank you Manuel for great service and for trimming our trees making our house look really really nice, definitely recommend your great honest service to others!!"
-    },
-    {
-      "author": "Robert Humphrey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Maple Tree Service, have been our trimming service company for years. Manny & his team are very professional and reasonable."
-    },
-    {
-      "author": "Francisco Cortez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Maple tree service is very professional and reliable. Meño is very responsible and he is always willing to go to the most to keep customer service"
-    },
-    {
-      "author": "Rosie Enriquez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very impressed with this service.  They removed /grinded down 4 tree stumps, and removed 1 large mulberry tree.  They left the areas worked very clean, and they were very professional.  I would definitely recommend them."
-    }
-  ],
+        {
+            "author": "Andrew Somali",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Manuel and Maple Tree Service did a great job removing multiple mini tree stumps from our property. They were professional, efficient, and left everything clean when the job was done. Their pricing was also very competitive compared to other companies we contacted. Highly recommend Manuel and his team for anyone needing stump removal or tree services!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhqtLoTlR9l9GFOqagEU4x1F89maxZwpXemRsCYb--yrqMFhDM6c_J37y1pYjCpOCCNs_8VvntsMM9tBVlSIfbOXioLsibpcJOoiM8YPgHph8ZDz_7T1AlEgWM4YWxAQA8nug1A2ZO1hYB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLey5IfGsNwAwHwvXiNK1eeWokLe64iw9Q8Qm-SksssecQO1ciwD5WLSSJVyyPChDhCaRrmgzOserxVQSOlsRgL-25MNRLurArdjj_tGH3fTm68Ne5MNxoWPav9Ch0SGkqKUHO61kY0wy1lg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1zgpE51bw6VVrQel_aa4gCHbFJczIGuWZV6llTxAjAsjLA9COjtMn_iXelLUufcRHxIxN30m1XVsAS2t_VKYARbbTYDRbTFrLo98V_VagbCrWwwBExedtWluJCmzz_JH1COQQxsM4o7n8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUWeIeMmfQX7WjlV363fm9kuMehPP5t7McajStFMpZS7tQL86cgrx_1kkiSObR55VEI51p4NgBl94GLkJ8hVnGh6Y7fCq0BSFl6Wnsb5Hmpk2nYJiSK59kOg_5QmpaTXWZexdI6BXLY-_o=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Poli Guzman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Thank you Manuel for great service and for trimming our trees making our house look really really nice, definitely recommend your great honest service to others!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRMg0L2mAHfk1j28zh4DogfQDS6g2H15wPrxTg33fYn6lLzeZ8Qs75EciSgkysxTS4zdWAK2ABts-Tr7lp_MB_6pxGu5cAyT0uxoL4BviWbIVkvlkv-KwrH9ZaZEutPqy7MC8G=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxlziLpucleYnJn8R_Ert3KK4aoSz_aynxgdUi2CUDGhP38BSXAq0L_ex7ta7L1GOL8NJam8Si4VeS7REjdIf250bIVPqLNOaxHYIYGsrKSufzJR5FRhx_2EeaTbT7rY2k=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfidvJwanpzJDVxyBeZIPJIZM0gjIZD4iPPgZzXQQQ5yQN-ZaeQujpIu_oxDvA4rkkA3Tpv5yFogKBWzpPBBbAhfysZvY5a62bpkNdClQmKk2exW8g-BTCYAJndX1yPKahxw-qD=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Robert Humphrey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Maple Tree Service, have been our trimming service company for years. Manny & his team are very professional and reasonable."
+        },
+        {
+            "author": "Francisco Cortez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Maple tree service is very professional and reliable. Meño is very responsible and he is always willing to go to the most to keep customer service",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesRrMCNqHKMmV84959tmvTYjXMxjjNlT25YDMEMGRzJAE22vhWZPwRGvWRFE3etucJ38dakJ_4tN5IwMeWiaxBGVsovJEBgA5GAWl8Voap5vXOC8FrsbuTlKAKptuTaTI-n59j_g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXbKXITPmCA-kMjYcnWFa1FHgjzLuI-FdyPOcJzpfrCR2pHYfKGjJ75RYpvUxUmWGYv1kyaX4XG2UnYWZTCie9VleBjFjTH_T_pLO5P8aIWCJ74IMB4kwE2iFH077LkoNlwEQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Rosie Enriquez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very impressed with this service.  They removed /grinded down 4 tree stumps, and removed 1 large mulberry tree.  They left the areas worked very clean, and they were very professional.  I would definitely recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9BBQ3KOU74Mta-RrzF4tA03ryMrger1Mn27An-Tlx5CEJS5joWI7EytYQYtUXQ4ZmPiePdivYNfvm3OkcQdP5fIuvjDX2Xea--o2diX0ABMBHmPwm43AMPuZFOFUKXLpS69iQnA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

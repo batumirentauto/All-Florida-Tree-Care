@@ -32,21 +32,9 @@ export const siteConfigRaleighwoodTreeServicesEn = {
     "ctaPrimary": "Call Lead +1 252-333-4540",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/raleighwood-tree-services/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Raleighwood Tree Services, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/raleighwood-tree-services/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/raleighwood-tree-services/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRaleighwoodTreeServicesEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/raleighwood-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRaleighwoodTreeServicesEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/raleighwood-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRaleighwoodTreeServicesEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/raleighwood-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigRaleighwoodTreeServicesEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Dennis Quisumbing",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently had the pleasure of working with Raleighwood Tree Services for tree cutting services, and I couldn't be more impressed!\n\nGarner was kind enough to come out twice to discuss a quote for the project. He provided me with a clear and fair estimate that was better than some of the exorbitant quotes I had received from other companies.\n\nFrom start to finish, Garner and his team were professional, efficient, and highly skilled. They arrived on time and assessed the situation thoroughly.  They even suggested some alternatives to branches I thought needed to be cut so as to not stress the trees.\n\nGarner worked carefully in ensuring that the job was done safely and without any damage to my property. Raleighwood Tree Services took the time to clean up after themselves, leaving my yard looking even better than before. They even had a woodchipper machine to use on the branches taken down.  7 hours later the project was complete! I was especially impressed with their attention to detail and their commitment to customer satisfaction.\n\nOverall, Raleighwood Tree Services exceeded my expectations in every way. I highly recommend them to anyone in need of tree/branch cutting or tree removal services. Garner and his team truly went above and beyond, and I’ll certainly be using them again for any future tree care needs!"
-    },
-    {
-      "author": "Ruth Michele Byrd",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Working with Raleighwood Tree Sevices was a great experience all the way around. Garner was willing to speak with me on the phone several times leading up to a large job at my mother's house that we had a lot of questions about. He was easy to communicate with and they did a great job at my mother's house and then a few weeks later at my house. I highly recommend them for large and small jobs! We will be using them again for any tree issues we have in the future!"
-    },
-    {
-      "author": "Anthony Franco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had an amazing experience with Raleigh Wood Tree Service! From start to finish, the team was professional, knowledgeable, and courteous. They arrived right on time, explained everything clearly, and made sure the job was done safely and efficiently.\n\nThey trimmed and shaped several large trees on my property, and the results were beautiful — my yard looks brighter and more open than ever. They also cleaned up every branch and leaf before leaving, which I really appreciated.\n\nIt’s rare to find a company that combines skill, care, and great customer service like this. I’ll definitely be using them again and recommending them to anyone who needs tree work done.\n\n⭐️⭐️⭐️⭐️⭐️ Highly recommended!"
-    },
-    {
-      "author": "Tim Boyer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is was my second time using Raleighwood Tree Services.  They did an excellent job.  Estimated the job and exceeded expectations.  Garner is also very knowledgeable and helpful with recommendations.  Communication was great.  Clean up perfect."
-    },
-    {
-      "author": "Brad Bobbitt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My neighbor was having trees trimmed and was very pleased with Garner. So I decided to ask him to remove two in my yard. They were nothing short of amazing to watch, very diligent and thorough. He took great care to make sure my adjacent fence was not damaged. He even gave some helpful advice on a huge oak I have. It is evident he takes great pride in his work. I highly recommend Raleighwood Tree Services and will definitely use them again."
-    }
-  ],
+        {
+            "author": "Dennis Quisumbing",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently had the pleasure of working with Raleighwood Tree Services for tree cutting services, and I couldn't be more impressed!\n\nGarner was kind enough to come out twice to discuss a quote for the project. He provided me with a clear and fair estimate that was better than some of the exorbitant quotes I had received from other companies.\n\nFrom start to finish, Garner and his team were professional, efficient, and highly skilled. They arrived on time and assessed the situation thoroughly.  They even suggested some alternatives to branches I thought needed to be cut so as to not stress the trees.\n\nGarner worked carefully in ensuring that the job was done safely and without any damage to my property. Raleighwood Tree Services took the time to clean up after themselves, leaving my yard looking even better than before. They even had a woodchipper machine to use on the branches taken down.  7 hours later the project was complete! I was especially impressed with their attention to detail and their commitment to customer satisfaction.\n\nOverall, Raleighwood Tree Services exceeded my expectations in every way. I highly recommend them to anyone in need of tree/branch cutting or tree removal services. Garner and his team truly went above and beyond, and I’ll certainly be using them again for any future tree care needs!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc39AJg562Fxbf0kd-g8wEWK9fuMT1qwCHeMe7w4E9W1rCOpK8MbVEHcCZnK0N081sm3oYtk10W1_TSiH2wqtxJdfA67DxuhKcvpIDywFQWvvUoUwXQSKXzVJjVGt6FYcX-yi5t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVP3yV9M8JdaYvnKqCvgOPZSolOeK8fuyZYAnGy5Ng8vQBADBtRe7MI2T6zD3qZ4vhHtXT4u_jD38oz8jvO4QCmq4UViNmvWtpTs048T043jKnj0vwwFdyA4CfqocgbXa4s0iHIw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuw89RHIccBmNdKyHhtx_NuCRdrktdHI5lzM1kKdD2F2QjYl6nIfGzzlXKJktzzPbs5vMFCke4CZZYCDra4UiwpWSiwul5gKibPeUVpBwrfIKNXZGNULNVdzQYfGK-9SX3c_I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLelBgY1g8Wq7fGk2nzq0D_l0Gry4EjtE7zWgv4EXmTpA7MBsC2cRnD8WewgFPmFmbdB65b1szYWgniOjVuuVRaUD4G4h0IIZXrxClRepG5sNBl5DDdfFVKLvTaQ_YKeFBX05nMUng=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ruth Michele Byrd",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Working with Raleighwood Tree Sevices was a great experience all the way around. Garner was willing to speak with me on the phone several times leading up to a large job at my mother's house that we had a lot of questions about. He was easy to communicate with and they did a great job at my mother's house and then a few weeks later at my house. I highly recommend them for large and small jobs! We will be using them again for any tree issues we have in the future!"
+        },
+        {
+            "author": "Anthony Franco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had an amazing experience with Raleigh Wood Tree Service! From start to finish, the team was professional, knowledgeable, and courteous. They arrived right on time, explained everything clearly, and made sure the job was done safely and efficiently.\n\nThey trimmed and shaped several large trees on my property, and the results were beautiful — my yard looks brighter and more open than ever. They also cleaned up every branch and leaf before leaving, which I really appreciated.\n\nIt’s rare to find a company that combines skill, care, and great customer service like this. I’ll definitely be using them again and recommending them to anyone who needs tree work done.\n\n⭐️⭐️⭐️⭐️⭐️ Highly recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRAFaD5JzVMoucOwkxZqPHjZsDUh13ncQW2bH1IT700WU3rms7IvR_-9Prtkrh7GabmxbPu6XXN64XJw-ZuUEtmXF0gSIxgrtJMANFXlPUovnGtriaVXtTJNU186HrNA2ilere-mFEqJUf=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tim Boyer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is was my second time using Raleighwood Tree Services.  They did an excellent job.  Estimated the job and exceeded expectations.  Garner is also very knowledgeable and helpful with recommendations.  Communication was great.  Clean up perfect."
+        },
+        {
+            "author": "Brad Bobbitt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My neighbor was having trees trimmed and was very pleased with Garner. So I decided to ask him to remove two in my yard. They were nothing short of amazing to watch, very diligent and thorough. He took great care to make sure my adjacent fence was not damaged. He even gave some helpful advice on a huge oak I have. It is evident he takes great pride in his work. I highly recommend Raleighwood Tree Services and will definitely use them again."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

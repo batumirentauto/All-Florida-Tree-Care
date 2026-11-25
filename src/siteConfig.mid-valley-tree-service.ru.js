@@ -31,21 +31,9 @@ export const siteConfigMidValleyTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 559-722-0095)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mid-valley-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Mid-Valley Tree Service"
-      },
-      "sub1": {
-        "image": "/images/mid-valley-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/mid-valley-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMidValleyTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/mid-valley-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMidValleyTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/mid-valley-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMidValleyTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/mid-valley-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,60 @@ export const siteConfigMidValleyTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brian Mimura",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mid Valley has helped me with several projects and they do a great job.  They show up when they say, do quality work just the way I request, and leave the place pristine.  i find their prices reasonable and their estimates are fair right ou..."
-    },
-    {
-      "author": "christopher cisneros",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Responded to me quickly.\nCame out same day for estimate.\nGave me what I believe is a great price for 2 trees.\nWas able to book me within a week (my schedule was the complication).\nShowed on time (even a little early to be honest).\nQuick and..."
-    },
-    {
-      "author": "Shannon Spencer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jose is awesome. I am shocked at the amount of companies who do not show up for appointments  or do not call you to say they cannot make the appointment. Jose ended up doing two jobs for me and was reasonably priced. He was on time and fast..."
-    },
-    {
-      "author": "Doreen Silos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jose, Felix and the rest of the amazing guys at Mid Valley Tree Service did an awesome job with cutting down our 80+ year old pine tree. From the honest estimate, prompt arrival, professional physical work to the final clean up; couldnt ask..."
-    },
-    {
-      "author": "Angela Salazar",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I strongly recommend this Tree Service Company. Great Service at a reasonable price! My tree turned out exactly as I’d envisioned!..."
-    }
-  ],
+        {
+            "author": "Brian Mimura",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mid Valley has helped me with several projects and they do a great job.  They show up when they say, do quality work just the way I request, and leave the place pristine.  i find their prices reasonable and their estimates are fair right ou..."
+        },
+        {
+            "author": "christopher cisneros",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Responded to me quickly.\nCame out same day for estimate.\nGave me what I believe is a great price for 2 trees.\nWas able to book me within a week (my schedule was the complication).\nShowed on time (even a little early to be honest).\nQuick and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgp-7vSWFdNcakH3oVPVm8I_UolaQWhkE3pgAdyUcJXJ1m1eC1lIHdHk37J9m_jZ4ZevxfUxyPY-fW5969lPACMKcLLvC1lop9sQcwotVh6zEZsi54DKZXs4vV4jQdpdvWTDR_=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdXvUoTeVcbpObQanwPiRt9GbWZyzWzGg25T3LrQGhQRvA0HZjc8U7SLTw1EvuKTNkl67wFqVljbZgjZ0Fg3mBurG1jAb57-kapipMjSND83D7tEvTYSOd_5SA3vgWt-bgoc75p=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shannon Spencer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jose is awesome. I am shocked at the amount of companies who do not show up for appointments  or do not call you to say they cannot make the appointment. Jose ended up doing two jobs for me and was reasonably priced. He was on time and fast...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLctpZ6QrFpszhlnrCb7hRRLEAucVVUKCd4RNiMN0aeNS_i-g5mZ7rneQvbOG8HhK6cfDIUqdFlXk041k2hbAYV00Y3kLohnGyX8Ki9E0WH3Q4SVqTvDno99xWbXO0j05C6i9QuH=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcK1mn7c9ogSxENSrnPO7xkN3qcgv-giUBkSPy4OAeE6H-q4-iHlrxZMCEAysQI5A6lXsmCValNRcLYtxzpcmSUhDY3PzAjfbvtsiRnZBJe1f09KbCcRUISJGqMQk-zXwgsX7qM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Doreen Silos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jose, Felix and the rest of the amazing guys at Mid Valley Tree Service did an awesome job with cutting down our 80+ year old pine tree. From the honest estimate, prompt arrival, professional physical work to the final clean up; couldnt ask..."
+        },
+        {
+            "author": "Angela Salazar",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I strongly recommend this Tree Service Company. Great Service at a reasonable price! My tree turned out exactly as I’d envisioned!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyVZqJTZebw3r-68NueYk1mE2gNf8ALZ-0AZqWgTjFiGconqflvbq4sgoxS5UX0EFEMwxyRmDOJ5QYcpYtqS-UrjO2wNbRG7e8tisto_zU0cc6o5cUwya3n8RKdBmF8RylLd0a=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczWsvHkCDpqiY8sIKcaTUVKzFozSq7JBZivXevcFhADGuY5zO32U_qPf-Gt0M1qfDwTVbFFdvaBvDOddcRBvwZk7CnxAlZ17Xri9erXaXpK3wtQ9CwmVSr5dO19bw9R_N-ua5_jA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcS9d_Z5RVlN2dys1BSpJyeFW8aK0N1D46RkS3Dnwj2w57JnKRDzJ7I5qsc7hwgvlffBvcy5EJtiovEyxW7hheyuFSsce4HjX7oV-CXBrXVMmb3KGm-bNWDbYm5F4GVovQnHF46=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

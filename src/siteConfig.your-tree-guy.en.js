@@ -32,21 +32,9 @@ export const siteConfigYourTreeGuyEn = {
     "ctaPrimary": "Call Felix +1 239-244-7271",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/your-tree-guy/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Your Tree Guy tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/your-tree-guy/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/your-tree-guy/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigYourTreeGuyEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/your-tree-guy/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigYourTreeGuyEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/your-tree-guy/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigYourTreeGuyEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/your-tree-guy/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigYourTreeGuyEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Aj Benninghoff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Felix and his crew did an amazing job! I had them thin out and take down some Areca Palms . They also ground down all the stumps and removed everything  from our property.   They gave me such a reasonable price!  I was very happy with the work!  Thank you! Took so much off our plates and made it affordable for us!"
-    },
-    {
-      "author": "Beth Wyman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Felix has been trimming trees for me for a few years. He always gets right back to me if he's not able to answer. Prompt for appointment times. He hauls debris after cutting and leaves the yard looking great!  Highly recommend for your yard needs."
-    },
-    {
-      "author": "Shirley Lawson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I found a card on my mailbox and called the number. They said send a picture. They came early the next work day and did the job in 10min. They did a great job for a great cost! I have before and after photos."
-    },
-    {
-      "author": "Bob Milam",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Good hard working guys that did a nice job on my royal palms and pineapple palm. Cleaned up really nice as well. No mess left behind."
-    },
-    {
-      "author": "John Larsoner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After having him come out for a estimate this guy was drunk! Fel in my back yard. Also found a needle in my driveway from them when they left!!! I am seriously still like wow!!! Also after further looking into they are trying to pass there company as  your tree guy and also get er done tree service !"
-    }
-  ],
+        {
+            "author": "Aj Benninghoff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Felix and his crew did an amazing job! I had them thin out and take down some Areca Palms . They also ground down all the stumps and removed everything  from our property.   They gave me such a reasonable price!  I was very happy with the work!  Thank you! Took so much off our plates and made it affordable for us!"
+        },
+        {
+            "author": "Beth Wyman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Felix has been trimming trees for me for a few years. He always gets right back to me if he's not able to answer. Prompt for appointment times. He hauls debris after cutting and leaves the yard looking great!  Highly recommend for your yard needs."
+        },
+        {
+            "author": "Shirley Lawson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I found a card on my mailbox and called the number. They said send a picture. They came early the next work day and did the job in 10min. They did a great job for a great cost! I have before and after photos.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfx3Zp0IGbT407Zxb8kP0nyOJt8XFXxHugBLVCpFgzFFoT6kPSYFhOqEYfjawTuqlZUaOBBDYt_b94OU_5rMgeTwnWdU9VWNTZujmH5bfebOVsBeVD2bvQjO7EP9iw5CFD1o_OI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLecsfKiOamwS93XIUqGG8Sx0J0MdEhZbmgtb25Mx6AvmRzaaY57bGSGUdM72YiPGfmcmZxlfsVI6DSJdy2gNsrnAh3J41qOJgI2jz3Qd7CBtCTQsGE3XiaSNwkMbXv8BlYwjbkM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdj4MiBlT-FnV5GUF5RF40Qyp6rF-a_q2Jn10Pggdm6ajK1SH2OsZKDvQ7OatbXJU6qScBbtZdmHcze_hr8KwEv2tfLwwNtpHDnE3_muCRU6fFg7qlwKAXY45Am-c0vThn5bySgew=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemEsdDfmBhq0tALmyv3EO0KlBS4yDCd93qV2YAjhWQ6rA1-81S5Faf1vY19vfdUzcsXl_EU-LGJDsX2bE-ad9kuBAVUo-9MLdgMe5izDA0vMUoYiSHHa2Jk04KuSkQlVtBa6I=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Bob Milam",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Good hard working guys that did a nice job on my royal palms and pineapple palm. Cleaned up really nice as well. No mess left behind.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_-Iq_oBHXsEsbkxcK4A-MA-lkTywijF2HXdvo_lyWE8VGGDMtAb3Spdo6JROAb6Xl2eM1HJT9erdsC2UTyIYeQOzZUmvmCxv2vbn4Y32Tcs993J4qMkiLDmtzr_LSXsBTTVttykdHRyc=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "John Larsoner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After having him come out for a estimate this guy was drunk! Fel in my back yard. Also found a needle in my driveway from them when they left!!! I am seriously still like wow!!! Also after further looking into they are trying to pass there company as  your tree guy and also get er done tree service !"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

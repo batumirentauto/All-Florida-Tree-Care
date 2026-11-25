@@ -31,21 +31,9 @@ export const siteConfigCcTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 361-443-4852)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cc-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады CC Tree Service"
-      },
-      "sub1": {
-        "image": "/images/cc-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/cc-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCcTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/cc-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCcTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/cc-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCcTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/cc-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigCcTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "TeeTimeInTX",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt did an awesome job on our Queen Palms. He cleaned all debris and left our yard and pool looking nice. Will definetly call him again!..."
-    },
-    {
-      "author": "john john Paco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wonderful experience! I called to have my lawn mowed, when Matt finished he saw I had some stumps in the yard and offered to grind those down. The next day he came out with his heavy duty equipment and grinned them down past the level of th..."
-    },
-    {
-      "author": "Christopher Ureste",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt and his crew are very professional and get the job done in a timely manner. He really knows his stuff and treats his customers with the respect and class they deserve. I would definitely​ recommend him too anyone looking for stump remo..."
-    },
-    {
-      "author": "Fred Ramirez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Called Matt to give an estimate for removing Mesquite trees. Articulated the job and steps very well with awesome pricing! Was done by the time he said and left the yard cleaner than when he got there. Overall impressed and will definitely ..."
-    },
-    {
-      "author": "Lincoln S",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt and his crew did a terrific job trimming up an out of control oleander.  They also hauled away a large brush pile from the backyard.  Work was done as promised at a fair price.  Clean up was exceptional and could hardly tell they'd eve..."
-    }
-  ],
+        {
+            "author": "TeeTimeInTX",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt did an awesome job on our Queen Palms. He cleaned all debris and left our yard and pool looking nice. Will definetly call him again!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczOXLQo7s8Jw1MVqaAKoReJWt8m2PEs5NR_AnHKjhe6bzpP87ADHIYGtx2T4G5A4f-7vhadeYLoDdS3KXx5i8Ub9jyf-Xt-DbqLfTEjk6PRucRRjS88tNj2vy7rIgQ0Mp8PJQG0Q=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "john john Paco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wonderful experience! I called to have my lawn mowed, when Matt finished he saw I had some stumps in the yard and offered to grind those down. The next day he came out with his heavy duty equipment and grinned them down past the level of th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3lnWpp_krukgR1fvoNZLFopii83ZRyOaca25Yv2VJYSmA5S8H94og8YkuQ0_bSaKwAcNby1LCv0L6lYYPLoM2L6UaqBcMALwHYhsWOGTsnOYbpixlf74RoJAzAGf0DN9alYUOTg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Christopher Ureste",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt and his crew are very professional and get the job done in a timely manner. He really knows his stuff and treats his customers with the respect and class they deserve. I would definitely​ recommend him too anyone looking for stump remo..."
+        },
+        {
+            "author": "Fred Ramirez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Called Matt to give an estimate for removing Mesquite trees. Articulated the job and steps very well with awesome pricing! Was done by the time he said and left the yard cleaner than when he got there. Overall impressed and will definitely ..."
+        },
+        {
+            "author": "Lincoln S",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt and his crew did a terrific job trimming up an out of control oleander.  They also hauled away a large brush pile from the backyard.  Work was done as promised at a fair price.  Clean up was exceptional and could hardly tell they'd eve..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Corpus Christi (Основная база)",

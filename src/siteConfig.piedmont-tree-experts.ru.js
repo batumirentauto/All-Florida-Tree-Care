@@ -31,21 +31,9 @@ export const siteConfigPiedmontTreeExpertsRu = {
     "ctaPrimary": "Позвонить (+1 704-563-5817)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/piedmont-tree-experts/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Piedmont Tree Experts"
-      },
-      "sub1": {
-        "image": "/images/piedmont-tree-experts/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/piedmont-tree-experts/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPiedmontTreeExpertsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/piedmont-tree-experts/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPiedmontTreeExpertsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/piedmont-tree-experts/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPiedmontTreeExpertsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/piedmont-tree-experts/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,70 @@ export const siteConfigPiedmontTreeExpertsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Aislin Reddin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can't sing Bob's praises enough.  My boys left the door open rushing to school this morning and our 3 month old kitten got out.  We found her about 25-30 feet up stuck in one of our trees.  I called several people, but Bob was the one who..."
-    },
-    {
-      "author": "Rosie Miranda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I honestly can’t thank Bob enough for rescuing my cat Theo who was stuck about 20ft up a tree in our yard for over 24 hours! Bob was absolutely brilliant with him and such a calming presence as both me and the cat were extremely nervous. He..."
-    },
-    {
-      "author": "Ted Crowley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bob and his crew did a great job.  He met me on site after I spoke with him on the phone a few days prior to the job and he did a walk through with me and we talked about the best solution for my home.  He definitely knows his stuff.  After..."
-    },
-    {
-      "author": "Alice Christenbury",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Piedmont Tree Experts is the only Tree Company I would ever consider hiring for any tree work or stump grinding. Bob came out, gave me a free quote right away after my call. His company did an excellent job with cutting down several big tre..."
-    },
-    {
-      "author": "kathy mansfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bob arrived this morning to  rescue a cat that has been in a tree  behind our home for 5 days. The cat was at least 4 stories up, so we got to watch him climb the tree. This shot was taken just before the cat decided that he did not want to..."
-    }
-  ],
+        {
+            "author": "Aislin Reddin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can't sing Bob's praises enough.  My boys left the door open rushing to school this morning and our 3 month old kitten got out.  We found her about 25-30 feet up stuck in one of our trees.  I called several people, but Bob was the one who...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeE5qNNZmtyD2W9RecmCxkwQ7MVK1rzXClmePqRXZ_gVhjWByQ1bidx-IlciUdKt2lsmHTC_dTjlmcBCcgryeXcl7lygYrgC_zpeO9V2K0o2MtQ6n3JN2flnSd7XcZSiC1BdxcbxoeSx3-X=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0ft16FNssIjUGWhPgQXPm6UyLu0_ZKdm9d8AIxilXjCKEbN0OC8KAMuX8uhsHrsKRMqp9v6RnG1YfXjOtjHkv8IlnZRwUTl9UyGmqMs3OEffqx3LdGso_97NKwLsuEMC0RfmMRUqDRmg=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Rosie Miranda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I honestly can’t thank Bob enough for rescuing my cat Theo who was stuck about 20ft up a tree in our yard for over 24 hours! Bob was absolutely brilliant with him and such a calming presence as both me and the cat were extremely nervous. He...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaeBFkOynPHyfqGog5z8OIys8iit5KSu_vd69k8PmRkZvT0KP9QvCNdga5E9lbyY3c_EzFXEx1yP6d_VccBKfSo1f0RS2p1NNqaO_32xo1OEuyEPMGEBo5wiebGijftqHwWxaRPmT6qPCR=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHspKK3XhNsmetiJFF4IQc6vtyQByXyY8QTV8WiiSo6mF7Qh7hrzBKrX5e9alFUTm875G8N4qpTEI2hwIUILnk0m2aidxp4FmxHXqkpC_iOAMYJE3_iEYJo98jEuxV14KE8rQ5MiVdJe29=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcW95YfU4MJU7e21q7mnwo2L_obiB6c7Qijk57YxxKbbKXdMaYHSk5XO6aXwahLNQYplK1gtm-TPFGnQqNla9wZfagmH_lVkF6IGBHkzRoMgnaB55y-6fPsfQkTKNuWspacoO26ZRBEUb4=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ted Crowley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bob and his crew did a great job.  He met me on site after I spoke with him on the phone a few days prior to the job and he did a walk through with me and we talked about the best solution for my home.  He definitely knows his stuff.  After...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcW1PiAXGgUfYJYJvM0AJ6zDD90eA_OwLxdH_ObCu1iD2JK3dVkQPVlS08ixaoYcc6HDojXOsXRmonePYR7ub3YyZYZsj4bGYKiU-y6ksUcL9HcvxpR7o5tOUgxq87Bu7XE3aBm=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxeESUEVIFFZzQCtMuDOycpaiy72cZ_pltVwxRZQub6PSQWQhsHoD4eBUCftvwPwTj0UrspitfX6sauV0uY34b-Wf2UOX84Cu9_1WbQpGr_rAEA7SgTASOXo0BpVaIwt57opsZsA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNlJDTDqNK-l5Wuq4JN8iqWH0k86uEgvzyE3GgSmsrPaJXYqr5UIl65yoSmVKp7VckGrwaMOXu-WNqWwjKQufbZNB2TMkoYi7NRkIENekPE7-tlJVemSrbdjsXtMHdBUoLMSwb=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alice Christenbury",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Piedmont Tree Experts is the only Tree Company I would ever consider hiring for any tree work or stump grinding. Bob came out, gave me a free quote right away after my call. His company did an excellent job with cutting down several big tre...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf124VuR7ZZS7p1rasepB5fe_4mWNlycfwdfamoXjW9Mf_KFxHuvL2mIQeNaCIz9t6VoUdm1wIsMyNIgMZBShJYSMcl7h8FPSrw52iyThO0uf4NSTqCkldwpCKxnpARZyG8mLBZMg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXFI4Hsv0IMhQ0MrO6tBoS2sALvvbAewib2uUleP0LQ9johxOg44zwf2CjMgazBNfTkBrX_2yum7Z6Nq3c_vdLRxBonZANpadBdgzD03AQ7wQGSc8ZWWfU5Hp0728YgYX2BXLl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOvfbomIN2PPT1PGgu93SY5WTDPaYQwpy-qW8TvWhT3GOrYR8iU9Desg9TFBAWv2l5Pl3f9gofyWEK6jZ3yCx7n_jxVuoM4ErQ9yh7sWhaxFxIz40Na0023lECjIKIQPH4G_4mKQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "kathy mansfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bob arrived this morning to  rescue a cat that has been in a tree  behind our home for 5 days. The cat was at least 4 stories up, so we got to watch him climb the tree. This shot was taken just before the cat decided that he did not want to...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhk0NmhfuqR3QhxyTmMGrNl7heNAdS5kvPHZWeOnN9LpSSqiaynjC6y5xGyqo7czui87gu8-lh8JsDM-lfoIjWP5yLF6tb_JF81burBQ2RCMsleD2ZKcqcyav46KvDIo7oU-6w=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTlFKsp3DqLcy6jK3_ncZ1hseCxcVUcBnY8PkmLox0NvZKH_K2TNXHBB4eyyr7yU8O_AcvFnN4PVs6E0CVKghIUwjqhoufbx-ryHiEz8cayyTcN2bow_9HekC5d1deKLGn1XgoAA=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Mint Hill (Основная база)",

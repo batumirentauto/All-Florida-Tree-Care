@@ -32,21 +32,9 @@ export const siteConfigPanhandleEn = {
     "ctaPrimary": "Call Mike (850) 851-5297",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/panhandle/photo_005_crop.jpg",
-        "label": "Arborist Climber with Neon Rigging",
-        "alt": "Arborist climber in helmet and safety harness with neon climbing ropes in canopy"
-      },
-      "sub1": {
-        "image": "/images/panhandle/photo_001_crop.jpg",
-        "label": "Leaning Tree by Residential Structure",
-        "alt": "Large leaning hardwood tree growing tight beside residential turquoise home"
-      },
-      "sub2": {
-        "image": "/images/panhandle/photo_003_crop.jpg",
-        "label": "Cleared Alleyway & Structure Access",
-        "alt": "Narrow passage between homes cleared of overgrown branches and debris"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPanhandleEn = {
     {
       "name": "Overhang Canopy Pruning Above Sunroom",
       "badge": "Sunroom Canopy Clearance",
-      "image": "/images/panhandle/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPanhandleEn = {
     {
       "name": "Debris Hauling Access & Truck Staging",
       "badge": "Narrow Access Staging",
-      "image": "/images/panhandle/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

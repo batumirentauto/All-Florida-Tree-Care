@@ -32,21 +32,9 @@ export const siteConfigSwampRabbitTreeCoEn = {
     "ctaPrimary": "Call Lead +1 864-735-7436",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/swamp-rabbit-tree-co/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Swamp Rabbit Tree Co tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/swamp-rabbit-tree-co/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/swamp-rabbit-tree-co/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSwampRabbitTreeCoEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/swamp-rabbit-tree-co/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSwampRabbitTreeCoEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/swamp-rabbit-tree-co/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSwampRabbitTreeCoEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/swamp-rabbit-tree-co/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigSwampRabbitTreeCoEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Adam Moats",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Swamp Rabbit Tree Company is hands down one of the best tree service companies in Greenville. John (the owner) and his crew are true professionals and were fantastic to work with from start to finish. Communication was excellent throughout the entire process, and they showed up exactly when they said they would.\nThey removed three large trees for me this past year, all located very close to my house. Their crew expertly climbed, rigged, and safely dropped the trees with incredible precision. If you need tree removal in Greenville, these are the guys to call. Not a single branch touched the house or damaged the yard.\nWhat impressed me just as much was the cleanup. When they finished the job, they meticulously removed all the limbs, logs, and debris. The yard looked great when they were done.\nTheir pricing was also very reasonable for the level of skill and professionalism they bring to the job.\nIf you’re looking for a reliable tree service in Greenville, I highly recommend Swamp Rabbit Tree Company. John and his team do outstanding work."
-    },
-    {
-      "author": "Justin Tesh",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John and his team are hands-down the best in the business. Professional, punctual, and incredibly skilled—in April they removed a huge tree safely and left my yard spotless. Reasonable prices, friendly crew, and top-notch results. Couldn't be happier! Highly recommend!"
-    },
-    {
-      "author": "San Siva",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Last year during Hurricane Helene, several large oak trees from our neighbor’s property fell directly onto our home and pool systems, causing significant damage. With arborists in high demand statewide due to the widespread storm destruction, we were incredibly grateful to find John and his team at Swamp Rabbit Tree Company.\n\nFrom the very first call, they were professional, responsive, and courteous. They arrived promptly to assess the situation, provided a very reasonable quote, and clearly explained their plan of action. Their crew worked safely and efficiently, showing great care around our home and pool equipment. The cleanup afterward was thorough, and the quality of their work was excellent.\n\nIn a stressful time, John and his team delivered exactly what we needed—expert workmanship, honesty, and reliability. We now have a dead oak tree on our property, and there’s not a company I’d rather call for the job! I highly recommend Swamp Rabbit Tree Company and John for any tree removal or related services—they truly stand out for their professionalism and integrity!"
-    },
-    {
-      "author": "Alex B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John and his team started off as great communicators and came through with expertise. They were quick and efficient with my tree pruning and provided excellent knowledge. Reasonable pricing and above all were very safe with the pruning. Would highly recommend"
-    },
-    {
-      "author": "Chris Currin (Wrapped_GTR)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had several trees trimmed up as they were overgrown. And 1 very large tree removed that was between two garages. John brought in a crane and him and his crew did a fantastic job, professional, quick, and left the yard better than when they got there. For any tree removal or trimming Swamp Rabbit Tree Co. is the company!"
-    }
-  ],
+        {
+            "author": "Adam Moats",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Swamp Rabbit Tree Company is hands down one of the best tree service companies in Greenville. John (the owner) and his crew are true professionals and were fantastic to work with from start to finish. Communication was excellent throughout the entire process, and they showed up exactly when they said they would.\nThey removed three large trees for me this past year, all located very close to my house. Their crew expertly climbed, rigged, and safely dropped the trees with incredible precision. If you need tree removal in Greenville, these are the guys to call. Not a single branch touched the house or damaged the yard.\nWhat impressed me just as much was the cleanup. When they finished the job, they meticulously removed all the limbs, logs, and debris. The yard looked great when they were done.\nTheir pricing was also very reasonable for the level of skill and professionalism they bring to the job.\nIf you’re looking for a reliable tree service in Greenville, I highly recommend Swamp Rabbit Tree Company. John and his team do outstanding work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLddQ7aDxwk9R8ftRnT4xTc1SEA8lBhxyh9YExYDtwe5f6lg2ZaJkJrVdpFtgtKKhucEJoJqaBRAAREbDZqriluoZJpwA10p8eUbomX_G1e9KdAdTMW1pFJcNZaT5beg0eKdgE-RRLRMHVfV=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdw5DW6Tn5Bi0B-CvCxvxI5KUWqo4Z1aCWp6yMGJ-aH2oDgtFCZilBRvFalgQP9lnIFW6HFEO0SNGet5ocQ05RWewXMemNHNwXm4gr3HMdbpaERPQQF_WEwKit62h5QFJg_uUfuH2j0VVw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Justin Tesh",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John and his team are hands-down the best in the business. Professional, punctual, and incredibly skilled—in April they removed a huge tree safely and left my yard spotless. Reasonable prices, friendly crew, and top-notch results. Couldn't be happier! Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe94_MbFcPRhgRXCtQLc_icVjaWTCHqnIprHey9kye0SuEHx6FKY1C9BXjyk9IKxoD8cfRtDxMQDGIEFa__rypK3ikD1f93lLTa4-eCjwROvastMZhCeG8myoUPFYrmRiQ-eps7vbpc51Gc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIWFzBfymGK9bui33fX4qCbW6bru8xxF1eOCv52xet306QfCjH0URKIKFs752sP9pWnoD_2uf3ZDFVPz528Ka0mJHL-2ScwXvMTI9HEuszZX8suQE4xABkszyG0swTz1lCsOOab0KKHoHG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdS0pmOZToT3s27hNwgywIuTrPT1uYLUpFCDYPM-BzjDQCxXUe_RIfp12DKTQT6Td_rF1BUnLYoRHcQ9_ucNTT2RhlKTx-qfCmuJaYX1pc-N9NS6emXUZt-M2TtUKzbk13JwYQvroDVEnjs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfMuxV1MjjakBNC1hYCj-CdD3LTnMg83aQqFnx-eRFEri6riV64O5mnMSpkltZMrCUoGvooTz8cEgPpOWE2vXi5LsK8i59vghlYeFySiGckKSx2JePW1v0ewVcbt2_runN-xEuelU8CYJU7=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "San Siva",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Last year during Hurricane Helene, several large oak trees from our neighbor’s property fell directly onto our home and pool systems, causing significant damage. With arborists in high demand statewide due to the widespread storm destruction, we were incredibly grateful to find John and his team at Swamp Rabbit Tree Company.\n\nFrom the very first call, they were professional, responsive, and courteous. They arrived promptly to assess the situation, provided a very reasonable quote, and clearly explained their plan of action. Their crew worked safely and efficiently, showing great care around our home and pool equipment. The cleanup afterward was thorough, and the quality of their work was excellent.\n\nIn a stressful time, John and his team delivered exactly what we needed—expert workmanship, honesty, and reliability. We now have a dead oak tree on our property, and there’s not a company I’d rather call for the job! I highly recommend Swamp Rabbit Tree Company and John for any tree removal or related services—they truly stand out for their professionalism and integrity!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZkQDgehi2ggItVDZ_NiV5WxjL-XQ01Loz4sY8LWqSkSjYfgnhi7nM9BQj55pctshgLabVhg9eHPFVxVg1o2KMhZNEav5gYwWuN0jyAQ-FDWboYifuoYfCDWFYSveGKO9pgRAfV6REMDg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFQN3GOdcLFtZANmiZlIgIHwymT_q-zMxZjOcxDHBz-TQ4XZ2yUygXnbzELNujdR6S2l-_vynEPZX459KaBdegnOSfL_Jg0YjHrHvelSC7O63JULbfbOpdNhcn0IC8NTUPelCe50U_qeg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3cKCFbWsFbFE_SJcZ72milcvD4CdlenCVragiA_KIikrkTPQXX4lq-p2CrKPrJ_F6NWXegE5nnXp2LfvJrlOw9OV5vNrYb-zb_B_WmhA5NwFp227Ku6NBURngPGaBApccn26GILjmkHh1=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevGJnVe5a-GNNDLZKunMkWssAVtCkVvkgyQuhHEP4WIcc7owTNqCSwJ5W0lqcmH7GowKSEcrbP1ESXPjeX_eXm9ydMU4Ggj6pFPz0hC1iNJFrknOFTNQjBtt_OXZISDhQp9ERMAC48UNqH=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John and his team started off as great communicators and came through with expertise. They were quick and efficient with my tree pruning and provided excellent knowledge. Reasonable pricing and above all were very safe with the pruning. Would highly recommend"
+        },
+        {
+            "author": "Chris Currin (Wrapped_GTR)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had several trees trimmed up as they were overgrown. And 1 very large tree removed that was between two garages. John brought in a crane and him and his crew did a fantastic job, professional, quick, and left the yard better than when they got there. For any tree removal or trimming Swamp Rabbit Tree Co. is the company!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greenville (Central Depot)",

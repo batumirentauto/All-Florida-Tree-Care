@@ -32,21 +32,9 @@ export const siteConfigBestForLessEn = {
     "ctaPrimary": "Call James (360) 771-1450",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/best-for-less/photo_002_crop.jpg",
-        "label": "High Spar Climber Topping at 80+ Ft",
-        "alt": "Arborist high climber topping dual conifer spars high above tree line"
-      },
-      "sub1": {
-        "image": "/images/best-for-less/photo_003_crop.jpg",
-        "label": "4-Foot Hardwood Trunk Bucking",
-        "alt": "Loggers bucking 4-foot diameter hardwood log into firewood rounds with big saws"
-      },
-      "sub2": {
-        "image": "/images/best-for-less/photo_001_crop.jpg",
-        "label": "100-Ft Fir Takedown Assessment",
-        "alt": "Ground logger surveying massive 100-ft evergreen tree adjacent to residential home"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigBestForLessEn = {
     {
       "name": "Backyard Tree Reduction & Pruning",
       "badge": "Tight-Access Crown Work",
-      "image": "/images/best-for-less/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",

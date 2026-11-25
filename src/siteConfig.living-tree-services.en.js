@@ -32,21 +32,9 @@ export const siteConfigLivingTreeServicesEn = {
     "ctaPrimary": "Call Lead +1 469-629-9293",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/living-tree-services/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Living Tree Services tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/living-tree-services/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/living-tree-services/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLivingTreeServicesEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/living-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLivingTreeServicesEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/living-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLivingTreeServicesEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/living-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigLivingTreeServicesEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Laura Ramsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jonathan did an amazing job entirely removing a tall tree that had several large branches above our house. He carefully and efficiently removed the tree piece by piece. Jonathan is a friendly and knowledgeable expert. I highly recommend him to everyone!"
-    },
-    {
-      "author": "David Appleton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We've had Jonathan out twice this year (2017) for different projects in our heavily-wooded lot. He is friendly, knowledgeable, and always shows up at the time he said he'd arrive or even a few minutes before. He always takes the time to fully answer any questions or concerns we have, and even points out things to us that we hadn't recognized but which he thought we should know. I highly recommend his work."
-    },
-    {
-      "author": "Melissa Trivino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had Living Tree Services trim my large Live Oak tree in my backyard. I was very pleased with the job Jonathan and his team performed. Jonathan took it upon himself and contacted my neighbors to gain access to their property  to get the branches that were on their side. Jonathan was very knowledgeable and professional. I would definitely recommend him to anyone. Thank you!"
-    },
-    {
-      "author": "Chris Li",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "You just can't ask for a better and more professional tree services company than Jonathan's.  Not only he did a great job cutting trees, he also looked up the policy of tree trimmings pick up schedule in my city and timed our appointment to meet that schedule to minimize the time the tree trimmings being left on my curb.  He is so considerate.\n\nThe most important thing is that he is very honest and trust worthy.  You can be certain that he will give you the advice that only has your interest in mind and charge you more than fair market rate.\n\nFor tree services, I will never consider anybody else except Jonathan."
-    },
-    {
-      "author": "Sarah Garza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend to everyone, Living Tree Services.  Not only is Jonathan (owner) a true arborist, he truly cares about the customer's wants and needs.  He is always very professional, prompt and fair.  He will always work with you and will go above and beyond to help you in any way that he can.  I have hired Jonathan over and over for the last 4-5 years and will continue to do so."
-    }
-  ],
+        {
+            "author": "Laura Ramsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jonathan did an amazing job entirely removing a tall tree that had several large branches above our house. He carefully and efficiently removed the tree piece by piece. Jonathan is a friendly and knowledgeable expert. I highly recommend him to everyone!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKe2k2N7_lyWK9GZ_zXYe0_O9f5OFM_9Yl9hdoG7t6AIVw7_Nawp7zwcbN3kBcYv-eja-BLxd7TcopgHIMpCUSIv7veAngNjxX511RCg8eElpbBDGOSA0sN_zwzBtABV8-aDFb=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfg13s0QrXdyy2s_6QY8utp7snu1zzHcnX_RjBKXaycbTksfRhxmFGMC4IohTk-TribesIwnAlaBQBQrlRWdn-ULcCwtta9xwQvz3a3dJ5wO5tMcfNWTyv-As0-oA86Sn89zkg9_g=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "David Appleton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We've had Jonathan out twice this year (2017) for different projects in our heavily-wooded lot. He is friendly, knowledgeable, and always shows up at the time he said he'd arrive or even a few minutes before. He always takes the time to fully answer any questions or concerns we have, and even points out things to us that we hadn't recognized but which he thought we should know. I highly recommend his work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGd2hwL_fQOwf4nF5Aw0H9d-N7GK5dRNC0lUZbNw6BJeN6qEYyrgPLovWAtTut-4qechA-WjzoZFvLQZS-bpn3bXa7z6wZyZAjuW2zYGD1ZcORd0Up03uijXHWdUCAPrLfmUr7_A=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Trivino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had Living Tree Services trim my large Live Oak tree in my backyard. I was very pleased with the job Jonathan and his team performed. Jonathan took it upon himself and contacted my neighbors to gain access to their property  to get the branches that were on their side. Jonathan was very knowledgeable and professional. I would definitely recommend him to anyone. Thank you!"
+        },
+        {
+            "author": "Chris Li",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "You just can't ask for a better and more professional tree services company than Jonathan's.  Not only he did a great job cutting trees, he also looked up the policy of tree trimmings pick up schedule in my city and timed our appointment to meet that schedule to minimize the time the tree trimmings being left on my curb.  He is so considerate.\n\nThe most important thing is that he is very honest and trust worthy.  You can be certain that he will give you the advice that only has your interest in mind and charge you more than fair market rate.\n\nFor tree services, I will never consider anybody else except Jonathan."
+        },
+        {
+            "author": "Sarah Garza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend to everyone, Living Tree Services.  Not only is Jonathan (owner) a true arborist, he truly cares about the customer's wants and needs.  He is always very professional, prompt and fair.  He will always work with you and will go above and beyond to help you in any way that he can.  I have hired Jonathan over and over for the last 4-5 years and will continue to do so."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

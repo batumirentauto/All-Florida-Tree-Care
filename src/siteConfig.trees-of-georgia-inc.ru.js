@@ -31,21 +31,9 @@ export const siteConfigTreesOfGeorgiaIncRu = {
     "ctaPrimary": "Позвонить (+1 770-882-4955)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/trees-of-georgia-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Trees of Georgia, Inc."
-      },
-      "sub1": {
-        "image": "/images/trees-of-georgia-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/trees-of-georgia-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreesOfGeorgiaIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/trees-of-georgia-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreesOfGeorgiaIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/trees-of-georgia-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreesOfGeorgiaIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/trees-of-georgia-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigTreesOfGeorgiaIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "John Pfeiffer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently contacted trees of Georgia looking for a quote. We asked for a quote, if it included stump grinding (please let us know price if it is separate) and additional items such as debris removal and if they are insured etc. along with ..."
-    },
-    {
-      "author": "John Szczesniak",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great service and firewood. Quick delivery and fantastic product. Very well seasoned and great looking hardwoods. Roy and his wife are very responsive and a pleasure to deal with. I very much appreciate them working me into their schedule a..."
-    },
-    {
-      "author": "Brian Gruber",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Roy and his team are wonderful.  Very professional and organized.  I truly can't say enough. Not to mention his price for his work is the best out there. As far as im concerned there is no tree service better...."
-    },
-    {
-      "author": "Linda Price-Jackson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: 100% satisfied customer!  The 80 foot plus pine and 80 foot plus oak side by side leaning towards my home was taken down by these professionals in record time along with a rotted persimmon tree  and trimming of 2 other oaks.  This company i..."
-    },
-    {
-      "author": "John Manderfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Roy was very responsive to my request for a quote. Turns out he and his crews were in the area and stopped by within an hour for a quote. He helped identify the trees that were in jeopardy of falling down and even contacted our neighbor to ..."
-    }
-  ],
+        {
+            "author": "John Pfeiffer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently contacted trees of Georgia looking for a quote. We asked for a quote, if it included stump grinding (please let us know price if it is separate) and additional items such as debris removal and if they are insured etc. along with ..."
+        },
+        {
+            "author": "John Szczesniak",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great service and firewood. Quick delivery and fantastic product. Very well seasoned and great looking hardwoods. Roy and his wife are very responsive and a pleasure to deal with. I very much appreciate them working me into their schedule a...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxdqjBXBtkfEkFrXMyRqYKpTOvdYBpLvBGnkOzAeEuQ4Mmb1mITUM9G948htEo3nI7Izf8uIyWh42YoGkp3iKDKAMelFCqCGZfSSPGoaaOkzdLqqm4xrMdzQfX-AGaNzpYqeBKLibJO_px=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcY28Q7ZZWccRk-08l1LrfNpa3T4zKlIMoerNHqYCBO0WZ7t__p_5TjNR-Cdh8uPV75u98gJdpVXMb9g9o0YhiJ6eH-AfaEsEgwJ2kQet45samYvJg8J3WCdk5uciU8-O3v9QLLKVIi96i1=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brian Gruber",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Roy and his team are wonderful.  Very professional and organized.  I truly can't say enough. Not to mention his price for his work is the best out there. As far as im concerned there is no tree service better...."
+        },
+        {
+            "author": "Linda Price-Jackson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: 100% satisfied customer!  The 80 foot plus pine and 80 foot plus oak side by side leaning towards my home was taken down by these professionals in record time along with a rotted persimmon tree  and trimming of 2 other oaks.  This company i...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdfnETHRE5Rk1AEY8f-GtBhX8cSRK3KD6b0UIaflfv6EkZgBPlUZ82VkQR5c-miYtqb8BrU5rkpq16JE2R2V09oK340PYSt-607xjfU0u42HDcmUfFqMWZu-Q4AFMOimZ85T8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfccnSSjdLTvSqBWpkQdHDsvYwKIQgDDFrwgWpvcgbVDnUD9X09YgrmEQ4Jc0OgDWh7QkqimzPgMcer64JtSA3Kw0Me6JYLmXxwLZeo2ckDNE3wPeYJW9agE6Hzp9OWiJhjSL2J=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLerOjrDa4hq5lFXrvULFTO-Lyn4KT05EgTY0sploNnJCBpAThUuNACzGKPyPlGeFl6a5xEQDrPJ5MMzpZAL4ZJmRAKZxf2TX8iV8ifFn_KodafTxS2Xcgj4FU2Cc9kv-Q-S-lvK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfWDemvf9vzlqnC7_AXf6onISp1tNsTOO90YwMG8rjlw3PPmDiYaQ64TrSVkX3BxjUPU5KimJl2faG0eLRvX3PlYLrY7OG26BJcK7fRaCESY3GlWd24MLyxC5FD-FX6Qjdtuw8leQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Manderfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Roy was very responsive to my request for a quote. Turns out he and his crews were in the area and stopped by within an hour for a quote. He helped identify the trees that were in jeopardy of falling down and even contacted our neighbor to ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccgK3UcH3NVTujvtAWiaEgJodTfbjhjANjpXW5pZzJTcdjWC7E3l_sVtbXJKpSYwyPUD4hh56BakX9Heiyxkf6Ru-HI1K2eI94mdCqb_vYNIEHApooutD0lxy9RaS_Xcwws56i=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuf4qKq0DQ26LKpykJi4jGY7LAyOULkm6sEOIQqqT5caXh0Zoowqh0Ma3nIfrucCHy-q6c65dYyS6XJ33PPRyZ2BXggUKIGethAMzmnKwQgkb5LdY1SsPMbhe677ODk3avJtjR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjB4eeu1gWn87FlgoNZQRLLPIvS0HFsuA7JFyoxPFAxU_5FBlejeTTtosHs52qKUZLa1VMifo7scczT3yHl1AQpAS910Si50RzbghWIs_jdgGfQTr3RLAVoZsUZYzQ8X0tTOaV4A=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Roswell (Основная база)",

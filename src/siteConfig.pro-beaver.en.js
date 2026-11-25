@@ -32,21 +32,9 @@ export const siteConfigProBeaverEn = {
     "ctaPrimary": "Call Ivan (980) 833-4894",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pro-beaver/photo_002_crop.jpg",
-        "label": "Directional Hardwood Timber Felling",
-        "alt": "Massive felled tree trunk cleanly sectioned into large logs on yard grounds"
-      },
-      "sub1": {
-        "image": "/images/pro-beaver/photo_009_crop.jpg",
-        "label": "Arborist Climber Aloft on Multi-Spar",
-        "alt": "Arborist climber perched atop pollarded hardwood trunk following limb removal"
-      },
-      "sub2": {
-        "image": "/images/pro-beaver/photo_001_crop.jpg",
-        "label": "Porch Proximity Tree Assessment",
-        "alt": "Large mature deciduous shade tree standing beside residential porch"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigProBeaverEn = {
     {
       "name": "Sectional Pollarding & Vertical Spar Dismantling",
       "badge": "Vertical Spar Work",
-      "image": "/images/pro-beaver/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigProBeaverEn = {
     {
       "name": "Lot Clearance & Heavy Timber Log Extraction",
       "badge": "Timber Lot Clearing",
-      "image": "/images/pro-beaver/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigProBeaverEn = {
     {
       "name": "Structural Proximity Timber Staging & Clearing",
       "badge": "Structure Clearance",
-      "image": "/images/pro-beaver/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

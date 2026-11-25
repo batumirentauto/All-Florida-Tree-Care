@@ -32,21 +32,9 @@ export const siteConfigTreevantageEn = {
     "ctaPrimary": "Call Jacob +1 813-309-8441",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treevantage/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "TreeVantage tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/treevantage/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/treevantage/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreevantageEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/treevantage/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreevantageEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/treevantage/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreevantageEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/treevantage/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigTreevantageEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "N. C.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Could not recommend them more! Jacob was punctual, professional, and knowledgeable when he provided me an estimate for a tree removal and stump grinding. His quote was competitive and reasonable. He stayed in communication with me via text until the day of the service. He got the utility lines marked prior to the job (nothing near the tree). He arrived on time and did a spectacular job. Customer for life for all my tree needs! Thank you!"
-    },
-    {
-      "author": "Nicklaus",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing service. 10/10 would recommend. Great communication, fair pricing, and hard working team. Anything that came up the team had already thought about it and had a plan for it."
-    },
-    {
-      "author": "Leah Ijjas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a very positive experience with Treevantage. Jacob helped us look at options and was very communicative and informative throughout the process! He brought a certified arborist with him to the consult so we talk through what the right process was for our (very large!!) oak that was in desparate need of trimming. His price was fair for the quality of work he and his team delivered. Would definitely recommend!"
-    },
-    {
-      "author": "Kerri Pepe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am incredibly impressed by Jacob’s professionalism and  knowledge. They did a fantastic job cleaning up my large oak and camphor trees and supported my elm, which had been knocked over by the storms. They were efficient and left the yard looking clean and cared for. I highly recommend their service to anyone in need of expert tree care!"
-    },
-    {
-      "author": "Kayla Hlavaty",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a great experience with this tree service! Jacob was professional, friendly, and did an excellent job from start to finish. He arrived on time, worked efficiently, and left everything clean when they were done. I really appreciated how kind and easy he was to work with. I would definitely recommend to anyone looking for quality tree work!"
-    }
-  ],
+        {
+            "author": "N. C.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Could not recommend them more! Jacob was punctual, professional, and knowledgeable when he provided me an estimate for a tree removal and stump grinding. His quote was competitive and reasonable. He stayed in communication with me via text until the day of the service. He got the utility lines marked prior to the job (nothing near the tree). He arrived on time and did a spectacular job. Customer for life for all my tree needs! Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4hJ7_HbPoUiAfhn8JE7LCxx__oVyCEb82zR0GPMjKaaPEkMiGoTnkZFL4UdPd1XrYVdiFrv7FTSnvCOzTl3VkYWJR4JEwTPPflk3YcS_dTbnSv_ZyKeWRk5h9fsR6T23XqRkBoJL8Uq-A=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRIGiiaXOPNq2tJxzoE8y2NYsVWfexOk4GaYZWi6KKp60FsM4auKZn-oJAIoB09DnRe5cxO3Why9lv2p1fNrdVO73qbKnUALYH4niWXo-OxXXFwfiNXMwXfk2GNACfz7hfqxGtMppVCmE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhf00sQumdVnrEnmsD3NdIMOsAXBmnvKX_zF7-jxhAAFW_jd_fjGHtzS8SgvR8gwhv3GnTfvT5QBc_JpKPLMdl2zt-eZhDOuQjXOXcG5T2jO6mrNPWbB3jW2kMfasPShaa_MMq86ioNIOF=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicklaus",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing service. 10/10 would recommend. Great communication, fair pricing, and hard working team. Anything that came up the team had already thought about it and had a plan for it.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrlrbRUGGKW0qUytBv0iWiUANnVIcjMnlrJBOfdopXtYkFYa-37zwerkXFx6joZ25YA6rg0-0srhL32GxtpY7y3JMhqoQjMSQq-fhZ1LgCIw00vmKYD3YQFRTLmmFZ6qIJhCObsP54guXl=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdF04hXgYy-aKVauGfZ4nHPTrIH_Wr-5PIaOh6q1DGweCNOHVBhHZ-zV7a24wiu_bW848i7B8RXSmNiCYn0m9ZgtZ3CPmtJx-eVXA1vhfcwvOCJgB4p-LWZUtWlAujZeKpTrIRTLQRHFX9z=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Leah Ijjas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a very positive experience with Treevantage. Jacob helped us look at options and was very communicative and informative throughout the process! He brought a certified arborist with him to the consult so we talk through what the right process was for our (very large!!) oak that was in desparate need of trimming. His price was fair for the quality of work he and his team delivered. Would definitely recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcEK-MO9aujtMkpVHIHiaDoD-y38zltvAOQ5rN1TLUgn9swFv2B3wLCA5Ay-_lNgabILR0i8mAuTrzKlDbjiWSdORJW-Q_fIy_-jKanM2ITRZl4vdm2uywmafLiR7-ozyDCtPOhkz9WORM=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kerri Pepe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am incredibly impressed by Jacob’s professionalism and  knowledge. They did a fantastic job cleaning up my large oak and camphor trees and supported my elm, which had been knocked over by the storms. They were efficient and left the yard looking clean and cared for. I highly recommend their service to anyone in need of expert tree care!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmhVqZNaJ6tH1CRC4EXB822qa8mUj04Q7KPgxuti4wChDBUPiJeN2a6_YpVIbo1lJoVuMmNou-15XfXG7Yh3a53z02VtK1yvKBlH-uTb7K7z3MMbL--fsld4S4eNak4cTgKltmvhmJJdU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf3dnRKpLx-QCSIIzTOikX0NV6RyylbqVjbCaIhIgbHZHkRVpgF8XLDXmS6AXVZ-m8OE0W7anj4hoff9Pq_zFKBhI0P1wBei9ax73zLuLre0oIDG9XGNMvrf22bk38NzmzWBAAc-P8GK2Y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDpuG5e4FJuo_uPy_XBUexH3au5QYTAiGsDvF2uSPFZzH5KlUwZHIRzRExo-hRg_cvNzyo5a4NuXVxChmm5KUCRi6ujzkFcgg8e8oigsBBy4XCmHbmxcyoHwYNoRgwKiMK0d-Q0ZoZ4Ec=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kayla Hlavaty",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a great experience with this tree service! Jacob was professional, friendly, and did an excellent job from start to finish. He arrived on time, worked efficiently, and left everything clean when they were done. I really appreciated how kind and easy he was to work with. I would definitely recommend to anyone looking for quality tree work!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tampa (Central Depot)",

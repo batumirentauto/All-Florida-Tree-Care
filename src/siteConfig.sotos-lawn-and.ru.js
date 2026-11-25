@@ -31,21 +31,9 @@ export const siteConfigSotosLawnAndRu = {
     "ctaPrimary": "Позвонить (+1 210-607-1329)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/sotos-lawn-and/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Soto's Lawn and Tree Service"
-      },
-      "sub1": {
-        "image": "/images/sotos-lawn-and/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/sotos-lawn-and/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSotosLawnAndRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/sotos-lawn-and/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSotosLawnAndRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/sotos-lawn-and/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSotosLawnAndRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/sotos-lawn-and/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigSotosLawnAndRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Matt Orlowski",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Outstanding service from start to finish! They were professional, reliable, and paid attention to every detail. My lawn looks fantastic, the edging is crisp, everything was cleaned up before they left, and they treated my property with care..."
-    },
-    {
-      "author": "Guest245",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Unfortunately we had to say goodbye to our wonderful tree that has been with us since we moved in 20+years ago. The trunk was rotting around the edges due to some bugs and or old age and was only getting worse so we had to remove tree befor..."
-    },
-    {
-      "author": "Eric Molina",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: If I could give this lawncare company negative stars I would.  For about a month now I’ve been trying to get these folks to come out to do my spring service.  They’ve made every excuse in the books and then finally Jose the owner comes out ..."
-    },
-    {
-      "author": "Ruth Radloff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very knowledgeable about yard, bush, and tree  recommendations for first clean out . Professional in demeanor and interaction. Did fantastic clean out on first visit. I would definitely recommend. Clear expectations make favorable subsequen..."
-    },
-    {
-      "author": "Marisa Brewster",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have worked with Jose and his wonderful team since 2009. My parents also work with Juan and his team. We love their service and attention to detail. They always manage to fit me into their busy schedules and take care of all of my lawn ne..."
-    }
-  ],
+        {
+            "author": "Matt Orlowski",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Outstanding service from start to finish! They were professional, reliable, and paid attention to every detail. My lawn looks fantastic, the edging is crisp, everything was cleaned up before they left, and they treated my property with care..."
+        },
+        {
+            "author": "Guest245",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Unfortunately we had to say goodbye to our wonderful tree that has been with us since we moved in 20+years ago. The trunk was rotting around the edges due to some bugs and or old age and was only getting worse so we had to remove tree befor...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLebuC8-Ue6YK57pArACa1fQn3VafJDG2iO1Umm8UpJbk-9lOSFEhDthhAdAq9LwxRTfX0FD-_Nad4gK1-xhz6ZnQrkon_imvH7HOV-wxh2fEblXf6lsrdFCKx_Sz3hTFPvEyANH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeX7fUJI0SFpruGA8ZAlyHaQRxFPDvXPE6X1rNJsKkTns7GKr6A7bjw_5NSsaUcy4X02Lu7ixvkmlKf3ph2rIY9JQm8U4P9xon-eSRnuMkyMj-bRvmLmlHX0K4EeplA9jwpS4er=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLet9JckCV20SfRSBe-gc298mtUt8aIc4adCu4i82DOqcSspDJ9qmXi1n9RhrS_bytsKnkgH0bQvhi5IpvFX4OhBoLAdVsq8M-Sbs71NPdw8zVuAOM8oIqeePRfsWWAKeucwKeWoyA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedlH_gLPu9fYbxcwxR_gn06Tj1ovwxtx4KysyL94aqPmZZLSzA1FMKRbXpbOvHRFy6V9pNjLDXn3Us0oXdRk6QwUEl-agykS7Sy9dzuNzDxPZdtbmaH360HeuXkyxVV403qKhtjw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Eric Molina",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: If I could give this lawncare company negative stars I would.  For about a month now I’ve been trying to get these folks to come out to do my spring service.  They’ve made every excuse in the books and then finally Jose the owner comes out ..."
+        },
+        {
+            "author": "Ruth Radloff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very knowledgeable about yard, bush, and tree  recommendations for first clean out . Professional in demeanor and interaction. Did fantastic clean out on first visit. I would definitely recommend. Clear expectations make favorable subsequen..."
+        },
+        {
+            "author": "Marisa Brewster",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have worked with Jose and his wonderful team since 2009. My parents also work with Juan and his team. We love their service and attention to detail. They always manage to fit me into their busy schedules and take care of all of my lawn ne...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeKGI1IW-i6AVGFOhum_wBLdhfoR0UeS9h96gyyh1baK2QZIG9meDR_NPL17nI0aBdfLbZL9BdniRmexZLgQ4N4tmcEN6XIbF5EBfqxoxP9jOhaqh4zHRpR6f1jSq6HWJGNnSnu=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

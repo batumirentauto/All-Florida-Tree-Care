@@ -31,21 +31,9 @@ export const siteConfigAffordableRu = {
     "ctaPrimary": "Позвонить ((916) 701-6839)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable/photo_001_crop.jpg",
-        "label": "Верхолазная зачистка ствола",
-        "alt": "Арборист на высоте в обвязке производит зачистку ствола пальмы"
-      },
-      "sub1": {
-        "image": "/images/affordable/photo_007_crop.jpg",
-        "label": "Сбор срезанных ветвей пальмы",
-        "alt": "Срезанные пальмовые ветви, сложенные для погрузки в измельчитель"
-      },
-      "sub2": {
-        "image": "/images/affordable/photo_009_crop.jpg",
-        "label": "Архитектурная стрижка крон",
-        "alt": "Ухоженные пальмы над зоной отдыха и патио частного дома"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAffordableRu = {
     {
       "name": "Высотное снаряжение арбориста",
       "badge": "Работа в кроне",
-      "image": "/images/affordable/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAffordableRu = {
     {
       "name": "Фигурная зачистка стволов пальм",
       "badge": "Алмазный срез ствола",
-      "image": "/images/affordable/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAffordableRu = {
     {
       "name": "Подъем и формирование кроны",
       "badge": "Стрижка верхушки",
-      "image": "/images/affordable/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

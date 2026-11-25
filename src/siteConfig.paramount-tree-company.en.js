@@ -32,21 +32,9 @@ export const siteConfigParamountTreeCompanyEn = {
     "ctaPrimary": "Call Michael +1 910-604-1588",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/paramount-tree-company/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Paramount Tree Company tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/paramount-tree-company/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/paramount-tree-company/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigParamountTreeCompanyEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/paramount-tree-company/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigParamountTreeCompanyEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/paramount-tree-company/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigParamountTreeCompanyEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/paramount-tree-company/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigParamountTreeCompanyEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Karen Seaborn Hall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Set up an appointment to get left tree of two trees cut down.  I had some concerns about the look of the one lone tree once the left tree was cut down.  Michael assured me that they’d get it shaped up and I’d be pleased. They showed up on time, immediately started working, moved a picnic table, some chairs and other items.  Then came the fun stuff.  After cutting down the tree and shaping up the other tree they mulched the limb debris, cleaned up, and moved items back.  These guys did an awesome job and we now have a lone leaning bad arse tree!  I’m amazed that they were able to get this tree saved & looking good.  Michael was true to his word. Micheal & his team definitely deserve the 5 stars and will be recommending this company to anyone asking about tree work.  They also do other landscaping stuff, which we’ll be calling on them to do for us.  THANK YOU SO VERY MUCH FOR AN AWESOME JOB AT A VERY REASONABLE PRICE!  See you soon."
-    },
-    {
-      "author": "Patricia Gleichauf",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have worked with many companies in my life but rarely have I experienced the excellence of Paramount Tree Company. Michael and his crew arrived early for my tree removal job, were extremely knowledgeable, giving us confidence in their ability. Our job was difficult and required tree climbing to cut the trees down. They did an awesome job and cleaned everything up, even raking, seeding and putting straw down.  Their price was very reasonable.  What I love the most about this company is their trustworthiness. I cannot recommend them highly enough.  If you need trees removed in your yard, do yourself a favor and call Paramount Tree Company.  You won't regret it."
-    },
-    {
-      "author": "Mike Hubbard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mike and his crew took down four fairly large trees at my place, one of which was partially hanging over my home.  They did outstanding work and were safe and efficient throughout the job.  Did a great job cleaning up and they were all friendly and courteous.  I highly recommend their work and will hire them again when I have trees to take down that I dont feel comfortable cutting myself."
-    },
-    {
-      "author": "J. Tracey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "What can i say but wow. They move with a quickness and were done before I even had a chance to blink. They were very professional and a pleasure to do business with. My only regret is not taking pics. They left the yard cleaner than when they found it.\nI will recommend to anyone and everyone I hear needing tree work done. Huge thumbs up and if more stars were an option they would have them."
-    },
-    {
-      "author": "Cody Lowe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Michael and his crew were very efficient and professional. They came and tackled 3 trees for me. They did it fast and cleaned up all the debris. They definitely knew what they were doing. They had a tight path to lay down the trees and successfully dodged power lines, house, and other trees and they did it with confidence. The crew was friendly and easy to talk with."
-    }
-  ],
+        {
+            "author": "Karen Seaborn Hall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Set up an appointment to get left tree of two trees cut down.  I had some concerns about the look of the one lone tree once the left tree was cut down.  Michael assured me that they’d get it shaped up and I’d be pleased. They showed up on time, immediately started working, moved a picnic table, some chairs and other items.  Then came the fun stuff.  After cutting down the tree and shaping up the other tree they mulched the limb debris, cleaned up, and moved items back.  These guys did an awesome job and we now have a lone leaning bad arse tree!  I’m amazed that they were able to get this tree saved & looking good.  Michael was true to his word. Micheal & his team definitely deserve the 5 stars and will be recommending this company to anyone asking about tree work.  They also do other landscaping stuff, which we’ll be calling on them to do for us.  THANK YOU SO VERY MUCH FOR AN AWESOME JOB AT A VERY REASONABLE PRICE!  See you soon.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqxp5Q0VegFCLtCuT_mfM5C-VDr_7mpewDfP-pUHeGNytdbEg1bufDUFaGqCJwbnv8mtmNvX83TkmZgYrPWnBRpn6UK-VtYrGdKf2XLmr5H73j8ZKNoAd04Tmv7fftm7WawCnq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFj5sqHom9ndOdwUq79wddnxVOPbBDuFyJ8KHmXSVfrNdReuIeG72qecxSdBrTqiYk0vZ_ZneH9sWUZi75WhTSlXn9BTeVKehhS64IacdypZ43qP7Lg9pTkqJHw9fFJnPB6lV_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaHxnqlJpoMQpaHSEytCJ8dC0QPtoXqgsx7-TaIU0r5qVzzR0EomiguTT0qUW_MwAxerHtVAA8PuUyH8tONDWKQl-Pa4s4pUc5J3Jnjtu_L5V9rEZRhwp4RCRqewT-rXn4kH8P=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbw3kZ2hfJeto7sQ0pGIWf003Klhpvl0R5afq76YwCHb60vnElLxwE-847w-u_lBDlgMIVQKXQFViMSs4vfcSUAGcAat_mQSkVhhOjQt6tEHezMlnwDLUdNfufGXOLt6TcRZA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Patricia Gleichauf",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have worked with many companies in my life but rarely have I experienced the excellence of Paramount Tree Company. Michael and his crew arrived early for my tree removal job, were extremely knowledgeable, giving us confidence in their ability. Our job was difficult and required tree climbing to cut the trees down. They did an awesome job and cleaned everything up, even raking, seeding and putting straw down.  Their price was very reasonable.  What I love the most about this company is their trustworthiness. I cannot recommend them highly enough.  If you need trees removed in your yard, do yourself a favor and call Paramount Tree Company.  You won't regret it."
+        },
+        {
+            "author": "Mike Hubbard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mike and his crew took down four fairly large trees at my place, one of which was partially hanging over my home.  They did outstanding work and were safe and efficient throughout the job.  Did a great job cleaning up and they were all friendly and courteous.  I highly recommend their work and will hire them again when I have trees to take down that I dont feel comfortable cutting myself.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIH3ydPzkgnZ2SbCYqeoXUglKFfosjQCxXSevMAvB1WRzcMVbHoGa0uy8F66cxm0XDVRMZL0GXWGrc9khMleKgcCJikL9tEt8GOzhxemACUShyb6JkBTm3EfK6PwpY-xeDjLNwFaDBygoi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J. Tracey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "What can i say but wow. They move with a quickness and were done before I even had a chance to blink. They were very professional and a pleasure to do business with. My only regret is not taking pics. They left the yard cleaner than when they found it.\nI will recommend to anyone and everyone I hear needing tree work done. Huge thumbs up and if more stars were an option they would have them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczesA7R3ovS88jyDFxErVwWpUBYznw4nowjXBbHwNJhnz_UUkykDvCvGHv54V83sqcoongWevukZJL3vx6nVB4gOZs1YAuKD5pZZPCBrYAL_K3Q02zvXvqPyJupRtWH_65yxnPy_2eIeQ_=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjdW0DzCWNMy6JxCQ6dPPY713rqfAQqtL3sASFyaXJPQVuH3OHuBRSTVVChEww0ncrxkkdUDvSQjGrssHYgTVqhjepyveomp6SuVTnxXeSheMaPNr2B51u8hnwcHVbl3di-NavtuGtwagY=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Cody Lowe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Michael and his crew were very efficient and professional. They came and tackled 3 trees for me. They did it fast and cleaned up all the debris. They definitely knew what they were doing. They had a tight path to lay down the trees and successfully dodged power lines, house, and other trees and they did it with confidence. The crew was friendly and easy to talk with.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAY44ux-uwI-KomaqswGJ0g56Y309hg7GVjOVxyp5aeGesfwRmKW667f3qvcYfJ7ASZCerGNrs9tDX68AlODvHHkqiZI6s7wWi9Vrn86YmNFQPQwyl83j7stxZrSuQyx3X8_ad=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZIiogRNRxas4R18C6UBvijgJ1BtV6XruK3VUfhxifKkFfiOZ8s7m9CUi5SxJvVSfFxilk9T9eBloio32gO5cEm31gFOD3EOaLxHOlGxcW4QnqpWKRhqh91cn6W4GI8ZEgC6d40g=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

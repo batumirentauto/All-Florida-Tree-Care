@@ -31,21 +31,9 @@ export const siteConfigRosalesRu = {
     "ctaPrimary": "Позвонить ((281) 804-5020)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/rosales/photo_001_crop.jpg",
-        "label": "Измельчитель веток и щеповоз",
-        "alt": "Промышленная дробилка веток и белый грузовик-щеповоз с бригадой арбористов"
-      },
-      "sub1": {
-        "image": "/images/rosales/photo_011_crop.jpg",
-        "label": "Арборист на верхушке сосны",
-        "alt": "Арборист-верхолаз в кроне высокой сосны на фоне ясного неба"
-      },
-      "sub2": {
-        "image": "/images/rosales/photo_008_crop.jpg",
-        "label": "Формирование кроны у входа",
-        "alt": "Сформированный дуб над парадным входом и мощеной дорожкой дома"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRosalesRu = {
     {
       "name": "Работа измельчителя на объекте",
       "badge": "Быстрая переработка",
-      "image": "/images/rosales/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRosalesRu = {
     {
       "name": "Дробление пня без повреждения травы",
       "badge": "Идеальный дерн",
-      "image": "/images/rosales/photo_012_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRosalesRu = {
     {
       "name": "Спил нависших веток над фронтоном",
       "badge": "Защита кровли дома",
-      "image": "/images/rosales/photo_013_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

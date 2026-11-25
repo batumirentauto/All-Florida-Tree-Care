@@ -32,21 +32,9 @@ export const siteConfigFamilyTreeEn = {
     "ctaPrimary": "Call Jacob (912) 464-4535",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/family-tree/photo_001_crop.jpg",
-        "label": "Live Oak Canopy Management",
-        "alt": "Mature Florida live oaks framing residential home and manicured lawn"
-      },
-      "sub1": {
-        "image": "/images/family-tree/photo_007_crop.jpg",
-        "label": "Arborist Rigging Line in Oak",
-        "alt": "Arborist bull rope rigged in live oak crown with cut branches below"
-      },
-      "sub2": {
-        "image": "/images/family-tree/photo_004_crop.jpg",
-        "label": "Low-Cut Fence-Line Stump",
-        "alt": "Tree stump cut low to lawn grade right along wooden privacy fence"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigFamilyTreeEn = {
     {
       "name": "Heavy Debris Trailer & Manicured Curbside",
       "badge": "Clean Curbside Hauling",
-      "image": "/images/family-tree/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigFamilyTreeEn = {
     {
       "name": "Fence-Line Canopy Clearance & Moss Thinning",
       "badge": "Fence & Roof Clearance",
-      "image": "/images/family-tree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigFamilyTreeEn = {
     {
       "name": "Backyard Structural Elevation & Pruning",
       "badge": "Backyard Oak Care",
-      "image": "/images/family-tree/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

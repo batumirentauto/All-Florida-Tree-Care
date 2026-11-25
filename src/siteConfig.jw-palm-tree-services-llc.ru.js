@@ -31,21 +31,9 @@ export const siteConfigJwPalmTreeServicesLlcRu = {
     "ctaPrimary": "Позвонить (+1 850-206-4686)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jw-palm-tree-services-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады JW Palm Tree Services LLC"
-      },
-      "sub1": {
-        "image": "/images/jw-palm-tree-services-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jw-palm-tree-services-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJwPalmTreeServicesLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jw-palm-tree-services-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJwPalmTreeServicesLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jw-palm-tree-services-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJwPalmTreeServicesLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jw-palm-tree-services-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigJwPalmTreeServicesLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Bryan Poole",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jonathan and his crew recently trimmed our palms for the first time and we are very pleased with the results. Great work at a fair price. I would highly recommend that you give them a call...."
-    },
-    {
-      "author": "John in Pensacola",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jonathan and his crew did a great job trimming my palms trees. They were very fast and efficient. Will definitely use them again in the future!..."
-    },
-    {
-      "author": "Jason Fenton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Both Johnathan and his worker where great respectful guys. Knew what they where talking about and was honest. When first met John we discussed what I wanted and he was upfront about cost and quality and time, rare thing these days. Would hi..."
-    },
-    {
-      "author": "Brent Harris",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Fantastic service, good communication, cleaned up the area when finished and treated my property with care.  The price was good and he was willing to renegotiate for some additional work.  You can’t go wrong hiring him and his crew, I will ..."
-    },
-    {
-      "author": "Matt Nolan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I contacted Jonathan Watson of JW Palm Tree Services late on a Friday afternoon and he was able to come out the following Tuesday to trim up my 5 palm trees that hadn’t been trimmed up in about a year. He’s enjoyable to talk to and very kno..."
-    }
-  ],
+        {
+            "author": "Bryan Poole",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jonathan and his crew recently trimmed our palms for the first time and we are very pleased with the results. Great work at a fair price. I would highly recommend that you give them a call....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeujO_x3EKe1fmSQM42YA_8UAFBfgKRWiIQx4ht-PHygnkxLQ59rTioLaqJhQjXPwQgAh5coRmu4lTTgPJBaaYScQL9rJmMeH_YA25FJbV0zoB-WTacZz7PmRbcV7U8FYwJz8Kd5g=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "John in Pensacola",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jonathan and his crew did a great job trimming my palms trees. They were very fast and efficient. Will definitely use them again in the future!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDMj9rWGmip4pQjM2Cth7Q1IkDpN5mwUkAgG1vjmP_tTJB-I3THtYHPbDNbWc-VXLitWsLaLTtviSoZq2ncZnGEca3buk9wfn5AchR4Eb6Eg0-5IAGZ3YV9G_f948V2eG7FJn3=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIYUgsiViV4oGcyhN5QSpg9En9VLDPHLNsv8IOEF7j0nWU0n10f7zGm9Wz1XEgwD2LC99SbURS3ECYRj79Y7lTsL5eq4kIEu4hZtrbGZh8DKZThTGXbECBGO26ovHNpKagldCw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jason Fenton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Both Johnathan and his worker where great respectful guys. Knew what they where talking about and was honest. When first met John we discussed what I wanted and he was upfront about cost and quality and time, rare thing these days. Would hi..."
+        },
+        {
+            "author": "Brent Harris",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Fantastic service, good communication, cleaned up the area when finished and treated my property with care.  The price was good and he was willing to renegotiate for some additional work.  You can’t go wrong hiring him and his crew, I will ..."
+        },
+        {
+            "author": "Matt Nolan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I contacted Jonathan Watson of JW Palm Tree Services late on a Friday afternoon and he was able to come out the following Tuesday to trim up my 5 palm trees that hadn’t been trimmed up in about a year. He’s enjoyable to talk to and very kno..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Основная база)",

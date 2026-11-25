@@ -32,21 +32,9 @@ export const siteConfigGrowEn = {
     "ctaPrimary": "Call Donnie (904) 859-4188",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/grow/photo_003_crop.jpg",
-        "label": "Emergency Roof Tree Strike Extraction",
-        "alt": "Heavy snapped tree limb fallen directly across residential shed roof"
-      },
-      "sub1": {
-        "image": "/images/grow/photo_005_crop.jpg",
-        "label": "Structural Impact Stabilization",
-        "alt": "Close-up of fractured tree limb resting on damaged corner of residential shed"
-      },
-      "sub2": {
-        "image": "/images/grow/photo_004_crop.jpg",
-        "label": "Ground Crew Chainsaw Sectioning",
-        "alt": "Ground worker in high-vis vest bucking fallen tree limb off structure"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGrowEn = {
     {
       "name": "High Canopy Arborist Friction Rigging Line",
       "badge": "Controlled Overhead Rigging",
-      "image": "/images/grow/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGrowEn = {
     {
       "name": "Standing Hollow Spar Takedown",
       "badge": "Hazard Spar Removal",
-      "image": "/images/grow/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

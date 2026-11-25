@@ -32,21 +32,9 @@ export const siteConfigMahaloTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 954-547-1923",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mahalo-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Mahalo Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/mahalo-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/mahalo-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMahaloTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/mahalo-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMahaloTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/mahalo-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMahaloTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/mahalo-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigMahaloTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jovana Uvalin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mahalo Tree Service did a fantastic job trimming the trees in our front yard! The crew was professional, efficient, and did an amazing job shaping everything beautifully. Their customer service was excellent!  They cleaned up perfectly afterward. Very happy with the results and would definitely recommend them!"
-    },
-    {
-      "author": "Jason Giancarli",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mahalo tree services, did an excellent job,  What an amazing crew of professionals. These guys work hard to deliver and they did an amazing job on our super high coconuts trees And an amazing job at cleaning up everything they did exactly what was expected Highly recommended."
-    },
-    {
-      "author": "Adriana Rivadeneira",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently had the pleasure of working with Mitch from Mahalo to trim 2 large oak trees that was hanging well over my house. He offered a very good price and were able to fit me in their schedule in just a couple days. The guys that came out were attentive and very professional. Highly recommend, I will call them out again in the future. They did a great job 👏🏻"
-    },
-    {
-      "author": "Andrea Alvarado",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mahalo tree service did an excellent job. I was so thrilled to find a tree company that took their time. They showed up on time and did an excellent job with my tree and cleaning it up. Mahalo tree services and the crew did exactly what we had discussed. I highly recommend them."
-    },
-    {
-      "author": "Mason Strelow",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I wanna thank Mahalo team for everything they done. They very professional though out the job. I was amazed on how they removed all the trees from my yard. It was very fun to watch, Mahalo performed an excellent, and safe service. The team was safety oriented and very professional. They cleaned up everything…. The price was reasonable for the quality of their work.  I would definitely recommend them  without hesitation. Thank you Mitch"
-    }
-  ],
+        {
+            "author": "Jovana Uvalin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mahalo Tree Service did a fantastic job trimming the trees in our front yard! The crew was professional, efficient, and did an amazing job shaping everything beautifully. Their customer service was excellent!  They cleaned up perfectly afterward. Very happy with the results and would definitely recommend them!"
+        },
+        {
+            "author": "Jason Giancarli",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mahalo tree services, did an excellent job,  What an amazing crew of professionals. These guys work hard to deliver and they did an amazing job on our super high coconuts trees And an amazing job at cleaning up everything they did exactly what was expected Highly recommended.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1U8dtTtOtzOMPiz5RRgOWF-fK13p8rzih4qWJkf5WuZylQAgxbAcifwgnfpTnJGq_M8lliGKd5RXrj3YOjmdsiec2RqEt7EwbvY6u1yP0TEyem_ASIYgbQb_EOHqrTgktUKCj=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Adriana Rivadeneira",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently had the pleasure of working with Mitch from Mahalo to trim 2 large oak trees that was hanging well over my house. He offered a very good price and were able to fit me in their schedule in just a couple days. The guys that came out were attentive and very professional. Highly recommend, I will call them out again in the future. They did a great job 👏🏻"
+        },
+        {
+            "author": "Andrea Alvarado",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mahalo tree service did an excellent job. I was so thrilled to find a tree company that took their time. They showed up on time and did an excellent job with my tree and cleaning it up. Mahalo tree services and the crew did exactly what we had discussed. I highly recommend them."
+        },
+        {
+            "author": "Mason Strelow",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I wanna thank Mahalo team for everything they done. They very professional though out the job. I was amazed on how they removed all the trees from my yard. It was very fun to watch, Mahalo performed an excellent, and safe service. The team was safety oriented and very professional. They cleaned up everything…. The price was reasonable for the quality of their work.  I would definitely recommend them  without hesitation. Thank you Mitch"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Lauderdale (Central Depot)",

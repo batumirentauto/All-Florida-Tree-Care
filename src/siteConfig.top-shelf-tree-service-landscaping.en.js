@@ -32,21 +32,9 @@ export const siteConfigTopShelfTreeServiceLandscapingEn = {
     "ctaPrimary": "Call Pat +1 727-906-6151",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Top Shelf Tree Service & Landscaping tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTopShelfTreeServiceLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTopShelfTreeServiceLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTopShelfTreeServiceLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,67 @@ export const siteConfigTopShelfTreeServiceLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Paul Dickson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Top Shelf Tree Service thinned and re-shapped my old oak tree. Very experienced and professional crew, led by Quentin, did a great job. Professional at all times, and thoughtful when removing debris and cleaning up. More imortantly, the shaping of this large tree was fantastic. No question that my expectations were surpassed. Start to finish they were at 2.5 hours. Would clearly recommend them for large/small jobs. Special thanks to Lacey for coordinating this job - always professional and pleasant to deal with. Thank you!"
-    },
-    {
-      "author": "Domonick Turt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Top Shelf did an excellent job removing our massive Royal oak tree! Having our roof replaced a week before getting our tree removed would concern most homeowners but I did not doubt for a second that Top Shelf could get the job done. Top Shelf has years of experience and if you’re looking for quality work, Top Shelf should be your #1 choice."
-    },
-    {
-      "author": "Risa Hartsough",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Pat and his team were quick, professional, and fair. By the time they were done, my yard was clean as if they were never there. Excellent work and will be using them again for future projects."
-    },
-    {
-      "author": "peter cassidy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Pat and his crew did an amazing job removing our very large oak tree that had began to die.  The tree stretched over our house, our neighbors house, and the road.  The job was completed with zero damage to either structure and the stump was ground perfectly leveling the dramatically raised ground that the tree had formed over the years of leaning towards the road.  Even the little things like prying off the giant staghorn that was growing on the side of the tree and placing it in the shade under our hibiscus so that our neighbors could come grab sections to add to their own landscaping.\n\nNot only did the Top Shelf Tree Service crew do an awesome job, Pat also gave me a very competitive price.\n\nAll around 10/10 and I am very happy with the decision to proceed with Pat and his crew."
-    },
-    {
-      "author": "Kevin D",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Requested a quote from Top Shelf and there were able to give me a number the next day.  The tree removal was awesome and they left the work area cleaner than it was before they got there.  The most important thing to me is communication and that in itself deserves 5 stars!"
-    }
-  ],
+        {
+            "author": "Paul Dickson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Top Shelf Tree Service thinned and re-shapped my old oak tree. Very experienced and professional crew, led by Quentin, did a great job. Professional at all times, and thoughtful when removing debris and cleaning up. More imortantly, the shaping of this large tree was fantastic. No question that my expectations were surpassed. Start to finish they were at 2.5 hours. Would clearly recommend them for large/small jobs. Special thanks to Lacey for coordinating this job - always professional and pleasant to deal with. Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8Vm74J0kOM-RucFaCWAUzf7S-VWKl7cX5w3vsB2J4bwjq-LtY9kvc1_hofmL_x2dqdewC-wBoXb6dI0jEfd5XgqVDjhdBTgrXxBUFKltNW0ys_eZtDRwtazEHTgRZcdsug80E=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLctHnnkmsjRgEnilQT0LmXqwNDllsf8NrVZqc32tbM_yLBDpt2U5H_TVfu0LgknROymSuCQyC8OwYS-MjBWk6qhjoC0vfHeIWgts9ML5nAbo7JP7XcQd5C5MuaK5m9eZmXi07Q_=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Domonick Turt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Top Shelf did an excellent job removing our massive Royal oak tree! Having our roof replaced a week before getting our tree removed would concern most homeowners but I did not doubt for a second that Top Shelf could get the job done. Top Shelf has years of experience and if you’re looking for quality work, Top Shelf should be your #1 choice.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDF0DaaI7Ze0NGnB_nCC5BhjyaPBvdgbWYtwd3Uxhyx3hwbpvKf5WD6D6zuZEYCPmoJc_c-5YV5L5hxdoMDHanaWV9ujU4gHVu_6OQYS2FOI1Eyx9TbJSczp3d8MvpV6hKXVJ9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9n2GvWaNr7bJpggW8DiQolmz-Wc4keiUTgocPgbBE_fg4cHQn70TNWokLHN3ibdA9FfiLjgx5a8XXWxzh3nm0-3NRN9RE0C8aTMkanP51NuZhFxyMBMIMbb8izSQgmn4wUaFPEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewx5RWpG6Fwq3gDY5FOEb7wmwAneu2VJwRESIBvWwKUh0J2pSDemmUAtmREf60bJmnUHeNCkX_gsrZGWJwvJWQGpkshoWexCaKjDJbryH6lQDZqeMHjKMqc5u1nPRmgF52CQWx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfFSvOhO6FiVltu2aPFUXmWG5i-7xMdIKDPQHH76gdaulArWfXO5fyIWP0_TGpUoNT8fBaoQVLFguJxjPSIbAHILKlcyMhUEzXxjuB_w-NgcEpEUNg7UuNuXF1-5qnYHaAJM9h2g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Risa Hartsough",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Pat and his team were quick, professional, and fair. By the time they were done, my yard was clean as if they were never there. Excellent work and will be using them again for future projects."
+        },
+        {
+            "author": "peter cassidy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Pat and his crew did an amazing job removing our very large oak tree that had began to die.  The tree stretched over our house, our neighbors house, and the road.  The job was completed with zero damage to either structure and the stump was ground perfectly leveling the dramatically raised ground that the tree had formed over the years of leaning towards the road.  Even the little things like prying off the giant staghorn that was growing on the side of the tree and placing it in the shade under our hibiscus so that our neighbors could come grab sections to add to their own landscaping.\n\nNot only did the Top Shelf Tree Service crew do an awesome job, Pat also gave me a very competitive price.\n\nAll around 10/10 and I am very happy with the decision to proceed with Pat and his crew.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4ukNNWPZfXMvFowsioq3uSS8gHVsE8tCkihHG9d97Tn77CIdJsJBrq6C1xIZ9AsP96hStKOA2IRcIuNz0pW6bCdsKl8LMz-F4Ce81HxyR2PDw9i7tTaBiBk5hU-eaEiUJligwnQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5BrXvumxN0UqvlrmOoHh5zgETo7vImo5-8_UQ-tiuWjA_wxd4QONJYKNf_29aPXVQQ-91LeVSGWYxT8xVbI_h24OISm0hVkz1znspecJbzNuLJacxjwefH1ZyXI0C7_PyPxPZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGxd-f5HThOYkSIfZ5oKPlYU7Z16Zw9ewnxRjIxgAsotfaglQecFCydoU7AqCAbkkiflqzf5WuU18pZqPJFEhFKct-Dl1q6hYpRgpA6qteZ3mpzsfi48bjZEn6wVFKzIwMd2LgCg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfq2Kt1iqNKpzJ6aCAz7NugA874qR7htDKh_hhgLqFffI4dkgi5LShLGN_DFKdeKbH86f7p5wTNDNyKqXe7KV_23gpYleIROU4qFg39nhDq7waJ09YF2EFNRp-T2HBA4gDMEug9=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin D",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Requested a quote from Top Shelf and there were able to give me a number the next day.  The tree removal was awesome and they left the work area cleaner than it was before they got there.  The most important thing to me is communication and that in itself deserves 5 stars!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt3BoqaR6LaYB5JDyvSbIW4Ypcq4XuAX34zeJs57fDCafLgQaQ-GTRxxKm3nnnL9ev1yGTwi-shopYg6p6Rn0AXVkwqbN5bEJUcEXQYbRxVtgfls9nAWkvTZijmFEu4dW2njCD=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdsQaZWd2eNTCB2CwG0zDO2zj7I45m8GhgdVUR2qhfoe3nnhTSVjmm23YpIj8nklQIvMs4H1Zp2kfpY3CATC2fwZA6Y6wwBXHmrbWYQdtDr67HQhYBy2mZsl22PV2mIY-_RdTfEsQ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

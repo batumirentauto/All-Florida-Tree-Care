@@ -31,21 +31,9 @@ export const siteConfigTbxLandworksLlcRu = {
     "ctaPrimary": "Позвонить (+1 706-915-9205)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tbx-landworks-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады TBX Landworks LLC"
-      },
-      "sub1": {
-        "image": "/images/tbx-landworks-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tbx-landworks-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTbxLandworksLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tbx-landworks-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTbxLandworksLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tbx-landworks-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTbxLandworksLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tbx-landworks-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigTbxLandworksLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Love my pets",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired TBX to clear my horse paddock which  is partially wooded and had feet deep overgrown weeds, pine cones galore, tree branches, tree trunks, and several dead trees still standing. I could not be happier with the work they did. It lite..."
-    },
-    {
-      "author": "Rachel Heslen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ty and Cat Buska are responsive and easy to do business with. The land clearing for my chicken coop turned out better than I expected and they prioritized my project. I will always call TBXLandworks for my forestry needs...."
-    },
-    {
-      "author": "Hope Williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ty is the best.  He came out to take a look at the job I wanted done.  An estimate was given promptly after visit.  The work was completed by Ty.  He did an excellent job.  I would highly recommend this company...."
-    },
-    {
-      "author": "Kim Williamson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Needed forestry mulching done on my property for future home build. Ty did a fantastic job of clearing underbrush so I could see where I wanted to build the house. He was careful about maintaining all of my trees. I actually had neighbors g..."
-    },
-    {
-      "author": "Robert Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: If you are reading my review, you are most likely where I was two months ago: Searching for \"reputable and quality contractor\" to remove trees and brush, maybe put in a driveway or grading. I was anxious just like you.\n\nYour search stops he..."
-    }
-  ],
+        {
+            "author": "Love my pets",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired TBX to clear my horse paddock which  is partially wooded and had feet deep overgrown weeds, pine cones galore, tree branches, tree trunks, and several dead trees still standing. I could not be happier with the work they did. It lite...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvwwLfp4Vpb8w46U9USM3_etdpuD0XNnMb4_ZAh9UBNgtKBKe7n3SF_EyKMiewudvppt49O2ZZdeHcJo_FTTsL6w59acOMBxwzAR1qaEAlKmrfkgIFZNjksuI61oE5jJ0ETtFcBoGm6ko=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdb6FaWH7Ly2aBT6U2BwhBEiywgam9TGuW95Grp3a-UaLbgvXFU_fayw3033JYlawZIbKqq5dJWEOthVmALV4Q1IBLfuw31QjZL_3AAxMPQosiPAVfy5A4x5zLdD179JQAIsZFpvHQ57CO=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcoyOM8eP_yNJ7x8CP-jdeZS8imFTtGXBEopnLkRL_BP2C1Gx17Tm2F6s8MIivhPbdKmZXGlVW-3KaJUp7O80G4DZ7Oa_y-xquE_hNdr1KKXCkDz64Ky8KIIKX4JGQVobeAQZQtNpz_u-KN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Rachel Heslen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ty and Cat Buska are responsive and easy to do business with. The land clearing for my chicken coop turned out better than I expected and they prioritized my project. I will always call TBXLandworks for my forestry needs....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdD8-w2KAHq0sylXSYeGyAraWb-u73UGPENzx7oCRMX3hRNuldG29m4xdlXmOjjgpe8sVobrVd2U-KFBnmsz-u9uarDHOf16LsclBaMe_XSdK7_ezBjBjnVYEFRHTXW-WPU0I64OZoBljg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Hope Williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ty is the best.  He came out to take a look at the job I wanted done.  An estimate was given promptly after visit.  The work was completed by Ty.  He did an excellent job.  I would highly recommend this company...."
+        },
+        {
+            "author": "Kim Williamson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Needed forestry mulching done on my property for future home build. Ty did a fantastic job of clearing underbrush so I could see where I wanted to build the house. He was careful about maintaining all of my trees. I actually had neighbors g...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd_04A8Wt4stDjgSAti9K8pHqhVDgz-y7jviPYQPZFCS5ejOH8n0yVEsJyAls31nmhs36ZUifknzZmV4S77g6MlKee0fixG6JIRPcvCtk_gazfLen7tWFp_09hhQhAoKhNRkWWG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfWGbIGmCJyhBI6R8hyXyQfDQzEp0hK9zb4cXpWqB2OL88ZvEBJc0dRgM6SNiha3lTU5MhwnaEWHfj1eZuQFgd3gI8Zm-36_u1fT53EfIUuDJI4njrIJzIyAuHTy7tieqqYePbrZA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Robert Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: If you are reading my review, you are most likely where I was two months ago: Searching for \"reputable and quality contractor\" to remove trees and brush, maybe put in a driveway or grading. I was anxious just like you.\n\nYour search stops he...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjrXopo0g_z8fH2v3gZ-ek9eU_Xc3MP5Rtoc5MtxJkj92-0ty4GQxArNdHnwCdfVTaXcHw_wCGVFu9leKLsgqNBIBQvlmsYchtMPcyYY0QJ5w8TQnzFil-9n-RkeYQBE5AtsxIpA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Athens (Основная база)",

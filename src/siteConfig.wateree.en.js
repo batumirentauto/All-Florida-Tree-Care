@@ -32,11 +32,7 @@ export const siteConfigWatereeEn = {
     "ctaPrimary": "Call David (803) 445-6434",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wateree/photo_001_crop.jpg",
-        "label": "Mature Oak Structural Clearance",
-        "alt": "Huge mature shade oak tree right by residential house porch and yard"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
@@ -130,7 +126,7 @@ export const siteConfigWatereeEn = {
     {
       "name": "Hardwood Crown Structure Inspection & Thinning",
       "badge": "Canopy Thinning & Care",
-      "image": "/images/wateree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",

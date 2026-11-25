@@ -31,21 +31,9 @@ export const siteConfigPanhandleRu = {
     "ctaPrimary": "Позвонить ((850) 851-5297)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/panhandle/photo_005_crop.jpg",
-        "label": "Арборист на высоте со снаряжением",
-        "alt": "Арборист в защитной каске и страховочной беседке с сигнальными веревками в кроне"
-      },
-      "sub1": {
-        "image": "/images/panhandle/photo_001_crop.jpg",
-        "label": "Опасное наклоненное дерево",
-        "alt": "Наклоненное дерево, растущее вплотную к стене бирюзового дома"
-      },
-      "sub2": {
-        "image": "/images/panhandle/photo_003_crop.jpg",
-        "label": "Расчищенный проход между домами",
-        "alt": "Узкий проход между строениями, полностью освобожденный от нависавших веток"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPanhandleRu = {
     {
       "name": "Обрезка кроны над остекленной верандой",
       "badge": "Защита остекления",
-      "image": "/images/panhandle/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPanhandleRu = {
     {
       "name": "Вывоз порубочных остатков пикапом",
       "badge": "Маневрирование во дворе",
-      "image": "/images/panhandle/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

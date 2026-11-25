@@ -31,21 +31,9 @@ export const siteConfigEvergreenTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 503-625-4595)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/evergreen-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Evergreen Tree Services"
-      },
-      "sub1": {
-        "image": "/images/evergreen-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/evergreen-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigEvergreenTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/evergreen-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigEvergreenTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/evergreen-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigEvergreenTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/evergreen-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigEvergreenTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Francisco Soler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Evergreens tree service trimmed and pruned our maple tree in front of our home.  Quotation process was quick and simple.  Employees that performed the trimming and pruning were very knowledgeable and quick in the process.  they clean all de..."
-    },
-    {
-      "author": "Patti jacobs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dear Evergreen thank you for making my tree service right! I am so pleased! The communication was fantastic! The workers did a fantastic job. The tree is exactly like we needed it to look! Thank you to office help, to the owner if the compa..."
-    },
-    {
-      "author": "Javan Sarmiento",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent work, very professional, and great price.  I would recommend to anyone needing tree service.  Thank you Eddie and team!..."
-    },
-    {
-      "author": "Kaitlin Egan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: UPDATED review: after further discussing the situation with the owner, we agreed the situation came down to miscommunication. He refunded us 12% of the total cost of the job. This I found fair given that the tree that there was miscommunica..."
-    },
-    {
-      "author": "Mark Hepler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Evergreen tree services were great, they got here and took out 2 palm trees I had that were very close to my house and the neighbor's house, they were very respectful of both properties. Those guys worked together great and got the job done..."
-    }
-  ],
+        {
+            "author": "Francisco Soler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Evergreens tree service trimmed and pruned our maple tree in front of our home.  Quotation process was quick and simple.  Employees that performed the trimming and pruning were very knowledgeable and quick in the process.  they clean all de...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdMum3DMe2dT7wMiEHa2vJXZAc_HxSWCbIN9PQOTXLfadp0PVbRouObhwngOhBr-hVnm8l4_nXbKVNv2kAEa1OvZq9bA5xdps_kWbffbiJqOLAn1bNcaMkVblE8BAndF1hIoJT7RMxgAyqy=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Patti jacobs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dear Evergreen thank you for making my tree service right! I am so pleased! The communication was fantastic! The workers did a fantastic job. The tree is exactly like we needed it to look! Thank you to office help, to the owner if the compa..."
+        },
+        {
+            "author": "Javan Sarmiento",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent work, very professional, and great price.  I would recommend to anyone needing tree service.  Thank you Eddie and team!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeKpVfMzur-93ZJmrEzzEh6s6KzsOm7BlJjL6BbpvuIUgVLXsJmHF0Jmi11KrHVuufLECq472GYvCt8297eMc3topZo-GNawDKDCE-PR3Gi6MQToL75jM3Gl0rRDxSAE8tyy1zqg_Nne32y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbix8ZWOpDZcW9OFas_ciogLQnuYuZ4jsJwbeV5BS9PL_g56gBO9fNJs3TFIybfXoKHKobF-4pfk_3CR_Gljpxe-AYfDvFjuy6LzADC3JzlHOD5qacUAhce7GIi9OCDH6Fefx2DsAwDRZN=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfyaLIWB8yUhFqVMPg7ddDCGNLUdxiXrzF-acNTqKsTHGhU595B2SmjGLWWETiSHKqfNjmPM0Pd9bzou5_dLu01ih5__NEu_J3dKGwzvxLM3osE5O95lt9s4jrzRDJm6J7hLK9AInAcfP8D=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVoUI0zBKCoZo_iRsy2odbr9bfrNIgmtkfscNQHE5bxWJQQkKzUFHoeGM5aKYFNRAILZPsuR0IKnSTSh76qXGkNtQB9N9JdQKq_Ilkb_Z4YHrQE9E1XfW2a0cZGjQX7l-R_5q36ilBlpI=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kaitlin Egan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: UPDATED review: after further discussing the situation with the owner, we agreed the situation came down to miscommunication. He refunded us 12% of the total cost of the job. This I found fair given that the tree that there was miscommunica..."
+        },
+        {
+            "author": "Mark Hepler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Evergreen tree services were great, they got here and took out 2 palm trees I had that were very close to my house and the neighbor's house, they were very respectful of both properties. Those guys worked together great and got the job done...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBKiUB6HFe9SfPizZ4bTrdw8TQHnj5hYb0TyiCFPuS4WFvHsFOuvijMo1fyr9COyaKrnB4_3ab55MHC1oxzKlOw9AcOyjl1ODPGLIUynSlQCP1ZbFh_5KXm8qPchZvNQT4B-Y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfV-_LgvRsdyA1NNRUjYyHh7nRk5-vJJ3odb-H1D7pnmluXrrXIxgRNDbvcGuKSG-sRWuVdevHrV_puHyX-H8D7ljqj6KNzAGz0ALQAugOMH2y5C4Ydpv_VvuzhopUR7LFAfKltyg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDWqxUbJUCb_ZJEASpdOcsJBypNnuBpjnESbqsPyaPcDP6WUBl5b01RnNnm2XGQ8CvVhUq-8EHHwzDANIkv5t3a3a6d27zJYTUTfUyWaxnduip9S0CNi3PUyykQiliEZwP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxwZxG-RV_Zg69clDgNQDrHSysO2SyuIhw6jXshOB1Ofez2qz_3xxUzyEtxLGJLZ686ZUKRMDEPflLayMCMkLm-lzv_9cB0WtNOe8aRnc1YU1cN2tkQpq9HrP0aCfrMUlq63fNtQ=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sherwood (Основная база)",

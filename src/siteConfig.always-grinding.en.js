@@ -32,21 +32,9 @@ export const siteConfigAlwaysGrindingEn = {
     "ctaPrimary": "Call Dustin (404) 797-1784",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/always-grinding/photo_001_crop.jpg",
-        "label": "Carlton Track Grinder on Terrace",
-        "alt": "Carlton SP8018 TRX commercial track stump grinder positioned on upper retaining wall terrace"
-      },
-      "sub1": {
-        "image": "/images/always-grinding/photo_003_crop.jpg",
-        "label": "Track Machine Residential Access",
-        "alt": "Carlton track grinder unloading from equipment trailer down driveway with zero turf rutting"
-      },
-      "sub2": {
-        "image": "/images/always-grinding/photo_004_crop.jpg",
-        "label": "Roofline Overhang Mitigation",
-        "alt": "Mature hardwood canopy overhanging residential roofline prior to pruning"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAlwaysGrindingEn = {
     {
       "name": "Carlton SP8018 TRX Steep Hillside Milling",
       "badge": "Steep-Slope Track Stability",
-      "image": "/images/always-grinding/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAlwaysGrindingEn = {
     {
       "name": "Broken Storm Limb & Canopy Hazard Extraction",
       "badge": "Hanging Limb Rigging",
-      "image": "/images/always-grinding/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

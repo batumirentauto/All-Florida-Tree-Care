@@ -32,21 +32,9 @@ export const siteConfigTbxLandworksLlcEn = {
     "ctaPrimary": "Call Ty +1 706-915-9205",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tbx-landworks-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "TBX Landworks LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tbx-landworks-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tbx-landworks-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTbxLandworksLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tbx-landworks-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTbxLandworksLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tbx-landworks-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTbxLandworksLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tbx-landworks-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigTbxLandworksLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Love my pets",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I hired TBX to clear my horse paddock which  is partially wooded and had feet deep overgrown weeds, pine cones galore, tree branches, tree trunks, and several dead trees still standing. I could not be happier with the work they did. It literally looks like a different paddock! They used the forestry mulching attachment, and boy did it pulverize EVERYTHING. In addition, they were super easy to work with and super friendly with fair pricing. My entire experience was top notch. I highly recommend TBX!!!!!"
-    },
-    {
-      "author": "Rachel Heslen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ty and Cat Buska are responsive and easy to do business with. The land clearing for my chicken coop turned out better than I expected and they prioritized my project. I will always call TBXLandworks for my forestry needs."
-    },
-    {
-      "author": "Hope Williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ty is the best.  He came out to take a look at the job I wanted done.  An estimate was given promptly after visit.  The work was completed by Ty.  He did an excellent job.  I would highly recommend this company."
-    },
-    {
-      "author": "Kim Williamson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Needed forestry mulching done on my property for future home build. Ty did a fantastic job of clearing underbrush so I could see where I wanted to build the house. He was careful about maintaining all of my trees. I actually had neighbors go out of their way to text me to let me know how great the property looked after the job was done. Saying it was the best work they had seen on any of the properties in the area. Ty was prompt, professional, and reasonable with his pricing. I will be keeping his company on retainer for the up-keep of my property. Shown are a before and after photo."
-    },
-    {
-      "author": "Robert Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "If you are reading my review, you are most likely where I was two months ago: Searching for \"reputable and quality contractor\" to remove trees and brush, maybe put in a driveway or grading. I was anxious just like you.\n\nYour search stops here! Go with TBX Landworks (Ask for Ty or Cat), it will be an excellent choice.\n\nI purchase a lot... it needed a driveway, turnaround spot, and removal of trees and brush. Go figure... I had issues closing with the buyer on my property - Ty and Cat were patient with the closing, knowledgeable, secured all necessary permits, and did an outstanding job! Five Stars!"
-    }
-  ],
+        {
+            "author": "Love my pets",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I hired TBX to clear my horse paddock which  is partially wooded and had feet deep overgrown weeds, pine cones galore, tree branches, tree trunks, and several dead trees still standing. I could not be happier with the work they did. It literally looks like a different paddock! They used the forestry mulching attachment, and boy did it pulverize EVERYTHING. In addition, they were super easy to work with and super friendly with fair pricing. My entire experience was top notch. I highly recommend TBX!!!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvwwLfp4Vpb8w46U9USM3_etdpuD0XNnMb4_ZAh9UBNgtKBKe7n3SF_EyKMiewudvppt49O2ZZdeHcJo_FTTsL6w59acOMBxwzAR1qaEAlKmrfkgIFZNjksuI61oE5jJ0ETtFcBoGm6ko=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdb6FaWH7Ly2aBT6U2BwhBEiywgam9TGuW95Grp3a-UaLbgvXFU_fayw3033JYlawZIbKqq5dJWEOthVmALV4Q1IBLfuw31QjZL_3AAxMPQosiPAVfy5A4x5zLdD179JQAIsZFpvHQ57CO=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcoyOM8eP_yNJ7x8CP-jdeZS8imFTtGXBEopnLkRL_BP2C1Gx17Tm2F6s8MIivhPbdKmZXGlVW-3KaJUp7O80G4DZ7Oa_y-xquE_hNdr1KKXCkDz64Ky8KIIKX4JGQVobeAQZQtNpz_u-KN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Rachel Heslen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ty and Cat Buska are responsive and easy to do business with. The land clearing for my chicken coop turned out better than I expected and they prioritized my project. I will always call TBXLandworks for my forestry needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdD8-w2KAHq0sylXSYeGyAraWb-u73UGPENzx7oCRMX3hRNuldG29m4xdlXmOjjgpe8sVobrVd2U-KFBnmsz-u9uarDHOf16LsclBaMe_XSdK7_ezBjBjnVYEFRHTXW-WPU0I64OZoBljg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Hope Williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ty is the best.  He came out to take a look at the job I wanted done.  An estimate was given promptly after visit.  The work was completed by Ty.  He did an excellent job.  I would highly recommend this company."
+        },
+        {
+            "author": "Kim Williamson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Needed forestry mulching done on my property for future home build. Ty did a fantastic job of clearing underbrush so I could see where I wanted to build the house. He was careful about maintaining all of my trees. I actually had neighbors go out of their way to text me to let me know how great the property looked after the job was done. Saying it was the best work they had seen on any of the properties in the area. Ty was prompt, professional, and reasonable with his pricing. I will be keeping his company on retainer for the up-keep of my property. Shown are a before and after photo.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd_04A8Wt4stDjgSAti9K8pHqhVDgz-y7jviPYQPZFCS5ejOH8n0yVEsJyAls31nmhs36ZUifknzZmV4S77g6MlKee0fixG6JIRPcvCtk_gazfLen7tWFp_09hhQhAoKhNRkWWG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfWGbIGmCJyhBI6R8hyXyQfDQzEp0hK9zb4cXpWqB2OL88ZvEBJc0dRgM6SNiha3lTU5MhwnaEWHfj1eZuQFgd3gI8Zm-36_u1fT53EfIUuDJI4njrIJzIyAuHTy7tieqqYePbrZA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Robert Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "If you are reading my review, you are most likely where I was two months ago: Searching for \"reputable and quality contractor\" to remove trees and brush, maybe put in a driveway or grading. I was anxious just like you.\n\nYour search stops here! Go with TBX Landworks (Ask for Ty or Cat), it will be an excellent choice.\n\nI purchase a lot... it needed a driveway, turnaround spot, and removal of trees and brush. Go figure... I had issues closing with the buyer on my property - Ty and Cat were patient with the closing, knowledgeable, secured all necessary permits, and did an outstanding job! Five Stars!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjrXopo0g_z8fH2v3gZ-ek9eU_Xc3MP5Rtoc5MtxJkj92-0ty4GQxArNdHnwCdfVTaXcHw_wCGVFu9leKLsgqNBIBQvlmsYchtMPcyYY0QJ5w8TQnzFil-9n-RkeYQBE5AtsxIpA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Athens (Central Depot)",

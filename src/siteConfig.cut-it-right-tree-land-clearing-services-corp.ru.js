@@ -31,21 +31,9 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpRu = {
     "ctaPrimary": "Позвонить (+1 239-910-6922)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Cut it Right Tree & Land Clearing Services, Corp"
-      },
-      "sub1": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,67 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Clutter Bee Gone SWFL",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\n\nSteve and his crew were absolutely AMAZING from start to finish. If you are looking for the best landscaping company, land clearing service, grading contractor, or property cleanup service in Southwest Florida, I highly recommend him..."
-    },
-    {
-      "author": "124 Real Estate Management Inc.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a great experience with Cut It Right Tree and Land Clearing Services. Alexis and Steve were both extremely knowledgeable and professional throughout the entire process. Communication was outstanding—they kept me informed every step of..."
-    },
-    {
-      "author": "Alexander Scaduto",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend. Cut It Right Tree and Land Clearing Services did an outstanding job transforming my property. From start to finish, their team was professional, efficient, and extremely detail-oriented. They handled some tough clearing wo..."
-    },
-    {
-      "author": "Brandon William",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Cut It Right Tree & Land Clearing did an amazing job clearing my property. They were professional, on time, and worked hard from start to finish. The crew made the land look completely different and cleaned everything up nicely afterward. C..."
-    },
-    {
-      "author": "Gnob Deal",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What a wonderful experience with this company, family and crew! Spent 2 days cutting down arcadia palms in such a tight area.\nAlexis was a pleasure to deal with and kept in contact and Steve was simply amazing, professional, careful and ver..."
-    }
-  ],
+        {
+            "author": "Clutter Bee Gone SWFL",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\n\nSteve and his crew were absolutely AMAZING from start to finish. If you are looking for the best landscaping company, land clearing service, grading contractor, or property cleanup service in Southwest Florida, I highly recommend him...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3XPFdYKYQW0CahZ8c2Dcd17ronoSp8BigWM6ZOYciNO5DWK3Dth2570qKSyKjfVpGPlzV9i_IHkEVDRoPdKG7hpYuZ4EDwYQ7YfuVCiISPNRLxGnPRISqz2IrLzApiuwTy-vX99DBBux9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcOtk7UdDttQvUTzch-6WH4vYz_wad8mtvegD1J2uBNcdj7ptZAscgZSzEoxzMquaOqoRTdI-iPljL3RVX8LBTHcxofD-YprHHMkUzp4uGW8ykjO4IxBMkMnG-MTq-byG52Us8CU_ZmJ-rM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesC7rLpoJnal8UHgBu2uDqNYcwGGCZdX9vLYZ5iivjBx7FIyH9uShQpnfqnLdAsDzr3QRqs6c-Ml29U9rReJgnjnNlz2PSkpRzXoSkb7z6fSLm5wlFD8xM5aVwWpizGI7jVMmutO8wMVgp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcLIdN12IvfwDeNJbIl4QuN4QFFojhEIrxL7ScudlMZOlr9PtVGbi2QGw7wo0wkimwQludgYHdfsBA0ovlIObvaiwtIO2LoejzBdqh0N5EuLIy9A5L0KllzoRNTxofc_2FwFEGppcQ0VXPL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "124 Real Estate Management Inc.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a great experience with Cut It Right Tree and Land Clearing Services. Alexis and Steve were both extremely knowledgeable and professional throughout the entire process. Communication was outstanding—they kept me informed every step of...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeM_53n0REglMtMlzvJnQ89O5yBM470LDIWcilHPyTBpIAfi08wbm9unDr1pwbLlLQCZLb7wcEAiarfWSKBj_q0Ht2-QXiR5L_l68_-Lsmxp5dV8uGElTdewtKo3zfEnsjqPlemMGUOO1Q8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPdEGc_m4YyYgZmAWEa7gbKsla5j1fq1pYOnZWtgfCpwExSxq7gBc44-ZHtsYHnVn2grh_n9Nsobp1Gp_PLtNxur6kpcROrcEmlu8L7cVh2D0KzClWjyk5S9OKpdyq1BYs0r05ihanYvPX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJS19m3R-2AEH3rZB20EiLTeD-ogrgjWdmYnyHXexrb42mUx8iBm346kFty-huYWBKCzBT7U5ZDvS8EYXKoCfdTwKfemxSZCaRlZNzNm8o23elSpepu9kDa3QyU5Et9osDq0-e9dfRilHX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alexander Scaduto",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend. Cut It Right Tree and Land Clearing Services did an outstanding job transforming my property. From start to finish, their team was professional, efficient, and extremely detail-oriented. They handled some tough clearing wo...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTybqNYujELEdhgLKIhEby9Ns0X5dJHPQRVBiRt2oy3MRX4iiZI-GgNOB3_yDMOuQrVFptZowXbXIqWF6oaXvuN8AnHNTOMu_OFSZjlG57OCVOPX3UeNjNnsubBQVU2ydq92YVDKgvsApe=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brandon William",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Cut It Right Tree & Land Clearing did an amazing job clearing my property. They were professional, on time, and worked hard from start to finish. The crew made the land look completely different and cleaned everything up nicely afterward. C...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-3Acd1itJbw3sOOdjnwNkGvm9yHyZ2KaU_BhW1hc1fvVqVi1VfEdM2x-yR20v_r3B2k3IJs273vuj4zt9ey9Mvp5Eu388IG6ZYn9x8-HMQh5hJYA7b71D5XrfZL5OYFEUmikll_93j0VO=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemIPudMid73O097no7B39tr-OJCaLdOcX64lCAP3sRchlI-5GLnace1Uxo3hwt8b3OiE1cywGOF6uGzqkIA1VkeX--9onNFEj9Jq1EzuF8IjZX-Cc2N2zX-AcLiqLBwvIuMhy-I9pui8L7=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeL4OVZXbR69iXCGegd_4tvGSTVP64dz2acJ9K9muViMEPaomoOntUhPoXiylmIKEEuXzrLNXEO4aWaVTiePmRFKYjmrCCBcPB6WEC7pm0Gz7l0EXDFd9t_zf8iDq---qNBVmeM28qD4A8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiuRwUBL_2jGvSyNR18rMf5PjYRMe98BGt6DuSW4x_BU8LPRju02t14VGD5L0waLq0Joe1CP-qPgtVi10mZZoYe1lq49jGamvK6KiPrhkM0bvQIf7M1fHR548lRAjOuexGptJzA2NpOF-A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Gnob Deal",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What a wonderful experience with this company, family and crew! Spent 2 days cutting down arcadia palms in such a tight area.\nAlexis was a pleasure to deal with and kept in contact and Steve was simply amazing, professional, careful and ver..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

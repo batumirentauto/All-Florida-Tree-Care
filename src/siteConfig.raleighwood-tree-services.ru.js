@@ -31,21 +31,9 @@ export const siteConfigRaleighwoodTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 252-333-4540)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/raleighwood-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Raleighwood Tree Services, LLC"
-      },
-      "sub1": {
-        "image": "/images/raleighwood-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/raleighwood-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRaleighwoodTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/raleighwood-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRaleighwoodTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/raleighwood-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRaleighwoodTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/raleighwood-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigRaleighwoodTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Dennis Quisumbing",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently had the pleasure of working with Raleighwood Tree Services for tree cutting services, and I couldn't be more impressed!\n\nGarner was kind enough to come out twice to discuss a quote for the project. He provided me with a clear and..."
-    },
-    {
-      "author": "Ruth Michele Byrd",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Working with Raleighwood Tree Sevices was a great experience all the way around. Garner was willing to speak with me on the phone several times leading up to a large job at my mother's house that we had a lot of questions about. He was easy..."
-    },
-    {
-      "author": "Anthony Franco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had an amazing experience with Raleigh Wood Tree Service! From start to finish, the team was professional, knowledgeable, and courteous. They arrived right on time, explained everything clearly, and made sure the job was done safely and e..."
-    },
-    {
-      "author": "Tim Boyer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is was my second time using Raleighwood Tree Services.  They did an excellent job.  Estimated the job and exceeded expectations.  Garner is also very knowledgeable and helpful with recommendations.  Communication was great.  Clean up p..."
-    },
-    {
-      "author": "Brad Bobbitt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My neighbor was having trees trimmed and was very pleased with Garner. So I decided to ask him to remove two in my yard. They were nothing short of amazing to watch, very diligent and thorough. He took great care to make sure my adjacent fe..."
-    }
-  ],
+        {
+            "author": "Dennis Quisumbing",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently had the pleasure of working with Raleighwood Tree Services for tree cutting services, and I couldn't be more impressed!\n\nGarner was kind enough to come out twice to discuss a quote for the project. He provided me with a clear and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc39AJg562Fxbf0kd-g8wEWK9fuMT1qwCHeMe7w4E9W1rCOpK8MbVEHcCZnK0N081sm3oYtk10W1_TSiH2wqtxJdfA67DxuhKcvpIDywFQWvvUoUwXQSKXzVJjVGt6FYcX-yi5t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVP3yV9M8JdaYvnKqCvgOPZSolOeK8fuyZYAnGy5Ng8vQBADBtRe7MI2T6zD3qZ4vhHtXT4u_jD38oz8jvO4QCmq4UViNmvWtpTs048T043jKnj0vwwFdyA4CfqocgbXa4s0iHIw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuw89RHIccBmNdKyHhtx_NuCRdrktdHI5lzM1kKdD2F2QjYl6nIfGzzlXKJktzzPbs5vMFCke4CZZYCDra4UiwpWSiwul5gKibPeUVpBwrfIKNXZGNULNVdzQYfGK-9SX3c_I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLelBgY1g8Wq7fGk2nzq0D_l0Gry4EjtE7zWgv4EXmTpA7MBsC2cRnD8WewgFPmFmbdB65b1szYWgniOjVuuVRaUD4G4h0IIZXrxClRepG5sNBl5DDdfFVKLvTaQ_YKeFBX05nMUng=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ruth Michele Byrd",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Working with Raleighwood Tree Sevices was a great experience all the way around. Garner was willing to speak with me on the phone several times leading up to a large job at my mother's house that we had a lot of questions about. He was easy..."
+        },
+        {
+            "author": "Anthony Franco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had an amazing experience with Raleigh Wood Tree Service! From start to finish, the team was professional, knowledgeable, and courteous. They arrived right on time, explained everything clearly, and made sure the job was done safely and e...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRAFaD5JzVMoucOwkxZqPHjZsDUh13ncQW2bH1IT700WU3rms7IvR_-9Prtkrh7GabmxbPu6XXN64XJw-ZuUEtmXF0gSIxgrtJMANFXlPUovnGtriaVXtTJNU186HrNA2ilere-mFEqJUf=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tim Boyer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is was my second time using Raleighwood Tree Services.  They did an excellent job.  Estimated the job and exceeded expectations.  Garner is also very knowledgeable and helpful with recommendations.  Communication was great.  Clean up p..."
+        },
+        {
+            "author": "Brad Bobbitt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My neighbor was having trees trimmed and was very pleased with Garner. So I decided to ask him to remove two in my yard. They were nothing short of amazing to watch, very diligent and thorough. He took great care to make sure my adjacent fe..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigPureTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 919-726-7042)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pure-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Pure Tree Care"
-      },
-      "sub1": {
-        "image": "/images/pure-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/pure-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPureTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/pure-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPureTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/pure-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPureTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/pure-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,55 @@ export const siteConfigPureTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Travis Matthews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys do great work, very careful with tree removal, cleanup, and just taking care of the ground and surrounding area. Scheduling was easy, on time arrival, would certainly work with them again for any further tree needs...."
-    },
-    {
-      "author": "Dana Camarillo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Pure Tree Care absolutely deserves a five-star review. Mark and his crew were professional from start to finish, clearly experienced, and incredibly respectful of my historic property and personal belongings.\n\nI have mature, producing pecan..."
-    },
-    {
-      "author": "Jessica Aylor",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mark and his team have done incredible work for us twice now.  We appreciated Mark walking through our yard first to advise us on urgent projects and future ones to anticipate.  Then we were able to schedule the work within a few weeks, and..."
-    },
-    {
-      "author": "Katie Wouk",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a wonderful experience with Pure Tree Care. Mark was great to work with—responsive, knowledgeable, and professional from start to finish. His team did an excellent job and worked efficiently. The quality of the work was outstanding, ..."
-    },
-    {
-      "author": "Joya Matza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mark and his crew were awesome! They removed many large ash and other varieties of trees from our property. It was a several day project and each day the crew was professional, showing up timely and worked late if needed to stabilize the wo..."
-    }
-  ],
+        {
+            "author": "Travis Matthews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys do great work, very careful with tree removal, cleanup, and just taking care of the ground and surrounding area. Scheduling was easy, on time arrival, would certainly work with them again for any further tree needs....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ7OBFl90VAgEP7E0FnGrLhhZyKHUVigvNxik_gZswKzOv7_CTOkaYQPQxNvUH2dzSSgETEvkMg5so9l-32rjCpsbnYAdltAMGUiG5UUBLJ72aFmozLXgu88FmVOTQwbe0ghBbW-xYL4-x=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Dana Camarillo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Pure Tree Care absolutely deserves a five-star review. Mark and his crew were professional from start to finish, clearly experienced, and incredibly respectful of my historic property and personal belongings.\n\nI have mature, producing pecan...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFOk0YpYvwfnFGYs4pfY4IrYf2ADpP2ZSNqv-jWOfrkcY_Gj5oa_IqOVOvllMb2sO-5kIWDKvEVeoWMrUCjReNlpQJxNOUkUb9dLtyhCUrIxYor__73Xb4QzVwQH-XaS0hLAe4Wnpb6Fg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvdE1gobqAhR-uqlz8B1Olbu-5nfleIF-PMTc23cnylTGivkO7Truw721pZy_n0BzSP5343TKSJemjj6ZKa_Bv73PXnOIRIXwsyyg-UxvU-8pc8P6LieebfxFaDlPOmaXvOuZ7YlU-3ZnY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_knAXiAq3adGoEuNMkllM0-fgtKtQ1FOB2d5TT9W_eKY-ZJk0cgYyir5mMwuPkd3pCadx9aS8txscM2DUW8IIk6nEp9W-olCZ2QFiKQA486EjiHks3IGYDbBmqluWhEsC6yrpDDCILlMY=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Aylor",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mark and his team have done incredible work for us twice now.  We appreciated Mark walking through our yard first to advise us on urgent projects and future ones to anticipate.  Then we were able to schedule the work within a few weeks, and..."
+        },
+        {
+            "author": "Katie Wouk",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a wonderful experience with Pure Tree Care. Mark was great to work with—responsive, knowledgeable, and professional from start to finish. His team did an excellent job and worked efficiently. The quality of the work was outstanding, ..."
+        },
+        {
+            "author": "Joya Matza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mark and his crew were awesome! They removed many large ash and other varieties of trees from our property. It was a several day project and each day the crew was professional, showing up timely and worked late if needed to stabilize the wo..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

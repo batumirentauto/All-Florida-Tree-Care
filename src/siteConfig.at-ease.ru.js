@@ -31,21 +31,9 @@ export const siteConfigAtEaseRu = {
     "ctaPrimary": "Позвонить ((229) 977-1139)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/at-ease/photo_005_crop.jpg",
-        "label": "Вывернутый штормом дуб",
-        "alt": "Огромный дуб, вывернутый с корнем на газон перед домом во время бури"
-      },
-      "sub1": {
-        "image": "/images/at-ease/photo_001_crop.jpg",
-        "label": "Распил упавшего ствола",
-        "alt": "Вальщик с бензопилой производит раскряжевку гигантского упавшего ствола"
-      },
-      "sub2": {
-        "image": "/images/at-ease/photo_004_crop.jpg",
-        "label": "Заделка ямы от корня",
-        "alt": "Выровненный грунт и убранный газон на месте извлеченного корневого кома"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAtEaseRu = {
     {
       "name": "Спил деревьев по границе участка",
       "badge": "Зачистка периметра",
-      "image": "/images/at-ease/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAtEaseRu = {
     {
       "name": "Уборка кроны после ветровала",
       "badge": "Утилизация ветровала",
-      "image": "/images/at-ease/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

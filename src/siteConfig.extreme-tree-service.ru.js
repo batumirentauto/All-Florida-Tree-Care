@@ -31,21 +31,9 @@ export const siteConfigExtremeTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 843-241-1615)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/extreme-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Extreme Tree Service"
-      },
-      "sub1": {
-        "image": "/images/extreme-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/extreme-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigExtremeTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/extreme-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigExtremeTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/extreme-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigExtremeTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/extreme-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigExtremeTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Barb Radocaj",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The Kindness of Strangers – Extreme Tree Service\n\nI cannot say enough good things about Extreme Tree Service and the incredible people behind it. Our 8-month-old rescue kitty, Smokie, was stuck about 50 feet up in a tree deep in the woods f..."
-    },
-    {
-      "author": "hi everbody (build a boat)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Scott’s team came out and Removed a big pine tree from my backyard. They did it with ease. They were very professional and extremely knowledgeable, needless to say I was very impressed. A would like to especially thank Kala for her hard wor..."
-    },
-    {
-      "author": "Brian",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew at extreme did an amazing job cutting down a huge tree and trimming back a Bach of others on my property the owner was very knowledgeable and walked me through every step great prices and fast service I’d definitely recommend..."
-    },
-    {
-      "author": "Sheila Fegett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Extreme Tree Service is the best of the best. They took down this huge pine tree that was very close to the house with ease and expertise. They did an outstanding job and cleaned up precisely. Scott and his Crew are very professional and fa..."
-    },
-    {
-      "author": "David Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was very pleased with every aspect of the service by Extreme Tree Service.  Owner Scott Barth arrived on time, did an excellent job of grinding 17 small tree stumps and his charge for the work was very fair and priced well below the other..."
-    }
-  ],
+        {
+            "author": "Barb Radocaj",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The Kindness of Strangers – Extreme Tree Service\n\nI cannot say enough good things about Extreme Tree Service and the incredible people behind it. Our 8-month-old rescue kitty, Smokie, was stuck about 50 feet up in a tree deep in the woods f...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuyaxkEtyCZLcrT6OdsT5noPKb9lHQpObvpP0arsRTwl12FtkAlMvnqPFn1bxPyLYBQRc1-zLLEF6m1LuhdTq_53XYzT1TB3BUwO3opWxqweZGuvFBgVGi_3nde8XdWpa5cuwOWsImQu4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdblEDtM2p5LHMa84dvhYP7q9W56oj1f0MhvveDbM7tvjaAqpS0DowKbAncJLgP-PmbmdA02J0osq_rr8rQEucNQcRU_retdQ6F19oTwdFInaoUo6qS-WhASP1x7vFrAXGsXTfYU3o_p1_Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLffKMlvHagDBHwhAQy4a0qyXyaKU65gJl4N-_3hqrFn_RpXMwzIYH_ZremA-K46ayUhi8xXgNwo4hVvwDCtOCFOHys455U9Cen929DaCSxYRDDuNAuqoA7FLXmrJTwww6UY_ZNNWU3CzlqS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc37plq27XOTG7Z5vFHDUElK3xgdiMl_xAsgd86EvOZKmsIqLHzZDHvYQZs2cZyUcFzueXatrqDf0UeUvlBFtErOZ0GR4u_hxRgjMm1FTuUZxOrVeLLy8olrj7prii9ajnBJY99sUv2lfX4=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "hi everbody (build a boat)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Scott’s team came out and Removed a big pine tree from my backyard. They did it with ease. They were very professional and extremely knowledgeable, needless to say I was very impressed. A would like to especially thank Kala for her hard wor..."
+        },
+        {
+            "author": "Brian",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew at extreme did an amazing job cutting down a huge tree and trimming back a Bach of others on my property the owner was very knowledgeable and walked me through every step great prices and fast service I’d definitely recommend...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKZgtwYuaCuY83WDWNpkxiTIris5VTbmvJoNHvaMMxxOzeplFNCNEK9ww6vQFsqBR2kMjdNjXAjbw_vvE9R2LKuHyGdQhfwjnQsU2hsO5TKxGm8JqJXbv_yGKPD2kE-3DJjz_TnR_s2tNI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSHTlIaqq6Zd5ZKsO25j4zcHmNYlOPNOQydD80oDn4BvAL4qFEr5vE2rsRzZY7Kh08UCoYNOvus4C0WpJ0qOdrmmXpYABsmZ_tt7Hc5i_-evwFI6QEF6i1JpoIr_SqSeRRegJHHY3RPBke=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sheila Fegett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Extreme Tree Service is the best of the best. They took down this huge pine tree that was very close to the house with ease and expertise. They did an outstanding job and cleaned up precisely. Scott and his Crew are very professional and fa...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehAtL_28xqs8Pzg2Y84JiPVyjdsMfLAIaUjfrmGuGcjbPWXGhcstOsDw-LpUsuhN9fFftvFc2WKpExZOenCOqeU0ZW1iuWyNQje6oet2WzqWM8fv5KvFWVgGRB4HnZW7gMfO3dVEJqzHDp=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdOOkjRjAV49NOtQkA8Ryr_Wr0mtgPU5-Gyedy6T0qY_HgQ2akiaxDrKn2XGhEb78VYwEi0ZXLy6vOFn6PL5mw4fbQs8I5Yps3HdpU5K9jLWGIkcfwdFpJ46CvAmmUu2qRRHIx50JMfalw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdU3JFW7U0akDZdXqdXPjWOrpr0VItMi81IzVIOdG1adNgpLSex1uRSdxOGKzJ_-X1-ECCtJdWGJDzZb_czoUkyfpOWaa-sZ1qKDwKDVtJvHRA8kgxqI1Bd33isGkD05yGtUg3SG2IQwymj=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "David Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was very pleased with every aspect of the service by Extreme Tree Service.  Owner Scott Barth arrived on time, did an excellent job of grinding 17 small tree stumps and his charge for the work was very fair and priced well below the other..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigReleafTreeServicesLlcRu = {
     "ctaPrimary": "Позвонить (+1 941-323-5528)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/releaf-tree-services-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Releaf Tree Services LLC"
-      },
-      "sub1": {
-        "image": "/images/releaf-tree-services-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/releaf-tree-services-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigReleafTreeServicesLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/releaf-tree-services-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigReleafTreeServicesLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/releaf-tree-services-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigReleafTreeServicesLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/releaf-tree-services-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigReleafTreeServicesLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Buddhaboy420",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great service!!!  Had them remove a tree stump and it went great. We spoke a few times via text and on the phone. Showed up when they said they would and were very polite and professional.\nDefinitely recommend!!!..."
-    },
-    {
-      "author": "Audio Workshop",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ian was great, very professional and courteous and on time! We had a 50'+ pine tree to remove and stump grind... done in under 2 days! these guys got the heavy equipment to do just about any job efficiently, I was impressed. Highly recommen..."
-    },
-    {
-      "author": "Nora House",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great experience with Releaf Tree Services. Prompt, professional and excellent work at very reasonable price! I had a HUGE stump left from a Banyan tree that Milton took down. Ian came in and took control and did an amazing job in a short p..."
-    },
-    {
-      "author": "Jim Moore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ian, and his crew removed my  damaged, sick Oak tree, and grinded the stump. They did a fantastic job! Everything was done professionally,  in a timely manner, and at a fair price. Ian communicates excellent,  and is very pleasant. Definite..."
-    },
-    {
-      "author": "Marco Ramirez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Releaf Tree services did a great job grinding  the big stump I had in my back yard. They were professional and gave me the best price!  Will definitely be using them again anytime I need tree services...."
-    }
-  ],
+        {
+            "author": "Buddhaboy420",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great service!!!  Had them remove a tree stump and it went great. We spoke a few times via text and on the phone. Showed up when they said they would and were very polite and professional.\nDefinitely recommend!!!..."
+        },
+        {
+            "author": "Audio Workshop",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ian was great, very professional and courteous and on time! We had a 50'+ pine tree to remove and stump grind... done in under 2 days! these guys got the heavy equipment to do just about any job efficiently, I was impressed. Highly recommen...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeH2_CbuVlGiEtzqiKa9KJFw9uPoZDlJxY-EUCSYoq829czJU5OMHKmWTNUwIhDPc16pgoFzdOiRN-FtjHfOZ36VxZ5imjBRpTLhruwDunPdbd9dHakoKbTOoEb-KxXPgtxdurTbg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Nora House",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great experience with Releaf Tree Services. Prompt, professional and excellent work at very reasonable price! I had a HUGE stump left from a Banyan tree that Milton took down. Ian came in and took control and did an amazing job in a short p..."
+        },
+        {
+            "author": "Jim Moore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ian, and his crew removed my  damaged, sick Oak tree, and grinded the stump. They did a fantastic job! Everything was done professionally,  in a timely manner, and at a fair price. Ian communicates excellent,  and is very pleasant. Definite..."
+        },
+        {
+            "author": "Marco Ramirez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Releaf Tree services did a great job grinding  the big stump I had in my back yard. They were professional and gave me the best price!  Will definitely be using them again anytime I need tree services...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sarasota (Основная база)",

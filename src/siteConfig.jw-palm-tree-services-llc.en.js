@@ -32,21 +32,9 @@ export const siteConfigJwPalmTreeServicesLlcEn = {
     "ctaPrimary": "Call Jonathan +1 850-206-4686",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jw-palm-tree-services-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "JW Palm Tree Services LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/jw-palm-tree-services-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/jw-palm-tree-services-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJwPalmTreeServicesLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/jw-palm-tree-services-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJwPalmTreeServicesLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/jw-palm-tree-services-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJwPalmTreeServicesLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/jw-palm-tree-services-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigJwPalmTreeServicesLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Bryan Poole",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jonathan and his crew recently trimmed our palms for the first time and we are very pleased with the results. Great work at a fair price. I would highly recommend that you give them a call."
-    },
-    {
-      "author": "John in Pensacola",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jonathan and his crew did a great job trimming my palms trees. They were very fast and efficient. Will definitely use them again in the future!"
-    },
-    {
-      "author": "Jason Fenton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Both Johnathan and his worker where great respectful guys. Knew what they where talking about and was honest. When first met John we discussed what I wanted and he was upfront about cost and quality and time, rare thing these days. Would highly recommend him for any tree work needed done."
-    },
-    {
-      "author": "Brent Harris",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Fantastic service, good communication, cleaned up the area when finished and treated my property with care.  The price was good and he was willing to renegotiate for some additional work.  You can’t go wrong hiring him and his crew, I will definitely do more business with him."
-    },
-    {
-      "author": "Matt Nolan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Jonathan Watson of JW Palm Tree Services late on a Friday afternoon and he was able to come out the following Tuesday to trim up my 5 palm trees that hadn’t been trimmed up in about a year. He’s enjoyable to talk to and very knowledgeable about palm trees. He thoroughly explained answers to my questions regarding my palms and gave me some pointers to help keep them healthy.\nHe showed up when he said he would. He was very efficient and had our five 25 foot palms trimmed up within a half hour, and extremely reasonable on his pricing.\nI’ll be contacting him in the fall for another trim so we can get them trimmed on a more seasonal schedule instead of the middle of the summer."
-    }
-  ],
+        {
+            "author": "Bryan Poole",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jonathan and his crew recently trimmed our palms for the first time and we are very pleased with the results. Great work at a fair price. I would highly recommend that you give them a call.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeujO_x3EKe1fmSQM42YA_8UAFBfgKRWiIQx4ht-PHygnkxLQ59rTioLaqJhQjXPwQgAh5coRmu4lTTgPJBaaYScQL9rJmMeH_YA25FJbV0zoB-WTacZz7PmRbcV7U8FYwJz8Kd5g=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "John in Pensacola",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jonathan and his crew did a great job trimming my palms trees. They were very fast and efficient. Will definitely use them again in the future!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDMj9rWGmip4pQjM2Cth7Q1IkDpN5mwUkAgG1vjmP_tTJB-I3THtYHPbDNbWc-VXLitWsLaLTtviSoZq2ncZnGEca3buk9wfn5AchR4Eb6Eg0-5IAGZ3YV9G_f948V2eG7FJn3=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIYUgsiViV4oGcyhN5QSpg9En9VLDPHLNsv8IOEF7j0nWU0n10f7zGm9Wz1XEgwD2LC99SbURS3ECYRj79Y7lTsL5eq4kIEu4hZtrbGZh8DKZThTGXbECBGO26ovHNpKagldCw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jason Fenton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Both Johnathan and his worker where great respectful guys. Knew what they where talking about and was honest. When first met John we discussed what I wanted and he was upfront about cost and quality and time, rare thing these days. Would highly recommend him for any tree work needed done."
+        },
+        {
+            "author": "Brent Harris",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Fantastic service, good communication, cleaned up the area when finished and treated my property with care.  The price was good and he was willing to renegotiate for some additional work.  You can’t go wrong hiring him and his crew, I will definitely do more business with him."
+        },
+        {
+            "author": "Matt Nolan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Jonathan Watson of JW Palm Tree Services late on a Friday afternoon and he was able to come out the following Tuesday to trim up my 5 palm trees that hadn’t been trimmed up in about a year. He’s enjoyable to talk to and very knowledgeable about palm trees. He thoroughly explained answers to my questions regarding my palms and gave me some pointers to help keep them healthy.\nHe showed up when he said he would. He was very efficient and had our five 25 foot palms trimmed up within a half hour, and extremely reasonable on his pricing.\nI’ll be contacting him in the fall for another trim so we can get them trimmed on a more seasonal schedule instead of the middle of the summer."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Central Depot)",

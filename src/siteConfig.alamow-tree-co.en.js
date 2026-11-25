@@ -32,21 +32,9 @@ export const siteConfigAlamowTreeCoEn = {
     "ctaPrimary": "Call Lead +1 210-865-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alamow-tree-co/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Alamow & Tree Co. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/alamow-tree-co/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/alamow-tree-co/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAlamowTreeCoEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/alamow-tree-co/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAlamowTreeCoEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/alamow-tree-co/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAlamowTreeCoEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/alamow-tree-co/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigAlamowTreeCoEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Maria Lourdes Herrera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Alamo & Tree Co. I did have a big job 2 trees removed and tress trimmed. Andy and his team were on time and  clean. Every step of the way he informed me and checked in with me. I will definitely call him again. No trees hitting my roof."
-    },
-    {
-      "author": "Kathryn Dunlap",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve been using Andy and Alamow & Tree Co for the last few years now. Every time, they’ve come it has been the very best service. Andy is honest and prices are reasonable and the service is always top notch. Even recently had a 2 large tree branches fall break and fall and they were here in 2 days and cleaned everything up for me in 15 min! Highly recommend using them for jobs, small or large!"
-    },
-    {
-      "author": "GLORIA Lott",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alamow tree co came in and did a great job with our trees.  Andy was knowledgeable and gave us a great price to remove two trees and clean up three huge oaks. I will definitely use them again and refer them ."
-    },
-    {
-      "author": "Jamie Byrns",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alamow & Tree company did a great job with cleaning up all the trees on our property that we just bought. They had a quick turnaround time and they did an amazing job!"
-    },
-    {
-      "author": "Kirk D Stanley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Andy and crew performed trimming/pruning of our cedars/oaks and taking down trees where appropriate. Service and outcome were great.  The team is efficient and productive and cleans up well each day.  Would highly recommend Alamow for any tree work you may need."
-    }
-  ],
+        {
+            "author": "Maria Lourdes Herrera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Alamo & Tree Co. I did have a big job 2 trees removed and tress trimmed. Andy and his team were on time and  clean. Every step of the way he informed me and checked in with me. I will definitely call him again. No trees hitting my roof.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeM8gSZwBft5-3EmuOmGnhGbyLBcRaBPPdwr-iUfXrPajEC60rsd-M2c-hE0-dYP-0YTeKTuvcGQMky-e2jArcybBP527KgpCWDtIUofa2S7EwX-ZRnI9sZAz-_LBwR6l9XdFlNht8XwQE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzZp5c1smPY8uQP8-BkJsThhLqog_VxUL40FTzrdPX6BQNiPqn5LxxzRmd1R6DGIrc_niCANvWd3HipUZQjkRIKG5jgmZ2lG2cVb0KBwKxd4uyLqocLWBrLddF83koslCQ776PUKX0ylA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1yJiaIGMHJ4LkQ24-Nn862xJUjasqqVk3TBU3AtxuIQk4gvj-yHmXlY5kIChpzgjESAnE-Mafd8lgTbdZwOzIcqlCF9jrBuqFeFQXZuO1Y4kni36gv-AjdtQck1W9uIIh0ia7QtptiQIX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kathryn Dunlap",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve been using Andy and Alamow & Tree Co for the last few years now. Every time, they’ve come it has been the very best service. Andy is honest and prices are reasonable and the service is always top notch. Even recently had a 2 large tree branches fall break and fall and they were here in 2 days and cleaned everything up for me in 15 min! Highly recommend using them for jobs, small or large!"
+        },
+        {
+            "author": "GLORIA Lott",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alamow tree co came in and did a great job with our trees.  Andy was knowledgeable and gave us a great price to remove two trees and clean up three huge oaks. I will definitely use them again and refer them .",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdeT-KOojC3kldiYUJZTz3p_vFag0HqG-L0r70wgk1obg7d_4Sm35U-1tW3HHZfbiVjM1TRunUy14nJn9duSWMkKOjwHsyqV_JAHX_i1iTugoZRVxjQCMrSURR5xaiiEh0HQz_Z=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jamie Byrns",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alamow & Tree company did a great job with cleaning up all the trees on our property that we just bought. They had a quick turnaround time and they did an amazing job!"
+        },
+        {
+            "author": "Kirk D Stanley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Andy and crew performed trimming/pruning of our cedars/oaks and taking down trees where appropriate. Service and outcome were great.  The team is efficient and productive and cleans up well each day.  Would highly recommend Alamow for any tree work you may need.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9KT-nNOgNQTUSFBsMOH5P2ZxLCzKJCKObPFjK_x82gTc8LZYL38N3JSUpdGGBgqm5g-OJaaCOMHE3F4aWKDm9vOITlCiso5OrWaZ5JUMXLiXSo0eAsmivxQfK1DrycM-u-cDL=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Central Depot)",

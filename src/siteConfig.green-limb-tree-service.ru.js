@@ -31,21 +31,9 @@ export const siteConfigGreenLimbTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 336-254-7993)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/green-limb-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Green Limb Tree Service"
-      },
-      "sub1": {
-        "image": "/images/green-limb-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/green-limb-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGreenLimbTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/green-limb-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGreenLimbTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/green-limb-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGreenLimbTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/green-limb-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigGreenLimbTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Thomas Murray",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The guys were on time, did a great job, cleaned up great, even got up the saw dust from cutting the 2 80 foot tall pine trees down, we will be using Woan and his crew again, Great job well done 👍\nFast, on time,done quick,very fair price. …..."
-    },
-    {
-      "author": "Liuy Bunong",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Green Limb Tree Service is my go to tree service I have used them multiple times and they do great work, very outstanding, professional, reliable, and affordable. I recommend them to anyone and I continue using this 5 star service!!!! They ..."
-    },
-    {
-      "author": "AC is #75",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Greenlimb did an amazing job cutting limbs away from my house. They are professional with quality work! I highly recommend this service to anyone that is looking for professional and quality with good price!!!..."
-    },
-    {
-      "author": "Jo HillHart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The workers were very nice and knowledgeable. The amount quoted for the job was great! I will definitely call again for future services...."
-    },
-    {
-      "author": "Michael Souther",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have used their services twice in the last two years. They were very prompt with their estimates and were on time to do the work. They clean the area extremely well. I highly recommend their tree services...."
-    }
-  ],
+        {
+            "author": "Thomas Murray",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The guys were on time, did a great job, cleaned up great, even got up the saw dust from cutting the 2 80 foot tall pine trees down, we will be using Woan and his crew again, Great job well done 👍\nFast, on time,done quick,very fair price. …...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdutQRp8g8eOTz_AhqogbTKAq0VrLoRRtvTo1mr5ncDex2QXqIDE5__pd03vyDDXRV4q0f8hLNKu-IIKGDNOOgjdNm3s84Ge8GpYPzy1hYc6-xxk32um13loXvb4LcMGiRZHROwwV17U0Q=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxR_rlwnoyhjWGqwjvYaWn4Oy9kxYDqefyJHKOlC7DuC_5rK1CKuscaymu3ZwABcsodYDXUyIREGfZBTKOk2imPDshWJCf7fbJaY9g00U-iAE1gmSCLBbK7ipMd__4dx3ojZlzeXt5uXF5=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Liuy Bunong",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Green Limb Tree Service is my go to tree service I have used them multiple times and they do great work, very outstanding, professional, reliable, and affordable. I recommend them to anyone and I continue using this 5 star service!!!! They ..."
+        },
+        {
+            "author": "AC is #75",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Greenlimb did an amazing job cutting limbs away from my house. They are professional with quality work! I highly recommend this service to anyone that is looking for professional and quality with good price!!!..."
+        },
+        {
+            "author": "Jo HillHart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The workers were very nice and knowledgeable. The amount quoted for the job was great! I will definitely call again for future services...."
+        },
+        {
+            "author": "Michael Souther",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have used their services twice in the last two years. They were very prompt with their estimates and were on time to do the work. They clean the area extremely well. I highly recommend their tree services....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1u4WrCIOx4TqZRTVQsYY8CyI1jSxyq3zXg4cRyDSRn2EGjS-WyJyJpUiiMUDXLdrhrZrinvItOeXIiewxa73Q-X0qNdLDzWoIPNRSnkTddxTXu_VfNdCp5uMLbDnobQ88gImE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLem3tuoc1ANp5EbILDCjjJE6qbvfrVjQRkCQ_NUWn2xF4FJ_FDiZYtmtYYTHhrSY97XBOYcsPSq_lMZsih6lg74cWbBJhSv1W95z8pHemIlNSpXzJxwF5MYT5mC_r6B8JooJQKeRQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfZgeKw7GPtv7HCEVrbGhTaLnMNwEXRpzU6ao85VMg2GAqt6DEC9LN308-F6bYZIG7FQeP9dSGoP81u-c-TWJkgFh_IJUdTF0GT_7dAR-vZ13jMOmkcYp2imRW5_d7yMKN8TH4=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

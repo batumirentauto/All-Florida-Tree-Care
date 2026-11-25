@@ -32,21 +32,9 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
     "ctaPrimary": "Call Sergio +1 210-940-3697",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "3 Monkeys Tree Service San Antonio tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kelsey Sharp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys were amazing, they did way more than expected and truly take pride in their work. We had 3 different neighbors use them for services and highly recommended them. They will 100% be rehired for maintenance and I will refer them to anyone needing tree services. Thanks Sergio and team!!"
-    },
-    {
-      "author": "Jaffar Chughtai",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "First company to answer their phone for tree trimming in San Antonio. The guys were great, highly recommend!"
-    },
-    {
-      "author": "Pat Teague",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They were very professional and well supervised. They did an excellent job of pruning the tree and even pruned the Crape Myrtle at no extra charge. They did a great job of cleaning up and even cleaned the gutters. I would use them again and highly recommend."
-    },
-    {
-      "author": "anthony williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Finally pulled the trigger on getting a huge mesquite taken out of my front yard and I’m so glad I went with 3 Monkeys Tree Service. I’d gotten a few quotes from other San Antonio tree removal companies and Sergio’s pricing was straightforward and fair without the usual upsell runaround. His crew rolled up right on schedule, handled the whole job safely around my driveway and AC unit, and had the tree down, stump ground, and debris hauled off in just a few hours. Honestly the most professional tree trimming and removal experience I’ve had in San Antonio"
-    },
-    {
-      "author": "Walker Hobbs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Sergio and his team did a phenomenal job on our property. I would highly consider them for any of your tree trimming needs. They went beyond the extra mile to ensure our house and other structures were out of danger. They are very professional and fast and left our place looking amazing"
-    }
-  ],
+        {
+            "author": "Kelsey Sharp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys were amazing, they did way more than expected and truly take pride in their work. We had 3 different neighbors use them for services and highly recommended them. They will 100% be rehired for maintenance and I will refer them to anyone needing tree services. Thanks Sergio and team!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdaT4InccwvlYUvQoRp4R7YllwHqmrgkVS0GfeYr0ZBrq4VLi5wdqw-T92LTyAZa68qiTY8B6n7IueCDNFpNK_86kOHF9uJQRpHnciVDiX0YXDboELf7AEB98WNV9gPglzjFbAvyM3I7GXJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-o1vaYTZn_zwEu6GFlTiNwDEC4pImdhs3jD6LMve07uJpLZGP8zsLhvPLVkW5sim_3VbbTGphUmeE-sI-LxWYxR-GQpqxMLt-Zz1wk6fhEY0zbCe7fUYOSAuxGFqOUxcyMBaMyg_NJGj-=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jaffar Chughtai",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "First company to answer their phone for tree trimming in San Antonio. The guys were great, highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeAcjBIgA6pTuhYbzkrQlXYx0ZCOkCALsDkouvA36NyhLJbTSpZHae-_c8wj7svk1O3FV0jzWyTzPiWZxeW1k7MvnMxaa5ffFkmaPDmrmYRtdKXTFxE7ObHjOrodOVk0VfrUIyO_zsHfdcw=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Pat Teague",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They were very professional and well supervised. They did an excellent job of pruning the tree and even pruned the Crape Myrtle at no extra charge. They did a great job of cleaning up and even cleaned the gutters. I would use them again and highly recommend."
+        },
+        {
+            "author": "anthony williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Finally pulled the trigger on getting a huge mesquite taken out of my front yard and I’m so glad I went with 3 Monkeys Tree Service. I’d gotten a few quotes from other San Antonio tree removal companies and Sergio’s pricing was straightforward and fair without the usual upsell runaround. His crew rolled up right on schedule, handled the whole job safely around my driveway and AC unit, and had the tree down, stump ground, and debris hauled off in just a few hours. Honestly the most professional tree trimming and removal experience I’ve had in San Antonio",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTYDKNhjGD_0HmuYx-7cMeuahS6j92brgY_6xI5_zUGz4GwgaH0gyGs0bU9M3D7ZmUAYw9vYhnX1pMnTV2DYJQxIwAezPygD4Hl1ySGlDBZjn8U8Ll0niYWhCxdip2uG6Gl5ArC4eqUo_Y=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Walker Hobbs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Sergio and his team did a phenomenal job on our property. I would highly consider them for any of your tree trimming needs. They went beyond the extra mile to ensure our house and other structures were out of danger. They are very professional and fast and left our place looking amazing"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Central Depot)",

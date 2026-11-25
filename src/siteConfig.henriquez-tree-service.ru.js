@@ -31,21 +31,9 @@ export const siteConfigHenriquezTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 661-444-9924)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/henriquez-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Henriquez Tree Service"
-      },
-      "sub1": {
-        "image": "/images/henriquez-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/henriquez-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHenriquezTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/henriquez-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHenriquezTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/henriquez-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHenriquezTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/henriquez-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigHenriquezTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Liz Austin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Honest, reliable and super fast! This talented  tree see ice trimmed all of my 30 palm trees in 1 day, hauled away multiple truckloads, and cleaned up every last speck of trees and debris. I could not believe it! Unbeatable prices! Best in ..."
-    },
-    {
-      "author": "Jaime Chavez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Henriquez and his crew have trimmed my trees for several years now, they even trim my shrubs. They show up early and get to work immediately. His crew is always respectful, friendly, fast, and cleanup is always spotless. Pricing is good, I ..."
-    },
-    {
-      "author": "judi koe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They did a GREAT job trimming out my Pablo Verde tree and cleaned up after! I Would refer them highly..."
-    },
-    {
-      "author": "Juels",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We used Henriquez Tree Service to cut 3 large trees in our backyard down to stumps. Their estimate for the job was on par (and even lower) than some we've gotten in the past, and they did an excellent job!! They did exactly what we wanted, ..."
-    },
-    {
-      "author": "Nancy Schwartz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They were on time, worked hard and safely.  Great job with my 5 pine trees. Friendly staff. I would highly recommend them. Reasonable prices also. Cleaned up after the job and none of my other plants or trees were damaged...."
-    }
-  ],
+        {
+            "author": "Liz Austin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Honest, reliable and super fast! This talented  tree see ice trimmed all of my 30 palm trees in 1 day, hauled away multiple truckloads, and cleaned up every last speck of trees and debris. I could not believe it! Unbeatable prices! Best in ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdT1xaO9xLexbyqPpb8OywdgoiS0Q17kLlNGN7Ywn6DFY3qA7dTKRepXsJmwFa2TYFNY022gFMmwtk0GjIf18lOVfwidvxUb-3K2-Wgdfn82qSJVnIv9KXm91LM8QZIF6NI_JY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvh5BP2bqsBuUXuDkbNek1PXXvBgbrMIJECQ5hzdF_3jALLsiLeL9WO-D7UIaGGJr7_nVPFaxMjVZ-7XVd4TXJec8U_kznoNoC1Un34E7isszyAVH6f9_O3826zVB88wfJdj05lg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLca8gT8oHhKFQ_gsqdR1VeJ2sDYHGivknYgIM18IiVCdvXc2P1QITJk4KwbOm4q8HyjbfrsApXTu57odtutoGeLgXDe3zxKsRaqaXpN4VjVpBV8dPSOwbZXTWWyAmJvuHGSx3o=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-aCGWosA3zaBs_epF6Bo6vZD_xU_W4Uv-q-8BjVA5YkJfni2t6IVWi5seNbL98gx2ncz-NeZD-zWTyhIpp20_dS16MYZ97GqSdsBoHW_ymD727ULxy4RpjgNrAb-mxbp7lNiN1g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jaime Chavez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Henriquez and his crew have trimmed my trees for several years now, they even trim my shrubs. They show up early and get to work immediately. His crew is always respectful, friendly, fast, and cleanup is always spotless. Pricing is good, I ..."
+        },
+        {
+            "author": "judi koe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They did a GREAT job trimming out my Pablo Verde tree and cleaned up after! I Would refer them highly...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiWjb0OYihrYHnABfbMMFjRE5TsiAZ56ms4_oz7VNFVYbe14d9cIbEaTE0rADYrDSgFtcMZfAtDdu2OMyB4qZiwwP9wg4W1sta6uu1s0FVCj2_5voTrlXln4MIIcTslUWzxJ8X=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Juels",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We used Henriquez Tree Service to cut 3 large trees in our backyard down to stumps. Their estimate for the job was on par (and even lower) than some we've gotten in the past, and they did an excellent job!! They did exactly what we wanted, ..."
+        },
+        {
+            "author": "Nancy Schwartz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They were on time, worked hard and safely.  Great job with my 5 pine trees. Friendly staff. I would highly recommend them. Reasonable prices also. Cleaned up after the job and none of my other plants or trees were damaged...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Bakersfield (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigAlphaTreeCareLlcEn = {
     "ctaPrimary": "Call Lonnie +1 360-991-1642",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alpha-tree-care-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Alpha Tree Care, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/alpha-tree-care-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/alpha-tree-care-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAlphaTreeCareLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/alpha-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAlphaTreeCareLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/alpha-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAlphaTreeCareLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/alpha-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigAlphaTreeCareLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "John Kimsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Over the last 10 years Lonnie of Alpha Tree service has become my goto for tree removal.  He knows his stuff.  Lonnie has taken down about 2 dozen trees for me over the years and always with great professionalism and expertise.\nMy only regret is that I'm running out of trees for him to take down (I love trees, but all trees have an eventual end of life).\nMost recently, this November I had 2 of my 80 foot maples come crashing down, falling across my fence and the street.  While the county and my neighbors helped clear the street.  Lonnie rearranged his scheduled to make an urgent appointment to come and take down the remaining two remaining 80 foot maples that were next to my house and remove the remains of the two fallen maples.  Turns out all four trees had severe black rot going thru their trunks and the two remaining trees could have come down during the next wind storm.\nI just can't recommend Lonnie and Alpha Tree Care highly enough.  As a rental owner I have a lot of contractor types that I routinely deal with, roofers, plumbers, electricians etc.   Lonnie is on the very short list of professionals I never bother to get multiple bids for, but simply just call him and ask him to do the job knowing he will always do a great job and a fair price.\nThanks Lonnie."
-    },
-    {
-      "author": "Chibi_Bro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Awesome experience! Asked for an estimate on a dead pine tree removal and they were out same day to take a look. Very reasonable price compared to other companies in town. They were out in a few days after agreeing to work and did some very, quick, professional work!! Would highly recommend!!!"
-    },
-    {
-      "author": "John Boyse",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alpha tree care is amazing! Professional,safe, and fast! They showed up on time, With a willing can do attitude! Great guys! They even charged me under the Original estimate! I also used  them to do my mom's property 3 trees or so. And they treated her great!"
-    },
-    {
-      "author": "Paprika",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Lonnie and his crew were timely, efficient, professional, effective, and affordable. I would definitely hire him again!"
-    },
-    {
-      "author": "TheCbass13",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had two giant elm trees removed after they started dropping large branches regularly. It was quick, safe, and reasonably priced. Couldn't be happier. I asked for them to be cut down as logs rather than rounds because I'm a woodworker. Now I have a safe yard for my kids to play in and a ton a of beautiful elm slabs."
-    }
-  ],
+        {
+            "author": "John Kimsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Over the last 10 years Lonnie of Alpha Tree service has become my goto for tree removal.  He knows his stuff.  Lonnie has taken down about 2 dozen trees for me over the years and always with great professionalism and expertise.\nMy only regret is that I'm running out of trees for him to take down (I love trees, but all trees have an eventual end of life).\nMost recently, this November I had 2 of my 80 foot maples come crashing down, falling across my fence and the street.  While the county and my neighbors helped clear the street.  Lonnie rearranged his scheduled to make an urgent appointment to come and take down the remaining two remaining 80 foot maples that were next to my house and remove the remains of the two fallen maples.  Turns out all four trees had severe black rot going thru their trunks and the two remaining trees could have come down during the next wind storm.\nI just can't recommend Lonnie and Alpha Tree Care highly enough.  As a rental owner I have a lot of contractor types that I routinely deal with, roofers, plumbers, electricians etc.   Lonnie is on the very short list of professionals I never bother to get multiple bids for, but simply just call him and ask him to do the job knowing he will always do a great job and a fair price.\nThanks Lonnie.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfneiMOyg8oGC_UKmGsu4HHfdL8pCfAPkQSYaj2ns6loaIB4yLnfa0gPLQT4bTBGLVF39eYwEaVAfoIpOodCnIXAXjvRnEcHqlDm6oT4y9DcQjsOPZQLdrqYYxSA_g4zMO8y7eyJBbFILc=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Chibi_Bro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Awesome experience! Asked for an estimate on a dead pine tree removal and they were out same day to take a look. Very reasonable price compared to other companies in town. They were out in a few days after agreeing to work and did some very, quick, professional work!! Would highly recommend!!!"
+        },
+        {
+            "author": "John Boyse",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alpha tree care is amazing! Professional,safe, and fast! They showed up on time, With a willing can do attitude! Great guys! They even charged me under the Original estimate! I also used  them to do my mom's property 3 trees or so. And they treated her great!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeefS-pcZsMmsasGrLBem351WjbvTfBUkqXnK-dvRDIm6UuWy6S2pHFv2iyUa3jhSXUAB5IrFhqIDP4ifKR7fHRzIjg7RKHlHSf2TQwUejj_Si1B5OTqnK6nkT1WHWTphrl02H=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHtq5Ish3rThzBHqMjmjOQDRrzsecGBZKncdksQd_0CtfKuKwU0WWmPO7RqhksoLME5wjkzghe4gRHyN5kzN0ZtGT_ROzuABzUwLdHh8wngz9kh_cYE7SGf328_6RkqTUX50dt=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Paprika",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Lonnie and his crew were timely, efficient, professional, effective, and affordable. I would definitely hire him again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgBkLHuYljymjRQw-BVWAewgEc3gAatLSf8r3CIOi2aOAgXWnmty5GyTkzX0vUrC5e4zlgtm_wRi5N_nCXh0Hp0SDmqu2Eb9Sf_JT3MLPUapNAPkn75M0PN5Sv4c1XGccoP6WXbwrNxxVK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_Nm1Z8iZ9775x_PthB0-6cxsqhmU9jzdTbcDz2m7eS2FYGTluS9Nly0JQ0LqRRsn3ddZGY7an4pimwzGvlSb9wHosoDduMeL7Ljir4nZaJHsiblfWLFZT9W-5KWsae13obpJDSeqi4QYe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjSwRGYllwyUpSf8N--kKeb6z6mfEswFwSfGl0BmrbMgnHPsxY1urNexvp9ZdXGmrPEJlaf4WIQlWre5s8vVx2gKd626A6_Pe9KAjADaZlbShU0K3sbJnH8kalawONvTztYlp_Y46EyKA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "TheCbass13",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had two giant elm trees removed after they started dropping large branches regularly. It was quick, safe, and reasonably priced. Couldn't be happier. I asked for them to be cut down as logs rather than rounds because I'm a woodworker. Now I have a safe yard for my kids to play in and a ton a of beautiful elm slabs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbsY64IFLfNbZLwhrFC1y13q0z2eIhboigcjMMih1RUbB8IaJKoyZsYXKIRaoZb9y6f7JHF9rKS2W94UWIZn9Jrv9uwxw4ZGz8EzrATJLazHY6U7e3YmDIJ4SZADiRHtx28xbK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYZ9VMCE0w5hODTyoTUNqE_VCUBvIbvRtY_AachmBke08nQlRrjIyRSFdbCDQemoWnrVzSM3iIo2SQWm5TpaFpRUkmbWEB2d34nrYJDyh_9cILiTQezly01wp6qDX9YM0o3QlO=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Vancouver (Central Depot)",

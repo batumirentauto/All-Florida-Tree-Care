@@ -31,21 +31,9 @@ export const siteConfigAIntegrityRu = {
     "ctaPrimary": "Позвонить ((904) 487-0197)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-integrity/photo_014_crop.jpg",
-        "label": "Посекционный спил тяжелого дуба",
-        "alt": "Спиленный ствол дуба, распиленный на бревна вдоль проезда"
-      },
-      "sub1": {
-        "image": "/images/a-integrity/photo_005_crop.jpg",
-        "label": "Оценка корневого среза",
-        "alt": "Массивный пень перед измельчением на участке"
-      },
-      "sub2": {
-        "image": "/images/a-integrity/photo_007_crop.jpg",
-        "label": "Чистовой порядок во дворе",
-        "alt": "Чистый убранный двор после завершения всех арбористских работ"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAIntegrityRu = {
     {
       "name": "Гусеничная пнедробилка Vermeer SC362",
       "badge": "Промышленное дробление пней",
-      "image": "/images/a-integrity/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAIntegrityRu = {
     {
       "name": "Распиловка и складирование бревен",
       "badge": "Аккуратное складирование",
-      "image": "/images/a-integrity/photo_016_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAIntegrityRu = {
     {
       "name": "Восстановление дерна и чистовая уборка",
       "badge": "Сдача чистого участка",
-      "image": "/images/a-integrity/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

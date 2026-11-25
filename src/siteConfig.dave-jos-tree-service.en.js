@@ -32,21 +32,9 @@ export const siteConfigDaveJosTreeServiceEn = {
     "ctaPrimary": "Call Dave +1 727-244-0971",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dave-jos-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Dave & Jo's Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/dave-jos-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/dave-jos-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDaveJosTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/dave-jos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDaveJosTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/dave-jos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDaveJosTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/dave-jos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigDaveJosTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Cheryl Stocks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I put a post on Nextdoor -Dave came highly recommended-I reach to him -he came by that day -he gave a very reasonable price to remove a huge Oak limb -the limb was caught up in the tree near by as well -he came next day-today- -job done -he even cleaned up the branches over the house -I highly recommend him for your job that is needed. Thank you"
-    },
-    {
-      "author": "Laura Koch",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Found Dave & Jo's through a recommendation on NextDoor Neighbor.  Called him, and he came out about a half hour later as he was in the neighborhood.  He gave me a great quote, got some other quotes, and decided on Dave.  Asked him to cut the other two trees as well why he was already here.  Great price on those too.  Stumps were all grown done, and all tree debris was cleaned up and totally removed.  GREAT JOB DAVE & JOE!  I wasn't even home when the work was done.  I HIGHLY RECOMMEND THEM FOR YOUR TREE SERVICE NEEDS!!  5 STARS ⭐and"
-    },
-    {
-      "author": "Steve Frump",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently worked with Dave & Jo's Tree Service, and though I ultimately couldn’t move forward with them due to unexpected budget constraints, I was incredibly impressed with their professionalism and understanding. From the start, Dave was responsive, knowledgeable, and took the time to assess my needs thoroughly. When I had to cancel, he was not only understanding but truly empathetic about my situation, which shows the integrity of this company. If you’re looking for a trustworthy, customer-focused team, I highly recommend Dave & Jo’s Tree Service. I’ll definitely be reaching out to them in the future!"
-    },
-    {
-      "author": "Patrick Carey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dave and his team did a fantastic job trimming the trees around my house and getting rid of a tree that had blown over on my yard. This business is the very best! They work very hard to please the customer and do a through job cleaning up and removing all debris. It is fun to watch them work up in the trees and see how safe they perform the work. They are a very good value for the money spent. They have taken care of my next door neighbors and the family across the street.  I highly recommend this company and will surely hire Dave and his team in the future.\n\nPat Carey"
-    },
-    {
-      "author": "Stevan Hollahan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Awesome guy to hire and great prices...recommended him to friends who also said they went with him cause nobody could beat his prices. Easy communication and great work. Had a tree cut down and multiple stumps grinded down. Will not look elsewhere for my tree service needs."
-    }
-  ],
+        {
+            "author": "Cheryl Stocks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I put a post on Nextdoor -Dave came highly recommended-I reach to him -he came by that day -he gave a very reasonable price to remove a huge Oak limb -the limb was caught up in the tree near by as well -he came next day-today- -job done -he even cleaned up the branches over the house -I highly recommend him for your job that is needed. Thank you",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQd_fEhrr46VuLmKD99_MDvYmvqHe40LbyNzKilLQUDtzT9aUEQAgIsYDrIRJWixjSE4ModqbEmkm_HbFCKsz9m9uWxjfXej18pc267wg4qZ4CQoiyz0M4lvfYcOJEN4uAu_Al=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkQywgeY0rJgFtnoAfqSbkGNEuUGEHIxH9rzWVH0D0e4FuenVkK1A-UeFZCp0VOWVlnY-5I_GYqYn4cj_k8RbTgFqnV5GnVc3uwwzNI1j3LSlsEZuW5EHrm0r7mPtyr57sj6xb=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOD1R563WiVPieDvv7qh_6c89DNIKRjzyI2AFbuvBwP1ZpH0EUxiQPezE8mnCYAg6dANSnhfOpN1Eke2iH0t6TfXDD-8VipnYvO8pxZX3wJmX9fIXI74nVUBdcI71XVAlXu6le=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDreE-Hg6_fkmBiBIPsIafDUCRCV565ls_tAwy1d9PbfComUyTbueYxlkeXmoO6Wbpmt-0AJoRrO-XknvnpqOtQj5kL9xRXFFcltK3IqhlwdBbTFJggK-9tSceWPPxHChC2W_T=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Laura Koch",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Found Dave & Jo's through a recommendation on NextDoor Neighbor.  Called him, and he came out about a half hour later as he was in the neighborhood.  He gave me a great quote, got some other quotes, and decided on Dave.  Asked him to cut the other two trees as well why he was already here.  Great price on those too.  Stumps were all grown done, and all tree debris was cleaned up and totally removed.  GREAT JOB DAVE & JOE!  I wasn't even home when the work was done.  I HIGHLY RECOMMEND THEM FOR YOUR TREE SERVICE NEEDS!!  5 STARS ⭐and",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJ8W2F6qKA-KFRIpznBStoHcXPRY315FTl4Wlf9lX3wFFQLiN0_DMa5ABA6PGwSzMq3i7USMku822Cho4ANJ5fSNaSD8kUqs-n-mYx9uPMiLGALtcnIAz7aIHtqmuOuIz5SgZ3=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Steve Frump",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently worked with Dave & Jo's Tree Service, and though I ultimately couldn’t move forward with them due to unexpected budget constraints, I was incredibly impressed with their professionalism and understanding. From the start, Dave was responsive, knowledgeable, and took the time to assess my needs thoroughly. When I had to cancel, he was not only understanding but truly empathetic about my situation, which shows the integrity of this company. If you’re looking for a trustworthy, customer-focused team, I highly recommend Dave & Jo’s Tree Service. I’ll definitely be reaching out to them in the future!"
+        },
+        {
+            "author": "Patrick Carey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dave and his team did a fantastic job trimming the trees around my house and getting rid of a tree that had blown over on my yard. This business is the very best! They work very hard to please the customer and do a through job cleaning up and removing all debris. It is fun to watch them work up in the trees and see how safe they perform the work. They are a very good value for the money spent. They have taken care of my next door neighbors and the family across the street.  I highly recommend this company and will surely hire Dave and his team in the future.\n\nPat Carey"
+        },
+        {
+            "author": "Stevan Hollahan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Awesome guy to hire and great prices...recommended him to friends who also said they went with him cause nobody could beat his prices. Easy communication and great work. Had a tree cut down and multiple stumps grinded down. Will not look elsewhere for my tree service needs."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "St. Petersburg (Central Depot)",

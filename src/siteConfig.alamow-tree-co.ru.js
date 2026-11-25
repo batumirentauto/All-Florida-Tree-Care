@@ -31,21 +31,9 @@ export const siteConfigAlamowTreeCoRu = {
     "ctaPrimary": "Позвонить (+1 210-865-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alamow-tree-co/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Alamow & Tree Co."
-      },
-      "sub1": {
-        "image": "/images/alamow-tree-co/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/alamow-tree-co/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAlamowTreeCoRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/alamow-tree-co/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAlamowTreeCoRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/alamow-tree-co/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAlamowTreeCoRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/alamow-tree-co/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigAlamowTreeCoRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Maria Lourdes Herrera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Alamo & Tree Co. I did have a big job 2 trees removed and tress trimmed. Andy and his team were on time and  clean. Every step of the way he informed me and checked in with me. I will definitely call him again. No trees h..."
-    },
-    {
-      "author": "Kathryn Dunlap",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’ve been using Andy and Alamow & Tree Co for the last few years now. Every time, they’ve come it has been the very best service. Andy is honest and prices are reasonable and the service is always top notch. Even recently had a 2 large tree..."
-    },
-    {
-      "author": "GLORIA Lott",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alamow tree co came in and did a great job with our trees.  Andy was knowledgeable and gave us a great price to remove two trees and clean up three huge oaks. I will definitely use them again and refer them ...."
-    },
-    {
-      "author": "Jamie Byrns",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alamow & Tree company did a great job with cleaning up all the trees on our property that we just bought. They had a quick turnaround time and they did an amazing job!..."
-    },
-    {
-      "author": "Kirk D Stanley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Andy and crew performed trimming/pruning of our cedars/oaks and taking down trees where appropriate. Service and outcome were great.  The team is efficient and productive and cleans up well each day.  Would highly recommend Alamow for any t..."
-    }
-  ],
+        {
+            "author": "Maria Lourdes Herrera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Alamo & Tree Co. I did have a big job 2 trees removed and tress trimmed. Andy and his team were on time and  clean. Every step of the way he informed me and checked in with me. I will definitely call him again. No trees h...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeM8gSZwBft5-3EmuOmGnhGbyLBcRaBPPdwr-iUfXrPajEC60rsd-M2c-hE0-dYP-0YTeKTuvcGQMky-e2jArcybBP527KgpCWDtIUofa2S7EwX-ZRnI9sZAz-_LBwR6l9XdFlNht8XwQE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzZp5c1smPY8uQP8-BkJsThhLqog_VxUL40FTzrdPX6BQNiPqn5LxxzRmd1R6DGIrc_niCANvWd3HipUZQjkRIKG5jgmZ2lG2cVb0KBwKxd4uyLqocLWBrLddF83koslCQ776PUKX0ylA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1yJiaIGMHJ4LkQ24-Nn862xJUjasqqVk3TBU3AtxuIQk4gvj-yHmXlY5kIChpzgjESAnE-Mafd8lgTbdZwOzIcqlCF9jrBuqFeFQXZuO1Y4kni36gv-AjdtQck1W9uIIh0ia7QtptiQIX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kathryn Dunlap",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’ve been using Andy and Alamow & Tree Co for the last few years now. Every time, they’ve come it has been the very best service. Andy is honest and prices are reasonable and the service is always top notch. Even recently had a 2 large tree..."
+        },
+        {
+            "author": "GLORIA Lott",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alamow tree co came in and did a great job with our trees.  Andy was knowledgeable and gave us a great price to remove two trees and clean up three huge oaks. I will definitely use them again and refer them ....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdeT-KOojC3kldiYUJZTz3p_vFag0HqG-L0r70wgk1obg7d_4Sm35U-1tW3HHZfbiVjM1TRunUy14nJn9duSWMkKOjwHsyqV_JAHX_i1iTugoZRVxjQCMrSURR5xaiiEh0HQz_Z=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jamie Byrns",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alamow & Tree company did a great job with cleaning up all the trees on our property that we just bought. They had a quick turnaround time and they did an amazing job!..."
+        },
+        {
+            "author": "Kirk D Stanley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Andy and crew performed trimming/pruning of our cedars/oaks and taking down trees where appropriate. Service and outcome were great.  The team is efficient and productive and cleans up well each day.  Would highly recommend Alamow for any t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9KT-nNOgNQTUSFBsMOH5P2ZxLCzKJCKObPFjK_x82gTc8LZYL38N3JSUpdGGBgqm5g-OJaaCOMHE3F4aWKDm9vOITlCiso5OrWaZ5JUMXLiXSo0eAsmivxQfK1DrycM-u-cDL=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

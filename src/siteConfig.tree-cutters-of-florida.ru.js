@@ -31,21 +31,9 @@ export const siteConfigTreeCuttersOfFloridaRu = {
     "ctaPrimary": "Позвонить (+1 833-288-2600)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-cutters-of-florida/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Cutters of Florida"
-      },
-      "sub1": {
-        "image": "/images/tree-cutters-of-florida/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-cutters-of-florida/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeCuttersOfFloridaRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-cutters-of-florida/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeCuttersOfFloridaRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-cutters-of-florida/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeCuttersOfFloridaRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-cutters-of-florida/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,77 @@ export const siteConfigTreeCuttersOfFloridaRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jessica Danley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a couple quotes for tree removals but ultimately went with Tree Cutters of Florida. Scott came out and gave me the details on how they’d remove the trees and we talked through different options. He made me feel comfortable and confide..."
-    },
-    {
-      "author": "Dave",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I've decided to remove some big tree limbs over my roof just to be safe.  After shopping around for some quotes, Tree Cutters came in at the best price and Jeremy (the owner) did what he said he was going to do.  I was not disappointed!  Th..."
-    },
-    {
-      "author": "Barbara Lee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I cannot say how pleased  I was with the services provided by Scott and his crew. We had a queen palm right beside our house and front door removed and a large oak tree which was very near our pool deck and a wrought iron fence. Scott came ..."
-    },
-    {
-      "author": "N H",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a over 15 trees removed. Some very large trees. TCF did a fantastic job getting them removed. They even took down a chainlink fence which had trees embedded within.\n\nThey also included stump-grinding in the quote so I didn't have to w..."
-    },
-    {
-      "author": "Mutegi “Bombay” Mbungu",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: As with all big-ticket items, I shopped around for a vendor that would do the job cost-effectively. After calling around and getting a few quotes, I settled on Tree Cutters of Florida.\nScot showed up to take a look at the work I needed to g..."
-    }
-  ],
+        {
+            "author": "Jessica Danley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a couple quotes for tree removals but ultimately went with Tree Cutters of Florida. Scott came out and gave me the details on how they’d remove the trees and we talked through different options. He made me feel comfortable and confide...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck_W6NFYkhvUBMku5o-we-3RsHUIwYvJDsSdo29zcB75HO-nAFtWqBPSkc0VdlTXTfpwpKlYKSKJcr7-EmElvodjUuRh5AC7rwuw1Ue8VdI2QDqfBlqff3bZn-eRqMLKISt1pL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeM5MqtpMdVjzZhS9L-4IwGEN9snhVny3wAPCslixpR0C-yx15a_HhkyimdUolLyVKgCf-gj7YtYhBvjN77p0BmPqlcf2RGdqZQNDpRR0RXYa0JuHMzDa1zbNbsfq4QXEOxG70=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ46L-N4uzISVw9-qFhDGbyVielmCihkGcnsuphZfNAVRaNUr3Uq9KiJqO3JtHFA78XbqMlyG9Lf4r7yidkWdJ_wz5BwJcilxpBJHVjV-ED8ATRhD8P3luyprEXcWHMjuHOOue=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKQzGyFmgBxCg8LuudZBn7ofIxS7R1tApknlT1POTrprn0yfvA4m7QS4le6GszbNXw7AufaSsohNRaElBkOnQqwwsIgSilnGmu2jRaGQeIKXu1PA1VAfhwgJbRYmzWfunBaIO_aw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dave",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I've decided to remove some big tree limbs over my roof just to be safe.  After shopping around for some quotes, Tree Cutters came in at the best price and Jeremy (the owner) did what he said he was going to do.  I was not disappointed!  Th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeinzwnJLRzncJPQJ7pZV_ePn3-gQtLRKroBY57mn3bk1Dy6uC-bp7HOs7X5jzVkJmRx4LxdyPka3LQCrvcclN8523PIC_L6RCxaSztKg5quqJwYjXekNa8rOqr0sGUcWYWfna=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjSlfU2TgjRSvnzAulHATVGrIC29Jpmmb8G1dUX7rGmKB83ZuN9B53Cf-xZ1_4NakutJTUMlIEm-XU7P1HFwS7moUqoas1IukG7wDabEafugIApAFbZseprqDPDa_Ld8gT0y_rcQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccXpeq0ZfWtUn1tahnCnWm7jy28ZWRrqGpme5whScSXuCZSZu3DUTGlc-rtn3-DQq25_y4xXNFhs-AFHuRdDcWPFDQj2GKtsupTxbViGPXIO05p-0D_LJ6DqTOQk_AkezmdtH5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqKzT0Oe-9pWFzdX4GMIZl07FjRQCN7P-6BZziGuTu2KwTVHt9J-EJ0mjBXCCuJgWva-dJX6lFV5K77T1M1Shl21YN1UTd0nPeAwbDQiCLkCUPNTKSBlpJ0kUTCBcFq_lnB36NcQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Barbara Lee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I cannot say how pleased  I was with the services provided by Scott and his crew. We had a queen palm right beside our house and front door removed and a large oak tree which was very near our pool deck and a wrought iron fence. Scott came ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLckbM-M71nn2IFtdYw32lBB__A74zUn5vSWtw3zSz-oNdF-o6vbuFBZnUFKlHRZ1Fq7hDB15mh4mO9GTLaFdTJ88rTYUFa1p84NhQdDEdf0M8cCTzE-ZcQ0XuPdq8q1RxPvhFyCxA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeQE3MWxIc2pTT0ZjV4pfnW8JiyIuRnrTofsyZB4ysiKXE7Os6LmToEknkqwkaolr0Qet4zB6YDqM7uf8x3Qv_AVEjWTce7mBTMZYUjmxPu-NNNv3xVyC8cm95QNbMuvybEzgoM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfBxNjdtRgYX8fLSZ3ZdXQU2oHypqBCBiQA0R8qeCY2etYCYxu9iA6mj0aKvj9C2JAqhYA7mjP5CYECTds-GDLYoIoOMFL_WkgH-_oOSMqNVjlMnWE0xRJA0-jfyPqzm9NImPGcMw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoW2KRTo2EzP9TIVFiMhnyfZv0t-HCamUjhaCVJk3iFt2zlPXwxYM6pAtu9q21rhu39lNrhXHiOABYIVC9pCCArvX0kpt0iKBGT7sCXs0SgH5AJaLjwZF_IbweIgteOJPhDEoV=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "N H",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a over 15 trees removed. Some very large trees. TCF did a fantastic job getting them removed. They even took down a chainlink fence which had trees embedded within.\n\nThey also included stump-grinding in the quote so I didn't have to w...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNdRp34MtfClJpktxfG3ThOWkcae6_wGPzXr7h9uWyYtzpfEyaz2eW2TGxFbpLHcJOom6_DG2Siblf3CruE3CbEwmqUxSoi9b0HuoGkk54DyLJxznYssU_Mea_y_QpEI2Qz_OV6Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfN4uzbmGOdluIdETYLv_gpNsbQww9vMoFkS3aN0RNiRNUtnQkmxIPcgjY90rNJGPU2wiu_p1uAiGj25Hp1WfNpP__qdQkaGERuWPxuwhWJfqBF1ehYLt0PNyzqr2TuPkU1hEw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgEBv10l3qV-SQ9dxW3H88W0xSBZpead85fjHzx_Xq2XZVh3tfe7UnTgENsp1ulqRu8Ez-dT97exIpPUNJwAhoqd_jcHvrqYDB5xsTgnaNRKB_0aDXDjwnH697UZw6Iq0lmjmEHA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLec5rFuuL5CNYhiIbyk2NeuzfEswYh8yUn1giLh2_IbiQBGRUeQ_irTqHdF27x6zn8oYxV93TX5_a7simlfdTVo_T9Fy5XAxESUIUMzurswwkAP-InNDgqrn5ebYBUq9vTJv0lz=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mutegi “Bombay” Mbungu",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: As with all big-ticket items, I shopped around for a vendor that would do the job cost-effectively. After calling around and getting a few quotes, I settled on Tree Cutters of Florida.\nScot showed up to take a look at the work I needed to g...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf5Tl95unV3mYfXknLbsbXTLhCJ5sW5RGKsRBMGeWJseBn6iXu5Af-vQF58Fn4OZlULQM6tROFqdavLlP1Xe48bMY6MoszSclrs6BiUzD42no4tig6589EFFbUkCrLn244j_Y-U=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdefxDpS7yl71_LzV2UZ8-B4eLbAiviIDxcXm_eVl19No8GbOYGltsOkhepyZQNAGeW0a5Q-at_odrr8H-feiG4enBH708XepRw-e9PInPnsPw3mSoF3X_RvpoQdQ8UIJ1kMdNluA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLel-po5umXpYxR3gH1wv9oCSoK6Oop58kdOuDOROcX7ZRH6LdjSDb--n5a1MzGUWc1RmOwXuu6PK4Se1X913Ws-h8Odw2J78CC3yvT8nnDUvo46Mg02wqR0ur0RBCMvYZsLH4J8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewOaIguTtXkF2rmgjXjf9DUWuSqU8hljbezWZ1q0SdRtpBonMI0lJuDLthU-xNJtBMmS-e-Jx0tPxYFWFNaVvS608tlXRg-TyjtFz7h9r37YtYPNyXIMny2RPYvadpyvfDOZelOg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Jacksonville (Основная база)",

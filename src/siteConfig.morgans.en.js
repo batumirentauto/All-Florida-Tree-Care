@@ -32,21 +32,9 @@ export const siteConfigMorgansEn = {
     "ctaPrimary": "Call Mike (803) 981-9085",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/morgans/photo_001_crop.jpg",
-        "label": "Fence-Line Split Branch Fracture",
-        "alt": "Large broken hazard limb dangling along residential wooden fence line"
-      },
-      "sub1": {
-        "image": "/images/morgans/photo_004_crop.jpg",
-        "label": "Flush Stump Cut & Root Flare",
-        "alt": "Close-up of flush-cut tree stump surrounded by sawdust in fence corner"
-      },
-      "sub2": {
-        "image": "/images/morgans/photo_006_crop.jpg",
-        "label": "Manicured Finished Backyard Lawn",
-        "alt": "Manicured green residential backyard lawn after complete tree removal"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMorgansEn = {
     {
       "name": "Delicate Split-Rail Fence Limb Extraction",
       "badge": "Fence Safety Work",
-      "image": "/images/morgans/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMorgansEn = {
     {
       "name": "High-Volume Brush Chipping & Debris Staging",
       "badge": "Branch Staging",
-      "image": "/images/morgans/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMorgansEn = {
     {
       "name": "Screened Porch Proximity Tree Dismantling",
       "badge": "Porch Protection",
-      "image": "/images/morgans/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

@@ -31,21 +31,9 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamRu = {
     "ctaPrimary": "Позвонить (+1 919-765-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Monster Tree Service of Raleigh Durham"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Holly Sweredoski",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had 4 trees taken down along with some tree limbs on 2 other trees. The crew was very professional and clearly experienced, safety conscious and took pride in their work which was demonstrated from start to clean up. The cost was competi..."
-    },
-    {
-      "author": "Danny",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jason and his crew were amazing and very professional. Price was very reasonable and a lot of care was taken to not damage nearby trees and shrubs. Highly recommend!..."
-    },
-    {
-      "author": "Joan Ziegler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Late in getting this in but Monster Tree of Raleigh removed some trees for us about a year ago. Their pricing included stump grinding which made them lower than other quotes I'd received. They showed up on time and were very efficient...."
-    },
-    {
-      "author": "T Charles",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was referred to Jason and Monster Tree Service and have now hired them three times to fell and remove trees on my property. Each time, they’ve done an outstanding job — efficient, safe, and thorough. The crew is consistently friendly, pro..."
-    },
-    {
-      "author": "Rich Ohmann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’ve been a customer of Monster Tree Service in Raleigh since the first year they opened.    They’ve tackled thinning the woods behind my home, pruned trees to make them healthier and stronger and gladly give advice about things to watch fo..."
-    }
-  ],
+        {
+            "author": "Holly Sweredoski",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had 4 trees taken down along with some tree limbs on 2 other trees. The crew was very professional and clearly experienced, safety conscious and took pride in their work which was demonstrated from start to clean up. The cost was competi...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6IomNwHmxWoFd1w6H9UdzZPlFhMfg57dlp4yOlX2oeokhW6eSSqwSC30IxhVpIto-EuNgRujSrnZJGocUefSaSewYF40H8FzWGBLTDDtCwgN-uLYGAIQ3d0YJ47roB8GARZsJE40cS4DL=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Danny",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jason and his crew were amazing and very professional. Price was very reasonable and a lot of care was taken to not damage nearby trees and shrubs. Highly recommend!..."
+        },
+        {
+            "author": "Joan Ziegler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Late in getting this in but Monster Tree of Raleigh removed some trees for us about a year ago. Their pricing included stump grinding which made them lower than other quotes I'd received. They showed up on time and were very efficient...."
+        },
+        {
+            "author": "T Charles",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was referred to Jason and Monster Tree Service and have now hired them three times to fell and remove trees on my property. Each time, they’ve done an outstanding job — efficient, safe, and thorough. The crew is consistently friendly, pro..."
+        },
+        {
+            "author": "Rich Ohmann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’ve been a customer of Monster Tree Service in Raleigh since the first year they opened.    They’ve tackled thinning the woods behind my home, pruned trees to make them healthier and stronger and gladly give advice about things to watch fo..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

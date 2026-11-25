@@ -32,21 +32,9 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
     "ctaPrimary": "Call Mark +1 310-596-6704",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Gutierrez & Sons Tree Services and Landscaping tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mrs. Pix Chica",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Went for a walk at 8am, met the Gutierrez team working on a house on the corner of our street, asked about doing our yard. The boss pulled up while we were taking (Gustavo) we told him about our home and the landscape needs. He walked the yard, gave us a quote and no pressure. All of them were kind and extremely helpful and we let them know we would call them back. He said thank you shook our hands… we looked at the great job they did in the yard across the street and called the number back with in a few hours. They happened to have an opening. Right after the yard they did and came over and did ours . Took them 1.5 hours and did a fantastic job, kept our brick planters in tact and also cleaned as they went along their way with the brush removal I would recommend the 10X’s over! Respectable and the son who was running our project, came by met us know they were down and asked to do a walk through. Great job and great job on raising some fantastic young men!"
-    },
-    {
-      "author": "James Toro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I can’t say enough good things about Mark and his crew. They have been out two times and the quality of the work is exemplary. They are so knowledgeable and have a good eye that I defer to their judgment as to how things should be trimmed. The employees are respectful, and the cleanup is excellent. The price is more than fair and when compared to the high-quality of the service, they provide excellent value. For the past 22 years, I have hired about four other companies and they do not come close to the quality provided by Gutierrez and Sons tree service. I could go on and on but would just say that I Highly recommend them. Thank you, Mark."
-    },
-    {
-      "author": "Larry Kerr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had Gutierrez & Sons provide an estimate to cut down a 50 foot Northfolk Pine Tree and to lace out a 20 foot juniper tree. The estimate was reasonable and Gustavo indicated they would be able to do the work the next day. The crew came out the next day at the scheduled time and went straight to work. The crew was careful not to damage our plants surrounding the tree trunks. They had everything cut and cleared within 5 hours. We are very satisfied with the work performed by Gutierrez & Sons. We recommend their tree service."
-    },
-    {
-      "author": "Christy Sterling",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had such a great experience with this Gutierrez and Sons! They were super easy to communicate with and did a great job following up throughout the whole process. They tackled a really large tree with huge roots and got it done so quickly and efficiently. Super professional team, and the cleanup was spotless — you honestly couldn’t tell they had just removed a tree. Would absolutely use them again and recommend to anyone!"
-    },
-    {
-      "author": "Nathaniel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After receiving a couple other estimates, Gutierrez and Sons came in not only with the most reasonable quote, but were the most professional, friendly, accommodating, easy to work with, and I was blown away with efficiently their crew completed the job! Completely removed, cleaned, and hauled away a massive pine tree that had become an electrical danger in 2 working days. Amazing!\n\nWill be my go-to tree service & landscaping team moving forward! A+++"
-    }
-  ],
+        {
+            "author": "Mrs. Pix Chica",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Went for a walk at 8am, met the Gutierrez team working on a house on the corner of our street, asked about doing our yard. The boss pulled up while we were taking (Gustavo) we told him about our home and the landscape needs. He walked the yard, gave us a quote and no pressure. All of them were kind and extremely helpful and we let them know we would call them back. He said thank you shook our hands… we looked at the great job they did in the yard across the street and called the number back with in a few hours. They happened to have an opening. Right after the yard they did and came over and did ours . Took them 1.5 hours and did a fantastic job, kept our brick planters in tact and also cleaned as they went along their way with the brush removal I would recommend the 10X’s over! Respectable and the son who was running our project, came by met us know they were down and asked to do a walk through. Great job and great job on raising some fantastic young men!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFcvK5H_WHxPZN6eUsxrCO_Ko-jV9b1Nr9xSBn0E2t-B34i1eaafpErGTSNbbmfzmzhNwo09LXRI9tuISexs9FJc2eEi2TXa1u8Wn7FuBPIRlekSUu3Em2Rw0ZE2I8uIBdM7Z9MwzNXhww=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdT1bDE-6PJbpCCbvkKriaO_IfRtCU6lGam3pm3vpHCtMmFj9OEq8YGzQZanIauiQVUCzrgMAYPk92oo8JgY4FBENGQpt6-cX6px3MSfqhf4fHOiBbhAoNT1ZunDleImYk1NEmsqq1HEEZ9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_QCw7a2swT52L_tW9dagNHeRdzXt6bigMkoSdRfTElIvg3RZB25l_N5m8_DYxz8lDV-DKeWoW76IlRQGJS1E5O80yuYLVEUFtvn9YS89sE5UBPzPcMoDh9ljx2WsdOASloXRg4SETBb8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2eySuev4GNNRmIvo7gRCKDHChdaVw3bATtfLqam_aQe_EpyWAAyOtzRRKe_s-ZIJZHPl_qxJ4Hj_V8ArD_moxxW_WPxBRRxq3T3bn0-TFSOtqQe78236n8pxQ_dJVlOP24iFozgMMVZbp=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "James Toro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I can’t say enough good things about Mark and his crew. They have been out two times and the quality of the work is exemplary. They are so knowledgeable and have a good eye that I defer to their judgment as to how things should be trimmed. The employees are respectful, and the cleanup is excellent. The price is more than fair and when compared to the high-quality of the service, they provide excellent value. For the past 22 years, I have hired about four other companies and they do not come close to the quality provided by Gutierrez and Sons tree service. I could go on and on but would just say that I Highly recommend them. Thank you, Mark."
+        },
+        {
+            "author": "Larry Kerr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had Gutierrez & Sons provide an estimate to cut down a 50 foot Northfolk Pine Tree and to lace out a 20 foot juniper tree. The estimate was reasonable and Gustavo indicated they would be able to do the work the next day. The crew came out the next day at the scheduled time and went straight to work. The crew was careful not to damage our plants surrounding the tree trunks. They had everything cut and cleared within 5 hours. We are very satisfied with the work performed by Gutierrez & Sons. We recommend their tree service."
+        },
+        {
+            "author": "Christy Sterling",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had such a great experience with this Gutierrez and Sons! They were super easy to communicate with and did a great job following up throughout the whole process. They tackled a really large tree with huge roots and got it done so quickly and efficiently. Super professional team, and the cleanup was spotless — you honestly couldn’t tell they had just removed a tree. Would absolutely use them again and recommend to anyone!"
+        },
+        {
+            "author": "Nathaniel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After receiving a couple other estimates, Gutierrez and Sons came in not only with the most reasonable quote, but were the most professional, friendly, accommodating, easy to work with, and I was blown away with efficiently their crew completed the job! Completely removed, cleaned, and hauled away a massive pine tree that had become an electrical danger in 2 working days. Amazing!\n\nWill be my go-to tree service & landscaping team moving forward! A+++",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFUnx9K0oeeaE50bc3apL3UQewCxws-MBrE9du72XeruAvqWigENK66GbwmeM3WzhFIL85UlnXw69MLrW6jQLl5wY99x4FNDYX-Rb3pvJnvnX2EbqVpwpK4N1a2ZANeuYi1MM_Mg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrdWiJ2uW0EDdg06z2PRs_pB5QIZ09mKdsYAmRk4BLZ_gWSspVi_IL00Rpiczlf8iyS-yuKlgT2o53GevYBO1u8WlvCYX59a94jzoYutbaE8nYYPQq-x-t1WGcPZ9rPSCt6KK_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbl2gaQ1vWXkGxrtuglLKdGlP8LuKGmjDxmnh4CowDcp_cDnk_QuVmJVCh6cEEUk3PxXeWDh58Vzd_EWkNwd9Lj_DIbZvmj5Wg1QheOhuEXfQTcgXPbF7EWhL3hAQp8AvlMkkc=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Gardena (Central Depot)",

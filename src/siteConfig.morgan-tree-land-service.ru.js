@@ -31,21 +31,9 @@ export const siteConfigMorganTreeLandServiceRu = {
     "ctaPrimary": "Позвонить (+1 941-685-6376)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/morgan-tree-land-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Morgan Tree & Land Service, LLC"
-      },
-      "sub1": {
-        "image": "/images/morgan-tree-land-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/morgan-tree-land-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMorganTreeLandServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/morgan-tree-land-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMorganTreeLandServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/morgan-tree-land-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMorganTreeLandServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/morgan-tree-land-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigMorganTreeLandServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "KL Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Morgan Tree Service did an outstanding job for us. Tylor and Adam were great to work with from start to finish—professional, friendly, and incredibly prompt with providing an estimate. We needed two palm trees removed and an oak trimmed, an..."
-    },
-    {
-      "author": "Brad Boland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is my first time using Morgan Tree Service and I am very pleased with their work and the crew that he has . They were very courteous and well majored. Tyler and Adam were great. Their equiptment was all in top shape and they are profic..."
-    },
-    {
-      "author": "Brian Oaxaca",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tyler Morgan and his crew were amazing. They were extremely meticulous and professional cutting down two large trees in our front yard leaning towards our house. He and his crew arrived on time and immediately got started. Tyler assessed th..."
-    },
-    {
-      "author": "Stephanie Gill",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have used Morgan Tree Services several times over the last 2 years. I have found them to be Professional, Excellent Prices, and all around nice guys. I would absolutely recommend this company for the quality of work they perform. Can’t sa..."
-    },
-    {
-      "author": "Frank Zayas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tyler and crew did a great job at cleaning up trees in our backyard.  Originally hanging over the fence and approaching neighbor’s pool cage and our home.  Tyler communicated well and followed up promptly.  Great job!..."
-    }
-  ],
+        {
+            "author": "KL Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Morgan Tree Service did an outstanding job for us. Tylor and Adam were great to work with from start to finish—professional, friendly, and incredibly prompt with providing an estimate. We needed two palm trees removed and an oak trimmed, an..."
+        },
+        {
+            "author": "Brad Boland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is my first time using Morgan Tree Service and I am very pleased with their work and the crew that he has . They were very courteous and well majored. Tyler and Adam were great. Their equiptment was all in top shape and they are profic..."
+        },
+        {
+            "author": "Brian Oaxaca",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tyler Morgan and his crew were amazing. They were extremely meticulous and professional cutting down two large trees in our front yard leaning towards our house. He and his crew arrived on time and immediately got started. Tyler assessed th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcsmFLBDOFkE0_LprNm6_JapkGQsWfuy_bnGyfty4Csstt9Y7NjejKXgX01b663WHEjwAte4c3JN1f80Oh4FuUVQU4Tvjlci7RLBy9J2I1ec72VjG2jcK5nZfYPJUZdUVKIahMz=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLciyzK8hcWeRtWpd9-B-8ca5GawVP46zo7juUJ2VEIIsXf_72Dpv-jSYOqkCjb98D9H8MsATPs-I2k90uVxdInkhOYVdpcCaQqwS8hhgL2uQGbP7GfF08tLiQ7t9QPxe74KFXaCfg=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Stephanie Gill",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have used Morgan Tree Services several times over the last 2 years. I have found them to be Professional, Excellent Prices, and all around nice guys. I would absolutely recommend this company for the quality of work they perform. Can’t sa...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmz845Z3uDDeTLdCWpBqyRSms5gXlUS4zq431aZ090dj9DPSg2FWf3yGMAxdZXERWKDXovOPX2lc0DlY0vHodtSIBF4IWmDd7RUx2XoFBrpxivAWnl5Ar1ML8VSXYyuDShFKbB=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUQO1KbiDYFt14FGgK8Vj5aJvzjwIqBz45x70x9oCVB45lJzOSC-7FBf5g9ca-m_mzDv6sSJ-lEB8C0sYm-ysa7hwd6NQwSbQ568kI8AfOUluGW9wx4yoL1BkSpMEAeLpN09g_PA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Frank Zayas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tyler and crew did a great job at cleaning up trees in our backyard.  Originally hanging over the fence and approaching neighbor’s pool cage and our home.  Tyler communicated well and followed up promptly.  Great job!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeOjVJCMTXrXtRZlu183_RPk3gxCd3Umf7YCwrUegvweThph4mAY2_fSNXxl4K9-sk1uKcoPCgCaUjh5vDac-GwwqAI-enUEVcprtnb5jZvwvk7g3hbwEUjGGA7LfUjj6ipL-6f=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sarasota (Основная база)",

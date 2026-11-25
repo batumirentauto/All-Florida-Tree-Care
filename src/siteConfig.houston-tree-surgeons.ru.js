@@ -31,21 +31,9 @@ export const siteConfigHoustonTreeSurgeonsRu = {
     "ctaPrimary": "Позвонить (+1 281-815-9088)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/houston-tree-surgeons/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Houston Tree Surgeons"
-      },
-      "sub1": {
-        "image": "/images/houston-tree-surgeons/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/houston-tree-surgeons/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHoustonTreeSurgeonsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/houston-tree-surgeons/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHoustonTreeSurgeonsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/houston-tree-surgeons/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHoustonTreeSurgeonsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/houston-tree-surgeons/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigHoustonTreeSurgeonsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ryan Broussard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Houston Tree Surgeons severely over-pruned our mature privacy trees in our courtyard. We hired them to remove some growth that was extending over our neighbor’s fence and to perform a light cleanup. Instead, they removed a large portion of ..."
-    },
-    {
-      "author": "Aaron Howard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We asked for an estimate for our approximately 35 year old live oaks in our front yard.   A certified arborist came out and sent us photos detailing what they would do.  We asked for a copy of their liability insurance and they sent a copy!..."
-    },
-    {
-      "author": "Raquel Ybanez Salinas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a great experience with Houston Tree Surgeons! They came out quickly for a free estimate and provided a written quote the same day. My job was scheduled for the following week. The crew was fast and efficient, and they did a great job..."
-    },
-    {
-      "author": "Kate Pollard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with Houston Tree Surgeons from start to finish. It began with Dr. Pablo Teveni, an ISA certified arborist, who gave me an expert assessment of my Red Oak. I didn't want to take it down as I love trees, but I al..."
-    },
-    {
-      "author": "Jennifer Bomark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I contacted Houston Tree Surgeons (HTS) in mid-July 2021 to have them look at a dead pine tree in my yard to make sure it wasn’t a disease that could spread to my other pine trees. An ISA certified arborist not only came and inspected my pi..."
-    }
-  ],
+        {
+            "author": "Ryan Broussard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Houston Tree Surgeons severely over-pruned our mature privacy trees in our courtyard. We hired them to remove some growth that was extending over our neighbor’s fence and to perform a light cleanup. Instead, they removed a large portion of ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDbxY-VOS6B5sQ7IseAVlc1K_sYnSFaWBtGgu7-05WBA_oXYDn9M89MJ18GaJRjG3f9qGVs-gY4LH5K0EpoQXvFshFwTuXklzmj1nazpiYHiHQF-va4tPM5HHxMfj9sx4I8VKoHIAvXn8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnKKpBcijU-lk_I_gHVhp_LaAjP5rb8kiwSy089EHUfkSmtT4JgyBd61ZEyCsT_q54XSBy_3S1B7xZ8P48zz3rRruc03_jf4rC4NlrRcTMb3T2VDQjRY9VgE800CVGBiQxAVSdjViyTFv6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAOnpHmY24U_UPi83XwyJNT3BwmL7SfGWq90JM3fE7KSKRj7ovB9KmBXdmZgWT8DujSHmLTmyJgG6qRisx9D-ThtpOLekV99tDLvAOZSJL9Fp4bZhhvzYbtCxneUpGYwdnzb4H0mtHBVTq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfABDoamsyBGdZFUrIIxzyaKNIa3m1vvln_0jvLaH1VIbqHCZq3o76P0pFZYjE2UxA4VLk-gbj2t5qHqVyyrtcW9VpX0-hQa3HrZjAhGkQfKYzROeE9tbTuU6UOV4XJahoKpi5kSvzty0A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Aaron Howard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We asked for an estimate for our approximately 35 year old live oaks in our front yard.   A certified arborist came out and sent us photos detailing what they would do.  We asked for a copy of their liability insurance and they sent a copy!..."
+        },
+        {
+            "author": "Raquel Ybanez Salinas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a great experience with Houston Tree Surgeons! They came out quickly for a free estimate and provided a written quote the same day. My job was scheduled for the following week. The crew was fast and efficient, and they did a great job..."
+        },
+        {
+            "author": "Kate Pollard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with Houston Tree Surgeons from start to finish. It began with Dr. Pablo Teveni, an ISA certified arborist, who gave me an expert assessment of my Red Oak. I didn't want to take it down as I love trees, but I al..."
+        },
+        {
+            "author": "Jennifer Bomark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I contacted Houston Tree Surgeons (HTS) in mid-July 2021 to have them look at a dead pine tree in my yard to make sure it wasn’t a disease that could spread to my other pine trees. An ISA certified arborist not only came and inspected my pi...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8OQxJSL-b62Ab03Spc5AdIEnP1Rb1pFCwtGl0fShfD6SEd60vMV0eIpK76LegFVXTXjjqbws_ByabVEU5198DV5OWLDnuNhBa22ZyDcRTGm95r5MSfsDQUO4bxYHWtk9ambk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmddMvYQTTBd9VrlnWNjDWrXBuW80HdMmgMJPmEhHf81Y9CjRpMoRBoyXyiFmqJOf2C_0TIt-RfjZgSrBSImzQWIRyIhE8k0sQMpRTripuVvHmWHHhtJMK4Vf37p2hBKOgAWkZZA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRz1lzvSJgMEZrRRg0wFfOHPUKK6Y43AgUY1ov-3Qx9qyujUe2TrEb3qXRvm5OKMAf6bTQIvS8BdESZy8XgdDCKfxzK1i54aZJAOZTSn1iFiJOjSpop_o_xTMrobanamKhrjVF=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHxsdIP7OonZ71WigkNxFzAoHz3C7HSw0xbKyfZrAprcUoljedY3MX-f1Xv4q6xzYCF8ZWAM6QMfFrKocIJRKqTUuXxjPB7YreCwSX225-gMkxNP_oIfp_zU7WJDc4bQdT3FzKmw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Основная база)",

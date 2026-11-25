@@ -31,21 +31,9 @@ export const siteConfigRealStumpBustersRu = {
     "ctaPrimary": "Позвонить (+1 210-653-3605)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/real-stump-busters/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Real Stump Busters"
-      },
-      "sub1": {
-        "image": "/images/real-stump-busters/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/real-stump-busters/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRealStumpBustersRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/real-stump-busters/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRealStumpBustersRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/real-stump-busters/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRealStumpBustersRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/real-stump-busters/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,60 @@ export const siteConfigRealStumpBustersRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Donnie McColskey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tom and his professional crew just left my house looking so much better. Cut many large branches off my roofline and cleaned up , trimmed everything off the house and took a tree down on the fence. All at a very reasonable cost. This compan..."
-    },
-    {
-      "author": "Norbert Hudec",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys are great.  Our good friends and neighbors have been using them for 30 years and after today I see why. The owner came the same day I called for a quote request. Pricing is fair, his team is very pleasant and thorough and we are ..."
-    },
-    {
-      "author": "Myndi Frohmuth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I wish there were more stars to give because 5 is just not enough!  Tom and the crew are absolutely fantastic. They were right on time and got straight to work. Prices are amazing too. We had him come out a few weeks prior to do an estimate..."
-    },
-    {
-      "author": "Scott Thomas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have used Tom and his crew for both contracting work (room addition)and personally. Could not recommend them more highly. They even had the utility locator come out before they ground a stump from a fallen tree. Mowed the yard after they ..."
-    },
-    {
-      "author": "Nancy Molter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tom and his crew removed a 40+ year old ash tree that was dying.  He came out and assessed the tree and gave me a quote that was very reasonable and included a military discount.  The work was thorough with an excellent job of grinding the ..."
-    }
-  ],
+        {
+            "author": "Donnie McColskey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tom and his professional crew just left my house looking so much better. Cut many large branches off my roofline and cleaned up , trimmed everything off the house and took a tree down on the fence. All at a very reasonable cost. This compan...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgn5fofj9Qk-pYq16SGwbAJmmomQWLRfQMCvqP4iT6wK31xNDAeCZL1FyerGaYiITozqSx7LWnx6JeHH-g8EcQAvvKcQjG5FGf0VfJpoFqkxrdw01eRqmjleZ24FFPyLdoZNh5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdAHQzbj4JggkjumBD_JB_2IjN94DuaMvQwwx9Aeskk29k5pWY-5ExrM8TBNPGkBg1UFopWzL_aVnKybahQHeg-QUyDvFfNXkSWuZSnA0p6vY_sBLZPrLGV4sdmSUMq9O3dI-0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKwyl8ivLLEDXpC62yssjlhMwMsQrTaL1lILPSSmDrnsH1E5LK-l5P6MTsJwtBdSvkToTre9nUU_jpjfuZyus5k2xBZaOHVN9pafvIZCgVHfHd3S6aOL1jF9hdnMth13zkTen16A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcBgtOsP8gMWiV-1PNwnc3kh9HXvN7EkEyc4bZi3IOuhZfWYOHy_sPWmqOdF7v4CBHprYUH78otsjjqhtMsuuNZkQQ3_itH07SByqcf6tOUWfTLz4Wf7VSI947Lrayc07cIoA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Norbert Hudec",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys are great.  Our good friends and neighbors have been using them for 30 years and after today I see why. The owner came the same day I called for a quote request. Pricing is fair, his team is very pleasant and thorough and we are ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd9NNMbI68Zyxq1J3KZ7rENr9txllIHbLtKokdzBfE47ghEaXuUkAp7V0gb6HscxPqT9AJe4N4VDH-jV_2rd-bCDw-XQvKPiGsF2T7Ef-mLbseOfpfjOE6O25e0i_8v9gpxMaewFhgu-zLe=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Myndi Frohmuth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I wish there were more stars to give because 5 is just not enough!  Tom and the crew are absolutely fantastic. They were right on time and got straight to work. Prices are amazing too. We had him come out a few weeks prior to do an estimate...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdQbbes8qkKtzD8fvALtULa6m3Ejkip35ASr9J-9GFcAvxJh6ItpCypsaWOssl24FjVix52S_n4xrYW_dLQXruQSm5f6Ogf3QqkIuRFBVCBTIW6lPlwdKDsbbEFmXPoC21BY0aQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwMECwgKzKb7DOPpDhdW295RTdVK2OyKU4qS8djR3cwu0YHgz9ZpmJEjor-QaQ7qKqsqji2B_4g9dL0Fk-_24v9VWltuimjMLeASWR8FTp1weBEae1eqPmsA2o_sAyvsGslY189g=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Scott Thomas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have used Tom and his crew for both contracting work (room addition)and personally. Could not recommend them more highly. They even had the utility locator come out before they ground a stump from a fallen tree. Mowed the yard after they ..."
+        },
+        {
+            "author": "Nancy Molter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tom and his crew removed a 40+ year old ash tree that was dying.  He came out and assessed the tree and gave me a quote that was very reasonable and included a military discount.  The work was thorough with an excellent job of grinding the ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

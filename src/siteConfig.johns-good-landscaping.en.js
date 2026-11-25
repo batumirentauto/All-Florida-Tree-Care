@@ -32,21 +32,9 @@ export const siteConfigJohnsGoodLandscapingEn = {
     "ctaPrimary": "Call John +1 510-379-6314",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/johns-good-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "John's Good Landscaping Services tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/johns-good-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/johns-good-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJohnsGoodLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/johns-good-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJohnsGoodLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/johns-good-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJohnsGoodLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/johns-good-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigJohnsGoodLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jay Busby",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "OMG!! John and company came to my house today to remove a large tree that blew over in the storm last week and also a palm tree that is in the way. The price was fair and he is easy to work with. They finished the job completely and raked up all the little stuff too.   I am very happy with his work and would recommend them to you without hesitation. Scored a perfect 10!"
-    },
-    {
-      "author": "Lori Katz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great work! John is so friendly. He and his crew came on time and were very careful and professional in getting the job done quickly and properly, just how I wanted it.\n\nOutstanding job—we plan on using him again next week.\n\nThank you so very much! 5 star 🌟 service!\nLK"
-    },
-    {
-      "author": "j brown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "A picture is now posted after his reply of being scammed. Look at the picture and tell me if that looks good and who is being scammed. John lied about everything he was supposed to do. Did not on his price quote asked for more money in the middle of the job and did a very poor job of landscaping. When asked to fix the unprofessional job, he lied delayed and lied and delayed. He speaks a great story to begin with and no follow through at all, bad choice of landscapers and I wish I called anyone else. Nonprofessional greedy and lies throughout the entire job never again.\nJust posted a picture to show this lousy landscaping. A dump truck would’ve done a better job and he never tried to fix it after numerous phone calls"
-    },
-    {
-      "author": "Hayward",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jon did a great job. Fair pricing and beautiful job done. Great guy.  Using again in future."
-    },
-    {
-      "author": "rachel ker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "French drain, fixed retaining walls and cut large overgrown palm trees. Appreciate John and his team very much. Professional, fair and quick!"
-    }
-  ],
+        {
+            "author": "Jay Busby",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "OMG!! John and company came to my house today to remove a large tree that blew over in the storm last week and also a palm tree that is in the way. The price was fair and he is easy to work with. They finished the job completely and raked up all the little stuff too.   I am very happy with his work and would recommend them to you without hesitation. Scored a perfect 10!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfbTAuLV6h-nJ3WEEgTsANs0Tfd4FgNcTH1-5PYaapmQW1Q8FnKmzY1L9TQRriHaFnUZUzzRKn89LhV3n5oO5FkmAzDqYOkqbPhCput2V8IJUex12nvS7MwKPBCjJm7wD9q81u=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8uBwdOwoOw34A-gsOi3uZbhKr4pXt9aCcJWS3ax7JKzIyw7v-whk7QAJP-Ee3xdPIJNJ0JnqkI50UmP14hEGUfJOYdNPvceOXg19Nn-tNGSV9O6jTj1EAIOEkme_zSlD3X8vm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9u0QvLl2Sk4VfdpDQmrTE9WLBq13VqscnzI7l028WeqlOaEbFUqxNJV1mE4Ylay2G_S-FLg4cNHt7LxQ_63UiaZNqfDpPgP-zAb0mw-NAALyhJUwfJvGA4gCVYwhOi6zMRYPrDw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lori Katz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great work! John is so friendly. He and his crew came on time and were very careful and professional in getting the job done quickly and properly, just how I wanted it.\n\nOutstanding job—we plan on using him again next week.\n\nThank you so very much! 5 star 🌟 service!\nLK",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLew3WwTgSmK97L8cFuXeAien6vB7rJhlO6nN5bRf3ydZj0edAwVJvpzaYIboB16Uwmc6Khdoj8_jaW84RokxMaBJZgIt04VGevb03gANxtYz0e4CTixQmdRFoh2sGw0E0ukQJBfHA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "j brown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "A picture is now posted after his reply of being scammed. Look at the picture and tell me if that looks good and who is being scammed. John lied about everything he was supposed to do. Did not on his price quote asked for more money in the middle of the job and did a very poor job of landscaping. When asked to fix the unprofessional job, he lied delayed and lied and delayed. He speaks a great story to begin with and no follow through at all, bad choice of landscapers and I wish I called anyone else. Nonprofessional greedy and lies throughout the entire job never again.\nJust posted a picture to show this lousy landscaping. A dump truck would’ve done a better job and he never tried to fix it after numerous phone calls",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePPQUcx0v52luxmvYB-wlf2tYadM8iAXwqmQ6d7wZDMD4giF7hNtH6y6j1DJ-1fhsODYXxuL2kqEJ0N67fwaEWXBgSabsWN_eJjBXO61-mIUUsq0e7xiHUMf_AseFJ0CuzCrBR=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Hayward",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jon did a great job. Fair pricing and beautiful job done. Great guy.  Using again in future."
+        },
+        {
+            "author": "rachel ker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "French drain, fixed retaining walls and cut large overgrown palm trees. Appreciate John and his team very much. Professional, fair and quick!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Oakland (Central Depot)",

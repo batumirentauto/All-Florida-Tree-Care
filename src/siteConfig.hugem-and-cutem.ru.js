@@ -31,21 +31,9 @@ export const siteConfigHugemAndCutemRu = {
     "ctaPrimary": "Позвонить (+1 251-747-7514)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/hugem-and-cutem/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Hug'em and Cut'em Tree Service"
-      },
-      "sub1": {
-        "image": "/images/hugem-and-cutem/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/hugem-and-cutem/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHugemAndCutemRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/hugem-and-cutem/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHugemAndCutemRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/hugem-and-cutem/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHugemAndCutemRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/hugem-and-cutem/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigHugemAndCutemRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Heritage Church",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I contacted Hug’em and Cut’em for an quote on taking down three large Water Oaks, in the process of rotting., they were well over 50 years old. They were near the house and needed to go.\n\nTim came over the next day, gave me a fair quote and..."
-    },
-    {
-      "author": "Nicole Burroughs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tim was very professional and even understood the urgency of cutting down the limbs above my home before another fell on my roof. I totally recommend Hug’em and cut’em tree service to anyone looking to do limb removal tree, trimming of any ..."
-    },
-    {
-      "author": "Michael Briggs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tim and his crew removed a water oak next to my fence.  They did a fantastic job without damaging our fence or landscaping. Very professional and easy to work with. Highly recommend!..."
-    },
-    {
-      "author": "jesse saxon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am 100% satisfied with the decision to call, and with the job that was done. Exceptional, timely service. The trees that were removed were very close to the house, with the foundation at risk from root damage. They were removed promptly, ..."
-    },
-    {
-      "author": "Rachel Barnes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent tree removal service! Tim, the owner, is a fantastic man and businessman. I was quoted a great price for 5 trees and stump grinding. And yes, this company actually removes your stumps when they say they will! Also, Tim was patient..."
-    }
-  ],
+        {
+            "author": "Heritage Church",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I contacted Hug’em and Cut’em for an quote on taking down three large Water Oaks, in the process of rotting., they were well over 50 years old. They were near the house and needed to go.\n\nTim came over the next day, gave me a fair quote and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUrhdWrMdeg2pNZoLt_jfU0tqLeQyT5jgVxotroPhCPVg58Geh0MJxOMBHnM-POFeyyQnUOv6AWxkj_yU2Px6mcIyEstae0-dDxHzAWX3zcBK1IQsW65B-EVpkgeuBknjz1ctwT3KT0tAp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGDOY38JZldvhQPDqc_5EWEdpHZYJK2y141VP4s3UqYWweqwb75VHdf_PRvp154ibQxutoMPQq-1eyEU5HhrwgK3ijRmdEUSCJ10mHSWbh2YbqvOWyeAdldqf7fuIz9olhj9hwZ03v_oNg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8s36jyyAEmugIYETBzX5vpwEHMpBNVfLdT9V76SU7sT7uVzRJ1VZ_FbEd_GIqHTlZKnmhPHiq5U7j9mAew0mnLY4VD5ObWXU4BrTAexLpr8NawDbsdrXK_-32A9xV8Hv8gfFPcPDLIm8n=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLchGKbC0xhDXVTi63os9o0yHnFmJffvukMzd0MQ2wiYirS1mb5L4I9SPLKTlU7UQxXBSRZ2c7vrtwssQ4ORR3XFuGWoviEBSIiytfK4tj6TZg5l14SfIjN6g67JQypyfGzp3DTKP5g8RiI=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicole Burroughs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tim was very professional and even understood the urgency of cutting down the limbs above my home before another fell on my roof. I totally recommend Hug’em and cut’em tree service to anyone looking to do limb removal tree, trimming of any ..."
+        },
+        {
+            "author": "Michael Briggs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tim and his crew removed a water oak next to my fence.  They did a fantastic job without damaging our fence or landscaping. Very professional and easy to work with. Highly recommend!..."
+        },
+        {
+            "author": "jesse saxon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am 100% satisfied with the decision to call, and with the job that was done. Exceptional, timely service. The trees that were removed were very close to the house, with the foundation at risk from root damage. They were removed promptly, ..."
+        },
+        {
+            "author": "Rachel Barnes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent tree removal service! Tim, the owner, is a fantastic man and businessman. I was quoted a great price for 5 trees and stump grinding. And yes, this company actually removes your stumps when they say they will! Also, Tim was patient..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Robertsdale (Основная база)",

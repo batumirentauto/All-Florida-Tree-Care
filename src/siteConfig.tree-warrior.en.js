@@ -32,21 +32,9 @@ export const siteConfigTreeWarriorEn = {
     "ctaPrimary": "Call Paul +1 360-335-4746",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-warrior/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "TREE WARRIOR tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-warrior/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-warrior/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeWarriorEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-warrior/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeWarriorEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-warrior/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeWarriorEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-warrior/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigTreeWarriorEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Julie Dyer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Paul and his crew were amazing! They came quickly, are very polite and friendly. Paul described exactly what his crew would do and when the crew arrived, they confirmed everything before they started. The entire process was easy. My neighbors and I watched the crew take down my dying fir tree and were in awe of the crews capabilities of having to dodge my house, awning, patio, and fence. When they were done, they blew off my roof and cleaned out my gutter. I would highly recommend Tree Warrior if you are looking for a friendly, professional, and reasonably priced tree service."
-    },
-    {
-      "author": "Ievgen Perekopskyi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have hired Paul to cut trees that were hanging over my house, they were fast, professional and friendly. They left the place clean, I totally recommend Tree Warrior for your needs."
-    },
-    {
-      "author": "Brenda Stuart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We are thrilled with the work Paul and his crew did. From they beginning, Paul was a great communicator. He was professional and friendly. His crew was the same way, very honest and kind...and they sure knew what they were doing! Like a surgeon, taking down our tress, it was amazing to watch!"
-    },
-    {
-      "author": "Laurie Raleigh",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had four beautiful mature trees trimmed by Mikhail and Stan, and they were incredible. One tree required a full climb — fascinating and honestly a little scary to watch — and they handled it like pros. They were so careful not to damage any fences, plants, or nearby trees, and the cleanup was so perfect you’d never know they were here. Professional, courteous, and just really nice people doing a dangerous job. Their work was fantastic and very fairly priced. Oddly, it made me want to buy a chainsaw… just kidding. Highly recommend!"
-    },
-    {
-      "author": "David Chesnokov",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a bunch of giant Leeland cypress trees in my back yard that I was wanting to remove. Three of them were too big to handle on my own and most of the limbs were leaning over my neighbors houses and property so I hired the pros for those. The Tree Warrior crew came in and very expertly and carefully removed all three of giant trees without causing any damage to my neighbors or my property. They chipped all of the limbs and removed all of the wood and they did it for a very reasonable price. I was more than satisfied and would definitely recommend hiring these guys, they definitely know what they're doing."
-    }
-  ],
+        {
+            "author": "Julie Dyer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Paul and his crew were amazing! They came quickly, are very polite and friendly. Paul described exactly what his crew would do and when the crew arrived, they confirmed everything before they started. The entire process was easy. My neighbors and I watched the crew take down my dying fir tree and were in awe of the crews capabilities of having to dodge my house, awning, patio, and fence. When they were done, they blew off my roof and cleaned out my gutter. I would highly recommend Tree Warrior if you are looking for a friendly, professional, and reasonably priced tree service."
+        },
+        {
+            "author": "Ievgen Perekopskyi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have hired Paul to cut trees that were hanging over my house, they were fast, professional and friendly. They left the place clean, I totally recommend Tree Warrior for your needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegzPRnI_9jNKj1nKHzRWYKsNHsuvJTCwH6wboD1Gnbl2yyRyff0Ula56-o6byp2lSojzknMK5FzWv8p-6vthBnbPS90ocPsAphWXvS735x782TwZppuFTyHr8ab1ULSK_pUkltwr6UvNNY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdNI90-Dzr7HOp3Oe6hHiqHI0PcsF9PjPHqC8L42FAeAcnjrYYS9vEgJJtbVr_GR3oBQoWHgJGjXfc3y3kUZBhxg8PZQzwjGLelNtKnoq3RIRL3Wvj2USsrVDO7FJ_DQ23546QmuD_j7cp6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUCYUxGqj9rOxmoXUEdmpKPgprPkmDJXXrzyMpT_-gDvQS9g3qde4ElLBgod13hybB3JQGemANwr2Rdl1EMRz0LSQu2cZ4d1f8u9lE2j6bhg5Nbtc012_B0GUbRRQhMsJjYXjDGVZLsIkE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Brenda Stuart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We are thrilled with the work Paul and his crew did. From they beginning, Paul was a great communicator. He was professional and friendly. His crew was the same way, very honest and kind...and they sure knew what they were doing! Like a surgeon, taking down our tress, it was amazing to watch!"
+        },
+        {
+            "author": "Laurie Raleigh",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had four beautiful mature trees trimmed by Mikhail and Stan, and they were incredible. One tree required a full climb — fascinating and honestly a little scary to watch — and they handled it like pros. They were so careful not to damage any fences, plants, or nearby trees, and the cleanup was so perfect you’d never know they were here. Professional, courteous, and just really nice people doing a dangerous job. Their work was fantastic and very fairly priced. Oddly, it made me want to buy a chainsaw… just kidding. Highly recommend!"
+        },
+        {
+            "author": "David Chesnokov",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a bunch of giant Leeland cypress trees in my back yard that I was wanting to remove. Three of them were too big to handle on my own and most of the limbs were leaning over my neighbors houses and property so I hired the pros for those. The Tree Warrior crew came in and very expertly and carefully removed all three of giant trees without causing any damage to my neighbors or my property. They chipped all of the limbs and removed all of the wood and they did it for a very reasonable price. I was more than satisfied and would definitely recommend hiring these guys, they definitely know what they're doing.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcH-pHss-DmaZz6WALivtk4r-orALZlDtCeRC4K7OZqTRUq0cTUrXOpxXl7TLCvYaXCDgZLX-lu958yH5kIXy2XxrPrmXeaFkH7s3_tZk4S0CiiWhRAxqvByyULUpjNSq-3VLiJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd-1h6geA74aZRZrQkYYNVBgsds_T7abBxWJWHyGRy_JZxeWBHeofyPyXX0JpHpmnseG7zAsAFoQUxYJ2NF3E4zpmbxS-Zw4l3Rc7q4Pv8VBwgxvip-y-hlzD1Yr0C0QdE49XNe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeLv_-rl1sopT3qj0WR60S3CBSrRmEa8CHXiUIrVnaXKvwYYl0VzW1PaEy7A7MbHLmroOj5GLz81tTR53UBZoQHOtUSpBgcRhGOXwPRB37NWAV5Gjzr8_FFSMtE812H8RLQYw7m5Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBm0UuhS4Wlu2CejPpOrKzZ5sURHW3omEsjIpScgHe2D-dpHQ_k9IXm9dEpGBmgS3zY0zfTgFG4e37E4cv0cKB4amC_HXJ45zeAhPqob8-AVAUVxchbnggHlFnZ14cFL5prNyb=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Washougal (Central Depot)",

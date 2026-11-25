@@ -32,21 +32,9 @@ export const siteConfigDivineTreeCareEn = {
     "ctaPrimary": "Call Chase +1 803-543-1991",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/divine-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Divine Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/divine-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/divine-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDivineTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/divine-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDivineTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/divine-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDivineTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/divine-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,68 @@ export const siteConfigDivineTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kathy Decho",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Divine tree care did a great job with our massive oak tree that landed in our house.  They were nearly the only ones who would accept the job, ( it was an huge job) and they were very careful with, and  respectful of my property and ( new)landscaping.  They were also very helpful  and communicative to deal with, both for me and the insurance company. I can’t comment on their pricing because we had a unique situation, with difficult access, so I don’t know what the normal price for that would be."
-    },
-    {
-      "author": "Darren Truel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "⭐⭐⭐⭐⭐ Excellent experience with Divine Tree Care!\n\nI highly recommend Divine Tree Care and Chase and his crew. We had a very large maple tree that needed to be removed from our backyard, and it was definitely not an easy location. The tree was in a tight area right along the property line, with power lines, other structures, and our next-door neighbor’s property all nearby.\n\nFrom the beginning, Chase communicated very well about the estimate, what the job would involve, and what we could expect. On the day of the removal, he and his crew showed up right on time. In fact, they arrived a little early but were considerate enough not to bother us until the time he had told us they would begin.\n\nI was especially impressed with how carefully and safely they brought down such a large tree in such a confined space. I was concerned about possible damage to our neighbor’s property as well as our own, but Chase and his crew took great care throughout the entire process. Everything came down exactly where it needed to, with no damage on either side.\n\nThe cleanup was excellent as well. After his crew had finished hauling everything away and cleaning up, Chase personally stayed behind and went back over the area himself. What really impressed me was seeing him go all the way out into the road to pick up and clean away leaves and small twigs that had fallen during the job. That kind of attention to detail says a lot about someone who takes pride in his company and his work.\n\nFrom the initial estimate through the final cleanup, Chase was professional, dependable, careful, and easy to communicate with. Removing a tree of this size in the location it was in required skill, and they handled it extremely well.\n\nI would absolutely use Divine Tree Care again and would recommend Chase and his crew to anyone needing professional tree work. Five stars!"
-    },
-    {
-      "author": "Wesley Pressley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I do my best to support and recommend local businesses as often as I can. After our experience with Chase Durney and Divine Tree Care, I feel it is important to share.\n\nI highly recommend Divine Tree Care for any tree removal you may need. Chase is very specific, honest, and dependable. He will see the job through from start to finish. Chase even went the extra mile to make sure everything was cleaned up and done right before he took payment. For this job, Chase took down several trees, briers, shrubs, and hauled off junk and debris, raked, and removed several stumps/root-balls. A big job!\n\nIt’s my pleasure to recommend Chase for the five-star experience he gave us. Give Chase a call next time you need a tree removed. You won’t regret it!"
-    },
-    {
-      "author": "Andy Andrews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Chase and crew did a great job. They were on time, took down 2 trees and cleaned up and hauled away all debris in about 3 hours."
-    },
-    {
-      "author": "Lester Joseph Mikulecky III",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Chase and Crew helped out the folks with the old Elm tree that needed to open up the yard. Great job. The crew was fluid and effective for the size of the tree. They were in an out before noon. Really appreciate them and greatful for their blessing..."
-    }
-  ],
+        {
+            "author": "Kathy Decho",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Divine tree care did a great job with our massive oak tree that landed in our house.  They were nearly the only ones who would accept the job, ( it was an huge job) and they were very careful with, and  respectful of my property and ( new)landscaping.  They were also very helpful  and communicative to deal with, both for me and the insurance company. I can’t comment on their pricing because we had a unique situation, with difficult access, so I don’t know what the normal price for that would be.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLep98LvzHkarS5idLSq7SRzJUrQnFagyu7N8NeV7ddK0FwO-4q40Q7l1wtTPzIvqVV0u15rcXxq8HbuchE8FaIHZtfoZ3-Q2MVEjezlHtfxjNOud_u6zXJrEVcz76URmpXLwypphA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJD9RSojv_YNC83Xi-siy9BnWUMwCSc4yHMdn475ZgwqwN9TF1HNfDpqpHxGB2bdbavB4Z7eWZUBwkVOjWep3A6i3KOeTnUoI2PaQvZJ2y_zuKib9s6naPZ2u-uj95n3TUy7Uz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp57PsmfyuVIHxiulOIKrc4xy9Af7zeeR6sQVnAahuSR78ubGzZv9ZK4AXUiZy3-Lridh2xXtmaYYftsr2V8H56V6bl3V2kRMSof2aNq4KOJUtNbSQI8FKTNiKh65B6t2c18tekg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSWbFHu7IWt90MBUQc_6BW1VK983UIvYwZDo75L7U1-_DDlLuxHZiuE1gRKrpp8Y-sBPUsulFPzd5sKeMapYP5e5IvHnsCkjr5rNWIGebKsYIrCv91gVNwm7DtkpXmTgEQoEaN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Darren Truel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "⭐⭐⭐⭐⭐ Excellent experience with Divine Tree Care!\n\nI highly recommend Divine Tree Care and Chase and his crew. We had a very large maple tree that needed to be removed from our backyard, and it was definitely not an easy location. The tree was in a tight area right along the property line, with power lines, other structures, and our next-door neighbor’s property all nearby.\n\nFrom the beginning, Chase communicated very well about the estimate, what the job would involve, and what we could expect. On the day of the removal, he and his crew showed up right on time. In fact, they arrived a little early but were considerate enough not to bother us until the time he had told us they would begin.\n\nI was especially impressed with how carefully and safely they brought down such a large tree in such a confined space. I was concerned about possible damage to our neighbor’s property as well as our own, but Chase and his crew took great care throughout the entire process. Everything came down exactly where it needed to, with no damage on either side.\n\nThe cleanup was excellent as well. After his crew had finished hauling everything away and cleaning up, Chase personally stayed behind and went back over the area himself. What really impressed me was seeing him go all the way out into the road to pick up and clean away leaves and small twigs that had fallen during the job. That kind of attention to detail says a lot about someone who takes pride in his company and his work.\n\nFrom the initial estimate through the final cleanup, Chase was professional, dependable, careful, and easy to communicate with. Removing a tree of this size in the location it was in required skill, and they handled it extremely well.\n\nI would absolutely use Divine Tree Care again and would recommend Chase and his crew to anyone needing professional tree work. Five stars!"
+        },
+        {
+            "author": "Wesley Pressley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I do my best to support and recommend local businesses as often as I can. After our experience with Chase Durney and Divine Tree Care, I feel it is important to share.\n\nI highly recommend Divine Tree Care for any tree removal you may need. Chase is very specific, honest, and dependable. He will see the job through from start to finish. Chase even went the extra mile to make sure everything was cleaned up and done right before he took payment. For this job, Chase took down several trees, briers, shrubs, and hauled off junk and debris, raked, and removed several stumps/root-balls. A big job!\n\nIt’s my pleasure to recommend Chase for the five-star experience he gave us. Give Chase a call next time you need a tree removed. You won’t regret it!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLclhRo49qoDrN74xpLxMXE-WMrNZ2-D-0KKf03xcdZ0YJI6zYur11RFb63MMu3b8CIt_KVIF_1MUmnv9tFhbxPGB1CP3Dt-WSz_Jbg4py4o-MD4nOU-p2MXYP7Yof1Ul7XRj8cZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSNMCcGaNnvX0kcrmz1i0XKWD7SzhRA0gNp32ZML1Eaf9OFxaRviHCPvyqQT1Uv7sEyvZdTbrmolxoETOl2go2NBPn0xtCICfmEDDq-9K6uE_NQ-Zke9lOZxPxzo1ZqlXtBEFM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDh1uBEHWP3ZN0fyBEPL0ndftHNrxB8mc3TfqqMUW5IG1t2C6S8MfvAOcgqYvZ0ZZDECPcEPxDua61sFWpI46E1FcallI9KvL4BuwYS6dHQ43I4MFMPNGe5uhp0vHbMqlU9-sSCQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9bUA12yUkSXRanhSMk_RXUSp-4n3Nefp0yOH1WzqVvFgawQNSi9IPwEOo5L0btxghK6JwmOg_0OG0-ci7TX2C6zHD_hdRkitJC3mmJLWcjczscblg9-vsh-nX8QmfbGhJGDOG=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andy Andrews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Chase and crew did a great job. They were on time, took down 2 trees and cleaned up and hauled away all debris in about 3 hours.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdNCZPMlm1c0JpSbI4xhOIxJlD5slmL9LwRZlU8z79481upiTZdbuWkSOT8KVKci25DT3f85-WPCsX7Vc1IPWEU1o7WYcBuWIb4NntUQ-mW04DYcKZndJHCVQy7ONsY9ICi47zT9apaqH5s=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAs1VunYyXbhs9XoPwEdmkS5wK7goKVNgLt9e3xru1iUgH5xr8E7MoVVWq4WGDbAicpWKJaEIjtNPFm89aUjLs85rK_oKT3MkDNWaHfnaCg2SivJ9YFAkaID6ZrnWxr7apcpkgn3LjdimE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfx9ISiBoNjhgn4M_MiA8qIrhJl7heainMpDKjTt-2jM0SFZhleTia9UJ_NLde59TTEu8fJzcnjDVELJBQYNXcmBaGcI7JLQqQJHvE0xx19qOLi_KjjwJiQ4Bss6UhZaKmw-bMjRBrwwQ8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lester Joseph Mikulecky III",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Chase and Crew helped out the folks with the old Elm tree that needed to open up the yard. Great job. The crew was fluid and effective for the size of the tree. They were in an out before noon. Really appreciate them and greatful for their blessing...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeocc9Ho7RB3b9UrG6WIgZUN1ZoE8ufG6dVWPDp-Wk0inrMnO1J3vowINvHiCBYwOtpGwG7t0wTDed5mBBAsEXFUieHiORJpFhdjT5dVyC0Duf3YRuZjKshFbeo1Q6ecpHKvnUsTdUKm5g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHaYdPDTrydUZvF3udumy5ljuqb0Qze9EqDHePTERIxqXTnP-VmYXHrjHps7XWW5WVgj3sKsGHOx4TbKb9_oLGkway5gGcCQHxA70O46JJfHzuVOWR7j-0z_QX8OkD4lFfWd615EytYMQ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

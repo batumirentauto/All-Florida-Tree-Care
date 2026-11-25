@@ -32,21 +32,9 @@ export const siteConfigTheUrbanForestersEn = {
     "ctaPrimary": "Call Lead +1 281-884-9998",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/the-urban-foresters/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "The Urban Foresters tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/the-urban-foresters/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/the-urban-foresters/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTheUrbanForestersEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/the-urban-foresters/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTheUrbanForestersEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/the-urban-foresters/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTheUrbanForestersEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/the-urban-foresters/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigTheUrbanForestersEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carolina Sanchez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Urban Forest Tree, especially working with Jerry. He was professional, knowledgeable, friendly, and made sure everything was taken care of properly. He took the time to explain everything and made the whole process easy and stress-free.\n\nI really appreciate the excellent customer service and quality of work. I would definitely recommend Urban Forest Tree to anyone needing tree services. Ask for Jerry—you won’t be disappointed!!"
-    },
-    {
-      "author": "Laura Kasemervisz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The Urban Foresters did excellent work. I highly recommend them. Very professional throughout the whole process. I got two quotes and their pricing was competitive. Great customer service."
-    },
-    {
-      "author": "Brandi Wakefield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We could not have had a better experience! Unfortunately, our large water oak was not able to be saved due to root rot. Kyle and the team at Urban Foresters, Jose Luis, Nelson, & Arle did an amazing job with trimming all of our live and water oaks and the removal of what was once known to our family and friends as 1st Base😢\nFrancisco was our stump grinder he made the area look great.\n\nWatch your trees if I would’ve called sooner, we would’ve been able to save first base!\n\nI  highly recommend Urban Foresters"
-    },
-    {
-      "author": "Helen king",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Receiving an estimate and scheduling my tree trimming service with Jerry was quick and easy. He is very pleasant to work with. The results of the trimming job were exactly what I expected and more. And the crew did an excellent job of cleaning up."
-    },
-    {
-      "author": "Jonathan Dodge",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Did a great job on trees & shrubs. In my experience, these type of services are definitely a case of you get what you pay for. Worth it for a pro job that cleans up your yard in a day. Attached is before and after lygustrum shrub -- can't overstate how much work it takes to tame this shrub, for one person this is a multiple all day job, so glad to get it done -- thanks!"
-    }
-  ],
+        {
+            "author": "Carolina Sanchez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Urban Forest Tree, especially working with Jerry. He was professional, knowledgeable, friendly, and made sure everything was taken care of properly. He took the time to explain everything and made the whole process easy and stress-free.\n\nI really appreciate the excellent customer service and quality of work. I would definitely recommend Urban Forest Tree to anyone needing tree services. Ask for Jerry—you won’t be disappointed!!"
+        },
+        {
+            "author": "Laura Kasemervisz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The Urban Foresters did excellent work. I highly recommend them. Very professional throughout the whole process. I got two quotes and their pricing was competitive. Great customer service."
+        },
+        {
+            "author": "Brandi Wakefield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We could not have had a better experience! Unfortunately, our large water oak was not able to be saved due to root rot. Kyle and the team at Urban Foresters, Jose Luis, Nelson, & Arle did an amazing job with trimming all of our live and water oaks and the removal of what was once known to our family and friends as 1st Base😢\nFrancisco was our stump grinder he made the area look great.\n\nWatch your trees if I would’ve called sooner, we would’ve been able to save first base!\n\nI  highly recommend Urban Foresters",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4k_FvnNPPkMQiw9TWhdAe3xka1nlCSbaT5Xj87cRxhc8f9sJhkBxl2uhV-DNsmN6wqLvZ-Oc7g3aXRr6ZNopJ0vMhhGHx1dkrRbdcLccheTOdQL-DWNrwowu7toW2pDGHhMok=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_G-aeie852duA_CWmo4ZBqNhwF-cfbhO7OX3LdBodq3152MIvja7f7AXLiLhmpznQWQXnyD2IeWdyIQ-sUh6L24BSrsd884w13S0eQ_jSv-k9Z17ma2woCLgoO28mXVA8NsH1=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhZYqVd1REe3lD1oWpW_KnhH9k6Ec-v3z6mkuz8KEhPTQkhBFw0KrpMDuhHIMSFuV7TLSusPu3m_Kq74IoIgyTrpbZog_GIdNObahuiLSRdoxF2T9FTmGROHh-lcJzsyTT-cvV3w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2SEerYwtD2zb6_vcHkL0C2gj-CTpFaIs7CZWDKaAaFXvBixibNuP2MRyl1b9mqbdxZU7deJXwNWX_sE81UkNavBQQIGKppsAhxqGiaU0uOl2YiBq4nkMYSN7v2weezjRmvbk=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Helen king",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Receiving an estimate and scheduling my tree trimming service with Jerry was quick and easy. He is very pleasant to work with. The results of the trimming job were exactly what I expected and more. And the crew did an excellent job of cleaning up."
+        },
+        {
+            "author": "Jonathan Dodge",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Did a great job on trees & shrubs. In my experience, these type of services are definitely a case of you get what you pay for. Worth it for a pro job that cleans up your yard in a day. Attached is before and after lygustrum shrub -- can't overstate how much work it takes to tame this shrub, for one person this is a multiple all day job, so glad to get it done -- thanks!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeWQYrEv433B41e8zA_5t3Gv507SP1e8foabtFRLdIqMhuunlNUX0IRDr4L7c097BAwxVfa3MU_WPUEXagixJlk_F21oM8Sgqae64FdPHL0O248UOtldZjwDa653IRi0QYhJ-06=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf25UkgP0wlywhi-2OSbukODHyUw-VjYRP9E_3hKzjdocv3U_4PTnMcHic7M8XDgzMVY_72d004wITqEtRvjnC_tmUa1OzC5ylaMwBaEAr3Yz4i_3DcqiaZjS5u-PHw-XO44_k_jg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKnO2IRxTTOMqid9j3JB6qnNLHMVZ9lGAF6_EtottFHvkr5B_Ss4H6quDrZYvl9Cm4KZvYm1fMxZmyNkVlrOBuc5N_JtDRICywLR6Exb0DaBbj6cp9W8Ksg9IsLkkyKGCz_8F2=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Stafford (Central Depot)",

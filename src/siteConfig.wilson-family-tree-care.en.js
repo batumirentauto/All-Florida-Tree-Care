@@ -32,21 +32,9 @@ export const siteConfigWilsonFamilyTreeCareEn = {
     "ctaPrimary": "Call Daniel +1 904-210-8166",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wilson-family-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Wilson Family Tree Care, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/wilson-family-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/wilson-family-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWilsonFamilyTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/wilson-family-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWilsonFamilyTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/wilson-family-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWilsonFamilyTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/wilson-family-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,69 @@ export const siteConfigWilsonFamilyTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "ERICA GUMBAYAN",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Daniel demonstrated professionalism from the start by coming out on a Sunday and providing a thorough, itemized estimate—something I had to request from the others and two didn’t provide at all.\n\nWhat really set them apart, though, was the team itself. This might not matter to everyone but I was genuinely impressed by how seamlessly they worked together and the level of respect they showed one another. You don’t often see that kind of communication and teamwork amongst a group of men. It says a lot about Daniel, his team, and the company.\n\nThe crew operated with precision, care, and strong communication. Their attention to detail was evident in how they protected the property and executed the job.\n\nThey were meticulous in every way. They took extra care to protect my yard (and my grass isn’t even great to begin with).\n\nThe way they worked together to keep debris out of my pool was incredibly impressive. Honestly, I didn’t think it would be possible, especially with how windy it was, but when they finished, my pool looked just as clean as it did when they arrived.\n\nThey exceeded my expectations in every way. I’m beyond impressed and so glad I waited for his quote. If you’re deciding—this is your sign. Hire them. You won’t regret it."
-    },
-    {
-      "author": "D G (ConsumerGuru)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "As a person that knows a fair bit about trees, and has the occasion to experience quite a few tree service companies, I was very impressed by these guys. Daniel and Troy with Evan and Ray are gentlemen who know what they are doing and do it with a high level of southern courtesy. In fact, noticed that they liked their work so much that they were actually having fun - yes, of course they were very serious and safety conscious, but who enjoys their job that much these days! Nice to see that.\n\nSo, what really made me a fan is that they did the right things to help the health of the trees they worked on, so I knew that I could trust them. They knew how to properly prune palms. And they also took suggestions and requests in stride. Even left me some nice firewood. If there were 6 stars, I might give them all six, because besides the great work, they respond promptly, follow up, and show up on time! Yes, really, you read that right. That may be in part to the  good management skills of Ms. Britny in the office. All in all, bravo fellas!  I will certainly use you again."
-    },
-    {
-      "author": "Alexa W",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Such a great company! Daniel and everyone on the team was so helpful and kind. They helped remove my tree so fast and cleaned everything up afterwards. 10/10 place for sure and will use them again for future!"
-    },
-    {
-      "author": "LaParisienne",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Daniel and his crew were punctual , polite and very professional. Communication was great and Daniel really knew what was needed and went beyond my expectations . What made the difference is that I asked for an additional job that was not planned. They were ready to tackle it right away without any issues . Will definitely work with them again in the future."
-    },
-    {
-      "author": "Michael Flannery",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I cannot get over how awesome these guys are. Not only did they properly assess my Pecan tree after another company told me it was dead, but they trimmed it all up for me before hurricane season and all in less than an hour! Very courteous and professional group of guys and a big shout out to Daniel for looking out for my best interest. I almost made a huge mistake by having our beloved Pecan tree taken down completely because I was misinformed about it's condition. I am a customer for life."
-    }
-  ],
+        {
+            "author": "ERICA GUMBAYAN",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Daniel demonstrated professionalism from the start by coming out on a Sunday and providing a thorough, itemized estimate—something I had to request from the others and two didn’t provide at all.\n\nWhat really set them apart, though, was the team itself. This might not matter to everyone but I was genuinely impressed by how seamlessly they worked together and the level of respect they showed one another. You don’t often see that kind of communication and teamwork amongst a group of men. It says a lot about Daniel, his team, and the company.\n\nThe crew operated with precision, care, and strong communication. Their attention to detail was evident in how they protected the property and executed the job.\n\nThey were meticulous in every way. They took extra care to protect my yard (and my grass isn’t even great to begin with).\n\nThe way they worked together to keep debris out of my pool was incredibly impressive. Honestly, I didn’t think it would be possible, especially with how windy it was, but when they finished, my pool looked just as clean as it did when they arrived.\n\nThey exceeded my expectations in every way. I’m beyond impressed and so glad I waited for his quote. If you’re deciding—this is your sign. Hire them. You won’t regret it.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCTjmuNrYeWZo8y0iLP3vkbD5ZwSnO-Y9kRXaDYSdB8f1GvOvEdoyjM0q-rzSjyULPGBWnZ5apK7b_Jt8V0yFHy9KCutS_Fvn498F6f_W3Akre3R2jno6v2GFvfGMcwpP5JTx-9cerzSae=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeLuvcbdcCETNX-sckkFknaqCQLz2d6K5Qyt5XCgNLXE-Er7lqhF3zN9Gb2NGhUI8W1oab_IAmhMB7dYZ8VusSQoEfQC3dJZIvl96CMNox9B-z63uTakOXs9EjP891lORK4N0A4ab1DDArd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhTUR60e2LBe6f_wr1A-RwPg1gCSwcZcR9J59HqbLg5Sb4GCj2cQ-mKDpSWRxKyU364gDpchu9aEkyFWFdRzscu00iqe8eFbPLHOS95o8pzLzQhakVTeFGjaX4R3Ji2B6oASOkTbMxEDk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc7tRoxLmvpu_e57KtE4Sf2av4TXX9unHvfishz5mmG_TERWlB-0d6mc4WSC7BDyA-H72qVpC1rFEgH6-U0es0oL_Gz5rXpveI1SfAlj7OVSZh00yGcYVnn5rFs9bgJgtXabHr1BaztsRZ8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "D G (ConsumerGuru)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "As a person that knows a fair bit about trees, and has the occasion to experience quite a few tree service companies, I was very impressed by these guys. Daniel and Troy with Evan and Ray are gentlemen who know what they are doing and do it with a high level of southern courtesy. In fact, noticed that they liked their work so much that they were actually having fun - yes, of course they were very serious and safety conscious, but who enjoys their job that much these days! Nice to see that.\n\nSo, what really made me a fan is that they did the right things to help the health of the trees they worked on, so I knew that I could trust them. They knew how to properly prune palms. And they also took suggestions and requests in stride. Even left me some nice firewood. If there were 6 stars, I might give them all six, because besides the great work, they respond promptly, follow up, and show up on time! Yes, really, you read that right. That may be in part to the  good management skills of Ms. Britny in the office. All in all, bravo fellas!  I will certainly use you again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAiYohzinwjYcL1npIMsmuGSZzW99Ia0I-j65_azMsQV_S0bmO1EBusgoGvyBbEyZtcy6PkQzKRLLpT5vw-GueArLxksP0ewlsO8_KPVscqfxETiAGJdaZvWQAErsXnKWtl8MJyQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfINdPVA5_MdgK6GQzxo2oFoSGiJ8tnAjX6vr_hTSDHnZ6ZG9n4EaJQkhK5cuCLDttC1x0kZqbdxamunt_Np_Nq5QTv1mByfCjlIqWSQWHGJUfTSwvVoX0XkmNcHThimYBOl3eA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZ1r6H0gqPBTNB72xIwNgDEyIM7tH1gMPuJKabdClc-KNAnb_CJTu5oH5lGNJ2I2W0Pk8ti7Fx6aa95wHH3Kxr4IahvL5rkR7fAy0lyFNHDHQjd4gQi77z57808TcbN8T3k4NSkg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_rcQr6WDHm-uKsx6Dfum8-rjdSkwrLVZO388sYnf0urJKvtDemEBcunOoqaZw2Qfh2FBMRCwRH5wa6qmNjq08dnhxzss0ZvJ6p67lb3Ws59e1H2Nnfh7sx_fhBAgcz1r14-XV=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alexa W",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Such a great company! Daniel and everyone on the team was so helpful and kind. They helped remove my tree so fast and cleaned everything up afterwards. 10/10 place for sure and will use them again for future!"
+        },
+        {
+            "author": "LaParisienne",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Daniel and his crew were punctual , polite and very professional. Communication was great and Daniel really knew what was needed and went beyond my expectations . What made the difference is that I asked for an additional job that was not planned. They were ready to tackle it right away without any issues . Will definitely work with them again in the future.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfU3--HiwjfsFtLtItihzLR8kAO2SPWV-MITvHvk7CtxTSsyu9qwGUYJWkqcFEV3MWmjMAykTHkIUKBcQhOyjH5EiAlu1ETVd0ABAMdrayg3L0NVdvmaYQiIREj3p5Oe7Iug92l4A=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc6jA6cXCiJSGRz-bliJNaHaIUtAJVEa5e4Kla9Bn6VLogKI-heT9LkBXLbp6U0hJnMhRd--YnDAhQgP84TUBYk8RVjnZh3dhWA06Mx5OTCd_buzaJlCueLd3N-UO7KkB-MNvH8fw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Michael Flannery",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I cannot get over how awesome these guys are. Not only did they properly assess my Pecan tree after another company told me it was dead, but they trimmed it all up for me before hurricane season and all in less than an hour! Very courteous and professional group of guys and a big shout out to Daniel for looking out for my best interest. I almost made a huge mistake by having our beloved Pecan tree taken down completely because I was misinformed about it's condition. I am a customer for life.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdk78-syjP-mchW5BTu2VZNVb1mw7vtR0fgZY8DXASQm1mA9i5GdmvZg1mg4q2ANUq37FvquBn3mMOvyCVyCBb67Ng2dP_e_r1SG5chezONBat9yqKKPNguSP27wZKehfv_ukNCw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHCLOlrUkjcB4EGzzjqoqApYD8kANCbUrcj1OzzKpqmfsOgIPrPKRW6ogm8o0GDniCA2FLUxrlJa5a6Pky8mOVkdoOOG0R5pJp8SnWjwJ9XisYW74t1rvk-QvuIfN8AD7dVIE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcx3KefULbraa2SSsxpo5xt8BEt1Sgl4FkMnpPY-tCRr1qgh_RWKD6FrnJ-lOPbFdvwfdgTex-GyHmDsvccDHRuWVPrI8-CRTYuBivhoBd8sOLWyetCXuv8X1Qusb9B1c2ojhJD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3oHxNgcx3Zq-MnKWnp3au4SJS1DFn7lm4OmMa05R32Ed2iHc2j1bSKy2moaKo3HHS9YvBd5wPj6sa62SL5h4jh_9LZGQOe73nYZXHFmDRS1fei_fnkvgTcLlb6dW4FiWCptMg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Green Cove Springs (Central Depot)",

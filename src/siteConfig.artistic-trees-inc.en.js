@@ -32,21 +32,9 @@ export const siteConfigArtisticTreesIncEn = {
     "ctaPrimary": "Call Rene +1 210-561-0155",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/artistic-trees-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Artistic Trees Inc tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/artistic-trees-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/artistic-trees-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigArtisticTreesIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/artistic-trees-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigArtisticTreesIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/artistic-trees-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigArtisticTreesIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/artistic-trees-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigArtisticTreesIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Susan Maurice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Artistic Trees never disappoint.   Five star service each and every time.   They’ve done several major projects for me with the latest one being HUGE.   Rene knows and understands what I like and need.   He listened to what I wanted the end result to be in my backyard and then he designed a beautiful area that I will enjoy for years to come.   Completely trust them in any endeavor.  Kudos also to Lisa.   Always there to support and keep me updated on everything along the way."
-    },
-    {
-      "author": "Kenneth Adorno",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have to say  I was very impressed with Rene and crew!   Rene came and gave me a free quote for tree trimming and moss removal.   I misunderstood the quote given to me, but Rene follow up and was very professional, courteous and knowledgeable!  I decided to go ahead with the project, to my surprise the quote was not only for my front trees, but all the trees on my property including adjacent tree limbs from other neighbors yards coming into my property!\n\nThey worked for two days on my property always leaving my yard super clean and free of any debris!  They did such a great job on my property trees that my next door neighbor got their number from me and had his front trees trimmed  as well!    I will definitely  will be using them in the future and will be recommending them to friends and family!"
-    },
-    {
-      "author": "John Melnick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing arborist and staff.  Surgically manicured all my trees to promote a healthy future canopy.  Additionally, provided care to save a Texas native tree I have in the back.  Removed all the the ball moss from three trees, dead limbs, and suckers.  Most importantly, removed every bit a debris and limbs from the property; leaving it better than when they arrived. A True Class Act from setting up the appointment with Rene's Assistant (Lisa), to Rene providing expert recommendation for care, and finally, the staff who respected my job and truly went over and above expectations.  My second time using Artistic Trees Inc.  and never disappointed."
-    },
-    {
-      "author": "Alonso Jasso",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a tree fall in the backyard and, since I had previously had Artistic Trees prune my trees, I called them.  Rene came out that afternoon and quoted me a fair price.   His crew showed up first thing the next morning and removed both the fallen tree and another dead tree.  His crew was efficient and took care to protect our property.   We will surely use Artistic Trees in the future."
-    },
-    {
-      "author": "David Andresen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Our two large heritage pecan trees out back have needed on more than one occasion to be trimmed, cut, and/or pruned to remove dead branches, lighten limb loads, and deal with tree parts  that could possibly damage our neighbor's home or car if they were to fall in a storm.  We turned to Artistic Trees and Rene Pina in 2011, 2017, 2021 and yet again this past week to do the needful re: our trees.  Obviously, we like Artistic Trees, Inc!\n\nAnd with reason -- Artistic Trees has the equipment and expertise required  to get the whole job done right the first time.  Its crews work swiftly, steadily, safely, carefully and efficiently.  The costs for these jobs have consistently been fair and very reasonable for all the work done.\n\nBottom line -- Rene Pina and his staff are true tree specialists who carry out their varied tasks in a professional, knowledgable and thorough fashion.   You'll be choosing wisely and prudently if you choose Artistic Trees Inc. to get your tree work done, and done well."
-    }
-  ],
+        {
+            "author": "Susan Maurice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Artistic Trees never disappoint.   Five star service each and every time.   They’ve done several major projects for me with the latest one being HUGE.   Rene knows and understands what I like and need.   He listened to what I wanted the end result to be in my backyard and then he designed a beautiful area that I will enjoy for years to come.   Completely trust them in any endeavor.  Kudos also to Lisa.   Always there to support and keep me updated on everything along the way."
+        },
+        {
+            "author": "Kenneth Adorno",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have to say  I was very impressed with Rene and crew!   Rene came and gave me a free quote for tree trimming and moss removal.   I misunderstood the quote given to me, but Rene follow up and was very professional, courteous and knowledgeable!  I decided to go ahead with the project, to my surprise the quote was not only for my front trees, but all the trees on my property including adjacent tree limbs from other neighbors yards coming into my property!\n\nThey worked for two days on my property always leaving my yard super clean and free of any debris!  They did such a great job on my property trees that my next door neighbor got their number from me and had his front trees trimmed  as well!    I will definitely  will be using them in the future and will be recommending them to friends and family!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfw__9Gdu7Yio6hfBRZSQjFCJ8qGfoLKjLu56kHh11sLH4PlNUP-pqxPLbYj94CPRA6DtDODihgQlTrJ1BRaMLsthaW83LVFpr2DS-mbr1H3pw2DeMuTQikrcwLzBxW-8P8jNf51A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_iDAJbmJ22mvPlxXQsusG8Ncl8ojlJH3L0YhNZu_Ah0sw54YrEhGqwTFDemHSlS7ign5RVCYwGYpxJWDcwB3aK6UdM6d88jiLPjin49h5jOG9reBPLSiagSUmYZt5Aw_ut9x6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSXuI1MnnC1oprFNffkHy75TAFyoAXkYdnrhBDm0QrtqwGHHu2QZy_i9luLVVxbU7s5D7s5YSWISCaSlzPKi3ALBdHVxUxGrhIR8F-qPbV3AklKZQ9YT6SCnl1X1MqizKWuT7D2A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFqHFWHNfG99r2nctEtPlFo9ffuvvhPEqt7ggvNn1So66US_nbNYT4nKlmL5V_p0kFxjGtLNXtZYR3UGoTdivVNPk4SC0ecODGjRlPF2nO6DEr-XfytcU1fJyCAQKSE15p9n7G=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Melnick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing arborist and staff.  Surgically manicured all my trees to promote a healthy future canopy.  Additionally, provided care to save a Texas native tree I have in the back.  Removed all the the ball moss from three trees, dead limbs, and suckers.  Most importantly, removed every bit a debris and limbs from the property; leaving it better than when they arrived. A True Class Act from setting up the appointment with Rene's Assistant (Lisa), to Rene providing expert recommendation for care, and finally, the staff who respected my job and truly went over and above expectations.  My second time using Artistic Trees Inc.  and never disappointed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnWszDq7nJgG_ajI6JGTpbo8vnZQj4NcHb2Q-lK7faKjJYrieqrZWHdlKfaKPcy1OkIyRxeUQW9aiSgCQFx9QONohxVSZ-GTdQq56uHHAkAtkzwdmHGwuXHHLzrHRictJ1zizWZw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzBVzjLHV_E4KK4r7VX1HhM3jVO5mG0vTrjXBuucr4HzNnzf3XUU4A7nNrl7UGy-O_dpeo7O_kE9SDH7ep8gllM18XS-b2HCZnBRfndeVqUp3pS9hq1CMFeVionjmnCw7awDRE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4ouGGlhWPRmguN-KTFuaSJENOo6IKZSTwNTyN0-erIdzTjt2P4zF3yQ6WOTarFOKsQ90FAKlRP1UxgFRFnXGF1jGcMU6cBEZ7iWn-H-Xc9oVgQDkZnjPNwN3EWU3MP1wIZGwxmQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp6raHu8r0HzVmJtwEyZvO9jhBqqw3QACkldgG68ugpiI5cSr9Y8ZdGk8RG1RLAKRnvh8XBKwq76ronZRFSEwL0R3OD0D_yuUGr-AxsMeskYiNgggvyDYRbMOjanNt2VBy9WSb=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alonso Jasso",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a tree fall in the backyard and, since I had previously had Artistic Trees prune my trees, I called them.  Rene came out that afternoon and quoted me a fair price.   His crew showed up first thing the next morning and removed both the fallen tree and another dead tree.  His crew was efficient and took care to protect our property.   We will surely use Artistic Trees in the future."
+        },
+        {
+            "author": "David Andresen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Our two large heritage pecan trees out back have needed on more than one occasion to be trimmed, cut, and/or pruned to remove dead branches, lighten limb loads, and deal with tree parts  that could possibly damage our neighbor's home or car if they were to fall in a storm.  We turned to Artistic Trees and Rene Pina in 2011, 2017, 2021 and yet again this past week to do the needful re: our trees.  Obviously, we like Artistic Trees, Inc!\n\nAnd with reason -- Artistic Trees has the equipment and expertise required  to get the whole job done right the first time.  Its crews work swiftly, steadily, safely, carefully and efficiently.  The costs for these jobs have consistently been fair and very reasonable for all the work done.\n\nBottom line -- Rene Pina and his staff are true tree specialists who carry out their varied tasks in a professional, knowledgable and thorough fashion.   You'll be choosing wisely and prudently if you choose Artistic Trees Inc. to get your tree work done, and done well.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUKA1JUi3Np-fAy2QSyg0NrqbwiXCsE93eFioiHalnmfBtsHr6oPnm2mHjb-QaeqnVSYkwWfYmNPafwLcdbM4tGvuC4emzyqnafycnuiBajijQO7wmDgsyEQXWIJN2S7wLYQZI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmDM5_fbkncikqz5842ry7zUtyruiNF0UGiDYAYUribk1Bw-cs7zklipXOA1XkZr660u_kfkYgik7ZGQsdO0XPCrkV37QLCC_arLXyDCp5IoLVpVE1kfRSmmhAyMwFSaBlt0Av2Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJcbcK9QFSaeMGcKhwG3NiA5Nfsp1ib_CIScy0oK2Ga51-HdmLCnqjnh95Pdbni4-qPlo6pf5osQSjRAB2oQIiXO_sQTSGXp8_F2BZ6EODXf901AnNXxcnDpuvFvOi=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

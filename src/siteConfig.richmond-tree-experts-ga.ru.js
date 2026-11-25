@@ -31,21 +31,9 @@ export const siteConfigRichmondTreeExpertsGaRu = {
     "ctaPrimary": "Позвонить (+1 770-974-3964)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/richmond-tree-experts-ga/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Richmond Tree Experts GA"
-      },
-      "sub1": {
-        "image": "/images/richmond-tree-experts-ga/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/richmond-tree-experts-ga/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRichmondTreeExpertsGaRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/richmond-tree-experts-ga/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRichmondTreeExpertsGaRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/richmond-tree-experts-ga/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRichmondTreeExpertsGaRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/richmond-tree-experts-ga/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigRichmondTreeExpertsGaRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "J Lawson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is an incredibly professional outfit!! I cannot say enough about the caliber of their work.  I had what I thought was a tough job taking out 5 large pines from a tight backyard configuration, but Richmond handled it in a few hours like..."
-    },
-    {
-      "author": "Shelley Murphy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Richmond is a reputable, professional and knowledgeable company. When they arrived, Tony, the foreman, walked through the plan to remove huge pecan tree limbs hanging over our roof. They worked quickly and efficiently. Each crew member knew..."
-    },
-    {
-      "author": "Nick Murphy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys did a fantastic job removing a very large leaning oak with a stress fracture. We recently had new sod put in under the oak in the front yard and they didn’t damage a single blade of grass and left the job site as clean as possibl..."
-    },
-    {
-      "author": "Russ brown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired Richmond Tree Experts GA to remove 3 large trees from my property, and I couldn't be happier with the results. From the initial estimate to the final cleanup, the entire team was professional, punctual, and clearly experienced. They..."
-    },
-    {
-      "author": "Patricia Burney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have used this company a few other times as I have house that has many old trees around it.  A storm on Sunday hurled 2 huge trees into my screened in porch and destroyed it. I called this company on Monday morning and Scott immediately c..."
-    }
-  ],
+        {
+            "author": "J Lawson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is an incredibly professional outfit!! I cannot say enough about the caliber of their work.  I had what I thought was a tough job taking out 5 large pines from a tight backyard configuration, but Richmond handled it in a few hours like...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp_J-hKG1LcHPKitWgqRmCBs6wER7JC-Aw5IiRCX4aG8dX9qwwstl2x09zMje6H4TJIfsk9cXJ75VLR5JlHN8pWoUCUnb9iDK8KzHJb_w7dhWJDsSLzYgkXR2R7pf_ddH6FvpjdRmZlqM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePOLgM9Td76JTVoS34CAfPmQ7iVCgLNXPZzpOfKCyfIS4stUv9sncBHEaVfBQ0_XE442PVnabr2Nk5ltSLYmF48pm7Rl9MbYUGwwd7zMQkhLXROlDxpayrz3pVgfZwYPxMgRAjgzbbmsG5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnt3_ztlxTmptAWED7cbSm8aiOEUvkI16toRxMWe6zlcFWJm0oX_4WSuA7oBYGZIVEZfPg8B9wgxWFMlIu1KQrIWFcM_C_Q3E53aUCLAYDov9JSLmo7wd_JbGqtoE-Sy96Zq7qJpnbClrJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcD0jLm_vWLeXJsSF8tN_ulbTpfDoYA-_iC6CY3sArxYNBizL_r3c_e01bdlXIsNXMpFLnqixomse1V1jayjnPruNHEkUz5Mw00kKpzDiB0tm0gvsyo-44u-7n3R7vkhnuy9RtZyq--WogL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Shelley Murphy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Richmond is a reputable, professional and knowledgeable company. When they arrived, Tony, the foreman, walked through the plan to remove huge pecan tree limbs hanging over our roof. They worked quickly and efficiently. Each crew member knew..."
+        },
+        {
+            "author": "Nick Murphy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys did a fantastic job removing a very large leaning oak with a stress fracture. We recently had new sod put in under the oak in the front yard and they didn’t damage a single blade of grass and left the job site as clean as possibl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPGgYpTwEh9IVJvlnNsU_ATH6LkADKUaARzDQ4qmv_nYbUQmQjKD4G4lwwCAqhgbfNwyioHtQ3gKK-KUfuEwbN-c27aGTxclfrGdOgjsgeD35FgYyGOV6a5xnHmBtqZ2FN7JbK_dtVvmc=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0rj1ghHOPToQQC9o0_9rVy5S2retG0cy2kcrVAlpFiTRqWUkIuKTIQYrzoEX1jxowTXw65H6IkL1iDK8cmoB8VegR4cVcQfFXrltP8zcGolf4CObNA3kbkIjm1S39YLg-g5HaiyWkECTM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Russ brown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired Richmond Tree Experts GA to remove 3 large trees from my property, and I couldn't be happier with the results. From the initial estimate to the final cleanup, the entire team was professional, punctual, and clearly experienced. They..."
+        },
+        {
+            "author": "Patricia Burney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have used this company a few other times as I have house that has many old trees around it.  A storm on Sunday hurled 2 huge trees into my screened in porch and destroyed it. I called this company on Monday morning and Scott immediately c...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7t9KqVrAHyOBw9ESEmTbBKlD5FErtsQirOxjw2ZWRlduRZKqdXOSQzTsWfNdMZ86NnYJRzWh-rbjGOjAkTPZ_X4nDYCUrdUw0OX9S3iJLQbTeFaA9QwBXoM2LpH5l6lhBECSR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbDkjw4Os3E9fhzKadmMcBLBEEqi0K2RScEEbBENYD3HrxelcDEw-DMy9Rf50fplty831a2jZUl29k0KGKwKtFOWHV38HaN9XX4LBWwz1w28q49xCGuH3Q60TUIT4TRfHedc7V0w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrMuzlHTmf-NvFoPBazFRR6cR5r3TiDBOp1duyaX8X9IRukRoIn7OPyo8FjMrNUmPuCZJzo39TKWujQ9FWiTqMkAvq_GDbPdPUcwFog6seSVioKiRpugUG5r4afeiLaweX7yTA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOU7uNOnz9CtpfLsn6PQ3wp3WpEWmxtXGrPgLgs_kMXizH-0B33vI17I5Pp2XP2gefSNiRiMl1PYMN_XXOIV4EDK02xXw-nc7OTvT4eQ77otrNwk2aeUKNgMhnebWq-rqwqrntUA=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marietta (Основная база)",

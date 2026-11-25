@@ -32,21 +32,9 @@ export const siteConfigAlamoCityTreeServiceLandscapingEn = {
     "ctaPrimary": "Call Isaac +1 210-887-7359",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Alamo City Tree Service & Landscaping tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/alamo-city-tree-service-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAlamoCityTreeServiceLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/alamo-city-tree-service-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,65 @@ export const siteConfigAlamoCityTreeServiceLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mitchell Penner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is My second time using Isacc and his company, Alamo city. Several years ago, we did work to our backyard and this go around we redesigned our front yard.\n\nIsaac and his crew were punctual, under budget, And did high-quality work and transformed our front yard. After getting several bids, my wife and I found Isaac to be very reasonable and actually helped us design our front yard remodel free of charge.\n\nI work in retail and understand it is all about the customer experience, and Isaac and his team will not disappoint.\n\nMy wife and I highly recommend this company and his services."
-    },
-    {
-      "author": "Kevin Reedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys showed up on time and ready to work!  They went above and beyond helping me cut down a very tall old sick sycamore tree at a great price!  Thank you guys for doing this big job and taking my worries away!  Great team here!  I asked them to leave at about 8' for a project I'm planning."
-    },
-    {
-      "author": "erin nichols",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alamo city tree service and landscaping was very prompt to my service request and scheduled the appointment really quickly as well. They did an amazing job and we will definitely hire them for more landscaping projects. Highly recommend."
-    },
-    {
-      "author": "Krista Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alamo City was amazing! They were friendly, and professional, and did the work in a timely manner. They arrived when they said they would and even completed the job before expected even though they ran into a few issues with our current drainage. When issues popped up with our drainage they figured it out and redid everything so that our yard would drain properly. The turf installation looks great and made our backyard look WAY better than before. So happy and would definitely recommend these guys!"
-    },
-    {
-      "author": "Arturo De la Torre",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alamo City Tree Service and Landscaping has done a great job on my property on two different occasions. I hired them the first time to fill around the foundation of my home after a repair, and they came and got the job done right, fixed the soil with a slope away from the house. The work done oñthe second time was just as great. Isaac provided great work and exceptional customer service and attention to detail."
-    }
-  ],
+        {
+            "author": "Mitchell Penner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is My second time using Isacc and his company, Alamo city. Several years ago, we did work to our backyard and this go around we redesigned our front yard.\n\nIsaac and his crew were punctual, under budget, And did high-quality work and transformed our front yard. After getting several bids, my wife and I found Isaac to be very reasonable and actually helped us design our front yard remodel free of charge.\n\nI work in retail and understand it is all about the customer experience, and Isaac and his team will not disappoint.\n\nMy wife and I highly recommend this company and his services.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJPNY573tvWS-eRsdtmb01jbDAFO8W9uiOPDjAhb7czJ2wwXKy3CLQ0chRZ9z3HW5ZeSfXOYVoW6QDGEv-3SMDeuplIH5p3bSBVPTZaustCda3Zsacad8SAxawnn_bNZuOPVaJOBH6LnQ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Reedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys showed up on time and ready to work!  They went above and beyond helping me cut down a very tall old sick sycamore tree at a great price!  Thank you guys for doing this big job and taking my worries away!  Great team here!  I asked them to leave at about 8' for a project I'm planning.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeD6BNkmej1teDaxYYbgBOgp-dTN42EZB_yge0uWVP9APB-vuMALvNS1DNKG3XgicooH37Um3Eq6w6VS_wnxK5kvslnHgsaZPYtlXaJr-0Vmif08ja2iR7O45ADYhiCMAICoz1Zkm5YP6l8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt39CRZUXiwJSBaaGfaM0_eXDzBY1O59Iu6QXTZBZ0dlW1yp9tOAhvlyCp3Wa112iZ54ghN1MFbT-eG4vynqhKKxnDxWq26WzPwE0VclPXle9XFaSp1AhQ9BQ0vz958Au_QOu3RvlAOMDk=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "erin nichols",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alamo city tree service and landscaping was very prompt to my service request and scheduled the appointment really quickly as well. They did an amazing job and we will definitely hire them for more landscaping projects. Highly recommend."
+        },
+        {
+            "author": "Krista Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alamo City was amazing! They were friendly, and professional, and did the work in a timely manner. They arrived when they said they would and even completed the job before expected even though they ran into a few issues with our current drainage. When issues popped up with our drainage they figured it out and redid everything so that our yard would drain properly. The turf installation looks great and made our backyard look WAY better than before. So happy and would definitely recommend these guys!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfDv3sollOlqvqMWZWs2qgdsMZvIxh4BkiM4OHTOeQR89L41oLeUVIPnZ_Tv9dOXUsxIOyLRpcfQm0xw3I7VUJZY4L2Gpa5kGGAmUbbWssUian7hGNojpQgb1pWyKwc5BgsWdb6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdi5PAwk5towrrxetbmaBPUsbM1_1m2rAcUgClD8rE8lF1PbV3tA5b2z8zUGwdvwxERMHW1m0dkWEVXVTvTJvxbC9irSe1-GM39bLMM_qmYGlo0bKYDJ8Jte04DDVrOM0PwbOH7xA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeD5_9ysTd7-RBLb5MV7P4KuMvJgQvAbqc8S9ThuYdJTbp6ijusWI_G6yEH2V3x9EvDGoYH8XFNrmvoAkIyNMFrQWHMmaD4ip0kelyVsuKJtdK8NJC1TF_jNfLU6Uh6NRx60_0i=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeyOArk5l1UEolBkDklNZjlLNSd6YrXkOe2BPfx5uvhOO1Rsn-mpnU1L5XBj3j9_qHiEpYH7R2kBreRlvUdVHfp1J0hesWQvlyYFu4oQkt1dUXmy6DQnnxrAA25prVW_Jw7Gf_I=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Arturo De la Torre",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alamo City Tree Service and Landscaping has done a great job on my property on two different occasions. I hired them the first time to fill around the foundation of my home after a repair, and they came and got the job done right, fixed the soil with a slope away from the house. The work done oñthe second time was just as great. Isaac provided great work and exceptional customer service and attention to detail.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4QwV-l23EZULGYsV6g5K-Pvvs1sUzogwkjvCILJU_cqqboWpBqGD-4s2pL4hiMmNcQnYnwNo8u1BRXzUi0QzLlxo6otGDeB1rrrNSNZtLxIRw-8XOoN35uHC4RD3lFAb9Tbxx=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfzEG2NDH5avsskRsyLuFeU93yeWjIUo4U3c2iB7LKYAlT3SdCHnY7KBFEAIGb2NBH4nfZEqjIgSPovTAJu65B2HeULmwVfy44tPQYCX0snZZLVeWNrxTHnOarCYHmXKIIe88d38g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5h3bn6c9PaKVB4qiGfukG1u58OECs22V0B56t4IxqwkunJOaC4I3ABdEbJM5vCUgOUNTsWy1RJRSA3OU0-NPUDUDDo24PU2bMmFeqAi5unlTLK9HY76z3u23-j0i4RiwKmmbT=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

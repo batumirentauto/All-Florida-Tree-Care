@@ -32,21 +32,9 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiEn = {
     "ctaPrimary": "Call Bill +1 305-823-2345",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Affordable Tree Service Inc. - Tree Service Miami tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lisa Kennedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was impressed by the service from this Tree company.  They responded very quickly to my request for an estimate. Arrived as scheduled and completed clearing multiple high very large tree branches that were over the roof with efficiency and the right equipment and knowledge to avoid any falling in ways that might cause damage. (and hefted some heavy stuff!) Cleaned up well and promptly responded to one item I noted  before they left. Would highly recommend them. ( I hire lots of subs and am picky!)"
-    },
-    {
-      "author": "Jonathan Block",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Affordable Tree Service was amazing. Their team was very responsive and they were able to schedule my job promptly. Thank you very much for taking care of a dangerous tree for us!"
-    },
-    {
-      "author": "Diego Desme",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Team at Affordable Tree Service did amazing! They removed 3 trees in my backyard that were a nuisance and they did it quickly and efficiently and at a reasonable price. Would highly recommend."
-    },
-    {
-      "author": "Tony Wong",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently hired Affordable Tree Service to trim back some massive overhanging trees from my neighbor’s yard, and I couldn’t be more pleased with the results!\n\nFirst off, the name says it all—the price was truly affordable. I had called several other companies before finding them, and the quotes I received were outrageously high. Affordable Tree Service gave me a fair, honest price without compromising on quality.\n\nThe team of four professionals arrived on time and immediately got to work. Each person had a specific role, which made the process smooth and efficient. Two of them climbed the trees using ropes, while another used special climbing gear—clearly experienced and well-equipped. One team member focused solely on cleanup, ensuring my yard stayed neat throughout the job.\n\nOne thing I really appreciated was their ability to mulch the trimmed branches on-site. This is a huge plus! Many other companies just tell you to call for bulk pickup, which is a hassle and a sign they might not have the right equipment. Affordable Tree Service handled everything within my perimeter fence, just as I requested.\n\nBill, who seemed to be the team lead, made sure everything was done to my satisfaction before they left. Their professionalism, teamwork, and attention to detail were outstanding.\n\nIf you're looking for a reliable, skilled, and truly affordable tree service, I highly recommend Affordable Tree Service. They’ve earned my trust and my future business!"
-    },
-    {
-      "author": "john maine",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My wife and I recently purchased a very beautiful and expensive fence decorated with absolutely beautiful bushes expertly placed along side the fence. We hesitated to get two huge trees trimmed because they grew above large sections of the fence and bushes. I called Bill, from affordable tree services because he had worked for me in the past. The job Bill did for me last time was absolutely professional! My wife and I explained our trepidation for having large branches crash against our concrete fence and bushes. Bill said that that wouldn’t happen because he was going to watch the men work the entire time and they know he is watching. Bill showed up exactly when he said he was going to show up, had his crew expertly cut the trees, carefully putting them down outside the range of the fence and bushes. I went out to check to see what was happening and Bill was there making sure everything was safe and secure. Because of Bill, and his excellent crew of men, affordable tree service will continue to be my  tree cutting company."
-    }
-  ],
+        {
+            "author": "Lisa Kennedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was impressed by the service from this Tree company.  They responded very quickly to my request for an estimate. Arrived as scheduled and completed clearing multiple high very large tree branches that were over the roof with efficiency and the right equipment and knowledge to avoid any falling in ways that might cause damage. (and hefted some heavy stuff!) Cleaned up well and promptly responded to one item I noted  before they left. Would highly recommend them. ( I hire lots of subs and am picky!)"
+        },
+        {
+            "author": "Jonathan Block",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Affordable Tree Service was amazing. Their team was very responsive and they were able to schedule my job promptly. Thank you very much for taking care of a dangerous tree for us!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcfkdIZTjsTRibgzok5bVru_FcJqIKPUbEfTMMSPUQWw7nQRIZ5Ebyd1-v63ScRBo1NQ9kwzwXso_QJnKzTMxtSwzXm1u6zLB-zxBbB5i7iJHQFz9iFtVpgbk3YVPBwk7jmlCs=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Diego Desme",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Team at Affordable Tree Service did amazing! They removed 3 trees in my backyard that were a nuisance and they did it quickly and efficiently and at a reasonable price. Would highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfV68SjWUY-G407as3N9_kPTYe-XsF1jaz6peMQkr0gJ59gjGiv3O77MRLnfFZixQjN0EymT1Vc0644lHWa3IFNAr4ccUQUqbPv4qFghl46GkCKk0X-Ipa4IohBDP3tFWpAbZ8=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tony Wong",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently hired Affordable Tree Service to trim back some massive overhanging trees from my neighbor’s yard, and I couldn’t be more pleased with the results!\n\nFirst off, the name says it all—the price was truly affordable. I had called several other companies before finding them, and the quotes I received were outrageously high. Affordable Tree Service gave me a fair, honest price without compromising on quality.\n\nThe team of four professionals arrived on time and immediately got to work. Each person had a specific role, which made the process smooth and efficient. Two of them climbed the trees using ropes, while another used special climbing gear—clearly experienced and well-equipped. One team member focused solely on cleanup, ensuring my yard stayed neat throughout the job.\n\nOne thing I really appreciated was their ability to mulch the trimmed branches on-site. This is a huge plus! Many other companies just tell you to call for bulk pickup, which is a hassle and a sign they might not have the right equipment. Affordable Tree Service handled everything within my perimeter fence, just as I requested.\n\nBill, who seemed to be the team lead, made sure everything was done to my satisfaction before they left. Their professionalism, teamwork, and attention to detail were outstanding.\n\nIf you're looking for a reliable, skilled, and truly affordable tree service, I highly recommend Affordable Tree Service. They’ve earned my trust and my future business!"
+        },
+        {
+            "author": "john maine",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My wife and I recently purchased a very beautiful and expensive fence decorated with absolutely beautiful bushes expertly placed along side the fence. We hesitated to get two huge trees trimmed because they grew above large sections of the fence and bushes. I called Bill, from affordable tree services because he had worked for me in the past. The job Bill did for me last time was absolutely professional! My wife and I explained our trepidation for having large branches crash against our concrete fence and bushes. Bill said that that wouldn’t happen because he was going to watch the men work the entire time and they know he is watching. Bill showed up exactly when he said he was going to show up, had his crew expertly cut the trees, carefully putting them down outside the range of the fence and bushes. I went out to check to see what was happening and Bill was there making sure everything was safe and secure. Because of Bill, and his excellent crew of men, affordable tree service will continue to be my  tree cutting company.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6_Xxj0fTHOKBXw4OD7j2f4Gnh8FX6z7rglBeoXxvsN5lC7qKY911yKzzpi_10guQ57UmOJWhshEeYB5dIZ2QGuxFxcM8T9xkb3C0L4Qrkt1Mj0SC6G3Efk3EtXasd71fot_y7=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Miami (Central Depot)",

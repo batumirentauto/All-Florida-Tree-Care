@@ -31,21 +31,9 @@ export const siteConfigEatonRu = {
     "ctaPrimary": "Позвонить ((404) 227-0193)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/eaton/photo_002_crop.jpg",
-        "label": "Спил на горном склоне у дома",
-        "alt": "Спил аварийных сосен на крутом склоне за горным коттеджем"
-      },
-      "sub1": {
-        "image": "/images/eaton/photo_003_crop.jpg",
-        "label": "Осмотр ствола на откосе",
-        "alt": "Лесорубы на горном склоне осматривают ствол поваленной сосны"
-      },
-      "sub2": {
-        "image": "/images/eaton/photo_001_crop.jpg",
-        "label": "Деревья над крышей коттеджа",
-        "alt": "Высокие сосны, окружающие деревянный коттедж в горах"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigEatonRu = {
     {
       "name": "Расчистка двора и защита террасы",
       "badge": "Защита террас",
-      "image": "/images/eaton/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigEatonRu = {
     {
       "name": "Видовая прочистка горной панорамы",
       "badge": "Открытие вида на горы",
-      "image": "/images/eaton/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

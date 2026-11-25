@@ -32,21 +32,9 @@ export const siteConfigPolyTimberTreeServiceEn = {
     "ctaPrimary": "Call Oscar +1 626-478-4558",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/poly-timber-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Poly Timber Tree Service Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/poly-timber-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/poly-timber-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPolyTimberTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/poly-timber-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPolyTimberTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/poly-timber-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPolyTimberTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/poly-timber-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigPolyTimberTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Suki Thind",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Oscar and Poly Timber did an amazing job for us!\n\nI first came across Poly Timber when I saw their truck near my house in Duarte a couple of weeks ago while their crew was high up in our neighbor's palm trees. I ended up meeting Oscar, and shortly after, we had him come out to look our rental property in Glendora that needed quite a bit of trimming (multiple palm trees, an avocado tree, fig tree, birds of paradise, etc.).\n\nOscar gave us a quote after checking everything out, and I really appreciated his professionalism and how eager he was to earn our business. We've had tree trimming done a few times before, so I'm pretty familiar with standard pricing--Oscar gave us a great deal.\n\nBetween that, seeing their work firsthand, and knowing they're fully licensed, it was an easy decision to go with Poly Timber.\n\nOn the day of the job, Oscar kept me updated throughout and coordinated directly with our tenants and the neighboring property to make sure everything went smoothly.\n\nWe couldn't be happier with the results. The trimming was done to perfection and at a great price. He even threw in a few extra trimmings (pun intended) at no extra cost!\n\nIf you need any trimming services, look no further. These guys are the best in the business!"
-    },
-    {
-      "author": "Diane Noro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently used Ricky’s timber service and couldn’t be happier. The crew showed up on time and worked efficiently to get the job done ahead of schedule. They maintained a high level of professionalism throughout and left the site clean. Plus, their pricing was very competitive. It’s hard to find reliable service like this these days—Ricky is the real deal!"
-    },
-    {
-      "author": "laurie Astle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We are pleased with Poly Timber servicing our trees.  They did what they promised, and the price was great. Ricky was very knowledgeable and gave us good advice."
-    },
-    {
-      "author": "Nate Showalter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ricky and his Poly Timber team did a great job ridding our Stone Pine tree of some dead branches. They were careful, safe and had a chipper to take care of all the branches. Price very competitive."
-    },
-    {
-      "author": "Chris Gonzales",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Service was quick and clean. Called Ricky for an estimate and he came out the next day with an estimate and offered to do the job the next day. His price beat competitors and being insured and licensed it set my mind at ease. I added a picture of the process, but they rooted the entire stump out!\nGreat Job Poly Timber!"
-    }
-  ],
+        {
+            "author": "Suki Thind",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Oscar and Poly Timber did an amazing job for us!\n\nI first came across Poly Timber when I saw their truck near my house in Duarte a couple of weeks ago while their crew was high up in our neighbor's palm trees. I ended up meeting Oscar, and shortly after, we had him come out to look our rental property in Glendora that needed quite a bit of trimming (multiple palm trees, an avocado tree, fig tree, birds of paradise, etc.).\n\nOscar gave us a quote after checking everything out, and I really appreciated his professionalism and how eager he was to earn our business. We've had tree trimming done a few times before, so I'm pretty familiar with standard pricing--Oscar gave us a great deal.\n\nBetween that, seeing their work firsthand, and knowing they're fully licensed, it was an easy decision to go with Poly Timber.\n\nOn the day of the job, Oscar kept me updated throughout and coordinated directly with our tenants and the neighboring property to make sure everything went smoothly.\n\nWe couldn't be happier with the results. The trimming was done to perfection and at a great price. He even threw in a few extra trimmings (pun intended) at no extra cost!\n\nIf you need any trimming services, look no further. These guys are the best in the business!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUPYKhVcBzCD9mZYv_hENPUijoG4GlA-mLDf2zlSU1dk4uz5LbkDQJjNlzQ5lvz0edjH2pvtbSIUGSC7hQBomrvjiKBf5pw7yCq5oyzT6VCwxIFNlT2L2lsQmJ40mHRup3wUaEOvSIjQEw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_Vr1ho1KU0Ibh06EOQQe8BsvigiTZ2na1Ef9EA_BZOA2XG63SS40jk-ZDQiG2UqAlETcos1mzXWc-OAx2K1ZPHdwJSomh7nOxeb57Vkh1-ilKYyS7f3bgP0JnbcIaOc-Jr0IsS5Felgla=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe62-kF--5pfrXC2BsUhdR-kx93vsEG5XD3FanbQ_e3Hwbs03pXAHwHC8NFd4grZGZfc7ySmrrPxjqAycccr2HSzKLlEZnNhQjpA5deRNqOUGir1uyqJhCdRez8-7oAwaMJcUAN80cVdzHX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfL8AihLchpLwBEhhEqW9lPUUR1RwN_-UyHcL6JEFZ9-h8Hitf0856St4DNst7brbokKJGEe7UU91fHzx4s8E6C0PNHvTe4ODRp81m5cwVZKtg_ntFbMTOyItrc-OD7txOjcdw7KO80iPnq=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Diane Noro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently used Ricky’s timber service and couldn’t be happier. The crew showed up on time and worked efficiently to get the job done ahead of schedule. They maintained a high level of professionalism throughout and left the site clean. Plus, their pricing was very competitive. It’s hard to find reliable service like this these days—Ricky is the real deal!"
+        },
+        {
+            "author": "laurie Astle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We are pleased with Poly Timber servicing our trees.  They did what they promised, and the price was great. Ricky was very knowledgeable and gave us good advice."
+        },
+        {
+            "author": "Nate Showalter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ricky and his Poly Timber team did a great job ridding our Stone Pine tree of some dead branches. They were careful, safe and had a chipper to take care of all the branches. Price very competitive."
+        },
+        {
+            "author": "Chris Gonzales",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Service was quick and clean. Called Ricky for an estimate and he came out the next day with an estimate and offered to do the job the next day. His price beat competitors and being insured and licensed it set my mind at ease. I added a picture of the process, but they rooted the entire stump out!\nGreat Job Poly Timber!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHYmDUMvok1bCA8qvvLQ5acSXWz7wHHdhkgsRR7KdR9nVAFUho-Hffas2S5zPyOQC6SVSGshDjw6a-8BVxfMP_wEwV7b3XpKluqaWoQ9uv8DE1DgeNNqBtq3Z0VBXJZ08lSOCoVA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pico Rivera (Central Depot)",

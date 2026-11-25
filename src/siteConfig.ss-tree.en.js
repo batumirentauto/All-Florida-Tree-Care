@@ -32,11 +32,7 @@ export const siteConfigSsTreeEn = {
     "ctaPrimary": "Call Scott (904) 510-9359",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ss-tree/photo_001.jpg",
-        "label": "Heavy Sectional Rigging",
-        "alt": "Arborist crew performing heavy sectional tree lowering with bull ropes"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

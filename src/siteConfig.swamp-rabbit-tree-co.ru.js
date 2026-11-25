@@ -31,21 +31,9 @@ export const siteConfigSwampRabbitTreeCoRu = {
     "ctaPrimary": "Позвонить (+1 864-735-7436)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/swamp-rabbit-tree-co/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Swamp Rabbit Tree Co"
-      },
-      "sub1": {
-        "image": "/images/swamp-rabbit-tree-co/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/swamp-rabbit-tree-co/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSwampRabbitTreeCoRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/swamp-rabbit-tree-co/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSwampRabbitTreeCoRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/swamp-rabbit-tree-co/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSwampRabbitTreeCoRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/swamp-rabbit-tree-co/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigSwampRabbitTreeCoRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Adam Moats",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Swamp Rabbit Tree Company is hands down one of the best tree service companies in Greenville. John (the owner) and his crew are true professionals and were fantastic to work with from start to finish. Communication was excellent throughout ..."
-    },
-    {
-      "author": "Justin Tesh",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: John and his team are hands-down the best in the business. Professional, punctual, and incredibly skilled—in April they removed a huge tree safely and left my yard spotless. Reasonable prices, friendly crew, and top-notch results. Couldn't ..."
-    },
-    {
-      "author": "San Siva",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Last year during Hurricane Helene, several large oak trees from our neighbor’s property fell directly onto our home and pool systems, causing significant damage. With arborists in high demand statewide due to the widespread storm destructio..."
-    },
-    {
-      "author": "Alex B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: John and his team started off as great communicators and came through with expertise. They were quick and efficient with my tree pruning and provided excellent knowledge. Reasonable pricing and above all were very safe with the pruning. Wou..."
-    },
-    {
-      "author": "Chris Currin (Wrapped_GTR)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had several trees trimmed up as they were overgrown. And 1 very large tree removed that was between two garages. John brought in a crane and him and his crew did a fantastic job, professional, quick, and left the yard better than when the..."
-    }
-  ],
+        {
+            "author": "Adam Moats",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Swamp Rabbit Tree Company is hands down one of the best tree service companies in Greenville. John (the owner) and his crew are true professionals and were fantastic to work with from start to finish. Communication was excellent throughout ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLddQ7aDxwk9R8ftRnT4xTc1SEA8lBhxyh9YExYDtwe5f6lg2ZaJkJrVdpFtgtKKhucEJoJqaBRAAREbDZqriluoZJpwA10p8eUbomX_G1e9KdAdTMW1pFJcNZaT5beg0eKdgE-RRLRMHVfV=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdw5DW6Tn5Bi0B-CvCxvxI5KUWqo4Z1aCWp6yMGJ-aH2oDgtFCZilBRvFalgQP9lnIFW6HFEO0SNGet5ocQ05RWewXMemNHNwXm4gr3HMdbpaERPQQF_WEwKit62h5QFJg_uUfuH2j0VVw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Justin Tesh",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: John and his team are hands-down the best in the business. Professional, punctual, and incredibly skilled—in April they removed a huge tree safely and left my yard spotless. Reasonable prices, friendly crew, and top-notch results. Couldn't ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe94_MbFcPRhgRXCtQLc_icVjaWTCHqnIprHey9kye0SuEHx6FKY1C9BXjyk9IKxoD8cfRtDxMQDGIEFa__rypK3ikD1f93lLTa4-eCjwROvastMZhCeG8myoUPFYrmRiQ-eps7vbpc51Gc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIWFzBfymGK9bui33fX4qCbW6bru8xxF1eOCv52xet306QfCjH0URKIKFs752sP9pWnoD_2uf3ZDFVPz528Ka0mJHL-2ScwXvMTI9HEuszZX8suQE4xABkszyG0swTz1lCsOOab0KKHoHG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdS0pmOZToT3s27hNwgywIuTrPT1uYLUpFCDYPM-BzjDQCxXUe_RIfp12DKTQT6Td_rF1BUnLYoRHcQ9_ucNTT2RhlKTx-qfCmuJaYX1pc-N9NS6emXUZt-M2TtUKzbk13JwYQvroDVEnjs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfMuxV1MjjakBNC1hYCj-CdD3LTnMg83aQqFnx-eRFEri6riV64O5mnMSpkltZMrCUoGvooTz8cEgPpOWE2vXi5LsK8i59vghlYeFySiGckKSx2JePW1v0ewVcbt2_runN-xEuelU8CYJU7=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "San Siva",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Last year during Hurricane Helene, several large oak trees from our neighbor’s property fell directly onto our home and pool systems, causing significant damage. With arborists in high demand statewide due to the widespread storm destructio...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZkQDgehi2ggItVDZ_NiV5WxjL-XQ01Loz4sY8LWqSkSjYfgnhi7nM9BQj55pctshgLabVhg9eHPFVxVg1o2KMhZNEav5gYwWuN0jyAQ-FDWboYifuoYfCDWFYSveGKO9pgRAfV6REMDg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFQN3GOdcLFtZANmiZlIgIHwymT_q-zMxZjOcxDHBz-TQ4XZ2yUygXnbzELNujdR6S2l-_vynEPZX459KaBdegnOSfL_Jg0YjHrHvelSC7O63JULbfbOpdNhcn0IC8NTUPelCe50U_qeg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3cKCFbWsFbFE_SJcZ72milcvD4CdlenCVragiA_KIikrkTPQXX4lq-p2CrKPrJ_F6NWXegE5nnXp2LfvJrlOw9OV5vNrYb-zb_B_WmhA5NwFp227Ku6NBURngPGaBApccn26GILjmkHh1=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevGJnVe5a-GNNDLZKunMkWssAVtCkVvkgyQuhHEP4WIcc7owTNqCSwJ5W0lqcmH7GowKSEcrbP1ESXPjeX_eXm9ydMU4Ggj6pFPz0hC1iNJFrknOFTNQjBtt_OXZISDhQp9ERMAC48UNqH=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: John and his team started off as great communicators and came through with expertise. They were quick and efficient with my tree pruning and provided excellent knowledge. Reasonable pricing and above all were very safe with the pruning. Wou..."
+        },
+        {
+            "author": "Chris Currin (Wrapped_GTR)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had several trees trimmed up as they were overgrown. And 1 very large tree removed that was between two garages. John brought in a crane and him and his crew did a fantastic job, professional, quick, and left the yard better than when the..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greenville (Основная база)",

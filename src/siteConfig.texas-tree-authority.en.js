@@ -32,21 +32,9 @@ export const siteConfigTexasTreeAuthorityEn = {
     "ctaPrimary": "Call Santos +1 210-251-4232",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/texas-tree-authority/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Texas Tree Authority tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/texas-tree-authority/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/texas-tree-authority/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTexasTreeAuthorityEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/texas-tree-authority/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTexasTreeAuthorityEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/texas-tree-authority/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTexasTreeAuthorityEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/texas-tree-authority/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,70 @@ export const siteConfigTexasTreeAuthorityEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Stacia Newton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "What an absolutely wonderful experience it’s been from start to finish! We first met David at a home show and were impressed by his knowledge base and passion for trees. When we initially had him come out to give us a quote, we simply were forecasting for future trimmings. However, when we saw our tree had a fungus a few months later, we knew exactly who to call. David was always making sure that we were both informed about the health and wellness of the tree and the process to get the job done.\nWhenever I needed to ask questions on scheduling or timelines, Leah was always available to help. And then when it came to getting the work done, Braden and Crew 3 were amazing. Not only do I love the way that the tree looks, I felt incredibly confident having them climb in the canopy and seeing their safety measures. That included helmets, tying off on branches, and always having two people on property. We’ve had many services on this tree and those pale in comparison to using this company. What a wonderful experience it has been. We definitely know who to call to take care of our beloved oak!"
-    },
-    {
-      "author": "Marta A Rivera Diaz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Texas Tree Authority earned our business from the very first interaction. I submitted an online quote request and received a response within an hour. By the end of the day, Tyler was at our property assessing the work. He was professional, knowledgeable, and took the time to clearly explain what our six trees (oaks and stubborn cedar) needed and why.\n\nWe received a detailed quote within two hours of his visit and it was fair and reasonable. For comparison, another company stopped by later, didn’t walk the property, and threw out an outrageous number without a plan. The difference in professionalism was obvious.\n\nTTA scheduled us just before an incoming ice storm, showed up on time, worked efficiently, and left the yard spotless. The cleanup was excellent.\n\nWe’re extremely happy with the quality of work and pricing. Highly recommend Texas Tree Authority if you need tree trimming in San Antonio. They also offer a military discount.\n\nPro tip: Pay by ACH to avoid the credit card processing fee."
-    },
-    {
-      "author": "Mike J.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After that storm that rolled through last weekend I had a downed tree called that morning, within 2 hours David was out right away to give a quote. Had their crew out within the next couple days. Took them no time to clear the tree. Not only did they clear the tree they cleaned up after themselves. Couldn't even tell they were here other than that the tree was gone! Santos and his crew were amazing! David was great very knowledgeable and professional. Veteran Owned and offer Military Discount!!"
-    },
-    {
-      "author": "arlene northway",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Texas Tree Authority is the place to go for friendly,  knowledgeable service. Dylan and his crew knew exactly what to do to resolve our tree issues. Shout out to Santos and his crew for their expertise. Santos really loves climbing trees and loves the \"view from above \"! They removed a 75 year old pecan tree, trimmed 2 more, pruned our palm tree, and hauled off the debris. All in one day! Great work! Thanks to Dylan and Santos!"
-    },
-    {
-      "author": "Katie Kelly",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very impressed! From the bid with detailed removal photos to the sales gentleman showing up when the work was to be performed. They never missed a beat. The wok was done so well and CLEAN. They didn’t leave a speck of leaves/dirt/tree debris ! Oh and did I not mention the price? They were way below every quote I got so I hired them immediately!! So happy with the work completed and I can’t recommend them enough!"
-    }
-  ],
+        {
+            "author": "Stacia Newton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "What an absolutely wonderful experience it’s been from start to finish! We first met David at a home show and were impressed by his knowledge base and passion for trees. When we initially had him come out to give us a quote, we simply were forecasting for future trimmings. However, when we saw our tree had a fungus a few months later, we knew exactly who to call. David was always making sure that we were both informed about the health and wellness of the tree and the process to get the job done.\nWhenever I needed to ask questions on scheduling or timelines, Leah was always available to help. And then when it came to getting the work done, Braden and Crew 3 were amazing. Not only do I love the way that the tree looks, I felt incredibly confident having them climb in the canopy and seeing their safety measures. That included helmets, tying off on branches, and always having two people on property. We’ve had many services on this tree and those pale in comparison to using this company. What a wonderful experience it has been. We definitely know who to call to take care of our beloved oak!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjPdxsRnWCxA9l096CgyxsBZ-Q-SFtdrwcXOW2MZksrC0otKBsdplwKqVaVPuC1bNbYVkoPvaTLoAcnNG1tiN4tWT-ZMkpFW4vbTpIsoOLC71WQb-3j4k-6q1oCh1E8DgCnJcgHfMgCGin=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Marta A Rivera Diaz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Texas Tree Authority earned our business from the very first interaction. I submitted an online quote request and received a response within an hour. By the end of the day, Tyler was at our property assessing the work. He was professional, knowledgeable, and took the time to clearly explain what our six trees (oaks and stubborn cedar) needed and why.\n\nWe received a detailed quote within two hours of his visit and it was fair and reasonable. For comparison, another company stopped by later, didn’t walk the property, and threw out an outrageous number without a plan. The difference in professionalism was obvious.\n\nTTA scheduled us just before an incoming ice storm, showed up on time, worked efficiently, and left the yard spotless. The cleanup was excellent.\n\nWe’re extremely happy with the quality of work and pricing. Highly recommend Texas Tree Authority if you need tree trimming in San Antonio. They also offer a military discount.\n\nPro tip: Pay by ACH to avoid the credit card processing fee.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRtZYUh5ASQGwSiRWk2zLh4hIKDOWDdivnRf0zhlc2Qm-T-1rsuBRtYn4WUHGQqtSR2rqlW6c0TBGx9qb_POpFxS9NBSH70MoSwdN90lQAbDvptEGQE6t4nbsAvw1eEuMliXky0HcgiiUw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6xBhJIOC_PU00rwMWwq4AyVU0gFdBpJegPVJtvnaGjvwyZFQBgCVf-1dnnOwQyjsVn27ZKkH7WDmzkLdSntGA-wuFwIIWjN3HW7oYbUIcnzWH0zGF-odbTE-wmXAhLXomhDjOrmJmPSIG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxziljIEuitHd3k4S23PJ0ptWvSoz91R38iXanibXxNB2fhEDcqLReMSwKHXBjYA1m_9f8ATt7JQwRXXToAuTcIAdoMAotlSwHzFKkrKs-I3_aP44bQ_OQqWPRfO_Qa36uAHNEO-K6i6WU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLca3fY11XaKxCb-lH69QVCPXwn4GzwnFrm9kz2l9IXgQ7vWv0JA4Ns_m1jXhQwe9Pg-GOq9-8CY4Xz6C3V-0ayLi4wYh1V73F9wmBsXWxBQ-4dHEsqRBUJP2kX3wmkb8M677KPHlQSMBSkE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mike J.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After that storm that rolled through last weekend I had a downed tree called that morning, within 2 hours David was out right away to give a quote. Had their crew out within the next couple days. Took them no time to clear the tree. Not only did they clear the tree they cleaned up after themselves. Couldn't even tell they were here other than that the tree was gone! Santos and his crew were amazing! David was great very knowledgeable and professional. Veteran Owned and offer Military Discount!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf804zpE8xP8snCnZ-PWV_tFVWkm3g3z8WvtmlKUeXSWVBBvKiBtpAIXfhEQnU54vmd6C82efmuiiMGS5ZJFPT7KPvySH3d7hK7PKreht_uLypNJ6QHbR2unLLBNZCH97zUxzyaG34xOeDs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQcWTzT9uDyr7zzPyee5gTf23N1HaFH6mmiRAdRvcxjttlhM0nuOipV9rZSVwpQ5OtmW-tPkfzIvkcdZBDIzuXrHG1d7G7SxqJbosBNhD64a4HsyOENqxBLOwlTUoayecOHdOZQoz6IWQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-iw8q28NeKWvABFG3ChiUwvg9-BCNn7AI0bGQ7KQM5zCgXWsa7Zm_Vfl2bqD4CdwvEj53dbMNEo2Wcb3rQvseN0dIw71US00Y0aBrefxMjJNRu3_t4qKdAHG7I88YC9E-sS19HZEneC7b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf16vbQe4l5jhinGEOdZM8WojcGQJQEnwLEYlS2jzFlI_j864t54UDMUnvRGfPzUch1O6nybgCxDO1N24Wtc2fQGg9s3cXZ_GaEIxsKwcmjgbEWaXmECY1dHeoND6Uya-BX15CHISRHZjno=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "arlene northway",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Texas Tree Authority is the place to go for friendly,  knowledgeable service. Dylan and his crew knew exactly what to do to resolve our tree issues. Shout out to Santos and his crew for their expertise. Santos really loves climbing trees and loves the \"view from above \"! They removed a 75 year old pecan tree, trimmed 2 more, pruned our palm tree, and hauled off the debris. All in one day! Great work! Thanks to Dylan and Santos!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfTw_3qpCQ-_ewhotzin4FmIpBMBFPc76d22FZq-5o5UnAdXLSDMyQ5A1deEopGBMOzI0W2FsJrTez8AX0w_zg6osmtfu1Rn2yh0XQKLkpXJOEEVhtiMbji4fGhAsXJ85Pq-kmbBrwg0fU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeBtOcUrkF3v8GXP0kNX1e55xLRE6TNK7GBkjZWZcjB1IZEF_51lRyxdOsfxbisEZnwfxtB3L4xvgNgzkIj2IgWc7Tel-JuVQM1ZifIz5PaSy8AUHBSrojDO9YGY_rL8tHFh-InHEPpGFc=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Kelly",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very impressed! From the bid with detailed removal photos to the sales gentleman showing up when the work was to be performed. They never missed a beat. The wok was done so well and CLEAN. They didn’t leave a speck of leaves/dirt/tree debris ! Oh and did I not mention the price? They were way below every quote I got so I hired them immediately!! So happy with the work completed and I can’t recommend them enough!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXpgGymbZmK8qpWJfsSz5IM8C89e_kSPsXEr3p5Hq1NBRXLxTdIjiWdhRCivXK96SLZXhY4dOAvEdTX8SzyfPRzSVXVO0KEPpXV_tUFk26ox0cv6Y3YyOFADKHkD0B4XMEcwLZtdSp72Y=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevH6DokJHVCk96AHyidOMGXIFbbGIR5eUmsvWKai4Se7rT9uuadSjOVSFy0Vxot8p07i43DvgLPOQJPHSRxtx7GfetUepmuGjgJ2KJ4EqSuWgXvmp8Kcqm-qUMBiftfnBra_kP1FHPHB6I=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Central Depot)",

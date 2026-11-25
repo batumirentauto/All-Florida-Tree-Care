@@ -32,21 +32,9 @@ export const siteConfigImbersTreeServiceLlcEn = {
     "ctaPrimary": "Call Lead (800) 555-TREE",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/imbers-tree-service-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Imber's Tree Service LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/imbers-tree-service-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/imbers-tree-service-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigImbersTreeServiceLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/imbers-tree-service-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigImbersTreeServiceLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/imbers-tree-service-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigImbersTreeServiceLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/imbers-tree-service-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigImbersTreeServiceLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kevin Gallegos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "10/10 service. Quality, price, & service was ALL there !!\nI got 6 medium sized trees along with 1 large tree in between 2 houses completely dropped down to the ground. To top it off I added stump removal, and was completely taken down & no where to be seen!!"
-    },
-    {
-      "author": "Alicia Gonzalez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Imber Tree Service was recommended and he came and did exactly what I wanted with the tree limbs hanging over my properties back yard . Was very professional got the job done in a timely manner and after he was done with the trimming he did a great job with cleaning up my back yard . Very happy with the service and highly recommend Imber Tree Services Thank you again for the great service and there price was very reasonable"
-    },
-    {
-      "author": "Rubyrose Ruby",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Imber provided great service from beginning to end. His communication was amazing, is prompt , has great prices & very perfessional definitely went above and beyond to deliver the best service available. Will definitely be using his company again."
-    },
-    {
-      "author": "bud chirhart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Imber Jr is a second generation tree specialist. I had his dad do work for me 20 plus years back and was so happy to find out that his son was taking over. He’s very good and fair in pricing. I highly recommend him."
-    },
-    {
-      "author": "Ted C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Need a professional that does great work and responds quickly?  I definitely recommend calling Imber's Tree Service.  I called on a Friday, they came out Monday morning and trimmed a large tree in the front yard, removed 2 dead trees and pruned back a Crepe Myrtle.  They cleaned up nicely when they were done and my trees look amazing.  They did a lot of work and the price was very reasonable.  The communication was prompt and professional!  So glad I found them and you will be too!  Give them a call if you want it done right!!"
-    }
-  ],
+        {
+            "author": "Kevin Gallegos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "10/10 service. Quality, price, & service was ALL there !!\nI got 6 medium sized trees along with 1 large tree in between 2 houses completely dropped down to the ground. To top it off I added stump removal, and was completely taken down & no where to be seen!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcv3UGGo6fqpLOp3Vp5wIN3oHurEovYLYiZzy0EW4yXVMeewOCinhtyewE5dXaQtG5QE0pzRkXlAPGXRqbsTjdAyPbSetSHhvxJ35n6QevgQQySTO3A0A2SBcKxIqz05U6VeGbkJKgBgAVP=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRMEHTERVel6rmDVyyW1Mxc_1IKMSKeiruvmPfAC5oQ2LtYh8GxDvfAWaIVhxwINwmxll_5SVZI-HRS7e8kn-BfliL741mmf5kCW1jKwwnYtBTeB6s_EFIy8wcBjRtE4P3P8XoI3jKw9yD=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Alicia Gonzalez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Imber Tree Service was recommended and he came and did exactly what I wanted with the tree limbs hanging over my properties back yard . Was very professional got the job done in a timely manner and after he was done with the trimming he did a great job with cleaning up my back yard . Very happy with the service and highly recommend Imber Tree Services Thank you again for the great service and there price was very reasonable",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcq7w6wG22T6YWq3H2u9HXsa5r0K-bsQeKtsYsP05yYlcajFP37Qg8uLDscI07v8ZS97RUVKc1BbJ1xsvY5wI5VFKnmbW6G0oGoot85bmCmcWHKzGrwdqtG8kNFhm8A71gY9cr6d9qtsnU=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Rubyrose Ruby",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Imber provided great service from beginning to end. His communication was amazing, is prompt , has great prices & very perfessional definitely went above and beyond to deliver the best service available. Will definitely be using his company again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeHPigb_aFQMNk9GE33zgGqP1k56NlohGTEOX0PGM1DeAOlC243yTEYy5AFHW_-PLekYJ1nNw0alN5aX-hvu2tJ7EWMq_hlBfRid4yWoSc9GFIrwEdkhX5Ime4jjW5euoz0dPWfg_lC96z=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLffyikyci7ISTQnBdTPfJ-cFKlkyEwLI7HkN0izWyXOS_IRHu76cjUCwxt56s4wVxNIShpUwHxXTl1c72p0Xm6kFYeNwf9rwWjiMemvcx1SVjl0uofl58wekO-jXwlccq-njPMigNCPegw5=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "bud chirhart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Imber Jr is a second generation tree specialist. I had his dad do work for me 20 plus years back and was so happy to find out that his son was taking over. He’s very good and fair in pricing. I highly recommend him.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLftj7CGvOuJfjBK9Jd6EKdLmEQDoyLjzmw024750ZZ-j0fQv_hsKwhtL4tpXS8gmz_fxW4-RxbsMjDoLqbXE5AnEPXwHyuwtSo-VFSy0hCnLuf9p6AhPuLZ9aeMUP-K4-CK9EULF5uALzYp=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ted C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Need a professional that does great work and responds quickly?  I definitely recommend calling Imber's Tree Service.  I called on a Friday, they came out Monday morning and trimmed a large tree in the front yard, removed 2 dead trees and pruned back a Crepe Myrtle.  They cleaned up nicely when they were done and my trees look amazing.  They did a lot of work and the price was very reasonable.  The communication was prompt and professional!  So glad I found them and you will be too!  Give them a call if you want it done right!!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

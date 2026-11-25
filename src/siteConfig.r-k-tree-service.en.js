@@ -32,21 +32,9 @@ export const siteConfigRKTreeServiceEn = {
     "ctaPrimary": "Call Dave +1 828-216-6407",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/r-k-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "R & K Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/r-k-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/r-k-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRKTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/r-k-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRKTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/r-k-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRKTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/r-k-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigRKTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Renee Grube",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a big project of removing 23 dead/dying 20-year old Leyland Cypress trees. R&K Tree Service did a spectacular job of removing the trees, grinding the stumps, and hauling away the debris.\nAbout a month later, they dug a trench, and replanted with 51 Emerald Green Arborvitaes and 17 Nandinas.\n\nI couldn’t be happier with the results!  From day one, David Johnston made sure that he understood what I wanted and communicated my desires to his team.  The Leyland Cypress trees were located between two fences (my fence and a neighbor’s fence) with only about 6 feet between the fences, and he and his team artfully moved all of the trees with a crane without as much as touching either fence.  It was a joy to watch. They ground up the trees, hauled away all of the debris, and left the area neat and clean!\n\nLater, they dug a trench and planted a row of 5’- 6’ Emerald Green Arborvitaes. I asked for Nandinas to be planted in front of the arborvitaes to add some color, and the result is stunning. They added top soil to the trench and applied mulch after everything was planted.\n\nI highly recommend R&k for any tree service.  They are the best!"
-    },
-    {
-      "author": "Noah Durham",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "R&K removed a massive red oak perched above our house. After talking around with other tree company’s  it was an easy decision- go with R&K.\n\nDavid took his time explaining how the removal would be executed and made us feel comfortable the whole time. He was a pleasure to work with.\n\nWhen it came time for his team to cut it down & haul it off, they made quick work of it and cleaned up very well.\n\nCouldn’t be happier to have worked with R&K. These guys are the best."
-    },
-    {
-      "author": "ann hendrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend R & K Tree Service. They were easy to work with from scheduling to finishing the project removing a large tree.  The crew was polite; careful not to damage other trees as they navigated down a narrow drive.  They were incredibly skilled and efficient, removing limbs and moving to the chipper far up the drive.  When the tree was down, they spent an equal amount of time making sure all the debris was removed and everything back in order."
-    },
-    {
-      "author": "Ben Dor-El",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We got estimates from several contractors to clear a large number of fallen trees on our property after Hurricane Helene, and R&K gave us a very competitive bid.\n\nOur project was especially challenging because all of the clearing was on a steep bank. We chose R&K because of the owner, Dave, and his professionalism, knowledge, and expertise. Dave thoroughly assessed the project and developed a solid plan, which even required bringing in larger equipment to safely complete the work.\n\nDave and his crew were polite, hardworking, and did an excellent job cleaning up afterward. We are extremely pleased with the work R&K performed, as it exceeded our expectations. We highly recommend R&K to anyone needing tree work done."
-    },
-    {
-      "author": "Patty Gardner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "R & K did a great job taking down some pine trees and a very large MapleTree. The whole crew was very friendly and they did a wonderful job cleaning up the job site.  I would highly recommend them.  Thanks for a job well done!"
-    }
-  ],
+        {
+            "author": "Renee Grube",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a big project of removing 23 dead/dying 20-year old Leyland Cypress trees. R&K Tree Service did a spectacular job of removing the trees, grinding the stumps, and hauling away the debris.\nAbout a month later, they dug a trench, and replanted with 51 Emerald Green Arborvitaes and 17 Nandinas.\n\nI couldn’t be happier with the results!  From day one, David Johnston made sure that he understood what I wanted and communicated my desires to his team.  The Leyland Cypress trees were located between two fences (my fence and a neighbor’s fence) with only about 6 feet between the fences, and he and his team artfully moved all of the trees with a crane without as much as touching either fence.  It was a joy to watch. They ground up the trees, hauled away all of the debris, and left the area neat and clean!\n\nLater, they dug a trench and planted a row of 5’- 6’ Emerald Green Arborvitaes. I asked for Nandinas to be planted in front of the arborvitaes to add some color, and the result is stunning. They added top soil to the trench and applied mulch after everything was planted.\n\nI highly recommend R&k for any tree service.  They are the best!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyZAbHbH04INmCN_Cf52Xu9g6NIvLgpFwq5WX2meEY81naZG7ISnYFtW8S3ED0GCiR-dZfnfEkb9ROynrAH9voAU_WJtNTkf1mvZTvUIpP77z98uEZ9JUwtCoqHNWzb8pRzQ4lh709BsI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccQoOQ2oQhOqaBz9HqUp2hXfBhf5FLcjP_u7FevxjWvfwcNw5S4CeM9xczy6qhB1Sh2f6RyKvzGhbugdLLCk56vN13fszq8pEfXVEbjh_ok8thh1WKrUGryTbDxRbrIiOHZMuoBDTLEpwM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ4U_zDGhjRcErlN3Vd_9ecPWFRdnxtKpNxvC04aFz_AVnG2Ai0Wb7xkTPqxHZfeCktfqA_DcJiFTtD8VBogMoPxiw0g8ipvcxyPN5snm2bESW0N-7K06lQ34qaue2hag_N6xuWttQx2YB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ9eRU6O_Tx1Ei47NjStJgVUlYwgdKQOu7H90JMqmY7GiCsCDgWRFJ8K-3EdEjQNxmTdKLMUtHUssAt-BYxhq_0Af1QwhDqFaL0l419w_O_1apdIhS54dbE0DJ7xuDMTSwrYu4Nz3e9fU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Noah Durham",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "R&K removed a massive red oak perched above our house. After talking around with other tree company’s  it was an easy decision- go with R&K.\n\nDavid took his time explaining how the removal would be executed and made us feel comfortable the whole time. He was a pleasure to work with.\n\nWhen it came time for his team to cut it down & haul it off, they made quick work of it and cleaned up very well.\n\nCouldn’t be happier to have worked with R&K. These guys are the best.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKaD6jEOUX2S5TgCQZ8VfCEeXr7x43f1nHDxHZCC4vQQs6xpx8oY5SQw7mjbebFgoJ-HKjJcoBTtlyN9lBbpdUBabPL7sE7ZbIPc9p5vhsBtsXGmI0DEjIB9BU979P5-JL30a2IIMDWoh3=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck19MP1cJmMmYTcm5n2sKH4OkwIF-PqZaMHmfDnaps5Jx0XtzVArVXfopqNjX5PGHPL-ui6Cu4ns3sB40mhCoqSWsICkoj-IVwRXODRMECc4UJP1KNHMR0dqDR9WMvwN63yc9nBTDCtX0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJS7Fma6JzN-SLQTLq5lDGZ3Wemw0aq5nQvanZ4DS0tpqIIo5O55pS5S6sjI4z6O7p57fd4ShFHlA6fqRAyMWh6fkqIPKVwI49HENo4mfmSfPe-iKhjZSfqISz6xQSpyFhoZSg6rEAMA-D=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ann hendrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend R & K Tree Service. They were easy to work with from scheduling to finishing the project removing a large tree.  The crew was polite; careful not to damage other trees as they navigated down a narrow drive.  They were incredibly skilled and efficient, removing limbs and moving to the chipper far up the drive.  When the tree was down, they spent an equal amount of time making sure all the debris was removed and everything back in order."
+        },
+        {
+            "author": "Ben Dor-El",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We got estimates from several contractors to clear a large number of fallen trees on our property after Hurricane Helene, and R&K gave us a very competitive bid.\n\nOur project was especially challenging because all of the clearing was on a steep bank. We chose R&K because of the owner, Dave, and his professionalism, knowledge, and expertise. Dave thoroughly assessed the project and developed a solid plan, which even required bringing in larger equipment to safely complete the work.\n\nDave and his crew were polite, hardworking, and did an excellent job cleaning up afterward. We are extremely pleased with the work R&K performed, as it exceeded our expectations. We highly recommend R&K to anyone needing tree work done."
+        },
+        {
+            "author": "Patty Gardner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "R & K did a great job taking down some pine trees and a very large MapleTree. The whole crew was very friendly and they did a wonderful job cleaning up the job site.  I would highly recommend them.  Thanks for a job well done!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Weaverville (Central Depot)",

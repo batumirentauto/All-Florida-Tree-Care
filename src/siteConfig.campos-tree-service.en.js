@@ -32,21 +32,9 @@ export const siteConfigCamposTreeServiceEn = {
     "ctaPrimary": "Call Campos +1 214-450-8971",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/campos-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Campos tree service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/campos-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/campos-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCamposTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/campos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCamposTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/campos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCamposTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/campos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigCamposTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Janet Edwards",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Campos Tree Service did an amazing job of relieving our trees from dead branches, vines and underbrush. We have grandchildren who are going to love playing in the woods and we needed to make it safe and clear out the brush to minimize the opportunities for copperheads to hide and also encourage the trees to thrive. Unfortunately, we had a dead tree very close to our house that had to be removed, but they did a great job grinding the stump. You’d never know a tree was there."
-    },
-    {
-      "author": "Brad B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Luis was a very quick response to my inquiry on Thumbtack and came out within the hour to quote the tree-trimming job.  He was very thorough on explaining his suggestions and understanding our needs.  He and his team showed up the next day, on time, and did a great job.  Even trimmed back shrubs, too! Hire this guy - you won’t regret it."
-    },
-    {
-      "author": "Stephen Bass",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We can't say enough about Victor and Luis and their crew. We had a bunch of trees cut down and several more trimmed. They did an excellent job!! They cleaned up after and removed all the debris. The price was below what two other tree services bid. We used Compos Tree Service several times of the past 20 years and have always been extremely happy with the results. Great job!! Thanks."
-    },
-    {
-      "author": "Gloria Hardy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We found Campos Tree service through Angie's/ Home advisers 11/14/25.  The next day they trimmed both our oak trees and did an excellent job. They made our trees look like works of art, and we love the results. One of our neighbors was so impressed, she made a point of telling the foremen they did a beautiful job on our trees. The price quoted the day before was the best of all those recieved and we are very pleased with the results. All the cuttings  were removed from our yard and the neighbors. The crew was nice and respectful the whole time they were here. They were timely and very efficient. Kudos to Campos Tree Service!!!"
-    },
-    {
-      "author": "Kimberly Simmons",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The experience from the beginning was professional and efficient. I had an oak tree that died with this past freeze, Luis responded to my message and came out the same day to give me an estimate. He was honest and gave us his best recommendation regarding the tree. We had shopped around for various estimates, however we liked Luis the best due to him not taking advantage of us as a customer. His price for the project was affordable and he was so flexible with his dates. They were here and gone within 4 hours and stacked the wood in front of the house for easy pickup. They even raked the leaves the tree had dropped! I will recommend them over and over again. Next time I need a project, I will reach out to them immediately. Gracias Luis y familia por todo su trabajo, increíble trabajo!"
-    }
-  ],
+        {
+            "author": "Janet Edwards",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Campos Tree Service did an amazing job of relieving our trees from dead branches, vines and underbrush. We have grandchildren who are going to love playing in the woods and we needed to make it safe and clear out the brush to minimize the opportunities for copperheads to hide and also encourage the trees to thrive. Unfortunately, we had a dead tree very close to our house that had to be removed, but they did a great job grinding the stump. You’d never know a tree was there.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaiVAcHZ056K0vAeWU0SF_lT6D38WktfumbJs6qrdwwhKWfc3JJKyClEsmTXtbGnA2NO6EdVWHBlF2WyF9JVt7J2ibfnpn6SsPHQRtFsfGocQW3LO08XEwQ9dPGE5SJajGhShcEaXseGjl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4RUIzXCr2oDLjZjjVH7Kec2dc_z1wVMRLwuC1ht4NeKzInu94i_yJNi7BhFPOICK4WXDVKnohffG24Tru46xOQqRMKObXYLpqnnxET9HC89zLF12qKkyJlayZEN6tUdBf7OYrObSuJNI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyMtKv64dmoX2FA_9ZbMX7YpALWjQwHMuQR3a9jUbeqrUoAbFNUiEKU1ILZ7WmOSiJxWd4wzne6fxxtGlRy3rZjHvtaPFB1ZU21v2t82uJQxg0CYBtgRzwFMONv6T_5SOxDWLYpPaw57WI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFjT-2SnFodem5AHVfe5e55rGSVivKbYdXT5R9_qf8OF9yvN_mRY2gaIZto-OundbSfqjF3T47h0gFNTzmlBWYm4EfXAwKPpUUjd2iYRCOHK5HWL5c8HmBGl9YG-zKQC4wfScd0TbTHSJ3=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Brad B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Luis was a very quick response to my inquiry on Thumbtack and came out within the hour to quote the tree-trimming job.  He was very thorough on explaining his suggestions and understanding our needs.  He and his team showed up the next day, on time, and did a great job.  Even trimmed back shrubs, too! Hire this guy - you won’t regret it.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYLvjOjC_n1GrzeIkdf_4aITbHkvMTT6J9lBkpOCArGfpMtT_MrUh6DrwGC_DqXkVQ2Dei3kDZzu20WradY0J6EtDGJfFplnFoPgcMAvmKXzn64NIXMtDo6rHvsxPuhHJbdudouTJxsVHh=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Stephen Bass",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We can't say enough about Victor and Luis and their crew. We had a bunch of trees cut down and several more trimmed. They did an excellent job!! They cleaned up after and removed all the debris. The price was below what two other tree services bid. We used Compos Tree Service several times of the past 20 years and have always been extremely happy with the results. Great job!! Thanks."
+        },
+        {
+            "author": "Gloria Hardy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We found Campos Tree service through Angie's/ Home advisers 11/14/25.  The next day they trimmed both our oak trees and did an excellent job. They made our trees look like works of art, and we love the results. One of our neighbors was so impressed, she made a point of telling the foremen they did a beautiful job on our trees. The price quoted the day before was the best of all those recieved and we are very pleased with the results. All the cuttings  were removed from our yard and the neighbors. The crew was nice and respectful the whole time they were here. They were timely and very efficient. Kudos to Campos Tree Service!!!"
+        },
+        {
+            "author": "Kimberly Simmons",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The experience from the beginning was professional and efficient. I had an oak tree that died with this past freeze, Luis responded to my message and came out the same day to give me an estimate. He was honest and gave us his best recommendation regarding the tree. We had shopped around for various estimates, however we liked Luis the best due to him not taking advantage of us as a customer. His price for the project was affordable and he was so flexible with his dates. They were here and gone within 4 hours and stacked the wood in front of the house for easy pickup. They even raked the leaves the tree had dropped! I will recommend them over and over again. Next time I need a project, I will reach out to them immediately. Gracias Luis y familia por todo su trabajo, increíble trabajo!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeERv2q8F0o0viV0U4g-SMgl2K_fv-BYQ3gX80yT1uOoxPILQi8KkJFSoSLF8wc2FVFg0Q-qi93xwNkN-HBWfgz03sy2PvV0R8uvf6anVyx6-BT0pRPPQgJ7Yk8nixetivB-Dl7=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Mesquite (Central Depot)",

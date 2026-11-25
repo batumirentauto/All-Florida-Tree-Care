@@ -32,21 +32,9 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
     "ctaPrimary": "Call Bryce +1 971-266-4078",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Very Good Stump Grinding & Tree Removal tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/very-good-stump-grinding-tree-removal/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/very-good-stump-grinding-tree-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigVeryGoodStumpGrindingTreeRemovalEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kayla Ware",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Bryce and the rest of the team are great communicators, and super kind! They arrived on time, got straight to work, and made sure to be mindful of my garden. Our tree was in a tough spot, but the final result is exactly what I was hoping for. Their team even collected and chipped up a pile of separate tree branches laying in my yard that have been a pain to get rid of. They cleaned up the yard very well after the job was done. Highly recommend them!"
-    },
-    {
-      "author": "TtT",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Very Good Stump Grinding & Tree Removal. I first used them in September for a yucca stump, and the owner, Bryce, provided a quick, fair quote and did a great job.\n\nI reached out again in December when some arborvitae trees began leaning toward my power lines. Bryce was incredibly responsive, coming by in person to give me a quote on the spot. His pricing was excellent—in fact, another local company quoted me double what Bryce did!\n\nHis crew arrived today and removed the trees quickly and safely. If you’re looking for a professional, responsive, and reasonably priced tree service, call Bryce. I’ll definitely be using them again!"
-    },
-    {
-      "author": "Kiley Ford",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They Came, They Saw, They Conquered! Very Good Tree Service absolutely lived up to their name. Bryce and Jack run a well-oiled machine — truly top-of-the-line equipment, incredible teamwork, and zero wasted motion. Jack (who’s the one up there doing the actual cutting!) handled our massive tree with absolute professionalism and skill.\n\nFor context: this wasn’t a simple job. We had a single stump that split into two full-size trees — 46 inches at the base and about 80 feet tall — with significant bark inclusion, which is a structural weakness where bark grows between two trunks and makes the whole thing more prone to failure. These guys handled it safely and efficiently, and they took the entire thing down in one day.\n\nOn top of that, they cleaned up and reshaped my backyard maple and juniper, leaving everything looking intentional and beautiful.\n\nThey were kind to my kids, easy to have around, extremely respectful of the property, and the pricing was honestly amazing for the scale of the work.\n\nAs a full-time Realtor, I meet a lot of arborists — and most simply don’t have the capacity, experience, or equipment to take on a job like this. Very Good Tree Service is truly top-tier in Portland. I’ll recommend them to clients, friends, and anyone who needs expert tree work done right.\n\nHighly, highly recommend. 🌲💯"
-    },
-    {
-      "author": "Zachary Tippett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They did an outstanding job! Jack did a great job communicating during the quote process and before the appointment date. They also did an excellent job with the cleanup. I would highly recommend them for all tree services."
-    },
-    {
-      "author": "Jane Reid",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Bryce, Jack and crew did a great job removing a 100-foot fir. They followed our requests and left no trace other than a lot of firewood cut to size. They also went above and beyond by restoring a basketball hoop that had been out of whack for 20 years. We highly recommend."
-    }
-  ],
+        {
+            "author": "Kayla Ware",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Bryce and the rest of the team are great communicators, and super kind! They arrived on time, got straight to work, and made sure to be mindful of my garden. Our tree was in a tough spot, but the final result is exactly what I was hoping for. Their team even collected and chipped up a pile of separate tree branches laying in my yard that have been a pain to get rid of. They cleaned up the yard very well after the job was done. Highly recommend them!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezK65So4tnz3K7nKlN8-NvANhihjTn5JDK92P2adx0eJJi883Pf7j4N7RC3Qul2-fz9UvTcjdai-4XdrG_NqIP7LUdBBoHie2hGRESZJAIEAvoRbPESj0Z8G4nm8vYbciU56NtH7S4lYA5=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "TtT",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Very Good Stump Grinding & Tree Removal. I first used them in September for a yucca stump, and the owner, Bryce, provided a quick, fair quote and did a great job.\n\nI reached out again in December when some arborvitae trees began leaning toward my power lines. Bryce was incredibly responsive, coming by in person to give me a quote on the spot. His pricing was excellent—in fact, another local company quoted me double what Bryce did!\n\nHis crew arrived today and removed the trees quickly and safely. If you’re looking for a professional, responsive, and reasonably priced tree service, call Bryce. I’ll definitely be using them again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwf-NZOg1QLi-wmXKRq5G5DDAGGdfE9pwZ4R3uspeItCY0xTIZ-3vi55-OI9sQG9Nm5NLMfka1TFbVpbaONGHDXQ7Ts1ZppezAMG2GNI6KWghatPBYW6fP9kgLR30vQdtcwbI573kpPrA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdclMGCvoVCj2zLJ0bsvAeFznub51_e92m3zi6UWUp6Qm76FHf5SEFvKPdVTvltG9RmMCacOyD8QxNpxq_Zz_rgtg3LogcRUykeG6QorbxkgZ96gT_BVi_4Ebcc8bXgDquYpcindkJ8dp0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kiley Ford",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They Came, They Saw, They Conquered! Very Good Tree Service absolutely lived up to their name. Bryce and Jack run a well-oiled machine — truly top-of-the-line equipment, incredible teamwork, and zero wasted motion. Jack (who’s the one up there doing the actual cutting!) handled our massive tree with absolute professionalism and skill.\n\nFor context: this wasn’t a simple job. We had a single stump that split into two full-size trees — 46 inches at the base and about 80 feet tall — with significant bark inclusion, which is a structural weakness where bark grows between two trunks and makes the whole thing more prone to failure. These guys handled it safely and efficiently, and they took the entire thing down in one day.\n\nOn top of that, they cleaned up and reshaped my backyard maple and juniper, leaving everything looking intentional and beautiful.\n\nThey were kind to my kids, easy to have around, extremely respectful of the property, and the pricing was honestly amazing for the scale of the work.\n\nAs a full-time Realtor, I meet a lot of arborists — and most simply don’t have the capacity, experience, or equipment to take on a job like this. Very Good Tree Service is truly top-tier in Portland. I’ll recommend them to clients, friends, and anyone who needs expert tree work done right.\n\nHighly, highly recommend. 🌲💯",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOatn8nMx7umSH08emWRuKxy-cmETxRDlnYdj-Kkq4rn_VBEeOkLwTWdt0O-Htf1C-6c8A35DOZDxo8ZunyPmfWfFVzcUpBEn8GrtoVbDHRWF48TO_SzMon_GbNj2bQyAn_PMpfHA0rOmk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLely2TbNNcdfEVBmVJrO7b0EF0UNYwVx8QD1JpqHbvTCZLVvnj_FLgVfz_HgLOp30VOQ4cLzYwKUbGUURMM3t86igIKzCDsq2MrGM3i3b4elPI8iWrQPURNalvH4w2lx6SitAXIhRY2e60=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUasRajPm9C1ZUUbua4UpwpBmFjLdRuO0DrOfWFL0U3ICkK6kPLCPWxTiUxmAoDjOman3j3Qrqda4JqyHg8xnnCK3qG6_TbQ0TySmDEs9CrcKBVFkqSvXW_CyEgNKOIpRjdp0LMMCxJfo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegCcOArhkzvEWStcsAy5K0r82MtPx8KpIfGYveU4Yk46Iimzp3nS6ahB-nFllhrqBBagakgYxnGnvR8uaQXINlYiu5cncXM2Ydm_65UMh0j1DzhC_cMc-q1FX4FVYZ8f0trd6f4Zz8SFZj=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Zachary Tippett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They did an outstanding job! Jack did a great job communicating during the quote process and before the appointment date. They also did an excellent job with the cleanup. I would highly recommend them for all tree services.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBy8LPN-IsNdA9J26qXt4TbfmcIRFsJrraVu4U2H3zy9VlrFo6NS9e4Evmxz9357t_ghS-xLV9ZfdQSkVPNAI6Rjarz3SYFJwJpVyQImAd_3nFk4Y1lG0J80ehJQJS2RIek1gFo6KZF9SB=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jane Reid",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Bryce, Jack and crew did a great job removing a 100-foot fir. They followed our requests and left no trace other than a lot of firewood cut to size. They also went above and beyond by restoring a basketball hoop that had been out of whack for 20 years. We highly recommend."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Lake Oswego (Central Depot)",

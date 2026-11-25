@@ -32,21 +32,9 @@ export const siteConfigTreesOfGeorgiaIncEn = {
     "ctaPrimary": "Call Roy +1 770-882-4955",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/trees-of-georgia-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Trees of Georgia, Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/trees-of-georgia-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/trees-of-georgia-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreesOfGeorgiaIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/trees-of-georgia-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreesOfGeorgiaIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/trees-of-georgia-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreesOfGeorgiaIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/trees-of-georgia-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigTreesOfGeorgiaIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "John Pfeiffer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently contacted trees of Georgia looking for a quote. We asked for a quote, if it included stump grinding (please let us know price if it is separate) and additional items such as debris removal and if they are insured etc. along with my contact information.\n\nThey only reply I received was “pass seems like your looking for cheap” (grammar error his).\n\nI’m not sure what gave him (Roy) that idea but we haven’t had trees removed before and we’re trying to make sure we understand the process. Glad we will not be working with this company."
-    },
-    {
-      "author": "John Szczesniak",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great service and firewood. Quick delivery and fantastic product. Very well seasoned and great looking hardwoods. Roy and his wife are very responsive and a pleasure to deal with. I very much appreciate them working me into their schedule and delivering so quickly. I would definitely recommend!!!"
-    },
-    {
-      "author": "Brian Gruber",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Roy and his team are wonderful.  Very professional and organized.  I truly can't say enough. Not to mention his price for his work is the best out there. As far as im concerned there is no tree service better."
-    },
-    {
-      "author": "Linda Price-Jackson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "100% satisfied customer!  The 80 foot plus pine and 80 foot plus oak side by side leaning towards my home was taken down by these professionals in record time along with a rotted persimmon tree  and trimming of 2 other oaks.  This company is insured and the owner, Roy Holmes was very informative, reasonably priced, friendly and professional not to mention very good to his team of professionals.  It was so clean when they left you’d never know they were there.  With almost 2 acres of property and lots of trees we will be calling him in the future for our tree removal and trimming services.  Thank you Trees of Georgia, you are the best!"
-    },
-    {
-      "author": "John Manderfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Roy was very responsive to my request for a quote. Turns out he and his crews were in the area and stopped by within an hour for a quote. He helped identify the trees that were in jeopardy of falling down and even contacted our neighbor to clearly identify what needed to be removed, with pictures.\n\nWe were concerned about additional trees and large limbs that had been falling in our yard and not making us comfortable.\n\nHis crew showed up bright and early the next day at 7:45am to start work. They were patient as we needed to get our cars out of the work zone to give them full access. He negotiated with our neighbor to anpprove access through his yard as well.\n\nOnce they started to work, it was clear they were like a perfectly orchestrated team to tackle this big job with safety in mind.\n\nCost.\n\nThis type of work is not cheap. But it gave us piece of mind, they worked hard all day, Roy told me exactly what to expect, he delivered and in the end…I couldn’t tell they were ever there.\n\nExcept for this huge stump our dog gets to play on :)"
-    }
-  ],
+        {
+            "author": "John Pfeiffer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently contacted trees of Georgia looking for a quote. We asked for a quote, if it included stump grinding (please let us know price if it is separate) and additional items such as debris removal and if they are insured etc. along with my contact information.\n\nThey only reply I received was “pass seems like your looking for cheap” (grammar error his).\n\nI’m not sure what gave him (Roy) that idea but we haven’t had trees removed before and we’re trying to make sure we understand the process. Glad we will not be working with this company."
+        },
+        {
+            "author": "John Szczesniak",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great service and firewood. Quick delivery and fantastic product. Very well seasoned and great looking hardwoods. Roy and his wife are very responsive and a pleasure to deal with. I very much appreciate them working me into their schedule and delivering so quickly. I would definitely recommend!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxdqjBXBtkfEkFrXMyRqYKpTOvdYBpLvBGnkOzAeEuQ4Mmb1mITUM9G948htEo3nI7Izf8uIyWh42YoGkp3iKDKAMelFCqCGZfSSPGoaaOkzdLqqm4xrMdzQfX-AGaNzpYqeBKLibJO_px=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcY28Q7ZZWccRk-08l1LrfNpa3T4zKlIMoerNHqYCBO0WZ7t__p_5TjNR-Cdh8uPV75u98gJdpVXMb9g9o0YhiJ6eH-AfaEsEgwJ2kQet45samYvJg8J3WCdk5uciU8-O3v9QLLKVIi96i1=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brian Gruber",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Roy and his team are wonderful.  Very professional and organized.  I truly can't say enough. Not to mention his price for his work is the best out there. As far as im concerned there is no tree service better."
+        },
+        {
+            "author": "Linda Price-Jackson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "100% satisfied customer!  The 80 foot plus pine and 80 foot plus oak side by side leaning towards my home was taken down by these professionals in record time along with a rotted persimmon tree  and trimming of 2 other oaks.  This company is insured and the owner, Roy Holmes was very informative, reasonably priced, friendly and professional not to mention very good to his team of professionals.  It was so clean when they left you’d never know they were there.  With almost 2 acres of property and lots of trees we will be calling him in the future for our tree removal and trimming services.  Thank you Trees of Georgia, you are the best!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdfnETHRE5Rk1AEY8f-GtBhX8cSRK3KD6b0UIaflfv6EkZgBPlUZ82VkQR5c-miYtqb8BrU5rkpq16JE2R2V09oK340PYSt-607xjfU0u42HDcmUfFqMWZu-Q4AFMOimZ85T8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfccnSSjdLTvSqBWpkQdHDsvYwKIQgDDFrwgWpvcgbVDnUD9X09YgrmEQ4Jc0OgDWh7QkqimzPgMcer64JtSA3Kw0Me6JYLmXxwLZeo2ckDNE3wPeYJW9agE6Hzp9OWiJhjSL2J=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLerOjrDa4hq5lFXrvULFTO-Lyn4KT05EgTY0sploNnJCBpAThUuNACzGKPyPlGeFl6a5xEQDrPJ5MMzpZAL4ZJmRAKZxf2TX8iV8ifFn_KodafTxS2Xcgj4FU2Cc9kv-Q-S-lvK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfWDemvf9vzlqnC7_AXf6onISp1tNsTOO90YwMG8rjlw3PPmDiYaQ64TrSVkX3BxjUPU5KimJl2faG0eLRvX3PlYLrY7OG26BJcK7fRaCESY3GlWd24MLyxC5FD-FX6Qjdtuw8leQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Manderfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Roy was very responsive to my request for a quote. Turns out he and his crews were in the area and stopped by within an hour for a quote. He helped identify the trees that were in jeopardy of falling down and even contacted our neighbor to clearly identify what needed to be removed, with pictures.\n\nWe were concerned about additional trees and large limbs that had been falling in our yard and not making us comfortable.\n\nHis crew showed up bright and early the next day at 7:45am to start work. They were patient as we needed to get our cars out of the work zone to give them full access. He negotiated with our neighbor to anpprove access through his yard as well.\n\nOnce they started to work, it was clear they were like a perfectly orchestrated team to tackle this big job with safety in mind.\n\nCost.\n\nThis type of work is not cheap. But it gave us piece of mind, they worked hard all day, Roy told me exactly what to expect, he delivered and in the end…I couldn’t tell they were ever there.\n\nExcept for this huge stump our dog gets to play on :)",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccgK3UcH3NVTujvtAWiaEgJodTfbjhjANjpXW5pZzJTcdjWC7E3l_sVtbXJKpSYwyPUD4hh56BakX9Heiyxkf6Ru-HI1K2eI94mdCqb_vYNIEHApooutD0lxy9RaS_Xcwws56i=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuf4qKq0DQ26LKpykJi4jGY7LAyOULkm6sEOIQqqT5caXh0Zoowqh0Ma3nIfrucCHy-q6c65dYyS6XJ33PPRyZ2BXggUKIGethAMzmnKwQgkb5LdY1SsPMbhe677ODk3avJtjR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjB4eeu1gWn87FlgoNZQRLLPIvS0HFsuA7JFyoxPFAxU_5FBlejeTTtosHs52qKUZLa1VMifo7scczT3yHl1AQpAS910Si50RzbghWIs_jdgGfQTr3RLAVoZsUZYzQ8X0tTOaV4A=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Roswell (Central Depot)",

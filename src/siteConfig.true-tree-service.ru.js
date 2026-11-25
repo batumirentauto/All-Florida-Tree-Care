@@ -31,21 +31,9 @@ export const siteConfigTrueTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 305-842-3581)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/true-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады True Tree Service"
-      },
-      "sub1": {
-        "image": "/images/true-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/true-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTrueTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/true-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTrueTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/true-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTrueTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/true-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigTrueTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "sheldon philp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I cannot recommend True Tree Service highly enough!  From the very first contact, their team was professional, responsive, and completely reliable.\n\nWhat truly set Greer and Drake apart was their extensive knowledge and consultative approac..."
-    },
-    {
-      "author": "Ken Sein",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Good afternoon Greer &Drake,\n\nJust wanted to express my extreme gratitude and deepest appreciation for the the team on pruning the tree this past Tuesday!\nYour team, lead by Ben were super and worked flawlessly and followed Drake's instruct..."
-    },
-    {
-      "author": "Kim Martinetti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: True Tree Service did extraordinarily excellent work on our complex tree trimming project! ISA certified and PMT licensed qualifies true tree for any and all tree trimming jobs. True Tree provided highly specialised knowledge and insight to..."
-    },
-    {
-      "author": "B B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: True Tree Service went above and beyond to ensure that my mango trees were well manicured and it was all done with the lens of an educated, trained, and professional arborist that truly cares for the trees. This is unlike the local landscap..."
-    },
-    {
-      "author": "John Anderson, REALTOR",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is a good little company. We were very impressed with their demeanor, excellent tools and equipment, and performance. They take service seriously. Truly nice people to work with. Big surprise to us was that they used all electric saws ..."
-    }
-  ],
+        {
+            "author": "sheldon philp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I cannot recommend True Tree Service highly enough!  From the very first contact, their team was professional, responsive, and completely reliable.\n\nWhat truly set Greer and Drake apart was their extensive knowledge and consultative approac..."
+        },
+        {
+            "author": "Ken Sein",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Good afternoon Greer &Drake,\n\nJust wanted to express my extreme gratitude and deepest appreciation for the the team on pruning the tree this past Tuesday!\nYour team, lead by Ben were super and worked flawlessly and followed Drake's instruct..."
+        },
+        {
+            "author": "Kim Martinetti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: True Tree Service did extraordinarily excellent work on our complex tree trimming project! ISA certified and PMT licensed qualifies true tree for any and all tree trimming jobs. True Tree provided highly specialised knowledge and insight to...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesOMvQ-2MKlJodUkUWAVMuLI0atFWsXYcefRnkNCD2wdK0n9tLRHu_FEUhHcJJTxkDPZXM0Gw0B-UjmNR_IXQR6OhXgLHaUF4yKK7_R-JFLIxbuK9gRqDU4qHlWu23SpYnbCj_Mg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "B B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: True Tree Service went above and beyond to ensure that my mango trees were well manicured and it was all done with the lens of an educated, trained, and professional arborist that truly cares for the trees. This is unlike the local landscap...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdmzINYy5wvf_g6QQuY33sQpBrJEnA93MOWje_5a7KfSb85aphK5yKGzlDhroYggzjSE6muLjFgF02CPlKWSA9D6DCztM-6AWmk0R6zlcWuxD6B7H-RFk0ageRNuaOoKgAcb6ong=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "John Anderson, REALTOR",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is a good little company. We were very impressed with their demeanor, excellent tools and equipment, and performance. They take service seriously. Truly nice people to work with. Big surprise to us was that they used all electric saws ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Miami (Основная база)",

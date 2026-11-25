@@ -32,21 +32,9 @@ export const siteConfigSquirrelTreeServicesEn = {
     "ctaPrimary": "Call Jorge +1 404-397-5820",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/squirrel-tree-services/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Squirrel Tree Services, Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/squirrel-tree-services/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/squirrel-tree-services/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSquirrelTreeServicesEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/squirrel-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSquirrelTreeServicesEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/squirrel-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSquirrelTreeServicesEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/squirrel-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigSquirrelTreeServicesEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joseph Bradley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Squirrel Tree Service saved us again!,…after contacting Nancy, she dispatched Joselyn to give us an estimate, both are very friendly, professional, polite, courteous! Jorge, Jacob and their team arrived, and swiftly accessed the situation, and removed a 90’ tree which had just cracked from the high winds we had recently,…they all work with diligence to ensure our home was safe during the entire operation. The Squirrel team cleaned as they went, ensuring our yard was put back better than they arrived, couldn’t even tell they were here! Both my wife and I slept peacefully last night, knowing our tree nite mare was taken care of!…we are very thankful for Jorge and his entire team!\nThank you again Squirrel Tree Service!"
-    },
-    {
-      "author": "Matthew Gomez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We recently had several trees removed and trimmed at our new home, and the experience was excellent from start to finish. Jorge and his crew were professional, punctual, and worked safely and efficiently. They took the time to clean everything up afterward, leaving the property looking even better than before. The quality of their work exceeded our expectations, and the difference it made to our yard is incredible. I would definitely recommend them to anyone looking for reliable, high-quality tree service."
-    },
-    {
-      "author": "Richard Nash",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Squirrel Tree Services recently came out to remove an extremely large tree that had fallen during the recent heavy rains. They did the very best tree work we have ever had done in fifty years of tree work. They were extremely knowledgeable about how to remove the tree and did so with zero damage to our property. They also pruned and trimmed trees and shrubs that really made a huge difference in beautifying our farm.\nThey gave me an extremely fair price as they were lower that two other estimates we received and they were very punctual and efficient about their work.\nI would definitely recommend Squirrel to anyone who needs great tree work done right at a great price."
-    },
-    {
-      "author": "Jeff Ward",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Squirrel Tree Service did an outstanding job removing several storm‑damaged trees from my property. Their team was professional, efficient, and clearly experienced. They handled the removal safely, cleaned up thoroughly afterward, and left everything looking great. I really appreciated the care they took throughout the entire process. Fantastic work — highly recommended."
-    },
-    {
-      "author": "Steve W",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Second time we have used Squirrel Tree Service. They do an outstanding job and are very professional. Prices are fair and they exceeded expectations from beginning to end. Jacob and his team were very polite and respectful. I highly recommend this company."
-    }
-  ],
+        {
+            "author": "Joseph Bradley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Squirrel Tree Service saved us again!,…after contacting Nancy, she dispatched Joselyn to give us an estimate, both are very friendly, professional, polite, courteous! Jorge, Jacob and their team arrived, and swiftly accessed the situation, and removed a 90’ tree which had just cracked from the high winds we had recently,…they all work with diligence to ensure our home was safe during the entire operation. The Squirrel team cleaned as they went, ensuring our yard was put back better than they arrived, couldn’t even tell they were here! Both my wife and I slept peacefully last night, knowing our tree nite mare was taken care of!…we are very thankful for Jorge and his entire team!\nThank you again Squirrel Tree Service!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEvniANpsaBBMXqCVg5MBAShgQeTxM4Lzn0Tq_Skc_vrRGcoCEXkAChpngYOvrSRDR1erT3WOOgZ8KB_hVu7hJ1xmCqGniv-MVYU68YT6EUqvoebXZodcIOuP1Mw88-py5Pgrt8D52KbTY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesZaYzbdIj59IXLDtWDGgTH11sB_HZA2wpmHvNQH_fdxMm6xKtBryNRNXh7DY2ClDerAncFBjNvyyecvfDE_o--Us9x_l9fKffQ-rRXwXuJsnWHf5qiGYgvqn2_RIfqfJNzX6GDeF0j3c=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMXS4Rd2niBL_5U54i1rAlz8ZRMJd1XxXuKyFfHSm34KkM_gnsERQcbbUZbp6CoRWZBuDucUf8nvjakON3AdVCrg8wW45PzemMHv1Fa4t4qokcCZcPqGfvohHw73zIVvIXTtT2tH5SaQo7=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiiE98Rj7zlLa0QfVu4O5QxAQRICFmuO9frBddaoVHYExwTowDRXo06VpuKDjs7bvnhtrfGDsqEozjRByTmclHNN7NDt5ST3xW9-z80kTVz-sCjriFZcmnqIm7E4Diopa4YPL9wNB6d0w=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Matthew Gomez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We recently had several trees removed and trimmed at our new home, and the experience was excellent from start to finish. Jorge and his crew were professional, punctual, and worked safely and efficiently. They took the time to clean everything up afterward, leaving the property looking even better than before. The quality of their work exceeded our expectations, and the difference it made to our yard is incredible. I would definitely recommend them to anyone looking for reliable, high-quality tree service."
+        },
+        {
+            "author": "Richard Nash",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Squirrel Tree Services recently came out to remove an extremely large tree that had fallen during the recent heavy rains. They did the very best tree work we have ever had done in fifty years of tree work. They were extremely knowledgeable about how to remove the tree and did so with zero damage to our property. They also pruned and trimmed trees and shrubs that really made a huge difference in beautifying our farm.\nThey gave me an extremely fair price as they were lower that two other estimates we received and they were very punctual and efficient about their work.\nI would definitely recommend Squirrel to anyone who needs great tree work done right at a great price."
+        },
+        {
+            "author": "Jeff Ward",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Squirrel Tree Service did an outstanding job removing several storm‑damaged trees from my property. Their team was professional, efficient, and clearly experienced. They handled the removal safely, cleaned up thoroughly afterward, and left everything looking great. I really appreciated the care they took throughout the entire process. Fantastic work — highly recommended."
+        },
+        {
+            "author": "Steve W",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Second time we have used Squirrel Tree Service. They do an outstanding job and are very professional. Prices are fair and they exceeded expectations from beginning to end. Jacob and his team were very polite and respectful. I highly recommend this company."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cumming (Central Depot)",

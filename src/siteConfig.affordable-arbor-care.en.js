@@ -32,21 +32,9 @@ export const siteConfigAffordableArborCareEn = {
     "ctaPrimary": "Call Joe +1 321-947-3199",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-arbor-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Affordable Arbor Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/affordable-arbor-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/affordable-arbor-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAffordableArborCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/affordable-arbor-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAffordableArborCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/affordable-arbor-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAffordableArborCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/affordable-arbor-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigAffordableArborCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "D. Jaxxson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had Joe and Stephanie come out and provide a quote based on some observed work I saw them do near my rental property. Hired them to clear some trees at my home. They showed up late, but Stephanie called me the entire time and kept me abreast of the situation. I emphasized that because these kinds of services in the form of follow up,are few and far between and I appreciate the communication. Six stars just for that.\n\nAnyhow, the scope of the job relative to capability was small but, they got the job done in a safe and efficient manner. Cleaned up after themselves and headed out.\n\nI’d highly recommend Joe and his crew. They will get the job done."
-    },
-    {
-      "author": "Wanda Garcia",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Joe came out the same day to give an estimate after I was stood up by another company.  I needed to have 2 trees removed. He explained in detail how the process would be. I am so glad I picked Affordable Arbor Care. Joe is reliable, knowledgeable and very professional.  He and his crew did such an excellent and wonderful job, that no one can tell that these huge trees were removed. They left my yard spotless! I was amazed with the way they took care of every little detail.  Thank you so much. I am truly a happy customer."
-    },
-    {
-      "author": "Christopher Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Affordable Arbor Care twice now for our trees, and they are fantastic!  They always do great work at a very reasonable cost.  Their team clearly loves to take care of trees and knows their business well.  They will not only trim and clean out what you have asked for, but they will also give you great tips on how to take care and preserve what you have.  I would recommend them to anyone looking for tree care, clean outs or removals.  They are professional, love their business and it shows!"
-    },
-    {
-      "author": "Gloria Magee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have five trees that needed trimming; two of them were resting on my roof. After calling two other companies, I decided to go with Affordable Arbor Care. Joe and Stephanie both came out to provide the initial free consultation/estimate. I could have gone with a cheaper company but they were extremely professional and knowledgeable and that's what sold me. They also set my expectations that, due to the extensive rain we were having, they were backed up on their schedules and I appreciated their honesty. The work performed was done completely to my satisfaction and they cleaned up everything afterward. I am happy with their service and would hire them again and recommend them to anyone needing work done."
-    },
-    {
-      "author": "Nicholas “LOaF NINjA” Boyd",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Affordable Arbor Care came out quickly to give an estimate for completing a job the previous company failed to finish. Joe and Stephanie, as well as their crew, were very professional, thorough, and easy to work with. I am very please with the work they have done. They even took the time to rake up the residual mess from around the yard, driveway, etc. I’ll definitely be calling them again when I need my camphor tree trimmed up."
-    }
-  ],
+        {
+            "author": "D. Jaxxson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had Joe and Stephanie come out and provide a quote based on some observed work I saw them do near my rental property. Hired them to clear some trees at my home. They showed up late, but Stephanie called me the entire time and kept me abreast of the situation. I emphasized that because these kinds of services in the form of follow up,are few and far between and I appreciate the communication. Six stars just for that.\n\nAnyhow, the scope of the job relative to capability was small but, they got the job done in a safe and efficient manner. Cleaned up after themselves and headed out.\n\nI’d highly recommend Joe and his crew. They will get the job done.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdpSpjZuRJ-JSvjSPTwSpLxCvN_Rl_MDgqzJO3WJtcWt626-UmQJIHbj98mAPwrFyHcvCk3KZ7iYBjl5beh6fcfmOUvJDFIc9xOs3bNw2sTPYB_1ydZpfsVaSQsU8pVSBxWooZC=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Wanda Garcia",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Joe came out the same day to give an estimate after I was stood up by another company.  I needed to have 2 trees removed. He explained in detail how the process would be. I am so glad I picked Affordable Arbor Care. Joe is reliable, knowledgeable and very professional.  He and his crew did such an excellent and wonderful job, that no one can tell that these huge trees were removed. They left my yard spotless! I was amazed with the way they took care of every little detail.  Thank you so much. I am truly a happy customer."
+        },
+        {
+            "author": "Christopher Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Affordable Arbor Care twice now for our trees, and they are fantastic!  They always do great work at a very reasonable cost.  Their team clearly loves to take care of trees and knows their business well.  They will not only trim and clean out what you have asked for, but they will also give you great tips on how to take care and preserve what you have.  I would recommend them to anyone looking for tree care, clean outs or removals.  They are professional, love their business and it shows!"
+        },
+        {
+            "author": "Gloria Magee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have five trees that needed trimming; two of them were resting on my roof. After calling two other companies, I decided to go with Affordable Arbor Care. Joe and Stephanie both came out to provide the initial free consultation/estimate. I could have gone with a cheaper company but they were extremely professional and knowledgeable and that's what sold me. They also set my expectations that, due to the extensive rain we were having, they were backed up on their schedules and I appreciated their honesty. The work performed was done completely to my satisfaction and they cleaned up everything afterward. I am happy with their service and would hire them again and recommend them to anyone needing work done."
+        },
+        {
+            "author": "Nicholas “LOaF NINjA” Boyd",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Affordable Arbor Care came out quickly to give an estimate for completing a job the previous company failed to finish. Joe and Stephanie, as well as their crew, were very professional, thorough, and easy to work with. I am very please with the work they have done. They even took the time to rake up the residual mess from around the yard, driveway, etc. I’ll definitely be calling them again when I need my camphor tree trimmed up."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Central Depot)",

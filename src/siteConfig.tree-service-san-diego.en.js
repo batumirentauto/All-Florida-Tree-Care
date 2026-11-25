@@ -32,21 +32,9 @@ export const siteConfigTreeServiceSanDiegoEn = {
     "ctaPrimary": "Call Lead +1 858-201-5554",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-service-san-diego/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tree Service San Diego tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-service-san-diego/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-service-san-diego/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeServiceSanDiegoEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-service-san-diego/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeServiceSanDiegoEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-service-san-diego/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeServiceSanDiegoEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-service-san-diego/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigTreeServiceSanDiegoEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lindsay McGrath",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My parents house in La Jolla needed yard work so I called Tree Service San Diego and Pedro and his team came by the next day to work with our schedule. They trimmed our overgrown trees and did such a great job, were quick and efficient, and the cost was better than every other service in the area. I’ll be contacting him again for sure. Highly recommend!"
-    },
-    {
-      "author": "Frankie Raffaele",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Pedro removed two palm trees at my apartment in OB last week. The job was done very quickly and the results are great. No more seeds dropping on my car!! Thank you"
-    },
-    {
-      "author": "Margot",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My dad had a massive pine tree root that was messing with our foundation! The stump grind was very cool to see! Now we can do anything with that area! Here are before and after photos"
-    },
-    {
-      "author": "Zeek Dos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I moved into my home here in San Marcos just over a year ago and I had a fence put up along my property line. but I had some tree stumps along my fence line that were an eye sore that I I wanted it removed. I searched Google and found Tree Service San Diego, I called and I was able scheduled them to come out just a few days later. They arrived on time, looking professional and you can see they know what they are doing by the efficent and precise work they produce. I added some pictures to show you what I'm talking about, great job guys!\n\nIf you are looking to hire for the services they offer, I strongly recommend them. 5 stars."
-    },
-    {
-      "author": "Phillip Fournier (rockingfreely)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently hired Tree Service San Diego for a tree removal project at my property, and I couldn’t be happier with their service! From start to finish, they were professional, efficient, and incredibly skilled. The team arrived on time, assessed the situation with care, and safely removed a large, hazardous tree without any issues. Their equipment was top-notch, and they took great care to protect my yard and surrounding structures during the process.What stood out most was their excellent communication. They explained the entire process, provided a fair and transparent quote, and answered all my questions with patience. The crew was courteous, worked diligently, and left my property spotless after the job was done. Their attention to detail and commitment to safety gave me complete peace of mind.I highly recommend Tree Service San Diego for anyone needing tree removal services. They’re reliable, affordable, and truly experts in their field. I’ll definitely be calling them again for any future tree care needs! Five stars!"
-    }
-  ],
+        {
+            "author": "Lindsay McGrath",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My parents house in La Jolla needed yard work so I called Tree Service San Diego and Pedro and his team came by the next day to work with our schedule. They trimmed our overgrown trees and did such a great job, were quick and efficient, and the cost was better than every other service in the area. I’ll be contacting him again for sure. Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcfCHs2WbMcVgqvbrJdNYlr_1dnNBjprfgRV_iWOa2BAWXki-3TWKIXOJvW6nk14wtnI1xurKF2-TNPEGxlqN6ASFZ19Z6hksDTDK5t4ar7M42nvpPnGt8w4IpzV1OiWaV0ifl-0g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHFOvt3vzQ8SKFQ_vpgoCtp-OtjppUNdneSv18zy0tSzWhaB3TlbL2fXRELCcoEttktOFTXHyGcwo8Y2IA2uc8pBncNpZFscdCF_l19noTOVi5YCarIsMLjmttvmMaMShd3nU=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Frankie Raffaele",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Pedro removed two palm trees at my apartment in OB last week. The job was done very quickly and the results are great. No more seeds dropping on my car!! Thank you",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8v6lUsUfBWL4HmJOaWHLbRN38UvWheB8P_0fs4XXbZaOvxHxUP-pmQrhQauxVRDjQpp1Ysif2Wj3iCggvckLHyWoNIDDaaGyhLxHcNRX89EgQRRF1d4hmgQg9r89k7fQdYEyADZs0SK46=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfqO_DJpMWXbrrUEa1pvpDJMFX7Fwo1mgnRWBqFvWuNIbIhQVip3OOLNTcm_7MnAUxhGC0wPuqrJQLPJXZEiVdSyNsA_G4YHzzsPcucgQWT_MtYsPXS_whxKfzIaUaL-NR901QXHBps2LI=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Margot",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My dad had a massive pine tree root that was messing with our foundation! The stump grind was very cool to see! Now we can do anything with that area! Here are before and after photos",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcUfMlwDxCfI0piX8Pm78CLiu7LIkIQULYhcu6lqioiKqhS-JDC6W_2sQQlnK7OD7iKM4HkA-DGElZ4SL_sMZ7DUiOdxobD8KWMGir0TK1kyr_YjxB10Se--gD7c9n6vnd-R6eD=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGA2hTlJuyd_D_hdbBg0ycD4yCmblpRwFfdS3gjQPNQboa4lboeKQiDijE0b6pcSxJZ8DjFma-nw6mxDteew-iM4_L8SiFek57a4JidR3F3JyRHmCTrqYL4jDGTXE0_U7_TEir=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Zeek Dos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I moved into my home here in San Marcos just over a year ago and I had a fence put up along my property line. but I had some tree stumps along my fence line that were an eye sore that I I wanted it removed. I searched Google and found Tree Service San Diego, I called and I was able scheduled them to come out just a few days later. They arrived on time, looking professional and you can see they know what they are doing by the efficent and precise work they produce. I added some pictures to show you what I'm talking about, great job guys!\n\nIf you are looking to hire for the services they offer, I strongly recommend them. 5 stars.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvCNp0bfRC82iZGwxJWrW8NoHfBt6KnN_hAohKpNbWSPkcp3kDO_pCj6SKzCgwuWeEzb9RelfX1cIBXJ6x-MjCKxOfaejI1u2Q9HA06NJKryMSxRqJAVr95Wj0wOPf4VSubuof=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcvt_EKYe4ND7FK8vo8LaWwpBr2lVwvLJS_aPksMRaWm9a28ydKsVEcE_9m0-hlRpXa8lA6mItOFdZsO3vihBxeOoTPqU9DVKejdeHkMyXKXZX1LYDA_X60j_pvuXsuw6ODpXoQhA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Phillip Fournier (rockingfreely)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently hired Tree Service San Diego for a tree removal project at my property, and I couldn’t be happier with their service! From start to finish, they were professional, efficient, and incredibly skilled. The team arrived on time, assessed the situation with care, and safely removed a large, hazardous tree without any issues. Their equipment was top-notch, and they took great care to protect my yard and surrounding structures during the process.What stood out most was their excellent communication. They explained the entire process, provided a fair and transparent quote, and answered all my questions with patience. The crew was courteous, worked diligently, and left my property spotless after the job was done. Their attention to detail and commitment to safety gave me complete peace of mind.I highly recommend Tree Service San Diego for anyone needing tree removal services. They’re reliable, affordable, and truly experts in their field. I’ll definitely be calling them again for any future tree care needs! Five stars!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Diego (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigGrizzlybearArborcareEn = {
     "ctaPrimary": "Call Joe +1 828-712-2400",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/grizzlybear-arborcare/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Grizzlybear Arborcare tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/grizzlybear-arborcare/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/grizzlybear-arborcare/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGrizzlybearArborcareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/grizzlybear-arborcare/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGrizzlybearArborcareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/grizzlybear-arborcare/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGrizzlybearArborcareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/grizzlybear-arborcare/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigGrizzlybearArborcareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jacquelyn Randall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Can’t recommend Joe and Grizzly Bear highly enough— after another tree service took out some branches and left a large rotten trunk, Grizzly Bear came in and very safety and professionally removed the trunk. They were wonderful, trustworthy, gave me a very fair price, and even took out some holy bushes that have been plaguing me! If you’re looking for tree work, give them a call!"
-    },
-    {
-      "author": "Tom Weinkam",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had severe damage to my pine trees due to wind and storms. I had several estimates from tree companies and chose Grizzley Bear Arborcare. I'm glad I did. Not only was the work done well, but it was done within my time frame and the price was right. I would recommend Joe and his crew to anyone. Also important, Joe is a professional arborist who cares about trees as I do."
-    },
-    {
-      "author": "Frances Smyth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Grizzly Bear several times and they are always quick to respond to our request. Their consultations offer knowledgeable and appropriate recommendations. Their work is efficient, professional, and their clean up is excellent! The price is very affordable. They will continue to be our \"go to guys\" for our tree and maintenance needs! Thank you William and your crew!"
-    },
-    {
-      "author": "Donica Warren",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Grizzlybear Arborcare three times for tree removal services. I highly recommend William and his team. They are always prompt, professional and reasonably priced. We appreciate their hard work and will continue to do business with them in the future!"
-    },
-    {
-      "author": "Joseph Barker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Grizzlybear Arborcare to anyone looking for tree work in the area! They were great to work with! I had them take down about 6 trees and trim some other trees around the property. Clear communication, easy scheduling, and the work went off without a problem."
-    }
-  ],
+        {
+            "author": "Jacquelyn Randall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Can’t recommend Joe and Grizzly Bear highly enough— after another tree service took out some branches and left a large rotten trunk, Grizzly Bear came in and very safety and professionally removed the trunk. They were wonderful, trustworthy, gave me a very fair price, and even took out some holy bushes that have been plaguing me! If you’re looking for tree work, give them a call!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdlQ5P4TTSsN4QjPaZB0qgJVsYKat5AsLswhiAQvbptiD83YlcmkJAWSPPOLxJc_q5o90_WlRbI8LPfttq8arxDZ18KP5YbXbBxFpANBMY2wl59_Dnuas2d7mHb8WDCHCMQGURS3ZG1ZxA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tom Weinkam",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had severe damage to my pine trees due to wind and storms. I had several estimates from tree companies and chose Grizzley Bear Arborcare. I'm glad I did. Not only was the work done well, but it was done within my time frame and the price was right. I would recommend Joe and his crew to anyone. Also important, Joe is a professional arborist who cares about trees as I do."
+        },
+        {
+            "author": "Frances Smyth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Grizzly Bear several times and they are always quick to respond to our request. Their consultations offer knowledgeable and appropriate recommendations. Their work is efficient, professional, and their clean up is excellent! The price is very affordable. They will continue to be our \"go to guys\" for our tree and maintenance needs! Thank you William and your crew!"
+        },
+        {
+            "author": "Donica Warren",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Grizzlybear Arborcare three times for tree removal services. I highly recommend William and his team. They are always prompt, professional and reasonably priced. We appreciate their hard work and will continue to do business with them in the future!"
+        },
+        {
+            "author": "Joseph Barker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Grizzlybear Arborcare to anyone looking for tree work in the area! They were great to work with! I had them take down about 6 trees and trim some other trees around the property. Clear communication, easy scheduling, and the work went off without a problem."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

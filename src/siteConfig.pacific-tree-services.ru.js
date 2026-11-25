@@ -31,21 +31,9 @@ export const siteConfigPacificTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 253-499-9133)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pacific-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Pacific Tree Services"
-      },
-      "sub1": {
-        "image": "/images/pacific-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/pacific-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPacificTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/pacific-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPacificTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/pacific-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPacificTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/pacific-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigPacificTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kristen Dotson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: If there was an option for more than 5 stars, I would take it. The crew was professional and on time, the estimate and scope of work were delivered as promised with no changes, and the communication was top tier. Will and his crew even mana..."
-    },
-    {
-      "author": "Mya Flintoff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing amazing amazing!!! I will go back to them for any tree service needs we have! They provided a fair and honest quote, were timely and responsive, and cut down two huge trees in a very residential area with skill and efficiency! I was..."
-    },
-    {
-      "author": "Kelsey Hofmann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’d seen a Pacific Tree Services truck at one of our neighbors houses a while back and reached out after we had some large branches fall in a storm. Will was quick to respond and come take a look, provide recommendations, and get us an esti..."
-    },
-    {
-      "author": "Heather Frink",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ben & his team did a fantastic job trimming my very tall arborvitae hedges and taking down a very overgrown plum tree. They were friendly, professional, knowledgeable and reasonably priced. They also did an excellent job with clean up...."
-    },
-    {
-      "author": "Alvin Zaitsu",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Will and his crew at Pacific Tree Services. They were professional, courteous, and efficient.  They took down three birch trees and ground the stumps in a couple of hours and cleaned up the property like nothing happened...."
-    }
-  ],
+        {
+            "author": "Kristen Dotson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: If there was an option for more than 5 stars, I would take it. The crew was professional and on time, the estimate and scope of work were delivered as promised with no changes, and the communication was top tier. Will and his crew even mana...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAcdSushUdDU1L9BmHoaOp-lhqwu8APuUFMW7PuP2t_Pv_8B2muT17M2D7Kb0pZ4sPdw9xZ1cHZ0KKOZap8PVOQBnAEggd_fcn5KuKX6Q9_MVGb-ZA3ABwwEcvhrIbjf0myvY5Sovwh71Q=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcct-R7sxQB3z9SiusV6f04cDevJJuZ8F5of23i3z-nDAf-ockD7MTa0VUc3gxQAUM9SkuNzxYvE9t9lJu-xWY6FSq9KYOisQlBVJnSvyzQV6fnYZBIcPDINHkKE8mNIxXo96Lq48Fhf9To=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mya Flintoff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing amazing amazing!!! I will go back to them for any tree service needs we have! They provided a fair and honest quote, were timely and responsive, and cut down two huge trees in a very residential area with skill and efficiency! I was...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf2fWsxyUz6a--UKuk8CJLrv9chsTQGyju--JMe4471vzXnXVFG5L_XAddsWaQIiKEBKsMWhPxplb76UElvpFZ9Xh-VZ1roMRnoWNTAjkIvGKucXspu1PiLmedzuHs1IggweONaP102k9U=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeEC1j5Yr5fgwWAL6hOZT8x9sHy6Y7R-CbzH4SbkUVrsRVZn6AEmZktwNvFdQfRP7PomYJEqy6vxcJbZyKnzTRgLDxvfc7ANbJRjmKVAfFEKfzAMFv8NcuFQt1rm2dbSkpI-If5utaX-8-d=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kelsey Hofmann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’d seen a Pacific Tree Services truck at one of our neighbors houses a while back and reached out after we had some large branches fall in a storm. Will was quick to respond and come take a look, provide recommendations, and get us an esti..."
+        },
+        {
+            "author": "Heather Frink",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ben & his team did a fantastic job trimming my very tall arborvitae hedges and taking down a very overgrown plum tree. They were friendly, professional, knowledgeable and reasonably priced. They also did an excellent job with clean up....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIiUmYhi_xclfD30E-hQ-uBVv9jzuCV3E0FC3kAZxjH6bxknLrOuOqU54aWPKoc9EVJ4voA-S-ZVTmzdSRGHtfA9irYO-EyACAbvxtyCRxVELvSy1H6tWWnLcFIS9m3HF2DxOqfxtuy9u3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcu4mMvPZbSTPswBQlitruC077JNv5Cu5SCSUDG0tmsBZgnwPZLNgPxWbMsJd5amxH5bqR2nkCiqvgEGNxVlkSvnMUhSAE0pAtMpPkygwU9lpJYhizxS7ozzEmN4Y_y0eyjgyZ8f_i3cPSB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyU13JBIf4AjW--hgEMOytLaXYDwfB4MzoRaKUwX-KvVZAZti7IxllX4ul_V0o4tnGSI6d1G-KEzgtza0Jd3s9MmkCRFrZXCk9toVRP6PINchqVMYd2oTn96RwuP40-WmwE49mDFODByLv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUwOXoYt2EDhHGdixyEpqiGxuah23uS86mOrtebgAc0PNGXLnsmWdHoH5SbFls8_VJXDGTAkrms_M4aI-QtnWwMax4SCotAD19g2-5iCmT7Okfd3l9MlZ6YYX4vzjNKnNAubfeRi6Yzgak=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alvin Zaitsu",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Will and his crew at Pacific Tree Services. They were professional, courteous, and efficient.  They took down three birch trees and ground the stumps in a couple of hours and cleaned up the property like nothing happened...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tacoma (Основная база)",

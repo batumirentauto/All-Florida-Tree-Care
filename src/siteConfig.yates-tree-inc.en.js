@@ -32,21 +32,9 @@ export const siteConfigYatesTreeIncEn = {
     "ctaPrimary": "Call Jim +1 210-349-2977",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/yates-tree-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Yates Tree Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/yates-tree-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/yates-tree-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigYatesTreeIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/yates-tree-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigYatesTreeIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/yates-tree-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigYatesTreeIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/yates-tree-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,52 @@ export const siteConfigYatesTreeIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "A cut above (pun intended) the rest of the competitors - and I have used several of the “Name Brands”.  Personalized service, experienced crew, very knowledgeable + the price is reasonable.  Working with the owner, Jim Yates, was easy, as well.\nGive them a call. They will do a good job."
-    },
-    {
-      "author": "Kat L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Murphy’s Law: If an emergency is going to occur, it will happen on a holiday weekend.\n\nOn memorial weekend, a huge portion (about 1/2 the tree) of a Texas live oak split and landed on my roof. I left messages with several 24-hour emergency tree service companies.  Jim Yates was the only company to respond during the holiday weekend. By the time other companies returned my call (after the holiday weekend), Yates was finished removing the tree.  Everyone I spoke with on the team was courteous, friendly and professional. The Yates team did an exceptional job with the removal and cleanup, especially working in temps over 100 degrees! Sending a Big Thank You to the whole Yates Team for the quick response & great service!"
-    },
-    {
-      "author": "Christy Mondor",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I reached out via text and Jim was out the same day for a free estimate. We had our large tree in the front yard trimmed, no more annoying moss balls! We also had 4 other trees cleaned up and away from the house. The whole process was easy and quick."
-    },
-    {
-      "author": "Kim Kifer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Easy & pleasant to work with.  Superb job on my Father's 5 large trees as we get ready to hold my Father's memorial outdoors later this coming month."
-    },
-    {
-      "author": "Lynne Levy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have been using Yates Tree for years.  Bottom line:  I would never use any other company.  Mr.Yates is THE expert.  I trust him to care for our trees and shrubs as well as he cares for own.  He and his crew are honest to the core, timely, responsible, and a pleasure to work with.  Our property always looks great after Mr. Yates and hid crew are done with performing their magic."
-    }
-  ],
+        {
+            "author": "Joe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "A cut above (pun intended) the rest of the competitors - and I have used several of the “Name Brands”.  Personalized service, experienced crew, very knowledgeable + the price is reasonable.  Working with the owner, Jim Yates, was easy, as well.\nGive them a call. They will do a good job."
+        },
+        {
+            "author": "Kat L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Murphy’s Law: If an emergency is going to occur, it will happen on a holiday weekend.\n\nOn memorial weekend, a huge portion (about 1/2 the tree) of a Texas live oak split and landed on my roof. I left messages with several 24-hour emergency tree service companies.  Jim Yates was the only company to respond during the holiday weekend. By the time other companies returned my call (after the holiday weekend), Yates was finished removing the tree.  Everyone I spoke with on the team was courteous, friendly and professional. The Yates team did an exceptional job with the removal and cleanup, especially working in temps over 100 degrees! Sending a Big Thank You to the whole Yates Team for the quick response & great service!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHVAGZxM4PBXK0edJp1R65PWo5lWTLRT3355TlqG6H8iVBHUf_2I-Z1_1QSkFuJReAqwPS3LsXIrqYgFQ94keEzowxw2fQZg3hMt1NlL6tkLviOzAmGWQhLC-8DB4UN9KuLAHJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWZ-o7rMMQpFCSTuo3PwgjJyoOCCyTDHa8L_0EpdGvmbymZSsY90vr_OXsye8l7VyICZ5_j2YaQRQm0NsaYL51aPMyPpnG5z4kv15hmU2G-eq1RPT_Dy_TNvSEMHIKepZlVutSiA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIckOSG6dK3oSh-uXCdt-nGOEGQp7UZ-2_frbTnPszIVwMcokG9M4daxqhF40YDfPC0_nTCkJDGkKPomQz3ht4Hx1NBLjklFoG8oaIWG9TPWLhExn_G0LD6ZS-6_GkCsFSXkKP=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Christy Mondor",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I reached out via text and Jim was out the same day for a free estimate. We had our large tree in the front yard trimmed, no more annoying moss balls! We also had 4 other trees cleaned up and away from the house. The whole process was easy and quick."
+        },
+        {
+            "author": "Kim Kifer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Easy & pleasant to work with.  Superb job on my Father's 5 large trees as we get ready to hold my Father's memorial outdoors later this coming month."
+        },
+        {
+            "author": "Lynne Levy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have been using Yates Tree for years.  Bottom line:  I would never use any other company.  Mr.Yates is THE expert.  I trust him to care for our trees and shrubs as well as he cares for own.  He and his crew are honest to the core, timely, responsible, and a pleasure to work with.  Our property always looks great after Mr. Yates and hid crew are done with performing their magic."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Central Depot)",

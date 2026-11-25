@@ -31,21 +31,9 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceRu = {
     "ctaPrimary": "Позвонить (+1 910-232-2940)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Modern Coastal LLC - Landscaping & Lawn Care Service"
-      },
-      "sub1": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/modern-coastal-llc-landscaping-lawn-care-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigModernCoastalLlcLandscapingLawnCareServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Alex Davis",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wish I had hired these guys sooner. Did a phenomenal job on my front and back yard at a very competitive price. Much better than any other companies that have done the same work...."
-    },
-    {
-      "author": "Allison Collins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Noah and team did an awesome job on our yard! On time, great job, and overall great service. Would highly recommend...."
-    },
-    {
-      "author": "Jessica Saidenstat",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with this family-owned landscaping company! They came out on short notice and did an incredible job with our yard—cutting down some trees, trimming bushes, and general yard cleanup. They worked quickly and effic..."
-    },
-    {
-      "author": "Brenda Musselman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Noah and his company. He started taking care of my yard years ago with just a push mower and has grown into a very reliable and professional company. Always willing to do the extras I may ask for. 👍 …..."
-    },
-    {
-      "author": "Audrey Kessel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: As a new homeowner I was hesitant about hiring a company to take of my lawn but I’m so happy I found Modern Coastal. Patrick and his family do a wonderful job and are very personable and easy to work with. They did a full spring cleaning of..."
-    }
-  ],
+        {
+            "author": "Alex Davis",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wish I had hired these guys sooner. Did a phenomenal job on my front and back yard at a very competitive price. Much better than any other companies that have done the same work...."
+        },
+        {
+            "author": "Allison Collins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Noah and team did an awesome job on our yard! On time, great job, and overall great service. Would highly recommend....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcto6KLxZh_jhiyLIGlTAOGxkOmxyKgePuMCKN4-8iiR6TzbJ9IfNjZ6oO33t-QohMEgddyweeKBG1oqLok0qzsxrTli7MlzXTYCw12NoVmmqrXaXtCjk22yYo06c9UDWJBKLz_=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Saidenstat",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with this family-owned landscaping company! They came out on short notice and did an incredible job with our yard—cutting down some trees, trimming bushes, and general yard cleanup. They worked quickly and effic..."
+        },
+        {
+            "author": "Brenda Musselman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Noah and his company. He started taking care of my yard years ago with just a push mower and has grown into a very reliable and professional company. Always willing to do the extras I may ask for. 👍 …..."
+        },
+        {
+            "author": "Audrey Kessel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: As a new homeowner I was hesitant about hiring a company to take of my lawn but I’m so happy I found Modern Coastal. Patrick and his family do a wonderful job and are very personable and easy to work with. They did a full spring cleaning of..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wilmington (Основная база)",

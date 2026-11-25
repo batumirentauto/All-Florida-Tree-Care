@@ -32,21 +32,9 @@ export const siteConfigPfeiferTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 941-900-6009",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pfeifer-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Pfeifer Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/pfeifer-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/pfeifer-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPfeiferTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/pfeifer-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPfeiferTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/pfeifer-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPfeiferTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/pfeifer-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigPfeiferTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Michelle Palmeri",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ismael is the best!! He did an amazing job on trimming up the branches that were hanging over our property from a neighbor’s house. He communicated well, showed up when he said he would, and did an excellent job. We are very happy with the results 😊 …"
-    },
-    {
-      "author": "Timmy Clegg",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had Pfeifer Tree Service out to trim some large oaks in our back yard. We got 5 star service from start to finish!!\nSome very large branches were cut and hauled off and the yard was completely cleaned. Our yard looked amazing after the trees were trimmed. Highly recommend Pfeifer Tree Service."
-    },
-    {
-      "author": "Julie",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have used Pfeifer tree services the last few years for tree trimming and they're the best around.  Honest, reliable and with a great work ethic second to none.\nWe're in the hurricane season so I just had Ismael out to get everything in order, just in case...as usual, he did a fantastic job and left the yard and trees in a much better condition than he found it.\nIf you haven't trimmed your trees yet for the hurricane season, I would definitely think about calling Pfeifer tree services to get your yard in order.  They're honest and do what they promise; which is getting pretty rare these days!"
-    },
-    {
-      "author": "Jacob Ginther",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The service, speed, and care of Pfeifer Tree Service was fantastic.  In less than an hour, Ismael felled, completely removed, and ground the stump of a dead tree from our yard.   Not only was he careful to not damage any of our property, but he cleaned up and removed any trace that a tree was there.   If you want a responsive company that takes pride in the work they do, you can’t go wrong with Pfeifer Tree Service."
-    },
-    {
-      "author": "Donna Choi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recommend this place to anyone and everyone. I've hired several tree service to trim my 70-years old giant trees and clear some of yard waste. Not only Ismail showed on time, he actually came earlier; which I found rare for a tree service. He worked amazingly from start to finish done everything and during the work, if I had any questions, he explained the process or the reason. The price was amazing as well. You wouldn't get anyone this hardworking and great job done."
-    }
-  ],
+        {
+            "author": "Michelle Palmeri",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ismael is the best!! He did an amazing job on trimming up the branches that were hanging over our property from a neighbor’s house. He communicated well, showed up when he said he would, and did an excellent job. We are very happy with the results 😊 …",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeKyyGWkqvHajTGr785an_a1yWxgqqArKHCaUI2sjUZLBntQLysHVR6dZBOMUNnvb2-mFaSH44-uYdUAEupDif2aztexebxZldin5Z_4LxQiXoMRxDVI6i16UVJt2_4qJiJ4z2EDyAsFBZR=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQYUwVx-BGw6RlqM2k5TQ9d1ncibodoD5FP_ObE1NwwFvMYzR_mbIoATuRwVq4SpbRZQqNIcAPo4kiYY3YfySdhtT2OkcXLu7OWx8RiNLKq9zktaRpOFrMLsix0XA-kOeGN0jlgNkLPxqG=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Timmy Clegg",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had Pfeifer Tree Service out to trim some large oaks in our back yard. We got 5 star service from start to finish!!\nSome very large branches were cut and hauled off and the yard was completely cleaned. Our yard looked amazing after the trees were trimmed. Highly recommend Pfeifer Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl6p3kB4DKT1z-NV6luqd5v29-f5yU-Mrreb5JuH-ZAtnwU5SXkjo2Mfx_swRtqNLfui3dL6cqEGPtDHwP7ADxAgvsY9CHescxjS5rfPU4MwqAe9oGER6hbdBWMYCf9apJ-66tegULnvY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9DdNoPz7ZxnmGUPPHUDgi0MbzqFO8Gmg2iydvvGOo34yIpNgGve6QYrAWpkBlG2fpX09O8GfipjiKZSl9zV4nNRJBWF2kaDohdU_cWwG2jCEgJTKZGFIPFtWMjMfTwPSevtBr8XcyF11n=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Julie",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have used Pfeifer tree services the last few years for tree trimming and they're the best around.  Honest, reliable and with a great work ethic second to none.\nWe're in the hurricane season so I just had Ismael out to get everything in order, just in case...as usual, he did a fantastic job and left the yard and trees in a much better condition than he found it.\nIf you haven't trimmed your trees yet for the hurricane season, I would definitely think about calling Pfeifer tree services to get your yard in order.  They're honest and do what they promise; which is getting pretty rare these days!"
+        },
+        {
+            "author": "Jacob Ginther",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The service, speed, and care of Pfeifer Tree Service was fantastic.  In less than an hour, Ismael felled, completely removed, and ground the stump of a dead tree from our yard.   Not only was he careful to not damage any of our property, but he cleaned up and removed any trace that a tree was there.   If you want a responsive company that takes pride in the work they do, you can’t go wrong with Pfeifer Tree Service."
+        },
+        {
+            "author": "Donna Choi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recommend this place to anyone and everyone. I've hired several tree service to trim my 70-years old giant trees and clear some of yard waste. Not only Ismail showed on time, he actually came earlier; which I found rare for a tree service. He worked amazingly from start to finish done everything and during the work, if I had any questions, he explained the process or the reason. The price was amazing as well. You wouldn't get anyone this hardworking and great job done.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaNKLOfkZZPzYqhK62jg9I4r1u8lsA0mzPQLm5M-NNlGezhyZF3ji05NrVVexAXl-_IntwhMIYgkVN2Yc7YyYySJjTyDHPl5EHOOYVy7TtPYeQxKp-svTqFc9khr7Xf4blzUGAUkmtkfuT=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sarasota (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigPensacolaTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 850-307-5322)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pensacola-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Pensacola Tree Service LLC"
-      },
-      "sub1": {
-        "image": "/images/pensacola-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/pensacola-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPensacolaTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/pensacola-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPensacolaTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/pensacola-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPensacolaTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/pensacola-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigPensacolaTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brent Ismay",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This review is for \"Economy Tree Service\" in Pensacola Florida. We contacted David a little over a week before the work was actually performed.  We were kept informed as the ridiculous permitting process progressed.  The crew was able to ge..."
-    },
-    {
-      "author": "Emile Mershad",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: It is easy to see why Pensacola Tree Service keeps getting so many 5 star reviews. My husband and I have tried several different tree trimming companies over the years here in the area and Pensacola Tree Service is by far the best one we ha..."
-    },
-    {
-      "author": "Lind Ostler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Aaron at Pensacola Tree Service was absolutely fantastic. I reached out yesterday about trimming some trees in my backyard, and he got back to me right away, set up a time to look at the job, and showed up today exactly like he said he woul..."
-    },
-    {
-      "author": "Cal Killigan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Aaron and the crew from Pensacola Tree Service handled a bunch of different jobs for our community — palm trimming, tree removal, and stump grinding. Their pricing was pretty fair, the guys really knew what they were doing, and they left ev..."
-    },
-    {
-      "author": "Kenneth Lake",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Called Economy for a quote. David came over, gave me a quote, told him I would  get back to him. At that time he said we wouldn't even know he was here. He called me back a couple days later, had a cancelation and could do mine at a reduced..."
-    }
-  ],
+        {
+            "author": "Brent Ismay",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This review is for \"Economy Tree Service\" in Pensacola Florida. We contacted David a little over a week before the work was actually performed.  We were kept informed as the ridiculous permitting process progressed.  The crew was able to ge...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2sE-jF6jQ7c3RSZGlw4DSPTHI_wGl8cMLoHhjfvWv9GOH3JBFlyu5Xwx07Sy3Z1DT3EsVzOCEhhxry4RxF7XDPbVG90D3mxTgGRrGikEepLECmteTyRJaNctU8RrKkUUA6gw9T_fRoz4f=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Emile Mershad",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: It is easy to see why Pensacola Tree Service keeps getting so many 5 star reviews. My husband and I have tried several different tree trimming companies over the years here in the area and Pensacola Tree Service is by far the best one we ha..."
+        },
+        {
+            "author": "Lind Ostler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Aaron at Pensacola Tree Service was absolutely fantastic. I reached out yesterday about trimming some trees in my backyard, and he got back to me right away, set up a time to look at the job, and showed up today exactly like he said he woul..."
+        },
+        {
+            "author": "Cal Killigan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Aaron and the crew from Pensacola Tree Service handled a bunch of different jobs for our community — palm trimming, tree removal, and stump grinding. Their pricing was pretty fair, the guys really knew what they were doing, and they left ev..."
+        },
+        {
+            "author": "Kenneth Lake",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Called Economy for a quote. David came over, gave me a quote, told him I would  get back to him. At that time he said we wouldn't even know he was here. He called me back a couple days later, had a cancelation and could do mine at a reduced...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBHTUvTrb6e-N2OLvPHydYFAhtu8T-9JWWzpDabJ77glW94Wj7vppQWlNzfRkAQQYyMdSzhN3O30XIn2zsu9nFfn8jLVPqpk04h40udXpnWKTGGMHrXDJkUAmopqmJRICcjUiAWwFn9f7r=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjzTpyWV4bfux407_eePK6wGFSi1GgwhIpUFOQ2w-VRrHgp0kwMVMNJXrIYGgzCPWeOiprd6Y20IXGbyQDkshmLxYK9yvho8u8FL7RvhiUdAHNL3BIpqE1u-sGfauaA8Zm5IMIFsTfERXk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdtpJ65uqcx4SwrOkWed3NakJK84ubpaJbupojdHiMJAwznJtAXJOHUMe1JYFddD-XSjpyWzsTYO_eFJRRZOUhbp-qYMLtHmo93NsgJF6eJ1GUYbMdaiqDXQ-GFcV8d9ECdatpVUS0gtw-O=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCjdKuIW3BxutfHqfs-kg_N5p3UryPtfyoy6S-xhSCrd_9ogtyTtPC6X3th-283L5Iyrfht0Aa7w4GiyAbLXx0-Hd5LgUqfgQISuVwfFzYXaioyljIfSCujI3u_kB_GgVnU7WBki7rBJ8=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Основная база)",

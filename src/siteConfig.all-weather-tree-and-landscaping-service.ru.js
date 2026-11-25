@@ -31,21 +31,9 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceRu = {
     "ctaPrimary": "Позвонить (+1 813-787-8206)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады All Weather Tree and Landscaping Service, Inc."
-      },
-      "sub1": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kelly Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jefferson and the All Weather Team were great! I asked them to take a look at trimming trees while they were removing a tree from my neighbors and they came right over gave me a quote and were helpful, understanding and professional. Worked..."
-    },
-    {
-      "author": "Susan Guttke",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Update 6 years later... 5-28-2026\nHad All Weather Tree and Landscape cut down a dead oak in my back yard this week and once again did a great job.  It was a very tight area but they are so experienced there were no issues at all.  I used th..."
-    },
-    {
-      "author": "Reiking Pujols",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tina and her crew from all weather tree and landscaping are the absolute best company we have dealt with as far as taking care of our trees and landscaping for the past 10 years.\n\nWe strongly recommend them because of their professionalism ..."
-    },
-    {
-      "author": "Shawn Casey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend All Weather Tree and Landscape- the crew worked hard and even rain storms didn’t slow them down. They did a great job overall!..."
-    },
-    {
-      "author": "Derrick Reynolds",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: All weather tree and landscaping did an awesome job of cleaning up my trees and helping us to get our view of the lake back. The owner of the company came out and gave us a sold quote and matched it by doing an incredible job. They did ever..."
-    }
-  ],
+        {
+            "author": "Kelly Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jefferson and the All Weather Team were great! I asked them to take a look at trimming trees while they were removing a tree from my neighbors and they came right over gave me a quote and were helpful, understanding and professional. Worked...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0RPkLrUBG11_alHbydrpVZ77SoRyozZwDBh1MGeOaNxACflEbMIZ1ywaUU1MyZtn52jWRKPsQozReg7zHzt_9AGlC4l43grZ2hX86jMVz-0ZUQRtgNlvIWZTlOt7vHrHRKyVS8KxX07g=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Susan Guttke",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Update 6 years later... 5-28-2026\nHad All Weather Tree and Landscape cut down a dead oak in my back yard this week and once again did a great job.  It was a very tight area but they are so experienced there were no issues at all.  I used th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcSTsZ1xEtSnwvjx6R3DuVfc5rWuNMz3DcVlAaYgDv4c4CRGVNEfXFAF3j-1iPvTOvZ45I9DCz5a5Ybp1SDsLIy8jkUT9DA_VsPvXoU33XPe2i5huHdutdEs1cWPYrARpdltnCBjxY3NITE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejqSAFdzOqZBCcNTn2kUZm_zJy80J_NasuiS0ph2zSbU8ZXb2kBaL2GB_iXQ2WCCWdIfJtdDU7idQMy8F73kNDeqJoZBiHirCxq5L7KNrZW0V6DnDO1nf40BeQC218uRCqbcB_-McrrnCp=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Reiking Pujols",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tina and her crew from all weather tree and landscaping are the absolute best company we have dealt with as far as taking care of our trees and landscaping for the past 10 years.\n\nWe strongly recommend them because of their professionalism ..."
+        },
+        {
+            "author": "Shawn Casey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend All Weather Tree and Landscape- the crew worked hard and even rain storms didn’t slow them down. They did a great job overall!..."
+        },
+        {
+            "author": "Derrick Reynolds",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: All weather tree and landscaping did an awesome job of cleaning up my trees and helping us to get our view of the lake back. The owner of the company came out and gave us a sold quote and matched it by doing an incredible job. They did ever...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXmDPqewvnM5ygLyxXvwo1lcez8fvZErcuqqH4cLzHzxAQWd328RR11J-lAFauKusvhAH57duPybmKWKBOd-MVsqUhm4lFgCOZ2AjicjLfQ9naq3cVoyWCGDkg920Mzog2sVu8-A=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tampa (Основная база)",

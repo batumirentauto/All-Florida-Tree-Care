@@ -31,21 +31,9 @@ export const siteConfigAkaTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 678-839-9219)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/aka-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады AKA Tree Service"
-      },
-      "sub1": {
-        "image": "/images/aka-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/aka-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAkaTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/aka-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAkaTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/aka-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAkaTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/aka-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigAkaTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Whitney Beauford",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I ran across Mr. Fredrick while him and his crew were working near my neighborhood. I asked for a card and explained I needed some large logs and brush removed from my backyard. He gave me a time frame for the next day. After evaluating the..."
-    },
-    {
-      "author": "Joe Gebauer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: So my first contact with Benny the sales rep. It went very well and he was very helpful and understanding and also he explained in every detail what was about to happen, what I should do Benie kept me up to date with what's going on. When t..."
-    },
-    {
-      "author": "Priscilla Stowe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can confidently 100% recommend AKA Tree Service to anyone . We had an extremely large dying tree located in a  difficult to access area.   Arborist Chandler brought an in-depth knowledge to the situation and presented us with several remo..."
-    },
-    {
-      "author": "Pete Wilson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: For years, I relied on the same local tree service when I needed a tree removed, that is, until recently, when their estimate seemed unusually exorbitant. A friend recommended AKA Tree Service and I could not have been more fortunate.\n\nFrom..."
-    },
-    {
-      "author": "Carolyne Carol",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is my 3rd post and I’m still so excited to share my experience again with AKA Tree Service. On 4/21/2026, Edwardo and his team did an excellent job of grinding the tree stumps for my future front patio - kudos to cleaning up quite well..."
-    }
-  ],
+        {
+            "author": "Whitney Beauford",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I ran across Mr. Fredrick while him and his crew were working near my neighborhood. I asked for a card and explained I needed some large logs and brush removed from my backyard. He gave me a time frame for the next day. After evaluating the...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLculauaBoZ98aN-dSfq5SdoLu697jY2ikoNNH4YnBVP-mFt8n6jND5D2kY-LQHwfZb9Dwg57V3_A1BvilVfvH5r9P1dcccqoTRI2CzqLchjSzaLHqP368SNCsQ1osCne0uwEBFX59XBBKTT=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLddM7RtAGOi5KX9SFK-tRh_GV6RwfKc_NHzgvBFVq0gjgqNhWgyXJtEISIR4ZCfxzIl-s3CzbGwWgnITwS-gmZuvqhTnQy5KwwSCVqdewRamx7zOaG5pKnQ3tann704k0z6tID0EpUXEaGW=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeg9aWJgMCkUyozX5tNUAVPV17VSMwCT_IRi60YesiwDnH3_gWcQPyS6ljkWRYb03nnLF9DgR-VuhQXYXRpzYZOHq9sitOcl-cD40psM1HDX1NO3nORlMvCku7XEiv0UVeFUh8lxLanJJmy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTVIZcpxVgqaA2RmXVTJzOse1jcO2_EyBKENRLRECz6ydCuPpT0B16WeHkQoUx49wa1yRKIq037bWtp9qg6fMnPQhrnYVTUWPSJNgwTtLxo4fqIynhTdqKxzkkCDUco3SpEI5zrwaz0GVz=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Joe Gebauer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: So my first contact with Benny the sales rep. It went very well and he was very helpful and understanding and also he explained in every detail what was about to happen, what I should do Benie kept me up to date with what's going on. When t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfzoKqKyznXhoO8eVOI3J4Hv1Axx6TYVicYZpSGVsh9mpQonxGSj-8_AIgVUsepx5GOhkVofHuhJnJqAKs3cj8ba2ICFulFaeEvcUznnxP2eYzIe39ZQ07FcUemOBkJ9UndgFGDHhFMmztm=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXb0TeeBJ2pg8k8_2wMyaWds5yZtFmeh73YznL4CS60NDkpN5u5giUUrgisV52FN9U7O-2LeqybIKXZjXhJfSAGRGKfHkvtUcVe39SVwekCrWW4OuG-orfYq3shRsjlRGjGq457wZkzmHp=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Priscilla Stowe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can confidently 100% recommend AKA Tree Service to anyone . We had an extremely large dying tree located in a  difficult to access area.   Arborist Chandler brought an in-depth knowledge to the situation and presented us with several remo...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevBgVD-y7mKsjsb1o1l0QB0ieH9_xVqn1CKyJ-aTBfP9Kb658j6eAnDKmUQyitagm40CwUiKytcGdeDU2od4oetPfmhs-VaG3blM3XwbMjtNLVI2hbZISDC7WakaTnUrUov983-WICbp4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdo2J_rzoiYvXuc978HoA2G1WlKNlGyIStrBBCS7JzZBc04VEwNsGiY7JnmFBrbfyzvRBHz_uHYz3klC3qbOklaL41UlYtWQR5tkKS31MEq23pB8xc-Q4Z3XcbioHlW8swZtuMt3ljdU_Y=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Pete Wilson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: For years, I relied on the same local tree service when I needed a tree removed, that is, until recently, when their estimate seemed unusually exorbitant. A friend recommended AKA Tree Service and I could not have been more fortunate.\n\nFrom..."
+        },
+        {
+            "author": "Carolyne Carol",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is my 3rd post and I’m still so excited to share my experience again with AKA Tree Service. On 4/21/2026, Edwardo and his team did an excellent job of grinding the tree stumps for my future front patio - kudos to cleaning up quite well...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcCrI8114rGs_rZtkRgUlKul4A6_qOk-D4oZGEf164FqDKUtsUddbx29eSSVmci_5km0DPkS1u1VSZcRdfzlgv5p3quMItFdLn3DPC1LGVcD5njPUTfmP5iZKmwql32k_HEHxVJy44rsLaS=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcV_1HNw-09EeraBHl5ajq_nb-JKqFuQWopuvLITZhT-Gb-fV-HuTOkkjiQ4ni8v5faAZwKnYRifqXLanFNjuGNm_b3Of6qxHv8D1yXPntHdYEw-Sw87YCk0dYWkYmAvon4PgwGkpz7LklV=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Norcross (Основная база)",

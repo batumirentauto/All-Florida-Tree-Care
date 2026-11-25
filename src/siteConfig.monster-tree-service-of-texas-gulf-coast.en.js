@@ -32,21 +32,9 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
     "ctaPrimary": "Call Mike +1 713-364-7731",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Monster Tree Service of Texas Gulf Coast tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kate Stephney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Monster tree service did an impeccable job. They were early and cut down my tree really quickly. They were really safe considering the tree was dangling over my house. They clean my yard after themselves really good.  Thank you so much monster tree service for getting this termite infested tree off my property!"
-    },
-    {
-      "author": "Carl Lauritzen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mike and his crew did an outstanding job with my yard. They removed a large pecan tree and crepe myrtle tree that was too close to the house in the back yard. They also removed three smaller crepe myrtles and pruned one large crepe myrtle that remained. In the front yard, they removed one large oak tree and pruned the second oak tree. They ground the stumps for all of the trees. They removed all tree limbs and other debris from the property.\n\nAfter the tree work, the crew removed all of the old shrubs in the front of the house in preparation for a new bed. They removed the old grass, graded the surface, brought in new top soil, and laid sod for the entire front yard.\n\nThe crew cleaned up the yard completely and left behind a beautiful new yard. A professional job at a great price."
-    },
-    {
-      "author": "Krysta",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Monster Tree Service! They provided a free consultation and quote for my tree trimming. Their price was reasonable compared to several other companies I looked into.\nCommunication was excellent from start to finish. They were responsive to both texts and phone calls and were willing to schedule the work at times that were convenient for me. The day before, they provided a time frame for their arrival, and they showed up within that window.\nThe tree trimming itself was completed in a timely manner, and they did an excellent job cleaning up afterward. There wasn’t any tree debris or leftover limbs left behind, which I really appreciated.\nI also had a few questions and concerns about the trimming after the work was completed. They came back that same afternoon, took the time to listen to my concerns, and addressed everything for me.\nOverall, I’m very happy with the service I received and would definitely recommend Monster Tree Service to anyone looking for professional and reliable tree trimming."
-    },
-    {
-      "author": "Deya Guerrero",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was so pleased with everything. Mike was quick to come by and was very friendly. He was kind and patient with me and made me feel like he really cared about my predicament and needs. The crew was able to come the next day and we're very fast and efficient. They did a great job and put up my temporary fencing up better than I had it originally. Thank you so much for making our situation seem so easy."
-    },
-    {
-      "author": "DJ Stenger",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Everything went perfectly as planned removing our tree. Excellent professionalism & fair pricing, everyone had good PPE (Personal Protective Equipment )and worked safe together.\n\nThey also showed up on time and within a 30 minute window, big plus these days.  This has to be the best tree service anywhere. 😎. Great Job, Thanks Mike!\n\nWill recommend to everyone needing any tree service moving forward."
-    }
-  ],
+        {
+            "author": "Kate Stephney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Monster tree service did an impeccable job. They were early and cut down my tree really quickly. They were really safe considering the tree was dangling over my house. They clean my yard after themselves really good.  Thank you so much monster tree service for getting this termite infested tree off my property!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZ96SFrjo75v8Uywr-rzuuv_SN4ffp9cMVgzNRRloSfQz4Wnv6V-X-VwN2DUgur20DBzN7ptLEieyNq7iENI-vcJDIPomLBqUOkpBz4QggZWw5lw6rNjbVyZ52NTtBtKkfZ97pwci531B6=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Carl Lauritzen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mike and his crew did an outstanding job with my yard. They removed a large pecan tree and crepe myrtle tree that was too close to the house in the back yard. They also removed three smaller crepe myrtles and pruned one large crepe myrtle that remained. In the front yard, they removed one large oak tree and pruned the second oak tree. They ground the stumps for all of the trees. They removed all tree limbs and other debris from the property.\n\nAfter the tree work, the crew removed all of the old shrubs in the front of the house in preparation for a new bed. They removed the old grass, graded the surface, brought in new top soil, and laid sod for the entire front yard.\n\nThe crew cleaned up the yard completely and left behind a beautiful new yard. A professional job at a great price.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLek1p4fXlh_iPiXuajCq73IQdi6uj1xSWVr6p_3G95-L82-dhKFS9OSUttugN51YIsPGCZfg9GeuwuA6YpQpzjzDn3HD33wNVie90Jdi_M3cpWZAM0AJqnYBQhzzW9bCjgm9gAonbCQh3EJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduxuDyhS0dcyf4ByAHvgpHmyEZUTAblM6QuPIh0Wz2uEtH2oZwR94xd3dwMZfG8q1j6hff1kVVR_uDbiocONfgXP8oNr42ajWZCvA0lzbRunWnJk1rS30zRh80CERg3iBGy8IJv8aCr-4q=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Krysta",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Monster Tree Service! They provided a free consultation and quote for my tree trimming. Their price was reasonable compared to several other companies I looked into.\nCommunication was excellent from start to finish. They were responsive to both texts and phone calls and were willing to schedule the work at times that were convenient for me. The day before, they provided a time frame for their arrival, and they showed up within that window.\nThe tree trimming itself was completed in a timely manner, and they did an excellent job cleaning up afterward. There wasn’t any tree debris or leftover limbs left behind, which I really appreciated.\nI also had a few questions and concerns about the trimming after the work was completed. They came back that same afternoon, took the time to listen to my concerns, and addressed everything for me.\nOverall, I’m very happy with the service I received and would definitely recommend Monster Tree Service to anyone looking for professional and reliable tree trimming."
+        },
+        {
+            "author": "Deya Guerrero",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was so pleased with everything. Mike was quick to come by and was very friendly. He was kind and patient with me and made me feel like he really cared about my predicament and needs. The crew was able to come the next day and we're very fast and efficient. They did a great job and put up my temporary fencing up better than I had it originally. Thank you so much for making our situation seem so easy."
+        },
+        {
+            "author": "DJ Stenger",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Everything went perfectly as planned removing our tree. Excellent professionalism & fair pricing, everyone had good PPE (Personal Protective Equipment )and worked safe together.\n\nThey also showed up on time and within a 30 minute window, big plus these days.  This has to be the best tree service anywhere. 😎. Great Job, Thanks Mike!\n\nWill recommend to everyone needing any tree service moving forward."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Deer Park (Central Depot)",

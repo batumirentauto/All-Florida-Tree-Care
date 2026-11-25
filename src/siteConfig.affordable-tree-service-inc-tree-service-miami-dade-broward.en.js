@@ -32,21 +32,9 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
     "ctaPrimary": "Call Lead +1 305-823-2345",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Affordable Tree Service, Inc. - Tree Service Miami-Dade & Broward tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "C SJR",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Affordable Tree Service, Inc. provide excellent top notch service, reliable, quality work. Reasonable pricing can out and remove my 60+ tree from my property. For skilled and professional work, call them up today and speak to Mr. Nixon you won't be disappointed.\nYou spoke to the rest,  now get the best in the business.\n\n\"The Professionals\"\n\nThanks\nAffordable Tree Service\nCJ"
-    },
-    {
-      "author": "Travis Davidson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Affordable Tree Service came in and was prompt and did the job is described.\n\nA service they don’t offer which others do is to remove the mulch.\n\nI just wish it was an extra service that was available   otherwise I would give them five stars"
-    },
-    {
-      "author": "Daniel Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "called around for a few quotes on tree trimming and affordable tree service was the best by far. they did an amazing job and honestly the price was unbeatable. super glad i went with them, definitely worth every penny."
-    },
-    {
-      "author": "Joanna Navarro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I don’t know where to start. If your yard/lawn/backyard is poison… Affordable Tree Service is the remedy and Bill is the prefect conductor. Let me not fail to mention the wonderful team he has. They are FAST and efficient. They are orchestrated to maximize everyone’s time and provided the exact results requested. They did even mind this weird gal watching and grinning from ear to ear as they trimmed and removed and brought my yard back to a respectable life. I can’t thank Bill or his team enough. The pool did make it easier, but that team did not disappoint…it was not even an obstacle to them. They are machines. Masters of the craft. Bill thank you for your kindness and patience with me and for being more than a man owning a business, but for being a person/human who takes time to walk through the process and give your honest professional guidance. You managed to squeeze my little project just in time for me to paint my house and not have all that debris interrupting the process. I appreciate you and your team. So does my wallet. Glad I found your business and will recommend you whenever I am asked. I will see in November for the next project."
-    },
-    {
-      "author": "J Holley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "* I just changed my rating from a 2 to a 4 because after I mentioned to Bill my dissatisfaction, he did come back and fixed the remainder of what was not trimmed originally discussed in the quote process and didn't charge me an additional $200 that he said he would charge me after I pointed out what had been missed. He did also clean up the mess that was left behind. Albeit not perfect at least it was cleaned up.\nIt's unfortunate that it had to come to this as we were a repeat customer from a year or so ago.\n\nBill did not honor what was originally discussed at the time of the quote and it was deceiving. The price was very high and we still were not satisfied as some of the tree was still left and not trimmed. He wouldn't even work with me and wanted to charge more.\nDid Not arrive on time. 5 hours late. Did not clean up all the debris. A lot was left behind.\nWill NOT recommend to our friends and neighbors."
-    }
-  ],
+        {
+            "author": "C SJR",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Affordable Tree Service, Inc. provide excellent top notch service, reliable, quality work. Reasonable pricing can out and remove my 60+ tree from my property. For skilled and professional work, call them up today and speak to Mr. Nixon you won't be disappointed.\nYou spoke to the rest,  now get the best in the business.\n\n\"The Professionals\"\n\nThanks\nAffordable Tree Service\nCJ",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGndYnIOBomna7Trx0nPWVPwPYpQt80DOjDdP5kKNcLgKIEpo4Dfv7SZKwI1GkDLhwlatSxL_1MsR2B2z2EvGOy97TJNhTiZ2bcHU5hwmpjEcaEdHNXtM8fyw1Xi40TTmTmbCrX7p76B0=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeNx_FrlSe2ci9vyBE3Q7V8F8Cr0n60P4y_agmQO1PaNSXxKymlWK3HrUlTQjQi6anZf6iwqXrFhq_D0tlQCpMO3KS9qLjjzIZ56pHA-PpnTBVNDMl3_ZaAOya6UlKqePcD5IDhXf9-Mu5Z=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Travis Davidson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Affordable Tree Service came in and was prompt and did the job is described.\n\nA service they don’t offer which others do is to remove the mulch.\n\nI just wish it was an extra service that was available   otherwise I would give them five stars",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfac4llfu-h4pUUGQvgsZaIYtN6vbrVOluN26F6eypXtSXuqJKIQBbhLObXSqSGDCZUTKJGik8gCFKBrflx5pHL8gUW3oGyL5VUhxpXmms-azH7aOovgo1TuOJUUH8AMv96zdNrbJk1mGw9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaxkT_nKVkVK0tVNcEui6s3U4adLE3AsB4HogTV63zGCctuKu1pEmia3gjxDh1wpqzS6kbpwaXRH4Z0PROYZFajj_niDSInAZpjyQs_Uc-ODx3CEbF1JIaBEgC0R28bUk5SWXKj2KbQ_3D=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdQsJ8ljABza3-yDdRQkmDuTcjVRmXcyvBK36mQiDvAvWxB5WP7XmM2NLZf0iOOhtQLeOO6Zfp0QpF-PnTJpRwjsce24gs-av9xHTT0EI8nA7ZZVBSQ_7U1T6c2yggZHts8uWER9eO5sBg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Daniel Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "called around for a few quotes on tree trimming and affordable tree service was the best by far. they did an amazing job and honestly the price was unbeatable. super glad i went with them, definitely worth every penny."
+        },
+        {
+            "author": "Joanna Navarro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I don’t know where to start. If your yard/lawn/backyard is poison… Affordable Tree Service is the remedy and Bill is the prefect conductor. Let me not fail to mention the wonderful team he has. They are FAST and efficient. They are orchestrated to maximize everyone’s time and provided the exact results requested. They did even mind this weird gal watching and grinning from ear to ear as they trimmed and removed and brought my yard back to a respectable life. I can’t thank Bill or his team enough. The pool did make it easier, but that team did not disappoint…it was not even an obstacle to them. They are machines. Masters of the craft. Bill thank you for your kindness and patience with me and for being more than a man owning a business, but for being a person/human who takes time to walk through the process and give your honest professional guidance. You managed to squeeze my little project just in time for me to paint my house and not have all that debris interrupting the process. I appreciate you and your team. So does my wallet. Glad I found your business and will recommend you whenever I am asked. I will see in November for the next project."
+        },
+        {
+            "author": "J Holley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "* I just changed my rating from a 2 to a 4 because after I mentioned to Bill my dissatisfaction, he did come back and fixed the remainder of what was not trimmed originally discussed in the quote process and didn't charge me an additional $200 that he said he would charge me after I pointed out what had been missed. He did also clean up the mess that was left behind. Albeit not perfect at least it was cleaned up.\nIt's unfortunate that it had to come to this as we were a repeat customer from a year or so ago.\n\nBill did not honor what was originally discussed at the time of the quote and it was deceiving. The price was very high and we still were not satisfied as some of the tree was still left and not trimmed. He wouldn't even work with me and wanted to charge more.\nDid Not arrive on time. 5 hours late. Did not clean up all the debris. A lot was left behind.\nWill NOT recommend to our friends and neighbors."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pembroke Pines (Central Depot)",

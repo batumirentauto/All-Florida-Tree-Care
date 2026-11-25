@@ -31,21 +31,9 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     "ctaPrimary": "Позвонить (+1 253-243-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Wildwood Tree Care, LLC - Tree Removal Tree Service Puyallup and Surrounding Areas"
-      },
-      "sub1": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,55 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     }
   ],
   "reviews": [
-    {
-      "author": "Grace Leeds",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Nick was a pleasure to work with! I had part of a tree come down. In less than 48hrs it was taken care of. Would definitely recommend Wildwood Tree Care LLC...."
-    },
-    {
-      "author": "steven pederson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The 5 star reviews of Wildwood Tree Care are for real!\n\nNick came out to make an estimate for removal of a twin trunked cottonwood and 4 extremely overgrown laurel bushes. We agreed on a price, and a date was set.\nNick & crew arrived on tim..."
-    },
-    {
-      "author": "Tyson Terry",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After getting quotes from 3 different people, and getting a strong recommendation from his competitor believe it or not I decided to hire Nick to remove 2 major trees and 2 minor trees, grind a stump and cut the wood into rounds and wood ch..."
-    },
-    {
-      "author": "Jerry Grant",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wildwood Tree Care is top notch!\nI did my research and had 5 company’s come out and give me a bid to remove 3 cypress trees.\nRight off the bat I knew Nick from Wildwood was the right choice.\nHim and his crew perfectly took down 3 crazy grow..."
-    },
-    {
-      "author": "Andrea Henselen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Nick is an awesome guy with lots of knowledge! He definitely takes pride in his work. His communication was always great. He took care of a huge stump that was only about 6 feet from our front door. It was obvious that safety and efficiency..."
-    }
-  ],
+        {
+            "author": "Grace Leeds",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Nick was a pleasure to work with! I had part of a tree come down. In less than 48hrs it was taken care of. Would definitely recommend Wildwood Tree Care LLC....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGEPoGAdosZ_hhCU071tcx1YsALctu9gGcYrqdmh5KiHHJ4dhdafkio6FPQDFXV4xcbR-mKkl1GN1MC-GE9FqEenlXJzIVX6tej9YmLLTFj2PxzarNBtz5dhFgQqta8_skqTCKLN6nTony=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbc8siftJuNpEkEJjCN251pLtCYGho-D2eYwVJ-Vn5r19fkxdqH3sL_F98pWvuFmuwrGk6YI0pLgQnCXTXmxURDpnJiupJa293zOJi1aTYPPz1X6XEb0liWRmtttqfroEGWcaq2SZl1s4g=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "steven pederson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The 5 star reviews of Wildwood Tree Care are for real!\n\nNick came out to make an estimate for removal of a twin trunked cottonwood and 4 extremely overgrown laurel bushes. We agreed on a price, and a date was set.\nNick & crew arrived on tim..."
+        },
+        {
+            "author": "Tyson Terry",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After getting quotes from 3 different people, and getting a strong recommendation from his competitor believe it or not I decided to hire Nick to remove 2 major trees and 2 minor trees, grind a stump and cut the wood into rounds and wood ch..."
+        },
+        {
+            "author": "Jerry Grant",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wildwood Tree Care is top notch!\nI did my research and had 5 company’s come out and give me a bid to remove 3 cypress trees.\nRight off the bat I knew Nick from Wildwood was the right choice.\nHim and his crew perfectly took down 3 crazy grow...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFN1ZInwhrbWXyPsXKOVVc1QR3_T5XECpC6NvwPWM8RAToc8aVarGRGeTlnQOOx-e2Ii-zWm3eBgAE2UnYIH6ew84MqNfpxDCAhHRC3ct-MApRxE3h2eyORktihyQMIJWBLPVyhmSG8Pqh=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcL2ArNu8sdCCRVJ0D4XN0t9vIZPo5tYJ3BiXjcwjhVLVLhtGB9OzABPMUiodJD2t91jvPkSkhQnoEviiUQpX0jISImXEVvaAihCVyBaYcQWh8m2KGPfy6iNQxoIvqsDOsSf2DUIld2hI-V=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Andrea Henselen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Nick is an awesome guy with lots of knowledge! He definitely takes pride in his work. His communication was always great. He took care of a huge stump that was only about 6 feet from our front door. It was obvious that safety and efficiency..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Puyallup (Основная база)",

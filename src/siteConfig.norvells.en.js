@@ -32,21 +32,9 @@ export const siteConfigNorvellsEn = {
     "ctaPrimary": "Call Stevie (864) 345-0466",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/norvells/photo_001_crop.jpg",
-        "label": "Track Spider Lift Canopy Ascent",
-        "alt": "Red track compact spider lift with outriggers deployed reaching up into tall hardwood tree"
-      },
-      "sub1": {
-        "image": "/images/norvells/photo_002_crop.jpg",
-        "label": "Massive Storm Split Trunk on Lawn",
-        "alt": "Emergency storm disaster: massive split tree trunk fallen across residential front lawn"
-      },
-      "sub2": {
-        "image": "/images/norvells/photo_003_crop.jpg",
-        "label": "Clean Ground & Yard Restoration",
-        "alt": "Residential lawn cleared and raked after complete tree removal near brick home"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

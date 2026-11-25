@@ -32,21 +32,9 @@ export const siteConfigDillardsTreeServiceEn = {
     "ctaPrimary": "Call Travis +1 336-402-8138",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dillards-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Dillard's Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/dillards-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/dillards-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDillardsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/dillards-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDillardsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/dillards-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDillardsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/dillards-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,66 @@ export const siteConfigDillardsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "zach browning",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Travis and his crew were great to work with starting from the estimate process. They are all so friendly and personable. Very professional and left the property in better shape than when they arrived. Pricing is very competitive, I would highly recommend this company to anyone."
-    },
-    {
-      "author": "Hope Isley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had an incredible experience with Dillard’s Tree Service. From start to finish, they were professional, kind, and extremely easy to work with. Their team is hands down the most efficient crew I’ve ever seen — everyone knew exactly what they were doing and worked seamlessly together.\n\nThey showed up on time, communicated clearly, gave terrific recommendations, and left the property spotless when they were done. You can tell they truly know their craft and take pride in their work.\nHighly recommend them to anyone needing tree work done. Absolute professionals."
-    },
-    {
-      "author": "Jana Caraker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Travis and his crew were amazing!!!  Not only did Travis take the time to answer all of my questions, but they efficiently removed a lot of tree branches we previously cut down and a large tree in what I consider a difficult area near an electrical box and between two houses.  His crew did an awesome job of not only removing the tree, but also removing all of the extra debris.  I have already recommended this tree service to a friend!   I will use them again if the need ever arises!!   Thanks for getting us on the schedule so quickly and for doing a great job!!!"
-    },
-    {
-      "author": "Barbara Creep",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I truly cannot praise Travis & his crew enough! Travis was amazing to work with from minute one through the whole process. Quick to respond, very professional, & kind! He & his crew did an amazing job taking down a tree in a difficult predicament. We are so grateful to them! Highly recommend!"
-    },
-    {
-      "author": "Hannah Hauck",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Travis and his team did an amazing job cutting down and removing a huge, dead white oak from our backyard. They were very professional and had great communication. I appreciated how Travis and his team were very conscientious of the yard. I would highly recommend them for your tree service needs!"
-    }
-  ],
+        {
+            "author": "zach browning",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Travis and his crew were great to work with starting from the estimate process. They are all so friendly and personable. Very professional and left the property in better shape than when they arrived. Pricing is very competitive, I would highly recommend this company to anyone.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGzhxz4HqaQwee9ZDT6UzLgbwxehkBJLxAk4UzZmb5yjENbbqBMxW0toFE1YWNhkMU2vBn4rw6x__KoggUb9vjj-0H8-QWnCZ18DRR31c_RNDwbmUOenbfgGUI7C8hEMl3NHVuMh81YR4S=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeasFxOwsB4PSofA550t1kcmYFba7Mm_dvl2N4Qce4wC0IIUTIBvjPwUkcvjI8lLmuHr2zhFB_MtVKJHSPeTktQuBeMaO8fwW85Dfabj51OroF42BCiShkYYKa3pMgd1AotDdiAMcGs2jHj=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Hope Isley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had an incredible experience with Dillard’s Tree Service. From start to finish, they were professional, kind, and extremely easy to work with. Their team is hands down the most efficient crew I’ve ever seen — everyone knew exactly what they were doing and worked seamlessly together.\n\nThey showed up on time, communicated clearly, gave terrific recommendations, and left the property spotless when they were done. You can tell they truly know their craft and take pride in their work.\nHighly recommend them to anyone needing tree work done. Absolute professionals.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHmKdvBv6FtshDZNI73ocMk388-CpSpkm2Sz0b1WJdUKYxKexUmZKN-gnbTqjq0EUUX1-ZZ0URWvSKDN2NfRgLrewMU-aNEnTLv3aMV06YbD7ZlsJ4KQzzLT5FHQtIEXqvm1FKvJBCJuGy=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jana Caraker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Travis and his crew were amazing!!!  Not only did Travis take the time to answer all of my questions, but they efficiently removed a lot of tree branches we previously cut down and a large tree in what I consider a difficult area near an electrical box and between two houses.  His crew did an awesome job of not only removing the tree, but also removing all of the extra debris.  I have already recommended this tree service to a friend!   I will use them again if the need ever arises!!   Thanks for getting us on the schedule so quickly and for doing a great job!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfR5UW4gA-WEHx-C9U1GWJS-iKwCJnjKg8O_45ClXk0JGlwZZJmSYN-ySotpQt5MEutM62Pyjgb_ps0Y4PBm4dy6_2KdgJEVknaAvNw2GW52tkSYQcJfKlaGcTuFUGK0x5hRYJTe13lvvle=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8vR7Lu1LwC-BMlB85AbUn123GBwsI3E6jwBOwKhhkf3QTF8KEoLdM_rP28frFucrRs5mBu9SJKfic0B84zZwYd9woCYaxWh2Fj77e1x8LVjcCZqbba4KivcrJZiub-q8NcGMZW0Oanyy2=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdEJiKnqF9yPgetpKDVbLJHoj932yFLHpQRfOjJEfY7IaQnCreQiOMwchyFLjmxipWIkhI1CicwxUS1EsG7IQCx0N0WfaZtu84xwrOyQlCLvtOF3XepVbS8gEceNtuplaBmV2YMAIZmL-2H=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrfGXFjhB-ZPKBZLOPGxIZ4Un5AKUQl2Ud5qi0nUDjoSs7Dx7eL2RkDwYY9jydC0roTN_rvYsKjN90QXArX6Ywdys39BWaEX4oKNeOChizV6Z3oxHudf0UbpbOD-AcaWTiTD5kt-cWVmI6=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Barbara Creep",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I truly cannot praise Travis & his crew enough! Travis was amazing to work with from minute one through the whole process. Quick to respond, very professional, & kind! He & his crew did an amazing job taking down a tree in a difficult predicament. We are so grateful to them! Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjmpRz0Sh1HgjhNAuwvxYoSbFRPQZg1gwHlVpucpPsA0hGL1EV7pokHx5-sGrRhL8s2rp_knHHACZBy3_05mLM_rYO6ewnErkZFTRUdFzQqId9oYKYfBnzE0nW2HMGzwVraYN_IX6Uz5ra=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUOFCQPYW4X1s434c1wHFUfurJBoJcf0oB_wx6g1Mdihvd4VJ0tbY6XYivTMZhKwnRFk97WuNbOfIex_elzlCPHEKOabu2az7vlnLEZ-Qt_gIhxX9aVboVt2lUFGtN3fanB7MYTveUIl02=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0uCOW_9Mxu_2GEBQoMIXEqKWdbOlSPR3RnONXoTHfk9ChAYGUnKcVkfPqqpfodBm0DtliN2pWd0zclcwFBCpkvTqKdX5wK-wl75hadMutkVJETvJSSGe_o100ETuW5qlntZGBdrx_Ctpf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjDJsvGs47ikhlo2ZrDYIObhcYVb-pwmUZdXBV3JJC86Tr-k8roNOWCV19-RoxWakruy1d_P07ju_8kw_uviZWQTRacyq1UBW27CmpYVcZgh8XY5cKxb7S6SSkoaGBVWSKkYet3uN1OQW1=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Hannah Hauck",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Travis and his team did an amazing job cutting down and removing a huge, dead white oak from our backyard. They were very professional and had great communication. I appreciated how Travis and his team were very conscientious of the yard. I would highly recommend them for your tree service needs!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

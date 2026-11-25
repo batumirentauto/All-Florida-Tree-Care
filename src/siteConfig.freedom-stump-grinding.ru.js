@@ -31,21 +31,9 @@ export const siteConfigFreedomStumpGrindingRu = {
     "ctaPrimary": "Позвонить (+1 912-659-3914)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/freedom-stump-grinding/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Freedom Stump Grinding"
-      },
-      "sub1": {
-        "image": "/images/freedom-stump-grinding/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/freedom-stump-grinding/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigFreedomStumpGrindingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/freedom-stump-grinding/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigFreedomStumpGrindingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/freedom-stump-grinding/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigFreedomStumpGrindingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/freedom-stump-grinding/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,60 @@ export const siteConfigFreedomStumpGrindingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Megan Berry",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Colby and his team were absolutely incredible! We had a dead vinebound tree next to the house that gave me so much anxiety any time a storm or hurricane would blow through. We've had trees fall on the house before and have more than a littl..."
-    },
-    {
-      "author": "Jim Robertson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Colby over at Freedom Stump Grinding is the real deal. Gave him a call, he came out quick, checked everything out, and gave me a fair price right on the spot. No hassle, no upsell, just straight business.\n\nEven better, he got it done the sa..."
-    },
-    {
-      "author": "Ronald Cooper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: For anyone looking to have stumps removed and get it done by a business that does grear work at a more than fair price!  Do yourself a favor and call Freedom Stump Grinding.   You will Not regret it.   They do a great job!  Three stumps gon..."
-    },
-    {
-      "author": "Melissa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I would highly recommend Freedom Stump Grinding for your stump grinding needs. I have used them twice and was super satisfied. They do the job and leave everything cleaned up so you don't have to worry about doing anything yourself...."
-    },
-    {
-      "author": "John Bradshaw",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommended! Colby with Freedom Stump Grinding was great to work with.\nHe was very personable, pricing was fair and transparent, and did excellent work in completing the job...."
-    }
-  ],
+        {
+            "author": "Megan Berry",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Colby and his team were absolutely incredible! We had a dead vinebound tree next to the house that gave me so much anxiety any time a storm or hurricane would blow through. We've had trees fall on the house before and have more than a littl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcU2wN_h6m4pVJHeUh2nIUvuYatZzeedrgax__21lrzU3gNkfpzF_3ZOVfVadpHDG8TahUg2PJsnNFV26ovJuTJOuNJ8obSlzLaDniH7OqCxA0uDVGNfJM6Sd8GSr7l_9Vclpi7UBm4XM1s=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRlQDd46wRbmK-2eteS78YFPn3JhCobMpHqqVORcazWe6c2-1Pr7Pp1l1bb7jO2X8o0NB6-g0xoTdMAglUkTJL4q2cpnplE2inM2RHFa-TLnxHLPysG8T33_-1Holre9G8RCIzPkd6c6zB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcT6PXP6ur6EzlatsNXPPSD02wqlSctvcYJmcxD5TPkHSRVv99D5kFJGyGqgXkXQXhHAQlD3BS1u37GG1yxPBOmwaf6Q4Gt0snoe7J-RL6a3sWoOR6ZUz1N986wMGM9L9xxvQOoblpnfsJ0=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jim Robertson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Colby over at Freedom Stump Grinding is the real deal. Gave him a call, he came out quick, checked everything out, and gave me a fair price right on the spot. No hassle, no upsell, just straight business.\n\nEven better, he got it done the sa...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgyI8zK1r8XkWfo0ELLPJwJkjU6Nj2C9RFs4zyDU-05RP9OirQFkHO71afm_4oCbUb86QQMBts6NORSLl7gsQwOLoYsP-90GAqRGRWpvATti-WpucQS1sOMlKobgrA5Jw_f4Er4RFAfdIn=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRR2npMq76rU1NQ4kGEte1uZYqZOTxng4PrR4ExqflVOJZlN82CzzTG5f9quSxfJql1tn5YMFuqDhJRHYXtGkPOhz5iZxs-6PhsWg9vchS2CVoCsCqyeMZUZBGgYBlZ72v4vNlksaf2k8U=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcljTmns1YBmcP-eazbarOMgKKTFhkFZ9wwv1G7oZQwDzF15zT4L8vp5yui_c7noufbTiV6Dd1aM0rLShXNol7vvC_zhY2dQya8kTGp-ZlsJ55A8mfyZvCZ0Xf_k0yqxqRn79-WyD560t81=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ronald Cooper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: For anyone looking to have stumps removed and get it done by a business that does grear work at a more than fair price!  Do yourself a favor and call Freedom Stump Grinding.   You will Not regret it.   They do a great job!  Three stumps gon...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcvmrfNqtoUd22kVbjOuC9oGgKLpOYp6qHIrtQ6VB6tyLK0cyhfZ9xebIOyW1TQ5yRT0r134IwYl7aEY02yN7VcEBLqNjdJr_4X0tTR8DvlASKDNUJ7-3pIaYguxiRzxN9bA1VRwINXzYs3=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I would highly recommend Freedom Stump Grinding for your stump grinding needs. I have used them twice and was super satisfied. They do the job and leave everything cleaned up so you don't have to worry about doing anything yourself...."
+        },
+        {
+            "author": "John Bradshaw",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommended! Colby with Freedom Stump Grinding was great to work with.\nHe was very personable, pricing was fair and transparent, and did excellent work in completing the job...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

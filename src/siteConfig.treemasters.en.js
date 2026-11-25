@@ -32,21 +32,9 @@ export const siteConfigTreemastersEn = {
     "ctaPrimary": "Call Lead +1 415-455-9933",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treemasters/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Treemasters tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/treemasters/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/treemasters/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreemastersEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/treemasters/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreemastersEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/treemasters/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreemastersEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/treemasters/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigTreemastersEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brooke Peterson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tree Masters did an amazing, highly tactical and Incredibly professional job of removing our Elm tree. They had to work in a very tight space between two houses and were able to scale the tree and bring everything in and out via crane including the stump grinder! Not only did they do a remarkable job every removing the tree but it was quite an event to watch from a spectator perspective. Also leave a tidy project space behind. All blown out.... all cleaned up and so grateful for their hard work.\nTree Masters back office team is also fantastic and took care of getting our permit with the town, marking the street and setting up ahead of time for all of the large equipment to come in. Top notch operation!"
-    },
-    {
-      "author": "Doreen Stock",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Two big oaktrees were expertly addressed at my Fairfax hillside home. One cabled per instructions of the arborist to prevent limb breakage, the cable of the other checked as well, plus excess-weight foliage removed and chipped in my driveway. Cleanup afterwards was immpeccable—even rooftops of my house and the neigbor’s. Workers were kind, attentive, and professional. Highly recommended!"
-    },
-    {
-      "author": "Licia Wright",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tree Masters is the only Tree Service  you will ever need! From the initial phone call to the last handshake William , Sammy  and his hard working crew are the guys you want on the job.  They work hard,  fast and together as a team to get the job done.  Tree Masters is your go to Tree Service here in Marin."
-    },
-    {
-      "author": "Daphne Edwards",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "High praise for Treemasters. I have both professional and domestic experience working with William Cross and foreman Ariel on both tree pruning and removal. William is highly knowledgeable, organized and a great communicator who clearly cares deeply about trees. Ariel is an excellent and hardworking climber who makes great decisions and delivers a beautiful site; his crew's work was efficient, quiet and they left the site clean, other plants undamaged. All interactions with the office were professional and easy with great followup, and the pricing was 100% reasonable. I will be recommending Treemasters to my Bay Area clients, friends and family; and my husband and I will contract with them for ongoing disease prevention and annual trimming of the dozen or so coast live oaks on our property."
-    },
-    {
-      "author": "Ellen Parsons",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent experience. The arborist generated a video and instructions of the job for the estimate. Two weeks later the Treemasters team topped and trimmed a very tall hedge (had grown above two stories) and removed fronds palm from a very large palm. The entire Treemasters team was professional, highly communicative, efficient, knowledgeable, and completely removed all the debris. The teams climbed the trees and maneuvered through the limbs with great expertise. I am very satisfied with their work. I will definitely call them for future work."
-    }
-  ],
+        {
+            "author": "Brooke Peterson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tree Masters did an amazing, highly tactical and Incredibly professional job of removing our Elm tree. They had to work in a very tight space between two houses and were able to scale the tree and bring everything in and out via crane including the stump grinder! Not only did they do a remarkable job every removing the tree but it was quite an event to watch from a spectator perspective. Also leave a tidy project space behind. All blown out.... all cleaned up and so grateful for their hard work.\nTree Masters back office team is also fantastic and took care of getting our permit with the town, marking the street and setting up ahead of time for all of the large equipment to come in. Top notch operation!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOp6DiFASIej0FQbdFQn2-asD1xdGpsQ9C-cydKK-F3irWYert1gHIUfuB7oOYXnqqtrTDy5M9oAVaz79OHi29T78J90PtKq5ynZBp63ucwOosciOxUDIQUssDFjqz4jEhwjrAd4tbh9c=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxmAdQ6hlYQHuaBPu5tsLsI7tMqbWX3MRvo5V7uOA2kh2_AVWxgT-kpIBhJE0pEuBzu71iVfZw4YRcItHQwUk7kGThPye1Eih62bdW_cTM-d2pqeR_S6IWtIcTtCAPSX3vr5SZgu-Fgn8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdsToDZ6gMfKDxHPZygXt_XXAWlhTARKrqYQryS2ZVEaAq2gIjjcbG0iOyDjEcJOmYdE_l-Bt_70ChhTxDKlgtBlfNJanEOWdQk-p3ZvMlMOmAs26OjVKpz7POiSkI1OCBIws5RxiUuAE8y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfq7Hsv8l6S-_UVZAiip6JZdZnfC0c-pF-uLNrlpxdEqYcAFVv_X3_3vcQg6ubxEVdTjnQjIz5jQwyg6_ZLZb3_KefDpNFU9xcpdC7PlfsWW8RcyIhBQybQ0Jet1NvmZRNfCf2WXhW2VSA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Doreen Stock",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Two big oaktrees were expertly addressed at my Fairfax hillside home. One cabled per instructions of the arborist to prevent limb breakage, the cable of the other checked as well, plus excess-weight foliage removed and chipped in my driveway. Cleanup afterwards was immpeccable—even rooftops of my house and the neigbor’s. Workers were kind, attentive, and professional. Highly recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduG3iYwYt1w-5O4cfJF4-jCgTw--lErbmEnNj6Rrmys7YWLTWZSYIEyU4n9bjJJZ762U4kEAKEU3cWyvlHzbm3GZYvmqvJpoqHAXMtDyXIXOC3TqXcgiwA9b1aUd-ReZXtWLebvbYVzOLa=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHZkJfm1nC4VgLSc7SHiUnwCNzO9T4XT_m9i8mPD9loIR2DP5PVKPVca8aIygL8Ik1aI2kkykJMmApvFAaP7DcdymQGse252IfsWdP2KBHww7_uuVrjCTchfYY4mdL-CE8aWAhFm6QLoAh=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Licia Wright",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tree Masters is the only Tree Service  you will ever need! From the initial phone call to the last handshake William , Sammy  and his hard working crew are the guys you want on the job.  They work hard,  fast and together as a team to get the job done.  Tree Masters is your go to Tree Service here in Marin.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejMrU8fdOaa8SGvadqJce00cqg9R0bRDsKkCSZNCox-eSxwxCn-IwhCoAwvApZa1fZUlHXE_EBjv64Z4qEDLAcZIX_RK17GlaUr3baXdeHWqLS0yqkbZNUzwEORhuNpSrrqebEiRNCXWA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZLmymSW2CmGejdBiwJ7YF7SesKJVhIA0mCWRYTOyFAhDG6HhxS9PnWVFiYm53R6cA749CWb5KSoc_6-rGDm07O6Uys2vpSgb-wOzhise39VWtgJPtiVbaSeXtuQt2R-80y-SLE9WWKv-Z=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIo1immVJi5M7pw7aCII7ASCKBdTxhOT8mUApZABnWGHg4s5Ca6n4Tje-VCHYPn6UhlMGaJ3qL0-_0m1Q8KDj1Pet4aadB_95gCiZ6Je64k_rTrZijIbz-r0oUwgd9S_ZCLdCFA3AdyEA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Daphne Edwards",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "High praise for Treemasters. I have both professional and domestic experience working with William Cross and foreman Ariel on both tree pruning and removal. William is highly knowledgeable, organized and a great communicator who clearly cares deeply about trees. Ariel is an excellent and hardworking climber who makes great decisions and delivers a beautiful site; his crew's work was efficient, quiet and they left the site clean, other plants undamaged. All interactions with the office were professional and easy with great followup, and the pricing was 100% reasonable. I will be recommending Treemasters to my Bay Area clients, friends and family; and my husband and I will contract with them for ongoing disease prevention and annual trimming of the dozen or so coast live oaks on our property."
+        },
+        {
+            "author": "Ellen Parsons",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent experience. The arborist generated a video and instructions of the job for the estimate. Two weeks later the Treemasters team topped and trimmed a very tall hedge (had grown above two stories) and removed fronds palm from a very large palm. The entire Treemasters team was professional, highly communicative, efficient, knowledgeable, and completely removed all the debris. The teams climbed the trees and maneuvered through the limbs with great expertise. I am very satisfied with their work. I will definitely call them for future work."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Rafael (Central Depot)",

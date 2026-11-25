@@ -32,21 +32,9 @@ export const siteConfigExploreTreeServiceEn = {
     "ctaPrimary": "Call Javier +1 919-973-8904",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/explore-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Explore Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/explore-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/explore-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigExploreTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/explore-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigExploreTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/explore-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigExploreTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/explore-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,52 @@ export const siteConfigExploreTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jess G",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Javier and the guys are great!  We needed 3 trees removed, believing that they were damaged.  Turns out my favorite tree was healthy and he only removed the two that were actually damaged.  Both trees and stumps were removed… plus all the leaves and broken bits.  So we have a totally clean yard, and I kept my favorite shade tree!!  Thanks, guys!"
-    },
-    {
-      "author": "Kevin Wolf",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Javier and his team were excellent. They were courteous, on time and offered a competitive price. They carefully removed two 30’ pines that were within 10ft of both my and the neighbors houses without incident. Great work guys"
-    },
-    {
-      "author": "Jackie C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Javier did an excellent job trimming the tree in front of the house. He cut just enough for the tree to keep growing in the future. He is knowledgeable and efficient. He made sure to clean up and remove debris from the front lawn after he finished trimming the tree."
-    },
-    {
-      "author": "Doug French",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Explore Tree Service and especially the owner Javier did excellent work. I had several trees removed and he grind the stumps also. They also trimmed up lower limbs from.several.pines.trees. Javier is.hands on with two veey good assistants.  I highly recommend his services."
-    },
-    {
-      "author": "Susan Sweney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Explore Tree Service did an excellent job taking down several huge trees in my backyard, particularly one that was very dead.  Javier was very prompt in responding to my call and he was able to quickly tend to the dead tree, which was a huge relief to me and my neighbor.  He came highly recommended to me, and now I am highly recommending him to anyone that needs to have trees taken down that may cause concern."
-    }
-  ],
+        {
+            "author": "Jess G",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Javier and the guys are great!  We needed 3 trees removed, believing that they were damaged.  Turns out my favorite tree was healthy and he only removed the two that were actually damaged.  Both trees and stumps were removed… plus all the leaves and broken bits.  So we have a totally clean yard, and I kept my favorite shade tree!!  Thanks, guys!"
+        },
+        {
+            "author": "Kevin Wolf",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Javier and his team were excellent. They were courteous, on time and offered a competitive price. They carefully removed two 30’ pines that were within 10ft of both my and the neighbors houses without incident. Great work guys"
+        },
+        {
+            "author": "Jackie C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Javier did an excellent job trimming the tree in front of the house. He cut just enough for the tree to keep growing in the future. He is knowledgeable and efficient. He made sure to clean up and remove debris from the front lawn after he finished trimming the tree.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIkvNMYx-qr_zguBGwO54LVRn8_EhzeemxRbbUJ1sgfUo6LfxrG-n-DsoGfa5opEPLp1xDtP8-D29WL-9DXhff3Y-oCmQ8tD-62tPUcTm5EveWjaqBP623b1Oxh5xh09AiRU64=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfa9gkbOiajWaxHhzBS0QYNg2jmebkdKBnpcV0ifTtWmEt-esdooQvE137UKQOYar5649pfCx1Fq0u4H0fdX76hsCZRB_Z4lftD2-jubwSYKyceKlBczavTDTNJIk_KuQINuqB7MA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccAZukjk77RsotzGC8ot8XtL0RbEu7S37su6oC7J3bMf-Y7m31F0FG54qv5UYXItNS__e_5BNh-EbqnM8jxDPS3LcHyapNK3yZhGXmg1fiFPSWnAX_7WUPqBbZmTE6mAdJIy6W=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Doug French",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Explore Tree Service and especially the owner Javier did excellent work. I had several trees removed and he grind the stumps also. They also trimmed up lower limbs from.several.pines.trees. Javier is.hands on with two veey good assistants.  I highly recommend his services."
+        },
+        {
+            "author": "Susan Sweney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Explore Tree Service did an excellent job taking down several huge trees in my backyard, particularly one that was very dead.  Javier was very prompt in responding to my call and he was able to quickly tend to the dead tree, which was a huge relief to me and my neighbor.  He came highly recommended to me, and now I am highly recommending him to anyone that needs to have trees taken down that may cause concern."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

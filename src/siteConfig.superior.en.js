@@ -32,11 +32,7 @@ export const siteConfigSuperiorEn = {
     "ctaPrimary": "Call Naomi (678) 491-4703",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/superior/photo_001.jpg",
-        "label": "High Canopy Arborist Rigging",
-        "alt": "Arborist climber in safety saddle rigging limbs inside mature hardwood canopy"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

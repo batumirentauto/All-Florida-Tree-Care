@@ -32,21 +32,9 @@ export const siteConfigFurstieEn = {
     "ctaPrimary": "Call Nate (734) 637-6297",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/furstie/photo_001_crop.jpg",
-        "label": "Commercial Dump Truck & Tractor Rig",
-        "alt": "Red commercial dump truck and tractor equipment trailer loading tree debris"
-      },
-      "sub1": {
-        "image": "/images/furstie/photo_002_crop.jpg",
-        "label": "Bucket Truck Canopy Pruning",
-        "alt": "Operator in bucket boom aloft pruning branches near residential house"
-      },
-      "sub2": {
-        "image": "/images/furstie/photo_006_crop.jpg",
-        "label": "Sunlit Finished Residential Yard",
-        "alt": "Finished two-story residential home with clean sunlit yard after tree pruning"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigFurstieEn = {
     {
       "name": "Emergency Driveway Storm Blowdown Removal",
       "badge": "Driveway Blockage Extraction",
-      "image": "/images/furstie/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigFurstieEn = {
     {
       "name": "Driveway Reopening & Complete Timber Clearance",
       "badge": "100% Cleared Access",
-      "image": "/images/furstie/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigFurstieEn = {
     {
       "name": "Heavy Oak Timber Bucking & Tractor Staging",
       "badge": "Heavy Log Management",
-      "image": "/images/furstie/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

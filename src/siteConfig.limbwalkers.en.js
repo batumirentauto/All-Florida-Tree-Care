@@ -32,21 +32,9 @@ export const siteConfigLimbwalkersEn = {
     "ctaPrimary": "Call Caleb (828) 413-7227",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/limbwalkers/photo_006_crop.jpg",
-        "label": "Knuckleboom Crane Overhead Removal",
-        "alt": "Commercial knuckleboom arborist crane lifting heavy branches clear of residential garage"
-      },
-      "sub1": {
-        "image": "/images/limbwalkers/photo_005_crop.jpg",
-        "label": "Severe Roof Blowdown Impact",
-        "alt": "Massive storm blowdown trees crushed across residential home and garage roof"
-      },
-      "sub2": {
-        "image": "/images/limbwalkers/photo_013_crop.jpg",
-        "label": "Commercial Grapple Loader Truck",
-        "alt": "Heavy red knuckleboom grapple loader truck servicing mature tree canopy"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLimbwalkersEn = {
     {
       "name": "Heavy Timber Crane Sling Rigging",
       "badge": "Precision Crane Lifting",
-      "image": "/images/limbwalkers/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLimbwalkersEn = {
     {
       "name": "Track Compact Loader Ground Grading",
       "badge": "Bobcat Lot Restoration",
-      "image": "/images/limbwalkers/photo_011_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLimbwalkersEn = {
     {
       "name": "Hardwood Stump Flush-Cut & Milling Prep",
       "badge": "Stump Extraction Prep",
-      "image": "/images/limbwalkers/photo_009_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

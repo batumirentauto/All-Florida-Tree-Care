@@ -32,21 +32,9 @@ export const siteConfigRichmondTreeExpertsGaEn = {
     "ctaPrimary": "Call Lead +1 770-974-3964",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/richmond-tree-experts-ga/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Richmond Tree Experts GA tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/richmond-tree-experts-ga/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/richmond-tree-experts-ga/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRichmondTreeExpertsGaEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/richmond-tree-experts-ga/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRichmondTreeExpertsGaEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/richmond-tree-experts-ga/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRichmondTreeExpertsGaEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/richmond-tree-experts-ga/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigRichmondTreeExpertsGaEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "J Lawson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is an incredibly professional outfit!! I cannot say enough about the caliber of their work.  I had what I thought was a tough job taking out 5 large pines from a tight backyard configuration, but Richmond handled it in a few hours like it was just another day’s work.  I’d hire them again in a heartbeat.  When my wife got home she wondered if they had even showed up because they left as if they were never there.  Absolutely outstanding operation!!!"
-    },
-    {
-      "author": "Shelley Murphy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Richmond is a reputable, professional and knowledgeable company. When they arrived, Tony, the foreman, walked through the plan to remove huge pecan tree limbs hanging over our roof. They worked quickly and efficiently. Each crew member knew exactly what to do and they worked in total harmony. It really was seamless. They removed the limbs safely, cut them up and hauled them away. They then cleaned up and even blew our deck off where the shavings had landed. It was all done in about an hour. They were polite and left our yard without a trace that they had been there. I can’t recommend them highly enough. Because they are arborists and not just a tree service, their expertise and concern for the health of the tree was outstanding. Shelley Murphy"
-    },
-    {
-      "author": "Nick Murphy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys did a fantastic job removing a very large leaning oak with a stress fracture. We recently had new sod put in under the oak in the front yard and they didn’t damage a single blade of grass and left the job site as clean as possible. Highly recommend for any tree work."
-    },
-    {
-      "author": "Russ brown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I hired Richmond Tree Experts GA to remove 3 large trees from my property, and I couldn't be happier with the results. From the initial estimate to the final cleanup, the entire team was professional, punctual, and clearly experienced. They arrived on time, walked me through the process, and took every precaution to protect my lawn, fence, and nearby landscaping while removing the trees.\n\nThe crew worked efficiently and safely, using the right equipment to take down all three trees without any damage to my property. They hauled away all the debris, leaving my yard cleaner than before they started. Pricing was fair and transparent — no hidden fees or surprise charges like you sometimes get with other tree removal companies.\n\nIf you're looking for a reliable, affordable tree service in Marietta for tree removal or trimming I highly recommend Richmond Tree Experts. Great communication, skilled arborists, and excellent customer service from start to finish. I'll definitely be calling them again for any future tree care needs!"
-    },
-    {
-      "author": "Patricia Burney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have used this company a few other times as I have house that has many old trees around it.  A storm on Sunday hurled 2 huge trees into my screened in porch and destroyed it. I called this company on Monday morning and Scott immediately came out evaluated the damage.  I had an insurance adjuster coming the next day but was told he wouldn’t come and evaluate my damage until all of the trees, trunks and branches were out of the way.  Scott rearranged his crew’s cutting schedule so they could come out that same day. He went above and beyond anything I expected as I know that our area had terrible weather with a lot damage. The crew came just a couple of hours later.  So efficient like a well oiled machine.  Hard to believe how quickly they got all of the work done , cleaned up the debris and had it all stacked on the side of the road ready to be picked up.  They were respectful and let me know when they arrived and when they were finished with the work.  Excellent company,  honest, hard working and reliable.  They have really been a blessing for me."
-    }
-  ],
+        {
+            "author": "J Lawson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is an incredibly professional outfit!! I cannot say enough about the caliber of their work.  I had what I thought was a tough job taking out 5 large pines from a tight backyard configuration, but Richmond handled it in a few hours like it was just another day’s work.  I’d hire them again in a heartbeat.  When my wife got home she wondered if they had even showed up because they left as if they were never there.  Absolutely outstanding operation!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp_J-hKG1LcHPKitWgqRmCBs6wER7JC-Aw5IiRCX4aG8dX9qwwstl2x09zMje6H4TJIfsk9cXJ75VLR5JlHN8pWoUCUnb9iDK8KzHJb_w7dhWJDsSLzYgkXR2R7pf_ddH6FvpjdRmZlqM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePOLgM9Td76JTVoS34CAfPmQ7iVCgLNXPZzpOfKCyfIS4stUv9sncBHEaVfBQ0_XE442PVnabr2Nk5ltSLYmF48pm7Rl9MbYUGwwd7zMQkhLXROlDxpayrz3pVgfZwYPxMgRAjgzbbmsG5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnt3_ztlxTmptAWED7cbSm8aiOEUvkI16toRxMWe6zlcFWJm0oX_4WSuA7oBYGZIVEZfPg8B9wgxWFMlIu1KQrIWFcM_C_Q3E53aUCLAYDov9JSLmo7wd_JbGqtoE-Sy96Zq7qJpnbClrJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcD0jLm_vWLeXJsSF8tN_ulbTpfDoYA-_iC6CY3sArxYNBizL_r3c_e01bdlXIsNXMpFLnqixomse1V1jayjnPruNHEkUz5Mw00kKpzDiB0tm0gvsyo-44u-7n3R7vkhnuy9RtZyq--WogL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Shelley Murphy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Richmond is a reputable, professional and knowledgeable company. When they arrived, Tony, the foreman, walked through the plan to remove huge pecan tree limbs hanging over our roof. They worked quickly and efficiently. Each crew member knew exactly what to do and they worked in total harmony. It really was seamless. They removed the limbs safely, cut them up and hauled them away. They then cleaned up and even blew our deck off where the shavings had landed. It was all done in about an hour. They were polite and left our yard without a trace that they had been there. I can’t recommend them highly enough. Because they are arborists and not just a tree service, their expertise and concern for the health of the tree was outstanding. Shelley Murphy"
+        },
+        {
+            "author": "Nick Murphy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys did a fantastic job removing a very large leaning oak with a stress fracture. We recently had new sod put in under the oak in the front yard and they didn’t damage a single blade of grass and left the job site as clean as possible. Highly recommend for any tree work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPGgYpTwEh9IVJvlnNsU_ATH6LkADKUaARzDQ4qmv_nYbUQmQjKD4G4lwwCAqhgbfNwyioHtQ3gKK-KUfuEwbN-c27aGTxclfrGdOgjsgeD35FgYyGOV6a5xnHmBtqZ2FN7JbK_dtVvmc=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0rj1ghHOPToQQC9o0_9rVy5S2retG0cy2kcrVAlpFiTRqWUkIuKTIQYrzoEX1jxowTXw65H6IkL1iDK8cmoB8VegR4cVcQfFXrltP8zcGolf4CObNA3kbkIjm1S39YLg-g5HaiyWkECTM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Russ brown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I hired Richmond Tree Experts GA to remove 3 large trees from my property, and I couldn't be happier with the results. From the initial estimate to the final cleanup, the entire team was professional, punctual, and clearly experienced. They arrived on time, walked me through the process, and took every precaution to protect my lawn, fence, and nearby landscaping while removing the trees.\n\nThe crew worked efficiently and safely, using the right equipment to take down all three trees without any damage to my property. They hauled away all the debris, leaving my yard cleaner than before they started. Pricing was fair and transparent — no hidden fees or surprise charges like you sometimes get with other tree removal companies.\n\nIf you're looking for a reliable, affordable tree service in Marietta for tree removal or trimming I highly recommend Richmond Tree Experts. Great communication, skilled arborists, and excellent customer service from start to finish. I'll definitely be calling them again for any future tree care needs!"
+        },
+        {
+            "author": "Patricia Burney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have used this company a few other times as I have house that has many old trees around it.  A storm on Sunday hurled 2 huge trees into my screened in porch and destroyed it. I called this company on Monday morning and Scott immediately came out evaluated the damage.  I had an insurance adjuster coming the next day but was told he wouldn’t come and evaluate my damage until all of the trees, trunks and branches were out of the way.  Scott rearranged his crew’s cutting schedule so they could come out that same day. He went above and beyond anything I expected as I know that our area had terrible weather with a lot damage. The crew came just a couple of hours later.  So efficient like a well oiled machine.  Hard to believe how quickly they got all of the work done , cleaned up the debris and had it all stacked on the side of the road ready to be picked up.  They were respectful and let me know when they arrived and when they were finished with the work.  Excellent company,  honest, hard working and reliable.  They have really been a blessing for me.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7t9KqVrAHyOBw9ESEmTbBKlD5FErtsQirOxjw2ZWRlduRZKqdXOSQzTsWfNdMZ86NnYJRzWh-rbjGOjAkTPZ_X4nDYCUrdUw0OX9S3iJLQbTeFaA9QwBXoM2LpH5l6lhBECSR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbDkjw4Os3E9fhzKadmMcBLBEEqi0K2RScEEbBENYD3HrxelcDEw-DMy9Rf50fplty831a2jZUl29k0KGKwKtFOWHV38HaN9XX4LBWwz1w28q49xCGuH3Q60TUIT4TRfHedc7V0w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrMuzlHTmf-NvFoPBazFRR6cR5r3TiDBOp1duyaX8X9IRukRoIn7OPyo8FjMrNUmPuCZJzo39TKWujQ9FWiTqMkAvq_GDbPdPUcwFog6seSVioKiRpugUG5r4afeiLaweX7yTA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOU7uNOnz9CtpfLsn6PQ3wp3WpEWmxtXGrPgLgs_kMXizH-0B33vI17I5Pp2XP2gefSNiRiMl1PYMN_XXOIV4EDK02xXw-nc7OTvT4eQ77otrNwk2aeUKNgMhnebWq-rqwqrntUA=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marietta (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigWimberleyTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 512-657-5057)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wimberley-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Wimberley Tree Service"
-      },
-      "sub1": {
-        "image": "/images/wimberley-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/wimberley-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigWimberleyTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/wimberley-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigWimberleyTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/wimberley-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigWimberleyTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/wimberley-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigWimberleyTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jennifer Sabatier",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wimberley Tree Service is service and tree oriented. The crew came in and completed the work we had previously discussed, taking care to do the trimming to preserve tree health. WTS not only completed the work effectively and efficiently, W..."
-    },
-    {
-      "author": "Peter Durkin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a good experience here in Dripping Springs with the WTS team. They arrived on time at 8AM sharp, they had the correct tools, they trimmed my BIG storm damaged trees, stacked the firewood, cleaned up and hauled off the debris. They foc..."
-    },
-    {
-      "author": "Robert Stern",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Santos and his crew were amazing. Santos came out and provided us with an estimate after listening to our needs and was able to squeeze us into his busy schedule.  The crew was professional and easy to communicate with. During the tree serv..."
-    },
-    {
-      "author": "Taylor Stubenrouch",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Santos, Matt, and the team did a great job! They were the best quote I received in the area and very professional with their services. They had great communication and did a great and honest job on my trees! Couldn’t ask for anyone better!!..."
-    },
-    {
-      "author": "JaybirdJayT",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Santos Bonilla did fabulous work on a large tree against my glass sun room.  I had other services contract on the same work.  But Wimberley Tree Service's price was VERY reasonable and he did everything that he told he would do.  He was fri..."
-    }
-  ],
+        {
+            "author": "Jennifer Sabatier",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wimberley Tree Service is service and tree oriented. The crew came in and completed the work we had previously discussed, taking care to do the trimming to preserve tree health. WTS not only completed the work effectively and efficiently, W...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKs2OPByPcbZAQzOfLO1ZY5BjRkJzwQiqsbawy-2byoi9WPt8yvV9oLbPg_JLeonSkIsBV3v6nwC8K-maQgQfr99w2_rS-uyb_ku77pkH_7XCCv6y9DlH_LhyddjbRBC5GC5mXwZuqIn9i=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Peter Durkin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a good experience here in Dripping Springs with the WTS team. They arrived on time at 8AM sharp, they had the correct tools, they trimmed my BIG storm damaged trees, stacked the firewood, cleaned up and hauled off the debris. They foc..."
+        },
+        {
+            "author": "Robert Stern",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Santos and his crew were amazing. Santos came out and provided us with an estimate after listening to our needs and was able to squeeze us into his busy schedule.  The crew was professional and easy to communicate with. During the tree serv..."
+        },
+        {
+            "author": "Taylor Stubenrouch",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Santos, Matt, and the team did a great job! They were the best quote I received in the area and very professional with their services. They had great communication and did a great and honest job on my trees! Couldn’t ask for anyone better!!..."
+        },
+        {
+            "author": "JaybirdJayT",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Santos Bonilla did fabulous work on a large tree against my glass sun room.  I had other services contract on the same work.  But Wimberley Tree Service's price was VERY reasonable and he did everything that he told he would do.  He was fri..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wimberley (Основная база)",

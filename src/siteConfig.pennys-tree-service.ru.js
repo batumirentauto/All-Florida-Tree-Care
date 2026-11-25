@@ -31,21 +31,9 @@ export const siteConfigPennysTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 336-829-4471)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pennys-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Penny's Tree Service"
-      },
-      "sub1": {
-        "image": "/images/pennys-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/pennys-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPennysTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/pennys-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPennysTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/pennys-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPennysTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/pennys-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigPennysTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Heather Nieman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Thank you, Penny's tree service! Sunday morning kitty rescue. They were amazing! So grateful they were willing to come out and help my little guy...."
-    },
-    {
-      "author": "Alan Lindsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Steve was a true gentleman and very professional to work with. We had a tree fall down crushing our fence and he got it removed quickly. I recommend you give them a call!..."
-    },
-    {
-      "author": "Kevin Nierle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The team at Penny's Tree Service did a GREAT job with tree removal of 3 overgrown trees and grinding the stumps. The crew communicated any changes to the schedule, was careful to keep the area clean and the results look fantastic. I would r..."
-    },
-    {
-      "author": "Dustin Love",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a tree trunk from a previous tree removal in our yard and a 60 foot tree that was clearly dying - pieces falling off, color was bad, etc. We had three different quotes done on it & Penny’s came in at the lowest. They removed both! Th..."
-    },
-    {
-      "author": "Jason Wiley (Let the Torah Speak)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The service was phenomenal! Mike did a great job, fast and efficient! Very professional as well too! Thank you to Steve and Alan for their great service and I would recommend them to anyone!..."
-    }
-  ],
+        {
+            "author": "Heather Nieman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Thank you, Penny's tree service! Sunday morning kitty rescue. They were amazing! So grateful they were willing to come out and help my little guy....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKom-FMGXIEimawnjKO0OizCMzVo9W_kppNm9PY-e8-bpEdjY1DR_u1AqU1BPrf0YRFIj--6BehOXU-1ajsf054nq9jCdAGfYH3Kn4rHDBwOoYH6JNhxdEiy8A5knrFype-hMfjdK9azba=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcEXgiEBQ7KG2bwFb3_F_4vMK40IOASU7iHwWtuU6bm8XcCii1oVHtM5gW3M-YQ7SBlfe6Leasyv2hLir1HIRy_qzsN871wnlYIUwVrSXBns-Ow8t6WQXFrIAkPTGZa0_JwUB-bA_V5UH8L=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeofH7INq-MYFmMq55wAdLmQHDsLPdQUbxc1QIxpchwgHdjOS3UCuhhaMNGel3U4xXHetgokbJEbx_c-hy7wrFjm7O3Jm-u2kGnjt6G7dSgQ8XctKU5AIpvCx7jr1A0SABfUrJry9Lgp41e=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alan Lindsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Steve was a true gentleman and very professional to work with. We had a tree fall down crushing our fence and he got it removed quickly. I recommend you give them a call!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFJ2RIKf4e7lNCWuCtgevyTsYSY4VSIMFrzyw0ntBt741glze7pfsG5ZCGaKdjxFFlJtBbhTwIyC_L7wfuNwcO-WbxarvBlpOlGHd-EIfUeCEpw6RDldrLb4AHvqNWqcyg_TID2-Txpdor=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Nierle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The team at Penny's Tree Service did a GREAT job with tree removal of 3 overgrown trees and grinding the stumps. The crew communicated any changes to the schedule, was careful to keep the area clean and the results look fantastic. I would r...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfcAOMUZ7o249aIYSHQP5in5RyrjNlstKzOCXcTJvorDti3LNY_3JTKWDHBI3W3w57vJUdmG_4qtATzT5GE99tVgdxyzNKS5xCZwJc3BojrPOMbvzLbjmgaq_N826-b3MO6PgDKqw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLciHfGcpWAJHEaKDf8vvLsY2PIQZ4A_tYCH7-t8sSjri1h8L2T6w9vieOmSxKDAhS6nc8nQOkV8zcmxn_8Xoe-NiIB_GS2XdzYAP0kf3g6_RRzg7S1PI_7E4qV0V7hNmDsHIV2j=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnrhWoiyQ0_OKu4tUtk8dEkH8__Mp1HbjC1qMaHQal27yDjqvuTXDlHtVaiAjnAyWGWnlGVp21BEO53pBz7FR-Kz1FGm_FmuVe2bkk-Va-7zjtG7Y34XHddWP8GNW6lcwh4I7h8A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dustin Love",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a tree trunk from a previous tree removal in our yard and a 60 foot tree that was clearly dying - pieces falling off, color was bad, etc. We had three different quotes done on it & Penny’s came in at the lowest. They removed both! Th..."
+        },
+        {
+            "author": "Jason Wiley (Let the Torah Speak)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The service was phenomenal! Mike did a great job, fast and efficient! Very professional as well too! Thank you to Steve and Alan for their great service and I would recommend them to anyone!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjcw34jxrv4WhoIlOTyCXsg4-dp5eph3Cbayq5rBVvC3oKyxtjnvyLZSCq_1W6AA_a22COlUMTeFGQ0Oq2lgI9jXOWrjFLEd8-OdUejO2_2xQMeU4woKDOsgU8-ZYHIfhPxYdcXQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc-dCo0rVz5TtZbWtoBlmQVCIzLf6q0r9pqXozHYaRR0MggrU1JQKwpeO1IUVJJorWorM8CB69uCqJ6fP05ii0_rMWywnMsYWDNDXZ8gtJl4H3GktA2CLFUT7Sicjobw2QIyJrj=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "High Point (Основная база)",

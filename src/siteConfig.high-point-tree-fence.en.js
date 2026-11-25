@@ -32,21 +32,9 @@ export const siteConfigHighPointTreeFenceEn = {
     "ctaPrimary": "Call Lead +1 336-861-9058",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/high-point-tree-fence/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "High Point Tree & Fence tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/high-point-tree-fence/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/high-point-tree-fence/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHighPointTreeFenceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/high-point-tree-fence/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHighPointTreeFenceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/high-point-tree-fence/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHighPointTreeFenceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/high-point-tree-fence/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigHighPointTreeFenceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joe Wallick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We hired High Point Tree and Fence to clear our back yard of trees and brush. The team was professional, friendly, and diligent. We were very happy with the results and highly recommend their services!"
-    },
-    {
-      "author": "Chris W",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Hired High Point Tree and Fence to clean up around my fence line (3 sides). Did a great job trimming trees, pulling vines, etc to make my yard look much cleaner and less like a jungle. Very friendly team that knocked out a lot of work in a short time. Were careful not to destroy my lawn with their equipment like a previous company I'd hired. Would definitely recommend."
-    },
-    {
-      "author": "Jason Gekko",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a lot of work to be done on my property: stump grinding, pruning two 100' trees, removing leaning trees, general yard cleanup, limb chipping, securing trees with cables and removing a large pile of brush cut from an Azalea hedge.\n\nI received quotes from other companies with the most expensive being 50% more than Highpoint Tree and Fence's estimate. The first company that I worked with refused to keep me informed regarding the expected days of work. After 12 weeks of waiting, I decided to go with Highpoint Tree. I am glad that I did!\n\nCharlie Beeson gave me a reasonable date of service. Once his team arrived on site, they took on all of the jobs and left the property cleaner than when they arrived.\n\nCharlie scheduled us for December 3-4 but we were hit with 3/4\" of snow. Charlie immediately called us to apologize and re-booked us to his next available time slot. Unfortunately, his team could only work for one day before we were hit with a full day of rain. The following day, his team rolled in bright and early and finished up the list of tasks.\n\nI have nothing but the highest praise and the highest regard for Jeff, Hunter, Adam, Charlie and Shawn.\n\nYou can trust this team to take care of all of your tree servicing problems.\n\nPaul Staunton\nPfafftown, NC\nDecember 2024"
-    },
-    {
-      "author": "Kelly Dietzen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing work by Mike and his team at High Point Tree & Fence. I could not be happier with how this project turned out. It is even better than what I envisioned. This crew put this fence up quickly and made sure everything was done well. Not to mention reasonable pricing!! I highly recommend them for all your fencing needs. Thank you so much guys, we love our backyard transformation!"
-    },
-    {
-      "author": "Andrew Bennett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Absolute fantastic work and customer support. They removed several trees for us then installed a beautiful white vinyl fence. Could not be happier. Great service, great price, great people. (before and after pics below)"
-    }
-  ],
+        {
+            "author": "Joe Wallick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We hired High Point Tree and Fence to clear our back yard of trees and brush. The team was professional, friendly, and diligent. We were very happy with the results and highly recommend their services!"
+        },
+        {
+            "author": "Chris W",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Hired High Point Tree and Fence to clean up around my fence line (3 sides). Did a great job trimming trees, pulling vines, etc to make my yard look much cleaner and less like a jungle. Very friendly team that knocked out a lot of work in a short time. Were careful not to destroy my lawn with their equipment like a previous company I'd hired. Would definitely recommend."
+        },
+        {
+            "author": "Jason Gekko",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a lot of work to be done on my property: stump grinding, pruning two 100' trees, removing leaning trees, general yard cleanup, limb chipping, securing trees with cables and removing a large pile of brush cut from an Azalea hedge.\n\nI received quotes from other companies with the most expensive being 50% more than Highpoint Tree and Fence's estimate. The first company that I worked with refused to keep me informed regarding the expected days of work. After 12 weeks of waiting, I decided to go with Highpoint Tree. I am glad that I did!\n\nCharlie Beeson gave me a reasonable date of service. Once his team arrived on site, they took on all of the jobs and left the property cleaner than when they arrived.\n\nCharlie scheduled us for December 3-4 but we were hit with 3/4\" of snow. Charlie immediately called us to apologize and re-booked us to his next available time slot. Unfortunately, his team could only work for one day before we were hit with a full day of rain. The following day, his team rolled in bright and early and finished up the list of tasks.\n\nI have nothing but the highest praise and the highest regard for Jeff, Hunter, Adam, Charlie and Shawn.\n\nYou can trust this team to take care of all of your tree servicing problems.\n\nPaul Staunton\nPfafftown, NC\nDecember 2024",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfzJLgSV3EMvd5PP8QAjX_AKAtmTo3lz53HSKEMeUDEDio8L0P_p15nR6fbsipeXsTaO26q6VdAQs7buenrNO5cajs5_pjHjjCNA_pNtCyNcn2SwpVqh0atrLCOTODbqrA2jok0_g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVbv6dG_xiMg3QzbdtlpmIEoIRhdDga97-baEgajcJt82Je4asR9ugL8V7yHA3P6K7VK28bPt1Vzyp6N3JcJlnftl1-Ko1BHtUQ3dJn61hoWISCFBeifd7mj54_cEBE4ZpPyTb=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdOkNIPsVIZ52m4hES9HakgAAmOFlXfwAtdt3Dh3Y3XNGCU6LAHfIWhapbYBpLQgTfL4TBRTuE-j-AtzMp0pFLOCJVP391I4OLWryF_RlTSQQXtBBRo7pzTOgqSzbe6CuNX6ZHHCw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kelly Dietzen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing work by Mike and his team at High Point Tree & Fence. I could not be happier with how this project turned out. It is even better than what I envisioned. This crew put this fence up quickly and made sure everything was done well. Not to mention reasonable pricing!! I highly recommend them for all your fencing needs. Thank you so much guys, we love our backyard transformation!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJaHvHPNe1irFnAfn9C5JpbQuwdC1MPFZlGxBNRmqSm-tjjiZt7p03mZWucswARKiE7QBpd7KHngSQdiEA4UZbA8r_xyDscSxWuXFxfIcTw07pNOH6Axev8dc1i_RO-ul4KMs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6dRhoEBodE6b69PIdT3ZZpfPucZURMVdQDIg7JG9txWoZdM1zPNrXe0aHCG8oWlpPlNF4L-OO2xOsr-BOw97Tz-C98Z3PPaYBXt7Klq8J_Op8ahzQQv5ynZqHhaTngc4YhRtV=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4789zj6vAS_bg_CZLF02ASqRtMlaKwSN6fu9WfH627ZE5atvNvQ9hNRw1HVXsXqd37N_b0q_cxFMrApamHaQAKo2FlNpnpNQAkOWwKwraXrvXh2AU0XdEmukIIMlyA9Zp5Hk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLebVlX5jbAhLFjuNBxBCDeIl1USSpSBTNTCjMArcVAPmUCP92c3m1lpW3mn6UMCAli04_IO0eCR8KAEtEQpknDWjT6XoCZfp-LHsvxcAfrj3_etPa1Rk0usEwMPhIo9VGilT7jVHw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andrew Bennett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Absolute fantastic work and customer support. They removed several trees for us then installed a beautiful white vinyl fence. Could not be happier. Great service, great price, great people. (before and after pics below)",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeudac6YCJ8CyBYaAt1Bat7t6Z49IGKchiO3cS1t9wIFYTkP42LB4EdcI2Q_e5DqEYIbI_B2hljkK9mgi2fJU4Gr1QNyYHERQecxfPE93_10XGh5X7aH4_HUNGROesGetrIbDWr=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMZtbEF5OamaMrbGu23qgRfGTj7lFH5bibJtBllsr0WZ6sE4sZcfz-iyhRSyS3VGJ5sZIZ3suaXLV2mXBkK2ti6TCtTAzRGcRgpW8zBU5-eczq_qsT-wq3L5c9l7L7VTufLtXT=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

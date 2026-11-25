@@ -31,21 +31,9 @@ export const siteConfigArborEliteRu = {
     "ctaPrimary": "Позвонить (+1 814-310-1010)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/arbor-elite/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Arbor Elite"
-      },
-      "sub1": {
-        "image": "/images/arbor-elite/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/arbor-elite/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigArborEliteRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/arbor-elite/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigArborEliteRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/arbor-elite/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigArborEliteRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/arbor-elite/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigArborEliteRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "JorDann White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\n\nI couldn't be happier with the service! The crew was professional, knowledgeable, and incredibly efficient from start to finish. They arrived on time, took great care while removing and trimming the trees, and left my property spotle..."
-    },
-    {
-      "author": "Delia Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We needed to have a large tree cut down. Bill and his team did a great job! They also cut the wood to the right size for our fireplace, liked we asked. Cleaned everything up very well before leaving. Great and quick communication, fast serv..."
-    },
-    {
-      "author": "Zachary White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing and mesmerizing tree removal.  Our neighbor's large pine fell across our fence and into our pool in Hurricane Helene (2024.) Bill worked meticulously to make sure nothing was damaged.  Pretty amazing really.  After watching that I h..."
-    },
-    {
-      "author": "annick zabel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My cat was stuck in a tree for 48 hours. I call them at 438pm. He gave me a call back after his last job about 1035pm. At 1150pm they were at my location at 0020 am my cat was rescued and  safely in the house. They were quick, knowledgeable..."
-    },
-    {
-      "author": "Marcus Moody",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing service. Not only to his customers but to his community. He helped clear the roads after the storm in the fall of 2024. and then moved about 40,000 lbs of water oak super that fell for me. quick and friendly and affordable...."
-    }
-  ],
+        {
+            "author": "JorDann White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\n\nI couldn't be happier with the service! The crew was professional, knowledgeable, and incredibly efficient from start to finish. They arrived on time, took great care while removing and trimming the trees, and left my property spotle..."
+        },
+        {
+            "author": "Delia Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We needed to have a large tree cut down. Bill and his team did a great job! They also cut the wood to the right size for our fireplace, liked we asked. Cleaned everything up very well before leaving. Great and quick communication, fast serv..."
+        },
+        {
+            "author": "Zachary White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing and mesmerizing tree removal.  Our neighbor's large pine fell across our fence and into our pool in Hurricane Helene (2024.) Bill worked meticulously to make sure nothing was damaged.  Pretty amazing really.  After watching that I h...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcEm2bgNBiOuVtmYm-OC1v7wnNoZ47UwW3dvRCoLfvE1r-wMOHD7n-k8yleBq2trVlWKzrSJZPiMwkMeqf7FBPT_K3Rq-3x7ZzegsIb_Fq5yaFZiSpWx0_VQ9PIeFLPc-LE286W9Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8OKtvY-1lWbhQfNl-cCh5UoAUacAZEPtL_9SKmMKvxBpnk2wD80FS_A3V_z0TCTsZF0MH1kOyWQThB7SMqthZWLkn9gakayJXjFDb4KAuq2ZgY0aqKLo76bEzCayWhgXgsjk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdOZX8e7L_CV1Ppkmw8I25Z4GGBSe9d07VWHP0d6-rWtggvLLpTsPJZPnOb1OdstSQ9w2p2TCCo3UiM7BgPbS_PzkJQIY2YNG7tBD_EBK8OyPxYToZAeqkb_ql6uSxVt6Pu3n8pjA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLec1oBZlf5vxCXBYZzMZScjVC452gH9hnXYy0EZXiNdIeVVPWjvL69CgdnBe-dKVXTWPeUZ67YmyjMcFMuB9ux-3e0CBdC4e3xhph5KWEVHkrY-2QBKIPUnT-aKLyG33b2hs3E=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "annick zabel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My cat was stuck in a tree for 48 hours. I call them at 438pm. He gave me a call back after his last job about 1035pm. At 1150pm they were at my location at 0020 am my cat was rescued and  safely in the house. They were quick, knowledgeable..."
+        },
+        {
+            "author": "Marcus Moody",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing service. Not only to his customers but to his community. He helped clear the roads after the storm in the fall of 2024. and then moved about 40,000 lbs of water oak super that fell for me. quick and friendly and affordable....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcY9Rntj05zN_5MUP-DJZJlUzs2OjvWxXkR-Wuq4ccX2mt8EdS9jGYz_Q8x1_23jtnm6aCAeo2P5f3x_Py_jg3zGMYCwExib4ioVv-Ppc4xbbl8VDUEnQQ0z7FcMOq_GvXXql71=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeF1TvnV0jWjXT9Gk5u5OvFqFB90JNq6CsWUXWXuGqI_8Wjhh4ktph031QcvQqxDfPf9ahARKqq3O4jDgu3LHz9OMtQFAOjRePW8GWAkEyecYOYfscq5kuGFfGTjHARnp6kbl-A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4e8e_OXsb0VkgCifCN8_BCuP9lpnHGPIqLsrPUjRy7iBYIspYqtfynt5LYNdYAUrVVDsj_JMRjfyD_XM7Bu5CytABUMJdY1EkaTNuvjZk-T4dLNJSYyW25lKH8_XDKt1ePuv-ZA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGUTSFfAa3oy7JmI5zEYf5BLMTD5rzcBLb29IjTRORw2nBjSiHprDmvrh7vMveB-bBvx5-XSiO9yso_5f8xzPLiBmx895Hh0UOZCIm51J_AGBJFZw7KL9q_soxBcMbZKmDgyUI=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Columbia (Основная база)",

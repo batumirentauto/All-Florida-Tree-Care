@@ -31,21 +31,9 @@ export const siteConfigProBeaverRu = {
     "ctaPrimary": "Позвонить ((980) 833-4894)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pro-beaver/photo_002_crop.jpg",
-        "label": "Направленная валка и распил",
-        "alt": "Поваленный ствол крупного дерева, аккуратно распиленный на бревна во дворе"
-      },
-      "sub1": {
-        "image": "/images/pro-beaver/photo_009_crop.jpg",
-        "label": "Арборист на развилке ствола",
-        "alt": "Арборист на высоте спиливает ветви развилки массивного ствола"
-      },
-      "sub2": {
-        "image": "/images/pro-beaver/photo_001_crop.jpg",
-        "label": "Оценка дерева рядом с крыльцом",
-        "alt": "Крупное лиственное дерево рядом с верандой дома перед началом работ"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigProBeaverRu = {
     {
       "name": "Посекционный разбор развилки ствола",
       "badge": "Вертикальный спил",
-      "image": "/images/pro-beaver/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigProBeaverRu = {
     {
       "name": "Расчистка территории и вывоз бревен",
       "badge": "Расчистка участка",
-      "image": "/images/pro-beaver/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigProBeaverRu = {
     {
       "name": "Складирование бревен у здания",
       "badge": "Работа у фасада",
-      "image": "/images/pro-beaver/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

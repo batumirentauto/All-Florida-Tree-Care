@@ -31,21 +31,9 @@ export const siteConfigTrueNorthTreeCareIncRu = {
     "ctaPrimary": "Позвонить (+1 541-600-7521)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/true-north-tree-care-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады True North Tree Care Inc."
-      },
-      "sub1": {
-        "image": "/images/true-north-tree-care-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/true-north-tree-care-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTrueNorthTreeCareIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/true-north-tree-care-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTrueNorthTreeCareIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/true-north-tree-care-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTrueNorthTreeCareIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/true-north-tree-care-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,72 @@ export const siteConfigTrueNorthTreeCareIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Krista Hyatt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a massive tree removed from our backyard that was just inches from our garage, with large limbs hanging over our house. It was a challenging job, and this company handled it flawlessly.\n\nThey arrived on time, brought in a crane, and ..."
-    },
-    {
-      "author": "Roberta Howard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What a great team! Ben came out and we discussed my trees and boy do I have trees. No oversell...tremendous concern on safety and great, polite crew and clean up super! Calling again next year!..."
-    },
-    {
-      "author": "Diana Gibson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great job! Ben and his crew are courteous, skilled ,and safety first. They took extra care when  taking out a tricky tree that was leaning toward our house.  They even dumped the chipped up wood at a local friend's house when my friend aske..."
-    },
-    {
-      "author": "Peggy Swearingen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ben and his crew were great! They trimmed up 8+ fir trees and removed 1. Very knowledgeable and willing to answer any questions. Cut tree they fell into firewood lengths and moved them up to a convenient place for me so we can split it up. ..."
-    },
-    {
-      "author": "Tread Softly Horse Training",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Super impressed with Ben Owens and his team! Very professional, clean and talented! I had two very sketchy trees threatening my barn and Ben didn’t even flinch when others said no way! Thank you so much again for returning my peace of mind ..."
-    }
-  ],
+        {
+            "author": "Krista Hyatt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a massive tree removed from our backyard that was just inches from our garage, with large limbs hanging over our house. It was a challenging job, and this company handled it flawlessly.\n\nThey arrived on time, brought in a crane, and ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeEy8eaNbFNJkBdQej4lZRPGYRfD23zG-phFtW97w2l1vSN1lqpZlmGc4esasfLTqKLvuAl6bF630XckuKM5geE1MGA4KXTn3OcGIqSVTyxzFi3Vm32Jz0OToZxoc2_NC7U0J_CaH3po6E=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcm_FtE27gRE2i_EOptaajvD__qCkbgA-4tnFSVLkHuE273uUP-rjBIiCtcNVjsCKwNuzodGHSxjl1IDlr0tFpoI5isxlOV8597WWehLDeIMrW0_wUxSIodT2EMMJj8j4L70eIO9C_3EGFU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmt2CjV869wuxPw_AFpOEBUgrIWxkK0P2anOuPIh6c2MuZwPX4H6kSu9ZYc2cT4aF7V4wwTKZvCwdiV64R5FFXrEdRFr1cJvn8gkvCfZ29gWiQImJZ1z1OCY4gzbEObDy4kAb3repDhuE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Roberta Howard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What a great team! Ben came out and we discussed my trees and boy do I have trees. No oversell...tremendous concern on safety and great, polite crew and clean up super! Calling again next year!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhQk7wB08yP1MFTf7k59iBIy6-rhVZJQvP5jxWJW8SRx6PW1qlHHQ-838qWPszEByR8c4wI7IOP7Rreg4dQd1ORMvGPOWGK8qNe_LbRgCiEaYtw-XIprBoj9CCFjnQM72GhBm2G8GwokbB=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Diana Gibson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great job! Ben and his crew are courteous, skilled ,and safety first. They took extra care when  taking out a tricky tree that was leaning toward our house.  They even dumped the chipped up wood at a local friend's house when my friend aske...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeftj1cD4Kl9KcWdNWDKufBAo6oCeo9I5fByCcpTG7aoBEouJDeIJ1U7mRiiPnP1dQidGZGXRMMecRYaRaBV9Eb9pxT5ygtUeBzf6gwoM_GzbfL03nth9ikjD5g2KKZUKCi7ah4o0Y5vsI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmlmrsWeXsXpQOdAgsAdHfaB7D-1CPkIRf9qTQRsq644tRoxYkTw2CA3OHX9iRZjiRvHBrKh1LyYwXV5c3m5WAb8pDnaI4dShBuFAf7muO281y_zbiBEvhgKFevcMCTUBtsNMcsfDp22ed=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0z_GBmCumUZ482fYYW9kAhleDAniteB81Fn30dqjYo0kjx_Rlfqxa8o6unjamVAEHstebHqxsWkQCm2DNNkyOrGrAd76Hsqpo9T1GXloK-uGuRmuE2TFyP_5rNPZDyG2aEQFBS5nXZLA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdsfkp-NjUfzNHapKPd8Bv40h_5vHGIP0swdAxThWh2mVx-S974DD9Nq2EibLejmUotsaaqA1tWnN4cgOkULwfoO429hvBbh0ARmGS4PpIourQAvJVHiNQ4eEE2yYTGQK6kmw5zca4q_uY=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Peggy Swearingen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ben and his crew were great! They trimmed up 8+ fir trees and removed 1. Very knowledgeable and willing to answer any questions. Cut tree they fell into firewood lengths and moved them up to a convenient place for me so we can split it up. ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfv-JhEBjLfCryTmg_ggDCgENdbzCv4k97aJnKHOg0YyitMBsJkYRrelYhavQRRSSSSmofAyBI6DOE6VygO4DW_e1jretPnes9uJ4R_AWWnmIsilOkHGtjFL1y1sWBJSNejZ9fohYFyAO4s=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf2TZ5z5maKV8wD63qQMslBKlP9Jc6S50-kkNNz8waFI90fnkHPPtTe2SgS-pmTLOne3Hq7pia4pomlVj0QodSb44gVsMvBvdqmcBZQJKQOGkXzspO9yJlY6zXPUmvPwrt7levmbm3pEyw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdPZPMmHFvpXiATTnWlO7TY4K9s5SQsRzPOS50ZPA83Q9sAZozR7pq5RbtLXO4RcGO6BEQKD-z_jWEbDThQFwLa5ZOJwphTm2c9EpRIkKuUSrWt4KK3O0LGlEqz7y32c_hA8Ri_zleu46Y=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tread Softly Horse Training",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Super impressed with Ben Owens and his team! Very professional, clean and talented! I had two very sketchy trees threatening my barn and Ben didn’t even flinch when others said no way! Thank you so much again for returning my peace of mind ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDlHEnkT-i_0DW2oJP4eam4S_JkUkFiJMgGvI1YV2txXfVWAw6xUwOljKMk56XuMNzGjdrWnUoITMDVXA9Yt47JOehFyXgqx7vWm9wRMU4ec1bD95dhZ-GDiDt7Ct7dPLNRsT8avDB_wE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzF2svabTflqzxsAIY1Z5nGSQy-xAtCL_hyHCo7QLucxIe89IJjyOayL7oJz3AD5NrDNfGMMdTQ_8b9yQ_Q2S4yClhslSx0D8cqrw9AdMWQGV5l3bhl9JYUk8JKGFda9Wvd_UZkoaosJiU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLclO9rIrPFU1N5FkWgYEuc1_vdtYIK1iO3-fV3G66oEZ8YlLoPAD0KJKqE55VIT-Q6MkTh_2smSUKpBdLyKsZ4DzeN5jYHJfQiBynoFk1s70M49Z8DWZA_8lrzIlbzDF1fw3xP6WBLbxzsv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDC8WUR5MeIsHmQh4hu6VgBl87zaSpvw_onpb_c6E3-bX1A6FB3N17UILF6zd-DLVgOOJe44PbSgCWb8K_CW13nuy3nKphktkkhcBw0qz5yFTr4yvv987E9BfkBzjN07f-Xz3n3xXelCg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marcola (Основная база)",

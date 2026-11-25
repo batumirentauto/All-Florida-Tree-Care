@@ -31,21 +31,9 @@ export const siteConfigCheapGuyTreeAndStumpRemovalRu = {
     "ctaPrimary": "Позвонить (+1 407-421-7338)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Cheap Guy Tree and Stump Removal"
-      },
-      "sub1": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,75 @@ export const siteConfigCheapGuyTreeAndStumpRemovalRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Eric Shively",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had several trees removed. Service was prompt and professional at a good price. I also had the stumps ground. I'm very happy with the outcome. Thanks again Justin!..."
-    },
-    {
-      "author": "Janelly Rios",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After vetting out different companies, I decided to give Cheap Guy Tree and Stump Removal a try. Justin explained the process and what I should expect. Unfortunately, he arrived and stumped the tree down while I was on vacation. Upon my ret..."
-    },
-    {
-      "author": "Keith Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Justin did a few things many do not.  Answered the phone, gave a fair estimate, and showed up and did a quick job. Highly recommend cheap guy tree and stump removal...."
-    },
-    {
-      "author": "Luis Ojeda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I regretfully previously contracted a landscaper to take all my stumps and roots out all over the house. There were 9! He was paid half and left the job unfinished. Thank God that Justin came in and saved the day.\n\nHe demolished all stumps ..."
-    },
-    {
-      "author": "Corey De Mayo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Justin was great!!! He came out very quickly and was able to grind two massive pine stumps in the front yard. He was very professional and the communication was great. Stumps are completely gone. AND you will not be able to find a better pr..."
-    }
-  ],
+        {
+            "author": "Eric Shively",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had several trees removed. Service was prompt and professional at a good price. I also had the stumps ground. I'm very happy with the outcome. Thanks again Justin!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHKQXakIAnnaBESgjfwmD31DGgWpzYxSgCYAn9t1oeA-6KDd6jxOr47Brzv9bBjhErnNohoJKjMCdzsj8d9opkIm8XfJG2HQAuoCrB4EO9ac2pA97silxYbmYkWHlR5WJSwI60RIe7HPgj=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfauQl2NvlTHHUf76UJ29Ns6nHuH5fRfBrK5izs1LYger-L6hzanHI-N1RFE4i0zeays_BffkZu7uPOg-Mw7xWZfjFmb-0YEjgdpgbJhugKJVJfln5zJVo61WiUoq6PMuIzWcpzL7NDVLs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYQ8b5DpRcLzoqdWiQtRBxgYFU3_ZibH_dBhrWOFS4s8GltCbq0f1ptnHzoTZBDIAHRJA3sjtbFLUjorNv_Irf3BbqQPxqGaJDZFgpb6kpMkDVJ2zLIeLW_XCneGM4HcZPzYSwSeOg4sk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmnkIVCVTXlJxfX-6V_s959460PQZFtxI4-np1w_Pm5Sidun0GoDxmSqvyteFrxUuoqHFriu0WDMVsbrN8BFl1Hd4TwZBr3ijf_e3E85oz0_6gLF697i4z8irHEUOjwa6UYwaPhg7RmQ6S=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Janelly Rios",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After vetting out different companies, I decided to give Cheap Guy Tree and Stump Removal a try. Justin explained the process and what I should expect. Unfortunately, he arrived and stumped the tree down while I was on vacation. Upon my ret...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLctqAA8hpQyEHUMUisxeNng_qVJ49Q5vlTEOWSa7js5_JUTYSolyhTOl0JfaknFbQcFegI5No0D7xtUf71H2GETFEK8fdU3fmzpzbTYMLqscF_dXX1DbG56PwBD8C5DZZ0DPmaLEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8-p7mkdVuYVVFcdqOA1Bfx70dta97BJ2SNTWOjinS_pzXUNbor5q44tjvxh7xkrCeJ23CxW4d1reCyty56fb7MwCSWUSPfzV2yFg0KAT7AE3tOLEWLVUN2mcLjdBqsZpqrxPQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1O2QqITqz84eYpk4yx6b9sRQXScM39e2b6vjhGvznkAqz7HKIvmbjk13Bvph5T0eQf6sociG21KNS3-u6QdfxGBJ6URhvSBjd8sQn_6IDMUPt9n6aoeVqiQAgENc_thCVNmOz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLciTDB74ilOo0pDkqg05Hz-1mTs8DH7qYgZn90p-v5aAffVvRQvdT0zgscOCs5FRlS1pC31TNZtXxJHXPHORCz9A7Of0BYGNOHOSBEhYB3K-yZafuuSjAm-QWmkjJA--Kv3ot8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Keith Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Justin did a few things many do not.  Answered the phone, gave a fair estimate, and showed up and did a quick job. Highly recommend cheap guy tree and stump removal....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxpkIzEhllsCRipPNiSvFAPzZeJ4D64BAYssQSAjBrZHzQ_pArZ80F4bjN9Xp7Af7m9UzqhT9ovOYbCwZwZhn9XvsGCqHrILr27TZf9N-EikLzt-05QdSXERNr8MfZQKu2GbqRbn4Ifkk=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSJruyaU10Ly4oJ_UlzBhe9ccIsVoLQeweWGR3wUuIS0H0PVuKaFsHtomA7iIeHfMpmHftMepYKRbshw-BwA3XSwKZLZuKAQ8eq-nGUy-Z1nugxTB4ZBRi6n-YMShDqDpQiJqxDObGZUE=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Luis Ojeda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I regretfully previously contracted a landscaper to take all my stumps and roots out all over the house. There were 9! He was paid half and left the job unfinished. Thank God that Justin came in and saved the day.\n\nHe demolished all stumps ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfG5YymqokQ1oUqd2RlvJYpqRZ61wNcnCqwOZvrMCiZh952svhlXdIxlohOhUFA7o5MaGWocGIhaiyPJ4dpSEnrll3Y49kirbijggeB3c-cxmW1e120NU5xrUNB74uD0MJy-9oQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgk_SnGaLwTALNMPTD0POc6wXMa7HKGjvM-x-ryGM5OUImZKbz7TYWSMW2wQS5k9qKqDYrLVfqcx0zO4Gmcbt9IoYAlK0JJvZJdTBAmjVvn1M67QgmLLUzE3TWuXExnH0IOFwS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmpUIOrbTXLpcWQoLd5zCBbg5rKP7N6Y1tdcZDsJj7YMSMiaOay0pVoqi3T6EEvFWB9hNXc0EBPTATF12fMJU3AUa4hldYcwXnpFVG4A1vmcPsQiLfcEEMYj1MdhWeddOtLCFL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1GCQDauxaaMVGIjNkn3KQuaMXHgnU_dRZ4GAHGHpxQb3GGlgWNDNVtzgui49xnnzeIaGuYl8t4nOUlSjfAzTXW5Ng5-dkZahPLAEbHLh4ZkgdTBQQL_DlQdAqrFS1TgpN_tO92Q=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Corey De Mayo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Justin was great!!! He came out very quickly and was able to grind two massive pine stumps in the front yard. He was very professional and the communication was great. Stumps are completely gone. AND you will not be able to find a better pr...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXa3edW2BK5CFTsgOUyUXx36z3BH7dSEYbQAE35Uog9MjMQu9s9UQLxEANTrG299O84nE4YJBJ_gSZDXuVhZCEhdxERwdClWXemgubjLVqDuzzUpcv8AZumVfbRyMnohUpVkJm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLclSiVf-rVkXLTIuYwdo1ZLJV-dmf02SN3KRF-wqj31nrIpttKMWNdl52uldcMnXtEmWFvVwrXoklKFiwaydTCCkc7HZX6LiSsmCRw9DxG3o7CKWHPGVaPLa6lhhqhi3N7R2gB-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfn-9ICTv8WVtkx9HBjtwW0J7lW0_zzmv5jL3vMcLc5tN5_KtyTEsQzJeMaSOUgxOscwi-4jA6VMxLpyPCWZxPyO8KjCa9ISxmsuplaHPoH2lCyW_RJAUOQvDkgK-6PkNKP6DJ3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcofXy5MabAo7AV5GMMEytPlVTQIUcplxYh8iClQHQWLzCNQAVc7ZqX7nrWqY9H7_fX_owKLHF5njQ7nO-1pui5Jsi2Vq1n0vCj7-E-vWFFlJLZy9dyDPnEjGp5j_uhqfcBgORByw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

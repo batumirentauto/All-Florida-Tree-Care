@@ -31,21 +31,9 @@ export const siteConfigTrinityForestTreeCareServiceRu = {
     "ctaPrimary": "Позвонить (+1 817-609-1495)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/trinity-forest-tree-care-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Trinity Forest Tree Care Service"
-      },
-      "sub1": {
-        "image": "/images/trinity-forest-tree-care-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/trinity-forest-tree-care-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTrinityForestTreeCareServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/trinity-forest-tree-care-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTrinityForestTreeCareServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/trinity-forest-tree-care-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTrinityForestTreeCareServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/trinity-forest-tree-care-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigTrinityForestTreeCareServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Suzi Streit",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great to work with.  Came within 24 hours to give me an estimate.  Scheduled the job and showed up right on time.  Worked hard the entire day and great clean up before they left.  Very professional and the team worked as a well oiled machin..."
-    },
-    {
-      "author": "Almarie Talavera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have worked with them twice now, back in 2020 and now in 2026. Amazing service. He literally left the backyard looking better than it did before. My trees look trimmed and happy! The owner loves trees and he was mindful of maintaining the..."
-    },
-    {
-      "author": "Taylor White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bud and his crew were excellent! They trimmed my large red oak. They cleared it out and cut off low and dead branches. They also cleaned everything up very nicely! Definitely will use them in the future! (Before & after pics)..."
-    },
-    {
-      "author": "Kathy Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alejandro and his crew are top notch, very professional but very caring ! Would never hesitate to refer them, they always deliver a great job!\nKathy Clark..."
-    },
-    {
-      "author": "Fred Brandon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: If you need any type of tree service, you owe it to yourself to call Trinity Forest Service Tree Care.\nTrinity Forest Tree Care did an outstanding job from start to finish. Their team was professional, punctual, and incredibly knowledgeable..."
-    }
-  ],
+        {
+            "author": "Suzi Streit",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great to work with.  Came within 24 hours to give me an estimate.  Scheduled the job and showed up right on time.  Worked hard the entire day and great clean up before they left.  Very professional and the team worked as a well oiled machin..."
+        },
+        {
+            "author": "Almarie Talavera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have worked with them twice now, back in 2020 and now in 2026. Amazing service. He literally left the backyard looking better than it did before. My trees look trimmed and happy! The owner loves trees and he was mindful of maintaining the..."
+        },
+        {
+            "author": "Taylor White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bud and his crew were excellent! They trimmed my large red oak. They cleared it out and cut off low and dead branches. They also cleaned everything up very nicely! Definitely will use them in the future! (Before & after pics)...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9LAIIdlYXWiR90TD1V2YiKtoywjiDgqkRdswoM5h2OrJwbZfasp9lg2oGCPV44Q9zVskBDm7M-gk1QfJUoJuIYTwksJKs2ThiD7pHRtx5qYaJP5jDH5CePB808lovnm2v9NY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewiBLF7rX-HfjHtkvK8LTcQgtt_BXiH3Oa0NKX4wvHgvlxqd3QvnPot06LJ4e-jHUgVx6f_UiglO-L3pj_Rzf3wBJqOuovV_DcNJkUEq7L7oP5ifIbhZh1bQaXsX7bTCPu-CTu0Q=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kathy Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alejandro and his crew are top notch, very professional but very caring ! Would never hesitate to refer them, they always deliver a great job!\nKathy Clark..."
+        },
+        {
+            "author": "Fred Brandon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: If you need any type of tree service, you owe it to yourself to call Trinity Forest Service Tree Care.\nTrinity Forest Tree Care did an outstanding job from start to finish. Their team was professional, punctual, and incredibly knowledgeable..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Worth (Основная база)",

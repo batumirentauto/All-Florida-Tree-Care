@@ -31,21 +31,9 @@ export const siteConfigLivingTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 469-629-9293)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/living-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Living Tree Services"
-      },
-      "sub1": {
-        "image": "/images/living-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/living-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigLivingTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/living-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigLivingTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/living-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigLivingTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/living-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigLivingTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Laura Ramsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jonathan did an amazing job entirely removing a tall tree that had several large branches above our house. He carefully and efficiently removed the tree piece by piece. Jonathan is a friendly and knowledgeable expert. I highly recommend him..."
-    },
-    {
-      "author": "David Appleton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We've had Jonathan out twice this year (2017) for different projects in our heavily-wooded lot. He is friendly, knowledgeable, and always shows up at the time he said he'd arrive or even a few minutes before. He always takes the time to ful..."
-    },
-    {
-      "author": "Melissa Trivino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had Living Tree Services trim my large Live Oak tree in my backyard. I was very pleased with the job Jonathan and his team performed. Jonathan took it upon himself and contacted my neighbors to gain access to their property  to get the br..."
-    },
-    {
-      "author": "Chris Li",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: You just can't ask for a better and more professional tree services company than Jonathan's.  Not only he did a great job cutting trees, he also looked up the policy of tree trimmings pick up schedule in my city and timed our appointment to..."
-    },
-    {
-      "author": "Sarah Garza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend to everyone, Living Tree Services.  Not only is Jonathan (owner) a true arborist, he truly cares about the customer's wants and needs.  He is always very professional, prompt and fair.  He will always work with you and wi..."
-    }
-  ],
+        {
+            "author": "Laura Ramsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jonathan did an amazing job entirely removing a tall tree that had several large branches above our house. He carefully and efficiently removed the tree piece by piece. Jonathan is a friendly and knowledgeable expert. I highly recommend him...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKe2k2N7_lyWK9GZ_zXYe0_O9f5OFM_9Yl9hdoG7t6AIVw7_Nawp7zwcbN3kBcYv-eja-BLxd7TcopgHIMpCUSIv7veAngNjxX511RCg8eElpbBDGOSA0sN_zwzBtABV8-aDFb=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfg13s0QrXdyy2s_6QY8utp7snu1zzHcnX_RjBKXaycbTksfRhxmFGMC4IohTk-TribesIwnAlaBQBQrlRWdn-ULcCwtta9xwQvz3a3dJ5wO5tMcfNWTyv-As0-oA86Sn89zkg9_g=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "David Appleton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We've had Jonathan out twice this year (2017) for different projects in our heavily-wooded lot. He is friendly, knowledgeable, and always shows up at the time he said he'd arrive or even a few minutes before. He always takes the time to ful...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGd2hwL_fQOwf4nF5Aw0H9d-N7GK5dRNC0lUZbNw6BJeN6qEYyrgPLovWAtTut-4qechA-WjzoZFvLQZS-bpn3bXa7z6wZyZAjuW2zYGD1ZcORd0Up03uijXHWdUCAPrLfmUr7_A=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Trivino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had Living Tree Services trim my large Live Oak tree in my backyard. I was very pleased with the job Jonathan and his team performed. Jonathan took it upon himself and contacted my neighbors to gain access to their property  to get the br..."
+        },
+        {
+            "author": "Chris Li",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: You just can't ask for a better and more professional tree services company than Jonathan's.  Not only he did a great job cutting trees, he also looked up the policy of tree trimmings pick up schedule in my city and timed our appointment to..."
+        },
+        {
+            "author": "Sarah Garza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend to everyone, Living Tree Services.  Not only is Jonathan (owner) a true arborist, he truly cares about the customer's wants and needs.  He is always very professional, prompt and fair.  He will always work with you and wi..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigStumpGrindingGuysEn = {
     "ctaPrimary": "Call Lead +1 864-601-0904",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/stump-grinding-guys/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Stump Grinding Guys tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/stump-grinding-guys/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/stump-grinding-guys/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigStumpGrindingGuysEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/stump-grinding-guys/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigStumpGrindingGuysEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/stump-grinding-guys/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigStumpGrindingGuysEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/stump-grinding-guys/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,55 @@ export const siteConfigStumpGrindingGuysEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "richard powell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "A very kind young gentleman who delivers on his word. He does each job exactly as described and discussed to perfection. He did an absolutely amazing job on our stumps!"
-    },
-    {
-      "author": "Bruce Cannan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Cameron responded quickly and did a great job on our backyard.  We lost 8 trees to Helene and had huge stumps left behind.  He ground them all and left the yard looking like they never existed."
-    },
-    {
-      "author": "Tim Duzan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very good communication. Came by to give an estimate and was able to do the job the same day. Very reasonable price. Cleaned up everything afterwards. Would definitely use them again if I have any more stumps to get rid of in the future."
-    },
-    {
-      "author": "Robert Waters",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Cameron is very detailed and professional. Does an excellent job. If you need stump grinding I highly recommend you give him a call. Thanks for a job well done."
-    },
-    {
-      "author": "REGINALD Outlaw",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called Cameron (Stump Grinding Guys) in the early morning and told him about my issue and he was at my home in a flash to Grind all of the tree stubs out of my yard. Good price also. Would highly recommend."
-    }
-  ],
+        {
+            "author": "richard powell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "A very kind young gentleman who delivers on his word. He does each job exactly as described and discussed to perfection. He did an absolutely amazing job on our stumps!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8QLR-oPgeds93TJLwZ8ORcYgSwZz26GN7wgnQLCXhZ3X-6ZkHCRNezEHLCWKMWuFCGQXMulHDP4QMcVwxrVMaEbgY8MF_WLkfGpNNw8oRv3AAczT-7M2WhRtH9SQbnW18OKkbXk2XiFCq=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5Gt5itEzruUdSmrFxShssZ_F4-EmhO4b0olaOtORwbtJ1Q3MDnVEMmqs5A1LRKORicvUXwcQCWtVddW7_CILMtIzDJfrRXNLrwo8-PexzehHRPTrbqN_HDmgz8CgzPpqF6VPd8YEoNm7q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfS1Y5Ld_h1ZIqI6ix57dJEaSDO56JOWIWkOixXgR1W-_951SeBl2FWXt6Rt3CQ4CoZT-x-QXO7NZK0vkJtBpadL_YRI-_uU0kno5mHgfvrYpGauWe9Z-r-rRa-Jq26buuqBl6_v2j6cPJv=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Bruce Cannan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Cameron responded quickly and did a great job on our backyard.  We lost 8 trees to Helene and had huge stumps left behind.  He ground them all and left the yard looking like they never existed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmccapY-Opu1S9V1CDs5Ekq39Y_1zVB7fctOnq4h7yaHci40xCYMamDM8hH0zZBQ2ZPYOHujFiJVGwwxsOSZqRDDs2Ev3RrOPySMtuYUQXVxFujTto-aEzeIFLTMsXdE9q_vF_7aGr_Q4=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tim Duzan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very good communication. Came by to give an estimate and was able to do the job the same day. Very reasonable price. Cleaned up everything afterwards. Would definitely use them again if I have any more stumps to get rid of in the future."
+        },
+        {
+            "author": "Robert Waters",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Cameron is very detailed and professional. Does an excellent job. If you need stump grinding I highly recommend you give him a call. Thanks for a job well done."
+        },
+        {
+            "author": "REGINALD Outlaw",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called Cameron (Stump Grinding Guys) in the early morning and told him about my issue and he was at my home in a flash to Grind all of the tree stubs out of my yard. Good price also. Would highly recommend."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

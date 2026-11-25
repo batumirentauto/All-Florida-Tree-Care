@@ -31,21 +31,9 @@ export const siteConfigGrizzlybearArborcareRu = {
     "ctaPrimary": "Позвонить (+1 828-712-2400)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/grizzlybear-arborcare/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Grizzlybear Arborcare"
-      },
-      "sub1": {
-        "image": "/images/grizzlybear-arborcare/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/grizzlybear-arborcare/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGrizzlybearArborcareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/grizzlybear-arborcare/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGrizzlybearArborcareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/grizzlybear-arborcare/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGrizzlybearArborcareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/grizzlybear-arborcare/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigGrizzlybearArborcareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jacquelyn Randall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Can’t recommend Joe and Grizzly Bear highly enough— after another tree service took out some branches and left a large rotten trunk, Grizzly Bear came in and very safety and professionally removed the trunk. They were wonderful, trustworthy..."
-    },
-    {
-      "author": "Tom Weinkam",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had severe damage to my pine trees due to wind and storms. I had several estimates from tree companies and chose Grizzley Bear Arborcare. I'm glad I did. Not only was the work done well, but it was done within my time frame and the price ..."
-    },
-    {
-      "author": "Frances Smyth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used Grizzly Bear several times and they are always quick to respond to our request. Their consultations offer knowledgeable and appropriate recommendations. Their work is efficient, professional, and their clean up is excellent! Th..."
-    },
-    {
-      "author": "Donica Warren",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used Grizzlybear Arborcare three times for tree removal services. I highly recommend William and his team. They are always prompt, professional and reasonably priced. We appreciate their hard work and will continue to do business wi..."
-    },
-    {
-      "author": "Joseph Barker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Grizzlybear Arborcare to anyone looking for tree work in the area! They were great to work with! I had them take down about 6 trees and trim some other trees around the property. Clear communication, easy scheduling, and ..."
-    }
-  ],
+        {
+            "author": "Jacquelyn Randall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Can’t recommend Joe and Grizzly Bear highly enough— after another tree service took out some branches and left a large rotten trunk, Grizzly Bear came in and very safety and professionally removed the trunk. They were wonderful, trustworthy...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdlQ5P4TTSsN4QjPaZB0qgJVsYKat5AsLswhiAQvbptiD83YlcmkJAWSPPOLxJc_q5o90_WlRbI8LPfttq8arxDZ18KP5YbXbBxFpANBMY2wl59_Dnuas2d7mHb8WDCHCMQGURS3ZG1ZxA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tom Weinkam",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had severe damage to my pine trees due to wind and storms. I had several estimates from tree companies and chose Grizzley Bear Arborcare. I'm glad I did. Not only was the work done well, but it was done within my time frame and the price ..."
+        },
+        {
+            "author": "Frances Smyth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used Grizzly Bear several times and they are always quick to respond to our request. Their consultations offer knowledgeable and appropriate recommendations. Their work is efficient, professional, and their clean up is excellent! Th..."
+        },
+        {
+            "author": "Donica Warren",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used Grizzlybear Arborcare three times for tree removal services. I highly recommend William and his team. They are always prompt, professional and reasonably priced. We appreciate their hard work and will continue to do business wi..."
+        },
+        {
+            "author": "Joseph Barker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Grizzlybear Arborcare to anyone looking for tree work in the area! They were great to work with! I had them take down about 6 trees and trim some other trees around the property. Clear communication, easy scheduling, and ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

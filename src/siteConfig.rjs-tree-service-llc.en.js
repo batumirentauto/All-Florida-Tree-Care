@@ -32,21 +32,9 @@ export const siteConfigRjsTreeServiceLlcEn = {
     "ctaPrimary": "Call Lead +1 843-725-0642",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/rjs-tree-service-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "RJ's Tree Service, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/rjs-tree-service-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/rjs-tree-service-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRjsTreeServiceLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/rjs-tree-service-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRjsTreeServiceLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/rjs-tree-service-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRjsTreeServiceLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/rjs-tree-service-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigRjsTreeServiceLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brooks Fipps",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Huge THANK YOU to RJ’s Tree Service, LLC on doing such a great job! The owner came out to give an estimate on a rotten tree very close to our home and had his guys out to take care of it the same day! Super professional, efficient and respectful of our property. Can’t thank these guys enough!!!! Highly recommend for all your tree service needs"
-    },
-    {
-      "author": "Doug McCullough",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Work was completed within 2 hours on  a ~60 ft. pine tree. Cleanup was well done. There was no damage to the surrounding lawn. Overall a good job."
-    },
-    {
-      "author": "Lisa Corley-hughes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I want to thank Rj tree company they did a amazing job cutting a tree down and trimming a couple others tree and also cleaning up afterwords they were all respectful I would so recommend them again again thank you all for a wonderful job done"
-    },
-    {
-      "author": "Jerry Hazen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The men in the field are very experienced and professional. They Know how to cut the limbs and bring them down very slowly and easy And they clean up the yard very well after they have done all their cutting I would.\nRecommend them to anybody looking to have their trees trimmed or taken down?"
-    },
-    {
-      "author": "Todd Ritchie",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "RJ and his crew recently installed rod and cabling on a 25 year old distressed live oak tree in my yard. They also pruned 12 additional large live oaks and assisted with pruning/training 7 younger live oaks . They did a great job; I am well satisfied with their work ethic and the completed project.\nI look forward to working with them on future tree needs and I would gladly recommend them for your tree work."
-    }
-  ],
+        {
+            "author": "Brooks Fipps",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Huge THANK YOU to RJ’s Tree Service, LLC on doing such a great job! The owner came out to give an estimate on a rotten tree very close to our home and had his guys out to take care of it the same day! Super professional, efficient and respectful of our property. Can’t thank these guys enough!!!! Highly recommend for all your tree service needs",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdMJG8Egi7J-qQHVHb2q9y06f8sWx4KzR9hwreRAVUYG5qg1z5YNvde8XQVT_XIVXQQXRlUBk3H9Mq5W5CAlbTJvn_HQb2TThTGC15xPsg6jQ3YvzsCWHJ_6wwCnU8LpC40t0w=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdpyPc9hwWbcxSbVXfp0Dla3BoWfuvGZStTKSHJE8980ib57dxBSxh7GxA4g7KeitP3wzV4yMiHYU8w5oV5MYNPp_AyEBBEnfDSd6Zlc0pmJXl9WlTD4QwM8jYo0faqYPzDyVMo=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Doug McCullough",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Work was completed within 2 hours on  a ~60 ft. pine tree. Cleanup was well done. There was no damage to the surrounding lawn. Overall a good job."
+        },
+        {
+            "author": "Lisa Corley-hughes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I want to thank Rj tree company they did a amazing job cutting a tree down and trimming a couple others tree and also cleaning up afterwords they were all respectful I would so recommend them again again thank you all for a wonderful job done",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgal9l9GIezhSeJAPwobvg5x1WuoL_49Z0cL7vVykpNYRaB5BjyrnbfCfGNUnQ9Kh1Lftp_m8xP2DbVgwtlWyacOYuDXnhC_VeO4WRXL9tYy0BvYnvB4orIna2ijPPS607sLmcbQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3sVpumj89oeMh0g_e4gCw8CuTUs0TUYFpO1LHNPXvb1DOUl9jnWQL33TWaLjpsir7JMRiIKJj9cdElhrSbsULLfFTxAefCncM1bqRazU5eiCiw-tNxXbr58azMmGf7HcpHe6-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhVE64tlUsBUaU_1BLO1sgX72w6GjOu3akZJQpbBAxMb3cKIBV2pjwfVoWS9vbrgYdYAV48csz08YzQjmUF55UgID_knaH5w2Uafo7vFP5OIO_AWEnD9H43-gU7DpcQPkAkM20-g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeamRb1q4bw6QG4ueQMbIHbBQ2pXGzhTJhflJA_FgYwFZDm0X49u5xj36J7-vBAnLTrYuD_x-XWVPlGTsTGd0YOMz597zvNqKIs5MbBbD37xg3ShoGI84Vq_fqZtUnSLNC_3Pvf=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jerry Hazen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The men in the field are very experienced and professional. They Know how to cut the limbs and bring them down very slowly and easy And they clean up the yard very well after they have done all their cutting I would.\nRecommend them to anybody looking to have their trees trimmed or taken down?"
+        },
+        {
+            "author": "Todd Ritchie",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "RJ and his crew recently installed rod and cabling on a 25 year old distressed live oak tree in my yard. They also pruned 12 additional large live oaks and assisted with pruning/training 7 younger live oaks . They did a great job; I am well satisfied with their work ethic and the completed project.\nI look forward to working with them on future tree needs and I would gladly recommend them for your tree work."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

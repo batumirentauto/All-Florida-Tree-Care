@@ -32,21 +32,9 @@ export const siteConfigGeneralTreeServiceIncEn = {
     "ctaPrimary": "Call Delfino +1 336-213-3449",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/general-tree-service-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "General Tree Service, Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/general-tree-service-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/general-tree-service-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGeneralTreeServiceIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/general-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGeneralTreeServiceIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/general-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGeneralTreeServiceIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/general-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigGeneralTreeServiceIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "M L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Start to finish a very kind, thoughtful, and thorough job. Wonderful price, and never tried to sell me more than I requested. Great group of guys used everything they needed to complete three tree removals and raising the canopy in a section of woods. Highly recommended."
-    },
-    {
-      "author": "Fabiola Martinez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent service from start to finish! The crew was professional, efficient, and did an amazing job removing trees and cleaning up afterward. Great communication, fair pricing, and outstanding customer service. I highly recommend this company for any tree service needs."
-    },
-    {
-      "author": "John Reiland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My wife and I just finished having General Tree Service cut down a huge red oak tree in our back yard. These guys are outstanding. I am way beyond satisfied. Delfino and his brother own the business and are very conscious of every detail. They went above and beyond and I am sharing this so people can fine honest local hard working small business owners in Greensboro."
-    },
-    {
-      "author": "Karla Espinoza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Delfino and his crew are so attentive and careful with their work I couldn’t have trusted a company more than them! Best tree service in the triad I have to say, very happy thank you!!"
-    },
-    {
-      "author": "Graham Nagy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great group of guys. Delfino was friendly, prompt, and gave very reasonable pricing for the job. Would recommend this team to anyone in Greensboro."
-    }
-  ],
+        {
+            "author": "M L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Start to finish a very kind, thoughtful, and thorough job. Wonderful price, and never tried to sell me more than I requested. Great group of guys used everything they needed to complete three tree removals and raising the canopy in a section of woods. Highly recommended.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUgo0_Nvchau_5YnqhFLNzVsC9-98EoVdo3TvVCSt3Wms4IA2ZW2OfDyQ7svEtXvqrVO4LJG16SfOKvqW82swNjWnI5dPVTp4bifMocgZWUxAqH6864V_THIyhNJl9VplkOlPje9jWdCXh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl1iPV20grM7Jl1CWFxG2PKrhYg2SI0cWES5nqB0Wxp5XfJIi74wfGMh3G7OXrJgFJXqov08BNENiUKnDMT-Gero8l_xD-A41Tvb3rjiSpbe2bTNHSp_pZXOwRpl_u07wGXBP-qv85YcI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzF8V4JfzSbtRtgH9kFByrxK_yHSiwY3qH_v7hl_gVqYuzHd96vspxxGIV2wi2JyltN274IszMXZUqT1iTz5Yee-v0avjXWP-J3-OnRlqc98R6L9m1-Jw53Xc_J26ZKxx9LvSYHTIMZliK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTx_qd6vLPHeeJlCiwYKvXrmTg_AiAu3E0JyOd2LEqaKMD7djlMYTiOt7k9XY4ziGOqesVKJ-FyZ5UCJvqZCNRrbalng3_a_H-aHlmF8FBor_zj0i7ZcVCybwc8MvLqqt99xjePR7rW4A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Fabiola Martinez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent service from start to finish! The crew was professional, efficient, and did an amazing job removing trees and cleaning up afterward. Great communication, fair pricing, and outstanding customer service. I highly recommend this company for any tree service needs."
+        },
+        {
+            "author": "John Reiland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My wife and I just finished having General Tree Service cut down a huge red oak tree in our back yard. These guys are outstanding. I am way beyond satisfied. Delfino and his brother own the business and are very conscious of every detail. They went above and beyond and I am sharing this so people can fine honest local hard working small business owners in Greensboro.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyVr_ksGwZORoOiJ9fRuYS4Z5XS0BeT-FZxBXv_lQu0mvexHpwQO74AxJG-C1yFua-pHs6Hr5MVWccm4_5sJz5ZWxdyfhHe3SvuGrtZcWr9NC5VywMFiYbmbEo5RcUvw6W3m0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeADBFjQBWNMiCMAgfQT0mhzWS7ZOOiNH8t6mu3dr0GtPc65xnghHZ90_KCB-qixmjcC_3430HYbi54ZPM4LXLIwlCJELM8c5zvsbNYLFbL9N_r4XSh38Jb4BBOB1WDbBSXhzMtPg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAaSMWmB7gZlJG7xMX49NE4XOwDoFhq0ejqBhgc3pneZU9CaBZfAIgrJ_hpHXFigH6mQ85Ngr_L9-tHFJtMAvEEJsFWXhb1yb09B7_bgPqKDmpf5yo_dDwOQOIY9ceEVQCvNqR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp8mTch_a7e2bceEE7s0TfuemMhnI9RI5W7LEmFA42Jm50JxNt68Bm9rmgGEaAcfMiv_5l5Y6kDplqRUtyPEbY_JfZWu7KrhjHcKG7MlEldcylV4wBb0MHy16l_wwqQ50Qucw9=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Karla Espinoza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Delfino and his crew are so attentive and careful with their work I couldn’t have trusted a company more than them! Best tree service in the triad I have to say, very happy thank you!!"
+        },
+        {
+            "author": "Graham Nagy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great group of guys. Delfino was friendly, prompt, and gave very reasonable pricing for the job. Would recommend this team to anyone in Greensboro."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greensboro (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigParmeleeTreeCareEn = {
     "ctaPrimary": "Call Lead +1 727-224-9871",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/parmelee-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Parmelee Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/parmelee-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/parmelee-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigParmeleeTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/parmelee-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigParmeleeTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/parmelee-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigParmeleeTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/parmelee-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,67 @@ export const siteConfigParmeleeTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Michael Scott Novilla",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The Parmelee Tree Care crew, Michael, Butch and Chance we're fantastic to work with! They provided me with a detailed explanation and quote; what I needed, what I didn't need. Obviously, these guys have been in the industry a long time, are very professional, and organized, and neat. Their equipment didn't mess up my grass lawn. Their pricing was fair and with good long term value.  I was very happy with their service and prices as there's a lot of hard work on their part, using their really cool lyft to go way up thirty forty feet into my huge oaks, over the house, Etc. 5-Stars to Parmelee and the guys!"
-    },
-    {
-      "author": "Wolfgang Kush",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "On time, very thorough, and professional.  I had Parmelee come in to remove a couple trees, cut and trim the dead fall, clean up the yard, and replace the mulch after hurricane helene.  Definitely a solid crew and I highly recommend them."
-    },
-    {
-      "author": "Kerry Gooman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Butch and his team did an amazing job cutting one palm tree and trimming a few others. Their pricing it's very fair and I would definitely recommend them. They have all the equipment needed to get the job done!"
-    },
-    {
-      "author": "Mary Dickson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "To say the Palm trees in our yard were overgrown would be an understatement.  During a rain storm, Butch and his team took their time to trim and pineapple top our palms, clearing the piles of debris as they worked. I'm very pleased with the quality of their work and love the results."
-    },
-    {
-      "author": "Susan Buchalter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Duane (Butch) and his crew were great! Timely with response and getting to the job. I felt completely comfortable with his advice and guidance for trimming my live oak. I would absolutely use him again and highly recommend   They were also Very tidy!!!"
-    }
-  ],
+        {
+            "author": "Michael Scott Novilla",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The Parmelee Tree Care crew, Michael, Butch and Chance we're fantastic to work with! They provided me with a detailed explanation and quote; what I needed, what I didn't need. Obviously, these guys have been in the industry a long time, are very professional, and organized, and neat. Their equipment didn't mess up my grass lawn. Their pricing was fair and with good long term value.  I was very happy with their service and prices as there's a lot of hard work on their part, using their really cool lyft to go way up thirty forty feet into my huge oaks, over the house, Etc. 5-Stars to Parmelee and the guys!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVg9wv2lTI537QRNG1G0cnXvlKSigICOqa_IwfKlXPF9Ohzft2WK6GZ3qZiLhkCOT3VQtS5EAoIvVby69KG3uNSODF92P5Uskq9lr09qFWDfgPpuqG_nNFw38tyNkU5Dnq7HI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8mM9-dl8wX4-8_04jxZqkbDdJ_7ls89jiDCiLb6HGF7j029ZK_tkW_oQ4EeEjMmm9TSXCzTCADuTaO-t_UvheykdPDhgf1LkgHXgpnkKoAfmxlxNdo7ly4NuNeB-YTFB4qRzWNQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLct1ZUUioXsJs8SDagUuvCNRbHtLQyjOh-6e28sBcc81C5xz90tHqWeiya5NuUBtx9bf98glhSAoSAq0qfhAfGwOYQcdEd40HPyNgF_E82KG9SSZaex4r4o2n599rsaXSrO2ug=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5HiejuWaNs1yFUZMEaDFgzw9X8Vk-8BTnjAmtEqimBA_y-Eb74LIR2asWsQ9lyedu193CY_6OWwRxgsonVBaINHKY46Y986lWFWOAUWJyHbexm9e38ixE0oZX6-DGcPp4c5hc6A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Wolfgang Kush",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "On time, very thorough, and professional.  I had Parmelee come in to remove a couple trees, cut and trim the dead fall, clean up the yard, and replace the mulch after hurricane helene.  Definitely a solid crew and I highly recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLefWF0SuR9qtRnzzj1WUxP296bj81b2jyaAYYvwwc_3z-r1IOZaieyfg7Eh96cQXtSH8tA3VYTEfalboPqEynFKGfJTT_JfwrP9Ynss8ebynXNeCQJCoAoS2fo6TtodYwstvp0=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuLakoHpHy9wbQL21OAKLc4FXVk2Q6yQYoeWm0qbYg_jyT5cRNsKyUGvUPrL6YOYxVb83eBFENJv_ei4ng9lHDMcVptMIJ4SPAGY_BEdJOvgYoo4Z6_u-Nb5ZhK1NYOyJqdaCJQg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe6zFTM5scOe_lg7AA8N1YJnLc1PNUZH-hmc5BJRBKrq5Sp2XukBTOFGIRMI8a84ErdlUpzIBwTLIVyiBgUhOtzysx-axXiOjKWDen0DCDsfEOSfYSF-56hvZXQONGw9OR1INUA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kerry Gooman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Butch and his team did an amazing job cutting one palm tree and trimming a few others. Their pricing it's very fair and I would definitely recommend them. They have all the equipment needed to get the job done!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaKnY0Ff7ELf-jwQdA36c5WGk-3TcYaZOJCqFF-7TkMrOgp38HdRt2aOyaAPsje0_dEg9kCFZyFQ_glhJF-UOqxeoDAtd2jxvTHjmt5cpsBVeZ6sbP0PjucpeocytZ1L1k2_wvP0YOf_4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzolE9-iCF1HNECsKNCLXTCDEJ0KtSK6aOrEMJPVVeBGADHJ2pQTm6ZQTQo5nNE_r-xUkvu_JWgqHOkJWyfwsGZH1JUOVhkObPrjkDl6Ys-QLrG7n46XMZdfMRycbHHdeSIwp7m7mAmrER=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnFgbhVYWwuXU3YcQCGDg5pcez-FB9YoHrW3XUGZ-ESpxoZvrsygfjbBFQUSryvuqnNjFYb9RTNW8aNFcAdcri7adFGwkIZ9kOvI8LBLavQhDynx62ZIcaFRFiKHJMWX2P0cQx11vGXV9o=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mary Dickson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "To say the Palm trees in our yard were overgrown would be an understatement.  During a rain storm, Butch and his team took their time to trim and pineapple top our palms, clearing the piles of debris as they worked. I'm very pleased with the quality of their work and love the results.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGv19avQLnj33cA7R0_jrZsSGLkTFvW1Mdhaj6P_kYF6NYLUEtFJRgdV7F74aDyOx8pLcOVUbvhDAxTO2I98-Sxb9PNUPr-wm6LVZc_pbw25qk94_49_pcDI7sDh0j8BG1p1sj748G3Qdi=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXPtgsyl2hqFt8ksNHzmVhpfzQcsX6Rnvj5OH7aJcq0aOEXIX0Z_sUKOSuU0NIUZBWgjI40sNHxWJKHZOT5eesnm6YBpkFXeW3_0DbB9QzO6wB_lL4nr2yNgG_PyEG0NAvEVBHhs78L6vW=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Susan Buchalter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Duane (Butch) and his crew were great! Timely with response and getting to the job. I felt completely comfortable with his advice and guidance for trimming my live oak. I would absolutely use him again and highly recommend   They were also Very tidy!!!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "St. Petersburg (Central Depot)",

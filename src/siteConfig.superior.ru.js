@@ -31,11 +31,7 @@ export const siteConfigSuperiorRu = {
     "ctaPrimary": "Позвонить ((678) 491-4703)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/superior/photo_001.jpg",
-        "label": "Верхолазные работы в кроне",
-        "alt": "Арборист на высоте закрепляет стропы в кроне большого дерева"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

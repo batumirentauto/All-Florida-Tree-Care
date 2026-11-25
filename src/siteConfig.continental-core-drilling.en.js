@@ -32,21 +32,9 @@ export const siteConfigContinentalCoreDrillingEn = {
     "ctaPrimary": "Call Juan +1 252-290-1492",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/continental-core-drilling/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Continental Core Drilling & Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/continental-core-drilling/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/continental-core-drilling/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigContinentalCoreDrillingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/continental-core-drilling/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigContinentalCoreDrillingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/continental-core-drilling/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigContinentalCoreDrillingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/continental-core-drilling/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,74 @@ export const siteConfigContinentalCoreDrillingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Roxy R",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Professional, responsible, respectful and great service. This was a challenge that Juan and his team was able to complete in a safe and clean process. Highly recommend!"
-    },
-    {
-      "author": "mea culpa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Juan and team did an excellent job trimming the trees around my home. I was very impressed with their work. It was easy to contact Juan who showed up the following day to provide an estimate.  He is honest and reliable and his price was also fair. If you are looking for a company to do tree trimming, don't look any further, call Juan! I don't think you would  be disappointed."
-    },
-    {
-      "author": "Ashley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Juan is absolutely wonderful to work with. He came to give me a quote for the service I needed the day I called. They came on time as scheduled and did an excellent job! They trimmed bushes/palm trees, pruned a large oak tree, removed 4 small trees/2 tree stumps, and bamboos coming in from my neighbor's yard. My once overgrown yard looks great now. I will continue to use his services in the future and I highly recommend his company to anyone looking for a trust worthy tree service."
-    },
-    {
-      "author": "E&T Al",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent services and work. We called to Mr. Juan and he was able to quoted right away. We needed to cut a palm tree that was damaging our pool. He came so fast with options and two-days later the job was completed. Grateful to find this company! We recommend 100%!"
-    },
-    {
-      "author": "Risa Bos, MA, LMHC",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I hired Continental Core Drilling and Tree Services to do some significant trimming and hurricane prep of my rather large, overgrown trees. Juan Villegas and his crew of hard working guys knocked it out-of-the-park! Juan is a pleasure to work with; he's knowledgeable, patient and very responsive. I am thrilled with the work they did! 🌳🌲🌴"
-    }
-  ],
+        {
+            "author": "Roxy R",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Professional, responsible, respectful and great service. This was a challenge that Juan and his team was able to complete in a safe and clean process. Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbynre7LohGnAsj7TPJtYgHqnD2ah7pWjbkAzSSR-UOi2tUwPt0GgjR4hNVLwjI3i0_tFKsIsmBCr1Dc1W0GpTiwBfR-qzIS4dDjyEFFSPLXcorIUOSN4mfvn3bgQ8iOjWvbrvAu8MDT6n=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMlBxBQPOtOskdj6m_NjEu72Na3pEpaNksM9Nv1ppjMtYOqgW2oL_gkWutv47eWwLq4U71LCcF727e1LxAzVdlZtQkoF5_ENfx5jeVfiTuKR1nbGvNomK7lUa29_TBDWS-u0xHPG4cq0ov=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbrmz-_Bw8-VCjCYUzePekDkm2VOpaGC2MKh5IGXZWxvUC1m7n9lEURwULnto1fd0smHDQyX92VzrZCGM5X93MZIxw1VYOgrC2o0-XkZ2WqlAV728VsrsU29rGwB0eAqcardxFkgxNBKx7=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwnNlv1FV7DkWFKIYTp0Rrkcxri5Cn8XAuSznoQBvlVLnPEhCTNxncQ8GZArWNdv-MI_RWxaydcOodgiY6uu9XMeN3dM_oxaT1-8eidP-mAJDnwoC6f8PrYQWY_LMoUKZ1vEybTm38y6OD=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "mea culpa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Juan and team did an excellent job trimming the trees around my home. I was very impressed with their work. It was easy to contact Juan who showed up the following day to provide an estimate.  He is honest and reliable and his price was also fair. If you are looking for a company to do tree trimming, don't look any further, call Juan! I don't think you would  be disappointed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-N6dffXO9W_UsUpFK394CWQP-pOkmVJGEIwy8IsL0TIyefiZ-yHvPoC-HnlGpUfq897md_hfa6314e31n7olUeDRiU9r4FYaZXLdcTEoh_StiScTOKXFQFCgvQb-aKlzRPLygbg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGMeAdBcffBjApAp1eXzXk_RXNT6AAqZbjOuak0y4wf8wknQx_6l0aWrNzntVQshr6vrGbYw8tesloFgG8U5vPhGvqpL2YectTo_aPkR1B0UfPvJMSJZSfhHqnobUEw2xBNBOU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeOjCOC67i699wIyrNXJ1Yc6wWgfpDLC3AYz_AW2txZyQqY_KrYlMZgsTUT6XsxO9Vz6f45xYhKbKo3Sfwdg3d6v57S4niMugkaQkzVANvIuTcTl4tToH1ahVRfkEbMOGiimeJt=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd9n31dcJwGtD3ydib58yB4xlRmDYi2rv2NNqHtK_InI5-7kb6PvpxQUlW_Ek-30BFDaXfWGThRCFmvUTdcT9moaNuIu6BK9kNjc-wbwdY7zkFhoHQetmOYkROKhYXkh8Z4Te6C=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ashley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Juan is absolutely wonderful to work with. He came to give me a quote for the service I needed the day I called. They came on time as scheduled and did an excellent job! They trimmed bushes/palm trees, pruned a large oak tree, removed 4 small trees/2 tree stumps, and bamboos coming in from my neighbor's yard. My once overgrown yard looks great now. I will continue to use his services in the future and I highly recommend his company to anyone looking for a trust worthy tree service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEWlWDc7Hswm40_-0QCqZcUSp2yjlSddyTWtL3lRfNBX-Evkz5rNr-Tewseo04FE7HVOw1Wejclmky4Z_uPiDktWUY1zdXY9p-MmPtKIJSndp5S6GATg1jX8JOMjuo4miVDc6t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVv1UfK7tv1h1RK6qD_rdetiwhzNePtXd8_jpLCz1HtNVGVWnpycWLoPA5_ZFT13JH9x1l8c8wsnwOhBNdIpUPe5eHoav0vSZ2tNOeISADb4ey-QVQPYi4-WhYBRpmLjPqz02p=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6r5RRvjuspHzyKrKxT2hVh5DLcD-CHEIox9GVxyQTin7Ym6WfOu5D0tPIedF0HZ5RbIp9mKROw7-mmv2pKES3LOM-TQGDLt5SLq9qMFYlqYVFI_vfuilQe0mb_NF8dzMkOJRsWg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePxTv-_vCNCyvaLYGd_Ggt1Vwq-7u51It_N46WuxEGsj20CZ-i3U7vORWk8-oNFst4HC6zMIdR50kra4S5VpFYbU_lXUyCYG9GplABs597DBlowdIYkbyrASi9ivWjPKGr1xU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "E&T Al",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent services and work. We called to Mr. Juan and he was able to quoted right away. We needed to cut a palm tree that was damaging our pool. He came so fast with options and two-days later the job was completed. Grateful to find this company! We recommend 100%!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewzvDGU03HPp0Ev2lb6Nob2UAAklHAtQhZYGvqe03nBs8s7-BEXSbvC5fKyytzIgl7Kvum8Tce5cLMNVPuH3RqUqyuhmcRCiMEH78IXyO_tKPgv_MWevQ17Hml3TPlK1mgXUO8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0amw_YT0Roj09HRtCXZOoadirayPUxZkEfhRYRNUBWICA1xlHEJ5WNBSS1RMT2RXIFiB9WXP0fIDv8t2Bn4w-Gya_mxlHvvgrjbn6SESjcX_xGgDQY7NJsw562xcdjUp18lCAug=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Risa Bos, MA, LMHC",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I hired Continental Core Drilling and Tree Services to do some significant trimming and hurricane prep of my rather large, overgrown trees. Juan Villegas and his crew of hard working guys knocked it out-of-the-park! Juan is a pleasure to work with; he's knowledgeable, patient and very responsive. I am thrilled with the work they did! 🌳🌲🌴",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAFeTeSp6dMNDj1ntm72Oea_6lL5Q5rxP54z-YshNuPoSFg3K7rmACpeGqNgKceuZCqkZkkfeGlWXwbtlk2dHn516jM3EtkhRk4VyNJ8qRpC7GQDYxOVTaDkjpg6a-x7DO84mmcw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcaQlb7sBrV0UuI7pS_9XrOPKWpQ_JdrPN5iQTRE22Iysz2QH6zYAHQ18ICOIuaqcAypiDY0go7bUxcDn-e8aY3PEo6BpANWere0S-uLZbQzQLWSRlnnizhl_go4wgRzjcRzkD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0kDLYJYIV20ZI4bKBFVRpXjqiqLcaWzf_7KYb8f-kQINCuJDkifTem7PjIT0Rmmb1RJgfJoGat8IxG1AP399wy6MNA6HYccD_XPQJrUGKcZbevoQlEN6Lc3uoHS4ESsDYfHAQ=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Buena Ventura Lakes (Central Depot)",

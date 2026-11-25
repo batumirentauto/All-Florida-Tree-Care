@@ -31,21 +31,9 @@ export const siteConfigYatesTreeIncRu = {
     "ctaPrimary": "Позвонить (+1 210-349-2977)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/yates-tree-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Yates Tree Inc."
-      },
-      "sub1": {
-        "image": "/images/yates-tree-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/yates-tree-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigYatesTreeIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/yates-tree-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigYatesTreeIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/yates-tree-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigYatesTreeIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/yates-tree-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,52 @@ export const siteConfigYatesTreeIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A cut above (pun intended) the rest of the competitors - and I have used several of the “Name Brands”.  Personalized service, experienced crew, very knowledgeable + the price is reasonable.  Working with the owner, Jim Yates, was easy, as w..."
-    },
-    {
-      "author": "Kat L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Murphy’s Law: If an emergency is going to occur, it will happen on a holiday weekend.\n\nOn memorial weekend, a huge portion (about 1/2 the tree) of a Texas live oak split and landed on my roof. I left messages with several 24-hour emergency ..."
-    },
-    {
-      "author": "Christy Mondor",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I reached out via text and Jim was out the same day for a free estimate. We had our large tree in the front yard trimmed, no more annoying moss balls! We also had 4 other trees cleaned up and away from the house. The whole process was easy ..."
-    },
-    {
-      "author": "Kim Kifer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Easy & pleasant to work with.  Superb job on my Father's 5 large trees as we get ready to hold my Father's memorial outdoors later this coming month...."
-    },
-    {
-      "author": "Lynne Levy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have been using Yates Tree for years.  Bottom line:  I would never use any other company.  Mr.Yates is THE expert.  I trust him to care for our trees and shrubs as well as he cares for own.  He and his crew are honest to the core, timely..."
-    }
-  ],
+        {
+            "author": "Joe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A cut above (pun intended) the rest of the competitors - and I have used several of the “Name Brands”.  Personalized service, experienced crew, very knowledgeable + the price is reasonable.  Working with the owner, Jim Yates, was easy, as w..."
+        },
+        {
+            "author": "Kat L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Murphy’s Law: If an emergency is going to occur, it will happen on a holiday weekend.\n\nOn memorial weekend, a huge portion (about 1/2 the tree) of a Texas live oak split and landed on my roof. I left messages with several 24-hour emergency ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHVAGZxM4PBXK0edJp1R65PWo5lWTLRT3355TlqG6H8iVBHUf_2I-Z1_1QSkFuJReAqwPS3LsXIrqYgFQ94keEzowxw2fQZg3hMt1NlL6tkLviOzAmGWQhLC-8DB4UN9KuLAHJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWZ-o7rMMQpFCSTuo3PwgjJyoOCCyTDHa8L_0EpdGvmbymZSsY90vr_OXsye8l7VyICZ5_j2YaQRQm0NsaYL51aPMyPpnG5z4kv15hmU2G-eq1RPT_Dy_TNvSEMHIKepZlVutSiA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIckOSG6dK3oSh-uXCdt-nGOEGQp7UZ-2_frbTnPszIVwMcokG9M4daxqhF40YDfPC0_nTCkJDGkKPomQz3ht4Hx1NBLjklFoG8oaIWG9TPWLhExn_G0LD6ZS-6_GkCsFSXkKP=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Christy Mondor",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I reached out via text and Jim was out the same day for a free estimate. We had our large tree in the front yard trimmed, no more annoying moss balls! We also had 4 other trees cleaned up and away from the house. The whole process was easy ..."
+        },
+        {
+            "author": "Kim Kifer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Easy & pleasant to work with.  Superb job on my Father's 5 large trees as we get ready to hold my Father's memorial outdoors later this coming month...."
+        },
+        {
+            "author": "Lynne Levy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have been using Yates Tree for years.  Bottom line:  I would never use any other company.  Mr.Yates is THE expert.  I trust him to care for our trees and shrubs as well as he cares for own.  He and his crew are honest to the core, timely..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

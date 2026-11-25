@@ -31,21 +31,9 @@ export const siteConfigTreemastersRu = {
     "ctaPrimary": "Позвонить (+1 415-455-9933)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treemasters/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Treemasters"
-      },
-      "sub1": {
-        "image": "/images/treemasters/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/treemasters/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreemastersRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/treemasters/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreemastersRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/treemasters/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreemastersRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/treemasters/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigTreemastersRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brooke Peterson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree Masters did an amazing, highly tactical and Incredibly professional job of removing our Elm tree. They had to work in a very tight space between two houses and were able to scale the tree and bring everything in and out via crane inclu..."
-    },
-    {
-      "author": "Doreen Stock",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Two big oaktrees were expertly addressed at my Fairfax hillside home. One cabled per instructions of the arborist to prevent limb breakage, the cable of the other checked as well, plus excess-weight foliage removed and chipped in my drivewa..."
-    },
-    {
-      "author": "Licia Wright",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree Masters is the only Tree Service  you will ever need! From the initial phone call to the last handshake William , Sammy  and his hard working crew are the guys you want on the job.  They work hard,  fast and together as a team to get t..."
-    },
-    {
-      "author": "Daphne Edwards",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: High praise for Treemasters. I have both professional and domestic experience working with William Cross and foreman Ariel on both tree pruning and removal. William is highly knowledgeable, organized and a great communicator who clearly car..."
-    },
-    {
-      "author": "Ellen Parsons",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent experience. The arborist generated a video and instructions of the job for the estimate. Two weeks later the Treemasters team topped and trimmed a very tall hedge (had grown above two stories) and removed fronds palm from a very l..."
-    }
-  ],
+        {
+            "author": "Brooke Peterson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree Masters did an amazing, highly tactical and Incredibly professional job of removing our Elm tree. They had to work in a very tight space between two houses and were able to scale the tree and bring everything in and out via crane inclu...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOp6DiFASIej0FQbdFQn2-asD1xdGpsQ9C-cydKK-F3irWYert1gHIUfuB7oOYXnqqtrTDy5M9oAVaz79OHi29T78J90PtKq5ynZBp63ucwOosciOxUDIQUssDFjqz4jEhwjrAd4tbh9c=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxmAdQ6hlYQHuaBPu5tsLsI7tMqbWX3MRvo5V7uOA2kh2_AVWxgT-kpIBhJE0pEuBzu71iVfZw4YRcItHQwUk7kGThPye1Eih62bdW_cTM-d2pqeR_S6IWtIcTtCAPSX3vr5SZgu-Fgn8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdsToDZ6gMfKDxHPZygXt_XXAWlhTARKrqYQryS2ZVEaAq2gIjjcbG0iOyDjEcJOmYdE_l-Bt_70ChhTxDKlgtBlfNJanEOWdQk-p3ZvMlMOmAs26OjVKpz7POiSkI1OCBIws5RxiUuAE8y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfq7Hsv8l6S-_UVZAiip6JZdZnfC0c-pF-uLNrlpxdEqYcAFVv_X3_3vcQg6ubxEVdTjnQjIz5jQwyg6_ZLZb3_KefDpNFU9xcpdC7PlfsWW8RcyIhBQybQ0Jet1NvmZRNfCf2WXhW2VSA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Doreen Stock",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Two big oaktrees were expertly addressed at my Fairfax hillside home. One cabled per instructions of the arborist to prevent limb breakage, the cable of the other checked as well, plus excess-weight foliage removed and chipped in my drivewa...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduG3iYwYt1w-5O4cfJF4-jCgTw--lErbmEnNj6Rrmys7YWLTWZSYIEyU4n9bjJJZ762U4kEAKEU3cWyvlHzbm3GZYvmqvJpoqHAXMtDyXIXOC3TqXcgiwA9b1aUd-ReZXtWLebvbYVzOLa=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHZkJfm1nC4VgLSc7SHiUnwCNzO9T4XT_m9i8mPD9loIR2DP5PVKPVca8aIygL8Ik1aI2kkykJMmApvFAaP7DcdymQGse252IfsWdP2KBHww7_uuVrjCTchfYY4mdL-CE8aWAhFm6QLoAh=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Licia Wright",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree Masters is the only Tree Service  you will ever need! From the initial phone call to the last handshake William , Sammy  and his hard working crew are the guys you want on the job.  They work hard,  fast and together as a team to get t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejMrU8fdOaa8SGvadqJce00cqg9R0bRDsKkCSZNCox-eSxwxCn-IwhCoAwvApZa1fZUlHXE_EBjv64Z4qEDLAcZIX_RK17GlaUr3baXdeHWqLS0yqkbZNUzwEORhuNpSrrqebEiRNCXWA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZLmymSW2CmGejdBiwJ7YF7SesKJVhIA0mCWRYTOyFAhDG6HhxS9PnWVFiYm53R6cA749CWb5KSoc_6-rGDm07O6Uys2vpSgb-wOzhise39VWtgJPtiVbaSeXtuQt2R-80y-SLE9WWKv-Z=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIo1immVJi5M7pw7aCII7ASCKBdTxhOT8mUApZABnWGHg4s5Ca6n4Tje-VCHYPn6UhlMGaJ3qL0-_0m1Q8KDj1Pet4aadB_95gCiZ6Je64k_rTrZijIbz-r0oUwgd9S_ZCLdCFA3AdyEA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Daphne Edwards",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: High praise for Treemasters. I have both professional and domestic experience working with William Cross and foreman Ariel on both tree pruning and removal. William is highly knowledgeable, organized and a great communicator who clearly car..."
+        },
+        {
+            "author": "Ellen Parsons",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent experience. The arborist generated a video and instructions of the job for the estimate. Two weeks later the Treemasters team topped and trimmed a very tall hedge (had grown above two stories) and removed fronds palm from a very l..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Rafael (Основная база)",

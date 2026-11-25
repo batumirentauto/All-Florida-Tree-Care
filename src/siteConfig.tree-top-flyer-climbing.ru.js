@@ -31,21 +31,9 @@ export const siteConfigTreeTopFlyerClimbingRu = {
     "ctaPrimary": "Позвонить (+1 803-683-1708)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-top-flyer-climbing/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Top Flyer Climbing Services, LLC"
-      },
-      "sub1": {
-        "image": "/images/tree-top-flyer-climbing/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-top-flyer-climbing/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeTopFlyerClimbingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-top-flyer-climbing/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeTopFlyerClimbingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-top-flyer-climbing/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeTopFlyerClimbingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-top-flyer-climbing/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigTreeTopFlyerClimbingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Tommy Sands",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently purchased a home with a large Palm tree that definitely needed some love.  I saw that this tree had some real potential but suffered from neglect for a number of years.  It was going to take an expert to return it to it's glory, ..."
-    },
-    {
-      "author": "Pat Flynn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very professional, knowledgeable team. They safely removed several trees, one very large tree, trimmed others and cleaned up the yard. I’m very happy with the service. Patrick F...."
-    },
-    {
-      "author": "J.J. Hammond",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They did an incredible job on a 7800lb pine tree that was tucked in between houses IN 1 DAY. Come to find out the tree was cracked so divine intervention. Thank you very much...."
-    },
-    {
-      "author": "Sarah Rice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a kitty stuck in a tree and Tree Top came as soon as I called and successfully freed the kitty from a very high perch. They were helpful and encouraging during the whole precarious process. Both husband and wife are very knowledgeabl..."
-    },
-    {
-      "author": "Stank Nasty",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Rescued my cat that was way up in a tree and too afraid to climb down. Nice folks, know what they're doing...."
-    }
-  ],
+        {
+            "author": "Tommy Sands",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently purchased a home with a large Palm tree that definitely needed some love.  I saw that this tree had some real potential but suffered from neglect for a number of years.  It was going to take an expert to return it to it's glory, ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmH5VBMwaqxLOk7IyqotEe493Kq68hkyo5Mn40ECW_GeO4xEkqogJ6azP7LeU_aUzd0ydZeuTfoOWJlZbOqnd9wVNqu-Hbdar0ngoskEd8zqZHy1_tGGfkk69QpKZoEcrvlroP=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5ThnqKUSBSQDlJdt6ZyfzFz6vGtWSy0_cb_jRlJJ9QiqIJYx96Si3NxNn6FO0Vkj7JctV1m_uGS3Q0iPe1_4k4zFF6_IbIf7z0SyzpUMGExij3icnKVAXo8nXcbpeHsuj9469wQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_UC1f3TT0RwhCfNLygblY4uiQUE0posQf-4lFgmeuuG1of-1LfDlRCNA_DhTxDHt7HswtukreJw86E5iYcd1EjWxD_G570HwkDt4zFZjYsq-P37bdyyBa51_dUSeeba83p9s=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Pat Flynn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very professional, knowledgeable team. They safely removed several trees, one very large tree, trimmed others and cleaned up the yard. I’m very happy with the service. Patrick F....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdch62HwYzCltUh8Qb6b8bvN8nj6BgsS6RH2hjfJX1WRMjsew8yB3PKV3SxIj_dobrD_qdlspqT4a5gJHu7lr1c_jqtz7SZvyP3UKvcQBUMif-Gl0yMd4_eGfi4OF6NJPFcFHcjdw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnP4uB8D-0WNW9OBCjCKHYjGUACMlQpqZLfZsnk2hY7ssgzJ-xiSAh7g7ZKuWCZsbSzTLn0UPix11rDl-BTdAQJbVMMqweZhBio_J8dXOoTNojdwzGwODGYdcR4x9LnWmAahRF=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J.J. Hammond",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They did an incredible job on a 7800lb pine tree that was tucked in between houses IN 1 DAY. Come to find out the tree was cracked so divine intervention. Thank you very much....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4Tzmgg9op2V_RG16qi-FFjQB0U52RE7n301qdsj9qLKdU77T6umMz7YntVFXbhF2ylC5RnTn2LDFmLmYjUcJvxdrqN1sf94YaoR7QDKuN_QCa4uiOns7QNy28x9siy9Rk0xJt=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sarah Rice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a kitty stuck in a tree and Tree Top came as soon as I called and successfully freed the kitty from a very high perch. They were helpful and encouraging during the whole precarious process. Both husband and wife are very knowledgeabl..."
+        },
+        {
+            "author": "Stank Nasty",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Rescued my cat that was way up in a tree and too afraid to climb down. Nice folks, know what they're doing...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigBrTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 334-468-3900",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/br-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "B&R Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/br-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/br-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigBrTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/br-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigBrTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/br-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigBrTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/br-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigBrTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kelli Makin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had 11 trees removed from my backyard by B&R Tree Service and I honestly couldn’t be happier. They were professional, fast, and knew exactly what they were doing. What felt like a huge, overwhelming job was made so much easier.\n\nThis was a big step for me and they made it stress-free.\n\nThe price was very fair for the amount of work, and they were respectful of the property and just really easy to work with overall.\n\nI would 1000/10 recommend B&R Tree Service. I would definitely use them again in the future."
-    },
-    {
-      "author": "daniel anderson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "B&R Tree Service did an outstanding job at a more than reasonable price.  Billy & Ricky are a great couple of guys that I was happy to do business with.  I highly recommend them, I will be using their services again in the future as the need arises"
-    },
-    {
-      "author": "William German",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called B&R Tree service on Wednesday afternoon at 5:30 about a dead tree about to fall on my storage building. Ricky showed up about 15 minutes later ,took a look and gave me a super affordable estimate on the spot. He said they could start the next morning. Get a call back from Billy and he said after talking it over they would come right then to cut it down because it looked like it might fall that night. 2 hours later the tree was on the ground. These guys are GREAT!!!!!!"
-    },
-    {
-      "author": "Jeffrey Cronk",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys are the best!!!! Fast, efficient,  on time, very professional services, 6 trees were dropped in tight places on my property,  they dropped them all without a scratch on anything. Great rates, I suggest these guys to everyone."
-    },
-    {
-      "author": "Murl Ray",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Best service and prices of all quotes. These guys are awesome. Was on the job within 45 minutes of my call."
-    }
-  ],
+        {
+            "author": "Kelli Makin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had 11 trees removed from my backyard by B&R Tree Service and I honestly couldn’t be happier. They were professional, fast, and knew exactly what they were doing. What felt like a huge, overwhelming job was made so much easier.\n\nThis was a big step for me and they made it stress-free.\n\nThe price was very fair for the amount of work, and they were respectful of the property and just really easy to work with overall.\n\nI would 1000/10 recommend B&R Tree Service. I would definitely use them again in the future."
+        },
+        {
+            "author": "daniel anderson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "B&R Tree Service did an outstanding job at a more than reasonable price.  Billy & Ricky are a great couple of guys that I was happy to do business with.  I highly recommend them, I will be using their services again in the future as the need arises",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbBw5918DzELQL4XDIksUelwYNQLCR2wXKpJ2SAl1cq2v3tVkiaFmpSfVwzRKO05h2ZTGJ373wZHwyGNqKNt-GJhiKCHkPFM-Vkd-a33MeTXsC8ATra9O4FOfO6a-OxuBoZE87=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRnKACKmMTT-je_eKPOK3Sb3z4mtdkkLnUgdl-LEQwdQw5NFnczJ2K9f6VaJ7T8hNah2LQANKIe2Hw4LHItLW4WG0TQ7visQMSC3qe4gHbVIERYiN_p7TxD7UlYZOqC46iCT2Y6g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeyi5hOz8a5WZWsCT1cpvY0twxbSQ_zbE9w_EpQizKNGImeWTOKXFC3mOailU15DxpP_0ot5Gm2GXvKQ3WjNGVvG1lxtYKF2MUv1Dsi5ARoTKYoTKNXROm_mv2F3rHBQVtcyi7_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhqgp-HC74SkRMOEZHz6fvOyEf620AGwkPcp2f7wnfAsAm76i0gaRFQyNarXDqOCTp7QPq-lTrLjeO7t0I1DL9YDTbtAxbjTwkbeYRr8I3jFyQvjI2NM9LjA2V1FFaxOKGxe6a0A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "William German",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called B&R Tree service on Wednesday afternoon at 5:30 about a dead tree about to fall on my storage building. Ricky showed up about 15 minutes later ,took a look and gave me a super affordable estimate on the spot. He said they could start the next morning. Get a call back from Billy and he said after talking it over they would come right then to cut it down because it looked like it might fall that night. 2 hours later the tree was on the ground. These guys are GREAT!!!!!!"
+        },
+        {
+            "author": "Jeffrey Cronk",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys are the best!!!! Fast, efficient,  on time, very professional services, 6 trees were dropped in tight places on my property,  they dropped them all without a scratch on anything. Great rates, I suggest these guys to everyone.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJZcvy4C4eCYk6zQyl9e7tT-BUNvtDJb__QUrUAQW0DVqTnBpYQiN2tdMri_hPYjYE3xsR2CGSRkkXs0_lSJ41FMizlR82TkLnNEQZSd-ajXOuc8Qk4XyP_Jcfb7u2YNhRtQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdLMGJxFrjLlPZzrLoGwAksbvgSG4Q-ci8dfL1eR3ORbubNJISZDCJTuFzTIAe0Q-Gw8BdSknraWVROabFQ6kIPCArDdv2_tJfckwFSi9TlT0LQf4Y58nj0ML9eVSmLRACdlYCQeQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeb5iA528V9pRsLZWstoJzF9ibtqZoJVtt9vNvRGiHu6BoD-wqJdZeITEHTVzElcELtYv17bxeGbUYmNVwOjh1t8RRr4LP4X6ni8QTR70RcXi0ZLQfNCuUGbUqoMs748fic0lLq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfZxZNla41C-m-01yEGOYtfQadV4KKM_uOaSQsBS7X9s_EkasMCyi-9i6ijlL-C8rXI1WYqCNaYx3y6aUfmMtAlkx-SCg4pulBKnf45-AtGID6CDzL_STcrTBmxncCx8Dgo18u7wA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Murl Ray",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Best service and prices of all quotes. These guys are awesome. Was on the job within 45 minutes of my call."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Smiths Station (Central Depot)",

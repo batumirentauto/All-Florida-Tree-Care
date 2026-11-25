@@ -32,21 +32,9 @@ export const siteConfigCutchinsTreeServiceEn = {
     "ctaPrimary": "Call Cutchins +1 850-336-1845",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cutchins-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Cutchins Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/cutchins-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/cutchins-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCutchinsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/cutchins-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCutchinsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/cutchins-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCutchinsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/cutchins-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigCutchinsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Tanner Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a tree fall on my house and Mr. Cutchins came out same day to check the site and the next day to remove/cut the tree. Mr. Cutchins moved other jobs off his schedule to help me out! He is very knowledgeable in how insurance will handle the claim and offered me a great estimate. Would suggest his company to anyone that needs tree removal!"
-    },
-    {
-      "author": "C Kraft",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "As a former  tree cutter Mr. Cutchin and his men cut a very large oak tree 10 feet from the corner of my home . Cutting a vertical 4ft wide stump is tough work from blade binding  and a stump full of steel nails. Breaks chain blades.."
-    },
-    {
-      "author": "Keith Howell Howell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have hired Cutchins Tree Service four times over the last nine years. They have always been on time, completed the job and cleaned up afterwards. If you're looking for a reliable and very competitively priced tree service look no further than Cutchins."
-    },
-    {
-      "author": "Michael Link",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had an outstanding experience and can’t recommend him enough. He was able to come out the same day, which was a huge plus, and immediately got to work. He cut down the trees, ran every branch through his cutter machine, and hauled everything away, making the entire process completely stress-free for me.\nWhat really stood out was how hard-working and efficient he was — no wasted time, no shortcuts, just solid, honest work from start to finish. He was also extremely polite, respectful, and easy to work with, answering questions and making sure everything was done exactly how I wanted it.\nThe pricing was very fair and reasonable, especially considering the speed, quality, and amount of labor involved. When he finished, the area was left clean and orderly, like the trees had never been there. It’s rare to find someone who combines great workmanship, reliability, and professionalism the way he does.\nIf you’re looking for someone dependable who takes pride in their work and delivers excellent results, this is the person to call. I would 100% hire him again and confidently recommend him to anyone needing tree cutting or branch removal."
-    },
-    {
-      "author": "Katie Roberson MacCartee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "See Cutchins came out promptly after we called. He was able to work with our situation and provide us more than one option, versus a highly overpriced one way only option. He even saw other problem areas and included extra branches in his service. He made it work the same day! I really appreciate the prompt and professional service."
-    }
-  ],
+        {
+            "author": "Tanner Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a tree fall on my house and Mr. Cutchins came out same day to check the site and the next day to remove/cut the tree. Mr. Cutchins moved other jobs off his schedule to help me out! He is very knowledgeable in how insurance will handle the claim and offered me a great estimate. Would suggest his company to anyone that needs tree removal!"
+        },
+        {
+            "author": "C Kraft",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "As a former  tree cutter Mr. Cutchin and his men cut a very large oak tree 10 feet from the corner of my home . Cutting a vertical 4ft wide stump is tough work from blade binding  and a stump full of steel nails. Breaks chain blades..",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfcabk52Vbgu9PQQHJO5Pm6ehdoyAo_xVXQ_ljbauC3S6AU-5OWoUEondNyTajYWvU0kSdRw1iK10uwuEn8TAuv9O3aFqi6KhcQ-fguSPLpvNLCzrXDp36oeqi0nYgIUt_PbJIo83DP4V-L=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8eB0YOmWPT57qqofsm81-nf13-df3P4X1hP0o8OrzDH4fqG9ZjRtvlnzoo1BC0tIsi_c4Kmhet-ryX4GOfrCnNsjl8vSFBAGJDMu-NFhznW_cT_wUQisM9wjUHITV6r_Owrx6RXMCBpM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Keith Howell Howell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have hired Cutchins Tree Service four times over the last nine years. They have always been on time, completed the job and cleaned up afterwards. If you're looking for a reliable and very competitively priced tree service look no further than Cutchins.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLenxOfA0tLdE-b2oY_zSLe_hDK6ETo6glCk0U-j9IA1KF8H9DSxfTFWFCI679pVjyrzaC7bFwsRNjpdQcjiaoRzmJqZsrmZywdeX659vHJpZ8cT26muISYJHKCAgq-yVV6GuOdc4w=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Michael Link",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had an outstanding experience and can’t recommend him enough. He was able to come out the same day, which was a huge plus, and immediately got to work. He cut down the trees, ran every branch through his cutter machine, and hauled everything away, making the entire process completely stress-free for me.\nWhat really stood out was how hard-working and efficient he was — no wasted time, no shortcuts, just solid, honest work from start to finish. He was also extremely polite, respectful, and easy to work with, answering questions and making sure everything was done exactly how I wanted it.\nThe pricing was very fair and reasonable, especially considering the speed, quality, and amount of labor involved. When he finished, the area was left clean and orderly, like the trees had never been there. It’s rare to find someone who combines great workmanship, reliability, and professionalism the way he does.\nIf you’re looking for someone dependable who takes pride in their work and delivers excellent results, this is the person to call. I would 100% hire him again and confidently recommend him to anyone needing tree cutting or branch removal."
+        },
+        {
+            "author": "Katie Roberson MacCartee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "See Cutchins came out promptly after we called. He was able to work with our situation and provide us more than one option, versus a highly overpriced one way only option. He even saw other problem areas and included extra branches in his service. He made it work the same day! I really appreciate the prompt and professional service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejH5YGQR7_jhstHIPPkc-hXUuLarm22pknRG7vq9sq4rNx5ud-3_NJroeupPgqmARs_PMYTYo7zpJ3yLtM9FJqeDuLU8GvO3lRkOlpzrnaZFu7YOmjoMU4npmVFAzVMJt9FhU=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Central Depot)",

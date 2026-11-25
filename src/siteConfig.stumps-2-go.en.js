@@ -32,21 +32,9 @@ export const siteConfigStumps2GoEn = {
     "ctaPrimary": "Call John +1 704-699-3630",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/stumps-2-go/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Stumps 2 Go tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/stumps-2-go/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/stumps-2-go/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigStumps2GoEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/stumps-2-go/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigStumps2GoEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/stumps-2-go/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigStumps2GoEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/stumps-2-go/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigStumps2GoEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Fred Dilworth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John did a great job on a 9\" stump removal in my front yard mulch bed. He responded right away, called in a utility locate that showed a gas line running underneath the stump, then removed the stump for a fair price the next day."
-    },
-    {
-      "author": "Debbie Snyder",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John responded right away to my request for the removal of a large stump from a dead cherry tree we had cut down last year. He was able to complete the work the same day I contacted him (but don’t always count on this!) and I am entirely pleased with the job he did. He is courteous, friendly and very thorough. This tree stump had many large protruding roots and he made certain he got them all. The price he charged was very fair. I will not hesitate to recommend him and call on him again in the future when the need arises."
-    },
-    {
-      "author": "Bo Anders",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John was vey responsive to texts and phone calls.  More importantly, he showed up on time, did exactly what he said he would, and left the yard stump free and better than he found it!  Great service is so hard to come by…would recommend in a heartbeat.\n\nUpdate 09/15/23\nCalled John out to my other residence and he once again knocked it out of the park!  Great communication and he even still had me in his phone when I reached out to him after 5 months since my last project!\n\nUpdate 11/19/24\nOnce again I needed stumps removed,  and once again I called John.  Showed up on time, gave me a fair price, and left the yard in excellent shape.  Everyone needs a “stump guy” on speed dial!  John’s your guy."
-    },
-    {
-      "author": "Irwin Velez (Niratime)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John is the best of the best. John is prompt and does the job done. If you need stomps removed, he is the guy to call. Great pricing, great service. Thank you John!!"
-    },
-    {
-      "author": "Mark Genthner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John always responds right away and his pricing is very fair. He is my go to guy for big and small stump removal."
-    }
-  ],
+        {
+            "author": "Fred Dilworth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John did a great job on a 9\" stump removal in my front yard mulch bed. He responded right away, called in a utility locate that showed a gas line running underneath the stump, then removed the stump for a fair price the next day.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcYMixqjWJl1tZHAKDIuPmZg6m4Msr7H696TV6sjmx2Wcwz5ZGtDIqDETnfwkeXi5Lm8ipS76H39Zu8w9rYGCMqS10fAAf1JHfltRLssM4u-upSpl8dwM7Is1TDYntWuyI4H42llZPbubim=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLepgVhVX9z20ZKddfEdy08d8TKkOMWtJmgxY6QBRRcKTqOoI4PCNX-ibnX36IBo2nX_6UgOAqs_LNyihWpX44thKi3VITyBkph8LkUeCuQDOPasZttSExnRyGcSKCvGvZI0RSONytXiMzXR=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Debbie Snyder",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John responded right away to my request for the removal of a large stump from a dead cherry tree we had cut down last year. He was able to complete the work the same day I contacted him (but don’t always count on this!) and I am entirely pleased with the job he did. He is courteous, friendly and very thorough. This tree stump had many large protruding roots and he made certain he got them all. The price he charged was very fair. I will not hesitate to recommend him and call on him again in the future when the need arises.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfpJEsb1tI8-LNsIToFuiWXklksks4bE-DF61JIAKGYC8n4lN0cqw2zcfdpvHSivZxGjp0kO17719IzZX8oXHOkq-p4eXotl0U5gj8MIm9gZgFABsudavax3xU-Wvs7lq8wfaqQmw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf6u4jt_z4TPJdtZjtwEATsB9HkwOWiuELxkweNgG9nbAqp5k4ElaL2FqsONx6qAI4vVCFd69aiXwWIaTF7XlfpX4FnFF1h3PIfe388AlNQ_5sSULsKnBcQYVfKeEOS8EnCk2Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLer2jv-28e3PhR19xmmhneeVJwtxpN4XKjxCX9rWgkJtCaCoFSi-Koo3r_2DUgzY96pLZpL8UTqDzfezmrQgoG1QdxRry2lxKRgzkYwWM-N2iHq-FJBa0SjTlI5micUgdp7hO9qfQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Bo Anders",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John was vey responsive to texts and phone calls.  More importantly, he showed up on time, did exactly what he said he would, and left the yard stump free and better than he found it!  Great service is so hard to come by…would recommend in a heartbeat.\n\nUpdate 09/15/23\nCalled John out to my other residence and he once again knocked it out of the park!  Great communication and he even still had me in his phone when I reached out to him after 5 months since my last project!\n\nUpdate 11/19/24\nOnce again I needed stumps removed,  and once again I called John.  Showed up on time, gave me a fair price, and left the yard in excellent shape.  Everyone needs a “stump guy” on speed dial!  John’s your guy.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdxLPLdL0BSc6z1ouOJh3KKbHJmICRfzhxvzfjHtNzFbpD8yUDHjHRrMQLG3C3LnAmOYMDfRsmwj6Bxm5FibBOdqR8DC6DiNp2PoqDgViUarQkCspweL4r16-QCUZeJgRtyisiSiQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcX1bdJjSBgbimrNED7z2RmoSxLENsKPXt_7TwohYdhQsxJ6WRBRflrLcRO_GG8uiryqdLikaQdQb00qvcD-6PAHnt8TQ0Xqng5saeawEziITunOZz5sERJSWsM4cS7HsyqNrrZ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Irwin Velez (Niratime)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John is the best of the best. John is prompt and does the job done. If you need stomps removed, he is the guy to call. Great pricing, great service. Thank you John!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfyg9hWhEm_0ktLw3Yv4F1GFWargRePUrS5KEtCIt0FR-8Ua8vSt1l3KnbLM7n2G5SW52yFPnU89nS1xKvHaIj9_57NxIn65vQIwUB2DYLjXzQtxmwTsLERIW7-SIwkadHXyLEQ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mark Genthner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John always responds right away and his pricing is very fair. He is my go to guy for big and small stump removal."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Huntersville (Central Depot)",

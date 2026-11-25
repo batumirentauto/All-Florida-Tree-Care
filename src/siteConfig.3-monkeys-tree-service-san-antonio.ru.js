@@ -31,21 +31,9 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioRu = {
     "ctaPrimary": "Позвонить (+1 210-940-3697)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады 3 Monkeys Tree Service San Antonio"
-      },
-      "sub1": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/3-monkeys-tree-service-san-antonio/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/3-monkeys-tree-service-san-antonio/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigCompany3MonkeysTreeServiceSanAntonioRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kelsey Sharp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys were amazing, they did way more than expected and truly take pride in their work. We had 3 different neighbors use them for services and highly recommended them. They will 100% be rehired for maintenance and I will refer them to ..."
-    },
-    {
-      "author": "Jaffar Chughtai",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: First company to answer their phone for tree trimming in San Antonio. The guys were great, highly recommend!..."
-    },
-    {
-      "author": "Pat Teague",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They were very professional and well supervised. They did an excellent job of pruning the tree and even pruned the Crape Myrtle at no extra charge. They did a great job of cleaning up and even cleaned the gutters. I would use them again and..."
-    },
-    {
-      "author": "anthony williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Finally pulled the trigger on getting a huge mesquite taken out of my front yard and I’m so glad I went with 3 Monkeys Tree Service. I’d gotten a few quotes from other San Antonio tree removal companies and Sergio’s pricing was straightforw..."
-    },
-    {
-      "author": "Walker Hobbs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Sergio and his team did a phenomenal job on our property. I would highly consider them for any of your tree trimming needs. They went beyond the extra mile to ensure our house and other structures were out of danger. They are very professio..."
-    }
-  ],
+        {
+            "author": "Kelsey Sharp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys were amazing, they did way more than expected and truly take pride in their work. We had 3 different neighbors use them for services and highly recommended them. They will 100% be rehired for maintenance and I will refer them to ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdaT4InccwvlYUvQoRp4R7YllwHqmrgkVS0GfeYr0ZBrq4VLi5wdqw-T92LTyAZa68qiTY8B6n7IueCDNFpNK_86kOHF9uJQRpHnciVDiX0YXDboELf7AEB98WNV9gPglzjFbAvyM3I7GXJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-o1vaYTZn_zwEu6GFlTiNwDEC4pImdhs3jD6LMve07uJpLZGP8zsLhvPLVkW5sim_3VbbTGphUmeE-sI-LxWYxR-GQpqxMLt-Zz1wk6fhEY0zbCe7fUYOSAuxGFqOUxcyMBaMyg_NJGj-=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jaffar Chughtai",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: First company to answer their phone for tree trimming in San Antonio. The guys were great, highly recommend!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeAcjBIgA6pTuhYbzkrQlXYx0ZCOkCALsDkouvA36NyhLJbTSpZHae-_c8wj7svk1O3FV0jzWyTzPiWZxeW1k7MvnMxaa5ffFkmaPDmrmYRtdKXTFxE7ObHjOrodOVk0VfrUIyO_zsHfdcw=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Pat Teague",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They were very professional and well supervised. They did an excellent job of pruning the tree and even pruned the Crape Myrtle at no extra charge. They did a great job of cleaning up and even cleaned the gutters. I would use them again and..."
+        },
+        {
+            "author": "anthony williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Finally pulled the trigger on getting a huge mesquite taken out of my front yard and I’m so glad I went with 3 Monkeys Tree Service. I’d gotten a few quotes from other San Antonio tree removal companies and Sergio’s pricing was straightforw...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTYDKNhjGD_0HmuYx-7cMeuahS6j92brgY_6xI5_zUGz4GwgaH0gyGs0bU9M3D7ZmUAYw9vYhnX1pMnTV2DYJQxIwAezPygD4Hl1ySGlDBZjn8U8Ll0niYWhCxdip2uG6Gl5ArC4eqUo_Y=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Walker Hobbs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Sergio and his team did a phenomenal job on our property. I would highly consider them for any of your tree trimming needs. They went beyond the extra mile to ensure our house and other structures were out of danger. They are very professio..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

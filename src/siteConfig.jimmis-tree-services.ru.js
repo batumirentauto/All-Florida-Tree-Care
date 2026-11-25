@@ -31,21 +31,9 @@ export const siteConfigJimmisTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 941-822-1792)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jimmis-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Jimmi's Tree Services"
-      },
-      "sub1": {
-        "image": "/images/jimmis-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jimmis-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJimmisTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jimmis-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJimmisTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jimmis-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJimmisTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jimmis-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,66 @@ export const siteConfigJimmisTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Melanie Alkema",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jimmi’s Tree Service quickly came and gave us a quote to get our home and lot cleaned up for hurricane season!  Their quote was good.  Their knowledge was amazing!  They were able to start and finish the job quickly, nearly and professional..."
-    },
-    {
-      "author": "Jess Zellner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: James and his crew did not disappoint! Jimmi gave me a a quote and stuck to it.  He and his team arrived a few days later and got to work.\n\nI had a lot of trees covering my property an homeowners insurance was upset.  Jimmi's tree service g..."
-    },
-    {
-      "author": "Dawn Roush",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I just had Jimmi and his crew do a partial lot clearing for me.  Gary and Jimmi made the whole process effortless from the minute I called them to come give me an estimate.  They kept in touch with me regarding scheduling.  They came a coup..."
-    },
-    {
-      "author": "JoAnn Marie Salmoretti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This Level 7 Google Guide is Very Impressed!  Gary was a pleasure to work with and very professional.   His crew was amazing, in less than an hour the tree was professionally removed and they left the property very clean, not a trace that t..."
-    },
-    {
-      "author": "reuben aukee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I called Jimmi's tree service, received a quote and requested service that week and he agreed to do the job on the date I requested. He had to split his team to do my job on that day. They were on time and did a fantastic job. Thats how far..."
-    }
-  ],
+        {
+            "author": "Melanie Alkema",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jimmi’s Tree Service quickly came and gave us a quote to get our home and lot cleaned up for hurricane season!  Their quote was good.  Their knowledge was amazing!  They were able to start and finish the job quickly, nearly and professional...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuveM9Pi_Dfw12gd3IOjrjAdVE9Jk8aqp2JCwDry1U7wxWHXw-jSve49UQsfCpzUDcDb-TVg0M7RZ2hPzP7nPFsVMluR8-h5yTIW4D51t3Mxve7FGrOr5f9poGwkUXcRP1NRbyDUnWWA8d=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl097S1XaSE_sDHUV1gLzzinJd4Bzd7CkdaUyRYp7dHPbsB2WHFnDBO6k_ifbMGdKcD40OnNt3sorQKfA2mnSKOrfLyrzeBM5sMNiQf5uMmZgwxj3_68-u7dFYpRCZkgqCp6CJB0AUc6-D=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jess Zellner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: James and his crew did not disappoint! Jimmi gave me a a quote and stuck to it.  He and his team arrived a few days later and got to work.\n\nI had a lot of trees covering my property an homeowners insurance was upset.  Jimmi's tree service g...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrCa4dIbEtmqqQXEVMtdm0Op3vuUdrTxVD5rnr72ZpinRXm5lip8Xpcy-ufzJTlToEERsTsmS2gqKye7Wfs23Fn4ccEMvZhlGCPYULgB9uZLVtypwXpL78SPnJXgwGd1N0yoAM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcD4Lft3xTk-x2wFpCENskMxGHXxYjZyKNjureRm1LYP_5CyIZfD9i6t-nPBrF9_z-XAWjIbpC8ZQ13UFDmTxGDUs93-Yr2zIlaThUdfLRSll6Ldoro2ifWKyNEc8SYuNPnHQwm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFQis1AHb0Mm0npbkrWKmKcCHvMpfFGA15_ouaXmCkpodg0ir9eB6LT6nEQ9t1UyAnUZ_ypsK9Lrvfhu6f3O10J_A8snT3mKKOeCf-7SZe3RJaLDPy3aqTCyc3eC3rISQk-D9J6A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dawn Roush",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I just had Jimmi and his crew do a partial lot clearing for me.  Gary and Jimmi made the whole process effortless from the minute I called them to come give me an estimate.  They kept in touch with me regarding scheduling.  They came a coup...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcS9SNHfEhQ3x1Jw-jUt6cAoC-UMAJRLqsqiejzvJMKtD0Dyy339vWp6BLlCvnPVjL7Qs5mqXMywmammLLfzrmGZbGGxPI7MA6wCCZguR6odyanMSBuSel9-V1va7YOkfqekoIq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeyeE-KQM_krs91NWSPlhuiSxj113nt772IuF8SXiuszEOqVfoFQWY9-KXx7dLUKEWMxjpr0jsrtzB1mkvpo-vpL1Oj2lYM5amvK70qDFLVo_BFqofswlx3B3HHo-chtn-Mg4D_8Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeTKumagQ_SJsKvZd89oqBH_jBcz2WHCoQ1jd01PCf0Bcrr05W-I7_v9LkkxoypPD2uPto-RbB6VZK5dE0KFuXkBnn5Cu0K0f1yVMveSboXr_V7a3d4E50GvSYavpuqbF3aDgHz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcILEZVh-X8bYwxJP5sgy2nzdyHT8AedfjQ6O0qmlkAlE8SD4yJCIjyPuVJha5VD78ay6WDQSVNgNGQ5wot-lu0RRwnzqi-if8Keb7b3XjsRbdJd99AKjmIfkbYVo2stwq4GiM=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "JoAnn Marie Salmoretti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This Level 7 Google Guide is Very Impressed!  Gary was a pleasure to work with and very professional.   His crew was amazing, in less than an hour the tree was professionally removed and they left the property very clean, not a trace that t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdX2pOdpEejBaUdTA7uCBfLVrbTDcKJU1XN9jJG3hcEmVvK1JPE6RefvwjhtVfGKMsKIlxoXS3AR_kAQOmOIUi5Ms0SeE2KJmn74E9-UV1QBBvDmcO_9fEAXqC5N8M1vpPxs7ru=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9TPct6AXsCvJXGDLv_4cROwOvDm6dF40pKI8nVj2VkYsw7lRgRz5Fi_hJ2yBVch27OQEI8zAzRs0VfGYbVifLeBIBzKXIXgaqrkl7I7xMF8U-vz9ocR2zfhaQp0CCdGZKlvSM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "reuben aukee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I called Jimmi's tree service, received a quote and requested service that week and he agreed to do the job on the date I requested. He had to split his team to do my job on that day. They were on time and did a fantastic job. Thats how far..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

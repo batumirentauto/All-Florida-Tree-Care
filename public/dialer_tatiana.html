@@ -48,6 +48,12 @@
           <button id="btnDomZonus" onclick="setDomain('zonus.co')" class="px-2 py-0.5 rounded font-mono font-bold text-slate-400 hover:text-white transition">zonus.co</button>
         </div>
 
+        <div class="hidden sm:flex items-center gap-1.5 text-[11px] font-mono text-emerald-400 bg-emerald-950/70 border border-emerald-800/80 px-2.5 py-1 rounded-lg shadow-inner">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>TG-Бот активен</span>
+        </div>
+
+        <a href="dialer_tatiana_warm.html" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 text-xs font-black px-3 py-1.5 rounded-lg transition flex items-center gap-1 shadow-lg shadow-emerald-600/30"><span>🔥 Дожим теплых (5)</span></a>
         <button onclick="toggleLogModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-bold px-3 py-1.5 rounded-lg transition flex items-center gap-1.5">
           <span>📋 Журнал</span>
           <span id="totalLoggedCountBadge" class="bg-emerald-500 text-slate-950 text-[10px] px-1.5 py-0.2 rounded-full font-black">0</span>
@@ -765,6 +771,84 @@
       return st;
     }
 
+    async function sendTelegramAlert(lead, status, note) {
+      const statusLabels = {
+        'AGREED': '🟢 СОГЛАСЕН НА SMS',
+        'CALLBACK_930': '🟡 СОЗВОН В 9:30 AM (СЕКРЕТАРЬ / ВЛАДЕЛЕЦ)',
+        'PHOTOS_SENT': '📸 СКИНУЛ ФОТО ТЕХНИКИ НА ОЦЕНКУ',
+        'VOICEMAIL': '📼 АВТООТВЕТЧИК (VOICEMAIL)',
+        'NO_ANSWER': '⏳ НЕ ВЗЯЛИ ТРУБКУ / СБРОС',
+        'DECLINED': '❌ ОТКАЗ / НЕ ИНТЕРЕСНО',
+        'NOTE': '📝 ОБНОВЛЕНА ЗАМЕТКА'
+      };
+
+      const statusText = statusLabels[status] || status;
+
+      const totalLogged = Object.keys(loggedCalls).length;
+      let agreedCount = 0, callbackCount = 0, photoCount = 0, vmCount = 0, noAnswerCount = 0, declinedCount = 0;
+      Object.values(loggedCalls).forEach(c => {
+        if (c.status === 'AGREED') agreedCount++;
+        else if (c.status === 'CALLBACK_930') callbackCount++;
+        else if (c.status === 'PHOTOS_SENT') photoCount++;
+        else if (c.status === 'VOICEMAIL') vmCount++;
+        else if (c.status === 'NO_ANSWER') noAnswerCount++;
+        else if (c.status === 'DECLINED') declinedCount++;
+      });
+
+      const loc = lead.city ? `${lead.city}, ${lead.state}` : (lead.address || '—');
+      const text = 
+        `📞 <b>Результат звонка: Татьяна (Tree Service Line #102)</b>
+
+` +
+        `🏢 <b>Компания:</b> ${lead.name || '—'}
+` +
+        `📱 <b>Телефон:</b> <code>${lead.phone}</code>
+` +
+        `📍 <b>Локация:</b> ${loc}
+` +
+        `🎯 <b>Результат:</b> <b>${statusText}</b>
+` +
+        (note ? `📝 <b>Заметка:</b> <i>${note}</i>
+` : '') +
+        `🔗 <b>Витрина:</b> https://zonus.co/${lead.slug}
+
+` +
+        `📊 <b>Сводка Татьяны (${totalLogged}/50):</b>
+` +
+        `• 🟢 Согласны на SMS: <b>${agreedCount}</b>
+` +
+        `• 🟡 Созвон 9:30 AM: <b>${callbackCount}</b>
+` +
+        `• 📸 Скинули фото: <b>${photoCount}</b>
+` +
+        `• 📼 Автоответчик: <b>${vmCount}</b>
+` +
+        `• ⚪ Не ответили: <b>${noAnswerCount}</b>
+` +
+        `• 🔴 Отказ: <b>${declinedCount}</b>`;
+
+      const targets = [
+        { token: '8915615220:AAHstRA8VGD1lP0O-Oyg9SLt7hee9FRGLNI', chatId: '5811905642' },
+        { token: '9160117417:AAHEbjH0025ymMJEYWOQpAc3L5iIXioaMeU', chatId: '8182918344' }
+      ];
+
+      for (const t of targets) {
+        try {
+          fetch(`https://api.telegram.org/bot${t.token}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              chat_id: t.chatId,
+              text: text,
+              parse_mode: 'HTML'
+            })
+          }).catch(e => console.warn('TG dispatch error:', e));
+        } catch (err) {
+          console.warn('TG dispatch error:', err);
+        }
+      }
+    }
+
     function logStatusAndNext(status) {
       const lead = leadsData[currentIndex];
       const note = document.getElementById('leadNoteInput').value.trim();
@@ -781,6 +865,9 @@
 
       localStorage.setItem('tatiana_tree_calls', JSON.stringify(loggedCalls));
       updateStats();
+
+      // Dispatch real-time Telegram notification
+      sendTelegramAlert(lead, status, note);
 
       if (currentIndex < leadsData.length - 1) {
         currentIndex++;
@@ -807,8 +894,9 @@
         loggedCalls[lead.phone].note = note;
       }
       localStorage.setItem('tatiana_tree_calls', JSON.stringify(loggedCalls));
-      alert('Заметка сохранена!');
+      alert('Заметка сохранена и отправлена в Telegram!');
       updateStats();
+      sendTelegramAlert(lead, loggedCalls[lead.phone].status || 'NOTE', note);
     }
 
     function nextLead() {

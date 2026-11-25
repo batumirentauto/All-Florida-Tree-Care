@@ -32,21 +32,9 @@ export const siteConfigEatonEn = {
     "ctaPrimary": "Call Chris (404) 227-0193",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/eaton/photo_002_crop.jpg",
-        "label": "Steep Hillside Cabin Felling",
-        "alt": "Steep hillside pine felling and brush clearing behind mountain cabin"
-      },
-      "sub1": {
-        "image": "/images/eaton/photo_003_crop.jpg",
-        "label": "Heavy Hillside Timber Inspection",
-        "alt": "Loggers standing on slope examining massive felled pine log"
-      },
-      "sub2": {
-        "image": "/images/eaton/photo_001_crop.jpg",
-        "label": "Mountain Cabin Canopy Assessment",
-        "alt": "Tall mountain pines framing rustic wooden cabin under cloudy sky"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigEatonEn = {
     {
       "name": "Backyard Perimeter Clearance & Deck Protection",
       "badge": "Cabin Grounds Clearing",
-      "image": "/images/eaton/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigEatonEn = {
     {
       "name": "Scenic Mountain Vista Thinning & Pruning",
       "badge": "Valley View Elevation",
-      "image": "/images/eaton/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

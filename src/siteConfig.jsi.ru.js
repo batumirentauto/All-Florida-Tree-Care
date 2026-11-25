@@ -31,11 +31,7 @@ export const siteConfigJsiRu = {
     "ctaPrimary": "Позвонить ((828) 448-7047)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jsi/photo_001_crop.jpg",
-        "label": "Лесная автовышка",
-        "alt": "Лесная автовышка с телескопической стрелой на границе лесного массива"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
@@ -129,7 +125,7 @@ export const siteConfigJsiRu = {
     {
       "name": "Складирование спиленных стволов",
       "badge": "Штабелевка леса",
-      "image": "/images/jsi/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",

@@ -32,21 +32,9 @@ export const siteConfigStonesEn = {
     "ctaPrimary": "Call Christian (864) 914-1381",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/stones/photo_002_crop.jpg",
-        "label": "Commercial Vermeer Equipment Hauler",
-        "alt": "Commercial flatbed hauler truck loaded with yellow Vermeer forestry machinery on residential curb"
-      },
-      "sub1": {
-        "image": "/images/stones/photo_006_crop.jpg",
-        "label": "Manicured Estate Ground Finish",
-        "alt": "Finished residential landscape with paved circular driveway and manicured shrubbery"
-      },
-      "sub2": {
-        "image": "/images/stones/photo_007_crop.jpg",
-        "label": "Graded Forest Border Mulch Bed",
-        "alt": "Forest boundary line graded and mulched cleanly behind manicured residential lawn"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigStonesEn = {
     {
       "name": "Subsurface Root Flare Exploration & Stump Prep",
       "badge": "Root Flare Excavation",
-      "image": "/images/stones/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigStonesEn = {
     {
       "name": "Full Lot Brush Clearing & Mulch Bed Grading",
       "badge": "Lot Brush Clearance",
-      "image": "/images/stones/photo_009_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigStonesEn = {
     {
       "name": "Close-Proximity Foundation Felling & Trunk Bucking",
       "badge": "Foundation Tree Removal",
-      "image": "/images/stones/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

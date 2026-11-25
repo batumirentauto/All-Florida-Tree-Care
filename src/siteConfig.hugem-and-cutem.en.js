@@ -32,21 +32,9 @@ export const siteConfigHugemAndCutemEn = {
     "ctaPrimary": "Call Tim +1 251-747-7514",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/hugem-and-cutem/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Hug'em and Cut'em Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/hugem-and-cutem/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/hugem-and-cutem/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHugemAndCutemEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/hugem-and-cutem/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHugemAndCutemEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/hugem-and-cutem/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHugemAndCutemEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/hugem-and-cutem/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigHugemAndCutemEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Heritage Church",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Hug’em and Cut’em for an quote on taking down three large Water Oaks, in the process of rotting., they were well over 50 years old. They were near the house and needed to go.\n\nTim came over the next day, gave me a fair quote and explained the process he uses to drop really large trees with really large limbs hanging over the house.\nThree others had quoted and everyone was pretty much in the same ballpark.\n\nOthers were planning on using a zip line and moving the cut timber directly over the house to the driveway. I didn’t particularly care for that idea.\n\nTim said he would bring in a crane (120 foot reach) and move the timber around the house to the cutting area.\nHe was good for his word.\n\nHe said when they were able to start. He showed up, on time, did the first two trees in about seven hours. The one needing the crane took about the same amount of time but we had to wait on the crane’s availability. Everything was done in five days. I was well pleased.\n\nThe bottom line - everything went as planned, his crew was respectful, professional and some of the hardest workers I have ever seen.\n\nThere were no mishaps, mistakes or accidents. Thank You Lord!\n\nThe cleanup was superb and I have absolutely no complaints.\n\nDo I recommend this company - well they will be the first on my list to call if I ever need another tree dropped.\n\nThanks Tim and thank your crew for me also."
-    },
-    {
-      "author": "Nicole Burroughs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tim was very professional and even understood the urgency of cutting down the limbs above my home before another fell on my roof. I totally recommend Hug’em and cut’em tree service to anyone looking to do limb removal tree, trimming of any kind. He had the best prices of everyone that I called as well. Thanks Tim. I totally appreciate everything that you’ve done you went over and beyond."
-    },
-    {
-      "author": "Michael Briggs",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tim and his crew removed a water oak next to my fence.  They did a fantastic job without damaging our fence or landscaping. Very professional and easy to work with. Highly recommend!"
-    },
-    {
-      "author": "jesse saxon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am 100% satisfied with the decision to call, and with the job that was done. Exceptional, timely service. The trees that were removed were very close to the house, with the foundation at risk from root damage. They were removed promptly, with no damage done to my brand new roof. They also ground the stumps, and trimmed another nearby tree from the incoming power lines. And the rate was very reasonable. I would absolutely utilize their services again."
-    },
-    {
-      "author": "Rachel Barnes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent tree removal service! Tim, the owner, is a fantastic man and businessman. I was quoted a great price for 5 trees and stump grinding. And yes, this company actually removes your stumps when they say they will! Also, Tim was patient with my timeline. His team does the entire job to completion quickly and professionally. If you want the job done right and to completion, you need to call Tim!"
-    }
-  ],
+        {
+            "author": "Heritage Church",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Hug’em and Cut’em for an quote on taking down three large Water Oaks, in the process of rotting., they were well over 50 years old. They were near the house and needed to go.\n\nTim came over the next day, gave me a fair quote and explained the process he uses to drop really large trees with really large limbs hanging over the house.\nThree others had quoted and everyone was pretty much in the same ballpark.\n\nOthers were planning on using a zip line and moving the cut timber directly over the house to the driveway. I didn’t particularly care for that idea.\n\nTim said he would bring in a crane (120 foot reach) and move the timber around the house to the cutting area.\nHe was good for his word.\n\nHe said when they were able to start. He showed up, on time, did the first two trees in about seven hours. The one needing the crane took about the same amount of time but we had to wait on the crane’s availability. Everything was done in five days. I was well pleased.\n\nThe bottom line - everything went as planned, his crew was respectful, professional and some of the hardest workers I have ever seen.\n\nThere were no mishaps, mistakes or accidents. Thank You Lord!\n\nThe cleanup was superb and I have absolutely no complaints.\n\nDo I recommend this company - well they will be the first on my list to call if I ever need another tree dropped.\n\nThanks Tim and thank your crew for me also.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUrhdWrMdeg2pNZoLt_jfU0tqLeQyT5jgVxotroPhCPVg58Geh0MJxOMBHnM-POFeyyQnUOv6AWxkj_yU2Px6mcIyEstae0-dDxHzAWX3zcBK1IQsW65B-EVpkgeuBknjz1ctwT3KT0tAp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGDOY38JZldvhQPDqc_5EWEdpHZYJK2y141VP4s3UqYWweqwb75VHdf_PRvp154ibQxutoMPQq-1eyEU5HhrwgK3ijRmdEUSCJ10mHSWbh2YbqvOWyeAdldqf7fuIz9olhj9hwZ03v_oNg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8s36jyyAEmugIYETBzX5vpwEHMpBNVfLdT9V76SU7sT7uVzRJ1VZ_FbEd_GIqHTlZKnmhPHiq5U7j9mAew0mnLY4VD5ObWXU4BrTAexLpr8NawDbsdrXK_-32A9xV8Hv8gfFPcPDLIm8n=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLchGKbC0xhDXVTi63os9o0yHnFmJffvukMzd0MQ2wiYirS1mb5L4I9SPLKTlU7UQxXBSRZ2c7vrtwssQ4ORR3XFuGWoviEBSIiytfK4tj6TZg5l14SfIjN6g67JQypyfGzp3DTKP5g8RiI=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicole Burroughs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tim was very professional and even understood the urgency of cutting down the limbs above my home before another fell on my roof. I totally recommend Hug’em and cut’em tree service to anyone looking to do limb removal tree, trimming of any kind. He had the best prices of everyone that I called as well. Thanks Tim. I totally appreciate everything that you’ve done you went over and beyond."
+        },
+        {
+            "author": "Michael Briggs",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tim and his crew removed a water oak next to my fence.  They did a fantastic job without damaging our fence or landscaping. Very professional and easy to work with. Highly recommend!"
+        },
+        {
+            "author": "jesse saxon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am 100% satisfied with the decision to call, and with the job that was done. Exceptional, timely service. The trees that were removed were very close to the house, with the foundation at risk from root damage. They were removed promptly, with no damage done to my brand new roof. They also ground the stumps, and trimmed another nearby tree from the incoming power lines. And the rate was very reasonable. I would absolutely utilize their services again."
+        },
+        {
+            "author": "Rachel Barnes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent tree removal service! Tim, the owner, is a fantastic man and businessman. I was quoted a great price for 5 trees and stump grinding. And yes, this company actually removes your stumps when they say they will! Also, Tim was patient with my timeline. His team does the entire job to completion quickly and professionally. If you want the job done right and to completion, you need to call Tim!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Robertsdale (Central Depot)",

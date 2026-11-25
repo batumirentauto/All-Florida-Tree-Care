@@ -31,21 +31,9 @@ export const siteConfigFirstChoiceTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 803-758-8447)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/first-choice-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады First Choice Tree Care"
-      },
-      "sub1": {
-        "image": "/images/first-choice-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/first-choice-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigFirstChoiceTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/first-choice-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigFirstChoiceTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/first-choice-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigFirstChoiceTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/first-choice-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigFirstChoiceTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kat Markl",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys did an amazing job for me. Removed a huge 60 year old sweet gum and shaped and cleaned out deadwood in 2 large old oak trees. My yard was free of debris and raked out as well. They are professional, efficient, and knowledgeable. ..."
-    },
-    {
-      "author": "gary white",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Outstanding work..as always.. my wife and I have used first choice in the past.. always a great experience top-notch work ...Daniel is a great guy.. very reasonably priced and does an awesome job.. I would highly recommend using this compan..."
-    },
-    {
-      "author": "David Mundo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: First Choice Tree Care removed 3 large pine trees that were near my house. They did a amazing job removing the pine trees. I would recommend First Choice Tree Care for any tree removal job. No matter how big or small the job is...."
-    },
-    {
-      "author": "Bartley Cross",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Daniel and his crew did an outstanding job with my yard. When I bought the house, the trees were extremely overgrown. They were up against my house, hanging onto part of the roof and wrapped in thorns and bushes. I had 14 trees removed!! Th..."
-    },
-    {
-      "author": "Blittz Petty",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The driver of the Ford truck, who was pulling a trailer, nearly caused a serious accident. They were traveling in the opposite direction and had veered into my lane by at least three feet, necessitating that I drive off the road to avoid a ..."
-    }
-  ],
+        {
+            "author": "Kat Markl",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys did an amazing job for me. Removed a huge 60 year old sweet gum and shaped and cleaned out deadwood in 2 large old oak trees. My yard was free of debris and raked out as well. They are professional, efficient, and knowledgeable. ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwz_otg2fpUevhHW7uVcAVgWKTZcceIHglT3IFDr5A34UPh1ZGowdlqN03psVSk2g7kejRffvKqcxmsETiAO8HKN8eo4zTzbMHbe9TQ6Qge76bMAHv65YptuOLsJaE2y8tWano=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl_lvt3w-6BhEj9UDFb5Npo3Q5-8rZTAB4yTO83yC-M3qYA5CI33IsuHhUOyne9PMIMmFwgR63EeEHnoYatVrWuaaIPhRTltbB4MrHBHfajCVKGkXScMpe5rnfX1EBb5Cud4FW3g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdP6ked7Czn8sgHu_BUnSrw0TY2eXesVF-s5StqVs9WH-rGLX3ZqrXXIyCIOwLpP1_ZG0XquH3y1vNkacNVdZa762pziCletXAlCQf2h5zkoDvv9hTEpm9TDCGtSdCQd3MFSVw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyJ5p1c90_iOaMXJeEeur69hM05uR0jE0LEp7RyHfBLlGeCeINWnMuMZGrWcH-ve90doITtd6CDP2K6tDy6qOY08TOmQYcySd6IUX755ZFhPXfTxgX-CkIGmFR6Ts2Bsz8udwZ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "gary white",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Outstanding work..as always.. my wife and I have used first choice in the past.. always a great experience top-notch work ...Daniel is a great guy.. very reasonably priced and does an awesome job.. I would highly recommend using this compan..."
+        },
+        {
+            "author": "David Mundo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: First Choice Tree Care removed 3 large pine trees that were near my house. They did a amazing job removing the pine trees. I would recommend First Choice Tree Care for any tree removal job. No matter how big or small the job is....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjXWWjS7KlZt-DRw2CSqP2OkSt5erZCLIuVoozgtdxvi8nuEBww4eb_eBs-8fsUMdZ36qF2lwv24oaB2yv5LpTXBCQft0anmFoVEEBU4wcgpS4TipnwGKAfX_LgSDlSnw2uHK3Xg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfsdxzPNbLAr1sXde_OvGZ9UtV5PySHTjzO6mXMCbnJby_P8wMhX18Ey4kyUMIdr66vKtW0nZtXp2SSDfEjvMrmJCLDu_ZOJPZj7OkCE8AQPxXhEMWByVIBswHa84bjvvGZOEbS=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Bartley Cross",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Daniel and his crew did an outstanding job with my yard. When I bought the house, the trees were extremely overgrown. They were up against my house, hanging onto part of the roof and wrapped in thorns and bushes. I had 14 trees removed!! Th..."
+        },
+        {
+            "author": "Blittz Petty",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The driver of the Ford truck, who was pulling a trailer, nearly caused a serious accident. They were traveling in the opposite direction and had veered into my lane by at least three feet, necessitating that I drive off the road to avoid a ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "West Columbia (Основная база)",

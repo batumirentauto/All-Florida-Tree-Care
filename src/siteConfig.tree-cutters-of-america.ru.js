@@ -31,21 +31,9 @@ export const siteConfigTreeCuttersOfAmericaRu = {
     "ctaPrimary": "Позвонить (+1 404-426-5779)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-cutters-of-america/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Cutters of America"
-      },
-      "sub1": {
-        "image": "/images/tree-cutters-of-america/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-cutters-of-america/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeCuttersOfAmericaRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-cutters-of-america/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeCuttersOfAmericaRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-cutters-of-america/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeCuttersOfAmericaRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-cutters-of-america/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigTreeCuttersOfAmericaRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ray and Linda Leatherman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tree Cutters of America came to our house to remove a tree that was falling, but had gotten caught up in another tree.  They did a great job removing the tree.  At that point we decided to have them remove a second tree.  Their price was re..."
-    },
-    {
-      "author": "A Marcotte",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Arian, Anna, and their team did an amazing job at a VERY reasonable price!! They completely removed a gigantic Maple that was close to our house, as well as trimming some very significant limbs from another large Maple. The climber cut the ..."
-    },
-    {
-      "author": "Salty Dog",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This started out well.  The guy who climbed up, was so skillful.   They were supposed to cut the stumps to  6\".  They left them at 18\"  and they have one excuse after another not to finish the job. The woman came over to get the payment tel..."
-    },
-    {
-      "author": "Ashley Oparnica",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing working with the team at Tree Cutters of America and so happy to have all of our tornado wreckage removed by the best!!..."
-    },
-    {
-      "author": "Jared Marcotte",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Arian and his entire crew were phenomenal! We had a dead tree that needed to be removed but didn’t have the greatest pathway to get in and out to the tree and they made it work. They laid down plywood to mitigate damage to our lawn and for ..."
-    }
-  ],
+        {
+            "author": "Ray and Linda Leatherman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tree Cutters of America came to our house to remove a tree that was falling, but had gotten caught up in another tree.  They did a great job removing the tree.  At that point we decided to have them remove a second tree.  Their price was re...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1JIOOraKUYisS2hKJ3Yi3Ba4XAlTy8Buzi0XBpSDjZddBuugF3Ft3CC3w1XDiamz4KMmxceqx2NRm7eXeE7Rlv2jzHPXz0SLugIL4G2R6GTY6ibE89bMv3LZ_VzWTAPxq0Qkwm14DNSpQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqrJ5OvLC_qtgAsonfz5l0wjHTITjTrd0cnrbbwnnqXAYEpn_idlHI2qz6TV4d0zCogYVUgNrsv-yPmbsPkawjvDQMSYWgmmKOvLIw8wDbBysoOk5E-S_XkEf3Cg_ZxO4v1IhUomVd-_7z=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "A Marcotte",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Arian, Anna, and their team did an amazing job at a VERY reasonable price!! They completely removed a gigantic Maple that was close to our house, as well as trimming some very significant limbs from another large Maple. The climber cut the ..."
+        },
+        {
+            "author": "Salty Dog",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This started out well.  The guy who climbed up, was so skillful.   They were supposed to cut the stumps to  6\".  They left them at 18\"  and they have one excuse after another not to finish the job. The woman came over to get the payment tel...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfb4pcbK2NxWirWj70zsSqnE_Yd6m4f4MzRSD8PAIQ7y4Kefj--rhXkdgZUB7p9ykbBWol4TKKoOfcvEXWAHrirlzwSLD0JKIx6-NupkuirNHMa3xAopWvNOU-vMnBBMAELtX_Nct_Bv-1r=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLetnZetOBeS3qC_NuJn6H733PymOAY-ZUqpe5m0s6g919NjWy0ifuZjKlgUNpKl8ffCYpifVq9MUjuCe45sV4bzUN8JwhxCoNFioaMIkzUx4ufZRPgjD_4B6Kh8DVp7D3_ouzu13TEUVBzU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSeCH94uVIhS9ZQH_Ox5zmc4VusyVy-Z6fAch1MYUOKDIHo-Z3y3JnlqUTZjYOvi5O7G7kz-E8i1URYXuZ54MT9hekdb0QjbjzuL-cm3gjBnKIs4E9VbZokYENOT7L9L85zmV2Ne4637sP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf3ws7ehniu0IdpRv_QF4VnM4WVbRv9c7Q8A2iuYSwpCeRHwrEOpyX6oXdDRN0tL9UKwDgPg4CRYrnklu-ipODfZu9Zp_eJFAV7wDlCcy9cM8bKn3cNMfCLxNzFfG9U812UGMHZCVBj5QRw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ashley Oparnica",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing working with the team at Tree Cutters of America and so happy to have all of our tornado wreckage removed by the best!!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8rUoTARpglU0BW9XVGda39UhRAfVOyOn7PKJ9UeIYjzZctHMfNVnEaXXg3IsXiB3J0tgTnqw52wSQ0zt087jDuHOPgUa0iCpbZT1yyA4uZ4zbrjFGbYci16KJQ7ZCKkkgKCArVkAOBfM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJxRV2Z4XJCOeaiSxO7Tj7XrOXCVmxZCIlqeRK2qmKzEhtLFsjA0f4Jqqn6sdtkMmerr9DwBJGbRaqzLhy5sJpyP2oGCsPBr1pFNlhMYEXf-PAC8rQ2zIW5B81wKlGQa-Pb8HlhLipqAhd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeNzi2LWVFszTsjQ4BXSWvD-ANUUAA_wAbY50HGi11cKwVKMIPZ48yEiM7QQ-yFKaUKV5z7By393gmhkJz_5Hc_qxGPY6n9KMwyxOD2Cnd2xHIYypXyqTRFrV5-UoesOuMH6mNqXjSjlFuq=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jared Marcotte",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Arian and his entire crew were phenomenal! We had a dead tree that needed to be removed but didn’t have the greatest pathway to get in and out to the tree and they made it work. They laid down plywood to mitigate damage to our lawn and for ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marietta (Основная база)",

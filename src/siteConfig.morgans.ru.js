@@ -31,21 +31,9 @@ export const siteConfigMorgansRu = {
     "ctaPrimary": "Позвонить ((803) 981-9085)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/morgans/photo_001_crop.jpg",
-        "label": "Надломленная ветвь у забора",
-        "alt": "Тяжелая сломанная ветка, зависшая вдоль деревянного забора"
-      },
-      "sub1": {
-        "image": "/images/morgans/photo_004_crop.jpg",
-        "label": "Спил пня у забора",
-        "alt": "Спил пня под корень в углу забора с опилками вокруг"
-      },
-      "sub2": {
-        "image": "/images/morgans/photo_006_crop.jpg",
-        "label": "Чистый убранный газон",
-        "alt": "Зеленый подстриженный газон во дворе после вывоза всех спиленных деревьев"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMorgansRu = {
     {
       "name": "Спил ветви над деревянным забором",
       "badge": "Сохранность ограды",
-      "image": "/images/morgans/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMorgansRu = {
     {
       "name": "Складирование веток для щепореза",
       "badge": "Сбор сучьев",
-      "image": "/images/morgans/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMorgansRu = {
     {
       "name": "Спил дерева возле веранды",
       "badge": "Защита пристройки",
-      "image": "/images/morgans/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

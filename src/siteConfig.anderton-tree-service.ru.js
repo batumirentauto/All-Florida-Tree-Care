@@ -31,21 +31,9 @@ export const siteConfigAndertonTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 817-875-2763)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/anderton-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Anderton Tree Service"
-      },
-      "sub1": {
-        "image": "/images/anderton-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/anderton-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAndertonTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/anderton-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAndertonTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/anderton-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAndertonTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/anderton-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigAndertonTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Forrest Moore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Not only was I able to call on a Wednesday morning and have my trees serviced by Thursday afternoon, but the crew was professional and did a great job.  Even once they were done with the items I had asked to be trimmed, the lead crew member..."
-    },
-    {
-      "author": "julie barrett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Team did an amazing job cleaning up our yard. We had several areas where the growth under the trees was so thick and unruly. Completely cleaned up after themselves. Very knowledgeable about trees. Also made sure I was completely satisfied b..."
-    },
-    {
-      "author": "Lora and Mike B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We live in an older neighborhood and needed an old hackberry removed from a tight spot on the property line.  Anderton's team evaluated the situation quickly, took the tree down without damage to our fence or home, and removed all the debri..."
-    },
-    {
-      "author": "D. Roper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent service and a great crew. I had several companies bid on the job, but Anderton Tree Service came in way below the others. The crew came out as scheduled, walked through the property with me to make sure they understood what I want..."
-    },
-    {
-      "author": "Jana Stout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I just had the best experience with Anderton Tree Service. Michael came out the same day I called to give me a quote (which was fair and reasonable) and was quick to get me scheduled for the following week. His crew showed up timely and wer..."
-    }
-  ],
+        {
+            "author": "Forrest Moore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Not only was I able to call on a Wednesday morning and have my trees serviced by Thursday afternoon, but the crew was professional and did a great job.  Even once they were done with the items I had asked to be trimmed, the lead crew member...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0SUDXeJClTvDr_pBPmaf4IGmsOxkIqaIstztzXb69pkBO-sNYCeuuQDd6hETr_Ri35nIyjnF_wXin4fwbbwazccxVRWXLFrFOR-DmLxWTWo6BqeFqe1dwO8Qe2jnP4nT9Y4hO6w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5kykzZidjYMWFCmfUCLVA5ZCIn7bIInSyIOKd9OYptMYoeIA48AdqBHNaDi4wBDcUGJkLfW0FKBU6PgCmnYT-uMWxjHxRVru_CBDzHUJcL2MWzoG6XN2ZXOK8T7QkO2ykoGMn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6RbpgD765iHACsMk97YATor_-ZBx7BPmCnnppqKZct12pE4gZwt5J1W8WslAdnW5cT7MeL6rK_QHKQxSwpfart9sIs_YouYv43420z39kUVVIfJTz_8efqxzCLnBHj8iHZcgh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeA5OqEwy6z-OJlZwAUI6Ymsd9di18wXXt99NntpRa5ll7Q9whmgg_CZK_EmGDIqsVWEAQWHwX_Qr7TiaQZrFFM8WxoZGSHU1tdonwVhASuvNym3M5eKKD0TJQvqdD4IMMEwKXL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "julie barrett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Team did an amazing job cleaning up our yard. We had several areas where the growth under the trees was so thick and unruly. Completely cleaned up after themselves. Very knowledgeable about trees. Also made sure I was completely satisfied b...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPxtBSOxGbT56HEnsmhyjfbtvhDqeZ91_1WGqUpXaQoQ_kN-mb2P_iwSzFQU2Lh7Wc70eTYg8imsTtsBhi2J9AsH5LwW6eo1FOvSM4xai2_bJtzWlVgMbHe_4VvbseZskVrn3n=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJlD5hh1npGp-JYiOYCoFmXKA5aGt8A-WqFWU8CYOyG_BeabKh0SWlwoOCg5VZdb882_OcPg6U6bez0vxK_bK4YXkufBlFKKdTADecBesr3AD0W9GSxTPbzaVp_z2PBjm7HK88_A=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lora and Mike B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We live in an older neighborhood and needed an old hackberry removed from a tight spot on the property line.  Anderton's team evaluated the situation quickly, took the tree down without damage to our fence or home, and removed all the debri...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdKDuHhGByaAiOpkplkul1CNdp5Zq2KfQwTTfuk5xgjpyTUU7_vUXAMSY3CH4uw5w46npLv3qlT5RnbGkYmlb7GWLFf8ys-4nbghIsq3W7lRHeSq_-gWZeIRYdMhbQxceOZug5r=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeWq1ZfPBVcj4XvIzXAUrSVMqE2Dm7L6ev5jTzOy0Lgmb__qf-9jEwjYokhJfB6k40R_rM7EeaO6h0aJ6wgRabXIww4Tpum_yA8PelyV_ndefdGpZaGPuwq97li9iY181r4SI4wcg=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "D. Roper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent service and a great crew. I had several companies bid on the job, but Anderton Tree Service came in way below the others. The crew came out as scheduled, walked through the property with me to make sure they understood what I want..."
+        },
+        {
+            "author": "Jana Stout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I just had the best experience with Anderton Tree Service. Michael came out the same day I called to give me a quote (which was fair and reasonable) and was quick to get me scheduled for the following week. His crew showed up timely and wer..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Worth (Основная база)",

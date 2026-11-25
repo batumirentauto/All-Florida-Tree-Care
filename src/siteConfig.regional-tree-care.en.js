@@ -32,21 +32,9 @@ export const siteConfigRegionalTreeCareEn = {
     "ctaPrimary": "Call Lead +1 407-480-0897",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/regional-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Regional Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/regional-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/regional-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRegionalTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/regional-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRegionalTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/regional-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRegionalTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/regional-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigRegionalTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Crown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Regional Tree Care is absolutely amazing! This review is long overdue. The crew is very professional, polite and respectful. I called them originally as they were licensed and insured. In addition, I like that they were veterans.  I had an emergency and needed 2 trees removed in 24 hours. One of the stumps was over 4 ft thick in diameter.  Mike and Carlos came on time to do an estimate and arrived the next day at the time they said they would arrive. They completed the job by the end of the day and even stayed late. Their prices were very reasonable. They did such a wonderful job, I was really impressed.  In the last picture, you can see how low they cut that stump down. I highly recommend them! Thank you Mike and Carlos!"
-    },
-    {
-      "author": "John Hampton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had Mike evaluate two frost damaged Foxtail palms for treatment.  He noticed that there was considerable rot at the base of both trees and they were likely to not survive for long. Had them removed at a very reasonable price. When cut, the internal damage to the trees was evident.  I'm very happy with their service."
-    },
-    {
-      "author": "Jan-Willem Poppe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "From the first contact Regional Tree Care was taking care. Immediate response to my many questions before I ordered the actual tree removal. The removal was done with complete and thorough actions, beyond my expectations and for a very fair price. Regional Tree Care will be my go to tree service from now on."
-    },
-    {
-      "author": "carlos Marrero",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Regional Tree Care did an excellent job from start to finish. Very professional, knowledgeable, and efficient. They explained the process clearly, handled the tree removal safely, and left the area clean afterward. You can tell they truly care about their work and their customers. I highly recommend Regional Tree Care for any tree trimming or tree removal needs."
-    },
-    {
-      "author": "Ruth Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I just had the best experience with Regional Tree Care LLC!!!!\n\nMike Denham, the veteran owner came to quote the job. He returned the next day and took out a huge section of branches from a tree located too close to my home. He took extra care and safely completed the job. Everything was cleaned up, and hauled away.\n\nIf you need an honest, reliable person who will not take advantage of you and take care of your trees be sure to call Regional Tree Care LLC!  If you want it done right, call him, you won’t be sorry!!!!!\n\nSo many times we don't know who to trust for such a difficult job and to be sure we are paying a fair price. With Regional Tree Care it wasn't even a question! I cant say enough about Mike. He was awesome! Thank you so much!"
-    }
-  ],
+        {
+            "author": "David Crown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Regional Tree Care is absolutely amazing! This review is long overdue. The crew is very professional, polite and respectful. I called them originally as they were licensed and insured. In addition, I like that they were veterans.  I had an emergency and needed 2 trees removed in 24 hours. One of the stumps was over 4 ft thick in diameter.  Mike and Carlos came on time to do an estimate and arrived the next day at the time they said they would arrive. They completed the job by the end of the day and even stayed late. Their prices were very reasonable. They did such a wonderful job, I was really impressed.  In the last picture, you can see how low they cut that stump down. I highly recommend them! Thank you Mike and Carlos!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3sDC4hcL1wu6C0MQ83VDRVtOhQvm_XzoBHCC3j6TV0AEEV_Q0jSUigIMFDZJANnjhyE1erZwRAeYQhfdxReYC8EczfvqKSouH-PAv31Zbs_llkuDfIaHt4CRfjAgrl2O5uzQlTg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoV8-IV92K1ZP717CX_ScmStQJZlWHxcF0h9puDhAIMKxhBa71-npC9VeVldIfOulGUwoNhRpJaBJS4aEBnnnw0rgr_upci0WJwLt87AJFneDsE1NllD-G4RNq3IhoeHhIiiYd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdASokl4T07NWA32qdMGRcn6M1sVo1lU2vU1qJiMV8dHIFAk4diXA1fzlJbmIubuv1Qu1oonJioySyeNWyH3Z2OxdRc6LNBe2wChSp4n29pjnppfJabqad-cptM7Zd40xUXHIbpIA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcD7IOoYdpyYlNphs-_D_uoyuNrvQ8mOGaUSIPHq0iPmzzdTfPrC-ECSNi_QwKQMdaFH9ACAx0MKWO0PoKq0aAAjPR5GwUMVgnmwhBWRC3gh0GLhb33EFxvFI2OQjnON-aDJVfS=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Hampton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had Mike evaluate two frost damaged Foxtail palms for treatment.  He noticed that there was considerable rot at the base of both trees and they were likely to not survive for long. Had them removed at a very reasonable price. When cut, the internal damage to the trees was evident.  I'm very happy with their service."
+        },
+        {
+            "author": "Jan-Willem Poppe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "From the first contact Regional Tree Care was taking care. Immediate response to my many questions before I ordered the actual tree removal. The removal was done with complete and thorough actions, beyond my expectations and for a very fair price. Regional Tree Care will be my go to tree service from now on."
+        },
+        {
+            "author": "carlos Marrero",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Regional Tree Care did an excellent job from start to finish. Very professional, knowledgeable, and efficient. They explained the process clearly, handled the tree removal safely, and left the area clean afterward. You can tell they truly care about their work and their customers. I highly recommend Regional Tree Care for any tree trimming or tree removal needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcb5y6SAU_zeogEeaTI5htB7XJRbhsq3EwB-Pp301oM67ilMVqicckCD6SYDGaxrCJENxX6ZVrXrT1o0vHq4V8-0pFnqeJn08U57qR4waTkTWPVxwuHtTqzT0vqCtc0ZurFMd5pnWUIsupd=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ruth Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I just had the best experience with Regional Tree Care LLC!!!!\n\nMike Denham, the veteran owner came to quote the job. He returned the next day and took out a huge section of branches from a tree located too close to my home. He took extra care and safely completed the job. Everything was cleaned up, and hauled away.\n\nIf you need an honest, reliable person who will not take advantage of you and take care of your trees be sure to call Regional Tree Care LLC!  If you want it done right, call him, you won’t be sorry!!!!!\n\nSo many times we don't know who to trust for such a difficult job and to be sure we are paying a fair price. With Regional Tree Care it wasn't even a question! I cant say enough about Mike. He was awesome! Thank you so much!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Central Depot)",

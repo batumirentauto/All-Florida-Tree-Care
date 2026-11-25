@@ -32,21 +32,9 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     "ctaPrimary": "Call Nick +1 253-243-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Wildwood Tree Care, LLC - Tree Removal Tree Service Puyallup and Surrounding Areas tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/wildwood-tree-care-llc-tree-removal-tree-service-puyallup-and-surrounding-areas/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,55 @@ export const siteConfigWildwoodTreeCareLlcTreeRemovalTreeServicePuyallupAndSurro
     }
   ],
   "reviews": [
-    {
-      "author": "Grace Leeds",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Nick was a pleasure to work with! I had part of a tree come down. In less than 48hrs it was taken care of. Would definitely recommend Wildwood Tree Care LLC."
-    },
-    {
-      "author": "steven pederson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The 5 star reviews of Wildwood Tree Care are for real!\n\nNick came out to make an estimate for removal of a twin trunked cottonwood and 4 extremely overgrown laurel bushes. We agreed on a price, and a date was set.\nNick & crew arrived on time and got right to work. Everyone on the crew worked together to get the job done quickly and safely.\nExtra care was taken to prevent damage to the building that was   threatened by one of the cottonwood's overhanging 95 foot tall trunks and the 16 foot tall laurel bushes growing up against and over the same building.\nWildwood has well maintained equipment and experienced personnel that can handle technical tree removal with confidence.\nThey completed the job in one day. When they left, the trees and the mess were gone. No hassle, no B.S., these guys were great.\nI would use them again anytime!"
-    },
-    {
-      "author": "Tyson Terry",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After getting quotes from 3 different people, and getting a strong recommendation from his competitor believe it or not I decided to hire Nick to remove 2 major trees and 2 minor trees, grind a stump and cut the wood into rounds and wood chip the rest. Well when it came down to it he not only grinded the stump but used his little skid steer to level that area out better, grind an extra stump that I never mentioned in the original job bid and open up a view of mount rainier by limbing a tree for me. I initially thought tree removal was a little expensive during his initial bid but definitively changed my mind after seeing him show up with a crew of 3 experts working more than a half day with a lot of expensive equipment, I felt like he under promised and over delivered in every way possible.\nNick and his crew were also very careful to not damage my lawn as much as possible during the whole process.\nI definitely recommend Nick and his company to everyone in the area that needs anything tree related."
-    },
-    {
-      "author": "Jerry Grant",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wildwood Tree Care is top notch!\nI did my research and had 5 company’s come out and give me a bid to remove 3 cypress trees.\nRight off the bat I knew Nick from Wildwood was the right choice.\nHim and his crew perfectly took down 3 crazy growing cypress trees in a small backyard right up against a fence and 2 neighbors bordering.\nI highly recommend Wildwood.\nYou will not be disappointed with the service they provided.\nPictures show before and after."
-    },
-    {
-      "author": "Andrea Henselen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Nick is an awesome guy with lots of knowledge! He definitely takes pride in his work. His communication was always great. He took care of a huge stump that was only about 6 feet from our front door. It was obvious that safety and efficiency are on the top of his list. The stump only took about an hour and the price was great too. 10/10 recommend!"
-    }
-  ],
+        {
+            "author": "Grace Leeds",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Nick was a pleasure to work with! I had part of a tree come down. In less than 48hrs it was taken care of. Would definitely recommend Wildwood Tree Care LLC.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGEPoGAdosZ_hhCU071tcx1YsALctu9gGcYrqdmh5KiHHJ4dhdafkio6FPQDFXV4xcbR-mKkl1GN1MC-GE9FqEenlXJzIVX6tej9YmLLTFj2PxzarNBtz5dhFgQqta8_skqTCKLN6nTony=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbc8siftJuNpEkEJjCN251pLtCYGho-D2eYwVJ-Vn5r19fkxdqH3sL_F98pWvuFmuwrGk6YI0pLgQnCXTXmxURDpnJiupJa293zOJi1aTYPPz1X6XEb0liWRmtttqfroEGWcaq2SZl1s4g=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "steven pederson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The 5 star reviews of Wildwood Tree Care are for real!\n\nNick came out to make an estimate for removal of a twin trunked cottonwood and 4 extremely overgrown laurel bushes. We agreed on a price, and a date was set.\nNick & crew arrived on time and got right to work. Everyone on the crew worked together to get the job done quickly and safely.\nExtra care was taken to prevent damage to the building that was   threatened by one of the cottonwood's overhanging 95 foot tall trunks and the 16 foot tall laurel bushes growing up against and over the same building.\nWildwood has well maintained equipment and experienced personnel that can handle technical tree removal with confidence.\nThey completed the job in one day. When they left, the trees and the mess were gone. No hassle, no B.S., these guys were great.\nI would use them again anytime!"
+        },
+        {
+            "author": "Tyson Terry",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After getting quotes from 3 different people, and getting a strong recommendation from his competitor believe it or not I decided to hire Nick to remove 2 major trees and 2 minor trees, grind a stump and cut the wood into rounds and wood chip the rest. Well when it came down to it he not only grinded the stump but used his little skid steer to level that area out better, grind an extra stump that I never mentioned in the original job bid and open up a view of mount rainier by limbing a tree for me. I initially thought tree removal was a little expensive during his initial bid but definitively changed my mind after seeing him show up with a crew of 3 experts working more than a half day with a lot of expensive equipment, I felt like he under promised and over delivered in every way possible.\nNick and his crew were also very careful to not damage my lawn as much as possible during the whole process.\nI definitely recommend Nick and his company to everyone in the area that needs anything tree related."
+        },
+        {
+            "author": "Jerry Grant",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wildwood Tree Care is top notch!\nI did my research and had 5 company’s come out and give me a bid to remove 3 cypress trees.\nRight off the bat I knew Nick from Wildwood was the right choice.\nHim and his crew perfectly took down 3 crazy growing cypress trees in a small backyard right up against a fence and 2 neighbors bordering.\nI highly recommend Wildwood.\nYou will not be disappointed with the service they provided.\nPictures show before and after.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFN1ZInwhrbWXyPsXKOVVc1QR3_T5XECpC6NvwPWM8RAToc8aVarGRGeTlnQOOx-e2Ii-zWm3eBgAE2UnYIH6ew84MqNfpxDCAhHRC3ct-MApRxE3h2eyORktihyQMIJWBLPVyhmSG8Pqh=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcL2ArNu8sdCCRVJ0D4XN0t9vIZPo5tYJ3BiXjcwjhVLVLhtGB9OzABPMUiodJD2t91jvPkSkhQnoEviiUQpX0jISImXEVvaAihCVyBaYcQWh8m2KGPfy6iNQxoIvqsDOsSf2DUIld2hI-V=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Andrea Henselen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Nick is an awesome guy with lots of knowledge! He definitely takes pride in his work. His communication was always great. He took care of a huge stump that was only about 6 feet from our front door. It was obvious that safety and efficiency are on the top of his list. The stump only took about an hour and the price was great too. 10/10 recommend!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Puyallup (Central Depot)",

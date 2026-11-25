@@ -31,21 +31,9 @@ export const siteConfigParamountTreeCompanyRu = {
     "ctaPrimary": "Позвонить (+1 910-604-1588)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/paramount-tree-company/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Paramount Tree Company"
-      },
-      "sub1": {
-        "image": "/images/paramount-tree-company/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/paramount-tree-company/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigParamountTreeCompanyRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/paramount-tree-company/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigParamountTreeCompanyRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/paramount-tree-company/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigParamountTreeCompanyRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/paramount-tree-company/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigParamountTreeCompanyRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Karen Seaborn Hall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Set up an appointment to get left tree of two trees cut down.  I had some concerns about the look of the one lone tree once the left tree was cut down.  Michael assured me that they’d get it shaped up and I’d be pleased. They showed up on t..."
-    },
-    {
-      "author": "Patricia Gleichauf",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have worked with many companies in my life but rarely have I experienced the excellence of Paramount Tree Company. Michael and his crew arrived early for my tree removal job, were extremely knowledgeable, giving us confidence in their abi..."
-    },
-    {
-      "author": "Mike Hubbard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mike and his crew took down four fairly large trees at my place, one of which was partially hanging over my home.  They did outstanding work and were safe and efficient throughout the job.  Did a great job cleaning up and they were all frie..."
-    },
-    {
-      "author": "J. Tracey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What can i say but wow. They move with a quickness and were done before I even had a chance to blink. They were very professional and a pleasure to do business with. My only regret is not taking pics. They left the yard cleaner than when th..."
-    },
-    {
-      "author": "Cody Lowe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Michael and his crew were very efficient and professional. They came and tackled 3 trees for me. They did it fast and cleaned up all the debris. They definitely knew what they were doing. They had a tight path to lay down the trees and succ..."
-    }
-  ],
+        {
+            "author": "Karen Seaborn Hall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Set up an appointment to get left tree of two trees cut down.  I had some concerns about the look of the one lone tree once the left tree was cut down.  Michael assured me that they’d get it shaped up and I’d be pleased. They showed up on t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqxp5Q0VegFCLtCuT_mfM5C-VDr_7mpewDfP-pUHeGNytdbEg1bufDUFaGqCJwbnv8mtmNvX83TkmZgYrPWnBRpn6UK-VtYrGdKf2XLmr5H73j8ZKNoAd04Tmv7fftm7WawCnq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFj5sqHom9ndOdwUq79wddnxVOPbBDuFyJ8KHmXSVfrNdReuIeG72qecxSdBrTqiYk0vZ_ZneH9sWUZi75WhTSlXn9BTeVKehhS64IacdypZ43qP7Lg9pTkqJHw9fFJnPB6lV_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaHxnqlJpoMQpaHSEytCJ8dC0QPtoXqgsx7-TaIU0r5qVzzR0EomiguTT0qUW_MwAxerHtVAA8PuUyH8tONDWKQl-Pa4s4pUc5J3Jnjtu_L5V9rEZRhwp4RCRqewT-rXn4kH8P=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbw3kZ2hfJeto7sQ0pGIWf003Klhpvl0R5afq76YwCHb60vnElLxwE-847w-u_lBDlgMIVQKXQFViMSs4vfcSUAGcAat_mQSkVhhOjQt6tEHezMlnwDLUdNfufGXOLt6TcRZA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Patricia Gleichauf",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have worked with many companies in my life but rarely have I experienced the excellence of Paramount Tree Company. Michael and his crew arrived early for my tree removal job, were extremely knowledgeable, giving us confidence in their abi..."
+        },
+        {
+            "author": "Mike Hubbard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mike and his crew took down four fairly large trees at my place, one of which was partially hanging over my home.  They did outstanding work and were safe and efficient throughout the job.  Did a great job cleaning up and they were all frie...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIH3ydPzkgnZ2SbCYqeoXUglKFfosjQCxXSevMAvB1WRzcMVbHoGa0uy8F66cxm0XDVRMZL0GXWGrc9khMleKgcCJikL9tEt8GOzhxemACUShyb6JkBTm3EfK6PwpY-xeDjLNwFaDBygoi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J. Tracey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What can i say but wow. They move with a quickness and were done before I even had a chance to blink. They were very professional and a pleasure to do business with. My only regret is not taking pics. They left the yard cleaner than when th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczesA7R3ovS88jyDFxErVwWpUBYznw4nowjXBbHwNJhnz_UUkykDvCvGHv54V83sqcoongWevukZJL3vx6nVB4gOZs1YAuKD5pZZPCBrYAL_K3Q02zvXvqPyJupRtWH_65yxnPy_2eIeQ_=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjdW0DzCWNMy6JxCQ6dPPY713rqfAQqtL3sASFyaXJPQVuH3OHuBRSTVVChEww0ncrxkkdUDvSQjGrssHYgTVqhjepyveomp6SuVTnxXeSheMaPNr2B51u8hnwcHVbl3di-NavtuGtwagY=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Cody Lowe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Michael and his crew were very efficient and professional. They came and tackled 3 trees for me. They did it fast and cleaned up all the debris. They definitely knew what they were doing. They had a tight path to lay down the trees and succ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAY44ux-uwI-KomaqswGJ0g56Y309hg7GVjOVxyp5aeGesfwRmKW667f3qvcYfJ7ASZCerGNrs9tDX68AlODvHHkqiZI6s7wWi9Vrn86YmNFQPQwyl83j7stxZrSuQyx3X8_ad=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZIiogRNRxas4R18C6UBvijgJ1BtV6XruK3VUfhxifKkFfiOZ8s7m9CUi5SxJvVSfFxilk9T9eBloio32gO5cEm31gFOD3EOaLxHOlGxcW4QnqpWKRhqh91cn6W4GI8ZEgC6d40g=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

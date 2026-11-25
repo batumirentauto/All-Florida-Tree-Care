@@ -32,21 +32,9 @@ export const siteConfigTdTreeEn = {
     "ctaPrimary": "Call Timothy (228) 206-2351",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/td-tree/photo_005_crop.jpg",
-        "label": "Aerial Bucket Boom Roof Clearance",
-        "alt": "Bucket truck aerial boom elevated high trimming branches directly over two-story residential roof"
-      },
-      "sub1": {
-        "image": "/images/td-tree/photo_003_crop.jpg",
-        "label": "Mature Shade Tree Structure Check",
-        "alt": "Massive mature shade tree canopy over two-story white residential home"
-      },
-      "sub2": {
-        "image": "/images/td-tree/photo_002_crop.jpg",
-        "label": "Driveway Perimeter & Flagpole Care",
-        "alt": "Trimmed garden bed and trees along gravel driveway with American flag"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTdTreeEn = {
     {
       "name": "Overhead Utility Line & Roof Bucket Boom",
       "badge": "High-Reach Utility Safety",
-      "image": "/images/td-tree/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTdTreeEn = {
     {
       "name": "Residential Siding Clearance & Deadwood Trim",
       "badge": "Structural Clearance",
-      "image": "/images/td-tree/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTdTreeEn = {
     {
       "name": "Acreage Grounds Tree Care & Perimeter Clean",
       "badge": "Acreage Property Care",
-      "image": "/images/td-tree/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

@@ -31,21 +31,9 @@ export const siteConfigUsTreeRu = {
     "ctaPrimary": "Позвонить ((313) 936-4140)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/us-tree/photo_005_crop.jpg",
-        "label": "Опиловка кроны у электропроводов",
-        "alt": "Прореженная крона дерева между гаражами: провода свободны, обеспечен доступ света"
-      },
-      "sub1": {
-        "image": "/images/us-tree/photo_001_crop.jpg",
-        "label": "Арборист на высоте у крыши",
-        "alt": "Верхолаз в кроне дерева срезает ветви, нависающие над крышей гаража"
-      },
-      "sub2": {
-        "image": "/images/us-tree/photo_008_crop.jpg",
-        "label": "Сбор веток у гаража",
-        "alt": "Срезанные ветви аккуратно сложены возле забора для погрузки и вывоза"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigUsTreeRu = {
     {
       "name": "Подъем кроны вдоль забора",
       "badge": "Уход во дворе",
-      "image": "/images/us-tree/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigUsTreeRu = {
     {
       "name": "Удаление поросли у стены дома",
       "badge": "Отступ от фундамента",
-      "image": "/images/us-tree/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigUsTreeRu = {
     {
       "name": "Уборка листвы и органического сора",
       "badge": "Чистый двор",
-      "image": "/images/us-tree/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

@@ -32,21 +32,9 @@ export const siteConfigAndersonsTreeCareSpecialistsEn = {
     "ctaPrimary": "Call Christian +1 408-226-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/andersons-tree-care-specialists/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Anderson's Tree Care Specialists tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/andersons-tree-care-specialists/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/andersons-tree-care-specialists/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAndersonsTreeCareSpecialistsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/andersons-tree-care-specialists/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAndersonsTreeCareSpecialistsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/andersons-tree-care-specialists/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAndersonsTreeCareSpecialistsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/andersons-tree-care-specialists/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigAndersonsTreeCareSpecialistsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "April Mosca",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Anderson’s tree company, Christian and his crew, were phenomenal! Their expertise and attention to detail were exceptional. They came in took down all our unwanted trees, ground the stumps and took all debris leaving our yard spotless. We appreciate their professionalism and strong work ethic. We are very happy we chose Anderson!"
-    },
-    {
-      "author": "Katie Shradar",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Anderson tree care came out and removed a 50+ ft palm tree from our back yard along with two smaller trees we had in the front. They used a crane to take the palm out efficiently and with very little mess. My kids loved watching all the action. They also did pruning to our other trees and when they were done left no mess and was very respectful/professional the whole time. I highly recommend them for any tree services."
-    },
-    {
-      "author": "Liliana Ramos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Kaitlyn walked us through the process from start to finish. She really knew what the trees needed. On the day of the tree pruning,  Kaitlyn and the crew did great. The trees look happier than they had been in years. They were prompt, efficient, and respectful of the property. They also cleaned up perfectly. Thank you!"
-    },
-    {
-      "author": "Goutham Bellary",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Because of High winds had a Branch that fell down blocking one of the cars parked in the dtive way. Straun was quick to respond in Unblocking the driveway himself and then coming back with a Crew at a later convenient date to do the Pruning too. The service was Very professional & reasonably priced! Would Highly recommend!"
-    },
-    {
-      "author": "Teresa Rivera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had an amazing experience! From start to finish, the team at Anderson Tree Care demonstrated professionalism and provided comprehensive information. They thoroughly detailed the process, and the timeframe was excellent. My trees and brush are now well-prepared for spring. I would highly recommend their services to anyone seeking tree care. Excellent work!"
-    }
-  ],
+        {
+            "author": "April Mosca",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Anderson’s tree company, Christian and his crew, were phenomenal! Their expertise and attention to detail were exceptional. They came in took down all our unwanted trees, ground the stumps and took all debris leaving our yard spotless. We appreciate their professionalism and strong work ethic. We are very happy we chose Anderson!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkSVrQHTawcPR9w-kv-4OlTeRMh6ZoMKf75jcTn_eb95McDGNRDuutVynNVhwWxsn2-jPUZt-ge1mfFA5YCRNiRmiluXFfe8XkHfog7ES6wennWTCda6XiaUjBpIfn8k8vi_Zr2gPZ4UMY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedSQ9EO-l7h9iWWAMxR-6qaQwZbZow9_pNeLCptbAVOd2XlicOWbP7T61_Ku7o61MILvzFhRjO6i2WGuqp3nsSn4e_Mbpo7ySi9Elb0Rsocjp26vp8MnCwsEd64hsp8Iz2iQ3rmxiP6ek=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Shradar",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Anderson tree care came out and removed a 50+ ft palm tree from our back yard along with two smaller trees we had in the front. They used a crane to take the palm out efficiently and with very little mess. My kids loved watching all the action. They also did pruning to our other trees and when they were done left no mess and was very respectful/professional the whole time. I highly recommend them for any tree services.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGELl6nnBgHQsQEqIBFN25WSPEXql_ak-UOLwEFxOxU89W1wAD0cN0iOPes4dHi2oGinXli_AKMs0tjGdX4olefj_wXdgeTXtdyMQepfsaiS0xXmZrqaMeAknDmRtkD3nbSBSo-GDBOR9S=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Liliana Ramos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Kaitlyn walked us through the process from start to finish. She really knew what the trees needed. On the day of the tree pruning,  Kaitlyn and the crew did great. The trees look happier than they had been in years. They were prompt, efficient, and respectful of the property. They also cleaned up perfectly. Thank you!"
+        },
+        {
+            "author": "Goutham Bellary",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Because of High winds had a Branch that fell down blocking one of the cars parked in the dtive way. Straun was quick to respond in Unblocking the driveway himself and then coming back with a Crew at a later convenient date to do the Pruning too. The service was Very professional & reasonably priced! Would Highly recommend!"
+        },
+        {
+            "author": "Teresa Rivera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had an amazing experience! From start to finish, the team at Anderson Tree Care demonstrated professionalism and provided comprehensive information. They thoroughly detailed the process, and the timeframe was excellent. My trees and brush are now well-prepared for spring. I would highly recommend their services to anyone seeking tree care. Excellent work!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Jose (Central Depot)",

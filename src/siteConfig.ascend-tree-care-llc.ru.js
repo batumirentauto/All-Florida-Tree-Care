@@ -31,21 +31,9 @@ export const siteConfigAscendTreeCareLlcRu = {
     "ctaPrimary": "Позвонить (+1 706-248-7149)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ascend-tree-care-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Ascend Tree Care LLC"
-      },
-      "sub1": {
-        "image": "/images/ascend-tree-care-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/ascend-tree-care-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAscendTreeCareLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/ascend-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAscendTreeCareLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/ascend-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAscendTreeCareLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/ascend-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigAscendTreeCareLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Meg McLeroy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Chris and team did a wonderful job start to finish.  I appreciate the care and concern for the overall health of trees that needed limbs trimmed and the precise way a big dead oak was removed.  Highly recommend!..."
-    },
-    {
-      "author": "Katie Hutton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We couldn't be happier with the service we received from Ascend Tree Care! From start to finish, the team provided excellent communication, showed up when promised, and did outstanding work.\nThey were professional, efficient, and took great..."
-    },
-    {
-      "author": "Steven Green",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Chris & his crew showed up when promised, went over what we’d discussed, and then got the job done. They were very methodical and deliberate, emphasized safety and efficiency, and got the job done as promised. When they were finished, they ..."
-    },
-    {
-      "author": "Catie Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had the best experience working with Chris and his team! A storm knocked out a large tree in my backyard and Chris was a godsend - he was quick to respond and come out and thorough in his explanations on the variety of solutions available..."
-    },
-    {
-      "author": "Jenni Shaver",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I cannot say enough good things about Chris and his crew! They took care of removing trees from our house after Hurricane Helene and I’m so glad we chose them for the job. They were experts in their field and we were constantly impressed wi..."
-    }
-  ],
+        {
+            "author": "Meg McLeroy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Chris and team did a wonderful job start to finish.  I appreciate the care and concern for the overall health of trees that needed limbs trimmed and the precise way a big dead oak was removed.  Highly recommend!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedmiHKYWPde2XhhgJLGnKRtOcIQqA-oOgTtq_KuMANgtpplZqNRuj7YisYTNr58OpHy5pRBCSznYn6SQ2IIOKyFp4YYvgxMUXykipxl-3VA-frt6FzMD0rPnkUnPENwiJn4yH5qRq6dSTz=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcaSno1Ck5Urynq4LB0sNHl_ZkCe0ENmcicp_dfxRq8vz4rA7IVkmXQfPnrpGRiNIaDPUgUbFVo6JYavddySgzAUIWgnU6e8zDDgHVE2ZcTqhx1Z3ysp9TGw6hP4y2G_dsBjDwSJ4KXJDD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdABS2wPwYlvtXzoH8qBt8tDDJf0o8StHPz3WQ8gn5qlzplSAnbM0aDrY7303AP6GlxbOEpxuaCyl8YaMEyrgsd0ckhdr71Gi9atu291449cTVtVEuHmVs-c5XmneT-lnGSpQHlJMHMNJCy=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Hutton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We couldn't be happier with the service we received from Ascend Tree Care! From start to finish, the team provided excellent communication, showed up when promised, and did outstanding work.\nThey were professional, efficient, and took great..."
+        },
+        {
+            "author": "Steven Green",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Chris & his crew showed up when promised, went over what we’d discussed, and then got the job done. They were very methodical and deliberate, emphasized safety and efficiency, and got the job done as promised. When they were finished, they ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOxCIhsmydOe46pE0PQWngfXGVtOVYUWSZk7a4MAPd64_kbKxh39Rrms07yANjVn32Rq3NhINWxcffgFXALBufQP1PPuGlDZwKWuew0d7fxLGKO320wRn6W-N9iJA0oS26Rtk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-DE5_fzoipiI2nkBneoN-w5OjmjaXvGKSR21U2PyuObRERWUKT2yaCtT9H5sgRdIo-77B5bHsa9a3-gHj7QiMpNEQswZpja9IcH_u4WEhno5uhfWMza0bud64qQRN-0AMwvbMkQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfV1Q3xj2RJSCFGxDzgLmdCQYkNi3deH8I0LxrpDOpr382rbKytVB5mrEHtE1eX4m0ydVqyYYOLZKfUXdNV2-fbQIhcZ-w-PQMX7l9VdyPEiDet33pS2MUg2lZ-o-xcFLqjzMD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvacWsiO8FHffO8rUyq6dBhj9MNQl4aQL-TMqdbslBKULV9RHv4KBfvRapBpl8_BrZT4NHJ2ybrRHA5Kzmt2lWN6XLA4Ib_ZJTXDVV_CxkaEzN84GmgHlH510hBq2W02bwqDoWiQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Catie Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had the best experience working with Chris and his team! A storm knocked out a large tree in my backyard and Chris was a godsend - he was quick to respond and come out and thorough in his explanations on the variety of solutions available..."
+        },
+        {
+            "author": "Jenni Shaver",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I cannot say enough good things about Chris and his crew! They took care of removing trees from our house after Hurricane Helene and I’m so glad we chose them for the job. They were experts in their field and we were constantly impressed wi...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTRHJ-iSr8k3SNt8ASqyoM4YQGzCEYc2_Bt5ffPx32GRmdjDP4yWOSDYgCMks12h4cvAW9YkyPAfpdGT39WIvE-a5rHut_usNmjmG2AbhU7F8GP5euSP6mWuBM8sQtL-WnZHA5ZQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2NG6FFRCERPBUQrOQaciLndLPQDByuRZQZYLVipUlm1jy14LAovt050SqtKZ3GTGWH0gWkc5O1pzWvcgzJZ0U1q3xyyuiQ9wwLNONqK43InVxV_5YJaGk9FK772vtT3K8LEOJ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

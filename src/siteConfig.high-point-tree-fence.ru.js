@@ -31,21 +31,9 @@ export const siteConfigHighPointTreeFenceRu = {
     "ctaPrimary": "Позвонить (+1 336-861-9058)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/high-point-tree-fence/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады High Point Tree & Fence"
-      },
-      "sub1": {
-        "image": "/images/high-point-tree-fence/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/high-point-tree-fence/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHighPointTreeFenceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/high-point-tree-fence/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHighPointTreeFenceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/high-point-tree-fence/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHighPointTreeFenceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/high-point-tree-fence/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigHighPointTreeFenceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joe Wallick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We hired High Point Tree and Fence to clear our back yard of trees and brush. The team was professional, friendly, and diligent. We were very happy with the results and highly recommend their services!..."
-    },
-    {
-      "author": "Chris W",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Hired High Point Tree and Fence to clean up around my fence line (3 sides). Did a great job trimming trees, pulling vines, etc to make my yard look much cleaner and less like a jungle. Very friendly team that knocked out a lot of work in a ..."
-    },
-    {
-      "author": "Jason Gekko",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a lot of work to be done on my property: stump grinding, pruning two 100' trees, removing leaning trees, general yard cleanup, limb chipping, securing trees with cables and removing a large pile of brush cut from an Azalea hedge.\n\nI r..."
-    },
-    {
-      "author": "Kelly Dietzen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing work by Mike and his team at High Point Tree & Fence. I could not be happier with how this project turned out. It is even better than what I envisioned. This crew put this fence up quickly and made sure everything was done well. Not..."
-    },
-    {
-      "author": "Andrew Bennett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Absolute fantastic work and customer support. They removed several trees for us then installed a beautiful white vinyl fence. Could not be happier. Great service, great price, great people. (before and after pics below)..."
-    }
-  ],
+        {
+            "author": "Joe Wallick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We hired High Point Tree and Fence to clear our back yard of trees and brush. The team was professional, friendly, and diligent. We were very happy with the results and highly recommend their services!..."
+        },
+        {
+            "author": "Chris W",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Hired High Point Tree and Fence to clean up around my fence line (3 sides). Did a great job trimming trees, pulling vines, etc to make my yard look much cleaner and less like a jungle. Very friendly team that knocked out a lot of work in a ..."
+        },
+        {
+            "author": "Jason Gekko",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a lot of work to be done on my property: stump grinding, pruning two 100' trees, removing leaning trees, general yard cleanup, limb chipping, securing trees with cables and removing a large pile of brush cut from an Azalea hedge.\n\nI r...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfzJLgSV3EMvd5PP8QAjX_AKAtmTo3lz53HSKEMeUDEDio8L0P_p15nR6fbsipeXsTaO26q6VdAQs7buenrNO5cajs5_pjHjjCNA_pNtCyNcn2SwpVqh0atrLCOTODbqrA2jok0_g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVbv6dG_xiMg3QzbdtlpmIEoIRhdDga97-baEgajcJt82Je4asR9ugL8V7yHA3P6K7VK28bPt1Vzyp6N3JcJlnftl1-Ko1BHtUQ3dJn61hoWISCFBeifd7mj54_cEBE4ZpPyTb=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdOkNIPsVIZ52m4hES9HakgAAmOFlXfwAtdt3Dh3Y3XNGCU6LAHfIWhapbYBpLQgTfL4TBRTuE-j-AtzMp0pFLOCJVP391I4OLWryF_RlTSQQXtBBRo7pzTOgqSzbe6CuNX6ZHHCw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kelly Dietzen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing work by Mike and his team at High Point Tree & Fence. I could not be happier with how this project turned out. It is even better than what I envisioned. This crew put this fence up quickly and made sure everything was done well. Not...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJaHvHPNe1irFnAfn9C5JpbQuwdC1MPFZlGxBNRmqSm-tjjiZt7p03mZWucswARKiE7QBpd7KHngSQdiEA4UZbA8r_xyDscSxWuXFxfIcTw07pNOH6Axev8dc1i_RO-ul4KMs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6dRhoEBodE6b69PIdT3ZZpfPucZURMVdQDIg7JG9txWoZdM1zPNrXe0aHCG8oWlpPlNF4L-OO2xOsr-BOw97Tz-C98Z3PPaYBXt7Klq8J_Op8ahzQQv5ynZqHhaTngc4YhRtV=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4789zj6vAS_bg_CZLF02ASqRtMlaKwSN6fu9WfH627ZE5atvNvQ9hNRw1HVXsXqd37N_b0q_cxFMrApamHaQAKo2FlNpnpNQAkOWwKwraXrvXh2AU0XdEmukIIMlyA9Zp5Hk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLebVlX5jbAhLFjuNBxBCDeIl1USSpSBTNTCjMArcVAPmUCP92c3m1lpW3mn6UMCAli04_IO0eCR8KAEtEQpknDWjT6XoCZfp-LHsvxcAfrj3_etPa1Rk0usEwMPhIo9VGilT7jVHw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andrew Bennett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Absolute fantastic work and customer support. They removed several trees for us then installed a beautiful white vinyl fence. Could not be happier. Great service, great price, great people. (before and after pics below)...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeudac6YCJ8CyBYaAt1Bat7t6Z49IGKchiO3cS1t9wIFYTkP42LB4EdcI2Q_e5DqEYIbI_B2hljkK9mgi2fJU4Gr1QNyYHERQecxfPE93_10XGh5X7aH4_HUNGROesGetrIbDWr=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMZtbEF5OamaMrbGu23qgRfGTj7lFH5bibJtBllsr0WZ6sE4sZcfz-iyhRSyS3VGJ5sZIZ3suaXLV2mXBkK2ti6TCtTAzRGcRgpW8zBU5-eczq_qsT-wq3L5c9l7L7VTufLtXT=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

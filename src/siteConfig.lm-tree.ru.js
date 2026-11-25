@@ -31,21 +31,9 @@ export const siteConfigLmTreeRu = {
     "ctaPrimary": "Позвонить ((918) 616-9466)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/lm-tree/photo_001_crop.jpg",
-        "label": "Надломленный штормом ствол",
-        "alt": "Крупная ветвь дерева, расщепленная ураганом и упавшая на газон во дворе"
-      },
-      "sub1": {
-        "image": "/images/lm-tree/photo_003_crop.jpg",
-        "label": "Спил сука заподлицо",
-        "alt": "Крупный план чистового спила поврежденного сука без задира коры"
-      },
-      "sub2": {
-        "image": "/images/lm-tree/photo_004_crop.jpg",
-        "label": "Переноска срезанных веток",
-        "alt": "Рабочий бригады переносит срезанные сучья по газону к грузовику"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigLmTreeRu = {
     {
       "name": "Подъем кроны над подъездным путем",
       "badge": "Свободный проезд",
-      "image": "/images/lm-tree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",

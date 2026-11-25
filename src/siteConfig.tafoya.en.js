@@ -32,21 +32,9 @@ export const siteConfigTafoyaEn = {
     "ctaPrimary": "Call Nester (713) 594-5062",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tafoya/photo_009_crop.jpg",
-        "label": "Commercial Chipper & Chip Hauler Fleet",
-        "alt": "Yellow commercial brush chipper blowing chips directly into big black chip dump truck on street"
-      },
-      "sub1": {
-        "image": "/images/tafoya/photo_015_crop.jpg",
-        "label": "Branded Track Skid Steer (713-594-5062)",
-        "alt": "Yellow track skid steer loader branded with phone 713-594-5062 working in woods"
-      },
-      "sub2": {
-        "image": "/images/tafoya/photo_001_crop.jpg",
-        "label": "Arborist Climber Aloft on High Spar",
-        "alt": "Arborist climber aloft rigging high oak tree spar against clear blue sky"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTafoyaEn = {
     {
       "name": "Tracked Stump Grinder & Mini-Skid Driveway Sweep",
       "badge": "Driveway Timber Clearing",
-      "image": "/images/tafoya/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTafoyaEn = {
     {
       "name": "Poolside Palm Tree Trimming & Skirt Shaving",
       "badge": "Poolside Palm Care",
-      "image": "/images/tafoya/photo_011_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTafoyaEn = {
     {
       "name": "Fence-Line Stump Grinding & Yard Sweep",
       "badge": "Fence-Line Root Milling",
-      "image": "/images/tafoya/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

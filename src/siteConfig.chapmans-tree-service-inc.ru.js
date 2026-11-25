@@ -31,21 +31,9 @@ export const siteConfigChapmansTreeServiceIncRu = {
     "ctaPrimary": "Позвонить (+1 678-921-8163)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/chapmans-tree-service-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Chapman's Tree Service Inc."
-      },
-      "sub1": {
-        "image": "/images/chapmans-tree-service-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/chapmans-tree-service-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigChapmansTreeServiceIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/chapmans-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigChapmansTreeServiceIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/chapmans-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigChapmansTreeServiceIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/chapmans-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigChapmansTreeServiceIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ms S",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so pleased with the excellent service I received from Chapman’s tree service, Inc. I had two very tall trees fall in my backyard, which was hard to access, and a third huge tree that split and fell between other trees. Chapman’s came o..."
-    },
-    {
-      "author": "Lauren Gisel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I literally have never worked with a more professional team of people in any aspect of my work or life than Chapman's Tree Service. From the start Todd was calm, cool and collected when he came to inspect the giant tree leaning on the back ..."
-    },
-    {
-      "author": "Laurie O'Brien",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We recently had tree removed and stump grinded. The entire experience was excellent. Communication and time line were accurate. Kevin and Caleb are professional and courteous. The job was thorough and clean up was efficient. Would highly re..."
-    },
-    {
-      "author": "Scott Andrews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: From estimate to clean up, Chapman’s Tree Service exemplifies professionalism and customer service. Mr Chapman is a wealth of knowledge in the tree business. His calm demeanor and approach is so helpful when dealing with taking down trees.\n..."
-    },
-    {
-      "author": "Dorothy B.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A fantastic crew was sent to my house this week to remove 8 trees, along with grinding stumps on 5 of them. They were on-time, professional, polite, knowledgeable, accommodating, & all worked very hard to make sure I got my money's worth fo..."
-    }
-  ],
+        {
+            "author": "Ms S",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so pleased with the excellent service I received from Chapman’s tree service, Inc. I had two very tall trees fall in my backyard, which was hard to access, and a third huge tree that split and fell between other trees. Chapman’s came o...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdit7A5tOuKgKOaj064eDgguobtP1j-ApBKNS9F0kEagPDejCHHp7nh3W1BLSXZhz-vNnVpT7qmoQPH4k3AFV1wsaWf9QDKDLV1ercDq7nhTDGWllU_bIoyJBNgEjocXkP8rCZB-Vn5sEP4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTdjX2q714iFh968N8xGS5ilrMAp1lHs_a4wetUTwik8zZjd3Pen4cocIQHYPFPaT5ELYRty5fOz61WhEaFCmbTWh2Cuu35HX39ey8KnHbTwQyaKnkgNRebsL-NN8lcPwrINQvVyMpHacL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKr6jvDZHRlYq22MRey75R7wyoamr_1Xu9AMP0U34b6PC96jrvPXN9EjtlQ0V8tnDMc4VWnNJJm1JDlfWMLle3qwTk4k5mDIFgWGfQKptQFC3Imf_YTVcU70-6wQymvG_TeDbYGhzfLIlw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lauren Gisel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I literally have never worked with a more professional team of people in any aspect of my work or life than Chapman's Tree Service. From the start Todd was calm, cool and collected when he came to inspect the giant tree leaning on the back ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdWTj6I3ofvN62gGHz9zWEJJpVMQIZ133GR0KfYOtB2ca85cD4u7IMKUCNhPiUi-sQ6Uf74_L2gU9g3zTC3rQVbae2sGqllZxT59ivQEl3uyzDhGp_hN_n9SSsGQ80c73NYVLXTFShZaCK-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLed_4x7QNiUp1JUFLMLDByuIbgiSUrhcNbSd0HxHEmQTA1CqnITzE8dBiJje60xQ4N2zXCrfFa2t5KgDDzWpsxVE5B0TFT9oB-YhFafcUjwPkr6exWgzW0zqqzpLJ4m3G9aaOO5yGY8hd8Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeFNZDUHoL8_2b-E16W_0DVy5x1yqiXz9H62Du-TIV0Lm0L2zDwypjO_WdOJRChQLssY1bJK7GIhMGQxLq40igIlXuzxu1y-X5ws-A3xhKDOVugEiXlunPI05gvlLcTPYiKp8xGYjd7ccM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfi6_qPczSf6iAdDvCeY95y055Dtix_NnrPKz1wMTdY6c4qS8Qigx-tNxIeMBHKnrO9W6-hYmo4HFy-ffUxdtIfsF3xSZSXxd5KCK0dV_zSckr-LnBWcQsMX6xph9YDABLQe8L5Tl1043Po=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Laurie O'Brien",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We recently had tree removed and stump grinded. The entire experience was excellent. Communication and time line were accurate. Kevin and Caleb are professional and courteous. The job was thorough and clean up was efficient. Would highly re..."
+        },
+        {
+            "author": "Scott Andrews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: From estimate to clean up, Chapman’s Tree Service exemplifies professionalism and customer service. Mr Chapman is a wealth of knowledge in the tree business. His calm demeanor and approach is so helpful when dealing with taking down trees.\n...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcH39DvZCkwfIWPy7BwyC7zRr9yqaXIhOwY2iEC7Q8qUSMraZdIohJf4CH_s5FfzuZVgsU7PRq985iQoWeufgVJKNti3iShvzg7b5P8OeL_BlB4-JOqrUVfeR9wJf2QUjhYTiwAWQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQymuuSeB1lM7S2YXfupYWyBuc7OoJVjbZn1OppvKzmHMEKQ5JeIM7L8kUuAsa1vJFH_qLN_KplNQ8WGtZAEhkjMeiRNpHq16cHdLL4wnYdYmFyVnuyWs7XvxXaBDhtv3CNKMk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfksHguJGQ8RdlZdqOTQL4fTCEZqa-JBrbUwRNHSCbXguFtDVXFOFl1nKGepN6B-SVanYFcm3JRdw_fYzYf-d2NYm5oasW4XSuIhUtHm-2ko4u_ATZmr4uF-vZuupZN5BTR6OZ9Fg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLec7z-6gcprpdJoU6vjUF4t0InlICpncW_nnsXxh5SKK4ix36e_wSMHa4FlJUuG5uNUlOrp9qIl0Ojuxi8qKBy48M9Cb-o6qXhrDGknsHcZsqc-xHCWaGFQpt-zMmz2dAXVWu7J=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dorothy B.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A fantastic crew was sent to my house this week to remove 8 trees, along with grinding stumps on 5 of them. They were on-time, professional, polite, knowledgeable, accommodating, & all worked very hard to make sure I got my money's worth fo..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marietta (Основная база)",

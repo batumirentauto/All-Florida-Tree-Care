@@ -31,21 +31,9 @@ export const siteConfigAlwaysGrindingRu = {
     "ctaPrimary": "Позвонить ((404) 797-1784)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/always-grinding/photo_001_crop.jpg",
-        "label": "Carlton TRX на террасе",
-        "alt": "Гусеничная пнедробилка Carlton SP8018 TRX на верхней террасе подпорной стены"
-      },
-      "sub1": {
-        "image": "/images/always-grinding/photo_003_crop.jpg",
-        "label": "Заезд техники во двор",
-        "alt": "Спуск гусеничной машины с прицепа по дорожке без повреждения газона"
-      },
-      "sub2": {
-        "image": "/images/always-grinding/photo_004_crop.jpg",
-        "label": "Устранение веток над крышей",
-        "alt": "Опасная крона дерева, нависающая над крышей жилого дома перед опиловкой"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAlwaysGrindingRu = {
     {
       "name": "Дробление корней на крутом склоне",
       "badge": "Работа на крутых откосах",
-      "image": "/images/always-grinding/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAlwaysGrindingRu = {
     {
       "name": "Спил надломленных ветвей после шторма",
       "badge": "Снятие зависших ветвей",
-      "image": "/images/always-grinding/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

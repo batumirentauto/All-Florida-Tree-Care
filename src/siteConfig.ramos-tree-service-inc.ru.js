@@ -31,21 +31,9 @@ export const siteConfigRamosTreeServiceIncRu = {
     "ctaPrimary": "Позвонить (+1 858-789-8100)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ramos-tree-service-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Ramos Tree Service Inc."
-      },
-      "sub1": {
-        "image": "/images/ramos-tree-service-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/ramos-tree-service-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRamosTreeServiceIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/ramos-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRamosTreeServiceIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/ramos-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRamosTreeServiceIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/ramos-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,72 @@ export const siteConfigRamosTreeServiceIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lisa Anderson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ramos has excellent customer service from beginning to end. We needed 2 very large trees and cactus removed and 2 large yucca trees trimmed. Pedro responded quickly to my inquiry and scheduled an estimate appt. Estimate was clear, reasonabl..."
-    },
-    {
-      "author": "Patricia Amador",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired Ramos Tree Service for some long overdue tree work. Pedro and his Crew were awesome. The quote I received was reasonable. They trimmed & shaped our Evergreen Pear and a very old Twisted Juniper and trimmed our King Palms in the fron..."
-    },
-    {
-      "author": "Leslie Parada",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’d like to start by saying that not only did Pedro give me the best estimate, but he and his crew truly went above and beyond with the service they provided this morning. 4/25/26\n\nWhether you have a big job or a small one, I’m confident th..."
-    },
-    {
-      "author": "Jennifer Throop",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ramos Tree Service Inc. did a great job trimming a large tree at my house. It was very overgrown and close to the house, fence, and driveway, but they cleaned it up nicely, raised the canopy, and kept the tree looking natural.\n\nThe before a..."
-    },
-    {
-      "author": "Amanda Owen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Pedro and his crew did an amazing job on two large eucalyptus trees in our backyard.  I couldn’t be happier with the results, natural and open.  They took care not to damage the trees below where they were working and were meticulous in cle..."
-    }
-  ],
+        {
+            "author": "Lisa Anderson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ramos has excellent customer service from beginning to end. We needed 2 very large trees and cactus removed and 2 large yucca trees trimmed. Pedro responded quickly to my inquiry and scheduled an estimate appt. Estimate was clear, reasonabl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdII7qOu49iMEbdHFEaA1PwVuU51QQIqv3TtNaxJlV-1QEP6ZhdY76LPVUF3Ps_WhV6ohL8Ajiwtf6iEtbpmkMRSxIl3bcU9D-zvlEIAQwTlneG5Jo3yq9gwABWvvvBnN7vAUxf88QNrtc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfax2dwxnz2K6r_xT2yrueoIO9cBaw_pp1QhbWgaWClfNPx0LNF7-7aTV-DRnB2gNz6OcBzj-Tv_lK3PmLYFIs4PyYGK8jMpeKOr5AQCdUIn8VPRlruf8kHvCtQX9iwvOv_K43glNJyW2kF=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfDRSscul6rOSCqdqy2ltaZl9-dRIj1D09JWSJgaAaej5qDv0woRZnkI4cHKGp2DNnfvf5Vsiqja5G9DbSoT_1rE8OU0rZbt3GJRslLh84vw7fFUSIBVeTH2VRbW0by7a_aHt8YFQNeE-w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcI65kQk_pRKkfajtOl6vKjD0Ly88TbeuNq9qDxrDVtejG-l9Mfhh24RUJJAY2xS0qSBouigj_zg8feOYtB9qqIqtp4PC-tBiYHhhsFYRjIbJRM5x4Lq60acv7C0uadzzIwxkHvfhSNt9c=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Patricia Amador",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired Ramos Tree Service for some long overdue tree work. Pedro and his Crew were awesome. The quote I received was reasonable. They trimmed & shaped our Evergreen Pear and a very old Twisted Juniper and trimmed our King Palms in the fron...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfYT2T1QA6RiX2Ql6umuKlj1YGNOb6z2d1_96pXQMcX2J05xHhU4Z9Hdk5uV4DJdqe9BQNhyhDDhv1S-GR_1kLcJ-ihBSqeXVcY6TkgP9nYnSd2PQSj2YN06evou7BAm668n59v03A3j38=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIabxDmwR3_aT6HFRVh7e3z57YSY59eyRsV4P-W5Hy3nbZq35cO68glY7WG6vTntYpCvYjKmBf36qlU1lXJ64EFsoattSGxgz8NWhrwNlen1hyVAMcYG28kK-Xv0m-amSOn-FaATA0qXOZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbBDxIsGQR6vuRShEHS-ZZPs9hhHWQrfZwh7qZSQOexrCg2LQUIEi79r7nAyd3eKAVbYKBWwucM-M92iRY_VzsAqfXY-LpwoIbMWV45XEm1u5wkYk7I3edI2B2GLr6B_0fRHEdzwWI_QQc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSulgOE2yojnWYUIBPfn9C5Cw1r8xpOeksawsuau71QWu3gc3_Kq2zf1AZzlL_U50NaRqHVFx2wwG_YlYm3i2Fq2GFm8mk_xZavmS8FFw24GpNyfpx6S6myaRwzFo4tSVgTtb4LGJyS_s9=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Leslie Parada",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’d like to start by saying that not only did Pedro give me the best estimate, but he and his crew truly went above and beyond with the service they provided this morning. 4/25/26\n\nWhether you have a big job or a small one, I’m confident th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdeozKaC9WeqqWdCLGvoK6h_jSYSPS4hOBepItW45BWvBxcwddEBOCUfeFDjuyVj1596M7QK3neH41cdJs1bEV3QrMXJYYxmPTdc0dXUxykIp_ESG6Fbq-4Ufq-dtXpR7CH4ol-y_i5yl66=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfqeh9qIYXwgyAz2rgU_-v7hWtnXE96kQ28WzNjtDEGC4_1kXSLTzAnRENiIXczxX3HHmpmnZPQV387tczC0Q98l-Z33JUbvejFypfYOK46OY99qKMVjM_XXOQCC78OhI4eN9n0uM5kQX4b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdujK2ywN9YKzFmGVqusI2d7CtpukQCr2iZTNKSuSWuOk-1GiSYDOxMFLQN74hpokOtejuo727ru7FiufaA6A56Nu7knocDdhCIdC-y6q6x6siUHP2mztGkVI3_NwX8RVAOvW4n-T2l2zOw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd91YL4-nyh1GPPEAE_Sb0yqMmrQNkbwpgnSeJwkIMlFdizQvnQZkL2B4ztn2mfdStZArzyUzzJv3ibqv8Je0E56rc7k4qiY9XDry69SrQhOrkX-v28b3YsWV7qA6GN2w5e3Y9RXpTUXpU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jennifer Throop",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ramos Tree Service Inc. did a great job trimming a large tree at my house. It was very overgrown and close to the house, fence, and driveway, but they cleaned it up nicely, raised the canopy, and kept the tree looking natural.\n\nThe before a...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFZp3vWysmhYmCUYxyOffltYvKd6t2VTyNo11jnCoQCuppMDLl3oNUnu9X81WM-CwIQ1THVp6aUmlWlIthxgAglegSPGDpAoiJ1vCRrWzzQ2rK4-uqmfqOhI4gmglNlOBT4ceockb-99c=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIMuTpNjUXhFqXT0QB1RfxfXjIXArerssx-vnvdutCUMa-86XrWLE6yMAPHsU77I-czRkpFuQZNtfx-CMhWD5IhtmJQw6jYacyHmf7oNFqO8tkL395GkhlgFDDiys9-mDGRtNVbeMj21w=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Amanda Owen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Pedro and his crew did an amazing job on two large eucalyptus trees in our backyard.  I couldn’t be happier with the results, natural and open.  They took care not to damage the trees below where they were working and were meticulous in cle...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe97pQa0CXhggjLy4AfUw6S_yOBcf_SESde54NY6Vs37ASRQvnpUiO-ws372E96b9D8aCP-fIxhfy0nSpbFd3NQuW0eio9-pHYlvyF6f1fhbpv3XSRpm03S_3h1R8TjPyo03L1XOadjYOcu=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

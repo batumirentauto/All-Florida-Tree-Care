@@ -32,21 +32,9 @@ export const siteConfigCareGreenLandscapingEn = {
     "ctaPrimary": "Call Lead +1 972-465-9745",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/care-green-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Care Green Landscaping & Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/care-green-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/care-green-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCareGreenLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/care-green-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCareGreenLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/care-green-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCareGreenLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/care-green-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigCareGreenLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jason Billingslea",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys were amazing! Knew the business, had a fair price, showed up on time, worked hard, and cleaned up after themselves. They also collected leaves and mowed for us after they finished with the several trees on our property. Would recommend!"
-    },
-    {
-      "author": "T.Reid Bonner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Care Green for years to take care of our property and Trees in Sunnyvale. We have 10 acres and we always needed their help. We are happy to send a review that they are ABSOLUTELY THE BEST IN THE METROPLEX!!! Incredibly quick to respond, perfect work and clean up, very fair pricing, and all of that with a smile! Thanks!!"
-    },
-    {
-      "author": "rachel c",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My family hired this company to trim trees, and they did an excellent job. They left no mess. The trees look fantastic now. We were particularly impressed with their professionalism and attention to detail throughout the entire process. Care green ensured that our trees were pruned and shaped perfectly, enhancing the overall appearance of our property. We were extremely satisfied with their services, and we would highly recommend them to anyone in need of tree trimming or maintenance."
-    },
-    {
-      "author": "Rod Patrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Abraham's crew was excellent! They trimmed all five of our huge Live Oaks and the big Pecan. They worked together well as a team and their cleanup was exceptional!"
-    },
-    {
-      "author": "E lizabeth Stroud",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend this company to do any trees service you need the quotes are very affordable and they get the job done and clean up after themselves as well. Thank you I am very satisfied with the work the crew did!!!!"
-    }
-  ],
+        {
+            "author": "Jason Billingslea",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys were amazing! Knew the business, had a fair price, showed up on time, worked hard, and cleaned up after themselves. They also collected leaves and mowed for us after they finished with the several trees on our property. Would recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf6dbQp0QggEjHsjjNVm1_SjbD9ia88mgWaMBiCTIPPZctQ4FO0cBrToMp4SmluAAG4LcJUFE_AVeoFACPy-H-RuAmzmbSXBSTG5tlRvahjRIBn_Py-8zs_YMrr7gltLoFD4L4s=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcPO7KwHsKGdquSJ27gyHuwjBzJRavWn-sakbVq2rExUHHTFx_R6Z9orjDfOnRgv8e8na-yfH-l79NTjaoLHTZ8DgjjyKKJWdnwBpNlxn9TNe0P2xF47bXp4kHKKEdQ_PLtI5Kh1g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJo_e9v3xCuZNJdRN4YVPXrCbNQjfPdaHxSYS2lZTthqumlVSHVPxJGaPO1CJj0agwCP-WUTW2kgGdtxl5PFbIdXJ9EeikqBM_6Vx3Sl9MMZLov2FZ9t5ZVkwSz17FZDyeDjY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcexKkVvTMnDy-S1m976BKolMgDw8okpCoA2-8zRG9m53CoLVhFuZKexHdGYhpLg_rBvBt72s3HyK5Zoilc6ALwXQi8AQEq3dapecrUbUcCpvH14R3tYNEVo6gZrF67IN3Od2Lfig=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "T.Reid Bonner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Care Green for years to take care of our property and Trees in Sunnyvale. We have 10 acres and we always needed their help. We are happy to send a review that they are ABSOLUTELY THE BEST IN THE METROPLEX!!! Incredibly quick to respond, perfect work and clean up, very fair pricing, and all of that with a smile! Thanks!!"
+        },
+        {
+            "author": "rachel c",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My family hired this company to trim trees, and they did an excellent job. They left no mess. The trees look fantastic now. We were particularly impressed with their professionalism and attention to detail throughout the entire process. Care green ensured that our trees were pruned and shaped perfectly, enhancing the overall appearance of our property. We were extremely satisfied with their services, and we would highly recommend them to anyone in need of tree trimming or maintenance."
+        },
+        {
+            "author": "Rod Patrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Abraham's crew was excellent! They trimmed all five of our huge Live Oaks and the big Pecan. They worked together well as a team and their cleanup was exceptional!"
+        },
+        {
+            "author": "E lizabeth Stroud",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend this company to do any trees service you need the quotes are very affordable and they get the job done and clean up after themselves as well. Thank you I am very satisfied with the work the crew did!!!!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Dallas (Central Depot)",

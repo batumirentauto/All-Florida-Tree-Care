@@ -32,21 +32,9 @@ export const siteConfigKristianTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 980-800-5259",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/kristian-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Kristian Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/kristian-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/kristian-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigKristianTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/kristian-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigKristianTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/kristian-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigKristianTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/kristian-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigKristianTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Courtney Webb",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing experience with Kristian Tree Service. Had a tree in front of our house covered in large vines, as well as some aged cherry trees that needed dead limbs cut. The tree they cut down was very close to our house and on a main road - they handled it safely and got everything cleared fast. They were quick, professional, and cleared it all out in just a couple of hours. They even cleaned up some extra brush that had fallen and we had piled up across the yard, and they ground down a few extra stumps for us.  We got pricing from a handful of companies, and they were priced fairly and competitively.  10/10 would recommend to anyone looking for tree cutting service."
-    },
-    {
-      "author": "Jeanine Grayson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "EXCELLENT experience with Kristian Tree Service! Communication and response time was timely and professional. The crew were INCREDIBLE...skilled and kind. They did a great job removing two trees from our yard and cleaned up so nicely. I highly recommend Kristian Tree Service!"
-    },
-    {
-      "author": "Minister Jeffrey Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jose, owner of Kristian Tree Service.  Is quite an Amazing owner.  Very religious person and his word is his bond.  His service was so amazing.  Greatly priced.  He was there, on time, and his service was fantastic.  A wonderful young owner.  His commitment, dependability, and honesty is above reproach.  I love his service and him as an amazing person.  Give him a try,  you will stunned at the service he provides.  I pray for continued success for Jose!"
-    },
-    {
-      "author": "alaina barrett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This team was wonderful. From the moment of their arrival they were very polite and professional. I was only planning to have some holly bushes  removed this morning and I had mentioned possibly calling them back within the next month or two to remove three other trees. He offered me same day removal of trees for a very reasonable price. There were also a few shrubs on the side of my home I was going to have removed later and he offered to remove those as well. For any future tree removal, I will definitely be contacting this company to return as not only were they friendly and professional, they were also timely and ensured the yard was free from leftover branches/wood chips (as much as they were able to with the wood chips)."
-    },
-    {
-      "author": "William P",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently had Kristian Tree Service remove a couple of trees and several stumps for me.  I highly recommend their services.  They completed the work sooner than expected, left the area where the trees were in excellent condition, and were reasonably priced.  I am extremely exacting when it comes to work being done in my yard and they met my standards."
-    }
-  ],
+        {
+            "author": "Courtney Webb",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing experience with Kristian Tree Service. Had a tree in front of our house covered in large vines, as well as some aged cherry trees that needed dead limbs cut. The tree they cut down was very close to our house and on a main road - they handled it safely and got everything cleared fast. They were quick, professional, and cleared it all out in just a couple of hours. They even cleaned up some extra brush that had fallen and we had piled up across the yard, and they ground down a few extra stumps for us.  We got pricing from a handful of companies, and they were priced fairly and competitively.  10/10 would recommend to anyone looking for tree cutting service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTofEiUXF827C8-I7oh1c0JncNOh4iiLzczCAlo4SvJIFdIBsHnmlti3bAbZi9OoKBkQJAaFjExr5_eQlxKN8Dt9N7OIn3XpaeQElZv0bXDH-pvCP1j31dd0OdlNysi_mmm_AfnKgI2Hjk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_Rbl_CfWEFseXbmGhIaV4pzOpca_TLxQ-wG4vVgnHiddI6kXo47-6BZ1g5xpyUgT99b2qZtqd7CbJpyHODP2pNHRSD1mR8g0WJBXt15HiImk6T634lpU9m94YuQUJeVvOnHM3QWJjEzLX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKYq6nRYlNE56WIwX2VNT4HpA7z9jRq7eww1Y2Z1maEe36nTJgUr_fz79Kf47cfmh5t0gPHzR_rwMO-qO0SM7dYUqREj9D-uccADCpSMEj_0HmMYG8fyIifwwNwYyetf-6y5C1wVzlvNyH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8Ad-WVJEcIJ9MEWIQ9FGlMScTzkuyTeyheWT5RWfTyT9pbD7FUSSFzSRd_rUWOVtQVn8BNGiUTuUiUjHHtK1j1BwDe-3QnrgowOH2Pa6VD89GtxQe4QwiMN2p74P96yD-VtItchr4czzw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeanine Grayson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "EXCELLENT experience with Kristian Tree Service! Communication and response time was timely and professional. The crew were INCREDIBLE...skilled and kind. They did a great job removing two trees from our yard and cleaned up so nicely. I highly recommend Kristian Tree Service!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5Sk3arrSt7Hpn3JEBH3M0DPwF1B80xcgh5d6AoC8VWGic_X60Y3f5otLCyj19r_M7ewabdgZhR3iVoWxi6kHqsYfGLWoQ0Qafu7EOYC7KO_kBtRbYZevu0hWgjfEkEYuNC_kuwZQg8f1m=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Minister Jeffrey Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jose, owner of Kristian Tree Service.  Is quite an Amazing owner.  Very religious person and his word is his bond.  His service was so amazing.  Greatly priced.  He was there, on time, and his service was fantastic.  A wonderful young owner.  His commitment, dependability, and honesty is above reproach.  I love his service and him as an amazing person.  Give him a try,  you will stunned at the service he provides.  I pray for continued success for Jose!"
+        },
+        {
+            "author": "alaina barrett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This team was wonderful. From the moment of their arrival they were very polite and professional. I was only planning to have some holly bushes  removed this morning and I had mentioned possibly calling them back within the next month or two to remove three other trees. He offered me same day removal of trees for a very reasonable price. There were also a few shrubs on the side of my home I was going to have removed later and he offered to remove those as well. For any future tree removal, I will definitely be contacting this company to return as not only were they friendly and professional, they were also timely and ensured the yard was free from leftover branches/wood chips (as much as they were able to with the wood chips)."
+        },
+        {
+            "author": "William P",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently had Kristian Tree Service remove a couple of trees and several stumps for me.  I highly recommend their services.  They completed the work sooner than expected, left the area where the trees were in excellent condition, and were reasonably priced.  I am extremely exacting when it comes to work being done in my yard and they met my standards.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPnJYs48FlvRlDP3QHd6LQQJgNfpBvQ4_W0Th2lHaw3JWrs7MWyUDBDMBcPJFRHOzA-CxZ56JB6YNNHXYnheh_HlDXOfOcBupKUjviRfD5I9MFLWC8uLG_k1oj52hi43xJj02-=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc2T4-V07el98SGgXFGwKFuTHcmtzR-juovjtJzN8zG07SbUGR8Vm7erhuces0yBqa7geVy9n_LHXWdbX5EDgTfPf5wugXFTjH_RYWNiKXKTKVzAbL8y4PW8IcOxndzJwPrjsA4dg=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Charlotte (Central Depot)",

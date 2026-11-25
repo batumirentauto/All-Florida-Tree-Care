@@ -31,21 +31,9 @@ export const siteConfigDivineTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 803-543-1991)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/divine-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Divine Tree Care"
-      },
-      "sub1": {
-        "image": "/images/divine-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/divine-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigDivineTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/divine-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigDivineTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/divine-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigDivineTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/divine-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,68 @@ export const siteConfigDivineTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kathy Decho",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Divine tree care did a great job with our massive oak tree that landed in our house.  They were nearly the only ones who would accept the job, ( it was an huge job) and they were very careful with, and  respectful of my property and ( new)l..."
-    },
-    {
-      "author": "Darren Truel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐ Excellent experience with Divine Tree Care!\n\nI highly recommend Divine Tree Care and Chase and his crew. We had a very large maple tree that needed to be removed from our backyard, and it was definitely not an easy location. The tree ..."
-    },
-    {
-      "author": "Wesley Pressley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I do my best to support and recommend local businesses as often as I can. After our experience with Chase Durney and Divine Tree Care, I feel it is important to share.\n\nI highly recommend Divine Tree Care for any tree removal you may need. ..."
-    },
-    {
-      "author": "Andy Andrews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Chase and crew did a great job. They were on time, took down 2 trees and cleaned up and hauled away all debris in about 3 hours...."
-    },
-    {
-      "author": "Lester Joseph Mikulecky III",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Chase and Crew helped out the folks with the old Elm tree that needed to open up the yard. Great job. The crew was fluid and effective for the size of the tree. They were in an out before noon. Really appreciate them and greatful for their ..."
-    }
-  ],
+        {
+            "author": "Kathy Decho",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Divine tree care did a great job with our massive oak tree that landed in our house.  They were nearly the only ones who would accept the job, ( it was an huge job) and they were very careful with, and  respectful of my property and ( new)l...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLep98LvzHkarS5idLSq7SRzJUrQnFagyu7N8NeV7ddK0FwO-4q40Q7l1wtTPzIvqVV0u15rcXxq8HbuchE8FaIHZtfoZ3-Q2MVEjezlHtfxjNOud_u6zXJrEVcz76URmpXLwypphA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJD9RSojv_YNC83Xi-siy9BnWUMwCSc4yHMdn475ZgwqwN9TF1HNfDpqpHxGB2bdbavB4Z7eWZUBwkVOjWep3A6i3KOeTnUoI2PaQvZJ2y_zuKib9s6naPZ2u-uj95n3TUy7Uz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp57PsmfyuVIHxiulOIKrc4xy9Af7zeeR6sQVnAahuSR78ubGzZv9ZK4AXUiZy3-Lridh2xXtmaYYftsr2V8H56V6bl3V2kRMSof2aNq4KOJUtNbSQI8FKTNiKh65B6t2c18tekg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSWbFHu7IWt90MBUQc_6BW1VK983UIvYwZDo75L7U1-_DDlLuxHZiuE1gRKrpp8Y-sBPUsulFPzd5sKeMapYP5e5IvHnsCkjr5rNWIGebKsYIrCv91gVNwm7DtkpXmTgEQoEaN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Darren Truel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐ Excellent experience with Divine Tree Care!\n\nI highly recommend Divine Tree Care and Chase and his crew. We had a very large maple tree that needed to be removed from our backyard, and it was definitely not an easy location. The tree ..."
+        },
+        {
+            "author": "Wesley Pressley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I do my best to support and recommend local businesses as often as I can. After our experience with Chase Durney and Divine Tree Care, I feel it is important to share.\n\nI highly recommend Divine Tree Care for any tree removal you may need. ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLclhRo49qoDrN74xpLxMXE-WMrNZ2-D-0KKf03xcdZ0YJI6zYur11RFb63MMu3b8CIt_KVIF_1MUmnv9tFhbxPGB1CP3Dt-WSz_Jbg4py4o-MD4nOU-p2MXYP7Yof1Ul7XRj8cZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSNMCcGaNnvX0kcrmz1i0XKWD7SzhRA0gNp32ZML1Eaf9OFxaRviHCPvyqQT1Uv7sEyvZdTbrmolxoETOl2go2NBPn0xtCICfmEDDq-9K6uE_NQ-Zke9lOZxPxzo1ZqlXtBEFM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDh1uBEHWP3ZN0fyBEPL0ndftHNrxB8mc3TfqqMUW5IG1t2C6S8MfvAOcgqYvZ0ZZDECPcEPxDua61sFWpI46E1FcallI9KvL4BuwYS6dHQ43I4MFMPNGe5uhp0vHbMqlU9-sSCQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9bUA12yUkSXRanhSMk_RXUSp-4n3Nefp0yOH1WzqVvFgawQNSi9IPwEOo5L0btxghK6JwmOg_0OG0-ci7TX2C6zHD_hdRkitJC3mmJLWcjczscblg9-vsh-nX8QmfbGhJGDOG=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andy Andrews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Chase and crew did a great job. They were on time, took down 2 trees and cleaned up and hauled away all debris in about 3 hours....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdNCZPMlm1c0JpSbI4xhOIxJlD5slmL9LwRZlU8z79481upiTZdbuWkSOT8KVKci25DT3f85-WPCsX7Vc1IPWEU1o7WYcBuWIb4NntUQ-mW04DYcKZndJHCVQy7ONsY9ICi47zT9apaqH5s=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAs1VunYyXbhs9XoPwEdmkS5wK7goKVNgLt9e3xru1iUgH5xr8E7MoVVWq4WGDbAicpWKJaEIjtNPFm89aUjLs85rK_oKT3MkDNWaHfnaCg2SivJ9YFAkaID6ZrnWxr7apcpkgn3LjdimE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfx9ISiBoNjhgn4M_MiA8qIrhJl7heainMpDKjTt-2jM0SFZhleTia9UJ_NLde59TTEu8fJzcnjDVELJBQYNXcmBaGcI7JLQqQJHvE0xx19qOLi_KjjwJiQ4Bss6UhZaKmw-bMjRBrwwQ8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lester Joseph Mikulecky III",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Chase and Crew helped out the folks with the old Elm tree that needed to open up the yard. Great job. The crew was fluid and effective for the size of the tree. They were in an out before noon. Really appreciate them and greatful for their ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeocc9Ho7RB3b9UrG6WIgZUN1ZoE8ufG6dVWPDp-Wk0inrMnO1J3vowINvHiCBYwOtpGwG7t0wTDed5mBBAsEXFUieHiORJpFhdjT5dVyC0Duf3YRuZjKshFbeo1Q6ecpHKvnUsTdUKm5g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHaYdPDTrydUZvF3udumy5ljuqb0Qze9EqDHePTERIxqXTnP-VmYXHrjHps7XWW5WVgj3sKsGHOx4TbKb9_oLGkway5gGcCQHxA70O46JJfHzuVOWR7j-0z_QX8OkD4lFfWd615EytYMQ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

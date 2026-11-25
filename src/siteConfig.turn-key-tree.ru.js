@@ -31,21 +31,9 @@ export const siteConfigTurnKeyTreeRu = {
     "ctaPrimary": "Позвонить (+1 850-512-5201)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/turn-key-tree/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Turn Key Tree"
-      },
-      "sub1": {
-        "image": "/images/turn-key-tree/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/turn-key-tree/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTurnKeyTreeRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/turn-key-tree/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTurnKeyTreeRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/turn-key-tree/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTurnKeyTreeRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/turn-key-tree/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,70 @@ export const siteConfigTurnKeyTreeRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Devin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Josh did an incredible job! I had 4 dead live oak trees removed, which he cut down all by himself in a single afternoon. He even took the time to chop up the wood into pieces that were small enough for me to move on my own. Also they offere..."
-    },
-    {
-      "author": "Frances Walsh",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Josh the owner of Turn Key Tree is so professional, very skilled/knowledgeable, excellent with communications and very fair in his prices. He is trustworthy and again I highly recommend him! Thank you Josh for all your excellent services yo..."
-    },
-    {
-      "author": "Andrea Ferri",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so happy I found Josh of Turn Key Tree.    All other companies were ' yeah when we can get there' or ' when we get more work in Pensacola'.    I sent a request for estimate and with a short while I got a text.   I sent pictures of my t..."
-    },
-    {
-      "author": "Laura Ragland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Turn Key Tree is a fantastic company! They gave a very reasonable estimate and were very professional. They were able to come out within a few days and arrived exactly when we discussed. The guys worked hard and did an excellent job! We wil..."
-    },
-    {
-      "author": "Diane Gilmore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Josh and crew were, careful, dedicated and professional. They took down a very large Popcorn tree, which partly hung over my house, and they did it without incident and very efficiently. I am overly impressed with each of them. And even whe..."
-    }
-  ],
+        {
+            "author": "Devin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Josh did an incredible job! I had 4 dead live oak trees removed, which he cut down all by himself in a single afternoon. He even took the time to chop up the wood into pieces that were small enough for me to move on my own. Also they offere...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvF4bHGI5xZUHajZ5H4mF9hTHZLVpOcncqRn6GRRFZFCy9rVE6rU2yQqB0XRZ7kNCp2rE3LwbWvCSyJmv4lGpDsQgJU3ZBFpIJ4Je_K5cNsnSDnKrbmpj984JIAo8t8y0S2q6SUw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0qaxlTWsuSiQMVzAs2P3YPsWvdIUUtVloKw6qo7Qmr6jCMVNCKaLpRx7t4j-4P0Qgan3Cy_gJAnT9LDs2rqWOJtgI8No2HeOyhEqLYnznz9S2Gj4X1VS33JMjq-nR3fo7we5N=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLekbnfAEunSvsZ0GkbT3B6sFUSj84Y0Cupvi0qxJ-CEO3JqNsBhGnF1eM1mASwY7HYWuJDwH-Ce9FdQ8bxdvy-w7OSrb8yTLfrWNx3MIacHOcqKeIbzinIKJJM6smwdyluUVfuxsQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Frances Walsh",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Josh the owner of Turn Key Tree is so professional, very skilled/knowledgeable, excellent with communications and very fair in his prices. He is trustworthy and again I highly recommend him! Thank you Josh for all your excellent services yo..."
+        },
+        {
+            "author": "Andrea Ferri",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so happy I found Josh of Turn Key Tree.    All other companies were ' yeah when we can get there' or ' when we get more work in Pensacola'.    I sent a request for estimate and with a short while I got a text.   I sent pictures of my t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLftRcfsIlgj3PFdv_XPMIb0S5yv81iL9Pc899kq07-HvYoEXDZfhQ3W7nHX8cosEMblVqKlGDHEpJLP1K25RgnmMUhyEK1CoS_hjBUFlD8_IK97ltjpt8AET2NNWy2p8MSQxPLo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdegDE6-lGRZ9CcjjqyP17feKoVeT0mvFtXJiImA8Fdb7_1dDBznILbdF09IqLJqZDEH0mDLP0cKQSs0ajVntgEbvpMAytWzNjBviDBVtbwalrYzaHiRF6F_3k1RxmcvSCOrCOFjQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdiZ3vg51tB5bC7i5i_1cGR6zW9Eyha3NhjeOwx3LgbPkOA9Qem-cnf64cw7m35suGHa0eBGQ5YT5rPRbzlZ75S5KSBgLyiHgPlrkHAXALEg651JPaehckbqqjc_yxeOAIV8FbN=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwBH8cpI_sIM-iU8qzL9hRvFjSm6vb8QRPoQ48R6HYd-iYoquF1oHg7DH9o1KNvCuEx_zqPdFP4PiLuIlvwRLMXq0Ta4XWGRKbVh_0AYynMmmGCFBD4_ZDxY4c_eV8H1rHhIYA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Laura Ragland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Turn Key Tree is a fantastic company! They gave a very reasonable estimate and were very professional. They were able to come out within a few days and arrived exactly when we discussed. The guys worked hard and did an excellent job! We wil...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_T8hP26sEZVGACug3u21mUrcILh-UTXn8OKxaK5AQWwhAmwdsOkinkzSIJGyboO1rhUj2fzmvGX0PzjsDUwgp9d7SRMWjuVTjIYSwmm4raHHXFq5kZ9PlgNwBzAYx9vSObztU0A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_onHTOdYXJSfxNkgr3hXCHxzK1ajR-LKcQSs-bguQauz-9F5tEnU6cHxUPtuSACnQzTpx4Q00TJ2rQFQl7GgG9JfsE7QP2fyYnCOsHMyQaG7ocddbvcmgJwCk1Y8aULXfNdbn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_GlgPyNfGN6prRO3TwX2fBOW2kjcIEQq2GH4lr3uZh2iSKg5L7g4SZO33p8Cg0z5a9C01trh0kpIbqSSpZGT_YI2trdy1sA6y24_2OaOH9AuQcetJCsuJQP__SlplXnRc1Rm87g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeh1qMh2fdl1Sd9djoli01qfVTFpZ2fqeAY926-UR7dTKdwLCOtzq0QHJq3x4XGLJ_8ak4QDOpLB6HpJA2Eqphtr6qNEPlr5yQ86Jc9cLt2eySl_nwaEgFPkakC_P-EL116X0A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Diane Gilmore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Josh and crew were, careful, dedicated and professional. They took down a very large Popcorn tree, which partly hung over my house, and they did it without incident and very efficiently. I am overly impressed with each of them. And even whe...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf13eOR645RENIZ2mYst8X7rSdOt93V8imTY1oy26l-rDMQ652_J2wrlM4u3oTZGzwJj3tldLQh-B7vwD90Y2FVDpxeQq2TdxUcAZPm3MrrkLVlsFg6KAIoWDWggv8VzApYdvA0GA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLexE0g70mOCjTpBeT7h_iVhF83z38rDixiO9Pu2acwoKkjylMaXkC-hEVVfHLRwnhZFjchQ59Cx04lP0nLHpDmn7vMCEKIccpzhQHIM3yAUyong3VvYMNX452wOoYSUojP4_rD5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZe0hkWkGXve0Bte-9zcQzMUcppEDRSXKEcRtvaI_R5sFbopKHS7qBaCKt_BVn7sxMQzNUNp7Zu0I4ewfVGHtGs2BoWJ95JXJdBwXhJfvnaxcGV1eFYsK4zRXmm0w5MChRcCln5Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdxaavw-iRlupdlNnd0s6ZQwTTMMvEOFymdLYVC6FIrL0OYCpv6oK88KduXppqD1n2AWkharHK4jDibmUu6XPEp25Rze6jUAuCZhQIDB7OXfxgU2JSpw576QETPZocpxG96GEVl=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Основная база)",

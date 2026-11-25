@@ -32,21 +32,9 @@ export const siteConfigMonsterTreeServiceOfPlanoEn = {
     "ctaPrimary": "Call Lead +1 770-741-2754",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-plano/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Monster Tree Service of Plano tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-plano/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-plano/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMonsterTreeServiceOfPlanoEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/monster-tree-service-of-plano/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMonsterTreeServiceOfPlanoEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/monster-tree-service-of-plano/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMonsterTreeServiceOfPlanoEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/monster-tree-service-of-plano/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,52 @@ export const siteConfigMonsterTreeServiceOfPlanoEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Amanda Shepley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The team is great from arranging with the office to the team who comes out to do the work. They are quick and cleaned up everything before they left too! The knowledge of trees and shrubs is incredible and helpful for as a homeowner who needs to care for and the upkeep of existing items in the yard. Highly recommend them and glad to have them come out regularly to keep our tree healthy and well shaped!"
-    },
-    {
-      "author": "Jessica Marshall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Monster Tree Service is outstanding! From start to finish, their team demonstrated true professionalism and expertise. They removed two large trees, ground down the stumps, and trimmed eight other trees on my property—and the results were fantastic. The crew was incredibly responsive, communicated clearly every step of the way, and worked efficiently while keeping everything clean and safe. They also did an excellent job cleaning up afterward—my yard looked better than before they arrived! It’s clear they’re trained arborists who really know what they’re doing. I wouldn’t hesitate to call them again and highly recommend them to anyone in need of quality tree care."
-    },
-    {
-      "author": "Janet Agee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I don’t usually leave reviews till I feel that the services are tried and true. We have been using Monster for about the last 5 years. I honestly can say that they are my go to for all of our mature tree needs.  They are very knowledgeable and also conservative,  really looking at what is the best treatment for our aging, mature trees. We live in downtown Mckinney, we have very large, old ( 80+ years) trees, and they have kept many alive, including our tree that we were married under!! I can’t speak highly enough for Monster Tree Service. They are loyal to us and we are loyal to them! Thank you, Micah, Richard, Scott and Jami  for everything that you do to keep our yard looking fantastic with our big old trees!"
-    },
-    {
-      "author": "Damon Castillo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I read the online reviews before selecting Monster. The favorable reviews are spot on. Quality work and professionalism. They went to great lengths to treat my home with loving care and my trees too. They cleaned up thoroughly. Quality tree work is not cheap but I trust their work and the advice of the arborist that showed up to provide the estimate. My trees are the best looking ones in my neighborhood. I feel that they will be healthier with the care they have provided."
-    },
-    {
-      "author": "Josh Willson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was so impressed with Monster Tree Service.  Great value for the amount of work they completed.  The Monster crew showed up on time, ready to go to work.  They were willing to adapt  as the work progressed and provided some great recommendations to improve the overall look of our yard.  I would definitely recommend Monster Tree Service and will only use them again on subsequent jobs."
-    }
-  ],
+        {
+            "author": "Amanda Shepley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The team is great from arranging with the office to the team who comes out to do the work. They are quick and cleaned up everything before they left too! The knowledge of trees and shrubs is incredible and helpful for as a homeowner who needs to care for and the upkeep of existing items in the yard. Highly recommend them and glad to have them come out regularly to keep our tree healthy and well shaped!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8cDJJ2Pz91c0QpJzb6gMi3zIfCmlDeutGE1siKfyQIUzONW4R3fru04XXixh-pzmm_a50u7WyUMViCQhyC157Ns9_Yd5PxdHLHq8tKtKj5msPVz4VL-m17SD5B1THturgHiK9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqoQZK4fE7idIzuZKKceMLBfxZOlm2zCCqYUsaNvbgAFYSpNEv2RrG6NDE0Gs4EzXlGIOcHTw4tWKQOvy8gjWl2cXuhYW8Vga6vEIUyRQ-rk8CJBkk3CA8WUvU5jtinDKdnelP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfisI8kW8pagN1RfSpPQ6ONqnXYppbVkDFHxoG_eOIJhm3w9fuHKxRNIwH7IxlmvG6qiYe__IGV65g7YFLlw4A2ViXSmLG3RqEUTYdGENoitnX94xg00cdC9RX2RhE0gDiomynxpg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Marshall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Monster Tree Service is outstanding! From start to finish, their team demonstrated true professionalism and expertise. They removed two large trees, ground down the stumps, and trimmed eight other trees on my property—and the results were fantastic. The crew was incredibly responsive, communicated clearly every step of the way, and worked efficiently while keeping everything clean and safe. They also did an excellent job cleaning up afterward—my yard looked better than before they arrived! It’s clear they’re trained arborists who really know what they’re doing. I wouldn’t hesitate to call them again and highly recommend them to anyone in need of quality tree care."
+        },
+        {
+            "author": "Janet Agee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I don’t usually leave reviews till I feel that the services are tried and true. We have been using Monster for about the last 5 years. I honestly can say that they are my go to for all of our mature tree needs.  They are very knowledgeable and also conservative,  really looking at what is the best treatment for our aging, mature trees. We live in downtown Mckinney, we have very large, old ( 80+ years) trees, and they have kept many alive, including our tree that we were married under!! I can’t speak highly enough for Monster Tree Service. They are loyal to us and we are loyal to them! Thank you, Micah, Richard, Scott and Jami  for everything that you do to keep our yard looking fantastic with our big old trees!"
+        },
+        {
+            "author": "Damon Castillo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I read the online reviews before selecting Monster. The favorable reviews are spot on. Quality work and professionalism. They went to great lengths to treat my home with loving care and my trees too. They cleaned up thoroughly. Quality tree work is not cheap but I trust their work and the advice of the arborist that showed up to provide the estimate. My trees are the best looking ones in my neighborhood. I feel that they will be healthier with the care they have provided."
+        },
+        {
+            "author": "Josh Willson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was so impressed with Monster Tree Service.  Great value for the amount of work they completed.  The Monster crew showed up on time, ready to go to work.  They were willing to adapt  as the work progressed and provided some great recommendations to improve the overall look of our yard.  I would definitely recommend Monster Tree Service and will only use them again on subsequent jobs."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

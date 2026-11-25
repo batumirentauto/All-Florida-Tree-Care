@@ -31,21 +31,9 @@ export const siteConfigRegionalTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 407-480-0897)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/regional-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Regional Tree Care"
-      },
-      "sub1": {
-        "image": "/images/regional-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/regional-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRegionalTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/regional-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRegionalTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/regional-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRegionalTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/regional-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigRegionalTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Crown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Regional Tree Care is absolutely amazing! This review is long overdue. The crew is very professional, polite and respectful. I called them originally as they were licensed and insured. In addition, I like that they were veterans.  I had an ..."
-    },
-    {
-      "author": "John Hampton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had Mike evaluate two frost damaged Foxtail palms for treatment.  He noticed that there was considerable rot at the base of both trees and they were likely to not survive for long. Had them removed at a very reasonable price. When cut, the ..."
-    },
-    {
-      "author": "Jan-Willem Poppe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: From the first contact Regional Tree Care was taking care. Immediate response to my many questions before I ordered the actual tree removal. The removal was done with complete and thorough actions, beyond my expectations and for a very fair..."
-    },
-    {
-      "author": "carlos Marrero",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Regional Tree Care did an excellent job from start to finish. Very professional, knowledgeable, and efficient. They explained the process clearly, handled the tree removal safely, and left the area clean afterward. You can tell they truly c..."
-    },
-    {
-      "author": "Ruth Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I just had the best experience with Regional Tree Care LLC!!!!\n\nMike Denham, the veteran owner came to quote the job. He returned the next day and took out a huge section of branches from a tree located too close to my home. He took extra c..."
-    }
-  ],
+        {
+            "author": "David Crown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Regional Tree Care is absolutely amazing! This review is long overdue. The crew is very professional, polite and respectful. I called them originally as they were licensed and insured. In addition, I like that they were veterans.  I had an ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3sDC4hcL1wu6C0MQ83VDRVtOhQvm_XzoBHCC3j6TV0AEEV_Q0jSUigIMFDZJANnjhyE1erZwRAeYQhfdxReYC8EczfvqKSouH-PAv31Zbs_llkuDfIaHt4CRfjAgrl2O5uzQlTg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoV8-IV92K1ZP717CX_ScmStQJZlWHxcF0h9puDhAIMKxhBa71-npC9VeVldIfOulGUwoNhRpJaBJS4aEBnnnw0rgr_upci0WJwLt87AJFneDsE1NllD-G4RNq3IhoeHhIiiYd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdASokl4T07NWA32qdMGRcn6M1sVo1lU2vU1qJiMV8dHIFAk4diXA1fzlJbmIubuv1Qu1oonJioySyeNWyH3Z2OxdRc6LNBe2wChSp4n29pjnppfJabqad-cptM7Zd40xUXHIbpIA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcD7IOoYdpyYlNphs-_D_uoyuNrvQ8mOGaUSIPHq0iPmzzdTfPrC-ECSNi_QwKQMdaFH9ACAx0MKWO0PoKq0aAAjPR5GwUMVgnmwhBWRC3gh0GLhb33EFxvFI2OQjnON-aDJVfS=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Hampton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had Mike evaluate two frost damaged Foxtail palms for treatment.  He noticed that there was considerable rot at the base of both trees and they were likely to not survive for long. Had them removed at a very reasonable price. When cut, the ..."
+        },
+        {
+            "author": "Jan-Willem Poppe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: From the first contact Regional Tree Care was taking care. Immediate response to my many questions before I ordered the actual tree removal. The removal was done with complete and thorough actions, beyond my expectations and for a very fair..."
+        },
+        {
+            "author": "carlos Marrero",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Regional Tree Care did an excellent job from start to finish. Very professional, knowledgeable, and efficient. They explained the process clearly, handled the tree removal safely, and left the area clean afterward. You can tell they truly c...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcb5y6SAU_zeogEeaTI5htB7XJRbhsq3EwB-Pp301oM67ilMVqicckCD6SYDGaxrCJENxX6ZVrXrT1o0vHq4V8-0pFnqeJn08U57qR4waTkTWPVxwuHtTqzT0vqCtc0ZurFMd5pnWUIsupd=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ruth Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I just had the best experience with Regional Tree Care LLC!!!!\n\nMike Denham, the veteran owner came to quote the job. He returned the next day and took out a huge section of branches from a tree located too close to my home. He took extra c..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Основная база)",

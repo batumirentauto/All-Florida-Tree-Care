@@ -31,21 +31,9 @@ export const siteConfigARTreeServiceIncRu = {
     "ctaPrimary": "Позвонить (+1 912-604-8929)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-r-tree-service-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A & R Tree Service, Inc"
-      },
-      "sub1": {
-        "image": "/images/a-r-tree-service-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/a-r-tree-service-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigARTreeServiceIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/a-r-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigARTreeServiceIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/a-r-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigARTreeServiceIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/a-r-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigARTreeServiceIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Susannah Austin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Randy, Joe, and the entire crew once again did a fantastic job checking all our trees before hurricane season.They scheduled us quickly for removal once they identified problem trees. Their pricing is very competitive for the area and the q..."
-    },
-    {
-      "author": "Bryan Dieterle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A&R absolutely saved us from total disaster. They answered my call and within 24 hours I had a quote and their entire schedule shifted around to accommodate taking down a 60-70  foot water oak that had rotted throughout. If not for A&Rs ama..."
-    },
-    {
-      "author": "N- West",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a great experience with A & R tree company from start to finish. The crew was professional, punctual, and communicated clearly throughout the entire process. They did a seamless job removing/trimming the trees, and when they finished..."
-    },
-    {
-      "author": "KD Joint",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐A&R Tree Service knocked it out of the park! Their fully‑insured, 4‑man crew rolled in at 08:15 with the A‑team of gear—crane, bucket lift, and a bobcat for cleanup—and wrapped everything up by 13:15 like clockwork.\n\nThey safely remove..."
-    },
-    {
-      "author": "Danai Alford",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A&R Tree Service came out to address concerns with a tree that had previously been trimmed by another company. They took the time to explain what had been done incorrectly and how it should have been handled to protect the health of the tre..."
-    }
-  ],
+        {
+            "author": "Susannah Austin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Randy, Joe, and the entire crew once again did a fantastic job checking all our trees before hurricane season.They scheduled us quickly for removal once they identified problem trees. Their pricing is very competitive for the area and the q...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf2jLSGzU_v00_ocMlw0QZegPMa87BCj9HE8ffkQsyypdL3WwR_aPabVs6ZAGmsaxHLII75mbo6kqP9jRFbc8M-FhULDVd9UWbtY0Uauq92YJACK-KR8pzvnyihtTjmjV_I1HFIpqe_KjTY=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Bryan Dieterle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A&R absolutely saved us from total disaster. They answered my call and within 24 hours I had a quote and their entire schedule shifted around to accommodate taking down a 60-70  foot water oak that had rotted throughout. If not for A&Rs ama...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGduRd0M-5D7FMrbMGzjf_fY8RH2hRYUQ-mSdM9zo80240d8_S1hy1tmVCN1J6tVgmvqkbp8eAuwAohnEoOupNBlRm_n1SQpMM_47_FUb93l9U7NZMJrEZab_zVwUpjv0nbef8JBbYRxzR=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqq7DysbgJCMY-0hfGVbgPLkN7BaxYmFidr8tXRnEcssRYmBxYKpxOYFdYeURwo5tYXcAzIoiKVoe4dSfRaYf9sDHD3-l5oXlmeLMMpz_gKSJ5jHrTStKTO-pxhRB-FNWPk4Dir_ALUe4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevB6kgtyHCDPqynGvwHM5BE7y3Dr9GwyPrZBxUgt2SoUQzVmA9MyIgggrJ6a91Mcstzim_cjnakZ36KFg9FlzU6Q67OFLDVMPDdAhXf5RF5-Bb6Lv3UOruIobJEJOuRwMfasRhyShw-LA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "N- West",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a great experience with A & R tree company from start to finish. The crew was professional, punctual, and communicated clearly throughout the entire process. They did a seamless job removing/trimming the trees, and when they finished..."
+        },
+        {
+            "author": "KD Joint",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐A&R Tree Service knocked it out of the park! Their fully‑insured, 4‑man crew rolled in at 08:15 with the A‑team of gear—crane, bucket lift, and a bobcat for cleanup—and wrapped everything up by 13:15 like clockwork.\n\nThey safely remove...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDmoqkBHaWnd45D8mPhRkdYhZORZlrVNk47rzLfkG3hkwx3XinQ8lpZQNzpFJBNvPx2fV9NLfbbnrSeOuzHZGomszbJ3vV6D2C5OwgNZF-9GoFdu5SPPboMPZq4SIrmObb1PILYA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4tatM-DOEc7v1KltVigiGAOj_bDlRS0jdwywjSjmmxud4Qr-8r9nIbjtqmRZCkE2ayGgXgLTXGmAnAmmHMHSEoswjiDV3R5h6AKf0mGoeL-rfCo3H0f63y6F9e9dilorIwkOp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhEP_OhW6VzdYtY1x85S6oWTOZA0xcxnUdLT9s-wPfX5LDliK05nktPcjnCegzSv-2tsGgihSyPrOTwZ9xttBqov0QR7bWion4eQ3mMRoMQEsFw--Bu8ciK9P-J941zBPS1F4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNJKtxxeacDrCAys56xwXildYZhWFjSjGJREssM4L4o6sM9InH2FznNpNJCId_PIQu4Ax_9G_KExZCOPBvt3Ch1Jh1sxAaBaUOrmP99yya8oHfP-7XzL1ow_3IRpzNguJIdZE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Danai Alford",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A&R Tree Service came out to address concerns with a tree that had previously been trimmed by another company. They took the time to explain what had been done incorrectly and how it should have been handled to protect the health of the tre..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Richmond Hill (Основная база)",

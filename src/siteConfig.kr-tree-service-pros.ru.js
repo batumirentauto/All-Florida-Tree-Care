@@ -31,21 +31,9 @@ export const siteConfigKrTreeServiceProsRu = {
     "ctaPrimary": "Позвонить (+1 409-229-0550)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/kr-tree-service-pros/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады K&R TREE SERVICE PROS"
-      },
-      "sub1": {
-        "image": "/images/kr-tree-service-pros/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/kr-tree-service-pros/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigKrTreeServiceProsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/kr-tree-service-pros/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigKrTreeServiceProsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/kr-tree-service-pros/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigKrTreeServiceProsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/kr-tree-service-pros/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigKrTreeServiceProsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jazzy Jen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Absolutely Awesome Service. Very Professional & Works Hard until the job is finished. Extremely happy with my tree cutting. The price was Low & GREAT!!!!! Hired him to do another large job starting tomorrow. I was very very happy with the j..."
-    },
-    {
-      "author": "Tashia Todosov",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: K & R Tree Services are absolutely awesome! They are super easy to work with, their price was way better than other quotes. They did an amazing job!!! So happy with there work. We had a giant tree in front of our house that was dying and ha..."
-    },
-    {
-      "author": "Jamie Munsinger",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After being stood up by 2 other tree companies, we reached out to K&R. They showed up in 30 minutes to give a reasonable quote. Then showed up later that day to trim 4 trees. They did an excellent job and cleaned up everything before they l..."
-    },
-    {
-      "author": "Steph A",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The storms on Valentine's day, I had a tree fall on my house, K&R tree service showed up, removed tree and was very professional. I needed a dead pine tree cut down this week, before the high winds, didnt want to risk another tree falling o..."
-    },
-    {
-      "author": "Benjamin Javier Herrera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They gave me a quote over the phone after I sent pictures, then came out in person to give an accurate estimate. We agreed on the price and scheduled for the next day. They arrived on time and completed the job efficiently. They brought in ..."
-    }
-  ],
+        {
+            "author": "Jazzy Jen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Absolutely Awesome Service. Very Professional & Works Hard until the job is finished. Extremely happy with my tree cutting. The price was Low & GREAT!!!!! Hired him to do another large job starting tomorrow. I was very very happy with the j...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd9tqDR2r8nk8tzY2CDf81H6DO3RULiPlsYu4EyBrQDGkhcy2bh5iO5ie2oIb6uYrR3Jy6hvqLhk6pkI5tFOQgOakKsY8ufSoKBjd2i5dQbt0eOQ4x5sPvWC8OeXBxUkLihGnUq=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfVAD5LHeUj7bq4cNd7N0F6qPq6apK_sFZfMHWQ7sXVDwZyn4P0_-2TrpwnQE6eVsAm0sxiegGkZeNCE6XxzgfTztDKapqnW5TvwRTH7cyKzcT2vmJAI5_1Uj8MbngPBUJfyMnXWA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXJomYUWS6BMU_h2tuz5ebqmo3V6j43CEhRQGKXjuNKjw9Wi2zVVylsTqpew7jUof7Ga5nbBAIiq3G91xuM0TgAlY7c7kULdDY4jyTU4TOCpP17R39KLaCI0QMWV7QxcZIQr4x=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tashia Todosov",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: K & R Tree Services are absolutely awesome! They are super easy to work with, their price was way better than other quotes. They did an amazing job!!! So happy with there work. We had a giant tree in front of our house that was dying and ha...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdU-MKh0Jd-l7Qm_SKXP-qS088fT6WLSpvNy5Hw4ZY-WTnjavnW26CuQ99zUjuQYHgg8V6kINg2a6GDFbm7zfiTzexFBFvXn6U785c7Bb_Dit11yxUwcrTynuMUtwTfsCdE-qE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrn9fEijppy6ijIhdPsLfFUNJJdPAApJ5Mh3qXDqJ50rZZnbxnK3sn1IYoNWE9q4L7QBHL3bG-qRSGqM8siv80BXastP1R6tRHrK_-Z_r4E9dSJE5Adht_DDepwOIv2fxzfwXIGg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1sPW4ZFNvKVFf8bw8zLe5jDuQRydnPjtKD9fEblXh9ipqiLmha4XTBh-uEnkiz3ravzcD2gliWk2ly5Ua6M15mLHtRD1WcmGLFx-8VkATd_jF_VpEU1ZKj9fTuj6sjiDt-Xw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jamie Munsinger",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After being stood up by 2 other tree companies, we reached out to K&R. They showed up in 30 minutes to give a reasonable quote. Then showed up later that day to trim 4 trees. They did an excellent job and cleaned up everything before they l..."
+        },
+        {
+            "author": "Steph A",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The storms on Valentine's day, I had a tree fall on my house, K&R tree service showed up, removed tree and was very professional. I needed a dead pine tree cut down this week, before the high winds, didnt want to risk another tree falling o..."
+        },
+        {
+            "author": "Benjamin Javier Herrera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They gave me a quote over the phone after I sent pictures, then came out in person to give an accurate estimate. We agreed on the price and scheduled for the next day. They arrived on time and completed the job efficiently. They brought in ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Основная база)",

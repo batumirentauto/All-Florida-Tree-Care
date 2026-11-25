@@ -32,21 +32,9 @@ export const siteConfigTroncossLandEn = {
     "ctaPrimary": "Call Tronco +1 813-751-9443",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/troncoss-land/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Troncos's Land tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/troncoss-land/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/troncoss-land/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTroncossLandEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/troncoss-land/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTroncossLandEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/troncoss-land/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTroncossLandEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/troncoss-land/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,67 @@ export const siteConfigTroncossLandEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "June Amer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have been calling tree services for literally years with no one showing up. I called Tronco’s and they asked me to text a picture of the tree. I did so and they gave me a quote. They came out a couple of days later and did an exceptional job. I am so happy I finally got someone to do the job before hurricane season. I highly recommend Tronco’s Tree Service."
-    },
-    {
-      "author": "Flabia Alonso",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I genuinely can’t recommend Tronco’s Land Tree Services enough! They did an outstanding job removing some huge pine trees that were hanging over my house. Guillermo and his team are truly incredible at what they do—I was beyond impressed. And that’s not even counting how fair the price was. They worked with my budget and went above and beyond what I expected. If you’re looking for top-notch service at a fair price, these are the people to call."
-    },
-    {
-      "author": "Judy T",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tronco's Land Tree Service is the best tree service in the TampaBay Area.  Guillermo has maintained our palm trees for 3 years, and the results are always flawless.  The crew makes our palm trees look stunning and they leave everything spotless.  If I could give them 10 stars, I would!"
-    },
-    {
-      "author": "Andrea Valenzuela",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience working with Troncoland from start to finish. Guillermo provided a no-pressure quote with clear communication and quickly sent over any documents I requested for verification. His pricing was significantly more affordable than other contractors I contacted. The team did an impressive job trimming an invasive tree, and they were professional and easy to work with. They also left everything super clean despite rainy and windy conditions. They even went above and beyond by notifying my neighbor about how long they would be partially parked in her driveway. I highly recommend Troncoland for their excellent service, fair pricing, and professionalism!"
-    },
-    {
-      "author": "Todd Woodaz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Finding good people these days isn’t always easy, but these guys are the real deal.\n\nTroncosLand came out, gave me a fair quote, showed up when they said they would, and got after it. No excuses, no drama, just hard work and a job done right.\n\nThe trees look great, the cleanup was outstanding, and the crew was professional the entire time.\n\nI wouldn’t think twice about hiring them again. If you need tree work done, give them a call."
-    }
-  ],
+        {
+            "author": "June Amer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have been calling tree services for literally years with no one showing up. I called Tronco’s and they asked me to text a picture of the tree. I did so and they gave me a quote. They came out a couple of days later and did an exceptional job. I am so happy I finally got someone to do the job before hurricane season. I highly recommend Tronco’s Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLckBvWdNAyw5QvcQGHr_woeFMZX7BUT1v-9g2ALQMN9hEqXKXLCBXwzzW9oULvqp_JkciUyJt3Dya4nGchEBl4-AfPldVyLsBH4m4SV7pmDDPbWC8_UW_t7Rbj0G98pqnQ0ePfx6QmePi6V=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcvgzmN6C8YbxI-ugZLRmo2RpsyqIVlYId2xY7QxzP43DfAhgUG_KbCMbzfC903V7O08Y3wsnEsdGDdz3M4BR2UOtxUH0Zkm0fM9wcHBIQ82EbFDzaWTMhUVsJv9-Ksn7dfqqaIzXuS0OQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Flabia Alonso",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I genuinely can’t recommend Tronco’s Land Tree Services enough! They did an outstanding job removing some huge pine trees that were hanging over my house. Guillermo and his team are truly incredible at what they do—I was beyond impressed. And that’s not even counting how fair the price was. They worked with my budget and went above and beyond what I expected. If you’re looking for top-notch service at a fair price, these are the people to call.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdh9CMSORSkXej5UEks4nWl7In-NIVTBkH3mqTsIlRZIRjS2urRazv9QBExnJsgsMQD-kPe9q2Tuzrc5vyE75m5I1MCjAE1m4pmm5trtMz2D3TUWRfvlv6qmNf4tYvc53LeiY6=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5YulE56o_5kMqU2pGLYTEcTv0tV3uL9kRbttqQyA-fI44OvNxaPuBQU_SHYllGEJJi-jJM-ktKgT7xvVKqqlgP5C2Hkv8gugmGfhofBCyZYOZ1PI2mr15Cm9g7qWC3IgtqnRlvg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehKbZOim89KcbBk57nNEcekBZ-vUF_E2nzd-lII1kt-1Up9HZH8qbAtSydyxQB7mDp0VX8sKk_LW50nRl4QrfXpTn1KRIaJyIxmjcPRtenMKqvIFspto1QboUMC06wWPSc_pKw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Judy T",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tronco's Land Tree Service is the best tree service in the TampaBay Area.  Guillermo has maintained our palm trees for 3 years, and the results are always flawless.  The crew makes our palm trees look stunning and they leave everything spotless.  If I could give them 10 stars, I would!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcur04hBuV_7DWH7uZJ6QegNdTtuEcGeFM7dzAD9HJqTfTCwGwRTNAXupPP5aBG--Am_0ciDgcgr7ENLNr4Bco4edbUXsy45Vg_694JflZA73U23pfhyp7nGmGFAZo0G-d0DIEXcsenYloZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3tkT3W-3w0W4o9lm3CkZamZeo_NYLSkDXCYElYOhRj5ou6EaIUlMJNTXmKkL-P1rJilCRrVnl6NCJBd1oq41pFaw2-Bb_GOxKp578hX3raKYt7m3IPbO0khkl4R5r46Y8Bx0t_JHlJ6YD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe22uO6xconPLx6vnpB1ZeA_w5hqrUe1mIcEmrLaErGAg0Zbuf5VwK4wXd_ZTdCeiJR1z55oBKKgr7q8jXPFZkaZNUNfMEOdajFzBuwFcdpT9sPNh47m1mVC1m8oSQ1IF5QldfLU4uzsbk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLenQicGJplB6PPPb64Jj3kNSwDVPo6fabiB2GdIpZ3hDQUvoCXLoBGkJAKOROWK9PFNLKdOQHLbtGQj2uMgSINDgXkfkAqqd_gu_5YzuX8CYM76TavM8U19zOld7ptYun9r0Mg5RF4zJW3U=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andrea Valenzuela",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience working with Troncoland from start to finish. Guillermo provided a no-pressure quote with clear communication and quickly sent over any documents I requested for verification. His pricing was significantly more affordable than other contractors I contacted. The team did an impressive job trimming an invasive tree, and they were professional and easy to work with. They also left everything super clean despite rainy and windy conditions. They even went above and beyond by notifying my neighbor about how long they would be partially parked in her driveway. I highly recommend Troncoland for their excellent service, fair pricing, and professionalism!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLexP9KQdCZfCdH4l_F-pRkFJwghhatpdDKrsq_0jAwd8B5S5Bgljs5zIeXHHnb8Kk8ZUJS-aj75G7ujHU-7AiBCbEAZM05gxLBV2SIOYVK4ln_xDfOIbTqaYeplKNeJIs3CFeWJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0rtVeOZMJ1NJpSG6XAkD3IfqAXcOnqZFbn9I6sd0_KpGtnMM96Lk5sS-gK7q_DfEOEtrR1z74nqo4fElTE0VERn35y7CVMPbB9rSZDVkuYeeiY8byMveKha7zUQ26stdM-xgxDw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehppCMXQQRxUEKnpwj7AvL3CG2zC1vA4N-8nR9fljNnOgfTEMdBUaQibSZLmXYa1FD3ilzsYNdvBU3nEGT_oh7MyGZuMiMH6D0hYCOLd2QMtXWl6f0Eqp4OM2yTWo69KDK8-EO=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Todd Woodaz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Finding good people these days isn’t always easy, but these guys are the real deal.\n\nTroncosLand came out, gave me a fair quote, showed up when they said they would, and got after it. No excuses, no drama, just hard work and a job done right.\n\nThe trees look great, the cleanup was outstanding, and the crew was professional the entire time.\n\nI wouldn’t think twice about hiring them again. If you need tree work done, give them a call."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tampa (Central Depot)",

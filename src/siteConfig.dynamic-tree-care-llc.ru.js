@@ -31,21 +31,9 @@ export const siteConfigDynamicTreeCareLlcRu = {
     "ctaPrimary": "Позвонить (+1 361-906-8314)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dynamic-tree-care-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Dynamic Tree Care, LLC"
-      },
-      "sub1": {
-        "image": "/images/dynamic-tree-care-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/dynamic-tree-care-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigDynamicTreeCareLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/dynamic-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigDynamicTreeCareLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/dynamic-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigDynamicTreeCareLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/dynamic-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigDynamicTreeCareLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Christina Tucker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This team of people are the best In Corpus Christi! So reliable and fair in price, friendly and great quality service! Ty (the owner) builds a thorough plan with all your goals in mind at the free estimate, gets you on the schedule and the ..."
-    },
-    {
-      "author": "Manuel Garcia",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired, Ty from Dynamic Tree Care to trim up my Oak Tree, him and his team did an outstanding job. I highly recommend Ty when needing tree service fair price very professional. I told him he’s my go to guy from now on when needing any kind..."
-    },
-    {
-      "author": "Shane Boucher",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ty and his crew Were incredible!  From the first call, his attention and reliability was evident.  Although he was booked for the next couple of weeks, Ty found time to come out to my house and give me an assessment.  Right away I could tel..."
-    },
-    {
-      "author": "Aaron C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ty and his partner did a great job this morning when they came out to clear out one tree and trim another. He even noticed another small dead tree on the side of my house and asked to take care of that for me as well. They are very professi..."
-    },
-    {
-      "author": "bernadette torres",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am very happy I contacted Ty at Dynamic Tree Care. They did a great job!  He quoted me a great price for all the work they did. They were courteous,  well mannered, and gave me advice for a good Roofer for my next project.\nThanks..B Torre..."
-    }
-  ],
+        {
+            "author": "Christina Tucker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This team of people are the best In Corpus Christi! So reliable and fair in price, friendly and great quality service! Ty (the owner) builds a thorough plan with all your goals in mind at the free estimate, gets you on the schedule and the ..."
+        },
+        {
+            "author": "Manuel Garcia",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired, Ty from Dynamic Tree Care to trim up my Oak Tree, him and his team did an outstanding job. I highly recommend Ty when needing tree service fair price very professional. I told him he’s my go to guy from now on when needing any kind...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqTQ45s8XGqiiVCK3Vl4mTbjFG3ET2XoY_IVjmVZx-WGyIT14A7XclBFQ4Q-uBtGQDljCkNCYbweTifD4ohFm8WmiuEEBKNJ1BdNXPCX-kZg9mtL20-O3K7cnvFwQbHIxOu4MGZA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzDjzFjLzfH2fQYmbymDYqcQRcLz63BD2WTsMOvErU6IUAjFMqqqDtHp5Jrp4C8jjQHIiuaKxayFnpCWFEkCRjg_G66LfuGmyycUkrBKcivK_muxtXUW00jSbcnqvnZcK_ikvA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shane Boucher",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ty and his crew Were incredible!  From the first call, his attention and reliability was evident.  Although he was booked for the next couple of weeks, Ty found time to come out to my house and give me an assessment.  Right away I could tel..."
+        },
+        {
+            "author": "Aaron C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ty and his partner did a great job this morning when they came out to clear out one tree and trim another. He even noticed another small dead tree on the side of my house and asked to take care of that for me as well. They are very professi..."
+        },
+        {
+            "author": "bernadette torres",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am very happy I contacted Ty at Dynamic Tree Care. They did a great job!  He quoted me a great price for all the work they did. They were courteous,  well mannered, and gave me advice for a good Roofer for my next project.\nThanks..B Torre..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Corpus Christi (Основная база)",

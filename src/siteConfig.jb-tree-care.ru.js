@@ -31,21 +31,9 @@ export const siteConfigJbTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 407-450-1425)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jb-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады JB Tree Care"
-      },
-      "sub1": {
-        "image": "/images/jb-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jb-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJbTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jb-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJbTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jb-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJbTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jb-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigJbTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Karon Miller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used this company in 2021 & 2026, they are Amazing!!! We have 3 huge oak trees & they are very knowledgeable about where to cut & how much. We trust them completely & they had the best out of 4 quotes in the area. Highly Recommend..."
-    },
-    {
-      "author": "Tim Moore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Hello,\nWe just had a large tree removed from our back yard. As much as we didn't want to remove it, we did not have a choice as it was damaged in the Hurricane last September. The owner Jeff from JB Tree Care came out to check the tree out...."
-    },
-    {
-      "author": "Germaine R",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: JB Tree Care always does an excellent job. I’ve had this company trim high palm trees for several years- always prompt, courteous, and clean up debris. Highly recommend...."
-    },
-    {
-      "author": "Cathy Mazz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They did a fantastic job cleaning up our palms!\nThey were here right on time. They cleaned up all the debris and took it all away. The crew was so friendly and polite. Fair pricing. We recommend them 100%..."
-    },
-    {
-      "author": "Vickie Carbonneau",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jeff and his crew have done work for me many times now.  They have done an excellent job each time.  They are friendly, very efficient, and clean up so well.  Their prices are very great too.  I will call them again next time I need work do..."
-    }
-  ],
+        {
+            "author": "Karon Miller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used this company in 2021 & 2026, they are Amazing!!! We have 3 huge oak trees & they are very knowledgeable about where to cut & how much. We trust them completely & they had the best out of 4 quotes in the area. Highly Recommend...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcP_x7OYe4TjP_y7vvse0L4l5KOgcqCY6EHQeF6k5KAYMDEY8EEiTIipmJjzSqp2uAgD0Vk62IgA06UHIRTCWPKefLZIzjETYlXBbXqKv-iLYmOVLhTHvYoWNTsXuRQf9tLBAW9VwXx2np8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRDfeFBdVNyDjQano5kv0u15OxkiRn3y1CtawyYAWgVLZyEN0xkREJwQo2P505ZN78j8ErElpp-KObt_fvaWzwuDSpRB9iXbl_5FEl4PJ_nBJg3JDHMLpn8lR3drEFMUm-YDSUDdAlR1U=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfS_ESH0_THbcF3E8cy84-T4Fbn-QU6MvRYhi6r8uEdZNOI4jlZ-0wo-sfyXn8FMNK1cUFf2jiBjmw37Sw9PFcFwU3b6yMjMsJAnACmKjzVXoPVQQf09Y_roh98VzmAesYsgHIuleQ3ReqU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tim Moore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Hello,\nWe just had a large tree removed from our back yard. As much as we didn't want to remove it, we did not have a choice as it was damaged in the Hurricane last September. The owner Jeff from JB Tree Care came out to check the tree out....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdS8MAO5wwpyj8pcL-FNZe_eCpFym_ysd5dWcYQSVh1EYT6L5OJg_aexHWQRPO2XcZuc-gs4n-X-fz2bMWzkJ3uPOQuwzow0cHDMf1fxTASKA9fLwfRgHwGopHMg4xCs9kxlP0SJg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGHQm_v8HEWTsMVYBrOY7MnBOy75gT4mKL6ra4_ISCuGjMEAf2fHpb1icmFFUxn2YW8wFxKUZJ7OBC59Z5dGTorjYE_sdWNsDG2H4LsXyPkB1OWT0qhcVmL1EFmlhf8WBHj-if=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEnwsz6kg4qTKHnUAXSO9wl6kZ5cCobtSoJNjQ1-A1sXCsPkOsNZOxsmaUaGetMHHqhTf4ViJpogyzvsSe2nzDi_5OqkP8ksfUDPjsbA8LcBJiZ9lbO7HFLsAa8J5crdFYW5iscg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmSsrLe2XwvlPZQ1vWZPnwQFPXCR_X8vQrHCiP3itr6OYEkppM86frUbwCdgeK-eTgMzAsn9rR60wLFbharrwHjN0ey1tyjFOg7Wf5Qy3awYW90BlFAbHmyTQ9z1xswkBLN7tQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Germaine R",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: JB Tree Care always does an excellent job. I’ve had this company trim high palm trees for several years- always prompt, courteous, and clean up debris. Highly recommend...."
+        },
+        {
+            "author": "Cathy Mazz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They did a fantastic job cleaning up our palms!\nThey were here right on time. They cleaned up all the debris and took it all away. The crew was so friendly and polite. Fair pricing. We recommend them 100%...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdolUlAF50D0SWhjlfiWet-Tcfcef0ja3CqJIpiS8hX-UP5bhU0SlB2QcVB9QFrcth8TZsaPKa43Wc2ZskT0hMI-J89pYkZoNo0zG0VYoEnRNtKU3pGRugr9X14l1Upa6KkjMdoAPEQUwL8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbqFSCmAuuFzny7_Vg0--mR4siGTRZbVae8nceEdmu8GWA0D33N3Ui1MnVpkWxH-IcO6hIITVisivBwE1vfUz0OntoxuHYEe3MI1A2uqHLZIxatH0HRtfuNK0-Li5U9LvrO3YfmeJofbcB=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Vickie Carbonneau",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jeff and his crew have done work for me many times now.  They have done an excellent job each time.  They are friendly, very efficient, and clean up so well.  Their prices are very great too.  I will call them again next time I need work do..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Geneva (Основная база)",

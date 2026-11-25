@@ -32,21 +32,9 @@ export const siteConfigTwistedTreeServiceEn = {
     "ctaPrimary": "Call Twisted +1 478-550-3504",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/twisted-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Twisted Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/twisted-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/twisted-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTwistedTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/twisted-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTwistedTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/twisted-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTwistedTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/twisted-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigTwistedTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "gail nace",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We needed some trees removed and some trimmed.  We called Twisted Tree Service and someone came out the same day and gave us an estimate.  The price was reasonable and they did a good job and cleaned up good.  If we need more tree work done we will call them.  I would recommend them to anyone."
-    },
-    {
-      "author": "Charles Page",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Twisted Tree service removed a large old pecan tree and trimmed several trees for me, their pricing was very reasonable. Vicente and the crew was very professional and polite. I would definitely use their service again."
-    },
-    {
-      "author": "Kendall Stephens",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "By far the best tree service around. Great price, on time. All around a very professional group of guys. I highly recommend Twisted Tree service above all others, and yes I have used other Tree service companies, but never again. I will all was call Vinson from now on."
-    },
-    {
-      "author": "Chandler williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I called Twisted Tree Service and within 12 hours Clint, a representative with the company came out to get me an estimate. He was very professional and organized while also being extremely knowledgable with knowing the specifics of what type trees we had concerns about. Sean, another representative of the company, was very knowledgeable as well and called me with any updates as well as checking in on the job site while the crew was working. I needed a tree that was a hazard cut down in my backyard in a tight spot along with trimming as well as a tree in the front that was dying and broke apart during a storm recently. Twisted Tree Service was fast getting me an appointment within a little over a week(after a week of multiple thunderstorms) and knocked it out once they arrived! The crew was very knowledgeable, professional and most of all hard working! They are very reasonable with pricing with the work that gets done! I will be using Twisted Tree Service for any future needs and I definitely recommend this company to anyone that needs any type of tree service!!"
-    },
-    {
-      "author": "Bruce Ingram",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Twisted Tree Service gave me quick professional service on time on schedule.  They trimmed several crate Myrtle trees for a low price. They also remove the debris and chopped it up on the spot!"
-    }
-  ],
+        {
+            "author": "gail nace",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We needed some trees removed and some trimmed.  We called Twisted Tree Service and someone came out the same day and gave us an estimate.  The price was reasonable and they did a good job and cleaned up good.  If we need more tree work done we will call them.  I would recommend them to anyone."
+        },
+        {
+            "author": "Charles Page",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Twisted Tree service removed a large old pecan tree and trimmed several trees for me, their pricing was very reasonable. Vicente and the crew was very professional and polite. I would definitely use their service again."
+        },
+        {
+            "author": "Kendall Stephens",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "By far the best tree service around. Great price, on time. All around a very professional group of guys. I highly recommend Twisted Tree service above all others, and yes I have used other Tree service companies, but never again. I will all was call Vinson from now on."
+        },
+        {
+            "author": "Chandler williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I called Twisted Tree Service and within 12 hours Clint, a representative with the company came out to get me an estimate. He was very professional and organized while also being extremely knowledgable with knowing the specifics of what type trees we had concerns about. Sean, another representative of the company, was very knowledgeable as well and called me with any updates as well as checking in on the job site while the crew was working. I needed a tree that was a hazard cut down in my backyard in a tight spot along with trimming as well as a tree in the front that was dying and broke apart during a storm recently. Twisted Tree Service was fast getting me an appointment within a little over a week(after a week of multiple thunderstorms) and knocked it out once they arrived! The crew was very knowledgeable, professional and most of all hard working! They are very reasonable with pricing with the work that gets done! I will be using Twisted Tree Service for any future needs and I definitely recommend this company to anyone that needs any type of tree service!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdWCpFdEpXCGC2VNiNJux1QqXKc2F92HdN-AmDt16VOgPRrdZMPtg1XdgcW-iKRdYjh63qTqf0e9CGBsxiCweSEMmk7Xx-ZLkZChuBIKX3m-xILncfOWfTqlJUErtyXzwSZ2YP0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxgH71-CRwrIi5bZYHbr6lST5bfHi0LMhEUp0A1ljjeBJ80C9VsAXTPfcWerKg-B9SXF-NkjdXpg3IcOxZ6nxHE9YVtPVUSohBE7mTMHOaPFeQzc1T5BGZd5RJxVmxgcvKcTFX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp6hAL8AAQzOXROD7yYGB-IETksFKTrc5mKqR0y_uPgkIXaSM0KIOgpWkjvzIu-hWesK9rPeWCDr_3KiLW6_84VlfFILDRUgiOEDJL2v4pnnwg-nM7JCuXXwRvq1syTFAIqb99aQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUv5Ws5BpjZhdEUbAYmi0BIg9eXziaxe2NyTgYbgEKuHA2IrCet0blzUyaRgSWRhbR8wafE2YJwk1eko1s1Q-fC9weKf5RjwItpTZkh7mMxHu40cPGspK4lzW9b0Te3oLgWmN0=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Bruce Ingram",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Twisted Tree Service gave me quick professional service on time on schedule.  They trimmed several crate Myrtle trees for a low price. They also remove the debris and chopped it up on the spot!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLecY7T_oXxwLN9o6hXJXKABxF77REMXPWCbUWCU5Cpn1Jyo8qihgZSMvMqJlsVNhLKzxDRDKcxcpb9D8ihkvf4iQj2lzR81x3kdo_C3imU0wafTSgYErY3_DfX6hy3YY9cb5EOA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3YDn7yUfNXE495YYE3DnkLr7uJru4JlX1b1E_BQIt4L4AJUZhp5h_MNseT10TU2tCmlX-LdDtaGZUaOMPrQi1kDEEaRLAglNdzQVzK6M7jNtxSI3AENGmaGdD4ZriWIM3XDbzGg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfaQHP_OdekXLqWDrL7zvlRGMgcTXnh32r_DMvmdpYP2ZgOc8AhdUWfbUjUV3M2cg3O9YtYJMyRuCyW_pxQf4bNnGm_P5CTl-d4Y1aEJEkEMf46_tSMfNL0Zw7CwPVXQF2UsLDt=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcCwGFRzKoiviNrTRRdE9ViL4Kz_EyoaRQQca_-sdSdFV03hUXK4ssoLYK4-50GKii1Wpyc96MSCY6_w5GfK_bNVZj1VPZxtbHqLtHG1S2G_gxFKXI4amn6F9JeeHMv8delYLx-Xg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Macon (Central Depot)",

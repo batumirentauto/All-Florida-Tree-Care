@@ -31,21 +31,9 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 910-269-7938)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Forest Outdoor Living LLC Hardscaping & Landscaping"
-      },
-      "sub1": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sherri Newman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a eco sensitive bridge need. Yassir came to review the job and within a day we had the estimate and info to provide our POA. Forest arrived promptly and completed a beautiful 34 ft bridge to join our property. The workmanship was com..."
-    },
-    {
-      "author": "ANITA ALBARRAN SANTANA",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: “Forest Outdoor Living did an amazing job on our property. If you’re looking for a reliable landscaping company in Wilmington, NC, I highly recommend them. Their team was professional, knowledgeable, and easy to work with throughout the ent..."
-    },
-    {
-      "author": "Sherm Kohler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Professional, courteous and efficient!  We had a 60ft+ tree removed from a very confined and almost inaccessible area.  The field crew was awesome.  The tree was removed, no damages were incurred and all employees safely completed the task...."
-    },
-    {
-      "author": "James Ratliff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Juan, Jose, and Angel did a wonderful job with my landscaping! We added edging, sod, steppingstones  and mulch, for our future planting bed and it came out exactly as expected. Plus, they did it so quickly. Highly recommend for all of their..."
-    },
-    {
-      "author": "Priscila Garcia Juarez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a great experience with Forest Outdoor Living. The team was professional, reliable, and very easy to work with from start to finish. They took the time to understand exactly what I wanted and delivered results that exceeded my expecta..."
-    }
-  ],
+        {
+            "author": "Sherri Newman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a eco sensitive bridge need. Yassir came to review the job and within a day we had the estimate and info to provide our POA. Forest arrived promptly and completed a beautiful 34 ft bridge to join our property. The workmanship was com...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7a0cYUJeZtVaw60j6s_lvLSYxPBlNN6n0uorjVo2E9cLcJty-yYsQsf8YQ4dJRNPNy6tADQXPcrUf10wmg3i7iPYJ_cWTzYSeXVK5NvKUV4UFDwfMkH2iXfvLsvMs_p0tzIjo2YOkHRN9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrdtGV1eegSllafocuDI-CQp2l434LggCYte5CttZ-Jm_941h9UPodiaGhFhEFxT7fPovMitrDbGdrHo4YLWrsTwtCmcvGXJPa6RKWhlTiqaW8MXQH1PnVo4-kOR-v3R7fbWJJAlSTWZAc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezt3hzEVOUUJ23vr5zcfXpy0nySbmDz0etupQ5deMb1rPzM2lcatcd43KpKjqfl6nkNUMauX4KYtykgpu0XablKGl0LZeBJmh8uYQ88GMCDh6Szk-X4ZYZ7ZbH-pBpqQt4T9ibXxZfZci-=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ANITA ALBARRAN SANTANA",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: “Forest Outdoor Living did an amazing job on our property. If you’re looking for a reliable landscaping company in Wilmington, NC, I highly recommend them. Their team was professional, knowledgeable, and easy to work with throughout the ent...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCgT_fHize9QM6813_HeREgPYBRLP81r1NTBzAI9bW_gsEuei8L7I0TN2hrzb4KMoFs_ihUus7Buyf8MNiIXFmQeZCwd2QjuGXstJ4npxUT8TBqXt-iMeJm7eKOW2-h2bs1OZO_7s2fK8F=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduMpAJBAvaWZp0m5xsk8mWuVQ90iwnb8OzMYlKdjLy9zJCQvVzBE06GBJF5Gk9osRRqD4xFDqZi8fKRZbvu3_NScqxon0QQU0hPJylczX7FHGYGeqwBXdqLghNs_BLTgx-11kwtaio9Hcy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuENOyS5OxANpiOvF--6xIF-aAy8Jo6n1o1zX3blfhO6yFFVdO2a8vAy0_XSEK2BwPCv6g51raopQy3cHW3rUpPUiSAjUPscBInJ6T780raZMy-T7D28HEID-ZctfSS-GoCHSEnR7vAc7_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSW1_djYwq4ECYENshJpGpmOG8n4qxEqr6w_Eii-KGjXFhWkaviHrq86Uu5PEwsuYchmaB-xXX7wmgQFnJMLMbNEymkCGU7zSsbABVnp0QHa979RPTRuDBH_KxMnTsNzM12CPOYXf6Epo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Sherm Kohler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Professional, courteous and efficient!  We had a 60ft+ tree removed from a very confined and almost inaccessible area.  The field crew was awesome.  The tree was removed, no damages were incurred and all employees safely completed the task...."
+        },
+        {
+            "author": "James Ratliff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Juan, Jose, and Angel did a wonderful job with my landscaping! We added edging, sod, steppingstones  and mulch, for our future planting bed and it came out exactly as expected. Plus, they did it so quickly. Highly recommend for all of their...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLchMFKaLMk7DNRc1zKngbU0PBqUyxLe4v0bpOkiavzeChqGtD3LwZS6gr-3P-y1G-W54KkJ7ZObYKE57gojVggdtQiSrFchMF_LCQBQjEjzKSi1ELuYBdHjMCOOmsek9SVE5RSEhmCeDcey=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdEDkcJXIuPs9ta6QvwivuWhvHYoOukX_7ZNzbJ21hNaeCaPBFOgHqogJiem2rNviFcZlTO4zAgqQVxCbrixnyDhmkOe_LpvfKg6GLG1DGwFozLvp5fGtGfx3rZve1HRQ_1YvbVCjQ-H8VY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck_dCH0wqJrMr-muXFrq_-PPQYp_MVtqf8B5wiJkGATMekv4xjd_2J50eoVZP_9k8oovR-FVo4x0LxgKJA6NCBoisGfiIQOraijgp2pBXRNMc3AL9pssIeLVyxRmkksk4_YxRJPlwfLKE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Priscila Garcia Juarez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a great experience with Forest Outdoor Living. The team was professional, reliable, and very easy to work with from start to finish. They took the time to understand exactly what I wanted and delivered results that exceeded my expecta..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wilmington (Основная база)",

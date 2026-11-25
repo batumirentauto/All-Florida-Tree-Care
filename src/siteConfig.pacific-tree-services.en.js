@@ -32,21 +32,9 @@ export const siteConfigPacificTreeServicesEn = {
     "ctaPrimary": "Call Will +1 253-499-9133",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pacific-tree-services/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Pacific Tree Services tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/pacific-tree-services/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/pacific-tree-services/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPacificTreeServicesEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/pacific-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPacificTreeServicesEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/pacific-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPacificTreeServicesEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/pacific-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigPacificTreeServicesEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kristen Dotson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "If there was an option for more than 5 stars, I would take it. The crew was professional and on time, the estimate and scope of work were delivered as promised with no changes, and the communication was top tier. Will and his crew even managed to meet all of my Karen-level-Starbucks-order demands for dividing up the fiber, AND fit me into their schedule very last minute. Will be using Pacific Tree Services every time from here on out. Thanks Will, Ben, Jeremiah, Tyler, and 5th gentleman whose name I forgot (who was also delightful)."
-    },
-    {
-      "author": "Mya Flintoff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing amazing amazing!!! I will go back to them for any tree service needs we have! They provided a fair and honest quote, were timely and responsive, and cut down two huge trees in a very residential area with skill and efficiency! I was impressed and thankful for their professionalism."
-    },
-    {
-      "author": "Kelsey Hofmann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’d seen a Pacific Tree Services truck at one of our neighbors houses a while back and reached out after we had some large branches fall in a storm. Will was quick to respond and come take a look, provide recommendations, and get us an estimate. I found his estimate to be fair - better than what I’ve seen from competitors. The team did a great job cleaning up several of our large trees, they were thoughtful about what to keep or cut to maintain balance and protect from future storms, and left everything looking clean and balanced."
-    },
-    {
-      "author": "Heather Frink",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ben & his team did a fantastic job trimming my very tall arborvitae hedges and taking down a very overgrown plum tree. They were friendly, professional, knowledgeable and reasonably priced. They also did an excellent job with clean up."
-    },
-    {
-      "author": "Alvin Zaitsu",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Will and his crew at Pacific Tree Services. They were professional, courteous, and efficient.  They took down three birch trees and ground the stumps in a couple of hours and cleaned up the property like nothing happened. No sawdust, branches, or other debris to speak of. They were very competitive in their pricing and am very happy I selected them for my needs.  Very impressed how smoothly everything went. I wouldn’t hesitate to use them again for future tree services."
-    }
-  ],
+        {
+            "author": "Kristen Dotson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "If there was an option for more than 5 stars, I would take it. The crew was professional and on time, the estimate and scope of work were delivered as promised with no changes, and the communication was top tier. Will and his crew even managed to meet all of my Karen-level-Starbucks-order demands for dividing up the fiber, AND fit me into their schedule very last minute. Will be using Pacific Tree Services every time from here on out. Thanks Will, Ben, Jeremiah, Tyler, and 5th gentleman whose name I forgot (who was also delightful).",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAcdSushUdDU1L9BmHoaOp-lhqwu8APuUFMW7PuP2t_Pv_8B2muT17M2D7Kb0pZ4sPdw9xZ1cHZ0KKOZap8PVOQBnAEggd_fcn5KuKX6Q9_MVGb-ZA3ABwwEcvhrIbjf0myvY5Sovwh71Q=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcct-R7sxQB3z9SiusV6f04cDevJJuZ8F5of23i3z-nDAf-ockD7MTa0VUc3gxQAUM9SkuNzxYvE9t9lJu-xWY6FSq9KYOisQlBVJnSvyzQV6fnYZBIcPDINHkKE8mNIxXo96Lq48Fhf9To=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mya Flintoff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing amazing amazing!!! I will go back to them for any tree service needs we have! They provided a fair and honest quote, were timely and responsive, and cut down two huge trees in a very residential area with skill and efficiency! I was impressed and thankful for their professionalism.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf2fWsxyUz6a--UKuk8CJLrv9chsTQGyju--JMe4471vzXnXVFG5L_XAddsWaQIiKEBKsMWhPxplb76UElvpFZ9Xh-VZ1roMRnoWNTAjkIvGKucXspu1PiLmedzuHs1IggweONaP102k9U=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeEC1j5Yr5fgwWAL6hOZT8x9sHy6Y7R-CbzH4SbkUVrsRVZn6AEmZktwNvFdQfRP7PomYJEqy6vxcJbZyKnzTRgLDxvfc7ANbJRjmKVAfFEKfzAMFv8NcuFQt1rm2dbSkpI-If5utaX-8-d=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kelsey Hofmann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’d seen a Pacific Tree Services truck at one of our neighbors houses a while back and reached out after we had some large branches fall in a storm. Will was quick to respond and come take a look, provide recommendations, and get us an estimate. I found his estimate to be fair - better than what I’ve seen from competitors. The team did a great job cleaning up several of our large trees, they were thoughtful about what to keep or cut to maintain balance and protect from future storms, and left everything looking clean and balanced."
+        },
+        {
+            "author": "Heather Frink",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ben & his team did a fantastic job trimming my very tall arborvitae hedges and taking down a very overgrown plum tree. They were friendly, professional, knowledgeable and reasonably priced. They also did an excellent job with clean up.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIiUmYhi_xclfD30E-hQ-uBVv9jzuCV3E0FC3kAZxjH6bxknLrOuOqU54aWPKoc9EVJ4voA-S-ZVTmzdSRGHtfA9irYO-EyACAbvxtyCRxVELvSy1H6tWWnLcFIS9m3HF2DxOqfxtuy9u3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcu4mMvPZbSTPswBQlitruC077JNv5Cu5SCSUDG0tmsBZgnwPZLNgPxWbMsJd5amxH5bqR2nkCiqvgEGNxVlkSvnMUhSAE0pAtMpPkygwU9lpJYhizxS7ozzEmN4Y_y0eyjgyZ8f_i3cPSB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyU13JBIf4AjW--hgEMOytLaXYDwfB4MzoRaKUwX-KvVZAZti7IxllX4ul_V0o4tnGSI6d1G-KEzgtza0Jd3s9MmkCRFrZXCk9toVRP6PINchqVMYd2oTn96RwuP40-WmwE49mDFODByLv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUwOXoYt2EDhHGdixyEpqiGxuah23uS86mOrtebgAc0PNGXLnsmWdHoH5SbFls8_VJXDGTAkrms_M4aI-QtnWwMax4SCotAD19g2-5iCmT7Okfd3l9MlZ6YYX4vzjNKnNAubfeRi6Yzgak=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alvin Zaitsu",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Will and his crew at Pacific Tree Services. They were professional, courteous, and efficient.  They took down three birch trees and ground the stumps in a couple of hours and cleaned up the property like nothing happened. No sawdust, branches, or other debris to speak of. They were very competitive in their pricing and am very happy I selected them for my needs.  Very impressed how smoothly everything went. I wouldn’t hesitate to use them again for future tree services."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tacoma (Central Depot)",

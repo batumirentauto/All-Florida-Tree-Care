@@ -32,21 +32,9 @@ export const siteConfigArborCareSolutionsEn = {
     "ctaPrimary": "Call Arbor +1 864-800-6180",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/arbor-care-solutions/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Arbor Care Solutions tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/arbor-care-solutions/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/arbor-care-solutions/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigArborCareSolutionsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/arbor-care-solutions/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigArborCareSolutionsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/arbor-care-solutions/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigArborCareSolutionsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/arbor-care-solutions/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigArborCareSolutionsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "pollyproofreader",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We called Arbor Care Solutions to evaluate and trim five large trees in our backyard before having new sod installed. They responded quickly and recommended the least destructive solution for us. Their price was very reasonable and they came to do the trimming within a few days. Their personable crew of five worked safely and cleaned up thoroughly before they left. We are very happy with the resulting extra light in the backyard and the appearance of the trees now."
-    },
-    {
-      "author": "Jane Mercer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Arbor Care Solutions team were quick to respond to my initial request for a free quote to remove a tree and have the tree stump removed.  The quote was very reasonable.\nThe team arrive on time and completed the job quickly and left the site neat so I can just spread grass seed easily.  The team were professional and Kinny stayed on-site the entire time while the job was being completed.  A day later Kinny made a follow up call to ensure that I was happy.  Thank you to the team it was a pleasure to deal with you all."
-    },
-    {
-      "author": "Jack Foster",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was very pleased with Daniel and  the tree removal service he provided. It was done in a timely manner and his professionalism was unmatched! He answered any question I had to ask and got me taken care of! I recommend Arbor Care Solutions to anyone! Thank you!"
-    },
-    {
-      "author": "J Dixon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys were awesome! The were very helpful towards my questions and concerns and were very reasonable on our trees! The owner Daniel is very charming! Highly recommend!"
-    },
-    {
-      "author": "Luke H",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew came out this morning to trim our Leyland cypresses and did a fantastic job. They were professional, efficient, and clearly knew what they were doing. The trees look great, everything was cleaned up thoroughly, and the whole process was smooth from start to finish. I really appreciate the attention to detail and care they took with our property."
-    }
-  ],
+        {
+            "author": "pollyproofreader",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We called Arbor Care Solutions to evaluate and trim five large trees in our backyard before having new sod installed. They responded quickly and recommended the least destructive solution for us. Their price was very reasonable and they came to do the trimming within a few days. Their personable crew of five worked safely and cleaned up thoroughly before they left. We are very happy with the resulting extra light in the backyard and the appearance of the trees now.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_X04f2bsGzJngcHxYuBuVn4-pLrDxiF5Ooq63IrZHHvgDCwbxiq6ANu0XrMfMrcwI18C7l52js9XMHSh8wQhryS4TbnWWETX-wyNoK_d8XOHRxGVBT21nWSfZ1akDVrcmi8jsNofJJ_bi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jane Mercer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Arbor Care Solutions team were quick to respond to my initial request for a free quote to remove a tree and have the tree stump removed.  The quote was very reasonable.\nThe team arrive on time and completed the job quickly and left the site neat so I can just spread grass seed easily.  The team were professional and Kinny stayed on-site the entire time while the job was being completed.  A day later Kinny made a follow up call to ensure that I was happy.  Thank you to the team it was a pleasure to deal with you all."
+        },
+        {
+            "author": "Jack Foster",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was very pleased with Daniel and  the tree removal service he provided. It was done in a timely manner and his professionalism was unmatched! He answered any question I had to ask and got me taken care of! I recommend Arbor Care Solutions to anyone! Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeJsf8geGHD_7s_kXh1ESRHWqbC-UYfGA9vuislvU_h8ei2ypf_9l-ap0rMFkkzI8a5lPmljU8_9mKIOAdIuB3paz_sixLDiML4IP_2EhyIgCbeIn2cQiowPzUGeiz9IHiYpwbVxTqz2rS=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J Dixon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys were awesome! The were very helpful towards my questions and concerns and were very reasonable on our trees! The owner Daniel is very charming! Highly recommend!"
+        },
+        {
+            "author": "Luke H",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew came out this morning to trim our Leyland cypresses and did a fantastic job. They were professional, efficient, and clearly knew what they were doing. The trees look great, everything was cleaned up thoroughly, and the whole process was smooth from start to finish. I really appreciate the attention to detail and care they took with our property."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greenville (Central Depot)",

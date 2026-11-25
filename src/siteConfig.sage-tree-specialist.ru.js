@@ -31,21 +31,9 @@ export const siteConfigSageTreeSpecialistRu = {
     "ctaPrimary": "Позвонить (+1 704-980-3111)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/sage-tree-specialist/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Sage Tree Specialist"
-      },
-      "sub1": {
-        "image": "/images/sage-tree-specialist/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/sage-tree-specialist/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSageTreeSpecialistRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/sage-tree-specialist/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSageTreeSpecialistRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/sage-tree-specialist/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

@@ -31,21 +31,9 @@ export const siteConfigIrelandsTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 407-796-1533)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/irelands-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Ireland's Tree Service"
-      },
-      "sub1": {
-        "image": "/images/irelands-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/irelands-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigIrelandsTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/irelands-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigIrelandsTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/irelands-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigIrelandsTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/irelands-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,73 @@ export const siteConfigIrelandsTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kristi Seamon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is your new tree guy - call Ireland’s Tree Service!!!\n\nWe found Dave through Google reviews - he didn’t have tons of reviews, but they were all strong and compelling.  I took a chance and gave him a call - all I can say is, we made the..."
-    },
-    {
-      "author": "Zach Protas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: David did an excellent job trimming a large oak tree in my backyard. He really takes pride in his work and was very professional throughout the whole process.\n\nHe recommended that an arborist visited to assess the health of my tree before h..."
-    },
-    {
-      "author": "MMV Real Estate Group",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently hired Ireland’s Tree Service to trim an oak tree in my yard, and I couldn't be more satisfied with their work. From the initial consultation to the final cleanup, the entire process was seamless and professional.\n\nThe team arrive..."
-    },
-    {
-      "author": "Jenny Duke",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Not the type to leave reviews, but this was an absolute must!!!! Dave was extremely professional, timely, reliable, consistent, & affordable!!! Solved my issue within 2 hours, not to mention one of the limbs of the tree was INSIDE the lake!..."
-    },
-    {
-      "author": "Matthew Vazquez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Awesome, professional service. Climbs trees which you don't see that much these days. Ireland's tree service will always be my go to for any tree needs. Update!!! David will be my go to for any tree work needs. As per usual work quality and..."
-    }
-  ],
+        {
+            "author": "Kristi Seamon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is your new tree guy - call Ireland’s Tree Service!!!\n\nWe found Dave through Google reviews - he didn’t have tons of reviews, but they were all strong and compelling.  I took a chance and gave him a call - all I can say is, we made the...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1fMxPaMjOVyTxfl8K3aR9In8LXiFv9xZDOen4pecEL-_wv8Ha_HRibSBjPOHIqaUNvFkDR8LemzUDLEhCf3sVoZHbJU_1gQO_OmgxTHPMwJmwpoO3HPUcNGg2uYJpwf9CZNRy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePMKn9c5cbUpAk_RaU1EAb7hYbtUyaRh5NskNPmQ3ElzK-aNMmZGVDaA9KatuoHXqQ_SGCrHYDwrCMF8Rr1ZXB2ZutX4WdsK8_y01Iii9IVNZkKa3n1E71oEmhsDQQHcLyhNBuxA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAPpOlrReYwWmrtgIjg8iNXjgfEPsaRrBe0nOw_GNQeOcuzrNTYadJJj-EvawnuunpIpT8u6wWPi0uY06vOWT8QkYlxauopc1v80cFzFVzNXuMdyUh3sWZrcpKvKnvgGQwDnLm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdk78W_maMYG4oj-qby2gLqPJfeD4LOiKlfFnvg3fw9f6M9BYJDPAXX0Y_PpxiU8ZeoLi22pJKEZ9tyrKMH0a8Odw6-jmGiKDOQre1nKWBAt9CTQzfuJHJOVwFQEODHkCxvQTf0YQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Zach Protas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: David did an excellent job trimming a large oak tree in my backyard. He really takes pride in his work and was very professional throughout the whole process.\n\nHe recommended that an arborist visited to assess the health of my tree before h...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuEH96V0GSZC0h_AdxquJigfWYQ0YQWBTpPBa31rCeKcunirkhmjyB1J3zrKaa6ksQxRkK7JrYmdgk72kiYLsQ52S06VouK03vi-eYopL0Xo1RJGPBqrxdKY3UdgGKghuIfHh4bA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhQK6_HkcAz5wuvhr4jv-LKjnoptZxtBugJowQ98FkbB_vdGzO9Sush5wlCEM2Ez__vQA9Bv9jeZhiH6bEfS81_3SvsVxVRveSF8MOAyzHbWonaLI8eAKMk1omgX-KdPIQcS9P=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc7rXERFrLyP2eqML1ld_czgflkkiPTmZucuAUujkJFGHUYhxrtk14xb7hFGziSb89ZpNiTXAdz8cl0p5hNEEhV0aQlwGJxOAA-0ZVcs5rMkKnwLgQEVo3Ui0tloyS-yM6n1rLy=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "MMV Real Estate Group",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently hired Ireland’s Tree Service to trim an oak tree in my yard, and I couldn't be more satisfied with their work. From the initial consultation to the final cleanup, the entire process was seamless and professional.\n\nThe team arrive...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduQzDA7CZGIJlkf8gcG1Ye7JaKJpWVY3Vvn8Qvo6TD6I-JVTMt4Pq2NeuWOZH7rKtDWPsmtX5frVRlmcPWSaQt95_1k1eowHBL7ExHhj3JA5GakiSh4bQbhYQUWC_wYil6jiQQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehVqeaq7MHWMdrh-syvjU-t5-dsQA5LUY1lYyLHGcyIZPbMlnvPjRYDcNGq3EPJUSzwgTgcSnCOAmMOCl78R0MktFfv0h-LN0gjuepEbH_hG34_2hSJPWjR6bmHDVkImDsUJqa=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jenny Duke",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Not the type to leave reviews, but this was an absolute must!!!! Dave was extremely professional, timely, reliable, consistent, & affordable!!! Solved my issue within 2 hours, not to mention one of the limbs of the tree was INSIDE the lake!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7UZaEFEs0qiLsnP1DahvnSBNzJFJboOylnHZa4sorMl-rieOhzK1q7_UUeRWo08BXx5kRpDxrGOACmOpVGkNZ5QsIxcJr7jZ2db1Fy9nuL6TbzlPRCwMcqF8rLIRi3xsSdYb43zm51ZRq=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxjvQzUJWZC_vS4g-MU4EtbXAj3UOInXJyEX2d2dd4ZV0DwfVPYUpEb95EfFAEmeMnVBiyAkcAB_qu8FweTppGa6OGj0s-mh8WhtHsQcTJ9SWcwXgFCR6SlDbAvcXVWXmXFhglOlYfoZM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjNrHOmEPNQ-hV2tOPm7HlKjx3GIiv2q3ZX8QR9G4R-OSKe0FQAJGle28bvTKnIF0-HB6hqi4ZgTtfHMSYhHZi_Uo2alkZPb4Xtz-MXYgal85K12534jEy_jjXkwtpU0Aw_T9ZOIbaFF0=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Matthew Vazquez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Awesome, professional service. Climbs trees which you don't see that much these days. Ireland's tree service will always be my go to for any tree needs. Update!!! David will be my go to for any tree work needs. As per usual work quality and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLebYZAYL-Sg7FivJIgFvgrNRedggVT2h2LsrqlxaKQSEQ--NIsQ1fbG6qakimPyZhEh3b4nSc-wtGv3uQJmUSdZiIuuC3dsHWjlMBJ7v_t01S-rfpfQYQMtXQZ34qoBfff0Z4Rq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDZ4T1bq5ivjrwSdi85Qqbmg6znxIVZrD2XirOwsaFTOiw4MnFF3ClOn7etmTk67fwxQkNLDAVZxg7e2cSYjnt495VkVl2tEvr8azZgP4BmqEY3vnRNXCgsmPJaD9QFTr-QXwgNw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3s375CgfNICPaK6YMS9FM1ThYTWZLiE8opK3Ldlo953Xxo5A6gV7UQT__deDW2a_7UcZDPK2ug77NdZTgQNTXYaGl1VC3zouP30k-gF6WjtxdkT4z65PKBdnkXlD__PG-Qk4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTFz9pKkesQAlIJRi7gF51Sn5ZjIiqJ54OpCWdBDYAb7fXrBhK-PisFqQiUH0NnP7mHLDgY-XQjoOk438lkA2HepOb_KN889DjAr8vtJaQC9q7R0hAJzN1QV3WZMerk6PgCYpe=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

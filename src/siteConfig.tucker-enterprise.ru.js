@@ -31,21 +31,9 @@ export const siteConfigTuckerEnterpriseRu = {
     "ctaPrimary": "Позвонить (+1 727-216-9538)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tucker-enterprise/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tucker Enterprise Services"
-      },
-      "sub1": {
-        "image": "/images/tucker-enterprise/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tucker-enterprise/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTuckerEnterpriseRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tucker-enterprise/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTuckerEnterpriseRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tucker-enterprise/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTuckerEnterpriseRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tucker-enterprise/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,74 @@ export const siteConfigTuckerEnterpriseRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lonnie Lawson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What an amazing job by Tucker Enterprises!\nThis tree was such a tricky removal. LJ and his team had the equipment and the know how to do it right and to do it well. They gave highest consideration to protect protecting my property and my ho..."
-    },
-    {
-      "author": "Kym Blair",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tucker Enterprise Tree Service removed a very large oak tree from our front yard because it was invading our water lines, sprinklers, and sidewalks. They dispatched a team with a truck, crane, cherry picker, and bobcat who cut all the branc..."
-    },
-    {
-      "author": "Chad & Amy Robinson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We just had LJ and his team out to our home to trim back some trees hanging over our pool. They did an amazing job!! We do not have much room between our pool and fence and then add in our pool pump and landscaping and you are down to very ..."
-    },
-    {
-      "author": "John D",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: LJ and his team did a tremendous job. They had the right equipment to get the job done and did it for a great price . We had several large palms that needed to be trimmed and  several problem maples that were overhanging the house . He has ..."
-    },
-    {
-      "author": "Teresa Jektvik",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: LJ and his crew did an absolutely fantastic job as usual trimming my and my neighbors trees. They are professional and take pride in their work. I highly recommend them..."
-    }
-  ],
+        {
+            "author": "Lonnie Lawson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What an amazing job by Tucker Enterprises!\nThis tree was such a tricky removal. LJ and his team had the equipment and the know how to do it right and to do it well. They gave highest consideration to protect protecting my property and my ho...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFf83J14y6p-rlv0MIF9uG9u-xOJAPIgzk8HqncgQsaC5aNQ2SegjZ0-luCDbSwkXo6vTdfDBy_8MR0A4nV9b0wcmls2zg7NFCaj8Be5MCYolsRtoDlixjlwoPilT4g9qCqXKZXkauZqs=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kym Blair",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tucker Enterprise Tree Service removed a very large oak tree from our front yard because it was invading our water lines, sprinklers, and sidewalks. They dispatched a team with a truck, crane, cherry picker, and bobcat who cut all the branc...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdA_pyHB8bKop2WLrG69K238kFmN5q6s97HBW44ZVRs-TG9ODicHeNnW2ApQhSVp-xcKoR3s03Z47keP9ssWL3058Kq14vYoaGkerxboOcQUhrTWfppB98rCfWxeim8QLkGgUr3XCtKwQva=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfMkr0nXIXPG097rpJ59MIXVaFRRJw54pZ_zIMlWTDtUU05Z-6Gk5_hVVhNVGTym9uMqgVBh_7LL9S3Ij9j5z1gf-c8BUoWX_CydbJTKoFcsEi8kVwIFVPTVUCFQlCGaSYZCfArOHx2vUk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd-RoQpbAtnUqghxFgXiZ-bWe-_csp8VKs2tltZiUIABBnIj-Rq0JOSCpD92IUqN7tQGLzwWpzYG94TPx0FxRkTZXG_C0UlSz-NootSqavctjugwODfc-_0hPxx_aA01q8PibNtrb2BApg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKTTIY5PsAhDzFsuuXEFsM83joQySV99dGwAr3cdWjq7Vbx5G89GHjUcOBeTifOyN0X6NoK3ZalZw96Q1gY9vX5KaKH_g11ex6ca01HtKgNg44Qm1bnpjqMOL3ezNZLDFcRHy6DRs0bwE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Chad & Amy Robinson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We just had LJ and his team out to our home to trim back some trees hanging over our pool. They did an amazing job!! We do not have much room between our pool and fence and then add in our pool pump and landscaping and you are down to very ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYR-Kip4VzFOhL1SAkVxsfDJwHtzpBckwRRh4tldqTEFGwTzeV5akAxSPXB3Zt3GahfN2g5YlpZhlBDgaLy2Uky6-7GXzPBOM8VwwmvgfiVX1cRWyEdPQQqif4I19qoKDmJ20Zzw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcrKbpf6zLJAVK7F71IdJrKlLLdcMVovNwX1_hEyQEeg6wRZljzo3fiKuoOxmcSEu4bL5YWYa2dzMOpTSanAKIqDZp5rCbQamOHGUhBbywNCO8QsjL2EdVu1VWWPn_SEk_k9t8-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRWEfwxnxlgATP5kT4yW6BKk_GfB1oBpN1gwzhyWLRqBGxfyi4nNf8jUeDX0zs913MT-oM58abOIIHNRbHoi8PJ2hfW5mUkdbA1poFmkt6r2pOazK_oy8Cou3-6B885y76QJ1MEQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_uVKvSYpdTPcmWnm_GtOuc3ff72CkhlPjvXIefH6A6o19LZYLJDN4t-2WosDZdTDlQ7RJMifIEaZw9wmHdKk8Vp6wtbdyzEEZQ5jgJhmTI4BAsl_QGgy-N8-MoRQLDwpSDYLo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John D",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: LJ and his team did a tremendous job. They had the right equipment to get the job done and did it for a great price . We had several large palms that needed to be trimmed and  several problem maples that were overhanging the house . He has ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9impnIaKzXXM8GyNrzMctuB_BhFQzhoepwP2BC4VzT7o_zQtnUY_UgdLCc9eKE9K79eLb9IkytBIySrd_P5zoukj0suX8XPL1-HyEFz3DdxVUibcLZ6eLN9JotOkk9zNX5YBX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe77SS15Y4dWyrrYXo-n8iEBKiRH3jjrdqlBlx5YEUVLPa6qO9M09lsnwwfbQrKB104hPJ70M3sDODfsy_Z9vm3G7DXn69GbbjVUZ-6eFXP2Gc4qqSHwQb23xjWBKz619oHqgvLDQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdYq1aYU9OYIpjSNYRIgLQgWD4PcC9K8rcb2i5fwtG0nYVGWVru2cIID9Ouqob_i1Hh-7o9dObCw-ivBSeJP_TmDSYIeEAwzc4W_mPOwykNR3lsX1S2PDST7awD2dThACPmn4g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdljLFN9j_R1nCegQqusDUj-Iee2sr096MWBGbJIwSEyVeo5jkAATD-jUA2dG86gr8Q2OSX-Cr6bWUB_n0FC52g7HmY99chJp2_cn-fdAdQF4cbKrg_R-mZRrXeAK9PH_OHUwRREw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Teresa Jektvik",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: LJ and his crew did an absolutely fantastic job as usual trimming my and my neighbors trees. They are professional and take pride in their work. I highly recommend them...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9X7GEa5F7HFnlv4KlKrrhSrXlOAd0jSYsitmfL-s9vuJpFCS2EX0po7MEwxSBo_Q6wzXUYyqKXuMgHehmAU1FIPieb3OYdN16BkDVUq6XNrPcZ_-g_dAQN3DNobo3G-t9Su--=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfS3jpWWdAGil2kDUh_EoltzbmexsThgUyH8YD1v83VKKtRpGYIz-1Vi04hmtvrQVFhCyyswoRL2m-IKk5opiJ_2zub0d6-F8DWvLHx5pkXW5pM1Loy_RDQuMPaa654eNgfzvxf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXWoNMXA8rSLburcpmSe0nLXLmUcfTKevVzUg7mDFpycuhG4HeNMtBnFfX0HbtAXCb3V_LPFNLkkTKiGclLU0Fz9gJGq0Ym8HzQ82guaptaew1Ep4IJ5Kuu_ZaP6XS8dvlzELH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeckd60eANCDcmfvohATHjP3VbalH_BNokANE2iKroXcq2UKtFcweENHDWx25OR5_mS-NWd_eenQmbndstOpJHfH8fnlEEMTa-_IDxLuEID_1PMDM1fDoePNW_e0SFAE99WD2i6lg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Oldsmar (Основная база)",

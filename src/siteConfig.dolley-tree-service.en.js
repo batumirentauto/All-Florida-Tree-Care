@@ -32,21 +32,9 @@ export const siteConfigDolleyTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 919-236-7385",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dolley-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Dolley tree service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/dolley-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/dolley-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDolleyTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/dolley-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDolleyTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/dolley-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDolleyTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/dolley-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigDolleyTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Gray Cheers",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dolley Tree Service did an amazing job with our yard. Front and back yard with probably 25 trees removed and they finished in one day. Professional staff. Cleaned up well and respectful of the house/surroundings. Price was MUCH lower than competitors and overall service was top notch. Couldn’t recommend more."
-    },
-    {
-      "author": "Joseph Manese",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dolley Tree service not only came immediately to provide an estimate, but also had their team on site at the time they indicated. The crew was careful to review work orders, was mindful of buried lines and septic system, and followed requested services precisely.  Their team came on time and completed the work by mid afternoon. For our property they took down 11 trees, chipped branches, stump grind, cut logs to requested size, and stacked logs as requested.  Highly recommend."
-    },
-    {
-      "author": "Anil Daniel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dolley Tree service was very professional and reasonably priced no drama engagement for our need to remove couple trees too close to our house.\n\nI would highly recommend them and we will use them again for future needs"
-    },
-    {
-      "author": "C Wilson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mackenzie is an excellent representative for Dolley Tree Service. He gave me an estimate and time the crew would be there. They were here earlier and did a fantastic job. I will use them again. They also did a great job at my mother's home. Thank you again"
-    },
-    {
-      "author": "Wazym Williams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I cannot recommend Dolly Tree Service enough. They came to my house to remove 16 trees, seven of which were at least 3ft in diameter, tall and very close to my house. Their estimate was competitive and the representative (McKenzie) was phenomenal to work with.\n\nA couple of these trees were massive and in difficult locations (next to my house), so they had to cut them down in sections and have a crane lift them over the house. The only hiccup on my job was - The stump grinding machine stopped working right at the end of the day, so they could not finish the job. The technician was unable to confirm that he would be back to finish the job the next day, but around 8pm that evening Mike (owner) called and confirmed. To my surprise, Mike sent a more sophisticated high tech, remote controlled stump grinding machine to finish the job.\n\nWith the heavy equipment and size of the crew needed for my job, I am very impressed with how flexible they were to work with. If you have trees that you want professionally removed, call Dolly tree service for an estimate even if you have a company that you have worked with in the past."
-    }
-  ],
+        {
+            "author": "Gray Cheers",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dolley Tree Service did an amazing job with our yard. Front and back yard with probably 25 trees removed and they finished in one day. Professional staff. Cleaned up well and respectful of the house/surroundings. Price was MUCH lower than competitors and overall service was top notch. Couldn’t recommend more."
+        },
+        {
+            "author": "Joseph Manese",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dolley Tree service not only came immediately to provide an estimate, but also had their team on site at the time they indicated. The crew was careful to review work orders, was mindful of buried lines and septic system, and followed requested services precisely.  Their team came on time and completed the work by mid afternoon. For our property they took down 11 trees, chipped branches, stump grind, cut logs to requested size, and stacked logs as requested.  Highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1OYxVxkyloL5Tp3m7ARggHVcrVtHxRUuU5VGSXDqLwW_xfx8RJyNkekrkmeLMTXEky1tUHvOcIpSbnjNNZL941YbGnzKmzACtPTzIkJpIJ_01g3f1SFWDYqPolKPHlhPK2kaRIw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeyYefxXTvajei173Kh-yOYeHSC_JGRGswbaEwv99AJq2jiymkNcVN2lvf-vZByvdA0Lc9Wj__qXip2J7nZh8Uk3iKxs4U3zH78a-4IheKfBQKk-MDJEJ3YW_NsNACyJfscM-di=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdM5NFH358WEraLrxL0ItC-E8C3U1pLQ1fBxYOVlj6DCqWsxoMwm-C-mpI2PQQsS6TZwnypVXp6hqY58YKXfsfFNclusYEuEuktA-GebTVdWH8yHY3itWSgMZEJ2-DQuh--K6C8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJsdY_wxdK4W-1yuwerke1oRHCGW4AYc56TTrAj6BoS2Je8cfMc03k_xxtUu8cZRJ1EdccWgYuYYMsFPKwPb384R3H90T3bKrORIxo-JvgJSpz5waurfvbICSrpiVoPW2A1axi=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Anil Daniel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dolley Tree service was very professional and reasonably priced no drama engagement for our need to remove couple trees too close to our house.\n\nI would highly recommend them and we will use them again for future needs"
+        },
+        {
+            "author": "C Wilson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mackenzie is an excellent representative for Dolley Tree Service. He gave me an estimate and time the crew would be there. They were here earlier and did a fantastic job. I will use them again. They also did a great job at my mother's home. Thank you again",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevAU2JBsZTu_7hFGOS6CENoIveqy4I-Bw83ZeoXkDOSeO_6i40AMLw6ziA_Uju5ixDqj99ICobi1OAGvDu-Mb-dG37oBT4kbIb3ZHUaBH4oWhzR65mM0JrcZyRJIJelHmW9LFiLQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd0plgRXDNCn9K-EkfbPlXum6_H0m0LvZkAg2mG8xuE2o1lVJYKlkXpQad19PuX-EIwNhXIAs5BVfC7WRpDg8_d9OH4CbSwb-qCTOBBmfPlf6oX0XyakzNAYdp8fWNr6A6st9Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeoaY9IpAVO0wlQcLYyX-McRcbHj3ivSo6TNZbjrantk0cs-OwdA-S7S7sQYnchV-5i8yggt_GwJ0O_7QLJHiSBHfUETp5gKxIu-eTl4PVdzTOGBOhaJtFM0u7F5q6M4GKAPVve5w=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Wazym Williams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I cannot recommend Dolly Tree Service enough. They came to my house to remove 16 trees, seven of which were at least 3ft in diameter, tall and very close to my house. Their estimate was competitive and the representative (McKenzie) was phenomenal to work with.\n\nA couple of these trees were massive and in difficult locations (next to my house), so they had to cut them down in sections and have a crane lift them over the house. The only hiccup on my job was - The stump grinding machine stopped working right at the end of the day, so they could not finish the job. The technician was unable to confirm that he would be back to finish the job the next day, but around 8pm that evening Mike (owner) called and confirmed. To my surprise, Mike sent a more sophisticated high tech, remote controlled stump grinding machine to finish the job.\n\nWith the heavy equipment and size of the crew needed for my job, I am very impressed with how flexible they were to work with. If you have trees that you want professionally removed, call Dolly tree service for an estimate even if you have a company that you have worked with in the past.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdNecfaVvEug7krHug_S1yutSzSP9YyZmYr1F2_dBp7vWTQMqfI9_7YMoKo0dYQPS6FNHoX8r_kBcEQVmEz4MUNyUmCme0Pa2F-iV-0b0S1A7fpkKWmoOC2CF6_6anwE3Iek4MMYQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4W3_A7nZ47Y7YhehE1Fk5PI4f0uY3o4MTgPtXI3ziSx_bhfgWEQ95y4EIz6MH1xtfmEGOGCSV-kJ0tKbHzDdYPQSh1yZcUyZ23K6KfwqHEPJ_yiZBeUhTdWl4JfVOMoCFatfK=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

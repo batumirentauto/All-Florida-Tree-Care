@@ -32,21 +32,9 @@ export const siteConfigSageTreeSpecialistEn = {
     "ctaPrimary": "Call Matt +1 704-980-3111",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/sage-tree-specialist/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Sage Tree Specialist tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/sage-tree-specialist/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/sage-tree-specialist/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSageTreeSpecialistEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/sage-tree-specialist/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSageTreeSpecialistEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/sage-tree-specialist/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

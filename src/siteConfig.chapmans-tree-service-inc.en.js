@@ -32,21 +32,9 @@ export const siteConfigChapmansTreeServiceIncEn = {
     "ctaPrimary": "Call Lead +1 678-921-8163",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/chapmans-tree-service-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Chapman's Tree Service Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/chapmans-tree-service-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/chapmans-tree-service-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigChapmansTreeServiceIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/chapmans-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigChapmansTreeServiceIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/chapmans-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigChapmansTreeServiceIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/chapmans-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigChapmansTreeServiceIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ms S",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am so pleased with the excellent service I received from Chapman’s tree service, Inc. I had two very tall trees fall in my backyard, which was hard to access, and a third huge tree that split and fell between other trees. Chapman’s came out, assessed the situation, explained everything, and did an amazing job carefully removing the trees from my property, which was quite dangerous , as they had to lift part of the trees over my house. They also did a great job with cleanup afterwards, you almost wouldn’t know they had been there, and they did it quite fast. It was amazing! These are true professionals who know what they’re doing. Pleasant people, excellent work. Kudos to Link, the lead guy, and Andrea at the office. I highly recommend this company and wouldn’t hesitate to use them again if needed."
-    },
-    {
-      "author": "Lauren Gisel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I literally have never worked with a more professional team of people in any aspect of my work or life than Chapman's Tree Service. From the start Todd was calm, cool and collected when he came to inspect the giant tree leaning on the back of my house. After other companies tried to scare me, Todd put me at ease that this was something they could handle, no problem. Even though they had to bring in a crane on my front lawn to get the tree out, they did not even bend a blade of grass. They were efficient and polite, and left the areas they worked cleaner than when they arrived. With my husband out of the country, I was a wreck worried about that tree for weeks and they made it so easy for me that I will always be grateful. If I could give them more stars I would. Cannot recommend enough."
-    },
-    {
-      "author": "Laurie O'Brien",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We recently had tree removed and stump grinded. The entire experience was excellent. Communication and time line were accurate. Kevin and Caleb are professional and courteous. The job was thorough and clean up was efficient. Would highly recommend!"
-    },
-    {
-      "author": "Scott Andrews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "From estimate to clean up, Chapman’s Tree Service exemplifies professionalism and customer service. Mr Chapman is a wealth of knowledge in the tree business. His calm demeanor and approach is so helpful when dealing with taking down trees.\nThe entire Chapman team couldn’t have been more professional and respectful of our property.\nWe had five over 5 ‘ caliper pine trees to be removed. Three of the trees were unhealthy and treacherous. Chapman brought in their crane and their team removed them with zero evidence that they were ever there except for the stump.\nThe team of Link, Bobby, Juan, Daniel, Cole and Thomas worked professionally navigated the busy traffic in front of our house and left our home and property spotless.\nIf you have trees to remove and want the best in the business, then call Chapman’s tree service.\nHighly recommended!\n11 stars."
-    },
-    {
-      "author": "Dorothy B.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "A fantastic crew was sent to my house this week to remove 8 trees, along with grinding stumps on 5 of them. They were on-time, professional, polite, knowledgeable, accommodating, & all worked very hard to make sure I got my money's worth for my \"day rate\" job, despite some minor issues with one of the machines that required fixing, which created longer hours for them.\n\nThey were very conscientious about cleaning as they went, & my yard looked great when they left. I could not be more pleased."
-    }
-  ],
+        {
+            "author": "Ms S",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am so pleased with the excellent service I received from Chapman’s tree service, Inc. I had two very tall trees fall in my backyard, which was hard to access, and a third huge tree that split and fell between other trees. Chapman’s came out, assessed the situation, explained everything, and did an amazing job carefully removing the trees from my property, which was quite dangerous , as they had to lift part of the trees over my house. They also did a great job with cleanup afterwards, you almost wouldn’t know they had been there, and they did it quite fast. It was amazing! These are true professionals who know what they’re doing. Pleasant people, excellent work. Kudos to Link, the lead guy, and Andrea at the office. I highly recommend this company and wouldn’t hesitate to use them again if needed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdit7A5tOuKgKOaj064eDgguobtP1j-ApBKNS9F0kEagPDejCHHp7nh3W1BLSXZhz-vNnVpT7qmoQPH4k3AFV1wsaWf9QDKDLV1ercDq7nhTDGWllU_bIoyJBNgEjocXkP8rCZB-Vn5sEP4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTdjX2q714iFh968N8xGS5ilrMAp1lHs_a4wetUTwik8zZjd3Pen4cocIQHYPFPaT5ELYRty5fOz61WhEaFCmbTWh2Cuu35HX39ey8KnHbTwQyaKnkgNRebsL-NN8lcPwrINQvVyMpHacL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKr6jvDZHRlYq22MRey75R7wyoamr_1Xu9AMP0U34b6PC96jrvPXN9EjtlQ0V8tnDMc4VWnNJJm1JDlfWMLle3qwTk4k5mDIFgWGfQKptQFC3Imf_YTVcU70-6wQymvG_TeDbYGhzfLIlw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lauren Gisel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I literally have never worked with a more professional team of people in any aspect of my work or life than Chapman's Tree Service. From the start Todd was calm, cool and collected when he came to inspect the giant tree leaning on the back of my house. After other companies tried to scare me, Todd put me at ease that this was something they could handle, no problem. Even though they had to bring in a crane on my front lawn to get the tree out, they did not even bend a blade of grass. They were efficient and polite, and left the areas they worked cleaner than when they arrived. With my husband out of the country, I was a wreck worried about that tree for weeks and they made it so easy for me that I will always be grateful. If I could give them more stars I would. Cannot recommend enough.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdWTj6I3ofvN62gGHz9zWEJJpVMQIZ133GR0KfYOtB2ca85cD4u7IMKUCNhPiUi-sQ6Uf74_L2gU9g3zTC3rQVbae2sGqllZxT59ivQEl3uyzDhGp_hN_n9SSsGQ80c73NYVLXTFShZaCK-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLed_4x7QNiUp1JUFLMLDByuIbgiSUrhcNbSd0HxHEmQTA1CqnITzE8dBiJje60xQ4N2zXCrfFa2t5KgDDzWpsxVE5B0TFT9oB-YhFafcUjwPkr6exWgzW0zqqzpLJ4m3G9aaOO5yGY8hd8Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeFNZDUHoL8_2b-E16W_0DVy5x1yqiXz9H62Du-TIV0Lm0L2zDwypjO_WdOJRChQLssY1bJK7GIhMGQxLq40igIlXuzxu1y-X5ws-A3xhKDOVugEiXlunPI05gvlLcTPYiKp8xGYjd7ccM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfi6_qPczSf6iAdDvCeY95y055Dtix_NnrPKz1wMTdY6c4qS8Qigx-tNxIeMBHKnrO9W6-hYmo4HFy-ffUxdtIfsF3xSZSXxd5KCK0dV_zSckr-LnBWcQsMX6xph9YDABLQe8L5Tl1043Po=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Laurie O'Brien",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We recently had tree removed and stump grinded. The entire experience was excellent. Communication and time line were accurate. Kevin and Caleb are professional and courteous. The job was thorough and clean up was efficient. Would highly recommend!"
+        },
+        {
+            "author": "Scott Andrews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "From estimate to clean up, Chapman’s Tree Service exemplifies professionalism and customer service. Mr Chapman is a wealth of knowledge in the tree business. His calm demeanor and approach is so helpful when dealing with taking down trees.\nThe entire Chapman team couldn’t have been more professional and respectful of our property.\nWe had five over 5 ‘ caliper pine trees to be removed. Three of the trees were unhealthy and treacherous. Chapman brought in their crane and their team removed them with zero evidence that they were ever there except for the stump.\nThe team of Link, Bobby, Juan, Daniel, Cole and Thomas worked professionally navigated the busy traffic in front of our house and left our home and property spotless.\nIf you have trees to remove and want the best in the business, then call Chapman’s tree service.\nHighly recommended!\n11 stars.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcH39DvZCkwfIWPy7BwyC7zRr9yqaXIhOwY2iEC7Q8qUSMraZdIohJf4CH_s5FfzuZVgsU7PRq985iQoWeufgVJKNti3iShvzg7b5P8OeL_BlB4-JOqrUVfeR9wJf2QUjhYTiwAWQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQymuuSeB1lM7S2YXfupYWyBuc7OoJVjbZn1OppvKzmHMEKQ5JeIM7L8kUuAsa1vJFH_qLN_KplNQ8WGtZAEhkjMeiRNpHq16cHdLL4wnYdYmFyVnuyWs7XvxXaBDhtv3CNKMk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfksHguJGQ8RdlZdqOTQL4fTCEZqa-JBrbUwRNHSCbXguFtDVXFOFl1nKGepN6B-SVanYFcm3JRdw_fYzYf-d2NYm5oasW4XSuIhUtHm-2ko4u_ATZmr4uF-vZuupZN5BTR6OZ9Fg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLec7z-6gcprpdJoU6vjUF4t0InlICpncW_nnsXxh5SKK4ix36e_wSMHa4FlJUuG5uNUlOrp9qIl0Ojuxi8qKBy48M9Cb-o6qXhrDGknsHcZsqc-xHCWaGFQpt-zMmz2dAXVWu7J=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dorothy B.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "A fantastic crew was sent to my house this week to remove 8 trees, along with grinding stumps on 5 of them. They were on-time, professional, polite, knowledgeable, accommodating, & all worked very hard to make sure I got my money's worth for my \"day rate\" job, despite some minor issues with one of the machines that required fixing, which created longer hours for them.\n\nThey were very conscientious about cleaning as they went, & my yard looked great when they left. I could not be more pleased."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Marietta (Central Depot)",

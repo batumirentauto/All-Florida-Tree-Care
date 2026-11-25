@@ -31,21 +31,9 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceRu = {
     "ctaPrimary": "Позвонить (+1 803-729-9659)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Midlands Tree Service & Property Maintenance"
-      },
-      "sub1": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,55 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "MCRTexas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This is truly a 5-star company. Wesley and David spent hours in 100+ degree temps, trimming/limbing six big trees at our lake house. They are excellent at what they do and, as others have noted, they are the nicest and most professional peo..."
-    },
-    {
-      "author": "Chris Snipes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I would highly recommend Wesley and his crew . I had 2 large pines he took down and ground both stumps for a reasonable price for all the work involved...."
-    },
-    {
-      "author": "Mary Cockfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent company! Reasonable rates. I've hired them twice and each time the owner was on site. He pays attention to detail. His men respect him and they clean up afterward. Very professional.- thank you Wes and David!..."
-    },
-    {
-      "author": "Juliet",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I cannot say enough good things about Wesley and his crew! After we had a bad experience with a different tree company, Wesley and his team came to the rescue. They gave us a realistic estimate and got to work right away. We had multiple la..."
-    },
-    {
-      "author": "Rick Giraudy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wes and his team did a fantastic job, Removed a huge oak tree in my back yard. They were very professional , prompt and what’s most important with contractors is great communications. Prices are fair and I’m super happy with the work they d..."
-    }
-  ],
+        {
+            "author": "MCRTexas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This is truly a 5-star company. Wesley and David spent hours in 100+ degree temps, trimming/limbing six big trees at our lake house. They are excellent at what they do and, as others have noted, they are the nicest and most professional peo...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdweFx73aZy4YYC7xXBMsLzNhyVA3JLVu3uqloD-GXlXPkdgs0SxJJNF9f6wI8wDvK_oyTGC8vKLFc3k0wqS3e03FTM8gqJX6eOaw1Ou5PoBu5GQPsJcfseJV5jnyRTDivA5kvcD_V-pcDf=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0AeYLgiibhO6qsFAhN8OY71nH2Yp9UuUj5vkI_G2Z6AVCl84FpMfA835BgBesAblZHUtlkx87W93b6wpkLIYdxYA7CVhUf0u2QWD32vB8ilaoyXN-wA3TR8Zxe5mR6ebA5BvwkayGI74=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Chris Snipes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I would highly recommend Wesley and his crew . I had 2 large pines he took down and ground both stumps for a reasonable price for all the work involved....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVpiMdKOUJd3TAk1jGfwxcG3rGZnQUB5UftDX7hSRkBWiYHCUAyQly1xMRApRj_8iIeceE8VVi9RLziiY4dqS_Gv5iONibQgiIInwnInm4t6wveDqpJiH9zfUsDdqxBbX-ZQf9mfJW5Eh2=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLepYJi_5Hw0CzHOZFM4j9ODZelDX8M7prdfPT4sXi4wCyHCp1rpemKyFRPSkEtWZVBLEQIIp8y6igBMxTorA4lCW5od7smu1KzarnetROJwx8eshvpEzaSezV5rXua4mKRC-kawXrMsOZHm=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mary Cockfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent company! Reasonable rates. I've hired them twice and each time the owner was on site. He pays attention to detail. His men respect him and they clean up afterward. Very professional.- thank you Wes and David!..."
+        },
+        {
+            "author": "Juliet",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I cannot say enough good things about Wesley and his crew! After we had a bad experience with a different tree company, Wesley and his team came to the rescue. They gave us a realistic estimate and got to work right away. We had multiple la..."
+        },
+        {
+            "author": "Rick Giraudy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wes and his team did a fantastic job, Removed a huge oak tree in my back yard. They were very professional , prompt and what’s most important with contractors is great communications. Prices are fair and I’m super happy with the work they d..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

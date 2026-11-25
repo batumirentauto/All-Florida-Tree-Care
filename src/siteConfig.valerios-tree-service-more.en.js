@@ -32,21 +32,9 @@ export const siteConfigValeriosTreeServiceMoreEn = {
     "ctaPrimary": "Call Lead +1 832-787-2221",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/valerios-tree-service-more/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Valerio's Tree Service & More tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/valerios-tree-service-more/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/valerios-tree-service-more/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigValeriosTreeServiceMoreEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/valerios-tree-service-more/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigValeriosTreeServiceMoreEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/valerios-tree-service-more/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigValeriosTreeServiceMoreEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/valerios-tree-service-more/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,31 +185,46 @@ export const siteConfigValeriosTreeServiceMoreEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joseph Hernandez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a 100+year old pecan tree removed that was situated between our house and our neighbors. Valerio came by the same day I called for a inspection/quote and provided his expert opinion on how to to safely and efficiently remove. He worked with our schedule and provided a quick turnaround to have it removed. It only took one day to complete with the assistance of a crane. His employees are experienced and you can tell. Bonded and insurance means they are focused on accountability. Do it right the first time! Communication, quality and safety is well defined within this company."
-    },
-    {
-      "author": "Isaac Ovalle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing work done by this crew, excellent service from time of quote to actual day of service. They were able to safely and perfectly remove parts of the tree even with a house situated so close. Best quality work in the area and great prices."
-    },
-    {
-      "author": "Zina Cooper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Good tree trimmers Gotta love the work they have done Good Job Good Job 💯 Please call them if you need assistance cutting trees down or cutting roots from the ground. …"
-    }
-  ],
+        {
+            "author": "Joseph Hernandez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a 100+year old pecan tree removed that was situated between our house and our neighbors. Valerio came by the same day I called for a inspection/quote and provided his expert opinion on how to to safely and efficiently remove. He worked with our schedule and provided a quick turnaround to have it removed. It only took one day to complete with the assistance of a crane. His employees are experienced and you can tell. Bonded and insurance means they are focused on accountability. Do it right the first time! Communication, quality and safety is well defined within this company.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdibU0MQKx234iT1vWzBbNhXFT0GE3rkZ_A4kUwvzj3Is8VNoy9wQ_lRXBFUcRdLhS7KPZ5NhDzYjD9z9Pc__7mYLxGGbN_CRREn7SEnHyYALv28sVflHl4GCAz281U4TgzG_g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9F1pFTmX6XWExEaScmUiL0A3qZARbd3P_sST0f2d5JIlvd9aDFo1vQGuN9hk46Rfpho6zzwWSABra7y3r_CBtDH8HLEYywUgJ1VC_HO3I0RVa2hL_hsE1j_4yn4McjJJsKA-D=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgPyMMxyh-iY4sAVemwzcWXhc41z-2mGblrTPeH1OzKy_N2L-dCe5JigNRKGyWPFrJ0z0fFiKYqk3RxNhtFv6tVyH4YqTxQxAxUtYRHz_CvWH3V5mYl0s57EzO8xA3Fw176ZQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_2p0Mh2wgmfvmTycy4lGMqNWzd7_i8_4ruTgDGTXcx9FR7bC3z7ezvrhVd8JdQlsaObINzEhBIy1gYE_psk17oxtO5eIBIfDkTvWK9pOBYh3Je9AnR0RBGCnxwEhs3sZcijGW=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Isaac Ovalle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing work done by this crew, excellent service from time of quote to actual day of service. They were able to safely and perfectly remove parts of the tree even with a house situated so close. Best quality work in the area and great prices.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcOTwbLm2JqONp03OUYR5kxXpU4vbWyMX9Cl_Y-XiMEF139o39BNMsNHpy1rth9ESvn4lJHg6WvshO6SZLtTsZKHdb3uaQGSy3OwmzOBzkUO2rG0T2fEoqAMcQhioiZOOvnuF0=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Zina Cooper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Good tree trimmers Gotta love the work they have done Good Job Good Job 💯 Please call them if you need assistance cutting trees down or cutting roots from the ground. …",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDUGjNd2aOtVKO8uxK6YMlboaav11viMiFCbikCN0oiVotxnl5A2b04Rz5y_zLG_6pSTnPG0xxXRI7ISjli612zF2td5z7__NZKeCDVesqw0uIwMM89ik9AGXYsq5n_5JRK_OWzw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcwJJKvi_PNZjhsIja583ob-XA6c9-P-Us326fsPmDj8lrv38gpR8gPomwbVR6NfxwT2QlfR-J7HAUh8aqJRQrkmL19YZ20vvMPBHHCBs5QGOi_vrGwbIvAuVwxgcZjXEJ0Uxk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeffmKBnXnvfGqJ9sCFkcbyDXywhqTyRto6A0VHYLFzl2B35QrkLUeInpzdHYIUCvRItF3LuuglUbDzkcPbZz5vR0zkx18CMQpnPNBPB1KNHgd2fa49iXxc4Qjd7KTveoXiZzal5Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5MbjBkvojGElc6dHlXaExuywgQsdAevVW82wbvP_Bk1_RBlS_Uvc6EF8iL4jYs5oJ7oWVTlX---wjCodWdlNakS6iZE8avTtLwzW--9Cdwhde9jGWKGe7lZsIGLi8vZHndAx_=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

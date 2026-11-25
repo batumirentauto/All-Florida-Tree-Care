@@ -32,21 +32,9 @@ export const siteConfigHighStandardsTreeCareEn = {
     "ctaPrimary": "Call Lead +1 786-695-7560",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/high-standards-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "High Standards Tree Care LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/high-standards-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/high-standards-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHighStandardsTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/high-standards-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHighStandardsTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/high-standards-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHighStandardsTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/high-standards-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,66 @@ export const siteConfigHighStandardsTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Emmanuel Eakins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Man These Guys were a Blessing, My tree was Dead and Massive, intruding on state  property, and not only were they able to take it down, they went over the fence and removed the debris from the state side. This was easily a 6000$ job and they worked with me for a fraction of that cost! They are true to their name “High Standards”  Highly recommend these House/life savers"
-    },
-    {
-      "author": "A2O Inspire",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We got CJs number from a fellow landscaper to do some clean up of our palms and removal of some invasive vines, palms and trimming around our AC.\nFrom the moment we first contacted him through to the finished job Clinton was knowledgeable, respectful, professional and just an overall nice guy.\nWe are tremendously happy with the work he did and his attention to respect and detail.  I would highly recommend High Standards Tree Service to anyone looking for work on their property."
-    },
-    {
-      "author": "rocktheartslive",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Worked for Aviation Resource Group.\n\nAfter searching for so many cutting trees, trimming and landscaping companies we came across with High Standards Tree Care LLC. We are extremely pleased with the request we asked for a very large lot. Clinton is an amazing guy to work with, very polite, very professional, and most of all very hard working man. He will make sure his/her customers are 100% pleased with any request. He has done work for us years before and he still amazed us. We highly recommend. His company is well equipped and knowledgeable."
-    },
-    {
-      "author": "Jennifer Shipley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Clinton came within 24 hours to cut down coconuts on two trees. There were well over 50 coconuts in one tree and the other needed special attention because it had been hacked by FPL. He did a fantastic job and left me the best coconuts for juicing as requested. The price was reasonable!"
-    },
-    {
-      "author": "Sylvia Biondi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Professional! They took care of all our issues trimming our giant fruit tree. Highly recommend! We will definitely use their services in the future."
-    }
-  ],
+        {
+            "author": "Emmanuel Eakins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Man These Guys were a Blessing, My tree was Dead and Massive, intruding on state  property, and not only were they able to take it down, they went over the fence and removed the debris from the state side. This was easily a 6000$ job and they worked with me for a fraction of that cost! They are true to their name “High Standards”  Highly recommend these House/life savers",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLekdysygWoMIdQi9oGW4hJUBVBv408MbbV2nr8R9IOzvejgGDE5Y0SyCP3As9gTuIXylnh7RBNxqtvoFQsYkqRg9k7YhjO7h8PuTuY0jXVaqLr8hC0Xqy7JtrHIvzg7X1EZmTMK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvYqMWfcFIrQvYHlaEn_4eQnphPh0BimRy67ta28NYVSGY327lD45nOtgFixlrdGV4P33CNLfag-BRvGEYTL_Svs7rMFxXZeJAiXta3CXJjDctwaT5EsATIGsth7eleseg_aAl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqy_0MU5YiiEXSmf9PYzYFj5Q_9IKdlTDQIW-D7Gu5vlqnEmYzB77TYfzQPJW5ReVl5aAZFFKH6FxFMS3c_h79YBw9twtUOKQ6IO84c0zlzanemQqazP_dbgXZgrllkYMY_gQe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJV3Q2IkR-waDdVePly67oseHDo7OogMRaeYEXXXc2eO0ZPq7Ej3_hU5cELoozplZoUoIyP6woELQLBAPCHb08f0kCGJ8lpjlPbadDUPfSV75SfFQeO_seLgzws6DAQGwLh5zA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "A2O Inspire",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We got CJs number from a fellow landscaper to do some clean up of our palms and removal of some invasive vines, palms and trimming around our AC.\nFrom the moment we first contacted him through to the finished job Clinton was knowledgeable, respectful, professional and just an overall nice guy.\nWe are tremendously happy with the work he did and his attention to respect and detail.  I would highly recommend High Standards Tree Service to anyone looking for work on their property.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2mq22jiBYqkPUYaGqHBZjqBzNO1a9Yi1Tz_et6v43UXp4HxqiSk0uct_R6yU3l410bGKpY8BV8se7MttGgfMbnRzEyKZ3U8YYCpaaXxLIy8C2tcKkGMV9UhSpRg8iZ9cwdUg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0mnOP_c9sGSnI1MDDxAwo8OP6YumYz1_xAdcrmsvGyReX7_5DER8BLtlyOajG9WC6nUzNJiopa_uvkTbeYHeEfJV1-o4tDtt3QvJ5VafNFxwi6Qb1FpJeT3TOQuPz_awuboYXCA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcrqUh8CTy6aJZW_LeVNs48CCac16W-qtQ553HFIOcs1wShVpopcFu9lnwGhAQllh0zU3mGXMw8Wkbg0E3lYNj8Tjk3B1SsLPLOs3z45tk1OF-KwFRL7odnKm9a80H-tvmFdv4q=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "rocktheartslive",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Worked for Aviation Resource Group.\n\nAfter searching for so many cutting trees, trimming and landscaping companies we came across with High Standards Tree Care LLC. We are extremely pleased with the request we asked for a very large lot. Clinton is an amazing guy to work with, very polite, very professional, and most of all very hard working man. He will make sure his/her customers are 100% pleased with any request. He has done work for us years before and he still amazed us. We highly recommend. His company is well equipped and knowledgeable.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIkjVhAECjCqek5PNk2-HS5T87exgZ40YURU3Cj2XvrqqfylWm07nlmQX62gysfjEeCjQ-Z22K0L_pqHo93WLf_YTeyUzY9yXPZNx9OIGmlj3l_zlH5YYyJ4fiTfi9bkUpuxuo=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBCuQP1t8SZFJbwXGQXdWxmKGz_bJUKvTzbrIMZT26lrGyA7tq4udMkySYstjAORdB1Qe3qjSwQWKONIdYO6KdblXcPNdBTwG8XYTGr2ICr4bEsIvDt3pQdcwftxwmgxIGRXVi=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jennifer Shipley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Clinton came within 24 hours to cut down coconuts on two trees. There were well over 50 coconuts in one tree and the other needed special attention because it had been hacked by FPL. He did a fantastic job and left me the best coconuts for juicing as requested. The price was reasonable!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLew5jH5ZfXJSAjo7ZjB-Dy-VyATnziesaLk_nnIOASQbDdryl-lbiCSoiQqC1S2BaqN4trJYHo39G2dpxveLEVt2p2XvNVWXyCYKt84ptLpUstf3UVQW7t7aSaAmix_xveMYB4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNiuK7mJxXbwzMAnlmYtomDzLsvsUvtgBgwzdCPEk4hQgSPBgNLfv20GdrYA51PxbkAunO6roHKAMbs8yMgGyixhBxPGPS_xt_CrQpGEkmupYdlB0l09Z4y6oRBgDvY3iNh1gu=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sylvia Biondi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Professional! They took care of all our issues trimming our giant fruit tree. Highly recommend! We will definitely use their services in the future."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

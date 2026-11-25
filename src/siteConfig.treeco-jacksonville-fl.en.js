@@ -32,21 +32,9 @@ export const siteConfigTreecoJacksonvilleFlEn = {
     "ctaPrimary": "Call Michael +1 904-810-1033",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treeco-jacksonville-fl/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Treeco Jacksonville FL tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/treeco-jacksonville-fl/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/treeco-jacksonville-fl/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreecoJacksonvilleFlEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/treeco-jacksonville-fl/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreecoJacksonvilleFlEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/treeco-jacksonville-fl/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreecoJacksonvilleFlEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/treeco-jacksonville-fl/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigTreecoJacksonvilleFlEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "April Day",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "All I can say is WOW!  This is no fly by night company! We had two huge crepe myrtle trees in our backyard.. August and his guys took special care to be sure they came down swiftly and efficiently. They were professionals as I watched them operate various machinery. They hauled monstrous amounts of branches, ground the stumps down to a powder and worked like a well oiled machine! They got the job done, and the yard (both front and back) was left neat. Great team, Great company! Thanks again Treeco!"
-    },
-    {
-      "author": "Catherine Stanigar",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys are awesome. They did a fantastic and remarkable job! Polite workers and cleaned up better than when they started. I am a believer in Treeco! I only got after pics but believe me it was a previous mess."
-    },
-    {
-      "author": "Joanne Morgan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is a great company to work with. My property was a mess with unhealthy trees and severe overgrowth. The crew was professional and pleasant.They obviously knew what they were doing and I was very happy with the outcome.Their price is competitive as well."
-    },
-    {
-      "author": "Andrew Dourdounas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had 5 trees removed from our property including some minor trimming of two other trees not removed.  We couldn't have had a better experience with Treeco's team that did the work.  Not only were they quality professionals, but the are extremely nice young men with wonderful manners.  They did all this on a day with intermittent rain, which was at times very heavy.  They worked through the weather not missing a beat. They arrived right on time and worked all day.  Treeco sent another team at the end of the day to help them clean up because it was very late.  Both teams worked in unison to perfection.\nThe office staff was great in coordinating the the appointment and providing a written estimate before work began.  The price was great for the work that had to be done, and there were no surprises after the fact.\nI can comfortably recommend this company to anyone needing tree work."
-    },
-    {
-      "author": "Beverly Volz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Treeco a couple times before and were  very happy. This time we had some issues with a large Oak so we had Arborist Danny Lippi in for an evaluation & he recommended us to use Treeco. Michael came out & looked at the project. He gave us a reasonable bit. The morning the crew came out they were early & ready...which I like!\nCrew guys were...Matt, Colby & Justin...a super great, knowledgeable group! They did a really GREAT job! I highly recommend Treeco!"
-    }
-  ],
+        {
+            "author": "April Day",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "All I can say is WOW!  This is no fly by night company! We had two huge crepe myrtle trees in our backyard.. August and his guys took special care to be sure they came down swiftly and efficiently. They were professionals as I watched them operate various machinery. They hauled monstrous amounts of branches, ground the stumps down to a powder and worked like a well oiled machine! They got the job done, and the yard (both front and back) was left neat. Great team, Great company! Thanks again Treeco!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccz1j83r-cjbmjyJPMf92ss5Mka4Wivas9k44HPdtjfoU-maOfyz6ZJS31dZGyzkLZsKNcYNom67dr2q0RVuufd6X19NhSrLa3SW_bA-yxSHDvGva6rOhp59r85tTkqQ2AMvqZLA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8AwmpKlgTULrzwbxJlLxMKxLvHcThTWicFZiHKU5jBfTp-dLQlFBgieX_ufH7ZaW5UsoHr3YcUQlV5OHx0giwL_Mqixvp8Bfkg5LKGoowamdcqKR1-Yi8mLs8jdhibUgwjgBH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdb6dv5cGLaftOgSBs6NruCDhNdnbYU--2S5BE2j6QX8mjmApQKTR9wp-ZZD7mY6WqKxNeT7QseB4iYGjwETeB2ekOYYLWp4kZNvygIMWeNsjVDeU_hW5fHJxorZXz5z-sgx2Ck=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdio-mNYqzpHv_xJgtC2s1EuwJI8n6QPRoqlSM8eWkRkujRUl6JeclX44btVuYLqbbwCS4IlGjDwQfKBnwLcxsITvYwH-zuS_eKxq-YokqSe2H15LmXijJ8TluIYemKzjWaQhfg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Catherine Stanigar",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys are awesome. They did a fantastic and remarkable job! Polite workers and cleaned up better than when they started. I am a believer in Treeco! I only got after pics but believe me it was a previous mess.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeGbhcqA8eyfZvsaVPniz4xO6VeFnD_8mOGARZ-l2Qhex4AOMnoBOHx-Xe1mgaGyNxB_dbCm9vALLNuaMVowx9fghcmyrnkKxcFQOZGVl_nfe0kK2-oZHyH058igoDwzL5byua=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJDJCS8i1qBULkeM9dmRCOTbxOzu44gv9VS-vTsJ5h3kGGQJn5jIKP5B2NFCFOF6Z2V560Whk0UHnL-Kxo1FWmyXRFlSSKEsKDwzkn2P2FFiNbpsByZLCdN7jyuxlcWItAoOs=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Joanne Morgan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is a great company to work with. My property was a mess with unhealthy trees and severe overgrowth. The crew was professional and pleasant.They obviously knew what they were doing and I was very happy with the outcome.Their price is competitive as well."
+        },
+        {
+            "author": "Andrew Dourdounas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had 5 trees removed from our property including some minor trimming of two other trees not removed.  We couldn't have had a better experience with Treeco's team that did the work.  Not only were they quality professionals, but the are extremely nice young men with wonderful manners.  They did all this on a day with intermittent rain, which was at times very heavy.  They worked through the weather not missing a beat. They arrived right on time and worked all day.  Treeco sent another team at the end of the day to help them clean up because it was very late.  Both teams worked in unison to perfection.\nThe office staff was great in coordinating the the appointment and providing a written estimate before work began.  The price was great for the work that had to be done, and there were no surprises after the fact.\nI can comfortably recommend this company to anyone needing tree work."
+        },
+        {
+            "author": "Beverly Volz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Treeco a couple times before and were  very happy. This time we had some issues with a large Oak so we had Arborist Danny Lippi in for an evaluation & he recommended us to use Treeco. Michael came out & looked at the project. He gave us a reasonable bit. The morning the crew came out they were early & ready...which I like!\nCrew guys were...Matt, Colby & Justin...a super great, knowledgeable group! They did a really GREAT job! I highly recommend Treeco!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

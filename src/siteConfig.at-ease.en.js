@@ -32,21 +32,9 @@ export const siteConfigAtEaseEn = {
     "ctaPrimary": "Call John (229) 977-1139",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/at-ease/photo_005_crop.jpg",
-        "label": "Uprooted Storm Oak Extraction",
-        "alt": "Massive uprooted oak tree fallen across front lawn with giant root ball exposed"
-      },
-      "sub1": {
-        "image": "/images/at-ease/photo_001_crop.jpg",
-        "label": "Heavy Timber Chainsaw Bucking",
-        "alt": "Logger standing on felled massive oak trunk bucking timber with heavy saw"
-      },
-      "sub2": {
-        "image": "/images/at-ease/photo_004_crop.jpg",
-        "label": "Graded Lawn & Root Cavity Fill",
-        "alt": "Smoothly graded soil bed and manicured turf after root ball extraction"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAtEaseEn = {
     {
       "name": "Forestry Boundary Clearance & Stump Flush-Cut",
       "badge": "Perimeter Tree Management",
-      "image": "/images/at-ease/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAtEaseEn = {
     {
       "name": "Storm Blowdown Canopy Debris Clearing",
       "badge": "Rapid Storm Cleanup",
-      "image": "/images/at-ease/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",

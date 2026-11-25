@@ -31,21 +31,9 @@ export const siteConfigAndersTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 828-206-9991)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/anders-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Anders Tree Service"
-      },
-      "sub1": {
-        "image": "/images/anders-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/anders-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAndersTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/anders-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAndersTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/anders-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAndersTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/anders-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigAndersTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "sakara sullivan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great, honest guy! Michael came quickly with an emergency downed tree covering our driveway, and he did thorough and solid work. I will definitely be using his services for any future issues. Can't recommend enough...."
-    },
-    {
-      "author": "Tracy Swartout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had Anders come out to remove six trees for us, a couple were very tall poplars that were very close to our home. Michael came out when he said he would, gave us an estimate, and did the work in short order, even flexing to avoid soggy c..."
-    },
-    {
-      "author": "Jonathan Benda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Anders did a great job removing trees. They cleaned up after their work and left everything looking great. I will definitely use them whenever I need any tree work done...."
-    },
-    {
-      "author": "David Crossley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew came as planned and started right to work. They are highly efficient in their movement on the ground and in the trees. They impressed as true craftsmen who I would certainly have back if needed and fully endorse...."
-    },
-    {
-      "author": "Pem Tomaselli",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Michael and his crew did great work removing a very large red oak that was dying from heart rot and was too close to our house. Came over quickly to assess the tree, gave a fair price, was on time and worked quickly and professionally. Even..."
-    }
-  ],
+        {
+            "author": "sakara sullivan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great, honest guy! Michael came quickly with an emergency downed tree covering our driveway, and he did thorough and solid work. I will definitely be using his services for any future issues. Can't recommend enough....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMHmc5jzF5iiDaPyfF26yrST9gjSj7ADnwT_P2OlzU8pu3AcjVUW_22L72aSucVEN9JxDtKufAgnp70H0ERdYwJHB3Rxg2Kr7wxmmL9dhb2lRg-LczYC7CenPF6D8226jIl0FPjfOKT8vs=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhzhZfjrZR069ErdXzkRSAC_LXPrEn0kbS8qdi8a5-wsHO_udvdwRr2Jci-thef4htlGHySIXuCzibev1iB3UhJ2OXoW_abKnrl-sxSkWYvG8MvAkyBnxlOapOnvH92-POtx43gGqRj3pM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tracy Swartout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had Anders come out to remove six trees for us, a couple were very tall poplars that were very close to our home. Michael came out when he said he would, gave us an estimate, and did the work in short order, even flexing to avoid soggy c..."
+        },
+        {
+            "author": "Jonathan Benda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Anders did a great job removing trees. They cleaned up after their work and left everything looking great. I will definitely use them whenever I need any tree work done...."
+        },
+        {
+            "author": "David Crossley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew came as planned and started right to work. They are highly efficient in their movement on the ground and in the trees. They impressed as true craftsmen who I would certainly have back if needed and fully endorse...."
+        },
+        {
+            "author": "Pem Tomaselli",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Michael and his crew did great work removing a very large red oak that was dying from heart rot and was too close to our house. Came over quickly to assess the tree, gave a fair price, was on time and worked quickly and professionally. Even...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeu9USzG-fktYoPh1nkZxeLnHcq7V5RyuBiUAaTkbn18yPvRZW5MU2V5bWRs4URBlTS9WXO2zwu1oLXrdcMhbvhSAuEpJfAtS1e8HXO30MGF6hSBBg-7n0q7dQPCHMJDXpBcmfTsg=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Weaverville (Основная база)",

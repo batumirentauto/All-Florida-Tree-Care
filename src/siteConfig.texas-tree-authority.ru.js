@@ -31,21 +31,9 @@ export const siteConfigTexasTreeAuthorityRu = {
     "ctaPrimary": "Позвонить (+1 210-251-4232)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/texas-tree-authority/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Texas Tree Authority"
-      },
-      "sub1": {
-        "image": "/images/texas-tree-authority/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/texas-tree-authority/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTexasTreeAuthorityRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/texas-tree-authority/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTexasTreeAuthorityRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/texas-tree-authority/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTexasTreeAuthorityRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/texas-tree-authority/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,70 @@ export const siteConfigTexasTreeAuthorityRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Stacia Newton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What an absolutely wonderful experience it’s been from start to finish! We first met David at a home show and were impressed by his knowledge base and passion for trees. When we initially had him come out to give us a quote, we simply were ..."
-    },
-    {
-      "author": "Marta A Rivera Diaz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Texas Tree Authority earned our business from the very first interaction. I submitted an online quote request and received a response within an hour. By the end of the day, Tyler was at our property assessing the work. He was professional, ..."
-    },
-    {
-      "author": "Mike J.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After that storm that rolled through last weekend I had a downed tree called that morning, within 2 hours David was out right away to give a quote. Had their crew out within the next couple days. Took them no time to clear the tree. Not onl..."
-    },
-    {
-      "author": "arlene northway",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Texas Tree Authority is the place to go for friendly,  knowledgeable service. Dylan and his crew knew exactly what to do to resolve our tree issues. Shout out to Santos and his crew for their expertise. Santos really loves climbing trees an..."
-    },
-    {
-      "author": "Katie Kelly",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very impressed! From the bid with detailed removal photos to the sales gentleman showing up when the work was to be performed. They never missed a beat. The wok was done so well and CLEAN. They didn’t leave a speck of leaves/dirt/tree debri..."
-    }
-  ],
+        {
+            "author": "Stacia Newton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What an absolutely wonderful experience it’s been from start to finish! We first met David at a home show and were impressed by his knowledge base and passion for trees. When we initially had him come out to give us a quote, we simply were ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjPdxsRnWCxA9l096CgyxsBZ-Q-SFtdrwcXOW2MZksrC0otKBsdplwKqVaVPuC1bNbYVkoPvaTLoAcnNG1tiN4tWT-ZMkpFW4vbTpIsoOLC71WQb-3j4k-6q1oCh1E8DgCnJcgHfMgCGin=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Marta A Rivera Diaz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Texas Tree Authority earned our business from the very first interaction. I submitted an online quote request and received a response within an hour. By the end of the day, Tyler was at our property assessing the work. He was professional, ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRtZYUh5ASQGwSiRWk2zLh4hIKDOWDdivnRf0zhlc2Qm-T-1rsuBRtYn4WUHGQqtSR2rqlW6c0TBGx9qb_POpFxS9NBSH70MoSwdN90lQAbDvptEGQE6t4nbsAvw1eEuMliXky0HcgiiUw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6xBhJIOC_PU00rwMWwq4AyVU0gFdBpJegPVJtvnaGjvwyZFQBgCVf-1dnnOwQyjsVn27ZKkH7WDmzkLdSntGA-wuFwIIWjN3HW7oYbUIcnzWH0zGF-odbTE-wmXAhLXomhDjOrmJmPSIG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxziljIEuitHd3k4S23PJ0ptWvSoz91R38iXanibXxNB2fhEDcqLReMSwKHXBjYA1m_9f8ATt7JQwRXXToAuTcIAdoMAotlSwHzFKkrKs-I3_aP44bQ_OQqWPRfO_Qa36uAHNEO-K6i6WU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLca3fY11XaKxCb-lH69QVCPXwn4GzwnFrm9kz2l9IXgQ7vWv0JA4Ns_m1jXhQwe9Pg-GOq9-8CY4Xz6C3V-0ayLi4wYh1V73F9wmBsXWxBQ-4dHEsqRBUJP2kX3wmkb8M677KPHlQSMBSkE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mike J.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After that storm that rolled through last weekend I had a downed tree called that morning, within 2 hours David was out right away to give a quote. Had their crew out within the next couple days. Took them no time to clear the tree. Not onl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf804zpE8xP8snCnZ-PWV_tFVWkm3g3z8WvtmlKUeXSWVBBvKiBtpAIXfhEQnU54vmd6C82efmuiiMGS5ZJFPT7KPvySH3d7hK7PKreht_uLypNJ6QHbR2unLLBNZCH97zUxzyaG34xOeDs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQcWTzT9uDyr7zzPyee5gTf23N1HaFH6mmiRAdRvcxjttlhM0nuOipV9rZSVwpQ5OtmW-tPkfzIvkcdZBDIzuXrHG1d7G7SxqJbosBNhD64a4HsyOENqxBLOwlTUoayecOHdOZQoz6IWQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-iw8q28NeKWvABFG3ChiUwvg9-BCNn7AI0bGQ7KQM5zCgXWsa7Zm_Vfl2bqD4CdwvEj53dbMNEo2Wcb3rQvseN0dIw71US00Y0aBrefxMjJNRu3_t4qKdAHG7I88YC9E-sS19HZEneC7b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf16vbQe4l5jhinGEOdZM8WojcGQJQEnwLEYlS2jzFlI_j864t54UDMUnvRGfPzUch1O6nybgCxDO1N24Wtc2fQGg9s3cXZ_GaEIxsKwcmjgbEWaXmECY1dHeoND6Uya-BX15CHISRHZjno=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "arlene northway",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Texas Tree Authority is the place to go for friendly,  knowledgeable service. Dylan and his crew knew exactly what to do to resolve our tree issues. Shout out to Santos and his crew for their expertise. Santos really loves climbing trees an...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfTw_3qpCQ-_ewhotzin4FmIpBMBFPc76d22FZq-5o5UnAdXLSDMyQ5A1deEopGBMOzI0W2FsJrTez8AX0w_zg6osmtfu1Rn2yh0XQKLkpXJOEEVhtiMbji4fGhAsXJ85Pq-kmbBrwg0fU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeBtOcUrkF3v8GXP0kNX1e55xLRE6TNK7GBkjZWZcjB1IZEF_51lRyxdOsfxbisEZnwfxtB3L4xvgNgzkIj2IgWc7Tel-JuVQM1ZifIz5PaSy8AUHBSrojDO9YGY_rL8tHFh-InHEPpGFc=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Kelly",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very impressed! From the bid with detailed removal photos to the sales gentleman showing up when the work was to be performed. They never missed a beat. The wok was done so well and CLEAN. They didn’t leave a speck of leaves/dirt/tree debri...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXpgGymbZmK8qpWJfsSz5IM8C89e_kSPsXEr3p5Hq1NBRXLxTdIjiWdhRCivXK96SLZXhY4dOAvEdTX8SzyfPRzSVXVO0KEPpXV_tUFk26ox0cv6Y3YyOFADKHkD0B4XMEcwLZtdSp72Y=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevH6DokJHVCk96AHyidOMGXIFbbGIR5eUmsvWKai4Se7rT9uuadSjOVSFy0Vxot8p07i43DvgLPOQJPHSRxtx7GfetUepmuGjgJ2KJ4EqSuWgXvmp8Kcqm-qUMBiftfnBra_kP1FHPHB6I=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Antonio (Основная база)",

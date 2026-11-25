@@ -31,21 +31,9 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastRu = {
     "ctaPrimary": "Позвонить (+1 713-364-7731)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Monster Tree Service of Texas Gulf Coast"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/monster-tree-service-of-texas-gulf-coast/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigMonsterTreeServiceOfTexasGulfCoastRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kate Stephney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Monster tree service did an impeccable job. They were early and cut down my tree really quickly. They were really safe considering the tree was dangling over my house. They clean my yard after themselves really good.  Thank you so much mons..."
-    },
-    {
-      "author": "Carl Lauritzen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mike and his crew did an outstanding job with my yard. They removed a large pecan tree and crepe myrtle tree that was too close to the house in the back yard. They also removed three smaller crepe myrtles and pruned one large crepe myrtle t..."
-    },
-    {
-      "author": "Krysta",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a great experience with Monster Tree Service! They provided a free consultation and quote for my tree trimming. Their price was reasonable compared to several other companies I looked into.\nCommunication was excellent from start to fi..."
-    },
-    {
-      "author": "Deya Guerrero",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was so pleased with everything. Mike was quick to come by and was very friendly. He was kind and patient with me and made me feel like he really cared about my predicament and needs. The crew was able to come the next day and we're very f..."
-    },
-    {
-      "author": "DJ Stenger",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Everything went perfectly as planned removing our tree. Excellent professionalism & fair pricing, everyone had good PPE (Personal Protective Equipment )and worked safe together.\n\nThey also showed up on time and within a 30 minute window, bi..."
-    }
-  ],
+        {
+            "author": "Kate Stephney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Monster tree service did an impeccable job. They were early and cut down my tree really quickly. They were really safe considering the tree was dangling over my house. They clean my yard after themselves really good.  Thank you so much mons...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZ96SFrjo75v8Uywr-rzuuv_SN4ffp9cMVgzNRRloSfQz4Wnv6V-X-VwN2DUgur20DBzN7ptLEieyNq7iENI-vcJDIPomLBqUOkpBz4QggZWw5lw6rNjbVyZ52NTtBtKkfZ97pwci531B6=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Carl Lauritzen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mike and his crew did an outstanding job with my yard. They removed a large pecan tree and crepe myrtle tree that was too close to the house in the back yard. They also removed three smaller crepe myrtles and pruned one large crepe myrtle t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLek1p4fXlh_iPiXuajCq73IQdi6uj1xSWVr6p_3G95-L82-dhKFS9OSUttugN51YIsPGCZfg9GeuwuA6YpQpzjzDn3HD33wNVie90Jdi_M3cpWZAM0AJqnYBQhzzW9bCjgm9gAonbCQh3EJ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduxuDyhS0dcyf4ByAHvgpHmyEZUTAblM6QuPIh0Wz2uEtH2oZwR94xd3dwMZfG8q1j6hff1kVVR_uDbiocONfgXP8oNr42ajWZCvA0lzbRunWnJk1rS30zRh80CERg3iBGy8IJv8aCr-4q=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Krysta",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a great experience with Monster Tree Service! They provided a free consultation and quote for my tree trimming. Their price was reasonable compared to several other companies I looked into.\nCommunication was excellent from start to fi..."
+        },
+        {
+            "author": "Deya Guerrero",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was so pleased with everything. Mike was quick to come by and was very friendly. He was kind and patient with me and made me feel like he really cared about my predicament and needs. The crew was able to come the next day and we're very f..."
+        },
+        {
+            "author": "DJ Stenger",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Everything went perfectly as planned removing our tree. Excellent professionalism & fair pricing, everyone had good PPE (Personal Protective Equipment )and worked safe together.\n\nThey also showed up on time and within a 30 minute window, bi..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Deer Park (Основная база)",

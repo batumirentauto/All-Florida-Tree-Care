@@ -31,21 +31,9 @@ export const siteConfigAlphaTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 904-838-3130)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alpha-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Alpha Tree Services"
-      },
-      "sub1": {
-        "image": "/images/alpha-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/alpha-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAlphaTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/alpha-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAlphaTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/alpha-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAlphaTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/alpha-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigAlphaTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Clayton Busch",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bruce and the team at Alpha Tree Service did a fantastic job on our large oak tree. It had become overgrown over the years, and hurricane season is approaching.\nBruce took the time to listen to what we wanted to accomplish, walked the prope..."
-    },
-    {
-      "author": "Jeannie Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mr. Bruce did an excellent job cutting down my Maple tree. Him and his team showed up at the time he promised. He was very professional and conducted business with high morals and integrity. Mr. Bruce and his team did a wonderful job. I  hi..."
-    },
-    {
-      "author": "Erika Figueroa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Bruce and his crew are the best in the business! Bruce got back to me quickly with his estimate, provided a fair quote and was able to get us on the schedule quickly.  He also answered my 1 million questions as we are first time home owners..."
-    },
-    {
-      "author": "William Addison",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: EXCEEDED MY EXPECTATIONS ACROSS THE BOARD!\n\nI had a beautiful 70 plus year old Live Oak in my yard. Sadly, the tree presented a serious hurricane hazard to my home and my septic system and needed to be removed. Bruce Scott and Alpha tree se..."
-    },
-    {
-      "author": "John E",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Exceptional trimming service on a large oak tree!  Everything from scheduling the estimate to job completion was flawless.  Bruce is honest and went above and beyond my expectations. Very reasonable pricing after obtaining quotes from sever..."
-    }
-  ],
+        {
+            "author": "Clayton Busch",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bruce and the team at Alpha Tree Service did a fantastic job on our large oak tree. It had become overgrown over the years, and hurricane season is approaching.\nBruce took the time to listen to what we wanted to accomplish, walked the prope...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdxndww1bM3plRDoyJUnToqccNiAyWj0BmTYyOxQ1FJZmnJ7Cc2IZfFPHUPhHt0iaJGJMz-wiPiM3r4DNnsbysaxXupAhaa_mtSujyBljfBjlLEuJFdDRtf5gbVnGVYkxghz0uHwZwySkM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnIQHg7NVDFoX_PX4NLNFweVnpDGfI0GWuu85zEZgxB2IxRPO_xaD5Ng7tCa_npeTrEuyTefjjUxNPC3aC9NS1XTpH66XG_oApLnkTN5dQY6O0pO_mwf0uRFpQlvG4B12v1DYUueytlB_D=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLekrbhHaRg5QpmHFcAA9rGalbGKpq7fqwYSWwaPA3rrbin0DuK2rYnM-Jyq44D4cSliK5njQMQ-ZEcGTY0wf66myhsXOo9GAnQgZPDMPHoU2U6DR7oCaKz6-XyuuvBy1H08B0D6HT1Z3jQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeannie Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mr. Bruce did an excellent job cutting down my Maple tree. Him and his team showed up at the time he promised. He was very professional and conducted business with high morals and integrity. Mr. Bruce and his team did a wonderful job. I  hi..."
+        },
+        {
+            "author": "Erika Figueroa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Bruce and his crew are the best in the business! Bruce got back to me quickly with his estimate, provided a fair quote and was able to get us on the schedule quickly.  He also answered my 1 million questions as we are first time home owners...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLffk_9CtsztFd1MaXnb_kBhU4fSScsncTrbkenhznRJi97Ij34JzC1IOr0dGjf_34-cJlOacq2alt2M8pWw3hF6hy3CNJuOQevRB8DKdWQrHiGPb4VZiJKETP7c6WaKGJv_Gp5V=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcw0Z-4YLZLKnh7I2-L3OMBatD8MLMX3XhVwwf3dt7WHLm6hs56dppCmsYFyTB2qh4VQ9dmn-tiKt_PUravpDYWEv3BnJAuo9arYRODV-1JH8Eu13hX83_TGyZwKJwNO4H-n9Kmsg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9OFNXSCUS50RsPPXm4N4buz8w0iLPGdZzA-34Tj92udwmPZIi8R4nQeda-qTQBbdly_vIXirF3iCj39Q1sDmlW59bV40z5J7CFYL8_ZLmof5RwFghE5i_79p7p02WqxEIlm7C=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "William Addison",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: EXCEEDED MY EXPECTATIONS ACROSS THE BOARD!\n\nI had a beautiful 70 plus year old Live Oak in my yard. Sadly, the tree presented a serious hurricane hazard to my home and my septic system and needed to be removed. Bruce Scott and Alpha tree se...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdYoFniLWd_t0jotdDPeTRq7gpIKRCMmK7mOK8sANBt7YGQUGLTwYzh8ysmqx1aon4zuGe3u0zoAPexhlcO8Ap5R2bCezYHrQc3c-CrBlBA4KOrxDybKrGTIF_zp59AB_kpO2B_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegNw9X0sicORbzTyJw--ilGv1MDb3Vt6rVleY2jxRqD-SpW_ZNgWeLP66lFOz8rO4DAI1wkCN2NfoOjZ79oIv4-Iw1ejqmyK-7qrs3Zn4S0cfL4FugXlapM8HSf3j_6oC8Ro76Kg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2SL8vsvPAp8vRO4nf0icxtQVDIUScVlLn_1FTYKkA1W9fOLBsMjYbLLcp7nRQ700WVbYmq-gQnQriO9fEjQTe5WRzRJJciJmX-pyolEE1AJQ6bIVNtUqp42hznSP6c3g94I7G=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYQ0Kj0UzgoxKP7xzYE15c8EP1g0TVchqDilVVibr62k0Nr5ZysiZwlKYZ_4k9nzRO3nk8FDd2qY6Q3iinhINe7C22hFAAK9exaMjUJCzf-h4TrcRwVVsOwdH38pInfl2Ql6ev8Q=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John E",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Exceptional trimming service on a large oak tree!  Everything from scheduling the estimate to job completion was flawless.  Bruce is honest and went above and beyond my expectations. Very reasonable pricing after obtaining quotes from sever..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

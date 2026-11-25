@@ -31,21 +31,9 @@ export const siteConfigGeneralTreeServiceIncRu = {
     "ctaPrimary": "Позвонить (+1 336-213-3449)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/general-tree-service-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады General Tree Service, Inc."
-      },
-      "sub1": {
-        "image": "/images/general-tree-service-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/general-tree-service-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGeneralTreeServiceIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/general-tree-service-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGeneralTreeServiceIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/general-tree-service-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGeneralTreeServiceIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/general-tree-service-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigGeneralTreeServiceIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "M L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Start to finish a very kind, thoughtful, and thorough job. Wonderful price, and never tried to sell me more than I requested. Great group of guys used everything they needed to complete three tree removals and raising the canopy in a sectio..."
-    },
-    {
-      "author": "Fabiola Martinez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Excellent service from start to finish! The crew was professional, efficient, and did an amazing job removing trees and cleaning up afterward. Great communication, fair pricing, and outstanding customer service. I highly recommend this comp..."
-    },
-    {
-      "author": "John Reiland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My wife and I just finished having General Tree Service cut down a huge red oak tree in our back yard. These guys are outstanding. I am way beyond satisfied. Delfino and his brother own the business and are very conscious of every detail. T..."
-    },
-    {
-      "author": "Karla Espinoza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Delfino and his crew are so attentive and careful with their work I couldn’t have trusted a company more than them! Best tree service in the triad I have to say, very happy thank you!!..."
-    },
-    {
-      "author": "Graham Nagy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great group of guys. Delfino was friendly, prompt, and gave very reasonable pricing for the job. Would recommend this team to anyone in Greensboro...."
-    }
-  ],
+        {
+            "author": "M L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Start to finish a very kind, thoughtful, and thorough job. Wonderful price, and never tried to sell me more than I requested. Great group of guys used everything they needed to complete three tree removals and raising the canopy in a sectio...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUgo0_Nvchau_5YnqhFLNzVsC9-98EoVdo3TvVCSt3Wms4IA2ZW2OfDyQ7svEtXvqrVO4LJG16SfOKvqW82swNjWnI5dPVTp4bifMocgZWUxAqH6864V_THIyhNJl9VplkOlPje9jWdCXh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl1iPV20grM7Jl1CWFxG2PKrhYg2SI0cWES5nqB0Wxp5XfJIi74wfGMh3G7OXrJgFJXqov08BNENiUKnDMT-Gero8l_xD-A41Tvb3rjiSpbe2bTNHSp_pZXOwRpl_u07wGXBP-qv85YcI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzF8V4JfzSbtRtgH9kFByrxK_yHSiwY3qH_v7hl_gVqYuzHd96vspxxGIV2wi2JyltN274IszMXZUqT1iTz5Yee-v0avjXWP-J3-OnRlqc98R6L9m1-Jw53Xc_J26ZKxx9LvSYHTIMZliK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTx_qd6vLPHeeJlCiwYKvXrmTg_AiAu3E0JyOd2LEqaKMD7djlMYTiOt7k9XY4ziGOqesVKJ-FyZ5UCJvqZCNRrbalng3_a_H-aHlmF8FBor_zj0i7ZcVCybwc8MvLqqt99xjePR7rW4A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Fabiola Martinez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Excellent service from start to finish! The crew was professional, efficient, and did an amazing job removing trees and cleaning up afterward. Great communication, fair pricing, and outstanding customer service. I highly recommend this comp..."
+        },
+        {
+            "author": "John Reiland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My wife and I just finished having General Tree Service cut down a huge red oak tree in our back yard. These guys are outstanding. I am way beyond satisfied. Delfino and his brother own the business and are very conscious of every detail. T...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyVr_ksGwZORoOiJ9fRuYS4Z5XS0BeT-FZxBXv_lQu0mvexHpwQO74AxJG-C1yFua-pHs6Hr5MVWccm4_5sJz5ZWxdyfhHe3SvuGrtZcWr9NC5VywMFiYbmbEo5RcUvw6W3m0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeADBFjQBWNMiCMAgfQT0mhzWS7ZOOiNH8t6mu3dr0GtPc65xnghHZ90_KCB-qixmjcC_3430HYbi54ZPM4LXLIwlCJELM8c5zvsbNYLFbL9N_r4XSh38Jb4BBOB1WDbBSXhzMtPg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAaSMWmB7gZlJG7xMX49NE4XOwDoFhq0ejqBhgc3pneZU9CaBZfAIgrJ_hpHXFigH6mQ85Ngr_L9-tHFJtMAvEEJsFWXhb1yb09B7_bgPqKDmpf5yo_dDwOQOIY9ceEVQCvNqR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp8mTch_a7e2bceEE7s0TfuemMhnI9RI5W7LEmFA42Jm50JxNt68Bm9rmgGEaAcfMiv_5l5Y6kDplqRUtyPEbY_JfZWu7KrhjHcKG7MlEldcylV4wBb0MHy16l_wwqQ50Qucw9=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Karla Espinoza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Delfino and his crew are so attentive and careful with their work I couldn’t have trusted a company more than them! Best tree service in the triad I have to say, very happy thank you!!..."
+        },
+        {
+            "author": "Graham Nagy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great group of guys. Delfino was friendly, prompt, and gave very reasonable pricing for the job. Would recommend this team to anyone in Greensboro...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greensboro (Основная база)",

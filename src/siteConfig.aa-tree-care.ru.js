@@ -31,21 +31,9 @@ export const siteConfigAaTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 912-276-3918)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/aa-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A&A Tree Care"
-      },
-      "sub1": {
-        "image": "/images/aa-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/aa-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAaTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/aa-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAaTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/aa-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAaTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/aa-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,69 @@ export const siteConfigAaTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carol J Gripko",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a mess in my yard, that was near a public walk way. The Town I live in City Hall, was displeased with the mess ( understanding, displeased). I called \"A &A\" and was given an estimate over the phone with just pictures! They then except..."
-    },
-    {
-      "author": "Mindy Lolies",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend! Great service! Attached are some photos throughout the process. They showed wonderful attention to detail and maintained a neat work space...."
-    },
-    {
-      "author": "Angie Young",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Austin and his team were so amazing! They worked hard removing 11 large trees from some very difficult locations as if it wasn't difficult. They paid great attention to details and made our lawn look great. They had all of the equipment to ..."
-    },
-    {
-      "author": "Patrick W. Sharpton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great 👍 job, excellent customer service and very professional service..."
-    },
-    {
-      "author": "Faith Bishop",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I Highly Recommend A&A Tree Care!\nA&A Tree Care did an outstanding job with our tree removal. They were professional, efficient, and left the area spotless. The quality of their work really stood out—and their prices were incredibly reasona..."
-    }
-  ],
+        {
+            "author": "Carol J Gripko",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a mess in my yard, that was near a public walk way. The Town I live in City Hall, was displeased with the mess ( understanding, displeased). I called \"A &A\" and was given an estimate over the phone with just pictures! They then except...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf5qwbepJOsaUCCCQwHfEFFjt6MOEZ9q86WfV2xJZEngdMvL1UIzoERmalHeC3XGzsykaaL_XpkXzBPlacW8F0tdiYZTcxNIRZs0xNPjc9t4m1aKBM5Yw7f3yZB7YbxmnHB-Gdo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLebXCkrXqYAu1upUMr6E8j7ecirozU9RUJsWSAiiOa5Xo3ldawSSlg764bVzp3p1ghF8Rx5OTtKXPW3M_Qm3eQHg5t5XCs5-iOE3sCapaVFwtVRgdTyTZDYk8M-PpZ6m0b0fYQeng=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeAqsy99Ds5lHxKMsM88JGEhb81NljBXIHaGNbYBqE4aUeD4c1fVctuyhf5iL5_VUc0xLajDokUPZSeqV8jPjT5Y1xFYbpoF4JN5h7i6y8fwGI8qdbewGl3Mpi4mYXpFVhTgvmd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvCmUCpN0SQ-bVE0dOlBJqATCVvjJeFtuKNPhhfpLs8sC1f6S_Fwp-3G1A3OQ1Kw0tsSvQ2SIfK35izKG1zmbqHFB1LUepWusoQ4aTg7NYM9hzJ_Q8viHNum-iJpqTi77IbLgawQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mindy Lolies",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend! Great service! Attached are some photos throughout the process. They showed wonderful attention to detail and maintained a neat work space....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdApntOtn9ofv1Ca9HmNKDusuSkuYhWcC6h311aicx9ai7xAmQZvA1rz79mEIF4F3HYe7wfgkf-YuylZWfruRBuJ9zYw7EUlAkAUBH4SA_LCmGYc5vnSUjUBRQgU23WhbjI9avCf9l_Hjup=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJVOPC2ftQoN7MsokVH4E8ZZeN6XKIZhn-m_SraMDZEkBy6imGp5SXkho5TNDqGJqcenqP8rd0Wir9h7fEqzk-bmos1C3UVPbsxUXwDWmiLUEK31OlT8FIO4Sxkx_jVQ0d28LL_MX2IPMd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrwFYHMVXATtwPAbhOT1fIWzUvGGgtfkaj8GlRJW1IoHMDs5Mr28hGrWqBqfzR7tAoI8BjXw9Qn9iNc3fBxFO_lyFXAn9Sji24hSs64KevEmaG-qYl0IDQKv9V4T1UIecX-FFaDg0z0mQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnZQARSr19gZiVx2591a2fYrqRBNVs5nxhcYeZLfcGeWo8cVS-gWWzGScjzveSJpQC6BPiTvFAA-BgA-UMOX-eV27eTcIw3hOxrkQUKm8xrAOD0aB0l3Hrnh-8-85fOGe-VMLSHpi32JE6=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Angie Young",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Austin and his team were so amazing! They worked hard removing 11 large trees from some very difficult locations as if it wasn't difficult. They paid great attention to details and made our lawn look great. They had all of the equipment to ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLenGnQIThvlERvT3a_oPa45BRrjgkOpfNBDjcffxWo26QIbQ0ck1n49_G62t92pZ_MikzG1UYtS0d4IWl1MP4sDXXAPZkP-qTpO6M_CKrPJILdVlSSJvNwg9xJy967dnYXogAG6jw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJv0j0_2gLOiZ_c5ndamZ3qedwZKGap6FLYF_hQ6lbfHa_LGchtOlBn842IzbSpTbV4G__Yvh5ycJRmiTJBJBXzckU_P28OBhSVasqTA0Geg6X64CkXMxFuGJfvzMrVzzKPh7v=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Patrick W. Sharpton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great 👍 job, excellent customer service and very professional service...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbQtnx0dGqdmRZVgrCgkcom5CHuUVwnURHKQQiIJqgEZTB0qIUf_TZlOSc5AiCp_gqsu2vRj-swoUh1h7GgNvknChd5ljdNLQ8R2xFAXHfsuIZEuObZu9hu_zdjpNgvqbfvKELrkfAZfk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUBycaf2GabZcosa5y8dGHVE2lawVYPwRHQLS72_7m6z-hwiDvdgjGPSnwZlxyNqhG6_Knr9EITaC8RfmQLz-sXODt8pEIlP2p43ElfCin25YJ-p4Kzub3UasM4WHWTizwNdGdfSyKGnM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeNpcQzl95i3wGZvGv8aEZVuPUxUQ7QkvkUEaSGT2KIQobtk1Rsz1lyDoFh-q0UlJGLVfas7stw9nWzhJKY1r-jyeoNmfXmBHXmY28Aepx8mXdOpx9i6RSi-Ko22cSixRNGLrMUCZG6ltK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc59ijM6_W1LOGz7zb97GNZoedqkb5VNsbwbtB0dNXkTzAKDpQJgDymLWcOWlt2bWLtFS8xVUEesC5JvSRXPf3goPKUdaNcCe4CD4eQC79vh6pOVZg9GDXuLJ0OdrqgyIS88LmJQtlUPtha=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Faith Bishop",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I Highly Recommend A&A Tree Care!\nA&A Tree Care did an outstanding job with our tree removal. They were professional, efficient, and left the area spotless. The quality of their work really stood out—and their prices were incredibly reasona..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Jacksonville (Основная база)",

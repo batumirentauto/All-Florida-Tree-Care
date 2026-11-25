@@ -31,21 +31,9 @@ export const siteConfigStarPrunersRu = {
     "ctaPrimary": "Позвонить (+1 509-939-1222)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/star-pruners/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Star Pruners"
-      },
-      "sub1": {
-        "image": "/images/star-pruners/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/star-pruners/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigStarPrunersRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/star-pruners/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigStarPrunersRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/star-pruners/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigStarPrunersRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/star-pruners/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigStarPrunersRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Donald Whitney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wow, what an amazing company and crew. This is my second time using them, and again the work performed was 110%! Great communication, hard workers, cleans up the area after removal of bushes, trimmings and leaves your project perfect. This ..."
-    },
-    {
-      "author": "Jon Lepper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The Star Pruners crew arrived at our property this week and promptly started renewing our landscape.  Our trees and shrubs are ready for spring and they did a great job cleaning up after they were finished. I highly recommend Star Pruners a..."
-    },
-    {
-      "author": "Dominic D'Agostino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired  Scott’s crew after trimming my arborvitae’s myself for 15 years. And I won’t be doing it myself anymore. They were very nice guys and did a beautiful job of trimming and cleanup. Very pleased!..."
-    },
-    {
-      "author": "Tony",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Each Crew Member is Highly Talented, and Collectively, they are an Exceptional Dream Team! Could not be Happier with their Talent and First Class Service and Professionalism...."
-    },
-    {
-      "author": "Beth Krassowski",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew at Star Pruners is very skilled. They are thorough and very nice to work with. Our hedge looks wonderful after their work and Scott’s bid was the best we had. We will definitely call them again for all our pruning work!..."
-    }
-  ],
+        {
+            "author": "Donald Whitney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wow, what an amazing company and crew. This is my second time using them, and again the work performed was 110%! Great communication, hard workers, cleans up the area after removal of bushes, trimmings and leaves your project perfect. This ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbEJkMt-VJnxLUd9RC5A_PfgRVB7iQSWkrra5dUtQ0dgonzPWoRjDY6lLCTDMZiKZrdVr497m-k-dRzE8C_L4i9w8R4FPtKEjFnOx49D5jyAkKGCUII9680mD8OLPkFC-mSCGzyNekWUAC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyqilXBHosc0HsLlyHTAYRdhuFH5XnPG10qsjMTg9owOtL_9Jh6bLG1877bSdfYWgKyOpHyzcOyYZRbHz449cSMph1HqUeWwEtEoQC6_XDCGByHVZTuFH7AuiR5VTq4Q1RZZuYvdeSnDs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcU6jdAJ3rGVSd2ByP3xsNWgcU-zVx9fXXG_2HIm1SpwC1zAqFyIU1cBR0N_-iIqeFuQ6AcHtMpxVYnM02h25hl85geTrNJNFLz4lSAA2hL3vKbh22MbudJEQ8nzmiqXoOMP2DwJOEQNRI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLca6hqe0aVCud2dkUtaA6y2Y1nk6QqFGkJ8Wu9UCM1Y5VfOk1bmBiMYR3Mn9FWqknBTjYbyHbE0O_uD0RmGOGWSvIKQQ79pHZjjmKfqGRA06pph7Ar7xj-PMCooC-iBSxWeB-Z7YP1m1AM8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jon Lepper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The Star Pruners crew arrived at our property this week and promptly started renewing our landscape.  Our trees and shrubs are ready for spring and they did a great job cleaning up after they were finished. I highly recommend Star Pruners a..."
+        },
+        {
+            "author": "Dominic D'Agostino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired  Scott’s crew after trimming my arborvitae’s myself for 15 years. And I won’t be doing it myself anymore. They were very nice guys and did a beautiful job of trimming and cleanup. Very pleased!..."
+        },
+        {
+            "author": "Tony",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Each Crew Member is Highly Talented, and Collectively, they are an Exceptional Dream Team! Could not be Happier with their Talent and First Class Service and Professionalism...."
+        },
+        {
+            "author": "Beth Krassowski",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew at Star Pruners is very skilled. They are thorough and very nice to work with. Our hedge looks wonderful after their work and Scott’s bid was the best we had. We will definitely call them again for all our pruning work!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJ5JvEtoNcCLIORWVa-Wfovyv1tsHYKH6u1IqBVOjBd3HqMfmATaU6MLVCMRGSvcfA4sIcwOK6MZdQe3vF4B8AtAjJ1YUUpppaL2H-AeqAqksimToyy1bQ-tSlKlsyYY0lruo8=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Spokane (Основная база)",

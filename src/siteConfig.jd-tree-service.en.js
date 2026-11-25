@@ -32,21 +32,9 @@ export const siteConfigJdTreeServiceEn = {
     "ctaPrimary": "Call John +1 425-836-8800",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jd-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "JD Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/jd-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/jd-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJdTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/jd-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJdTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/jd-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJdTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/jd-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigJdTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sally Solaro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Reached out to JD Tree Service at the recommendation of my landscaper. They responded quickly and John showed up on time for the estimate appointment. He was friendly, knowledgeable and talked me through the stump grind process. He gave me an estimate and a date on the spot - loved his efficiency!\n\nJohn showed up as planned and got to work. It was one of the hottest days of the year and yet they worked without stopping. Everything was done as described and their cleanup was quick and amazing! I highly recommend them for their accuracy, quality and friendly professionalism."
-    },
-    {
-      "author": "Robin Hayes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After the 4-5 inches of snow last week, we thought we’d lost our beautiful blooming tree , but thanks to the expertise of JD Tree service we were able to save it! Great job of assessing the problem, explaining, and properly pruning!"
-    },
-    {
-      "author": "Paul Batig",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "John and team solved a very difficult problem for us, limbing multiple 80ft+ cottonwood trees which were overhanging our house on a hillside.  This was a very technical job which the team completed in a day, at the quoted price, with no damage to underlying structures.  Before and after pix included.  Highly recommend!"
-    },
-    {
-      "author": "Erickson Family",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We highly recommend JD Tree Service!  Knowledgeable, professional, honest.  Our trees and bushes were trimmed exactly how we wanted them."
-    },
-    {
-      "author": "Megan Taddonio",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have had many great experiences working with JD Tree Service. They are responsive, knowledgeable, and take great care in the work that they do. We try to have them come once a year to check on our tree health and do trimming. They recently did some stump grinding for us and they did an excellent job and left the yard very tidy. I will continue to keep using them in the future! Also, the owner comes himself each time.\nHe is great!"
-    }
-  ],
+        {
+            "author": "Sally Solaro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Reached out to JD Tree Service at the recommendation of my landscaper. They responded quickly and John showed up on time for the estimate appointment. He was friendly, knowledgeable and talked me through the stump grind process. He gave me an estimate and a date on the spot - loved his efficiency!\n\nJohn showed up as planned and got to work. It was one of the hottest days of the year and yet they worked without stopping. Everything was done as described and their cleanup was quick and amazing! I highly recommend them for their accuracy, quality and friendly professionalism."
+        },
+        {
+            "author": "Robin Hayes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After the 4-5 inches of snow last week, we thought we’d lost our beautiful blooming tree , but thanks to the expertise of JD Tree service we were able to save it! Great job of assessing the problem, explaining, and properly pruning!"
+        },
+        {
+            "author": "Paul Batig",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "John and team solved a very difficult problem for us, limbing multiple 80ft+ cottonwood trees which were overhanging our house on a hillside.  This was a very technical job which the team completed in a day, at the quoted price, with no damage to underlying structures.  Before and after pix included.  Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfVet5UYNQNqW42XQR8ZbG-kShVgY5f97UN5TM727jRlPBrrOsiPDIlKZaNBRCcUHn0xSVe5r0ROlE0Y_xf0CieVlvTf1vg9RhgP39Aj-5uvZ2RqRSIhPr-XywePp5CUsvulqroAQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFc8hSjA-PnQ4j5D6ko8vKsTdK0Z0IG5OrZqlmWKFproMZXyXi57k-yqdQSfivXjNTyo_EV3E1R0_sKQe7zETc5P3lWgthJQQyyNjB1cWkvGjE-Be8-X4mlSxzjSqc8w3pjZox=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Erickson Family",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We highly recommend JD Tree Service!  Knowledgeable, professional, honest.  Our trees and bushes were trimmed exactly how we wanted them."
+        },
+        {
+            "author": "Megan Taddonio",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have had many great experiences working with JD Tree Service. They are responsive, knowledgeable, and take great care in the work that they do. We try to have them come once a year to check on our tree health and do trimming. They recently did some stump grinding for us and they did an excellent job and left the yard very tidy. I will continue to keep using them in the future! Also, the owner comes himself each time.\nHe is great!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

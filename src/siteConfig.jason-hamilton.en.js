@@ -32,21 +32,9 @@ export const siteConfigJasonHamiltonEn = {
     "ctaPrimary": "Call Jason +1 850-938-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jason-hamilton/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Jason Hamilton Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/jason-hamilton/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/jason-hamilton/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJasonHamiltonEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/jason-hamilton/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJasonHamiltonEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/jason-hamilton/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJasonHamiltonEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/jason-hamilton/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,68 @@ export const siteConfigJasonHamiltonEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brandon Wise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jason came out to look at three trees overhanging my master bedroom from my neighbors property. I originally just wanted them trimmed up like I did last year. Jason asked if I liked the trees and I was not a fan. So he quoted to remove the trees instead of continually trimming them back.\nHis guys came out and built a plan then adjusted quickly when the trees had other plans.\nJason Hamilton Tree services does great work and let me sleep a little easier at night."
-    },
-    {
-      "author": "C G",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "First, I must apologize for the length of this review, but I must share the great experience with a tree service company I recently used.\n\nAfter a tree crashed through the roof of my commercial building, I realized that several trees needed to be removed from the property.  There were 3 large water oaks in the rear (north) and very close to the building as well as 7 additional trees on the west side of the building. So, I started gathering estimates. I had an ideal that morning the company I most likely would select, since I expected their estimate would be inline with others.  In fact, I was ready to sign, until I met with Dominick from JASON HAMILTON TREE SERVICE and received his estimate. This was a new unknown company (for me) however their reviews were excellent. I signed the contract and I was not disappointed.\n\n•\tCommunication was frequent from Jan and/or Dominick (Project Lead) to discuss all of my inquiries, scheduling, etc.\n•\tThe proposal was for the removal of 10 trees, clean-up, debris haul-away, roof clean-up\n•\tThe proposal also included crane and other equipment rentals\n•\tPrior to start of the work, the septic tank was identified and high-lighted.\n\nThe 7 trees on the west side were pretty much in an open space.  But the 3 oversized (large) water oaks were directly behind the building.  Being so close to the building, I wondered how they were going to reach and remove those trees without hitting the building.  Well, this team is very professional and knew what they were up against.  They did a great job and nothing was damaged!!\n\nAs I completed my walk-through after the work was finished, all I could do was smile like a kid in a candy store.  I was totally impressed with the completion of this job, including the clean-up.  This team did everything they promised and ON TIME.\nI received a total of 3 estimates prior to accepting the estimate from Jason Hamilton Tree Service. Obviously, this company is able to remain competitive because they have figured out how to get the job done smarter.\n\nInitially, I was only going to have the trees cut down to the stump. However, the cost estimate quickly became a cost savings and did not exceed my budget so I was able to add stump-grinding to the project.\n\nIf you need tree services offering reasonable and fair pricing, I highly recommend Jason Hamilton Tree Service."
-    },
-    {
-      "author": "Jessica Kleinfelter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jason Hamilton Tree Service was fantastic! I called and spoke with Jan to schedule the free estimate; she was just a delight. We had already obtained estimates from several other well-known companies in town. Mr. Hamilton personally came to the job the very next day to provide the quote, which was hands down the best price we had received for the work we requested. The job was started and finished the very next day. The workers showed up on time and everyone on the job was polite and professional. Jason was present the whole time. We had 2 extra-large and 2 large Water Oaks and 1 large Cherry tree removed. We also had 2 Live Oaks that hung over the house trimmed to remove some dead wood. All debris was cleaned up and hauled away. They blew off the roof, porches, driveway and other areas in the yard. I’m not exaggerating when I say they left the yard cleaner than it was before they arrived! The lower quote didn't mean that I had to lower my expectations, in fact their service was exceptional. I have already referred their services to others and my neighbor hired them the very next day for another job. I can't speak highly enough of this company, the workers and everyone’s work ethic. If ever I am in need of tree services in the future, Jason Hamilton Tree Service will be the only call I need to make!"
-    },
-    {
-      "author": "Tmp P",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "HIGHLY RECOMMEND!!!  Had to remove two very old pecan trees. Jason came out gave us a fair price and scheduled us as soon as we were ready.  1 day in and out; very clean and minimal signs they were even in the yard.  Expert arborists and climbers. They were able to bring down one tree while avoiding electrical lines and a second while avoiding a fence and a neighbor's home."
-    },
-    {
-      "author": "Buddy Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jason and his crew did a top-notch job removing a water oak from my neighbor's yard. It was a very large tree that was leaning toward my house. He removed the tree which was located in a corner of the backyard. With a small space to work in but they removed the tree with little evidence that they were even there. I would definitely use Jason and his team again."
-    }
-  ],
+        {
+            "author": "Brandon Wise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jason came out to look at three trees overhanging my master bedroom from my neighbors property. I originally just wanted them trimmed up like I did last year. Jason asked if I liked the trees and I was not a fan. So he quoted to remove the trees instead of continually trimming them back.\nHis guys came out and built a plan then adjusted quickly when the trees had other plans.\nJason Hamilton Tree services does great work and let me sleep a little easier at night.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkHF5BmVaAHhQxSLNXeuFB8jvTRo6PQ70N2PxzlDRvh1TfV9kYM2Fd3-5xnfI00wILOfprQXB01yiu2wKKTR1fI_gRN_4_HIsKsuUxsBquTy4NAbfhtZVpIcYqJrgXIdqWCD-PKKq9S76w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgv9Nrq0pKs4XTVSEx4ea4HSoRIUK8l9hERB9xekpewDigz8iDQsFadllGQamx5bGYPYVzK1J0y2edLPwK_PPvvQOG2cxWrhYNO7HAjwTkQkKolND5qlPGoVzTmf6qSCWZLDxGyyVdKQ5p=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJpvudwTuF9X0bU4QuNTX9NMypFeoukHqDtkNyHNTgqe4jhgEsZFSbB2V0IHgGcBXvaKlzsS5n8yYjJQJdeO5_0GfEd5M0egODyAZY7i-zX-GQgNXWOwiRE9ZvtjMg-i0rlgAOOBL01gE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfZmo2ccV2gP0--nK_5oCx1tVnKO2OMrrA2l4uBww11fT3J_nVv9hwPjppeInnxVjYm0WaZM3CU_YpdEVKUzbHpos6Qg09mxVp969vRcJIJEBFMW3MUo9o_EZ1KyO5FiI9uCrLR10VMHfg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "C G",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "First, I must apologize for the length of this review, but I must share the great experience with a tree service company I recently used.\n\nAfter a tree crashed through the roof of my commercial building, I realized that several trees needed to be removed from the property.  There were 3 large water oaks in the rear (north) and very close to the building as well as 7 additional trees on the west side of the building. So, I started gathering estimates. I had an ideal that morning the company I most likely would select, since I expected their estimate would be inline with others.  In fact, I was ready to sign, until I met with Dominick from JASON HAMILTON TREE SERVICE and received his estimate. This was a new unknown company (for me) however their reviews were excellent. I signed the contract and I was not disappointed.\n\n•\tCommunication was frequent from Jan and/or Dominick (Project Lead) to discuss all of my inquiries, scheduling, etc.\n•\tThe proposal was for the removal of 10 trees, clean-up, debris haul-away, roof clean-up\n•\tThe proposal also included crane and other equipment rentals\n•\tPrior to start of the work, the septic tank was identified and high-lighted.\n\nThe 7 trees on the west side were pretty much in an open space.  But the 3 oversized (large) water oaks were directly behind the building.  Being so close to the building, I wondered how they were going to reach and remove those trees without hitting the building.  Well, this team is very professional and knew what they were up against.  They did a great job and nothing was damaged!!\n\nAs I completed my walk-through after the work was finished, all I could do was smile like a kid in a candy store.  I was totally impressed with the completion of this job, including the clean-up.  This team did everything they promised and ON TIME.\nI received a total of 3 estimates prior to accepting the estimate from Jason Hamilton Tree Service. Obviously, this company is able to remain competitive because they have figured out how to get the job done smarter.\n\nInitially, I was only going to have the trees cut down to the stump. However, the cost estimate quickly became a cost savings and did not exceed my budget so I was able to add stump-grinding to the project.\n\nIf you need tree services offering reasonable and fair pricing, I highly recommend Jason Hamilton Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkb8Gyhpu78em9KnR9iTAw0Ma6EkhUuFlADuigmbvvPph-qkMnb7MYMRxM1FRRAOXQdzf3ykObeoEZufgORxDupczJQLlqFl-WrfUSRlKskVZmQR6udUfh6NvXbkk31XZ-J_Nw5QXceDty=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRgXPb6to6emMwJBX42pjTVmt2_VBtF688ujnLohZ4g-uUmAv382dZLjAV0nK7t1ZViXOxD1ZgJdgL15MA4t60S5b5yrKQdLOTQs6VF3_wtqFm3LBDd9R5gNQNiQEV46LRh0VrT5PaVYIn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUk8rdD137dh5AUSTwI7slmobUxyPI1av2j743t5yJ9CZxazVTc09jkerWH4PGHIQBSoLiIYs3hG_Zlrq85HUb2KO3zTlx_xb7UeWnDTQd1qm5nGLtKV07TZ0HlyfZpPib-iTKpRI_rzMm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPFAa-UxWYW-wRXCQuM3BDD6hLAwidEhA8ftgjrTNvYtYbS_sugGHgm5Hhp9Y5F6FVeEmwo8bHrEO7A4nlyPHIHxuqILVcnHA8P_0ZiCSaY9E38R_jeNq4vu4q8XteENN_-4faYMApYro=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Kleinfelter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jason Hamilton Tree Service was fantastic! I called and spoke with Jan to schedule the free estimate; she was just a delight. We had already obtained estimates from several other well-known companies in town. Mr. Hamilton personally came to the job the very next day to provide the quote, which was hands down the best price we had received for the work we requested. The job was started and finished the very next day. The workers showed up on time and everyone on the job was polite and professional. Jason was present the whole time. We had 2 extra-large and 2 large Water Oaks and 1 large Cherry tree removed. We also had 2 Live Oaks that hung over the house trimmed to remove some dead wood. All debris was cleaned up and hauled away. They blew off the roof, porches, driveway and other areas in the yard. I’m not exaggerating when I say they left the yard cleaner than it was before they arrived! The lower quote didn't mean that I had to lower my expectations, in fact their service was exceptional. I have already referred their services to others and my neighbor hired them the very next day for another job. I can't speak highly enough of this company, the workers and everyone’s work ethic. If ever I am in need of tree services in the future, Jason Hamilton Tree Service will be the only call I need to make!"
+        },
+        {
+            "author": "Tmp P",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "HIGHLY RECOMMEND!!!  Had to remove two very old pecan trees. Jason came out gave us a fair price and scheduled us as soon as we were ready.  1 day in and out; very clean and minimal signs they were even in the yard.  Expert arborists and climbers. They were able to bring down one tree while avoiding electrical lines and a second while avoiding a fence and a neighbor's home.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvjpBH8Caqq3YjROVpVEV7UdusY5iNsk71SxFSVT8yZd5l1TMgC4uVmnVjXnAAuduNrxDxeOcQuSSd8IcZxoUsM6hmqfV1RB62DmneBI-XM2pFUNo8kzTzi1RO2qyHrIq1c3lVAqFfJTEG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFYTl7VmGxRX7rOOgTXn0Dfzl1LMeoYB8mDhTN6_KnEIYzR3DoLsXGhjME8qxY4dVwAJ2VwRsmOyPl5dp6z41fbrTPY-PyQK9PG5mIKcHRTAKJsLKmPjuKMYqVH_PusebFucEOsaYid8t8=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Buddy Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jason and his crew did a top-notch job removing a water oak from my neighbor's yard. It was a very large tree that was leaning toward my house. He removed the tree which was located in a corner of the backyard. With a small space to work in but they removed the tree with little evidence that they were even there. I would definitely use Jason and his team again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhffIzC5Emm-PnRchPSuNyi2YY7iix4irg6_NEdFpu0kToHpcB69DfD9B2GW9BAy1eVXTrmZkWocBd2Khn8jTrq_kkuEw9AcAqExvr3Tc6sPriEg6gmgIw_xDdQkhzWDPSuSvRJw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdjR8gSU9jLnq_rPyyzStH_DQBdSFtHNgIhGzpo3BEMXoWe8XfuPmvaVAutp0hCwi6il4TfyhTNdyjt6OWYBBIBTbPMW03KIQh9_bcZMKhBV0hvY7xwoblqR0qiVaDN5U-n3pY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehu9bNasN1QWwmQ76JC5URk-Hfdlj_GwvaK9R_Pe5WjRY8c13UI7BOnovqUEGU-QTJWsYEhr32ktYvVlrMivLKCoF-xXn9TEjPIB0HS0pS9fPft045IPOvkb2m3MdjKEszn7VjAw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tallahassee (Central Depot)",

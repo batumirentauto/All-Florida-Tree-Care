@@ -32,21 +32,9 @@ export const siteConfigAIntegrityEn = {
     "ctaPrimary": "Call Steve (904) 487-0197",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-integrity/photo_014_crop.jpg",
-        "label": "Heavy Oak Timber Sectioning",
-        "alt": "Bucked oak timber logs sectioned cleanly along driveway"
-      },
-      "sub1": {
-        "image": "/images/a-integrity/photo_005_crop.jpg",
-        "label": "Hardwood Stump Assessment",
-        "alt": "Large tree stump prepared for grinding in residential yard"
-      },
-      "sub2": {
-        "image": "/images/a-integrity/photo_007_crop.jpg",
-        "label": "Pristine Ground Restoration",
-        "alt": "Clean residential backyard following complete tree extraction"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAIntegrityEn = {
     {
       "name": "Vermeer SC362 Commercial Track Stump Grinder",
       "badge": "Commercial Subsurface Grinding",
-      "image": "/images/a-integrity/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAIntegrityEn = {
     {
       "name": "Heavy Hardwood Sectional Rigging & Bucking",
       "badge": "Controlled Timber Staging",
-      "image": "/images/a-integrity/photo_016_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAIntegrityEn = {
     {
       "name": "Restored Residential Turf & Ground Finish",
       "badge": "Spotless Property Handover",
-      "image": "/images/a-integrity/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

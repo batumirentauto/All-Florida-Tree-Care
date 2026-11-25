@@ -31,21 +31,9 @@ export const siteConfigGrandOaksTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 843-252-2035)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/grand-oaks-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Grand Oaks Tree Service"
-      },
-      "sub1": {
-        "image": "/images/grand-oaks-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/grand-oaks-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGrandOaksTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/grand-oaks-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGrandOaksTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/grand-oaks-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGrandOaksTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/grand-oaks-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigGrandOaksTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Henri Millon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Thankfully, my search for a quality Tree Service is over having tried several other outfits. Grand Oaks personnel are extremely skilled in Tree work, maintaining the overall appearance and beauty of the tree while removing branches that may..."
-    },
-    {
-      "author": "Ashley Massingale",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jose and his team are fantastic! I needed some hefty tree work done pretty quickly and Jose got me scheduled with his team the very next day. Him and his team are so kind and professional and did a great job on our yard. 10/10 highly recomm..."
-    },
-    {
-      "author": "Michael Hance",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jose and the team at Grand Oaks Tree Service are top notch! They came out at 6pm on a Tuesday to evaluate the project, which was 8 large (60 to 80ft pines) including a large pine that leaned towards the house that I jokingly referred to as ..."
-    },
-    {
-      "author": "Keepnit Real",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I cannot say enough positive stuff about this company. Jose and his guys were incredible. Knowledgeable, not once did I have any nervousness after watching them work for just a short bit. It was very obvious That they were experienced profe..."
-    },
-    {
-      "author": "Jonathan White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Simply outstanding. They took down a large tree, trimmed about six threes on the property including a huge live oak, and grinded the stumps to boot. Very fair price, hard workers, and very polite. They were referred to me and will refer the..."
-    }
-  ],
+        {
+            "author": "Henri Millon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Thankfully, my search for a quality Tree Service is over having tried several other outfits. Grand Oaks personnel are extremely skilled in Tree work, maintaining the overall appearance and beauty of the tree while removing branches that may...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiOwN6nbvpA37GoJEEYiIyWh998ZOTnXN6xaGOKMah32zET8hGx0-kei8fac4KIN5n--OtZmfslb5Zc7crfDiZlG6rHjcrwu00wfL3inx8gslllwE75JVo5X61LTV3zgxqC_R9hgX-WKBH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxJvWBbOxBgEnxfCkmkcScoxgOXbuTC5rjg43iGfjmklMF7Ow5RZdgtPyOrJyzQ0aSuyy5BasBNc_8qdxNE7iwyPMkfwO8qFE_M6QArHT8XoQr7NUGCwTf8LPrJhIayXcuQxErmf4kTxlw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbFdUV7tvk9syevUXLgn7R-bJwBVy9_UvXs_SaJbsO4FhCyMTedEXg8zVYVRIxRtyZeVI22irkCRr3OlKJSBiK1AthTmmUXl8lF3LX7R-vJpJBtI40AAjMYGi7f_STn5--iXke9semcag=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdCv4zZHNUYc35g_xTxPR4a3y_41X7dbIwF2ff5pO3eskloJayVEPcppxLhmgXLnoDPmE7qYT6LUOBbEF1Qh9aIEFY2yMVFK9On07rl4jxhvvShAiLu-SA2gZJbjv8MUcZhsutduFrMcMvy=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ashley Massingale",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jose and his team are fantastic! I needed some hefty tree work done pretty quickly and Jose got me scheduled with his team the very next day. Him and his team are so kind and professional and did a great job on our yard. 10/10 highly recomm..."
+        },
+        {
+            "author": "Michael Hance",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jose and the team at Grand Oaks Tree Service are top notch! They came out at 6pm on a Tuesday to evaluate the project, which was 8 large (60 to 80ft pines) including a large pine that leaned towards the house that I jokingly referred to as ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewe2vrgOoeGKoVw93sr0hVAw9YMdj0mfqH49B6SgGYg5kMK6gqhwDmIrNBvl6UHCJQnaub0howy-wufEcKRC2qaM0kBk7Kr_mDVG6m2RLLrGAI9ky38KXlOy1-r4xP_1au2yopHw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdomlv-xNbGqhvDRUwEP5L-wazpwzmsj36YfGS6r81I-MYUveNOf8hXE0Gw7_TltT__rodv3K_jk5Fouzv8gm89sXrAZ0qftTih0YZkOEnTh29x_c1j8oiUPniDrGeE2b0yiZfn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4ZrhMXaZ8pHPhS8adLl02LZPxSZ6KVkQJy6KsF8l6lpIfxznZXs6l6r9kQ_X3mgm8d3BeAWsr2WIg5PjBLxPQMPb1Zp58zO2Kuzymn_SjuOIwzpiRTtXMo8H3CNkJlTUiAf07Iw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe6bFRgJO8qibI538KzHzYE-pJdeGFPh0YsE7KF2CQo_bLdaWzH8mYqbyhrRhaw0JY_gLKSNeVEzjPpqbGgPPLVDhvcxFGsMT4_Azt4uLBw1uaYU5HkYMEwi-CEyb6qweD_mBk=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Keepnit Real",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I cannot say enough positive stuff about this company. Jose and his guys were incredible. Knowledgeable, not once did I have any nervousness after watching them work for just a short bit. It was very obvious That they were experienced profe...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfprvCwl30zv-rFu9d29xTdnL7mi1Bk-CdroOTGCipc3Erpgy2FUBo7qpEjy5sYJuSDkujUyqcBFWCo9hcONdl4wiEr1Zw5UwfhEskehzzJ_WPK2FHnVwB-6-LkPb-11kyEWfUv6EAVctSY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgg_QxwhpjabQJ7MEfbJ-qs16zr3AwY-GW4uI4jpG48_HKEqUCS6PCCscWzNM1nXXTY8movN48p1rRpoyXwMaDQJOjIt6DfsnwQ9QGD94yagKplkoBT1aIMmd9xzjDXGYG6QQYDa33sgq9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczrdFOa4bW56wLZDgHCSPq607SPV8mswflQFRV6JPZPbaafIEIH1EbOZo7wwb5_czV35R0eySSUmJlPEPOn7d7SNBm4W3uvlF6KweshzczU2ZHKz0hpAhe-kq5XXenI6gXzs9h1-dM3EpY=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jonathan White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Simply outstanding. They took down a large tree, trimmed about six threes on the property including a huge live oak, and grinded the stumps to boot. Very fair price, hard workers, and very polite. They were referred to me and will refer the..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

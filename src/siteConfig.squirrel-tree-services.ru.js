@@ -31,21 +31,9 @@ export const siteConfigSquirrelTreeServicesRu = {
     "ctaPrimary": "Позвонить (+1 404-397-5820)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/squirrel-tree-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Squirrel Tree Services, Inc."
-      },
-      "sub1": {
-        "image": "/images/squirrel-tree-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/squirrel-tree-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSquirrelTreeServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/squirrel-tree-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSquirrelTreeServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/squirrel-tree-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSquirrelTreeServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/squirrel-tree-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigSquirrelTreeServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Joseph Bradley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Squirrel Tree Service saved us again!,…after contacting Nancy, she dispatched Joselyn to give us an estimate, both are very friendly, professional, polite, courteous! Jorge, Jacob and their team arrived, and swiftly accessed the situation, ..."
-    },
-    {
-      "author": "Matthew Gomez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We recently had several trees removed and trimmed at our new home, and the experience was excellent from start to finish. Jorge and his crew were professional, punctual, and worked safely and efficiently. They took the time to clean everyth..."
-    },
-    {
-      "author": "Richard Nash",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Squirrel Tree Services recently came out to remove an extremely large tree that had fallen during the recent heavy rains. They did the very best tree work we have ever had done in fifty years of tree work. They were extremely knowledgeable ..."
-    },
-    {
-      "author": "Jeff Ward",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Squirrel Tree Service did an outstanding job removing several storm‑damaged trees from my property. Their team was professional, efficient, and clearly experienced. They handled the removal safely, cleaned up thoroughly afterward, and left ..."
-    },
-    {
-      "author": "Steve W",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Second time we have used Squirrel Tree Service. They do an outstanding job and are very professional. Prices are fair and they exceeded expectations from beginning to end. Jacob and his team were very polite and respectful. I highly recomme..."
-    }
-  ],
+        {
+            "author": "Joseph Bradley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Squirrel Tree Service saved us again!,…after contacting Nancy, she dispatched Joselyn to give us an estimate, both are very friendly, professional, polite, courteous! Jorge, Jacob and their team arrived, and swiftly accessed the situation, ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEvniANpsaBBMXqCVg5MBAShgQeTxM4Lzn0Tq_Skc_vrRGcoCEXkAChpngYOvrSRDR1erT3WOOgZ8KB_hVu7hJ1xmCqGniv-MVYU68YT6EUqvoebXZodcIOuP1Mw88-py5Pgrt8D52KbTY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesZaYzbdIj59IXLDtWDGgTH11sB_HZA2wpmHvNQH_fdxMm6xKtBryNRNXh7DY2ClDerAncFBjNvyyecvfDE_o--Us9x_l9fKffQ-rRXwXuJsnWHf5qiGYgvqn2_RIfqfJNzX6GDeF0j3c=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMXS4Rd2niBL_5U54i1rAlz8ZRMJd1XxXuKyFfHSm34KkM_gnsERQcbbUZbp6CoRWZBuDucUf8nvjakON3AdVCrg8wW45PzemMHv1Fa4t4qokcCZcPqGfvohHw73zIVvIXTtT2tH5SaQo7=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiiE98Rj7zlLa0QfVu4O5QxAQRICFmuO9frBddaoVHYExwTowDRXo06VpuKDjs7bvnhtrfGDsqEozjRByTmclHNN7NDt5ST3xW9-z80kTVz-sCjriFZcmnqIm7E4Diopa4YPL9wNB6d0w=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Matthew Gomez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We recently had several trees removed and trimmed at our new home, and the experience was excellent from start to finish. Jorge and his crew were professional, punctual, and worked safely and efficiently. They took the time to clean everyth..."
+        },
+        {
+            "author": "Richard Nash",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Squirrel Tree Services recently came out to remove an extremely large tree that had fallen during the recent heavy rains. They did the very best tree work we have ever had done in fifty years of tree work. They were extremely knowledgeable ..."
+        },
+        {
+            "author": "Jeff Ward",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Squirrel Tree Service did an outstanding job removing several storm‑damaged trees from my property. Their team was professional, efficient, and clearly experienced. They handled the removal safely, cleaned up thoroughly afterward, and left ..."
+        },
+        {
+            "author": "Steve W",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Second time we have used Squirrel Tree Service. They do an outstanding job and are very professional. Prices are fair and they exceeded expectations from beginning to end. Jacob and his team were very polite and respectful. I highly recomme..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cumming (Основная база)",

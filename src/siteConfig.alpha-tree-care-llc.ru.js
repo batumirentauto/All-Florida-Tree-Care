@@ -31,21 +31,9 @@ export const siteConfigAlphaTreeCareLlcRu = {
     "ctaPrimary": "Позвонить (+1 360-991-1642)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/alpha-tree-care-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Alpha Tree Care, LLC"
-      },
-      "sub1": {
-        "image": "/images/alpha-tree-care-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/alpha-tree-care-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAlphaTreeCareLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/alpha-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAlphaTreeCareLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/alpha-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAlphaTreeCareLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/alpha-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigAlphaTreeCareLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "John Kimsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Over the last 10 years Lonnie of Alpha Tree service has become my goto for tree removal.  He knows his stuff.  Lonnie has taken down about 2 dozen trees for me over the years and always with great professionalism and expertise.\nMy only regr..."
-    },
-    {
-      "author": "Chibi_Bro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Awesome experience! Asked for an estimate on a dead pine tree removal and they were out same day to take a look. Very reasonable price compared to other companies in town. They were out in a few days after agreeing to work and did some very..."
-    },
-    {
-      "author": "John Boyse",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Alpha tree care is amazing! Professional,safe, and fast! They showed up on time, With a willing can do attitude! Great guys! They even charged me under the Original estimate! I also used  them to do my mom's property 3 trees or so. And they..."
-    },
-    {
-      "author": "Paprika",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Lonnie and his crew were timely, efficient, professional, effective, and affordable. I would definitely hire him again!..."
-    },
-    {
-      "author": "TheCbass13",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had two giant elm trees removed after they started dropping large branches regularly. It was quick, safe, and reasonably priced. Couldn't be happier. I asked for them to be cut down as logs rather than rounds because I'm a woodworker. Now I..."
-    }
-  ],
+        {
+            "author": "John Kimsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Over the last 10 years Lonnie of Alpha Tree service has become my goto for tree removal.  He knows his stuff.  Lonnie has taken down about 2 dozen trees for me over the years and always with great professionalism and expertise.\nMy only regr...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfneiMOyg8oGC_UKmGsu4HHfdL8pCfAPkQSYaj2ns6loaIB4yLnfa0gPLQT4bTBGLVF39eYwEaVAfoIpOodCnIXAXjvRnEcHqlDm6oT4y9DcQjsOPZQLdrqYYxSA_g4zMO8y7eyJBbFILc=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Chibi_Bro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Awesome experience! Asked for an estimate on a dead pine tree removal and they were out same day to take a look. Very reasonable price compared to other companies in town. They were out in a few days after agreeing to work and did some very..."
+        },
+        {
+            "author": "John Boyse",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Alpha tree care is amazing! Professional,safe, and fast! They showed up on time, With a willing can do attitude! Great guys! They even charged me under the Original estimate! I also used  them to do my mom's property 3 trees or so. And they...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeefS-pcZsMmsasGrLBem351WjbvTfBUkqXnK-dvRDIm6UuWy6S2pHFv2iyUa3jhSXUAB5IrFhqIDP4ifKR7fHRzIjg7RKHlHSf2TQwUejj_Si1B5OTqnK6nkT1WHWTphrl02H=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHtq5Ish3rThzBHqMjmjOQDRrzsecGBZKncdksQd_0CtfKuKwU0WWmPO7RqhksoLME5wjkzghe4gRHyN5kzN0ZtGT_ROzuABzUwLdHh8wngz9kh_cYE7SGf328_6RkqTUX50dt=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Paprika",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Lonnie and his crew were timely, efficient, professional, effective, and affordable. I would definitely hire him again!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgBkLHuYljymjRQw-BVWAewgEc3gAatLSf8r3CIOi2aOAgXWnmty5GyTkzX0vUrC5e4zlgtm_wRi5N_nCXh0Hp0SDmqu2Eb9Sf_JT3MLPUapNAPkn75M0PN5Sv4c1XGccoP6WXbwrNxxVK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_Nm1Z8iZ9775x_PthB0-6cxsqhmU9jzdTbcDz2m7eS2FYGTluS9Nly0JQ0LqRRsn3ddZGY7an4pimwzGvlSb9wHosoDduMeL7Ljir4nZaJHsiblfWLFZT9W-5KWsae13obpJDSeqi4QYe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjSwRGYllwyUpSf8N--kKeb6z6mfEswFwSfGl0BmrbMgnHPsxY1urNexvp9ZdXGmrPEJlaf4WIQlWre5s8vVx2gKd626A6_Pe9KAjADaZlbShU0K3sbJnH8kalawONvTztYlp_Y46EyKA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "TheCbass13",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had two giant elm trees removed after they started dropping large branches regularly. It was quick, safe, and reasonably priced. Couldn't be happier. I asked for them to be cut down as logs rather than rounds because I'm a woodworker. Now I...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbsY64IFLfNbZLwhrFC1y13q0z2eIhboigcjMMih1RUbB8IaJKoyZsYXKIRaoZb9y6f7JHF9rKS2W94UWIZn9Jrv9uwxw4ZGz8EzrATJLazHY6U7e3YmDIJ4SZADiRHtx28xbK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYZ9VMCE0w5hODTyoTUNqE_VCUBvIbvRtY_AachmBke08nQlRrjIyRSFdbCDQemoWnrVzSM3iIo2SQWm5TpaFpRUkmbWEB2d34nrYJDyh_9cILiTQezly01wp6qDX9YM0o3QlO=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Vancouver (Основная база)",

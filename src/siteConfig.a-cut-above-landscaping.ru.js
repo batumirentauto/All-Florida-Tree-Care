@@ -31,21 +31,9 @@ export const siteConfigACutAboveLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 850-470-1581)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-cut-above-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A Cut Above Landscaping"
-      },
-      "sub1": {
-        "image": "/images/a-cut-above-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/a-cut-above-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigACutAboveLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/a-cut-above-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigACutAboveLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/a-cut-above-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigACutAboveLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/a-cut-above-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,60 @@ export const siteConfigACutAboveLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jacob Blatt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: First off, I need to thank Bobby, Ron, Sean and Michael on their job. They were diligent, effective, efficient, and overall professionals. Their workmanship is absolutely pristine and ensured it was done right the first time around. Joe and..."
-    },
-    {
-      "author": "Michelle McLellan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After battling carport drainage problems at our home for years - we were beyond ready for a solution.  I cannot recommend A Cut Above enough. I began the process online. From scheduling, estimate, and the actual job - the communication was ..."
-    },
-    {
-      "author": "Tony K",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Beware!!!! They offer zero guarantee on their work, they claim to be able to solve issues but $15,000+ later the problem is the same if not worse. You send them photos of the issues and call their office, no one calls you back. Then you rec..."
-    },
-    {
-      "author": "Maryann P",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A great and low stress experience! We got sprinklers and sod put in. Sprinklers took 1 day to install and another day for the sod. No problems at all. Jason was respectful, kind, and explained everything about the project in a professional ..."
-    },
-    {
-      "author": "chris sweet",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Rashad, Jeff and Scott continually make our yard look wonderful! It’s apparent they take their time, pay attention to detail and take pride in their work. We’re very happy with the service they provide and would definitely recommend them!..."
-    }
-  ],
+        {
+            "author": "Jacob Blatt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: First off, I need to thank Bobby, Ron, Sean and Michael on their job. They were diligent, effective, efficient, and overall professionals. Their workmanship is absolutely pristine and ensured it was done right the first time around. Joe and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZmwezTdpctmgXh9JTUNZKJmh2DSGvJc0k-DyzMSeP0pOry_2830-8AjL4WK8irSyPlIZTGdyeLPrekxiiGcCirxJ1ZbGyUbz48irhXMtv5vgT15xzS4Bi3mTGz1DAXkyVuIC4poiHESw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4Bns0Eczkm2wOXPxllSA0WjjBhnB0dS7jTdLJODXSOkgPNRBPwHVUCN98czf57UIZGzWHULv1nrZSdYAUE-vWS5Zfn8uiy6EXKpWevXRZXuamWhbq6emrMf7cqLLJGkiFnKI0qC__UnNP=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Michelle McLellan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After battling carport drainage problems at our home for years - we were beyond ready for a solution.  I cannot recommend A Cut Above enough. I began the process online. From scheduling, estimate, and the actual job - the communication was ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLetId-U51q6Wv-v1GSlw74113HeXVg1pcGA5jbdUHbEc8AezE2M6lEc6KDwjbAW2e7AiPIWGGppd98crs64ct8kgGDQOEX7EsbxQgt1Fccx3BvhqR8V9T0c8A9L9P1XLX_EwORkp7FGNKw=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tony K",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Beware!!!! They offer zero guarantee on their work, they claim to be able to solve issues but $15,000+ later the problem is the same if not worse. You send them photos of the issues and call their office, no one calls you back. Then you rec...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCiSse6B45UjKrtMRoDIY8TMo33zI6Cb_DLJat0jlV5MXHsDf-44aiIDCvNT0-EtIponf7dqYm9dOgWPcTFDJU_hnFNMxZuGqppfN_-KGP5stfuMkHmYiUeMGmR4CCmUwp6A7bF2olZXjr=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcR4FmPFl2WeZm1xxrYQTfaCtUiY-k0c8Cs3QksOw4_HGAFq6U8CSOebQ_JsjITgqwpKor5gvoa21VueERP0drfgXBplU_vRQXPDcQ4U98dc56RAGam-N3hr3UPvPJMNKMdzH_Z9c7t05o=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeG9iZVM3NV2wzTbR_DP8uymWCA4F9UhhDAf-sRaaMeYYKtYC3okLkD3jyLt8vPmyP_lFbCXjhTjaj3mlzKLFEYnmDt1V7vpy1QGlctWw564Bc-uHz0dytXKnNSeGTmtK-3e2n9sYfqSCAG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDxkrwrQE077NrQbu8gSNi7L8Wc-qVx4iqJ-FPK5mSVOeVQOkcTvaxO6fdC7Klu5YjYNX8KHlYQcNgHe8-7_6Wr9GgEdhlX9bIt3LmeE3XeglJfJXFR7L3OJww-dIQJhpYAls5ccKK_H0F=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Maryann P",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A great and low stress experience! We got sprinklers and sod put in. Sprinklers took 1 day to install and another day for the sod. No problems at all. Jason was respectful, kind, and explained everything about the project in a professional ..."
+        },
+        {
+            "author": "chris sweet",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Rashad, Jeff and Scott continually make our yard look wonderful! It’s apparent they take their time, pay attention to detail and take pride in their work. We’re very happy with the service they provide and would definitely recommend them!..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Основная база)",

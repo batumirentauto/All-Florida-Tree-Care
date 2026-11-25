@@ -31,21 +31,9 @@ export const siteConfigTimberlandTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 916-502-2012)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/timberland-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Timberland Tree Service"
-      },
-      "sub1": {
-        "image": "/images/timberland-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/timberland-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTimberlandTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/timberland-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTimberlandTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/timberland-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTimberlandTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/timberland-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigTimberlandTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Rachel Gutterez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had the best experience with Timberland tree service, on extremely windy day our huge tree had branches everywhere we had to immediately have the tree removed, our home is on an extremely busy street. I contacted Timberland Tree Service. ..."
-    },
-    {
-      "author": "Aileen Florentz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so glad I chose Timberland! They removed my palms, no problem, they were on time, efficient, got the job done and the cleanup too. Their customer service was above and beyond a five star rating! Great experience👍..."
-    },
-    {
-      "author": "PJ Shepherd",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This company just came out this past Saturday to remove three trees and cut back two other trees. They did a fantastic job, was reasonably priced, and was extremely professional. I would encourage anybody to use them for their professionali..."
-    },
-    {
-      "author": "Nk Woods",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Uriel and Ivan were referred to me by my Realtor and they did not disappoint. I had 2 small and 1 medium tree cut down. They were quick, professional and the pricing was beyond fair. I would recommend and will use them again...."
-    },
-    {
-      "author": "Jay Jay",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing response time and follow through. They did exactly everything they quoted and cleaned up very well afterwards. Excellent communication and the pricing was reasonable. I have already shared.Is there a number with several of my friend..."
-    }
-  ],
+        {
+            "author": "Rachel Gutterez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had the best experience with Timberland tree service, on extremely windy day our huge tree had branches everywhere we had to immediately have the tree removed, our home is on an extremely busy street. I contacted Timberland Tree Service. ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdU0WjNtC6pF8Y6E8eifBtC8K99iFst3M5NRjxZAMPRDC0FHaNt7Kchhv1vmSvgbcWmE8BjMS05RNjREzx-EJJunCFPJGwcoL9LuRpQuoHM69b_YSoy_M5l4ETTr8M8lLm8MiR2XJ9tp9ku=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeH0YbBxQwBYMGg84BsNDyZjOCSr-z7JVKG5nLoNbH-4TdWHv2fb4Gh8zXjKdvqWGBWxnLxSIFg5fuKDsm9vXNe5DxHJgXUkakXa1-lOfvkUt5D-CCcoTyFKckgKnShxzjzqxMJBqcF0Mo6=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Aileen Florentz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so glad I chose Timberland! They removed my palms, no problem, they were on time, efficient, got the job done and the cleanup too. Their customer service was above and beyond a five star rating! Great experience👍...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjTaUnXHU-Oh2pjRr9afK9BeKd3MxMgNlm0jv49qhIoFfTBuLYVnWY4seoT0TxsqI641UBKc9GyxKw4OY6-rj5c47errXk9outby2Q9btM16gX9cgrGNFZPkVV_yU5H8Oh9MBEmDjDF14l=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbNOhHbUwc6jy6qGnDoahxXRmgdqfsUWZLWC4L0gKc7_D54xonHf-kXh9v-if7wohG2pvzv8KfxYNC3KSpq9z9SiZOv0bt9WoUMlO5VmqcVmINUhZORI08BZ7TLftWKOnUOxOSo70ROKA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "PJ Shepherd",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This company just came out this past Saturday to remove three trees and cut back two other trees. They did a fantastic job, was reasonably priced, and was extremely professional. I would encourage anybody to use them for their professionali...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc93ogPmB_kF53UnIud62jEZ_UBmaz8TSdL7LzYOhF0BDNxs8hVwC9SRNnU3RRT1wia1iKK3x9c2CU_sEOAaalhygyEEewhOPCwblONp-2xdn9tsy3hvseXeQ4c-n8ipo4MUh5tEOPRJHfl=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc63Bt_tDO8Zlif0mpa_xx9fFV-ltCuKig3mNQjXw8D7zBpl_fio8Z72GqY6LNL9Y-5DiMpf7FCOJmwv8dfzw6uYDrzfZ2KIxOyXvuU9Z9ADJOsSg7xknJdVjYAdpUXyuHl2ZXJZ7kfMN4W=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Nk Woods",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Uriel and Ivan were referred to me by my Realtor and they did not disappoint. I had 2 small and 1 medium tree cut down. They were quick, professional and the pricing was beyond fair. I would recommend and will use them again...."
+        },
+        {
+            "author": "Jay Jay",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing response time and follow through. They did exactly everything they quoted and cleaned up very well afterwards. Excellent communication and the pricing was reasonable. I have already shared.Is there a number with several of my friend..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sacramento (Основная база)",

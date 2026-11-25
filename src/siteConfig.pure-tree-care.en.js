@@ -32,21 +32,9 @@ export const siteConfigPureTreeCareEn = {
     "ctaPrimary": "Call Mark +1 919-726-7042",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pure-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Pure Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/pure-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/pure-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPureTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/pure-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPureTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/pure-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPureTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/pure-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,55 @@ export const siteConfigPureTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Travis Matthews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys do great work, very careful with tree removal, cleanup, and just taking care of the ground and surrounding area. Scheduling was easy, on time arrival, would certainly work with them again for any further tree needs."
-    },
-    {
-      "author": "Dana Camarillo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Pure Tree Care absolutely deserves a five-star review. Mark and his crew were professional from start to finish, clearly experienced, and incredibly respectful of my historic property and personal belongings.\n\nI have mature, producing pecan trees that needed expert trimming—not just for aesthetics, but for safety and long-term health. Mark took the time to walk the property with me, explain what actually needed to be done, and give thoughtful, honest advice about what should be removed (and what should not) to protect the trees and the property. They alleviated the weight and stress on the pecan trees while keeping them looking beautiful and balanced.\n\nThey also trimmed my crepe myrtle the right way—no “crepe murder” here. It looks natural, healthy, and properly shaped, which tells you immediately they know what they’re doing.\n\nMost importantly, they were extremely careful bringing down limbs. They controlled every cut and drop so well that I never once worried about damage to anything on my property. If you want a tree company that combines expertise, great communication, and real care for your home and landscape, I highly recommend Mark and the team at Pure Tree Care. Five stars without hesitation."
-    },
-    {
-      "author": "Jessica Aylor",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mark and his team have done incredible work for us twice now.  We appreciated Mark walking through our yard first to advise us on urgent projects and future ones to anticipate.  Then we were able to schedule the work within a few weeks, and the team got the tree removal done quicker than expected and cleaned up well afterwards.  We cannot recommend Pure Tree Care more highly!"
-    },
-    {
-      "author": "Katie Wouk",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a wonderful experience with Pure Tree Care. Mark was great to work with—responsive, knowledgeable, and professional from start to finish. His team did an excellent job and worked efficiently. The quality of the work was outstanding, especially for the value. Highly recommend!"
-    },
-    {
-      "author": "Joya Matza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mark and his crew were awesome! They removed many large ash and other varieties of trees from our property. It was a several day project and each day the crew was professional, showing up timely and worked late if needed to stabilize the work zone. The crew always used proper safety gear and was always friendly and  had great communication. We had an excellent experience with Mark and his crew and would most defiantly hire them again."
-    }
-  ],
+        {
+            "author": "Travis Matthews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys do great work, very careful with tree removal, cleanup, and just taking care of the ground and surrounding area. Scheduling was easy, on time arrival, would certainly work with them again for any further tree needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ7OBFl90VAgEP7E0FnGrLhhZyKHUVigvNxik_gZswKzOv7_CTOkaYQPQxNvUH2dzSSgETEvkMg5so9l-32rjCpsbnYAdltAMGUiG5UUBLJ72aFmozLXgu88FmVOTQwbe0ghBbW-xYL4-x=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Dana Camarillo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Pure Tree Care absolutely deserves a five-star review. Mark and his crew were professional from start to finish, clearly experienced, and incredibly respectful of my historic property and personal belongings.\n\nI have mature, producing pecan trees that needed expert trimming—not just for aesthetics, but for safety and long-term health. Mark took the time to walk the property with me, explain what actually needed to be done, and give thoughtful, honest advice about what should be removed (and what should not) to protect the trees and the property. They alleviated the weight and stress on the pecan trees while keeping them looking beautiful and balanced.\n\nThey also trimmed my crepe myrtle the right way—no “crepe murder” here. It looks natural, healthy, and properly shaped, which tells you immediately they know what they’re doing.\n\nMost importantly, they were extremely careful bringing down limbs. They controlled every cut and drop so well that I never once worried about damage to anything on my property. If you want a tree company that combines expertise, great communication, and real care for your home and landscape, I highly recommend Mark and the team at Pure Tree Care. Five stars without hesitation.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFOk0YpYvwfnFGYs4pfY4IrYf2ADpP2ZSNqv-jWOfrkcY_Gj5oa_IqOVOvllMb2sO-5kIWDKvEVeoWMrUCjReNlpQJxNOUkUb9dLtyhCUrIxYor__73Xb4QzVwQH-XaS0hLAe4Wnpb6Fg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvdE1gobqAhR-uqlz8B1Olbu-5nfleIF-PMTc23cnylTGivkO7Truw721pZy_n0BzSP5343TKSJemjj6ZKa_Bv73PXnOIRIXwsyyg-UxvU-8pc8P6LieebfxFaDlPOmaXvOuZ7YlU-3ZnY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_knAXiAq3adGoEuNMkllM0-fgtKtQ1FOB2d5TT9W_eKY-ZJk0cgYyir5mMwuPkd3pCadx9aS8txscM2DUW8IIk6nEp9W-olCZ2QFiKQA486EjiHks3IGYDbBmqluWhEsC6yrpDDCILlMY=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Aylor",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mark and his team have done incredible work for us twice now.  We appreciated Mark walking through our yard first to advise us on urgent projects and future ones to anticipate.  Then we were able to schedule the work within a few weeks, and the team got the tree removal done quicker than expected and cleaned up well afterwards.  We cannot recommend Pure Tree Care more highly!"
+        },
+        {
+            "author": "Katie Wouk",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a wonderful experience with Pure Tree Care. Mark was great to work with—responsive, knowledgeable, and professional from start to finish. His team did an excellent job and worked efficiently. The quality of the work was outstanding, especially for the value. Highly recommend!"
+        },
+        {
+            "author": "Joya Matza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mark and his crew were awesome! They removed many large ash and other varieties of trees from our property. It was a several day project and each day the crew was professional, showing up timely and worked late if needed to stabilize the work zone. The crew always used proper safety gear and was always friendly and  had great communication. We had an excellent experience with Mark and his crew and would most defiantly hire them again."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

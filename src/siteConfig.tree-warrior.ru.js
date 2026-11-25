@@ -31,21 +31,9 @@ export const siteConfigTreeWarriorRu = {
     "ctaPrimary": "Позвонить (+1 360-335-4746)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-warrior/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады TREE WARRIOR"
-      },
-      "sub1": {
-        "image": "/images/tree-warrior/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-warrior/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeWarriorRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-warrior/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeWarriorRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-warrior/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeWarriorRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-warrior/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigTreeWarriorRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Julie Dyer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Paul and his crew were amazing! They came quickly, are very polite and friendly. Paul described exactly what his crew would do and when the crew arrived, they confirmed everything before they started. The entire process was easy. My neighbo..."
-    },
-    {
-      "author": "Ievgen Perekopskyi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have hired Paul to cut trees that were hanging over my house, they were fast, professional and friendly. They left the place clean, I totally recommend Tree Warrior for your needs...."
-    },
-    {
-      "author": "Brenda Stuart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We are thrilled with the work Paul and his crew did. From they beginning, Paul was a great communicator. He was professional and friendly. His crew was the same way, very honest and kind...and they sure knew what they were doing! Like a sur..."
-    },
-    {
-      "author": "Laurie Raleigh",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had four beautiful mature trees trimmed by Mikhail and Stan, and they were incredible. One tree required a full climb — fascinating and honestly a little scary to watch — and they handled it like pros. They were so careful not to damage any..."
-    },
-    {
-      "author": "David Chesnokov",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a bunch of giant Leeland cypress trees in my back yard that I was wanting to remove. Three of them were too big to handle on my own and most of the limbs were leaning over my neighbors houses and property so I hired the pros for those..."
-    }
-  ],
+        {
+            "author": "Julie Dyer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Paul and his crew were amazing! They came quickly, are very polite and friendly. Paul described exactly what his crew would do and when the crew arrived, they confirmed everything before they started. The entire process was easy. My neighbo..."
+        },
+        {
+            "author": "Ievgen Perekopskyi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have hired Paul to cut trees that were hanging over my house, they were fast, professional and friendly. They left the place clean, I totally recommend Tree Warrior for your needs....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegzPRnI_9jNKj1nKHzRWYKsNHsuvJTCwH6wboD1Gnbl2yyRyff0Ula56-o6byp2lSojzknMK5FzWv8p-6vthBnbPS90ocPsAphWXvS735x782TwZppuFTyHr8ab1ULSK_pUkltwr6UvNNY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdNI90-Dzr7HOp3Oe6hHiqHI0PcsF9PjPHqC8L42FAeAcnjrYYS9vEgJJtbVr_GR3oBQoWHgJGjXfc3y3kUZBhxg8PZQzwjGLelNtKnoq3RIRL3Wvj2USsrVDO7FJ_DQ23546QmuD_j7cp6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUCYUxGqj9rOxmoXUEdmpKPgprPkmDJXXrzyMpT_-gDvQS9g3qde4ElLBgod13hybB3JQGemANwr2Rdl1EMRz0LSQu2cZ4d1f8u9lE2j6bhg5Nbtc012_B0GUbRRQhMsJjYXjDGVZLsIkE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Brenda Stuart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We are thrilled with the work Paul and his crew did. From they beginning, Paul was a great communicator. He was professional and friendly. His crew was the same way, very honest and kind...and they sure knew what they were doing! Like a sur..."
+        },
+        {
+            "author": "Laurie Raleigh",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had four beautiful mature trees trimmed by Mikhail and Stan, and they were incredible. One tree required a full climb — fascinating and honestly a little scary to watch — and they handled it like pros. They were so careful not to damage any..."
+        },
+        {
+            "author": "David Chesnokov",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a bunch of giant Leeland cypress trees in my back yard that I was wanting to remove. Three of them were too big to handle on my own and most of the limbs were leaning over my neighbors houses and property so I hired the pros for those...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcH-pHss-DmaZz6WALivtk4r-orALZlDtCeRC4K7OZqTRUq0cTUrXOpxXl7TLCvYaXCDgZLX-lu958yH5kIXy2XxrPrmXeaFkH7s3_tZk4S0CiiWhRAxqvByyULUpjNSq-3VLiJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd-1h6geA74aZRZrQkYYNVBgsds_T7abBxWJWHyGRy_JZxeWBHeofyPyXX0JpHpmnseG7zAsAFoQUxYJ2NF3E4zpmbxS-Zw4l3Rc7q4Pv8VBwgxvip-y-hlzD1Yr0C0QdE49XNe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeLv_-rl1sopT3qj0WR60S3CBSrRmEa8CHXiUIrVnaXKvwYYl0VzW1PaEy7A7MbHLmroOj5GLz81tTR53UBZoQHOtUSpBgcRhGOXwPRB37NWAV5Gjzr8_FFSMtE812H8RLQYw7m5Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBm0UuhS4Wlu2CejPpOrKzZ5sURHW3omEsjIpScgHe2D-dpHQ_k9IXm9dEpGBmgS3zY0zfTgFG4e37E4cv0cKB4amC_HXJ45zeAhPqob8-AVAUVxchbnggHlFnZ14cFL5prNyb=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Washougal (Основная база)",

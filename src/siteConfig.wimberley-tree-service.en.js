@@ -32,21 +32,9 @@ export const siteConfigWimberleyTreeServiceEn = {
     "ctaPrimary": "Call Santos +1 512-657-5057",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wimberley-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Wimberley Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/wimberley-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/wimberley-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWimberleyTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/wimberley-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWimberleyTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/wimberley-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWimberleyTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/wimberley-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigWimberleyTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jennifer Sabatier",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wimberley Tree Service is service and tree oriented. The crew came in and completed the work we had previously discussed, taking care to do the trimming to preserve tree health. WTS not only completed the work effectively and efficiently, WTS also offers finishing touches that make this company stand out. My juniper logs were nearly stacked, the chipped tree limbs left in a neat and accessible pile,  and my roof, driveway and deck were neat, tidy and blown clean of debris."
-    },
-    {
-      "author": "Peter Durkin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a good experience here in Dripping Springs with the WTS team. They arrived on time at 8AM sharp, they had the correct tools, they trimmed my BIG storm damaged trees, stacked the firewood, cleaned up and hauled off the debris. They focused on safety and customer satisfaction. I thought the price was reasonable for an all day service, from 8AM to 4PM. I would recommend Santos and his team to anyone.  Tree surgery is meant for experts not retired seniors. Visit their website - very informative."
-    },
-    {
-      "author": "Robert Stern",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Santos and his crew were amazing. Santos came out and provided us with an estimate after listening to our needs and was able to squeeze us into his busy schedule.  The crew was professional and easy to communicate with. During the tree service an empty planter was damaged and we told Santos not to worry about it, it was old and not in use anyway.  He was back out at our place the next day with a replacement planter!  Santos and his crew are friendly, reliable, honest and Santos is a man of character. We highly recommend them and will use them again.\n\nWe had five trees trimmed."
-    },
-    {
-      "author": "Taylor Stubenrouch",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Santos, Matt, and the team did a great job! They were the best quote I received in the area and very professional with their services. They had great communication and did a great and honest job on my trees! Couldn’t ask for anyone better!!"
-    },
-    {
-      "author": "JaybirdJayT",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Santos Bonilla did fabulous work on a large tree against my glass sun room.  I had other services contract on the same work.  But Wimberley Tree Service's price was VERY reasonable and he did everything that he told he would do.  He was friendly and was ready to work.  I have other tree services in the past, but Wimberley Tree Service is the only other tree service I will use in the future.  I was amazed at his job.  And as today... as I look at the work that he did, I think WTS was very well reasonable & professional."
-    }
-  ],
+        {
+            "author": "Jennifer Sabatier",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wimberley Tree Service is service and tree oriented. The crew came in and completed the work we had previously discussed, taking care to do the trimming to preserve tree health. WTS not only completed the work effectively and efficiently, WTS also offers finishing touches that make this company stand out. My juniper logs were nearly stacked, the chipped tree limbs left in a neat and accessible pile,  and my roof, driveway and deck were neat, tidy and blown clean of debris.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKs2OPByPcbZAQzOfLO1ZY5BjRkJzwQiqsbawy-2byoi9WPt8yvV9oLbPg_JLeonSkIsBV3v6nwC8K-maQgQfr99w2_rS-uyb_ku77pkH_7XCCv6y9DlH_LhyddjbRBC5GC5mXwZuqIn9i=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Peter Durkin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a good experience here in Dripping Springs with the WTS team. They arrived on time at 8AM sharp, they had the correct tools, they trimmed my BIG storm damaged trees, stacked the firewood, cleaned up and hauled off the debris. They focused on safety and customer satisfaction. I thought the price was reasonable for an all day service, from 8AM to 4PM. I would recommend Santos and his team to anyone.  Tree surgery is meant for experts not retired seniors. Visit their website - very informative."
+        },
+        {
+            "author": "Robert Stern",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Santos and his crew were amazing. Santos came out and provided us with an estimate after listening to our needs and was able to squeeze us into his busy schedule.  The crew was professional and easy to communicate with. During the tree service an empty planter was damaged and we told Santos not to worry about it, it was old and not in use anyway.  He was back out at our place the next day with a replacement planter!  Santos and his crew are friendly, reliable, honest and Santos is a man of character. We highly recommend them and will use them again.\n\nWe had five trees trimmed."
+        },
+        {
+            "author": "Taylor Stubenrouch",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Santos, Matt, and the team did a great job! They were the best quote I received in the area and very professional with their services. They had great communication and did a great and honest job on my trees! Couldn’t ask for anyone better!!"
+        },
+        {
+            "author": "JaybirdJayT",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Santos Bonilla did fabulous work on a large tree against my glass sun room.  I had other services contract on the same work.  But Wimberley Tree Service's price was VERY reasonable and he did everything that he told he would do.  He was friendly and was ready to work.  I have other tree services in the past, but Wimberley Tree Service is the only other tree service I will use in the future.  I was amazed at his job.  And as today... as I look at the work that he did, I think WTS was very well reasonable & professional."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wimberley (Central Depot)",

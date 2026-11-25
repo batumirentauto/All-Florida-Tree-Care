@@ -32,21 +32,9 @@ export const siteConfigPensacolaTreeServiceEn = {
     "ctaPrimary": "Call David +1 850-307-5322",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pensacola-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Pensacola Tree Service LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/pensacola-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/pensacola-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPensacolaTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/pensacola-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPensacolaTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/pensacola-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPensacolaTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/pensacola-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigPensacolaTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brent Ismay",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This review is for \"Economy Tree Service\" in Pensacola Florida. We contacted David a little over a week before the work was actually performed.  We were kept informed as the ridiculous permitting process progressed.  The crew was able to get a huge oak removed, and a couple of trees trimmed and the stump ground on Monday August 24, in one day.  It was really hot but the crew did a fine job and cleaned up well after they were finished.  The crew was respectful to us and worked efficiently. They also set aside some firewood.\nWe inquired with over 6 different tree cutters.  Most never responded, a couple were booked months in advance.  In this particular case we needed the work done because this oak was becoming dangerous. It was shedding big limbs.  For us, Economy tree service did a very good job and we are glad we called them.  David was honest with us the whole time and they didn't mess around."
-    },
-    {
-      "author": "Emile Mershad",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "It is easy to see why Pensacola Tree Service keeps getting so many 5 star reviews. My husband and I have tried several different tree trimming companies over the years here in the area and Pensacola Tree Service is by far the best one we have used.\n\nTheir pricing was very fair and their crew was made up of true professionals. They did an excellent job cutting back a huge Magnolia tree that was covered in vines. They were careful working around all our other plants and didnt damage a single one. When they finished the tree looked beautiful and the cleanup was perfect, not a leaf or branch left behind.\n\nWe will definitely be using Pensacola Tree Service as our go-to company from now on. Its great to find a business that actually shows up when they say they will, does exactly what was agreed on, and takes real pride in their work. The crew definitely deserves a good tip!"
-    },
-    {
-      "author": "Lind Ostler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Aaron at Pensacola Tree Service was absolutely fantastic. I reached out yesterday about trimming some trees in my backyard, and he got back to me right away, set up a time to look at the job, and showed up today exactly like he said he would. That kind of quick response and follow-through is rare.\n\nThe trimming work was top-notch — clean cuts, great shaping, and he clearly knows what he’s doing. Everything looked better immediately, and he left the area cleaned up when he was finished. Aaron is professional, honest, and dependable, and I felt comfortable having him on my property the whole time. I’d recommend Pensacola Tree Service to anyone without hesitation."
-    },
-    {
-      "author": "Cal Killigan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Aaron and the crew from Pensacola Tree Service handled a bunch of different jobs for our community — palm trimming, tree removal, and stump grinding. Their pricing was pretty fair, the guys really knew what they were doing, and they left everything cleaned up real nice.\nI’d definitely recommend Pensacola Tree Service and I’ll be calling Aaron back for more work in the future."
-    },
-    {
-      "author": "Kenneth Lake",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called Economy for a quote. David came over, gave me a quote, told him I would  get back to him. At that time he said we wouldn't even know he was here. He called me back a couple days later, had a cancelation and could do mine at a reduced rate, so I said OK.\nThey showed up as expected,  and they did a great job with the tree work and cleanup. Luckily half my backyard didn't have any grass so their machine didn't do any damage. HOWEVER, there are sunken in.machine tracks in my front yard, and also in the backyard by the back fence.\nI also had 4 small retaining walls on the side yard ready to install sod and be done. 3 of the walls were all effected by their machine, knocked loose and out of line.\nOne of the guys knocked to get.the check when they finished.  I should have inspected.first but I didn't.\nI called David to come and take a look. Talked to him on Thursday,  said he would  come Monday. No call, No show !!!!!!! Called again, still waiting for a response. Ready to call again Monday .\nBe advised, David.talked a good game to get the job, but since he got the money, he is a ghost."
-    }
-  ],
+        {
+            "author": "Brent Ismay",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This review is for \"Economy Tree Service\" in Pensacola Florida. We contacted David a little over a week before the work was actually performed.  We were kept informed as the ridiculous permitting process progressed.  The crew was able to get a huge oak removed, and a couple of trees trimmed and the stump ground on Monday August 24, in one day.  It was really hot but the crew did a fine job and cleaned up well after they were finished.  The crew was respectful to us and worked efficiently. They also set aside some firewood.\nWe inquired with over 6 different tree cutters.  Most never responded, a couple were booked months in advance.  In this particular case we needed the work done because this oak was becoming dangerous. It was shedding big limbs.  For us, Economy tree service did a very good job and we are glad we called them.  David was honest with us the whole time and they didn't mess around.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2sE-jF6jQ7c3RSZGlw4DSPTHI_wGl8cMLoHhjfvWv9GOH3JBFlyu5Xwx07Sy3Z1DT3EsVzOCEhhxry4RxF7XDPbVG90D3mxTgGRrGikEepLECmteTyRJaNctU8RrKkUUA6gw9T_fRoz4f=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Emile Mershad",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "It is easy to see why Pensacola Tree Service keeps getting so many 5 star reviews. My husband and I have tried several different tree trimming companies over the years here in the area and Pensacola Tree Service is by far the best one we have used.\n\nTheir pricing was very fair and their crew was made up of true professionals. They did an excellent job cutting back a huge Magnolia tree that was covered in vines. They were careful working around all our other plants and didnt damage a single one. When they finished the tree looked beautiful and the cleanup was perfect, not a leaf or branch left behind.\n\nWe will definitely be using Pensacola Tree Service as our go-to company from now on. Its great to find a business that actually shows up when they say they will, does exactly what was agreed on, and takes real pride in their work. The crew definitely deserves a good tip!"
+        },
+        {
+            "author": "Lind Ostler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Aaron at Pensacola Tree Service was absolutely fantastic. I reached out yesterday about trimming some trees in my backyard, and he got back to me right away, set up a time to look at the job, and showed up today exactly like he said he would. That kind of quick response and follow-through is rare.\n\nThe trimming work was top-notch — clean cuts, great shaping, and he clearly knows what he’s doing. Everything looked better immediately, and he left the area cleaned up when he was finished. Aaron is professional, honest, and dependable, and I felt comfortable having him on my property the whole time. I’d recommend Pensacola Tree Service to anyone without hesitation."
+        },
+        {
+            "author": "Cal Killigan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Aaron and the crew from Pensacola Tree Service handled a bunch of different jobs for our community — palm trimming, tree removal, and stump grinding. Their pricing was pretty fair, the guys really knew what they were doing, and they left everything cleaned up real nice.\nI’d definitely recommend Pensacola Tree Service and I’ll be calling Aaron back for more work in the future."
+        },
+        {
+            "author": "Kenneth Lake",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called Economy for a quote. David came over, gave me a quote, told him I would  get back to him. At that time he said we wouldn't even know he was here. He called me back a couple days later, had a cancelation and could do mine at a reduced rate, so I said OK.\nThey showed up as expected,  and they did a great job with the tree work and cleanup. Luckily half my backyard didn't have any grass so their machine didn't do any damage. HOWEVER, there are sunken in.machine tracks in my front yard, and also in the backyard by the back fence.\nI also had 4 small retaining walls on the side yard ready to install sod and be done. 3 of the walls were all effected by their machine, knocked loose and out of line.\nOne of the guys knocked to get.the check when they finished.  I should have inspected.first but I didn't.\nI called David to come and take a look. Talked to him on Thursday,  said he would  come Monday. No call, No show !!!!!!! Called again, still waiting for a response. Ready to call again Monday .\nBe advised, David.talked a good game to get the job, but since he got the money, he is a ghost.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBHTUvTrb6e-N2OLvPHydYFAhtu8T-9JWWzpDabJ77glW94Wj7vppQWlNzfRkAQQYyMdSzhN3O30XIn2zsu9nFfn8jLVPqpk04h40udXpnWKTGGMHrXDJkUAmopqmJRICcjUiAWwFn9f7r=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjzTpyWV4bfux407_eePK6wGFSi1GgwhIpUFOQ2w-VRrHgp0kwMVMNJXrIYGgzCPWeOiprd6Y20IXGbyQDkshmLxYK9yvho8u8FL7RvhiUdAHNL3BIpqE1u-sGfauaA8Zm5IMIFsTfERXk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdtpJ65uqcx4SwrOkWed3NakJK84ubpaJbupojdHiMJAwznJtAXJOHUMe1JYFddD-XSjpyWzsTYO_eFJRRZOUhbp-qYMLtHmo93NsgJF6eJ1GUYbMdaiqDXQ-GFcV8d9ECdatpVUS0gtw-O=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCjdKuIW3BxutfHqfs-kg_N5p3UryPtfyoy6S-xhSCrd_9ogtyTtPC6X3th-283L5Iyrfht0Aa7w4GiyAbLXx0-Hd5LgUqfgQISuVwfFzYXaioyljIfSCujI3u_kB_GgVnU7WBki7rBJ8=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Central Depot)",

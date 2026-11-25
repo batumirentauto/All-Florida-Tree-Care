@@ -32,21 +32,9 @@ export const siteConfigTampaTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 813-445-8602",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tampa-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tampa Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tampa-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tampa-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTampaTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tampa-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTampaTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tampa-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTampaTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tampa-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigTampaTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Cairo McIntyre",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Tampa Tree Service. The team was professional, friendly, and handled the tree removal with great care. They were efficient, and I was impressed with how clean they left the area after the job was done. I’ll definitely be using their services again and highly recommend them to anyone in Tampa!"
-    },
-    {
-      "author": "Cholodinho89",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Rob came over, and I showed which tree limbs I wanted removed. The day of the job, his employee removed just one of the limbs I wanted done. Unfortunately, my wife was home, and I wasn't. So, I couldn't see if the job was done right. I communicated to Rob that not all of the branches were taken down and he assured me they would come back out and make it right. During the back and forth conversation, he advised me that one of his lifts, which is much larger, is out of service.  So I had to go by this with no time frame set and wait.\n\nI decided to wait a month or so this give them time to get their lift fixed before i reached out again. At this time, he has not responded to my last messages.\n\nIn the attached picture, you can see the limbs I wanted removed in red. The green arrow shows what they did."
-    },
-    {
-      "author": "Samuel Wright",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This crew made the entire tree removal process really simple for me.  They did an excellent job, were polite, and arrived on time.  Strongly advised!"
-    },
-    {
-      "author": "Lance Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tampa Tree Service provided excellent tree removal services, handling a large, hazardous tree in my yard with precision and ensuring the entire process was safe and efficient."
-    },
-    {
-      "author": "Astudillo Paul",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Their team was courteous and professional throughout the whole process. The tree removal was quick, and the stump grinding was so clean you’d never know a tree was there."
-    }
-  ],
+        {
+            "author": "Cairo McIntyre",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Tampa Tree Service. The team was professional, friendly, and handled the tree removal with great care. They were efficient, and I was impressed with how clean they left the area after the job was done. I’ll definitely be using their services again and highly recommend them to anyone in Tampa!"
+        },
+        {
+            "author": "Cholodinho89",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Rob came over, and I showed which tree limbs I wanted removed. The day of the job, his employee removed just one of the limbs I wanted done. Unfortunately, my wife was home, and I wasn't. So, I couldn't see if the job was done right. I communicated to Rob that not all of the branches were taken down and he assured me they would come back out and make it right. During the back and forth conversation, he advised me that one of his lifts, which is much larger, is out of service.  So I had to go by this with no time frame set and wait.\n\nI decided to wait a month or so this give them time to get their lift fixed before i reached out again. At this time, he has not responded to my last messages.\n\nIn the attached picture, you can see the limbs I wanted removed in red. The green arrow shows what they did.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf6abCNlbP7i7KHnuk7rJE3XHvqz098Lqauxn4WUCbzIgnrOCSCYf17BNZgpOhXp7Cz0elNfHkR3K3nIu2EVpzHBNbk8GGr6Lkbfob4DT7q9Y4wYHgGsQG_q9R5MAk9W5c9WTpi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Samuel Wright",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This crew made the entire tree removal process really simple for me.  They did an excellent job, were polite, and arrived on time.  Strongly advised!"
+        },
+        {
+            "author": "Lance Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tampa Tree Service provided excellent tree removal services, handling a large, hazardous tree in my yard with precision and ensuring the entire process was safe and efficient."
+        },
+        {
+            "author": "Astudillo Paul",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Their team was courteous and professional throughout the whole process. The tree removal was quick, and the stump grinding was so clean you’d never know a tree was there."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigAllensEn = {
     "ctaPrimary": "Call Mr. (919) 761-3159",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/allens/photo_001_crop.jpg",
-        "label": "Commercial Rayco Stump Milling",
-        "alt": "Operator in Allen Tree Service shirt running commercial Rayco stump grinder by fence"
-      },
-      "sub1": {
-        "image": "/images/allens/photo_002_crop.jpg",
-        "label": "Heavy Dump Fleet & Blower Sweep",
-        "alt": "Branded tandem-axle dump trailer and crew member with STIHL backpack blower"
-      },
-      "sub2": {
-        "image": "/images/allens/photo_003_crop.jpg",
-        "label": "Spotless Driveway Sweep",
-        "alt": "Clean concrete driveway with mulch pile neatly staged to the side"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAllensEn = {
     {
       "name": "Long Driveway Canopy Elevation & Thinning",
       "badge": "Canopy Clearance Pruning",
-      "image": "/images/allens/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",

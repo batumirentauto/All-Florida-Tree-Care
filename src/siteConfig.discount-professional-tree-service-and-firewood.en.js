@@ -32,21 +32,9 @@ export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
     "ctaPrimary": "Call David +1 470-400-2546",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/discount-professional-tree-service-and-firewood/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Discount Professional Tree Service and Firewood tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/discount-professional-tree-service-and-firewood/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/discount-professional-tree-service-and-firewood/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/discount-professional-tree-service-and-firewood/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/discount-professional-tree-service-and-firewood/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/discount-professional-tree-service-and-firewood/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,68 @@ export const siteConfigDiscountProfessionalTreeServiceAndFirewoodEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lauren Montgomery",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "JOB STILL NOT COMPLETED, David began work on May 9th and since has not returned phone calls, voice mails, or text messages. I have called from family members numbers and he answered and explained he is working on other projects and is currently unable to complete mine although 90% was paid for up front. I am deeply disappointed in the appearance of my yard and the companies lack of professionalism and communication. Pictures attached are current and up to date."
-    },
-    {
-      "author": "Ricardo Brooks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This company is amazing. They came out a did a quote and set up a day of my choosing to start the work. They were on time the day of service and kept me informed on new finds and the progress that was being done. The work took about 2 days(1 full day and 2 half days). Everyone was professional and willing to work as safely as possible. They even work with me on paying for the service. I love how clean they left my yard and how well they stayed professional during their breaks. I will most definitely use them again when I take down the rest of my trees and stumps. Please please consider using them they will not let you down."
-    },
-    {
-      "author": "Dave Slovin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Paid for 1/3 cord (4' x 8' stack) of firewood, but received about 20% of that.\n\nDelivered while I wasn’t home, then tried to upsell my wife for the “extra” wood still on the truck. When I complained, Dave promised twice to come back and make it right. Never showed either time. Then stopped responding entirely.\n\nWood stack photo and confirmation texts attached. Cash app payment so no recourse.\n\nAt this point, it feels less like a mistake and more like a business model. I would not recommend."
-    },
-    {
-      "author": "Ebony Triplett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "David and his crew did a magnificent job. I am surprised at how fast they got the job done at the price. They charge was way lower than the other estimates I received. I have seen other reviews that are slandering his name from his previous employees and sales women that are disgruntled and it makes me sick. This young brother is the definition of professional. I highly recommend."
-    },
-    {
-      "author": "JANSEN O'NEAL",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I called Discount Professional Tree Service to give me an estimate to remove a large pine tree and a couple others. I'm not familiar with trees so David came out the next day and gave me an estimate. He knew I was in a time crunch to have the tree removed because I was having a fence installed. David was able to have the tree removed the next day!! Amazing fast service. The crew did a great job as well. Very efficient and cleaned up all the debris. The office did a great job too with the scheduling. I will definitely use them again."
-    }
-  ],
+        {
+            "author": "Lauren Montgomery",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "JOB STILL NOT COMPLETED, David began work on May 9th and since has not returned phone calls, voice mails, or text messages. I have called from family members numbers and he answered and explained he is working on other projects and is currently unable to complete mine although 90% was paid for up front. I am deeply disappointed in the appearance of my yard and the companies lack of professionalism and communication. Pictures attached are current and up to date.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdW37weNI2mbZ-8NrPi6kBcgjT5RrjABxHP4eDVRJR4UJcyJ74kKlCeRboX8eNlxTuod8l6AWam9DzkJO7k8-4BxklAXH5uB1RtN-7Gmglm9PZKUEUzSZMj1F25e8pLyPpvmGINTzMJJZBr=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfie8i9S_6QCVNLOV9UzzYs9jRVW7BmaxE96Qeurz3E8fnZmDy1nsPYPS5fIWQKFMHH-7pZmqgQ3Dl9XZJqcDSW-WaNqscaDsxvcCyMuPZl65r_-il4TL34CjBZg1rl4XvreBYMFTk7FXUx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegNhWuaSizA5Nm6MZtrFi5n9cCRKBhl6D9JvSVTU3PAo0VH37MPK4ZWIhxGIXZHZ8v511o5k0MGakY41DZEWHvyQ8yD2LMFIhFWhr_GUwUV0n2ObyJb3AKPNq2dheHUlGVWm3Ncm8FsLc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfQXSaELXaTTSyib9bn829GBzroRWZumNnJix2gVWpQXcnBewL7fj9MY0hMHszYnLvG8mI_2ZiPHoF_uUnrlQQQ5IYY4owFezwQyooWIRCBvTgk8Wt_QOBSIHDYc_jSWFryT8VGYt6j8ys=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ricardo Brooks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This company is amazing. They came out a did a quote and set up a day of my choosing to start the work. They were on time the day of service and kept me informed on new finds and the progress that was being done. The work took about 2 days(1 full day and 2 half days). Everyone was professional and willing to work as safely as possible. They even work with me on paying for the service. I love how clean they left my yard and how well they stayed professional during their breaks. I will most definitely use them again when I take down the rest of my trees and stumps. Please please consider using them they will not let you down.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdxjjD4J0J_znjZZZeAnYNG-yWVO_fQ5mQmklfY0g4HltBuP1_VPgEUV9dSe044W5dgZoEQA3ou-9JyM5QeJ-GvtqOXOfsnMGiS4_977BDkWwBzx1F7NxgkrSYH7rEFeyvhfSt=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0GW7Cm7QwDd0zDgj-SzEngXYgIZ5ksCzmPAggfjLlwXl_n24C_WAFES1pvBKjij7rzZdIFz0cBREa49Fkt9gYbUBI1VLcv8hj6zQLKxSOaxcrDdOP5oIdx4beU-MDJ-jQYgjv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfDaiAlO3mPrnn9mSoP0sUGGMDzSPMJ5xW5x0AlgpZ5ADWYNQTQWjiT5jEVEJobqGY1W86GdN8oyIAk74fomznZFGVn4Wqiu-RlysN09TJraJxaJB0nudc-te_7PSWQMxfaAFWB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXpbMSvi-pckzgtOV24x36d5QrJ95r7Mpv7VxX0r2gR4VcSyPV2NblmvAZALmtt-QNf1AtCiqlej1Z3TSqaaW7sGQTx4NVGRG2V595ZOKo82i_EmTWjH92I-1mXQB4I3rfMv-sgg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dave Slovin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Paid for 1/3 cord (4' x 8' stack) of firewood, but received about 20% of that.\n\nDelivered while I wasn’t home, then tried to upsell my wife for the “extra” wood still on the truck. When I complained, Dave promised twice to come back and make it right. Never showed either time. Then stopped responding entirely.\n\nWood stack photo and confirmation texts attached. Cash app payment so no recourse.\n\nAt this point, it feels less like a mistake and more like a business model. I would not recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfBhdGf_tJslAeNQnXyQs29x9FkCMem36FntdKnlLbqUSd2zEAk7ssspIeh8SyFdZs3k6zrdF2aWhdL1-hiU2g3F6kBcU6TpHO7lQvRs4ZzDB8JRhO3teXbxkYI_1xd_jAB1YZ4tZI2iXU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOC0DNBDCZsZHl-u1G7XRKOMa1UMoYJdAGcuFgYSKqXvg0tZG9IL879cgPOF58hilWbMvjNw2ySsijt_8P1jV5QqbhL0i4rnaDMyVNuVi7E1Lni3hRXEfYTp5BEFJOYsVwY_dZOF8XE0c=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ebony Triplett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "David and his crew did a magnificent job. I am surprised at how fast they got the job done at the price. They charge was way lower than the other estimates I received. I have seen other reviews that are slandering his name from his previous employees and sales women that are disgruntled and it makes me sick. This young brother is the definition of professional. I highly recommend."
+        },
+        {
+            "author": "JANSEN O'NEAL",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I called Discount Professional Tree Service to give me an estimate to remove a large pine tree and a couple others. I'm not familiar with trees so David came out the next day and gave me an estimate. He knew I was in a time crunch to have the tree removed because I was having a fence installed. David was able to have the tree removed the next day!! Amazing fast service. The crew did a great job as well. Very efficient and cleaned up all the debris. The office did a great job too with the scheduling. I will definitely use them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5Zb-AUMKwWHHgPtnPqDrY92BGswX6VzhGqmkfzHlE983wSj88b334jOXftbuYgW2oeL9775nX5fU-dV5rhzB8sKF-SSKkavWVg71WWLGRrJ7DTaL9ak-GRk0m57MRXk0gbo9slA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDcsRzVvGYS2yY-Oy4660GVyH23tWdBRN1wkCpY1Q9yX7f-2vc7FyPVwVD7Tf5DXXrnsSMh-FHL02rS4HU-y3xvhIzAuRe6iKF_9MXNnDWrh6OMMfqFCd4P8xmP8m6wM1yFfat=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhbUze0TWg-fD17_cWGa7UZCxxeyFiWkxrqcR7g76LU9_2dRkZ2dQ4SbKVEXg8Yy9pk9I_VfXrUZsWThYyy5ktvzYCehfb5kM6cmTtC0fLSyPVS-JR4XYgka7fnBSAnRRBdPSR=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Austell (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigMitchellAndSonStumpGrindingCoRu = {
     "ctaPrimary": "Позвонить (+1 478-227-4515)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mitchell-and-son-stump-grinding-co/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Mitchell and Son Stump Grinding Co."
-      },
-      "sub1": {
-        "image": "/images/mitchell-and-son-stump-grinding-co/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/mitchell-and-son-stump-grinding-co/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMitchellAndSonStumpGrindingCoRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/mitchell-and-son-stump-grinding-co/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMitchellAndSonStumpGrindingCoRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/mitchell-and-son-stump-grinding-co/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMitchellAndSonStumpGrindingCoRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/mitchell-and-son-stump-grinding-co/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,62 @@ export const siteConfigMitchellAndSonStumpGrindingCoRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Gloria Benjamin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mitchell and Son Stump Grinding Co. exceeded my expectations.  Mr. Mitchell returned my call promptly, met me for a quote and proceeded to get the job done!  He went above expectations by recommending options for covering the now empty spot..."
-    },
-    {
-      "author": "Anika Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The fact that  I made  one call, fair price and excellent customer service meant alot to me. Mr. Mitchell and son told me how long the job was going to take and the job was done in that time frame.  They even took the time and clean up all ..."
-    },
-    {
-      "author": "Craig Teller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This small family owned business did a great job grinding a stump for me and my neighbor.  They arrived on time, were highly professional and removed the stump in about 30 minutes.  I can highly recommend them...."
-    },
-    {
-      "author": "Melissa Gilbreth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mitchell and Sons is fantastic for tree removal, stump grinding, and tree trimming work!! They are wonderful with communication, work with me through pictures to identify the needs, are prompt with reasonable estimates, and get the job done..."
-    },
-    {
-      "author": "Heather Robbins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Extremely responsive, great communication, price was better than the competition, and super easy to work with. I highly recommend them!..."
-    }
-  ],
+        {
+            "author": "Gloria Benjamin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mitchell and Son Stump Grinding Co. exceeded my expectations.  Mr. Mitchell returned my call promptly, met me for a quote and proceeded to get the job done!  He went above expectations by recommending options for covering the now empty spot...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLetSIqBNy1A28l4OgqvIhDgjf2uTMjLva-DqoPYgD5zOGRawJBkaRRgSN6-nvuJPVhV4XImqCxa7S9rIdr1bcKPVlJyzHR1GApPuL0QosGtNzjaIgg1Z5YOrnjMMl9KONbHZmuCADKcwqHb=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcGll3ZrJW0s22Y6KaMLhc3t-NAE1dGfbeTSNsL6BZW3qN196dNXUnAKMT5SaE4IVvqQ_tBneKo8bHwvRSKanm_Df949XXEAQJnZY3D7cxHwK8G2fcem08Nl7tw9RNJUmMCZRd0j3iUAY8s=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKa1yfsY1_DJvDOx3tx3S5rCjnFHQqhhQQvEew6MdrDJrIBrgw3VCWJGRUy7_RSLOSiWamr9VwK7cAdcDthAX-1Rubprhp3nJ0PVMvYfbYOlfTTQp0Fq11-dEk6mJ2NgF1vmLEOva9b81v=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmWNyQAFghhos2uKhblrm3yCtLtdp-iXIgkbDnd74s5DmOtzry_CB7koc8dLhtjmHVt7j6YdLifFQQNJ7zLFYkKu-O0oi5wuwuXH_JYShYCXfZvzF3qmiiiMCDAXCOlRYA2VcOxH1r0S_F=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Anika Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The fact that  I made  one call, fair price and excellent customer service meant alot to me. Mr. Mitchell and son told me how long the job was going to take and the job was done in that time frame.  They even took the time and clean up all ..."
+        },
+        {
+            "author": "Craig Teller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This small family owned business did a great job grinding a stump for me and my neighbor.  They arrived on time, were highly professional and removed the stump in about 30 minutes.  I can highly recommend them....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2xFuEqq0hBJDsxj2oqSBdCaTL50vObfpUGYhqlxjGADeXsmaA-IELz2wvARnH3DuyCLj-NlC4KJcBUyLbtJ6uweTPMNv7FXVTXDmoSYKhYaEy7XS8QHHFwqvfycvD60CCZ7Cbr9U_TTs=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Gilbreth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mitchell and Sons is fantastic for tree removal, stump grinding, and tree trimming work!! They are wonderful with communication, work with me through pictures to identify the needs, are prompt with reasonable estimates, and get the job done..."
+        },
+        {
+            "author": "Heather Robbins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Extremely responsive, great communication, price was better than the competition, and super easy to work with. I highly recommend them!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdobkpINLGddUZnS5Oy21EF9b0JkuV9nz9MZGBAi8Dxsz9i6DveWs34tpeqeJhKBBgDDHgXzI0h5txfzRiXMJ2KWHblWZ4gceLrhO2_fZ21dt0zc0JD7j6-IWFTn1LgYtMozbRbIg72uCA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfpS3Z4dV-MnfFKjFx0mL0xudpvt6wlSGIRUH8-f7JPAqslZl2EG_uER2u_9ZOdkaroey_SeaQvNNPOE2OZbmTelfAuVJZRVeqnp0dunwNEGjf1LmQtxfE6ybdPNGsYXdRv3JpjkndwvrqH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVFWNFi5Emffqxyro_OFmMkA4oEp_f-kKgl5TuiaJ_sTthockl1VvRYqX_gyvdvkwmx5zYGZgoy_7G7z1VFnwuNe-Ue-40sEw3Z7YnrFMomJkwapLWH0tsI6Hr2nY6njD1_HG2qHw2P12a=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc6S9sfkkGkKbkPl2d0lUXrnDENnsWlWwjSwKCCH2ls6tqxuTYXUr0JzN57qt2ReJ5PlclfGuGbsKQA9EO0JOuIn1UhWSxKiFK1At5tFNvIPCxH0y8ZUh8Z-cHuGehGYZ0NhYVVIt1dVZM=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Columbia (Основная база)",

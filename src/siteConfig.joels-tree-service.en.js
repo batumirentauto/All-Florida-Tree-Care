@@ -32,21 +32,9 @@ export const siteConfigJoelsTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 336-497-8237",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/joels-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Joel's tree service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/joels-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/joels-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJoelsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/joels-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJoelsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/joels-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJoelsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/joels-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigJoelsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "William Steffen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Joel's tree service was outstanding. They were a great value and provided tremendous service. They were quick and thorough, checking with me frequently to see if the work being done was what was agreed upon. I will use their services again the next time we have a landscaping project."
-    },
-    {
-      "author": "Dustin Frericks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Joel has cut down several trees on my property.   He and his guys are polite and very professional.   If you need a tree taken down, look no further.  I can not speak highly enough of their work.  So impressed.   The best tree company around."
-    },
-    {
-      "author": "Phil M",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They did an awesome job and pricing better than the 3 other services that quoted us. Especially our back yard is at an angle with power lines as well they maneuvered and cleared the job less than 3 hrs and no damage to our deck. Will recommend to anyone"
-    },
-    {
-      "author": "Annya Roland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Joel’s Tree service came out and took a dead tree down, they did a very well job! Left no mess behind very respectful and gave us a fair price. Everywhere else wanted double. Call Joel if you have any tree needs! Very hard worker!"
-    },
-    {
-      "author": "Lee Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "EXCEPTIONAL SERVICE!!! 10/10… 5 stars and more!!! Joel and his team are the top tier, hardworking, get the job done type of people you want to handle your Tree removal needs! Joel didn’t waste anytime from the moment he quoted me, until the time the last tree was removed. I couldn’t wait to pay him. Above and Beyond with service and customer service. Definitely using his company again!"
-    }
-  ],
+        {
+            "author": "William Steffen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Joel's tree service was outstanding. They were a great value and provided tremendous service. They were quick and thorough, checking with me frequently to see if the work being done was what was agreed upon. I will use their services again the next time we have a landscaping project.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgbwA4YtZFqSK1enMFORPO08t6PdbCTFhE05ES08H17ZvTtWYtO2zAYbxlvGqlwEDCWxmnR0t8Nxe4TKavx8LQt5SB9Emm18K9OqS9gXNgl774Eq5bVe9m_D-U0BtZRs-t-DIs5A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXf6Ok7xsvI4vLR1R_R8SFtV2ssWKlKsl8fEuhQLFsqLmuTQHDHJComcX_l_vFQjmRmiawNid9gI5ZLptRoprjBmYMO4URcsVwKEhpqjnP2biqPKNlOpM043ya1VchcoZopmPjiw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemm8yPU6Jte--OCgoyVBVwUCZPrYREPTqfTRSLRV7J3zpPXrQH2Zs5hrGgR0pXuR0YsEtKqu_J5ewkjm-_9PBuZmEO1vDUQMu0cHLlRIoComwW6BNvg1WewvEnlKyotlNJYxga=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd7ILXHyWzMiFDLrHYvV5yLMZll1SoUyPxmeLavL2Fs-9nUs_a6Vly5iHBribeEckiXrGYN0s8UXHUG3c0kedbFJ_bpoqZEB3Tskqbddv05zfLUVbKkjMawoWuWCQ0ww_KPB6KW=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dustin Frericks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Joel has cut down several trees on my property.   He and his guys are polite and very professional.   If you need a tree taken down, look no further.  I can not speak highly enough of their work.  So impressed.   The best tree company around."
+        },
+        {
+            "author": "Phil M",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They did an awesome job and pricing better than the 3 other services that quoted us. Especially our back yard is at an angle with power lines as well they maneuvered and cleared the job less than 3 hrs and no damage to our deck. Will recommend to anyone",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCSDjNMfWf1dZ5lWVqC2N2NjSrJazxmMWcvxVaCqc7zXf7qSkFtf34VzmIJ8XTgJKlmHXV6FyRHsunHF666xhPJWTw1EQepUqfNpR_S4KPoLWn-RTSm4OpSh7hgob05DZOSwY=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Annya Roland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Joel’s Tree service came out and took a dead tree down, they did a very well job! Left no mess behind very respectful and gave us a fair price. Everywhere else wanted double. Call Joel if you have any tree needs! Very hard worker!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdC-LTE1wU_K8tDKlbiC4hqRuHvfD0FLgs795TBFCNMDgpEELphT531SO3jzY0T--P9yBHnj5FEywwzgShFrqYzCIF5y3c6XetetrWeMjDTWtTsVMIFvhWut7MVKmF9tzdN0QF8fQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCCec8rpebuW9XfIItpWGTAXrZ39DboaWfPBaSnSuispddB38rmYxyIQtIBUpafj__zLAHggN1o-mq_vgQp2lUuQDndTWFqIxIMtyCViS9_ZNvY7nDB4s0JRf7icHT-z2lsgk6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfpoND12b-6zRPEGork8wI4MB1mM81B8CxqRwYLQY2AzOK84khfUyNtlunXHnYw1fczc0UbpF1cJqcQ_B6UTjyQ03gFNiBaJRRbEGp9AqUhzAyKnmuahR1Ae1OiAFxpdwtR_0h0PA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lee Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "EXCEPTIONAL SERVICE!!! 10/10… 5 stars and more!!! Joel and his team are the top tier, hardworking, get the job done type of people you want to handle your Tree removal needs! Joel didn’t waste anytime from the moment he quoted me, until the time the last tree was removed. I couldn’t wait to pay him. Above and Beyond with service and customer service. Definitely using his company again!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigHappysTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 727-365-1803)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/happys-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Happy's Tree Service"
-      },
-      "sub1": {
-        "image": "/images/happys-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/happys-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHappysTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/happys-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHappysTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/happys-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHappysTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/happys-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigHappysTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ana Angeles",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Happy's Tree Service company is the best.  Steve is very professional and the rest of the crew. Job well done. Wendy who works at the office responded quickly and polite. Highly recommend 👍👍👍..."
-    },
-    {
-      "author": "Dave Roggy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Crew showed up on time had the tools and equipment needed to do the job.Happy wanted me to do a few walk throughs with him as job was progressing to make sure I was happy.\nThey did a great job and did it fast. And cleaned up before they lef..."
-    },
-    {
-      "author": "Derek Schmack",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Steve and his team were in the neighborhood and I asked him about a tree branch. He was able to take care of it on the same trip. He also offered an estimate for some other work I need done on my property.\n\nMy neighbors also used Happy's wo..."
-    },
-    {
-      "author": "William Leaver",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Showed up on time, large crew with great equipment. Took two trees down cleaned up and were done in under two hours. Did a great job for a very reasonable price. Highly recommend them...."
-    },
-    {
-      "author": "Chris Reddaway",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Steve and team did a great job with my 2 big camphors and the secondary trees on the property. Fantastic having a certified arborist that can tell you WHY he suggests something and explain the risks and rewards. And priced reasonably to boo..."
-    }
-  ],
+        {
+            "author": "Ana Angeles",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Happy's Tree Service company is the best.  Steve is very professional and the rest of the crew. Job well done. Wendy who works at the office responded quickly and polite. Highly recommend 👍👍👍..."
+        },
+        {
+            "author": "Dave Roggy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Crew showed up on time had the tools and equipment needed to do the job.Happy wanted me to do a few walk throughs with him as job was progressing to make sure I was happy.\nThey did a great job and did it fast. And cleaned up before they lef..."
+        },
+        {
+            "author": "Derek Schmack",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Steve and his team were in the neighborhood and I asked him about a tree branch. He was able to take care of it on the same trip. He also offered an estimate for some other work I need done on my property.\n\nMy neighbors also used Happy's wo..."
+        },
+        {
+            "author": "William Leaver",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Showed up on time, large crew with great equipment. Took two trees down cleaned up and were done in under two hours. Did a great job for a very reasonable price. Highly recommend them...."
+        },
+        {
+            "author": "Chris Reddaway",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Steve and team did a great job with my 2 big camphors and the secondary trees on the property. Fantastic having a certified arborist that can tell you WHY he suggests something and explain the risks and rewards. And priced reasonably to boo...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfgsrfbNfV8yc4ubl1VFE0KwK9tRPzEGkvpXrSSiLVCehO3MkHl7E9INgBGbCnzaIFSlAG2jst4ufxxmknqJ5OSg9Qdtb2voYCrkfkVakD4WAd4IYQSPjj9E5fNX2X8wGCDszxT=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "St. Petersburg (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigMendezBrothersEn = {
     "ctaPrimary": "Call Lead +1 559-666-2367",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mendez-brothers/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Mendez Brothers Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/mendez-brothers/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/mendez-brothers/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMendezBrothersEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/mendez-brothers/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMendezBrothersEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/mendez-brothers/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMendezBrothersEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/mendez-brothers/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigMendezBrothersEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Karen Monohon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very professional and detailed in their work. I have Palos Verdes trees which are beautiful but can be a challenge to maintain. The Mendes Bros Tree Service definitely knows what they are doing with these trees. I highly recommend them for tree trimming and will remain a repeat customer. See before and after photos."
-    },
-    {
-      "author": "Raymond Sharp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Sunrun paid these guys to come out to my house and take down 85 foot pine tree about 1 foot from my back deck.\n1. They cracked the handrail and caught around, holding in my plexiglass on my deck, this they actually told me about. I told him no problem. I’ll fix it myself.\n2. They shattered about 10 feet of my retaining wall and the three steps that go with it, this they failed to tell me about.\n3. They moved the bricks I had around my Generac to keep people from hitting it, and guess what, they hit it! They put the bricks back wrong, Backwards. This they also did not tell me about.\nWhen confronted, they denied any responsibility. This company is not allowed on my property ever again. I would highly recommend that nobody ever use this company, unless you want damage on your house and property."
-    },
-    {
-      "author": "Manuel Ramirez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The Mendez brothers trimmed my palm trees, cleaned the front yard completely and gave a great price price so, I highly recommend the Mendez brothers for tree services. The service was done in Madera California."
-    },
-    {
-      "author": "Gary Caine",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Earlier this week I found the Mendez Brothers online due to their excellent google reviews after several tree cutters flaked on me.  Their fees were more than fair.  They showed up exactly on time, they had all the equipment they needed for the job, and worked tirelessly throughout the day getting rid of a massive tree (and liability) for my commercial property.  It was grueling work, but they all worked as an experienced, and coordinated team and clearly knew exactly what they were doing.  The tree was located right next to an adjoining fence, but not a shred of damage occurred.  Absolute professionals who were timely, cordial and friendly to deal with.  I will never look elsewhere for tree removal services again.  And they deserve the mountain of 5 star reviews they have amassed thus far.  Brilliant team."
-    },
-    {
-      "author": "Jan Kohake",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We hired the Mendez Brothers Tree Service for trimming trees, as well as removing 2 trees including stump grinding. The results have been nothing short of perfection. They were professional and experienced and they did a bang-up job on clean up. Their pricing was very reasonable and we would definitely hire them again."
-    }
-  ],
+        {
+            "author": "Karen Monohon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very professional and detailed in their work. I have Palos Verdes trees which are beautiful but can be a challenge to maintain. The Mendes Bros Tree Service definitely knows what they are doing with these trees. I highly recommend them for tree trimming and will remain a repeat customer. See before and after photos.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdxn7XoarK9zP3BrBddHRLDdPEaR-bNrdigmOY7dZVV_E2l5wifrwWIDw6AXPWfaTFP0Eq23ReLkTTlYVNTFierxvpXGyFaV-wzD_mR0bzesj1RBvPI8dXQBBF_JwIk1V_tZhhNSF7W1_Yw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4_XlNaCMZL_USoYnS6g03i8SEgVaQwxDGX0qDJdr-_zJb5Pe_qSxW_F1hG_OQSO76QTs8tBcT0qmabDTZUs4ZhREpKFzd3r4f4HdGy4qbHwPdbvUP4o4YWcVvLpTZjUt76-7XktPA2LAo=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Raymond Sharp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Sunrun paid these guys to come out to my house and take down 85 foot pine tree about 1 foot from my back deck.\n1. They cracked the handrail and caught around, holding in my plexiglass on my deck, this they actually told me about. I told him no problem. I’ll fix it myself.\n2. They shattered about 10 feet of my retaining wall and the three steps that go with it, this they failed to tell me about.\n3. They moved the bricks I had around my Generac to keep people from hitting it, and guess what, they hit it! They put the bricks back wrong, Backwards. This they also did not tell me about.\nWhen confronted, they denied any responsibility. This company is not allowed on my property ever again. I would highly recommend that nobody ever use this company, unless you want damage on your house and property.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8Hvy-xa61TdriZg0ULzsm0_-46g2v6gSgqyprkUZKyTIOqBejtlb7r0iS-7JMJyA3V3sixGb5XXskI8wD_U7F-KK2lCjaQWhUI6cPpAMbDEV6_xosuuiylstercUYZq7sLVlr2qf6GPQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc7GPBT2nFDpGUc60tySx88MTN_nP59wd_QanUNHZn1UN5Et5FOahy3lfXw8GJHnhY0HCUWoUhMzLNmtxhVJoRnrNRYSWvDbvtElgYmUGqn-TI_WSQQo0puTDW8vreiT8wiwV7v8Dj2Rc-I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZeU5Q7TlhnMwfBg7VbjNo60oP3EVY3xxwPjRY8tgi5NTGbHFX3TddOv9Ml5YeiTLMCwiUlwIflPBimE0NXj-PFpUD1tNSUqo55347_keXpiVXlv0CEFQyt_rWesAYGLCTX9JxknLem3ka=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcr2Zk5IhSa4qcOaQLHga20kXd-cgAaTyIFwQNsAzo26q29ZSs6agOViXofOsOO8SNgGlcilTZioUIkghYoZwn4KjCmUIZ4b5p1pGHq-MmLUgJ7UJiGnbAqKlKxNikM3jQgyeHFYzo8ijRi=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Manuel Ramirez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The Mendez brothers trimmed my palm trees, cleaned the front yard completely and gave a great price price so, I highly recommend the Mendez brothers for tree services. The service was done in Madera California.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRTYK05kirChiCdzuHc_rMstlgN8PtkhkAZABimaHgPLQ85TOeGa-A6Doeo-yLBARgADwZhtTgujK3QiqYqMdsUY4PUZkO1xFEbF7vtEXgDn0_pzpLEJRIWl5-RA3fupS2ep0fU5EwqKGb=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Gary Caine",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Earlier this week I found the Mendez Brothers online due to their excellent google reviews after several tree cutters flaked on me.  Their fees were more than fair.  They showed up exactly on time, they had all the equipment they needed for the job, and worked tirelessly throughout the day getting rid of a massive tree (and liability) for my commercial property.  It was grueling work, but they all worked as an experienced, and coordinated team and clearly knew exactly what they were doing.  The tree was located right next to an adjoining fence, but not a shred of damage occurred.  Absolute professionals who were timely, cordial and friendly to deal with.  I will never look elsewhere for tree removal services again.  And they deserve the mountain of 5 star reviews they have amassed thus far.  Brilliant team."
+        },
+        {
+            "author": "Jan Kohake",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We hired the Mendez Brothers Tree Service for trimming trees, as well as removing 2 trees including stump grinding. The results have been nothing short of perfection. They were professional and experienced and they did a bang-up job on clean up. Their pricing was very reasonable and we would definitely hire them again."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fresno (Central Depot)",

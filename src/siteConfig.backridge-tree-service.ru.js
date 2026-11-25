@@ -31,21 +31,9 @@ export const siteConfigBackridgeTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 850-240-2829)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/backridge-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Backridge Tree Service"
-      },
-      "sub1": {
-        "image": "/images/backridge-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/backridge-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigBackridgeTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/backridge-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigBackridgeTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/backridge-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigBackridgeTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/backridge-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigBackridgeTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "ShaLynn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Backridge did another fabulous job at my home. They removed a huge tree from my front yard that was practically in my driveway. They accomplished this without damaging the concrete and they cleaned up every leaf and small branch that had be..."
-    },
-    {
-      "author": "K Farrell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Steve and his crew were very professional.  They clearly are experienced and moved efficiently through the yard making all the requested adjustments to trees as well as grinding any stumps.  Should have used Backridge in previous years.  Wi..."
-    },
-    {
-      "author": "Daniel Baradon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Superb service…from arrival to departure. Highly skilled workers with top-notch equipment. Removed a palm tree…efficient and skilled workers did a superb and safe removal and ground the stump. Second palm had numerous fronds that needed rem..."
-    },
-    {
-      "author": "Lisa Griffin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Back ridge tree company did an outstanding job. They showed up on time and everyone was nice and polite. Their customer service is excellent. Would definitely use them in the future...."
-    },
-    {
-      "author": "Brad Hymes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Absolutely awesome service. Right around the price range I assumed from the work, and fantastic clean up.  Amazing how much difference tree trimming / removal can do.  I’ll definitely call them for my next job..."
-    }
-  ],
+        {
+            "author": "ShaLynn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Backridge did another fabulous job at my home. They removed a huge tree from my front yard that was practically in my driveway. They accomplished this without damaging the concrete and they cleaned up every leaf and small branch that had be..."
+        },
+        {
+            "author": "K Farrell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Steve and his crew were very professional.  They clearly are experienced and moved efficiently through the yard making all the requested adjustments to trees as well as grinding any stumps.  Should have used Backridge in previous years.  Wi..."
+        },
+        {
+            "author": "Daniel Baradon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Superb service…from arrival to departure. Highly skilled workers with top-notch equipment. Removed a palm tree…efficient and skilled workers did a superb and safe removal and ground the stump. Second palm had numerous fronds that needed rem...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLey_EcJqkKjl9oxh7w0nxVrHJchu0F87G5k3z9x_jxDQEck9pyvp7006w6azv9RJsEZwcV4XkQj_vzgX88Ii9bN9TJhc1ZUmk3XsO5VwpCXN7tTbiBbQ2TgJo4x2Sr6Kcg8PglVqw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJuY0i_uTN0sYwSflN7einMOtEWHUs9zTCzqZBOGQaFkawsxRSBfmNrhlOI6e5htVaNJudzITbuNER-XFg7qee9a5P-AvvE9UnAZ4cuAvKtBjE8_bfhHTrUMAFfjhpHD3vVwRs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc92GkW34z7YPa32ZuesrsYzZTObFziA70siCaCu2L9_gDIY04SE4DvFxq3PTrL4PgMky6ItTy4dkajSwFnHj4jkAKYWfb1x8zru5SnwVO9zXABWMCBcvyOHMOmBhCebV-76W4z=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfYp8W8WTBukDujSlCagaK4rZ2F_CS7zoflX0DUjvIIXqZczbeIcdbgW8Xy7ukNVSHoVCvcs_4QfvGCxAmaZivQI_fykU6qg9vd5dB9WYfwN1gUyN0ovGmVmRpr3lFjEICBHnEX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lisa Griffin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Back ridge tree company did an outstanding job. They showed up on time and everyone was nice and polite. Their customer service is excellent. Would definitely use them in the future...."
+        },
+        {
+            "author": "Brad Hymes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Absolutely awesome service. Right around the price range I assumed from the work, and fantastic clean up.  Amazing how much difference tree trimming / removal can do.  I’ll definitely call them for my next job...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdEZ6nJECEyvYQTE55aRwhyWRxuK8QfbfOegdfhcUadl_f7jKSAKH5kzf45dKKBsoGwcYG5Q2Z5st96KeQ5eQZB2E2dqzwg3bV8qKLMb4LP5APpbwJUQ16nOdNFSA3Qanb2g2lP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc-aPnYnf6TiMbHniQAjQDlhBIRVk0c1K09TIh4NYUCvVmYMAjBFNcpa-PsDiSvW3PAvew7mREHtjiz3ojBLB6J6MS6KyEHzFybQMQV-TQ6_n8aN0e3lkDiE-cHRi6aQDYSvN-iuQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWcV8-uivc_1p4AfwGhx0FPBqmvHdW3BsT9HOUrcZ-Ele2te3x5lRvz-2DGKy95gzi4hZI5isxL6Zc493Vwdr4YAlzsUFJFOWyF7cwLOAIKx6wO3q4i9eC_brRH-37Q40KwE9G=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSrNRIMGMbbSA2cdI_YPFkwy-8jFp9hooN98y5k_XRVUOCQJnC2ieSAalfXzqtPOOnrGsbPX-wrbyHj6gj9qkcqaGuOYxhRbZ0lppRse5lF6c2RbG58YtQzHyBl4imow=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Walton Beach (Основная база)",

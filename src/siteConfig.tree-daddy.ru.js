@@ -31,21 +31,9 @@ export const siteConfigTreeDaddyRu = {
     "ctaPrimary": "Позвонить (+1 321-202-7532)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-daddy/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Daddy"
-      },
-      "sub1": {
-        "image": "/images/tree-daddy/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-daddy/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeDaddyRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-daddy/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeDaddyRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-daddy/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeDaddyRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-daddy/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,68 @@ export const siteConfigTreeDaddyRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Celia Raffucci",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend this tree company! They were recommended to me by a friend, and they did an excellent job. The team was professional, punctual, and very thorough.\n\nMatt, the owner was very friendly and professional, Anthony did an amazing ..."
-    },
-    {
-      "author": "ralphyboy385",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: If you need a reliable tree company hit these guys up. Very good at what they do price is right and the clean up is nice and tight. I definitely will use them again when I need them💪💪💪..."
-    },
-    {
-      "author": "Alex Corzo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt and the team at Tree Daddy were great to work with from start to finish. Matt took the time to understand my project and budget, and the entire team was prompt, efficient, and did a fantastic job. They also made sure everything was cle..."
-    },
-    {
-      "author": "Nolan Hart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt and his team are FANTASTIC! They are quick, concise and thorough. We had a massive tree needing to be removed in a tight location. The Tree Daddy team completely made this HUGE tree disappear faster than Harry Potter put on his invisib..."
-    },
-    {
-      "author": "Brandi Concolino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’ve had tree work done in the past, but Tree Daddy isn by far the best tree company around. They are reasonable, professional and really care about what their customers want. I highly recommend them!..."
-    }
-  ],
+        {
+            "author": "Celia Raffucci",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend this tree company! They were recommended to me by a friend, and they did an excellent job. The team was professional, punctual, and very thorough.\n\nMatt, the owner was very friendly and professional, Anthony did an amazing ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuqeIt8WQRFhLMHw5Rf1o5ONEUaondVQyPiyZNVObmVnmMzG4gTr9sPTGAlKbVIyKLTkO7WM8iiejs7CwHvFRVzWjnQGWBeFO7OAg1-604-iSLzkokfnf-nwU8NNAgru4TGWyOqeEJO1Pt=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9HFmQm4bi_7j8VmcWE4BOoj2gYqTRxTM3lGnzNWTwJOet3HHpD7bQ3vbVbPRhgDhtJcArXPfeeK74lBnuhH7nms2g0KRoxpY1Ev8k7tLCIm3y3g-fNbSNzgMfcFVx8bwQFkuV55pJJj2b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqZEJTzhzSrLn5zxES44K9TIk1qRTZ4w6IxzMxV9j_RxlwCPMbuc3Gkfb8Lbpac-8Q1xfKTX623pWPfFofOyEh4xXGnPveOhxxSc6GBZD2vXp05n_kla689yRoNRAV_Gn7nxyh2WP9i2i5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhRR_-YPBHTchV63WNWZDNF3j3YHOAP8Y3KsuCY9U4AbYTjqkohBzo5LS2U4UJ5K6Hprst72Jl2NAscMOQD7NuGydlwjJaeDYgZ3LQso8daY0XdJTOCxzryuivw4w2pkOztUqr184ZwJ0_=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ralphyboy385",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: If you need a reliable tree company hit these guys up. Very good at what they do price is right and the clean up is nice and tight. I definitely will use them again when I need them💪💪💪...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCk9Xj_1bJYL-bGjnJvG10VCpEr7Mqx4aRm3VbQxzr4_oNpD-ZjY9mxjMO9muEfwzA26X2P2torWFqJZubbLEUTxY27CfK9TEad_LUaKHnvVkhzHBjRvEstVqWx-b35M_SpqYniPEoAG8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcn77vooNag36Nxj_DF7vASAg9BEee_1j8RXK1bbZ2V3fYR8FuA5Yvi8kfyDzoDXPBOSWMd2Tmu9R-YVuZYCUC20iAMkASn0lm7iaIqSJ_9T_lxePpuCBnAtxkga4zyaUsXJN941qsM3U8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp4BGz5B4ziBPIgl1iBp7yEZjzdoyL5G9r2zY2pRnlmK1HjlNB0O13r-hGBNU-PU9R86bjuZjbZRI9qewFQGBxmEGtm6O7ybm-fUgh4CbjBBIzDk37HnEsjYH5Ktr8ld0BJ2Yr9_VEvWZ8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex Corzo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt and the team at Tree Daddy were great to work with from start to finish. Matt took the time to understand my project and budget, and the entire team was prompt, efficient, and did a fantastic job. They also made sure everything was cle...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXv2TkFsjpmbwpVAihwlTdAQhOmpHV0mLnyFc7zrnV6ml2qTk8zcwRwp1Fey6lV7Ml0Lpg7SweRFKgCsRHTd-Fz6pVeOeRbIVzCkwmm_ItqRQwGvbtfswjZwND6eFVyroyr3Y7CR7uelPA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfYR3Mrbs0vKEvuDzs2RQd6YMB_fux-dIBnLlXjqe3zhvX_DqbMVdVl20NlM139R02KNjkXdhYd4PafPkaaIwr8WhBdr40VyU01cscl_22MiuhT2eLpdkQxr2jczCGBKRlokTiPk1DE6D50=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeb-BTGMlPaE464BOFNedf2IK77YbLRGsmaZ3TLVZ2jK9azpu8oscQckYYTwPtQyUtCkujsjC6if5GPeoxE-Tm1iozIq-CG_60b7vZf2lt-uf5WY5zODSIyMyMtUn61oMS5o2xY2kqzjhE2=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdiOHFsQ7Lj88KNrSVP1NQQWi4mzFN6nOS53RpFBqHXL4b3zI0IGfizm54kyRTUmdZhPP4sx4qGok8ubjaGl2ZAW85swqDGW7xsi9BFovf_ykNOiqKwSo2ryEC30j-dluXLRBYlVDiDI-wZ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nolan Hart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt and his team are FANTASTIC! They are quick, concise and thorough. We had a massive tree needing to be removed in a tight location. The Tree Daddy team completely made this HUGE tree disappear faster than Harry Potter put on his invisib...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCdQp5m5OXfDvfaazwqFA1tvMclFlJUC8Hy24mpE7GTN2n6Z3VRQROCcHtMdT1UkDPnZMESULbENPpkqBoiqJRhRFxKo0JxFssCsR0sCCfnlxQc-qkYnCGXK_q-jAUzkPNmtv1anEyQCxx=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbMaX-MoySESrS0woT8t-Zyn1ArqW4GJV4HqUCIAOeMEzswRJKo0OoaMC1lZ4xR_Nf0kXbcSBHTIUclMgshYzDccgzFIjeDFJKEksTwzs9dz_KsSgJGZvObDD1fAr9I57IJpnZUk7mhonK=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brandi Concolino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’ve had tree work done in the past, but Tree Daddy isn by far the best tree company around. They are reasonable, professional and really care about what their customers want. I highly recommend them!..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Основная база)",

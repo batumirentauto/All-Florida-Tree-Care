@@ -32,21 +32,9 @@ export const siteConfigRosalesEn = {
     "ctaPrimary": "Call Rodrigo (281) 804-5020",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/rosales/photo_001_crop.jpg",
-        "label": "Commercial Brush Chipper & Chip Truck",
-        "alt": "High-capacity orange brush chipper hitched to commercial forestry dump truck with crew"
-      },
-      "sub1": {
-        "image": "/images/rosales/photo_011_crop.jpg",
-        "label": "High Pine Canopy Climber",
-        "alt": "Arborist climber aloft in high pine crown against clear blue sky"
-      },
-      "sub2": {
-        "image": "/images/rosales/photo_008_crop.jpg",
-        "label": "Architectural Entranceway Pruning",
-        "alt": "Manicured live oak tree framing residential paved entrance and manicured flowerbeds"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRosalesEn = {
     {
       "name": "Roadside Fleet Staging & Active Chipping",
       "badge": "Active Brush Processing",
-      "image": "/images/rosales/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRosalesEn = {
     {
       "name": "Subsurface Stump Milling & Grass Restoration",
       "badge": "Zero Lawn Impact Finish",
-      "image": "/images/rosales/photo_012_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRosalesEn = {
     {
       "name": "Roofline Hazard Clearance & Gable Protection",
       "badge": "Gable Roof Clearance",
-      "image": "/images/rosales/photo_013_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

@@ -32,21 +32,9 @@ export const siteConfigMonsterTreeServiceOfTheCoastEn = {
     "ctaPrimary": "Call Oscar +1 650-733-2090",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Monster Tree Service of the Coast tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/monster-tree-service-of-the-coast/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/monster-tree-service-of-the-coast/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/monster-tree-service-of-the-coast/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigMonsterTreeServiceOfTheCoastEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Judith Anderson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Oscar and his crew arrived on time. They cut all of the trees and hedges as discussed. And left my property very clean. They were very friendly and professional. I always call Monster tree for upkeep on my yard."
-    },
-    {
-      "author": "Raymond Brinson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am very happy with Monster Tree Service.  They showed up on time with a full crew (5 individuals).  They immediately started laying out plywood sheets where they would have to walk and carry heavy tree parts and heavy machinery.  They were removing a very, very tall tree in my back yard.  They protected everything from damage.  They did not allow any branches to fall over into my two neighbors' yards, so my neighbors are happy also.  After the tree was cut down into pieces and removed, they cleaned up everything.  And I mean everything.  My yard was so clean you could not even tell they were here to remove a tall, tall tree.  My neighbors were so impressed, they said when they have a tree to remove, they will be calling Monster Tree Service.  This company is awesome!"
-    },
-    {
-      "author": "mosk22rte",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have been using Monster Tree Service of the Coast for the last 5 years and have been very happy with their services. They just topped about 3 feet from the large stand of ficus in our front yard and I was very impressed with their work: they were professional, friendly, speedy, they did a great job, and they cleaned up and removed all of the debris afterwards. We are very happy customers!"
-    },
-    {
-      "author": "Kimberly Kilgo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They got us in quickly. We very professional. Did the job quickly and cleanly. I would hire them again in a heartbeat."
-    },
-    {
-      "author": "Cathy Kennedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They provided an extremely thoughtful and careful pruning of an elderly apple tree to restore structure and health. Every cut had a purpose.  Exactly what I was hoping for. Also great communications during planning. Thank you to the great team!"
-    }
-  ],
+        {
+            "author": "Judith Anderson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Oscar and his crew arrived on time. They cut all of the trees and hedges as discussed. And left my property very clean. They were very friendly and professional. I always call Monster tree for upkeep on my yard."
+        },
+        {
+            "author": "Raymond Brinson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am very happy with Monster Tree Service.  They showed up on time with a full crew (5 individuals).  They immediately started laying out plywood sheets where they would have to walk and carry heavy tree parts and heavy machinery.  They were removing a very, very tall tree in my back yard.  They protected everything from damage.  They did not allow any branches to fall over into my two neighbors' yards, so my neighbors are happy also.  After the tree was cut down into pieces and removed, they cleaned up everything.  And I mean everything.  My yard was so clean you could not even tell they were here to remove a tall, tall tree.  My neighbors were so impressed, they said when they have a tree to remove, they will be calling Monster Tree Service.  This company is awesome!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUcXx9mrhyNw456Px1vERlT-_HMGXpUoHZyVeSfGdertJN8q6gjCT-77W2wEYHfTFpLxZkTLpAEgw1G9SDZF8JQ9-6jHhhcnWkPh4C9M5W-UFHebCgvPc6yMqRjLkarRcdg-XS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt0L5eByLzz9cbEEFc64ARZMYz4B9IGXd2H6Ylr2Shzqr3nyp1zDBS4iJ4vbREKfi1GkOO2grKTpTr5rbqAYOTnZroipHmW9AvfMYxq2kuOoir84dtT9Khrz0_kEAlXsActttJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUsGHUqLsq4K55_kCxBgT6N2aTNZdA19_AtF1KmRWo25RXKHekalwkx6HoIPedEs3ByC8Kvu8NNjdkvqzokKAJVWZVY7ikAPX3FUAP-VArnsP01WJVqn45bRQ0tXbmG_UPnSGPng=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0PbpI4x-2wXjD5xuem1gv9t5qLH6P9u9Mc-g-rpQjm64h4DRuHm7WHGKY20pWNtEKckd2JdaynsSo4-hXWbRBOFBIL-n-bvkguxWquC4TwO6Pot6dSxlZLTUbDb3RZwk3Um8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "mosk22rte",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have been using Monster Tree Service of the Coast for the last 5 years and have been very happy with their services. They just topped about 3 feet from the large stand of ficus in our front yard and I was very impressed with their work: they were professional, friendly, speedy, they did a great job, and they cleaned up and removed all of the debris afterwards. We are very happy customers!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTkrTlXQ4uw2000mtd75gxJ5k3_22kXmus_xvMNY7bQNWeSl0P772YL4u1mWPs7WzNoUXvbJrk2--11oMeV9CODOpBQl71YTQj7Mza9sGi6aFBdgTQ6pnnPaZH8yDfTtwtio7iPQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcEdnVKwe-DitN1svPoJJ0zlDxg4KFfBLUo9z2_n0AdsZjnOtHgfAZeZBD0C8g0ptrF7Tu-2e68QqHmBE0lgY7iOVhizffWHSOGPdpwOdyGB4j1M9ESMM0k769oBYX0zU4CpP0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kimberly Kilgo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They got us in quickly. We very professional. Did the job quickly and cleanly. I would hire them again in a heartbeat."
+        },
+        {
+            "author": "Cathy Kennedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They provided an extremely thoughtful and careful pruning of an elderly apple tree to restore structure and health. Every cut had a purpose.  Exactly what I was hoping for. Also great communications during planning. Thank you to the great team!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

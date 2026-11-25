@@ -31,21 +31,9 @@ export const siteConfigJasonHamiltonRu = {
     "ctaPrimary": "Позвонить (+1 850-938-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jason-hamilton/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Jason Hamilton Tree Service"
-      },
-      "sub1": {
-        "image": "/images/jason-hamilton/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jason-hamilton/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJasonHamiltonRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jason-hamilton/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJasonHamiltonRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jason-hamilton/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJasonHamiltonRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jason-hamilton/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,68 @@ export const siteConfigJasonHamiltonRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brandon Wise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jason came out to look at three trees overhanging my master bedroom from my neighbors property. I originally just wanted them trimmed up like I did last year. Jason asked if I liked the trees and I was not a fan. So he quoted to remove the ..."
-    },
-    {
-      "author": "C G",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: First, I must apologize for the length of this review, but I must share the great experience with a tree service company I recently used.\n\nAfter a tree crashed through the roof of my commercial building, I realized that several trees needed..."
-    },
-    {
-      "author": "Jessica Kleinfelter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jason Hamilton Tree Service was fantastic! I called and spoke with Jan to schedule the free estimate; she was just a delight. We had already obtained estimates from several other well-known companies in town. Mr. Hamilton personally came to..."
-    },
-    {
-      "author": "Tmp P",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: HIGHLY RECOMMEND!!!  Had to remove two very old pecan trees. Jason came out gave us a fair price and scheduled us as soon as we were ready.  1 day in and out; very clean and minimal signs they were even in the yard.  Expert arborists and cl..."
-    },
-    {
-      "author": "Buddy Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jason and his crew did a top-notch job removing a water oak from my neighbor's yard. It was a very large tree that was leaning toward my house. He removed the tree which was located in a corner of the backyard. With a small space to work in..."
-    }
-  ],
+        {
+            "author": "Brandon Wise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jason came out to look at three trees overhanging my master bedroom from my neighbors property. I originally just wanted them trimmed up like I did last year. Jason asked if I liked the trees and I was not a fan. So he quoted to remove the ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkHF5BmVaAHhQxSLNXeuFB8jvTRo6PQ70N2PxzlDRvh1TfV9kYM2Fd3-5xnfI00wILOfprQXB01yiu2wKKTR1fI_gRN_4_HIsKsuUxsBquTy4NAbfhtZVpIcYqJrgXIdqWCD-PKKq9S76w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgv9Nrq0pKs4XTVSEx4ea4HSoRIUK8l9hERB9xekpewDigz8iDQsFadllGQamx5bGYPYVzK1J0y2edLPwK_PPvvQOG2cxWrhYNO7HAjwTkQkKolND5qlPGoVzTmf6qSCWZLDxGyyVdKQ5p=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJpvudwTuF9X0bU4QuNTX9NMypFeoukHqDtkNyHNTgqe4jhgEsZFSbB2V0IHgGcBXvaKlzsS5n8yYjJQJdeO5_0GfEd5M0egODyAZY7i-zX-GQgNXWOwiRE9ZvtjMg-i0rlgAOOBL01gE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfZmo2ccV2gP0--nK_5oCx1tVnKO2OMrrA2l4uBww11fT3J_nVv9hwPjppeInnxVjYm0WaZM3CU_YpdEVKUzbHpos6Qg09mxVp969vRcJIJEBFMW3MUo9o_EZ1KyO5FiI9uCrLR10VMHfg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "C G",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: First, I must apologize for the length of this review, but I must share the great experience with a tree service company I recently used.\n\nAfter a tree crashed through the roof of my commercial building, I realized that several trees needed...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkb8Gyhpu78em9KnR9iTAw0Ma6EkhUuFlADuigmbvvPph-qkMnb7MYMRxM1FRRAOXQdzf3ykObeoEZufgORxDupczJQLlqFl-WrfUSRlKskVZmQR6udUfh6NvXbkk31XZ-J_Nw5QXceDty=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRgXPb6to6emMwJBX42pjTVmt2_VBtF688ujnLohZ4g-uUmAv382dZLjAV0nK7t1ZViXOxD1ZgJdgL15MA4t60S5b5yrKQdLOTQs6VF3_wtqFm3LBDd9R5gNQNiQEV46LRh0VrT5PaVYIn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUk8rdD137dh5AUSTwI7slmobUxyPI1av2j743t5yJ9CZxazVTc09jkerWH4PGHIQBSoLiIYs3hG_Zlrq85HUb2KO3zTlx_xb7UeWnDTQd1qm5nGLtKV07TZ0HlyfZpPib-iTKpRI_rzMm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPFAa-UxWYW-wRXCQuM3BDD6hLAwidEhA8ftgjrTNvYtYbS_sugGHgm5Hhp9Y5F6FVeEmwo8bHrEO7A4nlyPHIHxuqILVcnHA8P_0ZiCSaY9E38R_jeNq4vu4q8XteENN_-4faYMApYro=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Kleinfelter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jason Hamilton Tree Service was fantastic! I called and spoke with Jan to schedule the free estimate; she was just a delight. We had already obtained estimates from several other well-known companies in town. Mr. Hamilton personally came to..."
+        },
+        {
+            "author": "Tmp P",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: HIGHLY RECOMMEND!!!  Had to remove two very old pecan trees. Jason came out gave us a fair price and scheduled us as soon as we were ready.  1 day in and out; very clean and minimal signs they were even in the yard.  Expert arborists and cl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvjpBH8Caqq3YjROVpVEV7UdusY5iNsk71SxFSVT8yZd5l1TMgC4uVmnVjXnAAuduNrxDxeOcQuSSd8IcZxoUsM6hmqfV1RB62DmneBI-XM2pFUNo8kzTzi1RO2qyHrIq1c3lVAqFfJTEG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFYTl7VmGxRX7rOOgTXn0Dfzl1LMeoYB8mDhTN6_KnEIYzR3DoLsXGhjME8qxY4dVwAJ2VwRsmOyPl5dp6z41fbrTPY-PyQK9PG5mIKcHRTAKJsLKmPjuKMYqVH_PusebFucEOsaYid8t8=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Buddy Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jason and his crew did a top-notch job removing a water oak from my neighbor's yard. It was a very large tree that was leaning toward my house. He removed the tree which was located in a corner of the backyard. With a small space to work in...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhffIzC5Emm-PnRchPSuNyi2YY7iix4irg6_NEdFpu0kToHpcB69DfD9B2GW9BAy1eVXTrmZkWocBd2Khn8jTrq_kkuEw9AcAqExvr3Tc6sPriEg6gmgIw_xDdQkhzWDPSuSvRJw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdjR8gSU9jLnq_rPyyzStH_DQBdSFtHNgIhGzpo3BEMXoWe8XfuPmvaVAutp0hCwi6il4TfyhTNdyjt6OWYBBIBTbPMW03KIQh9_bcZMKhBV0hvY7xwoblqR0qiVaDN5U-n3pY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehu9bNasN1QWwmQ76JC5URk-Hfdlj_GwvaK9R_Pe5WjRY8c13UI7BOnovqUEGU-QTJWsYEhr32ktYvVlrMivLKCoF-xXn9TEjPIB0HS0pS9fPft045IPOvkb2m3MdjKEszn7VjAw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tallahassee (Основная база)",

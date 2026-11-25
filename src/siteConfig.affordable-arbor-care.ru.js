@@ -31,21 +31,9 @@ export const siteConfigAffordableArborCareRu = {
     "ctaPrimary": "Позвонить (+1 321-947-3199)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-arbor-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Affordable Arbor Care"
-      },
-      "sub1": {
-        "image": "/images/affordable-arbor-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/affordable-arbor-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAffordableArborCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/affordable-arbor-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAffordableArborCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/affordable-arbor-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAffordableArborCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/affordable-arbor-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigAffordableArborCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "D. Jaxxson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 8 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had Joe and Stephanie come out and provide a quote based on some observed work I saw them do near my rental property. Hired them to clear some trees at my home. They showed up late, but Stephanie called me the entire time and kept me abreas..."
-    },
-    {
-      "author": "Wanda Garcia",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Joe came out the same day to give an estimate after I was stood up by another company.  I needed to have 2 trees removed. He explained in detail how the process would be. I am so glad I picked Affordable Arbor Care. Joe is reliable, knowled..."
-    },
-    {
-      "author": "Christopher Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have used Affordable Arbor Care twice now for our trees, and they are fantastic!  They always do great work at a very reasonable cost.  Their team clearly loves to take care of trees and knows their business well.  They will not only tri..."
-    },
-    {
-      "author": "Gloria Magee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have five trees that needed trimming; two of them were resting on my roof. After calling two other companies, I decided to go with Affordable Arbor Care. Joe and Stephanie both came out to provide the initial free consultation/estimate. I..."
-    },
-    {
-      "author": "Nicholas “LOaF NINjA” Boyd",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Affordable Arbor Care came out quickly to give an estimate for completing a job the previous company failed to finish. Joe and Stephanie, as well as their crew, were very professional, thorough, and easy to work with. I am very please with ..."
-    }
-  ],
+        {
+            "author": "D. Jaxxson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 8 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had Joe and Stephanie come out and provide a quote based on some observed work I saw them do near my rental property. Hired them to clear some trees at my home. They showed up late, but Stephanie called me the entire time and kept me abreas...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdpSpjZuRJ-JSvjSPTwSpLxCvN_Rl_MDgqzJO3WJtcWt626-UmQJIHbj98mAPwrFyHcvCk3KZ7iYBjl5beh6fcfmOUvJDFIc9xOs3bNw2sTPYB_1ydZpfsVaSQsU8pVSBxWooZC=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Wanda Garcia",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Joe came out the same day to give an estimate after I was stood up by another company.  I needed to have 2 trees removed. He explained in detail how the process would be. I am so glad I picked Affordable Arbor Care. Joe is reliable, knowled..."
+        },
+        {
+            "author": "Christopher Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have used Affordable Arbor Care twice now for our trees, and they are fantastic!  They always do great work at a very reasonable cost.  Their team clearly loves to take care of trees and knows their business well.  They will not only tri..."
+        },
+        {
+            "author": "Gloria Magee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have five trees that needed trimming; two of them were resting on my roof. After calling two other companies, I decided to go with Affordable Arbor Care. Joe and Stephanie both came out to provide the initial free consultation/estimate. I..."
+        },
+        {
+            "author": "Nicholas “LOaF NINjA” Boyd",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Affordable Arbor Care came out quickly to give an estimate for completing a job the previous company failed to finish. Joe and Stephanie, as well as their crew, were very professional, thorough, and easy to work with. I am very please with ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Основная база)",

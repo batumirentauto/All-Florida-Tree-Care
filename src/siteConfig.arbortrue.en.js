@@ -32,21 +32,9 @@ export const siteConfigArbortrueEn = {
     "ctaPrimary": "Call Arbor +1 832-980-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/arbortrue/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "ArborTrue tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/arbortrue/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/arbortrue/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigArbortrueEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/arbortrue/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigArbortrueEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/arbortrue/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigArbortrueEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/arbortrue/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigArbortrueEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Virginia Rivers Howard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mario and Fabian and his crew were AMAZING.  They came immediately and did an astounding outstanding job.  I really appreciated their care and methodical expertise in the large tree removal.  They cleaned up every leaf and branch so you could not even tell a tree or removal had ever been there.  I will certainly use them again for all my arborist needs and cannot recommend them highly enough.  A 10 out of 10 on every level!"
-    },
-    {
-      "author": "Janet Hampton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After lightning struck our 45 year old Shumard Oak, I contacted ArborTrue to have an arborist look at the tree and see if it could be saved.  Kerryn, who works in the office, was incredible.  She looked at my pictures and scheduled Mario, the arborist,  to come view the damage within 24 hours.  Mario was incredibly knowledgable and very patiently explained what had happened, and what could be done.  He then sent proposals detailing everything and a price. He offered multiple options and explained each of them.  I can easily see how Arborture gets the high ratings they do, they deserve them."
-    },
-    {
-      "author": "YW",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mario and Fabian were great! I had gotten a quote for a different company and they did bare minimum in the consultation and a very expensive quote. Mario on the other hand came prepared gave a thorough analysis, recommendation and guidance. I appreciate how detail he was in his explanation. He was also responsive even after the consultation was finished.\n\nFabian and crew were also great. Responsive and gave me clear updates when the crew was here and done. Helped give me some insight on spacing as well. They worked efficiently and cleaned up after.\n\nThe minor feedback I'd give is for the operations to provide a little more clarity on window of tree scheduling. I was given a day and no timing until I asked Fabian/Mario directly.\n\nOverall very happy with my new trees. The price was good and the service was good. Would return if I needed more services from them."
-    },
-    {
-      "author": "Sally Winstead",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Today I had an appointment with Austin, an arborist from ArborTrue. Austin clearly enjoys his job. As Austin’s newest client I have confidence in his ability to assess my concerns and what I want done. He called ahead, arrived promptly at the time we agreed upon, was professional and very knowledgeable. He responded to all my questions with honest answers and the scientific evidence to support it. Before Austin left I had a line by line itemized quote. I could pick and choose tasks according to my budget. (Be advised: Austin will tell you if some tasks should NOT be done without a different task preceding or following for the health of the tree and efficacy of treatments)\n\nThis is my third experience with ArborTrue. Every time they come to bat they hit it out of the park.\n\nThe tree’s highest good is Austin’s, and  ArborTrue’s, focus and goal. These long-lived anchors of the ecosystem add value to my property. Trees are an investment deserving smart maintenance. After a five minute visual investigation of the tree bark, soil quality, growth patterns of visible knees of the tree roots, Austin had an immediate solution worked up with several therapeutic and targeted preventative approaches for my forty-five year old Live Oak which is being attacked by a fungus. Planted in 1980, my Live Oak tree is now equivalent upwards of $50,000 in retail value due to its size. It provides shade to my house from the brutal Texas sun. The healthier the tree is the stronger and flexible it can be to withstand hurricanes, floods and careless humans with sharp tools. I can go on and on about why my tree is worthy of ArborTrue’s care but if you have read this far into a Google review it’s my final suggestion is don’t hesitate. Request for Austin to visit your property and evaluate the situation. If you decide to hire ArborTrue then Austin’s evaluation (or any of their highly educated and trained arborists) is included. Take notes because he’s going share a lot you never knew about trees and your property’s micro ecosystem. He is honest if you should leave something alone.\n\nMy photos show the aforementioned Live Oak’s fungal infection, the fantastic trimming ArborTrue did last spring, and the moon and a rainbow framed by the Live Oak’s leaves.\n\nThank you, Austin, for helping us get on the road to recovery. ❤️‍🩹 🌳"
-    },
-    {
-      "author": "James Abell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Today was the third time I used ArborTrue to trim and fertilize the large live oak tree in my front yard. Gabriella J notified me when the tree trimming crew was on the way ( I scheduled the event in November after Philip came out to provide a quote and we agreed to wait until after the holidays in December due to Christmas Decorations).  Eli arrived with his two man crew when promised, greeted me, and explained what process would be followed to complete the tree trimming event. They accomplished the process (including cleanup) within the estimated time of 90 minutes. He answered all my questions and requested my final approval of the job before he left.\n\nAngel arrived within 10 minutes of Eli and his crew leaving to apply the deep root fertilization of my live oak tree.  He also answered all my questions about the fertilizer used (organic) and the methodical method used to apply the nutrients to the soil to completely feed my tree. He completed his task within 30 minutes.\n\nI called ArborTrue office to pay via credit card and talked to Karyn. She was very polite, professional, and friendly as she completed the transaction.\n\nI would wholeheartedly recommend ArborTrue for any tree trimming and/or fertilizing needs to maintain a healthy tree.\n\nJames A\nAtascocita, Texas"
-    }
-  ],
+        {
+            "author": "Virginia Rivers Howard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mario and Fabian and his crew were AMAZING.  They came immediately and did an astounding outstanding job.  I really appreciated their care and methodical expertise in the large tree removal.  They cleaned up every leaf and branch so you could not even tell a tree or removal had ever been there.  I will certainly use them again for all my arborist needs and cannot recommend them highly enough.  A 10 out of 10 on every level!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVjGyEWsQDMUVQe8GVqU4cld4a0GuOUurIPookgt8X0okQRAo0ls0hcXImIvyXmko4ACZctW5Kf91hh1RaG8-dfsrip6p5hikl-NRvgq6eOpSJBZSnQPuipjCn8WBBEBhU2HjjdQZkDUI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRZdv807QNZjpiWsa9t_Pl16Dbnb6g_RwAlwcxoCMlknDJ7x7yUCtyMIC9h3CQPAs_6ceeQ-vNG9Ri5g7HRUdseGFj8ZCJYjG1QR8lhqfuJLYN7MRTFbiKufPcOa9ov9H935sO6rvCl5sq=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Janet Hampton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After lightning struck our 45 year old Shumard Oak, I contacted ArborTrue to have an arborist look at the tree and see if it could be saved.  Kerryn, who works in the office, was incredible.  She looked at my pictures and scheduled Mario, the arborist,  to come view the damage within 24 hours.  Mario was incredibly knowledgable and very patiently explained what had happened, and what could be done.  He then sent proposals detailing everything and a price. He offered multiple options and explained each of them.  I can easily see how Arborture gets the high ratings they do, they deserve them."
+        },
+        {
+            "author": "YW",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mario and Fabian were great! I had gotten a quote for a different company and they did bare minimum in the consultation and a very expensive quote. Mario on the other hand came prepared gave a thorough analysis, recommendation and guidance. I appreciate how detail he was in his explanation. He was also responsive even after the consultation was finished.\n\nFabian and crew were also great. Responsive and gave me clear updates when the crew was here and done. Helped give me some insight on spacing as well. They worked efficiently and cleaned up after.\n\nThe minor feedback I'd give is for the operations to provide a little more clarity on window of tree scheduling. I was given a day and no timing until I asked Fabian/Mario directly.\n\nOverall very happy with my new trees. The price was good and the service was good. Would return if I needed more services from them."
+        },
+        {
+            "author": "Sally Winstead",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Today I had an appointment with Austin, an arborist from ArborTrue. Austin clearly enjoys his job. As Austin’s newest client I have confidence in his ability to assess my concerns and what I want done. He called ahead, arrived promptly at the time we agreed upon, was professional and very knowledgeable. He responded to all my questions with honest answers and the scientific evidence to support it. Before Austin left I had a line by line itemized quote. I could pick and choose tasks according to my budget. (Be advised: Austin will tell you if some tasks should NOT be done without a different task preceding or following for the health of the tree and efficacy of treatments)\n\nThis is my third experience with ArborTrue. Every time they come to bat they hit it out of the park.\n\nThe tree’s highest good is Austin’s, and  ArborTrue’s, focus and goal. These long-lived anchors of the ecosystem add value to my property. Trees are an investment deserving smart maintenance. After a five minute visual investigation of the tree bark, soil quality, growth patterns of visible knees of the tree roots, Austin had an immediate solution worked up with several therapeutic and targeted preventative approaches for my forty-five year old Live Oak which is being attacked by a fungus. Planted in 1980, my Live Oak tree is now equivalent upwards of $50,000 in retail value due to its size. It provides shade to my house from the brutal Texas sun. The healthier the tree is the stronger and flexible it can be to withstand hurricanes, floods and careless humans with sharp tools. I can go on and on about why my tree is worthy of ArborTrue’s care but if you have read this far into a Google review it’s my final suggestion is don’t hesitate. Request for Austin to visit your property and evaluate the situation. If you decide to hire ArborTrue then Austin’s evaluation (or any of their highly educated and trained arborists) is included. Take notes because he’s going share a lot you never knew about trees and your property’s micro ecosystem. He is honest if you should leave something alone.\n\nMy photos show the aforementioned Live Oak’s fungal infection, the fantastic trimming ArborTrue did last spring, and the moon and a rainbow framed by the Live Oak’s leaves.\n\nThank you, Austin, for helping us get on the road to recovery. ❤️‍🩹 🌳",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfafUkT8EN_9bN7TioPifKu6MHUsqDVBbF3oLgbD42gk3gTf9REw7hB4cKhgd4tiN01AgZ7I4TLaCqzw6aw_9tUepzG-R_p642pnbWkPrfR_GBdJhtEI7WQkIXYFj3XbxFp0QsIdZHIcVW3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_b_JorKMbMIETBGwelXqFcYMvMWWeAXZjjUK-2TsuZw4sqv8R0AsFkhyNJ4rW67GbLYGIM3iA1En5ho6SyNPrqTclRwzT2oFpvehtpt8s7l67NnlVCqXMDiOR9hMOtrtj2tzKXle8RJp5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd772drA_KRxGvEBMLkkJH_4KDfe5mT6ft1d7uCQHyztFpIvRyKRniv_A8fnqA7s484Gl5iJ-5i-KjyQSIWBkU8Db3WDoUUTc93geFIzQXPMsLMa01r4y18SAg5UFn_Ilp_lux0YfDtZu9R=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfRzacXq6gQL9HsbesEDfqj8wO3RnTbZXoOHTdbqw4Cir9DNJdIu_tDiggJuKJR-tpQomya7g9wuFWcGwgRPjwdX9K3bCgU522D0K5Wsmdp4CG6tqVqFGbrIWH7_W4bn4Qe2yaMv8JAm4JX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "James Abell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Today was the third time I used ArborTrue to trim and fertilize the large live oak tree in my front yard. Gabriella J notified me when the tree trimming crew was on the way ( I scheduled the event in November after Philip came out to provide a quote and we agreed to wait until after the holidays in December due to Christmas Decorations).  Eli arrived with his two man crew when promised, greeted me, and explained what process would be followed to complete the tree trimming event. They accomplished the process (including cleanup) within the estimated time of 90 minutes. He answered all my questions and requested my final approval of the job before he left.\n\nAngel arrived within 10 minutes of Eli and his crew leaving to apply the deep root fertilization of my live oak tree.  He also answered all my questions about the fertilizer used (organic) and the methodical method used to apply the nutrients to the soil to completely feed my tree. He completed his task within 30 minutes.\n\nI called ArborTrue office to pay via credit card and talked to Karyn. She was very polite, professional, and friendly as she completed the transaction.\n\nI would wholeheartedly recommend ArborTrue for any tree trimming and/or fertilizing needs to maintain a healthy tree.\n\nJames A\nAtascocita, Texas"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

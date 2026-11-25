@@ -32,21 +32,9 @@ export const siteConfigPuregreenTreeServiceEn = {
     "ctaPrimary": "Call Mark +1 336-341-5339",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/puregreen-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "PureGreen Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/puregreen-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/puregreen-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPuregreenTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/puregreen-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPuregreenTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/puregreen-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPuregreenTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/puregreen-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigPuregreenTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sydney Lohr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a HUGE dead tree on our property that needed removing as it was a threat to multiple homes were it to fall on its own. Mark and his crew took care of it quickly and efficiently, they were very respectful of the property and ensuring nothing was in the path to possibly get damaged! We appreciate their work so much and definitely recommend them for any tree removal needs! Thanks so much Mark!!"
-    },
-    {
-      "author": "Phillip Powers",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Thanks for your understanding with the two postponed appointments, and your quick response when the time was right. I commend you and your top notch crew. The work and cleanup was as I would expect from you and your company. Thanks again."
-    },
-    {
-      "author": "Joshua Krezel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mark and his crew at PureGreen Tree Service did an outstanding job clearing the overgrown yard at a house we recently purchased that had been vacant for 16 years. They transformed the property, removing years of overgrowth and making it look like a completely different place.\n\nFrom start to finish, they were professional, courteous, and incredibly hardworking. They showed up when they said they would, worked efficiently, and left the property clean when the job was done. The quality of their work exceeded our expectations, and it was obvious they take pride in what they do. I highly recommend PureGreen Tree Service to anyone looking for dependable, professional tree and land clearing services!"
-    },
-    {
-      "author": "Matt Darcy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had two trees I needed removed and the folks at Pure green not only gave us the best price but they showed up and made short work of them both. 10/10 would recommend their service."
-    },
-    {
-      "author": "Kenneth Krise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew that came out were very nice and friendly. After I had already had work scheduled for them to do I found a few more things I wanted done. They said it wasn’t a problem and I feel they gave me a great deal. I would truly recommend them."
-    }
-  ],
+        {
+            "author": "Sydney Lohr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a HUGE dead tree on our property that needed removing as it was a threat to multiple homes were it to fall on its own. Mark and his crew took care of it quickly and efficiently, they were very respectful of the property and ensuring nothing was in the path to possibly get damaged! We appreciate their work so much and definitely recommend them for any tree removal needs! Thanks so much Mark!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfe4jzh07kel9aKLP66Kawj-oKXDMVGTm-2vqQYwyLxXtQvZarzGkxtUnwDkMLqAQsI6fgE3rkiuijkCSADZ41RawpnT13hD8Dr7eE3QZlgpDjDjkoV1QeJolw7017kepo0QwtgZGjQp7bM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYcLN0KebYYficy7kC5Ga4UUGoF4Ee-cXCI7-_-j1svzA35sMyJ7YqOjreyZ4y8LhWqwZemzB92nK687rU-MCy4Q-NymbTq4UeC0FjqmY2p-KU7Q0x2kYnyAO1JQgn-vN3oMefaEX3N7c=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Phillip Powers",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Thanks for your understanding with the two postponed appointments, and your quick response when the time was right. I commend you and your top notch crew. The work and cleanup was as I would expect from you and your company. Thanks again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccSQDseGS7S1oayJwgyA9499LhLv9qpCYMcgkmRSGW6Vn-ZqUm0nYKTxAKgMVArYU8wBT3Bk7NaJMYSkL4xzB0ts3l_mbkJjR9OD806TkxeL1aPQy3OuOXYwVKL3phkwJ7vRimCO7MiTsk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIkPNKMHubRgsUxw9EJerXFxCvysQY7EhXxw8E2BrRcEpMe85ZgBtLZ5PBcBT4LdYFbz3S-So1cs9r58hQT6JEi4tfHeCf4I9719EcYepOdbtexTzcYefKwRl5uPRKwhNJUqCZrP9M6Mw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHSqZGjw-imBo5pMbWGhl7QIR9YQ23D_Dl2KJejo0RUZ3sjTsPfCNTL9k447k_D3gI27_oT04ZkkYeF9GYYysDaQsbFIjVzOUnAB9SLebIxt9scLCM5kpR4_f9iB_b_SDWkZhWTssbFxnn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrYdHl3xTVmdLGF1EujBsisxP5hWAFnSCichXWX-cbfpUfVCSHxzU-9X5WVKNQ8KyQw5OBEgjK7EYmRzk4XzdpGA9EP3kdG7z6TgM_KsaSkfDyP2a0bhepBiHelMWQQJqY7bg5D_tdpHuz=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Joshua Krezel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mark and his crew at PureGreen Tree Service did an outstanding job clearing the overgrown yard at a house we recently purchased that had been vacant for 16 years. They transformed the property, removing years of overgrowth and making it look like a completely different place.\n\nFrom start to finish, they were professional, courteous, and incredibly hardworking. They showed up when they said they would, worked efficiently, and left the property clean when the job was done. The quality of their work exceeded our expectations, and it was obvious they take pride in what they do. I highly recommend PureGreen Tree Service to anyone looking for dependable, professional tree and land clearing services!"
+        },
+        {
+            "author": "Matt Darcy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had two trees I needed removed and the folks at Pure green not only gave us the best price but they showed up and made short work of them both. 10/10 would recommend their service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnUnGmaQtER57ugtZ4CcXudW8MJpc3PvSCmGPJvzavJl-IJOsePNUNCoDihihOZ_fUgaC9nfJXAWmj0DWAH4LL74HvMezktWHAcp40qxqrZW1tt4Pw9ws2EBX3X4V8dA3CALMxMws2d6F1=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMQnPIaMqDw50SUBaijkd1xMjb2oRBmufusI_l_54r-r3kSrsuKxWNdcHGgLM3MbMhzxKEyjbK8vOiJXeOMOFoiwXFBdfY1lHpf_0RKR4HpYsOzxV-pDqWBoGwzzgkkgM5OlnKSKzZFJQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kenneth Krise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew that came out were very nice and friendly. After I had already had work scheduled for them to do I found a few more things I wanted done. They said it wasn’t a problem and I feel they gave me a great deal. I would truly recommend them."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

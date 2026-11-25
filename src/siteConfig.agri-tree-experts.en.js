@@ -32,21 +32,9 @@ export const siteConfigAgriTreeExpertsEn = {
     "ctaPrimary": "Call Crow +1 210-912-2349",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/agri-tree-experts/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Agri Tree Experts tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/agri-tree-experts/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/agri-tree-experts/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAgriTreeExpertsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/agri-tree-experts/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAgriTreeExpertsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/agri-tree-experts/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAgriTreeExpertsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/agri-tree-experts/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

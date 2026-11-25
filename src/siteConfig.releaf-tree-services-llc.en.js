@@ -32,21 +32,9 @@ export const siteConfigReleafTreeServicesLlcEn = {
     "ctaPrimary": "Call Lead +1 941-323-5528",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/releaf-tree-services-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Releaf Tree Services LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/releaf-tree-services-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/releaf-tree-services-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigReleafTreeServicesLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/releaf-tree-services-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigReleafTreeServicesLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/releaf-tree-services-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigReleafTreeServicesLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/releaf-tree-services-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigReleafTreeServicesLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Buddhaboy420",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great service!!!  Had them remove a tree stump and it went great. We spoke a few times via text and on the phone. Showed up when they said they would and were very polite and professional.\nDefinitely recommend!!!"
-    },
-    {
-      "author": "Audio Workshop",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ian was great, very professional and courteous and on time! We had a 50'+ pine tree to remove and stump grind... done in under 2 days! these guys got the heavy equipment to do just about any job efficiently, I was impressed. Highly recommended you won't be disappointed... Cheers!"
-    },
-    {
-      "author": "Nora House",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great experience with Releaf Tree Services. Prompt, professional and excellent work at very reasonable price! I had a HUGE stump left from a Banyan tree that Milton took down. Ian came in and took control and did an amazing job in a short period of time with his professional equipment that was needed to get the job done! I highly recommend him for any tree services you might need. He is an Arborist as well as doing the dirty work! He goes the extra mile and is a man of his word when he underestimated my job from pictures! I think we worked that out though! You won’t be sorry if you give this young man your work. All the stars for this great young man!!"
-    },
-    {
-      "author": "Jim Moore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ian, and his crew removed my  damaged, sick Oak tree, and grinded the stump. They did a fantastic job! Everything was done professionally,  in a timely manner, and at a fair price. Ian communicates excellent,  and is very pleasant. Definitely who you want taking care of any tree, or stump issues!"
-    },
-    {
-      "author": "Marco Ramirez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Releaf Tree services did a great job grinding  the big stump I had in my back yard. They were professional and gave me the best price!  Will definitely be using them again anytime I need tree services."
-    }
-  ],
+        {
+            "author": "Buddhaboy420",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great service!!!  Had them remove a tree stump and it went great. We spoke a few times via text and on the phone. Showed up when they said they would and were very polite and professional.\nDefinitely recommend!!!"
+        },
+        {
+            "author": "Audio Workshop",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ian was great, very professional and courteous and on time! We had a 50'+ pine tree to remove and stump grind... done in under 2 days! these guys got the heavy equipment to do just about any job efficiently, I was impressed. Highly recommended you won't be disappointed... Cheers!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeH2_CbuVlGiEtzqiKa9KJFw9uPoZDlJxY-EUCSYoq829czJU5OMHKmWTNUwIhDPc16pgoFzdOiRN-FtjHfOZ36VxZ5imjBRpTLhruwDunPdbd9dHakoKbTOoEb-KxXPgtxdurTbg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Nora House",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great experience with Releaf Tree Services. Prompt, professional and excellent work at very reasonable price! I had a HUGE stump left from a Banyan tree that Milton took down. Ian came in and took control and did an amazing job in a short period of time with his professional equipment that was needed to get the job done! I highly recommend him for any tree services you might need. He is an Arborist as well as doing the dirty work! He goes the extra mile and is a man of his word when he underestimated my job from pictures! I think we worked that out though! You won’t be sorry if you give this young man your work. All the stars for this great young man!!"
+        },
+        {
+            "author": "Jim Moore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ian, and his crew removed my  damaged, sick Oak tree, and grinded the stump. They did a fantastic job! Everything was done professionally,  in a timely manner, and at a fair price. Ian communicates excellent,  and is very pleasant. Definitely who you want taking care of any tree, or stump issues!"
+        },
+        {
+            "author": "Marco Ramirez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Releaf Tree services did a great job grinding  the big stump I had in my back yard. They were professional and gave me the best price!  Will definitely be using them again anytime I need tree services."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sarasota (Central Depot)",

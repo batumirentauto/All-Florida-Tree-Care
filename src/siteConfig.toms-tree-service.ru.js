@@ -31,21 +31,9 @@ export const siteConfigTomsTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 714-531-5379)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/toms-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tom’s Tree Service"
-      },
-      "sub1": {
-        "image": "/images/toms-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/toms-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTomsTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/toms-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTomsTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/toms-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTomsTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/toms-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,72 @@ export const siteConfigTomsTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Amy Audelo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We just moved into our new home and the property had numerous trees that were hazards that needed to be removed and/or maintained. When we reached out to Tom’s Tree Service we weren’t sure if all the work could all be done in one day. They ..."
-    },
-    {
-      "author": "logan bechtold",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Toms Tree service came out and took down this massive tree out in front of our apartments we own here in OC. The worked really well with my tenants to take care of concerns about things falling on cars, ETC. Tom Curran and his crew were ver..."
-    },
-    {
-      "author": "Jim Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’m a property manager in charge of a rather large portfolio in Orange County, Riverside County, and LA County and I’ve been using Tom’s Tree Service for the last 22 years as our trusted tree trimming vendor for all of our properties.\n\nThey..."
-    },
-    {
-      "author": "Cameron Presti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had TJ from Tom's Tree Service come out to prune our fig, avocado, peach, and citrus trees, and we couldn't be happier with the results. TJ was friendly, professional, and took the time to explain what each tree needed and why. He also t..."
-    },
-    {
-      "author": "Tyler Vanderstelt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Called Tom’s to come and remove 2 trees in my front yard recently. They responded very fast when I put in an inquiry on their website, came out the next day for an estimate, and were very professional from start to finish. I was very happy ..."
-    }
-  ],
+        {
+            "author": "Amy Audelo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We just moved into our new home and the property had numerous trees that were hazards that needed to be removed and/or maintained. When we reached out to Tom’s Tree Service we weren’t sure if all the work could all be done in one day. They ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdccsUsQse0FOv5sQmaQwltsSvHmnFqQTI3Kz-rczLR2-lrXV1Iwkt1nen_b5TVYjl9YTFk8pR9dhGK8cpkaFKCq421EqkAhw_H22t4Pal6A8_C4CixJyTMIhpH8BYB01nK9RKF_qtRECs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0M3PFFePDkN-e6XTw0IiYqiRPwo8eHh9PVGGrITNMrPqanoscZlOTXF9sy_mLxOvbNACueE_RnUlaz4vgEiLr_Da6TVJstMa5BbU32Z5RsRnGEBJEFdOJ--vnLH50xmlbQrPkydwpj57-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1Ask6ci4UhVPanv-GO95O2ZYDOzKzxoI900clPJJpOLT5g3Qm5FSC2GRctZaGHceH73qm_WBjcWAZcW3EuVR-3nfBQ7wN4xHh0X6XeRjTbZyxKcFjH4K2-ByTkBYIixporrz7KPc2HWA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqacJapM6tSol72N1La31Y-vMQNw-92HodMGGLKf8_D1e7CZ4C1K2EJINLz9Ibo_LMhk2tNVjNiqe3CdDgWzE5PUdtGeL0tcyI5iNk2oApbaJ5iwHTv02paODsgS84mqhu_mRd0DXofsMs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "logan bechtold",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Toms Tree service came out and took down this massive tree out in front of our apartments we own here in OC. The worked really well with my tenants to take care of concerns about things falling on cars, ETC. Tom Curran and his crew were ver...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcArKVQ0f48P-tuSwDk_5lTimirRvPwG2YWDK-OMYE-TPAleVYyHBCIG-Ngr6wgnMajpWIwGwP9lBsPQvaI0gI3ErESVUh4NnrQTnUEkIyhDSXg-3X-MBu7iFehaSFyRtZV_VeAc8Tg51Re=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7_bFP_eIlpSjk6ocLOJznQnJ9v0o0cz50m_gid-UGQgKyHTF05Dj9CVlQfcE26s2bUMXAIN4tI7-h7CAxEX82h5uPQecDopCFnOCEmPOdhI_Z8XIQfMetlYuK5i3HhyPpiAVvpIFmcIbl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSoR_IhRRALFm6fALlxIgy6Ad5b-1IdXqIlcUcJZr7v2rqSU0eCzWga4ahqWe9ID23PpLIPagr0SEI5bL8jK8RvnMnTGlJhfGFTw9vPhH_Zwt2uW94y10IyjW2Fk1HqRjJJc1PEbcQbNzs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jim Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’m a property manager in charge of a rather large portfolio in Orange County, Riverside County, and LA County and I’ve been using Tom’s Tree Service for the last 22 years as our trusted tree trimming vendor for all of our properties.\n\nThey...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdH7-fZlcVeoh98fI2hanzMPoASJf2yK6M_XwXIG031HDgqEJta70nA5qLWl0dH2MFQ9I6O8_sXbs_mBSAoghpUcnmIuz7R6pVng-A8q1tXNRHpcZjXIPRLAt5gdzcd498Wgw2yIjiijQ0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLexlYsj6PhjVzaffXAyi-uSUAB8mUHLkue38rrBu--7-hf97Y5yJGa0clrEmSioyG8kZ1rl_UQjx3mazhWnN7CgZz5VLrwqeiR1YHROr1w6Hn-Fc4Ir8MqAEdcBxpGjUDcJr9N3jItt97w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIL9nDqDiawCPng-SwQBPGGsR3mlXrr2sopI_F4srU7X2TKQTvHLSlothsIWFqiVLbOTAvMf7qk6gOSjkcMOIZR73horGBZ1R7AA1m-AzPqr6PyAtL7U9UZfh7fm0GnkwFgd2oXoAmeDY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3n1u2hpGYLr-EoTWLtunJJ3hHeJoOIsiP5vYYa8_Gpa6IFZbnTfB88cArxfxFHq8HJTVOtUnH5sEw7GuHk-0Se6AYZWkCeLkNl9NKHyKykT8xF8DQ13BL2K7r2jv2fOHKNBUFgnOAiIo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Cameron Presti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had TJ from Tom's Tree Service come out to prune our fig, avocado, peach, and citrus trees, and we couldn't be happier with the results. TJ was friendly, professional, and took the time to explain what each tree needed and why. He also t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdiRXA6V9g97kWewfyUQikOiiQjDaNN4rvxQr0-lMO3Sc8VcIL0gzJCmGg2nyxNW_aGfLFOXRm7NhIYo2Wtwlg6Kmv0GlN8sUhzY7aJnMLpo8gijB7YrGMRWv6uK0Fvc7BfW_hglSEvwsc7=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1MyR55XJd5af8wUaeWoVrlbCMT6NYz-ZiFxN3kmqliiSYO4KwMi_W-xovHXJlXSl7KfTUt18B9sp2wyvtrCv9D95mwHXaVxSaU12fTJyCTN3ZY-lfJdjcfdZCD-68A3p0JPvYo1P8zDry=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSNn_vQNN_mwGR0NMMFm4wWXH_4q-RmYWMzsqO22ORcjsNLtrzUKE2NnO2TfADaR0aavZr_jFnooZ-nRnjrQSS1Iy5AvA0pEMxrU_Xd_SKf5PCBP8341n2CfZv2IbUGgnr5_pZ9JX5ClJf=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tyler Vanderstelt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Called Tom’s to come and remove 2 trees in my front yard recently. They responded very fast when I put in an inquiry on their website, came out the next day for an estimate, and were very professional from start to finish. I was very happy ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdv9EHA04MwnwtsxtzN6pzRy-gy6xw62QbJ9ldk9xQv4RsZG7zVTrms0EVakDlP6jjiDwp8DTC5FPlzHEEZqpqPfxW0MTtiSsINHt9ML5mF33XBe0L1g2svlg7lCx0FvHeeUu5mZyaytGg=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigMonsterTreeServiceOfPlanoRu = {
     "ctaPrimary": "Позвонить (+1 770-741-2754)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-plano/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Monster Tree Service of Plano"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-plano/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-plano/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMonsterTreeServiceOfPlanoRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/monster-tree-service-of-plano/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMonsterTreeServiceOfPlanoRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/monster-tree-service-of-plano/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMonsterTreeServiceOfPlanoRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/monster-tree-service-of-plano/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,52 @@ export const siteConfigMonsterTreeServiceOfPlanoRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Amanda Shepley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The team is great from arranging with the office to the team who comes out to do the work. They are quick and cleaned up everything before they left too! The knowledge of trees and shrubs is incredible and helpful for as a homeowner who nee..."
-    },
-    {
-      "author": "Jessica Marshall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Monster Tree Service is outstanding! From start to finish, their team demonstrated true professionalism and expertise. They removed two large trees, ground down the stumps, and trimmed eight other trees on my property—and the results were f..."
-    },
-    {
-      "author": "Janet Agee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I don’t usually leave reviews till I feel that the services are tried and true. We have been using Monster for about the last 5 years. I honestly can say that they are my go to for all of our mature tree needs.  They are very knowledgeable ..."
-    },
-    {
-      "author": "Damon Castillo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I read the online reviews before selecting Monster. The favorable reviews are spot on. Quality work and professionalism. They went to great lengths to treat my home with loving care and my trees too. They cleaned up thoroughly. Quality tree..."
-    },
-    {
-      "author": "Josh Willson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was so impressed with Monster Tree Service.  Great value for the amount of work they completed.  The Monster crew showed up on time, ready to go to work.  They were willing to adapt  as the work progressed and provided some great recommen..."
-    }
-  ],
+        {
+            "author": "Amanda Shepley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The team is great from arranging with the office to the team who comes out to do the work. They are quick and cleaned up everything before they left too! The knowledge of trees and shrubs is incredible and helpful for as a homeowner who nee...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8cDJJ2Pz91c0QpJzb6gMi3zIfCmlDeutGE1siKfyQIUzONW4R3fru04XXixh-pzmm_a50u7WyUMViCQhyC157Ns9_Yd5PxdHLHq8tKtKj5msPVz4VL-m17SD5B1THturgHiK9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqoQZK4fE7idIzuZKKceMLBfxZOlm2zCCqYUsaNvbgAFYSpNEv2RrG6NDE0Gs4EzXlGIOcHTw4tWKQOvy8gjWl2cXuhYW8Vga6vEIUyRQ-rk8CJBkk3CA8WUvU5jtinDKdnelP=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfisI8kW8pagN1RfSpPQ6ONqnXYppbVkDFHxoG_eOIJhm3w9fuHKxRNIwH7IxlmvG6qiYe__IGV65g7YFLlw4A2ViXSmLG3RqEUTYdGENoitnX94xg00cdC9RX2RhE0gDiomynxpg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jessica Marshall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Monster Tree Service is outstanding! From start to finish, their team demonstrated true professionalism and expertise. They removed two large trees, ground down the stumps, and trimmed eight other trees on my property—and the results were f..."
+        },
+        {
+            "author": "Janet Agee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I don’t usually leave reviews till I feel that the services are tried and true. We have been using Monster for about the last 5 years. I honestly can say that they are my go to for all of our mature tree needs.  They are very knowledgeable ..."
+        },
+        {
+            "author": "Damon Castillo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I read the online reviews before selecting Monster. The favorable reviews are spot on. Quality work and professionalism. They went to great lengths to treat my home with loving care and my trees too. They cleaned up thoroughly. Quality tree..."
+        },
+        {
+            "author": "Josh Willson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was so impressed with Monster Tree Service.  Great value for the amount of work they completed.  The Monster crew showed up on time, ready to go to work.  They were willing to adapt  as the work progressed and provided some great recommen..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigStarPrunersEn = {
     "ctaPrimary": "Call Lead +1 509-939-1222",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/star-pruners/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Star Pruners tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/star-pruners/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/star-pruners/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigStarPrunersEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/star-pruners/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigStarPrunersEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/star-pruners/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigStarPrunersEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/star-pruners/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigStarPrunersEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Donald Whitney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wow, what an amazing company and crew. This is my second time using them, and again the work performed was 110%! Great communication, hard workers, cleans up the area after removal of bushes, trimmings and leaves your project perfect. This 2nd job was not just pruning, it was removal of bushes, trees, pruning and clean up. I will use them again, and have referred to many people. You will not be disappointed with price or their work. Scott is so easy to work with, John leads his team like a champ, and the workers are so hard working to perfection and completes tasks that I could never do. Take a look at before and after of the front. Back yard removal and side of house trimming!"
-    },
-    {
-      "author": "Jon Lepper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The Star Pruners crew arrived at our property this week and promptly started renewing our landscape.  Our trees and shrubs are ready for spring and they did a great job cleaning up after they were finished. I highly recommend Star Pruners after using their service for over 30 years."
-    },
-    {
-      "author": "Dominic D'Agostino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I hired  Scott’s crew after trimming my arborvitae’s myself for 15 years. And I won’t be doing it myself anymore. They were very nice guys and did a beautiful job of trimming and cleanup. Very pleased!"
-    },
-    {
-      "author": "Tony",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Each Crew Member is Highly Talented, and Collectively, they are an Exceptional Dream Team! Could not be Happier with their Talent and First Class Service and Professionalism."
-    },
-    {
-      "author": "Beth Krassowski",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew at Star Pruners is very skilled. They are thorough and very nice to work with. Our hedge looks wonderful after their work and Scott’s bid was the best we had. We will definitely call them again for all our pruning work!"
-    }
-  ],
+        {
+            "author": "Donald Whitney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wow, what an amazing company and crew. This is my second time using them, and again the work performed was 110%! Great communication, hard workers, cleans up the area after removal of bushes, trimmings and leaves your project perfect. This 2nd job was not just pruning, it was removal of bushes, trees, pruning and clean up. I will use them again, and have referred to many people. You will not be disappointed with price or their work. Scott is so easy to work with, John leads his team like a champ, and the workers are so hard working to perfection and completes tasks that I could never do. Take a look at before and after of the front. Back yard removal and side of house trimming!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbEJkMt-VJnxLUd9RC5A_PfgRVB7iQSWkrra5dUtQ0dgonzPWoRjDY6lLCTDMZiKZrdVr497m-k-dRzE8C_L4i9w8R4FPtKEjFnOx49D5jyAkKGCUII9680mD8OLPkFC-mSCGzyNekWUAC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyqilXBHosc0HsLlyHTAYRdhuFH5XnPG10qsjMTg9owOtL_9Jh6bLG1877bSdfYWgKyOpHyzcOyYZRbHz449cSMph1HqUeWwEtEoQC6_XDCGByHVZTuFH7AuiR5VTq4Q1RZZuYvdeSnDs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcU6jdAJ3rGVSd2ByP3xsNWgcU-zVx9fXXG_2HIm1SpwC1zAqFyIU1cBR0N_-iIqeFuQ6AcHtMpxVYnM02h25hl85geTrNJNFLz4lSAA2hL3vKbh22MbudJEQ8nzmiqXoOMP2DwJOEQNRI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLca6hqe0aVCud2dkUtaA6y2Y1nk6QqFGkJ8Wu9UCM1Y5VfOk1bmBiMYR3Mn9FWqknBTjYbyHbE0O_uD0RmGOGWSvIKQQ79pHZjjmKfqGRA06pph7Ar7xj-PMCooC-iBSxWeB-Z7YP1m1AM8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jon Lepper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The Star Pruners crew arrived at our property this week and promptly started renewing our landscape.  Our trees and shrubs are ready for spring and they did a great job cleaning up after they were finished. I highly recommend Star Pruners after using their service for over 30 years."
+        },
+        {
+            "author": "Dominic D'Agostino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I hired  Scott’s crew after trimming my arborvitae’s myself for 15 years. And I won’t be doing it myself anymore. They were very nice guys and did a beautiful job of trimming and cleanup. Very pleased!"
+        },
+        {
+            "author": "Tony",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Each Crew Member is Highly Talented, and Collectively, they are an Exceptional Dream Team! Could not be Happier with their Talent and First Class Service and Professionalism."
+        },
+        {
+            "author": "Beth Krassowski",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew at Star Pruners is very skilled. They are thorough and very nice to work with. Our hedge looks wonderful after their work and Scott’s bid was the best we had. We will definitely call them again for all our pruning work!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJ5JvEtoNcCLIORWVa-Wfovyv1tsHYKH6u1IqBVOjBd3HqMfmATaU6MLVCMRGSvcfA4sIcwOK6MZdQe3vF4B8AtAjJ1YUUpppaL2H-AeqAqksimToyy1bQ-tSlKlsyYY0lruo8=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Spokane (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigPennysTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 336-829-4471",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/pennys-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Penny's Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/pennys-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/pennys-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPennysTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/pennys-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPennysTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/pennys-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPennysTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/pennys-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigPennysTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Heather Nieman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Thank you, Penny's tree service! Sunday morning kitty rescue. They were amazing! So grateful they were willing to come out and help my little guy."
-    },
-    {
-      "author": "Alan Lindsey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Steve was a true gentleman and very professional to work with. We had a tree fall down crushing our fence and he got it removed quickly. I recommend you give them a call!"
-    },
-    {
-      "author": "Kevin Nierle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The team at Penny's Tree Service did a GREAT job with tree removal of 3 overgrown trees and grinding the stumps. The crew communicated any changes to the schedule, was careful to keep the area clean and the results look fantastic. I would recommend their services for any tree removal needs."
-    },
-    {
-      "author": "Dustin Love",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a tree trunk from a previous tree removal in our yard and a 60 foot tree that was clearly dying - pieces falling off, color was bad, etc. We had three different quotes done on it & Penny’s came in at the lowest. They removed both! Their team is very professional and communicative - letting us know what they were doing & how long it would take. We are extremely satisfied with their quality of work & with the entire process overall. We will absolutely be recommending Penny’s to friends in the area and will be using them again for any other tree services in the future!"
-    },
-    {
-      "author": "Jason Wiley (Let the Torah Speak)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The service was phenomenal! Mike did a great job, fast and efficient! Very professional as well too! Thank you to Steve and Alan for their great service and I would recommend them to anyone!"
-    }
-  ],
+        {
+            "author": "Heather Nieman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Thank you, Penny's tree service! Sunday morning kitty rescue. They were amazing! So grateful they were willing to come out and help my little guy.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKom-FMGXIEimawnjKO0OizCMzVo9W_kppNm9PY-e8-bpEdjY1DR_u1AqU1BPrf0YRFIj--6BehOXU-1ajsf054nq9jCdAGfYH3Kn4rHDBwOoYH6JNhxdEiy8A5knrFype-hMfjdK9azba=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcEXgiEBQ7KG2bwFb3_F_4vMK40IOASU7iHwWtuU6bm8XcCii1oVHtM5gW3M-YQ7SBlfe6Leasyv2hLir1HIRy_qzsN871wnlYIUwVrSXBns-Ow8t6WQXFrIAkPTGZa0_JwUB-bA_V5UH8L=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeofH7INq-MYFmMq55wAdLmQHDsLPdQUbxc1QIxpchwgHdjOS3UCuhhaMNGel3U4xXHetgokbJEbx_c-hy7wrFjm7O3Jm-u2kGnjt6G7dSgQ8XctKU5AIpvCx7jr1A0SABfUrJry9Lgp41e=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alan Lindsey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Steve was a true gentleman and very professional to work with. We had a tree fall down crushing our fence and he got it removed quickly. I recommend you give them a call!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFJ2RIKf4e7lNCWuCtgevyTsYSY4VSIMFrzyw0ntBt741glze7pfsG5ZCGaKdjxFFlJtBbhTwIyC_L7wfuNwcO-WbxarvBlpOlGHd-EIfUeCEpw6RDldrLb4AHvqNWqcyg_TID2-Txpdor=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Nierle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The team at Penny's Tree Service did a GREAT job with tree removal of 3 overgrown trees and grinding the stumps. The crew communicated any changes to the schedule, was careful to keep the area clean and the results look fantastic. I would recommend their services for any tree removal needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfcAOMUZ7o249aIYSHQP5in5RyrjNlstKzOCXcTJvorDti3LNY_3JTKWDHBI3W3w57vJUdmG_4qtATzT5GE99tVgdxyzNKS5xCZwJc3BojrPOMbvzLbjmgaq_N826-b3MO6PgDKqw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLciHfGcpWAJHEaKDf8vvLsY2PIQZ4A_tYCH7-t8sSjri1h8L2T6w9vieOmSxKDAhS6nc8nQOkV8zcmxn_8Xoe-NiIB_GS2XdzYAP0kf3g6_RRzg7S1PI_7E4qV0V7hNmDsHIV2j=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnrhWoiyQ0_OKu4tUtk8dEkH8__Mp1HbjC1qMaHQal27yDjqvuTXDlHtVaiAjnAyWGWnlGVp21BEO53pBz7FR-Kz1FGm_FmuVe2bkk-Va-7zjtG7Y34XHddWP8GNW6lcwh4I7h8A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dustin Love",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a tree trunk from a previous tree removal in our yard and a 60 foot tree that was clearly dying - pieces falling off, color was bad, etc. We had three different quotes done on it & Penny’s came in at the lowest. They removed both! Their team is very professional and communicative - letting us know what they were doing & how long it would take. We are extremely satisfied with their quality of work & with the entire process overall. We will absolutely be recommending Penny’s to friends in the area and will be using them again for any other tree services in the future!"
+        },
+        {
+            "author": "Jason Wiley (Let the Torah Speak)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The service was phenomenal! Mike did a great job, fast and efficient! Very professional as well too! Thank you to Steve and Alan for their great service and I would recommend them to anyone!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjcw34jxrv4WhoIlOTyCXsg4-dp5eph3Cbayq5rBVvC3oKyxtjnvyLZSCq_1W6AA_a22COlUMTeFGQ0Oq2lgI9jXOWrjFLEd8-OdUejO2_2xQMeU4woKDOsgU8-ZYHIfhPxYdcXQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc-dCo0rVz5TtZbWtoBlmQVCIzLf6q0r9pqXozHYaRR0MggrU1JQKwpeO1IUVJJorWorM8CB69uCqJ6fP05ii0_rMWywnMsYWDNDXZ8gtJl4H3GktA2CLFUT7Sicjobw2QIyJrj=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "High Point (Central Depot)",

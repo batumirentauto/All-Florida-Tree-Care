@@ -32,21 +32,9 @@ export const siteConfigAndersTreeServiceEn = {
     "ctaPrimary": "Call Michael +1 828-206-9991",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/anders-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Anders Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/anders-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/anders-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAndersTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/anders-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAndersTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/anders-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAndersTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/anders-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigAndersTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "sakara sullivan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great, honest guy! Michael came quickly with an emergency downed tree covering our driveway, and he did thorough and solid work. I will definitely be using his services for any future issues. Can't recommend enough."
-    },
-    {
-      "author": "Tracy Swartout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had Anders come out to remove six trees for us, a couple were very tall poplars that were very close to our home. Michael came out when he said he would, gave us an estimate, and did the work in short order, even flexing to avoid soggy conditions from the rain, and didn’t charge more than estimated. There was minimal disturbance around our home, the crew was friendly and respectful, and the work was performed exactly as planned. There were no surprises and they did a great job cleaning up after since they knew we had family coming in. We can’t recommend them enough. Michael and his team are top notch! We will definitely use them again!"
-    },
-    {
-      "author": "Jonathan Benda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Anders did a great job removing trees. They cleaned up after their work and left everything looking great. I will definitely use them whenever I need any tree work done."
-    },
-    {
-      "author": "David Crossley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew came as planned and started right to work. They are highly efficient in their movement on the ground and in the trees. They impressed as true craftsmen who I would certainly have back if needed and fully endorse."
-    },
-    {
-      "author": "Pem Tomaselli",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Michael and his crew did great work removing a very large red oak that was dying from heart rot and was too close to our house. Came over quickly to assess the tree, gave a fair price, was on time and worked quickly and professionally. Even brought soil and grass seed to repair ground where the tree landed. These guys are amazing to watch! Will definitely be calling them again. Thanks!"
-    }
-  ],
+        {
+            "author": "sakara sullivan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great, honest guy! Michael came quickly with an emergency downed tree covering our driveway, and he did thorough and solid work. I will definitely be using his services for any future issues. Can't recommend enough.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMHmc5jzF5iiDaPyfF26yrST9gjSj7ADnwT_P2OlzU8pu3AcjVUW_22L72aSucVEN9JxDtKufAgnp70H0ERdYwJHB3Rxg2Kr7wxmmL9dhb2lRg-LczYC7CenPF6D8226jIl0FPjfOKT8vs=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhzhZfjrZR069ErdXzkRSAC_LXPrEn0kbS8qdi8a5-wsHO_udvdwRr2Jci-thef4htlGHySIXuCzibev1iB3UhJ2OXoW_abKnrl-sxSkWYvG8MvAkyBnxlOapOnvH92-POtx43gGqRj3pM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tracy Swartout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had Anders come out to remove six trees for us, a couple were very tall poplars that were very close to our home. Michael came out when he said he would, gave us an estimate, and did the work in short order, even flexing to avoid soggy conditions from the rain, and didn’t charge more than estimated. There was minimal disturbance around our home, the crew was friendly and respectful, and the work was performed exactly as planned. There were no surprises and they did a great job cleaning up after since they knew we had family coming in. We can’t recommend them enough. Michael and his team are top notch! We will definitely use them again!"
+        },
+        {
+            "author": "Jonathan Benda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Anders did a great job removing trees. They cleaned up after their work and left everything looking great. I will definitely use them whenever I need any tree work done."
+        },
+        {
+            "author": "David Crossley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew came as planned and started right to work. They are highly efficient in their movement on the ground and in the trees. They impressed as true craftsmen who I would certainly have back if needed and fully endorse."
+        },
+        {
+            "author": "Pem Tomaselli",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Michael and his crew did great work removing a very large red oak that was dying from heart rot and was too close to our house. Came over quickly to assess the tree, gave a fair price, was on time and worked quickly and professionally. Even brought soil and grass seed to repair ground where the tree landed. These guys are amazing to watch! Will definitely be calling them again. Thanks!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeu9USzG-fktYoPh1nkZxeLnHcq7V5RyuBiUAaTkbn18yPvRZW5MU2V5bWRs4URBlTS9WXO2zwu1oLXrdcMhbvhSAuEpJfAtS1e8HXO30MGF6hSBBg-7n0q7dQPCHMJDXpBcmfTsg=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Weaverville (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigTreeServiceSanDiegoRu = {
     "ctaPrimary": "Позвонить (+1 858-201-5554)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-service-san-diego/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tree Service San Diego"
-      },
-      "sub1": {
-        "image": "/images/tree-service-san-diego/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tree-service-san-diego/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeServiceSanDiegoRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tree-service-san-diego/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeServiceSanDiegoRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tree-service-san-diego/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeServiceSanDiegoRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tree-service-san-diego/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigTreeServiceSanDiegoRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lindsay McGrath",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My parents house in La Jolla needed yard work so I called Tree Service San Diego and Pedro and his team came by the next day to work with our schedule. They trimmed our overgrown trees and did such a great job, were quick and efficient, and..."
-    },
-    {
-      "author": "Frankie Raffaele",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Pedro removed two palm trees at my apartment in OB last week. The job was done very quickly and the results are great. No more seeds dropping on my car!! Thank you..."
-    },
-    {
-      "author": "Margot",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My dad had a massive pine tree root that was messing with our foundation! The stump grind was very cool to see! Now we can do anything with that area! Here are before and after photos..."
-    },
-    {
-      "author": "Zeek Dos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I moved into my home here in San Marcos just over a year ago and I had a fence put up along my property line. but I had some tree stumps along my fence line that were an eye sore that I I wanted it removed. I searched Google and found Tree ..."
-    },
-    {
-      "author": "Phillip Fournier (rockingfreely)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently hired Tree Service San Diego for a tree removal project at my property, and I couldn’t be happier with their service! From start to finish, they were professional, efficient, and incredibly skilled. The team arrived on time, asse..."
-    }
-  ],
+        {
+            "author": "Lindsay McGrath",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My parents house in La Jolla needed yard work so I called Tree Service San Diego and Pedro and his team came by the next day to work with our schedule. They trimmed our overgrown trees and did such a great job, were quick and efficient, and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcfCHs2WbMcVgqvbrJdNYlr_1dnNBjprfgRV_iWOa2BAWXki-3TWKIXOJvW6nk14wtnI1xurKF2-TNPEGxlqN6ASFZ19Z6hksDTDK5t4ar7M42nvpPnGt8w4IpzV1OiWaV0ifl-0g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHFOvt3vzQ8SKFQ_vpgoCtp-OtjppUNdneSv18zy0tSzWhaB3TlbL2fXRELCcoEttktOFTXHyGcwo8Y2IA2uc8pBncNpZFscdCF_l19noTOVi5YCarIsMLjmttvmMaMShd3nU=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Frankie Raffaele",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Pedro removed two palm trees at my apartment in OB last week. The job was done very quickly and the results are great. No more seeds dropping on my car!! Thank you...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8v6lUsUfBWL4HmJOaWHLbRN38UvWheB8P_0fs4XXbZaOvxHxUP-pmQrhQauxVRDjQpp1Ysif2Wj3iCggvckLHyWoNIDDaaGyhLxHcNRX89EgQRRF1d4hmgQg9r89k7fQdYEyADZs0SK46=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfqO_DJpMWXbrrUEa1pvpDJMFX7Fwo1mgnRWBqFvWuNIbIhQVip3OOLNTcm_7MnAUxhGC0wPuqrJQLPJXZEiVdSyNsA_G4YHzzsPcucgQWT_MtYsPXS_whxKfzIaUaL-NR901QXHBps2LI=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Margot",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My dad had a massive pine tree root that was messing with our foundation! The stump grind was very cool to see! Now we can do anything with that area! Here are before and after photos...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcUfMlwDxCfI0piX8Pm78CLiu7LIkIQULYhcu6lqioiKqhS-JDC6W_2sQQlnK7OD7iKM4HkA-DGElZ4SL_sMZ7DUiOdxobD8KWMGir0TK1kyr_YjxB10Se--gD7c9n6vnd-R6eD=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGA2hTlJuyd_D_hdbBg0ycD4yCmblpRwFfdS3gjQPNQboa4lboeKQiDijE0b6pcSxJZ8DjFma-nw6mxDteew-iM4_L8SiFek57a4JidR3F3JyRHmCTrqYL4jDGTXE0_U7_TEir=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Zeek Dos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I moved into my home here in San Marcos just over a year ago and I had a fence put up along my property line. but I had some tree stumps along my fence line that were an eye sore that I I wanted it removed. I searched Google and found Tree ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvCNp0bfRC82iZGwxJWrW8NoHfBt6KnN_hAohKpNbWSPkcp3kDO_pCj6SKzCgwuWeEzb9RelfX1cIBXJ6x-MjCKxOfaejI1u2Q9HA06NJKryMSxRqJAVr95Wj0wOPf4VSubuof=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcvt_EKYe4ND7FK8vo8LaWwpBr2lVwvLJS_aPksMRaWm9a28ydKsVEcE_9m0-hlRpXa8lA6mItOFdZsO3vihBxeOoTPqU9DVKejdeHkMyXKXZX1LYDA_X60j_pvuXsuw6ODpXoQhA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Phillip Fournier (rockingfreely)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently hired Tree Service San Diego for a tree removal project at my property, and I couldn’t be happier with their service! From start to finish, they were professional, efficient, and incredibly skilled. The team arrived on time, asse..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Diego (Основная база)",

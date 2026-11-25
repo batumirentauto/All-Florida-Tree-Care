@@ -32,21 +32,9 @@ export const siteConfigGardenOaksTreeServiceEn = {
     "ctaPrimary": "Call Melvyn +1 832-886-8202",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/garden-oaks-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Garden Oaks Tree Service LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/garden-oaks-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/garden-oaks-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGardenOaksTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/garden-oaks-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGardenOaksTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/garden-oaks-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGardenOaksTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/garden-oaks-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigGardenOaksTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Emily Smith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Melvyn and his crew came highly recommended and definitely proved why. He rearranged his schedule to do our job quickly due to safety concerns, and was extremely professional from beginning to end. His crew worked into the evening to finish taking down a 100 foot pine in one day and removed everything without a trace. He even sent someone to repair a sprinkler line at no cost the next day. We cannot recommend Melvyn and his crew highly enough."
-    },
-    {
-      "author": "Chris Myers",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They were great. They are prompt and professional, and the price was fair. They cleaned up great, leaving my yard looking much better than when they got here. Will be using them again."
-    },
-    {
-      "author": "Ken Naff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "For anyone needing a tree trimmed or removed in Houston, I strongly recommend Garden Oaks Tree Service LLC. Very friendly, yet professional crew who performed my tree removal and stump grinding with speed while taking great care of the property and the surrounding area. I can't compliment this company enough!\nGreat Job!"
-    },
-    {
-      "author": "Narda Escobedo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am so thankful that I found Garden Oaks Tree Service.   Melvyn is extremely knowledgeable about all trees and his recommendations were so on point.   They are very reasonable and I was so amazed watching them trim my 4 trees.   I recommend them wholeheartedly.    If you need tree work, call them, they will do a great job, on time and very reasonable.  You will not be disappointed.  My trees look awesome!"
-    },
-    {
-      "author": "Stephanie Mami",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Phenomenal work and customer service. During my initial consultation with Melvyn, I was shown the exact areas of my tree that needed attention, and I was provided with options to remedy the issues. He was very thorough and detailed in providing the information and gave me great solutions for immediate tree service as well as long-term maintenance options. The crew came out and completed the work in a timely manner, and they were extremely professional and respectful of my property. The price was very reasonable, and the work was much better than other companies I have used in the past. I'm beyond pleased the tree service I received from Garden Oaks, and I look forward to using them again in the future!"
-    }
-  ],
+        {
+            "author": "Emily Smith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Melvyn and his crew came highly recommended and definitely proved why. He rearranged his schedule to do our job quickly due to safety concerns, and was extremely professional from beginning to end. His crew worked into the evening to finish taking down a 100 foot pine in one day and removed everything without a trace. He even sent someone to repair a sprinkler line at no cost the next day. We cannot recommend Melvyn and his crew highly enough.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd_Mwv-CvJTMn94Dh3ISUh4538SJQ0OTdGkrAJCRukBroOSEWP3zw1DtuEYufEz-BvHp9NvHfIaHXXFqnpJk2ylspMF2SCr5VheFuWrQOVdz12zogSgAR9JmN8eCYh4zMNMkAc3E70uF0z0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHqaysAPbuoCrwAt3zzxCvun0GQlMPu9wxVF8Wmcu1_bLH04hnR1Oj2X8BHOS-VwxUQ9E6AxtHMOATY6JwZv2LtkIdJP5WrCU2XCnW65BjTdZhMaxckFz6K2ksBQNnttn1J3roO8TBXNm3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcp_uE3h0u5JfuNtrE0NWhfteGZ7llG5HEw7f9NE7WY1xccX-vjKbodhpr8fWDU9g9YtplNkHn-a6woT0sJnR34FCBLKcxQ4M2l3GwEjf_wrEbXHIppCLxXzp9ErTwuR9nkoEUHeZspVOjM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkLMxoaw5N3bd7OsARh-D2CytrFomaE81nS1Fc-vr3jf65Bzph_i5-Q1KXbcvwLdv2-eax3rJmPSozcnwExzkShin9IHrHxrAi6ZuAg0hPPTVfPKwSZgmtMevTlwIJURFHFKBS-t_6gjZp=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Chris Myers",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They were great. They are prompt and professional, and the price was fair. They cleaned up great, leaving my yard looking much better than when they got here. Will be using them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3x28I6dfBL1VjoTRVwFSee3eWqm7V9V5iSd7xpDMrM4w6k_29xmqD4SO2CU7uI6rQ4lRTvNxoNBjWt9-UTfdFYs-wN8xsOATdoKfEE0XkEiuU7McNSTTrb3Sc49C3xErLDr43_LLFvisQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfc4g7DtfJaKt3eiXbyvvxfBtU3IYIUEe_Ugl6sFzVY5pGyu7qkxxR3eDsTm2KKFtzCxGGJV4rK_tzVXpcgmrVuBKD6qPOFm8utj6agTh4Tg6Qvw2wx599zRfOUE8Qxn_CLtDlfJPABMjk=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ken Naff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "For anyone needing a tree trimmed or removed in Houston, I strongly recommend Garden Oaks Tree Service LLC. Very friendly, yet professional crew who performed my tree removal and stump grinding with speed while taking great care of the property and the surrounding area. I can't compliment this company enough!\nGreat Job!"
+        },
+        {
+            "author": "Narda Escobedo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am so thankful that I found Garden Oaks Tree Service.   Melvyn is extremely knowledgeable about all trees and his recommendations were so on point.   They are very reasonable and I was so amazed watching them trim my 4 trees.   I recommend them wholeheartedly.    If you need tree work, call them, they will do a great job, on time and very reasonable.  You will not be disappointed.  My trees look awesome!"
+        },
+        {
+            "author": "Stephanie Mami",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Phenomenal work and customer service. During my initial consultation with Melvyn, I was shown the exact areas of my tree that needed attention, and I was provided with options to remedy the issues. He was very thorough and detailed in providing the information and gave me great solutions for immediate tree service as well as long-term maintenance options. The crew came out and completed the work in a timely manner, and they were extremely professional and respectful of my property. The price was very reasonable, and the work was much better than other companies I have used in the past. I'm beyond pleased the tree service I received from Garden Oaks, and I look forward to using them again in the future!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

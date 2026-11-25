@@ -32,21 +32,9 @@ export const siteConfigTreeWisemenEn = {
     "ctaPrimary": "Call Evan (415) 850-7584",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-wisemen/photo_005_crop.jpg",
-        "label": "Hydraulic Crane Heavy Branch Lift",
-        "alt": "Heavy hydraulic mobile crane boom with sling lifting enormous tree branch suspended high in sky"
-      },
-      "sub1": {
-        "image": "/images/tree-wisemen/photo_002_crop.jpg",
-        "label": "Complete Fleet on Residential Site",
-        "alt": "Forestry chip truck, Vermeer stump grinder, and compact loader staged on front residential lawn"
-      },
-      "sub2": {
-        "image": "/images/tree-wisemen/photo_004_crop.jpg",
-        "label": "Arborist Rigging with Crane Assist",
-        "alt": "Arborist climber rigged in tree crotch with blue crane boom poised above tree"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeWisemenEn = {
     {
       "name": "Massive Hardwood Stump Boundary Flush-Cut",
       "badge": "Large Stump Management",
-      "image": "/images/tree-wisemen/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeWisemenEn = {
     {
       "name": "Street Frontage Canopy Elevation & Trimming",
       "badge": "Streetline Pruning",
-      "image": "/images/tree-wisemen/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeWisemenEn = {
     {
       "name": "Deciduous Crown Assessment & Thinning",
       "badge": "Canopy Health Care",
-      "image": "/images/tree-wisemen/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

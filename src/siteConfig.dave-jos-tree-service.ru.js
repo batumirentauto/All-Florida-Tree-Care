@@ -31,21 +31,9 @@ export const siteConfigDaveJosTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 727-244-0971)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dave-jos-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Dave & Jo's Tree Service"
-      },
-      "sub1": {
-        "image": "/images/dave-jos-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/dave-jos-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigDaveJosTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/dave-jos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigDaveJosTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/dave-jos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigDaveJosTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/dave-jos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigDaveJosTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Cheryl Stocks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I put a post on Nextdoor -Dave came highly recommended-I reach to him -he came by that day -he gave a very reasonable price to remove a huge Oak limb -the limb was caught up in the tree near by as well -he came next day-today- -job done -he..."
-    },
-    {
-      "author": "Laura Koch",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Found Dave & Jo's through a recommendation on NextDoor Neighbor.  Called him, and he came out about a half hour later as he was in the neighborhood.  He gave me a great quote, got some other quotes, and decided on Dave.  Asked him to cut th..."
-    },
-    {
-      "author": "Steve Frump",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently worked with Dave & Jo's Tree Service, and though I ultimately couldn’t move forward with them due to unexpected budget constraints, I was incredibly impressed with their professionalism and understanding. From the start, Dave was..."
-    },
-    {
-      "author": "Patrick Carey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dave and his team did a fantastic job trimming the trees around my house and getting rid of a tree that had blown over on my yard. This business is the very best! They work very hard to please the customer and do a through job cleaning up a..."
-    },
-    {
-      "author": "Stevan Hollahan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Awesome guy to hire and great prices...recommended him to friends who also said they went with him cause nobody could beat his prices. Easy communication and great work. Had a tree cut down and multiple stumps grinded down. Will not look el..."
-    }
-  ],
+        {
+            "author": "Cheryl Stocks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I put a post on Nextdoor -Dave came highly recommended-I reach to him -he came by that day -he gave a very reasonable price to remove a huge Oak limb -the limb was caught up in the tree near by as well -he came next day-today- -job done -he...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQd_fEhrr46VuLmKD99_MDvYmvqHe40LbyNzKilLQUDtzT9aUEQAgIsYDrIRJWixjSE4ModqbEmkm_HbFCKsz9m9uWxjfXej18pc267wg4qZ4CQoiyz0M4lvfYcOJEN4uAu_Al=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkQywgeY0rJgFtnoAfqSbkGNEuUGEHIxH9rzWVH0D0e4FuenVkK1A-UeFZCp0VOWVlnY-5I_GYqYn4cj_k8RbTgFqnV5GnVc3uwwzNI1j3LSlsEZuW5EHrm0r7mPtyr57sj6xb=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOD1R563WiVPieDvv7qh_6c89DNIKRjzyI2AFbuvBwP1ZpH0EUxiQPezE8mnCYAg6dANSnhfOpN1Eke2iH0t6TfXDD-8VipnYvO8pxZX3wJmX9fIXI74nVUBdcI71XVAlXu6le=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDreE-Hg6_fkmBiBIPsIafDUCRCV565ls_tAwy1d9PbfComUyTbueYxlkeXmoO6Wbpmt-0AJoRrO-XknvnpqOtQj5kL9xRXFFcltK3IqhlwdBbTFJggK-9tSceWPPxHChC2W_T=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Laura Koch",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Found Dave & Jo's through a recommendation on NextDoor Neighbor.  Called him, and he came out about a half hour later as he was in the neighborhood.  He gave me a great quote, got some other quotes, and decided on Dave.  Asked him to cut th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJ8W2F6qKA-KFRIpznBStoHcXPRY315FTl4Wlf9lX3wFFQLiN0_DMa5ABA6PGwSzMq3i7USMku822Cho4ANJ5fSNaSD8kUqs-n-mYx9uPMiLGALtcnIAz7aIHtqmuOuIz5SgZ3=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Steve Frump",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently worked with Dave & Jo's Tree Service, and though I ultimately couldn’t move forward with them due to unexpected budget constraints, I was incredibly impressed with their professionalism and understanding. From the start, Dave was..."
+        },
+        {
+            "author": "Patrick Carey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dave and his team did a fantastic job trimming the trees around my house and getting rid of a tree that had blown over on my yard. This business is the very best! They work very hard to please the customer and do a through job cleaning up a..."
+        },
+        {
+            "author": "Stevan Hollahan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Awesome guy to hire and great prices...recommended him to friends who also said they went with him cause nobody could beat his prices. Easy communication and great work. Had a tree cut down and multiple stumps grinded down. Will not look el..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "St. Petersburg (Основная база)",

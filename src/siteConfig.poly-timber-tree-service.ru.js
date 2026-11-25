@@ -31,21 +31,9 @@ export const siteConfigPolyTimberTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 626-478-4558)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/poly-timber-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Poly Timber Tree Service Inc."
-      },
-      "sub1": {
-        "image": "/images/poly-timber-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/poly-timber-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPolyTimberTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/poly-timber-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPolyTimberTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/poly-timber-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPolyTimberTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/poly-timber-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigPolyTimberTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Suki Thind",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Oscar and Poly Timber did an amazing job for us!\n\nI first came across Poly Timber when I saw their truck near my house in Duarte a couple of weeks ago while their crew was high up in our neighbor's palm trees. I ended up meeting Oscar, and ..."
-    },
-    {
-      "author": "Diane Noro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently used Ricky’s timber service and couldn’t be happier. The crew showed up on time and worked efficiently to get the job done ahead of schedule. They maintained a high level of professionalism throughout and left the site clean. Plu..."
-    },
-    {
-      "author": "laurie Astle",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We are pleased with Poly Timber servicing our trees.  They did what they promised, and the price was great. Ricky was very knowledgeable and gave us good advice...."
-    },
-    {
-      "author": "Nate Showalter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ricky and his Poly Timber team did a great job ridding our Stone Pine tree of some dead branches. They were careful, safe and had a chipper to take care of all the branches. Price very competitive...."
-    },
-    {
-      "author": "Chris Gonzales",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Service was quick and clean. Called Ricky for an estimate and he came out the next day with an estimate and offered to do the job the next day. His price beat competitors and being insured and licensed it set my mind at ease. I added a pict..."
-    }
-  ],
+        {
+            "author": "Suki Thind",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Oscar and Poly Timber did an amazing job for us!\n\nI first came across Poly Timber when I saw their truck near my house in Duarte a couple of weeks ago while their crew was high up in our neighbor's palm trees. I ended up meeting Oscar, and ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUPYKhVcBzCD9mZYv_hENPUijoG4GlA-mLDf2zlSU1dk4uz5LbkDQJjNlzQ5lvz0edjH2pvtbSIUGSC7hQBomrvjiKBf5pw7yCq5oyzT6VCwxIFNlT2L2lsQmJ40mHRup3wUaEOvSIjQEw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_Vr1ho1KU0Ibh06EOQQe8BsvigiTZ2na1Ef9EA_BZOA2XG63SS40jk-ZDQiG2UqAlETcos1mzXWc-OAx2K1ZPHdwJSomh7nOxeb57Vkh1-ilKYyS7f3bgP0JnbcIaOc-Jr0IsS5Felgla=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe62-kF--5pfrXC2BsUhdR-kx93vsEG5XD3FanbQ_e3Hwbs03pXAHwHC8NFd4grZGZfc7ySmrrPxjqAycccr2HSzKLlEZnNhQjpA5deRNqOUGir1uyqJhCdRez8-7oAwaMJcUAN80cVdzHX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfL8AihLchpLwBEhhEqW9lPUUR1RwN_-UyHcL6JEFZ9-h8Hitf0856St4DNst7brbokKJGEe7UU91fHzx4s8E6C0PNHvTe4ODRp81m5cwVZKtg_ntFbMTOyItrc-OD7txOjcdw7KO80iPnq=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Diane Noro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently used Ricky’s timber service and couldn’t be happier. The crew showed up on time and worked efficiently to get the job done ahead of schedule. They maintained a high level of professionalism throughout and left the site clean. Plu..."
+        },
+        {
+            "author": "laurie Astle",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We are pleased with Poly Timber servicing our trees.  They did what they promised, and the price was great. Ricky was very knowledgeable and gave us good advice...."
+        },
+        {
+            "author": "Nate Showalter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ricky and his Poly Timber team did a great job ridding our Stone Pine tree of some dead branches. They were careful, safe and had a chipper to take care of all the branches. Price very competitive...."
+        },
+        {
+            "author": "Chris Gonzales",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Service was quick and clean. Called Ricky for an estimate and he came out the next day with an estimate and offered to do the job the next day. His price beat competitors and being insured and licensed it set my mind at ease. I added a pict...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfHYmDUMvok1bCA8qvvLQ5acSXWz7wHHdhkgsRR7KdR9nVAFUho-Hffas2S5zPyOQC6SVSGshDjw6a-8BVxfMP_wEwV7b3XpKluqaWoQ9uv8DE1DgeNNqBtq3Z0VBXJZ08lSOCoVA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pico Rivera (Основная база)",

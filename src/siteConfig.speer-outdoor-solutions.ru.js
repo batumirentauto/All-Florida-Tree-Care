@@ -31,21 +31,9 @@ export const siteConfigSpeerOutdoorSolutionsRu = {
     "ctaPrimary": "Позвонить (+1 706-799-2947)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/speer-outdoor-solutions/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Speer Outdoor Solutions"
-      },
-      "sub1": {
-        "image": "/images/speer-outdoor-solutions/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/speer-outdoor-solutions/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSpeerOutdoorSolutionsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/speer-outdoor-solutions/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSpeerOutdoorSolutionsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/speer-outdoor-solutions/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSpeerOutdoorSolutionsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/speer-outdoor-solutions/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,55 @@ export const siteConfigSpeerOutdoorSolutionsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brenda Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The best experience ever!!! And I am extremely happy and satisfied with my pavilion style pergola. ❤️ Great customer service!!!!..."
-    },
-    {
-      "author": "James Paull",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: John did an excellent job replacing the posts supporting the back porch. He is very reasonable in price and sticks to his word. I would definitely use him again. Give him a try…you won’t be disappointed!..."
-    },
-    {
-      "author": "Adam Abrahani",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend. Their quote was reasonable and remained the final price. They did a great job, customer service was great, and finished ahead of schedule. We'll be calling them in the future!..."
-    },
-    {
-      "author": "Tamara Holland",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Can not say enough about John and Allen and their hard working team. So impressed with the work ethic bright and early every day. What a fantastic company with hard workers and beautiful results! I will recommend using their company and wil..."
-    },
-    {
-      "author": "Michelle Cowart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: John and team replaced decks on my rental property. I received a good price and prompt, friendly and professional service.  I will definitely use again...."
-    }
-  ],
+        {
+            "author": "Brenda Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The best experience ever!!! And I am extremely happy and satisfied with my pavilion style pergola. ❤️ Great customer service!!!!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVwQR4uPWaVqmxzmk1yF-2aqKJwd0bkdiScTjjucSochLu1q8SXcGlTHLL9UCz1CZuntUmQfVl_SbxawDM-oMI7S58IDGOcxKzlaWWAh8vvIOcHP5wAdtAkp_iI2SAZ6oLKgCHhh_Kkr9j=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcwkzQkjzmFCDB5uhqQI-dBybs_HgGD0Jefv5Y-vySe81i_5eOyTE65CuLWKiVqNCxVwQ713w9ugQebVuE2pTOdK7Lh4Q9aK2SvwkVZuy6xMzTGGgzRSS8naegAlyw1bcXynWl2Z3R7cLn_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcaopO3SNCyNI_ky-1f-T5-oHErNcLZxxsJyBWxwb-uyWJ-ryjnp3OBzmHjPt8HiiIDi4skqe3y0W-0Wrtvx-tiwdD-NTdqZ3K5PVYxRwNUN_ApCF3IBaE2M7-2LQqAxD5tc_JByksMPxzs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "James Paull",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: John did an excellent job replacing the posts supporting the back porch. He is very reasonable in price and sticks to his word. I would definitely use him again. Give him a try…you won’t be disappointed!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3YR-5dIDHKSjYvnU7DKUqEELaoovHWYPe_kHh30PsI7nVLC9s7yuh4TS3eF2unsxAvvrjJIqryNtBUV5Wi9oE0qfXVryUrNbw-HbwpvAwY3pCgvBSVGsJY3DaEP7BuYrsWV_iv5swNY-J=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Adam Abrahani",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend. Their quote was reasonable and remained the final price. They did a great job, customer service was great, and finished ahead of schedule. We'll be calling them in the future!..."
+        },
+        {
+            "author": "Tamara Holland",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Can not say enough about John and Allen and their hard working team. So impressed with the work ethic bright and early every day. What a fantastic company with hard workers and beautiful results! I will recommend using their company and wil..."
+        },
+        {
+            "author": "Michelle Cowart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: John and team replaced decks on my rental property. I received a good price and prompt, friendly and professional service.  I will definitely use again...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigHoustonTreeSurgeonsEn = {
     "ctaPrimary": "Call Houston +1 281-815-9088",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/houston-tree-surgeons/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Houston Tree Surgeons tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/houston-tree-surgeons/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/houston-tree-surgeons/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHoustonTreeSurgeonsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/houston-tree-surgeons/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHoustonTreeSurgeonsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/houston-tree-surgeons/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHoustonTreeSurgeonsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/houston-tree-surgeons/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigHoustonTreeSurgeonsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ryan Broussard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Houston Tree Surgeons severely over-pruned our mature privacy trees in our courtyard. We hired them to remove some growth that was extending over our neighbor’s fence and to perform a light cleanup. Instead, they removed a large portion of the lower canopy - the very area that provided privacy - while leaving most of the overhanging growth that we had specifically asked them to address.\n\nThe result is that we have lost a significant amount of privacy, and the appearance and function of these mature trees have been dramatically altered. These trees took decades to reach their current size, and the damage cannot be undone. I wish I never called them."
-    },
-    {
-      "author": "Aaron Howard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We asked for an estimate for our approximately 35 year old live oaks in our front yard.   A certified arborist came out and sent us photos detailing what they would do.  We asked for a copy of their liability insurance and they sent a copy!   They are listed with the Better Business Bureau .....yes, we were being cautious.  And they gave us a small discount which we much appreciated.  But the job they did was absolutely wonderful!   One oak had a giant limb over the street that was getting hit by high trucks.  It was taken down all the way to the trunk without problems.  They raised the canopy and did all that they said they would do.  They came on time (even though it was a rainy day); waited till it was safe to work.   The staff cleaned up all the debris from the tree and took it away in their trailer. They sanitized the equipment prior to making cuts and sprayed the cut limbs with tree wound dressing.    The staff even cut limbs up for another neighbor who wanted the pieces for future grilling.  I would use them again and will recommend them to anyone.  And another neighbor came out and was asking him about his trees.  Very friendly and professional people."
-    },
-    {
-      "author": "Raquel Ybanez Salinas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Houston Tree Surgeons! They came out quickly for a free estimate and provided a written quote the same day. My job was scheduled for the following week. The crew was fast and efficient, and they did a great job cleaning up the site afterward. My palm tree was right next to my townhouse with very little space to work, but they handled it carefully and professionally. It had not been trimmed in a long time since I bought my home this past year, and they did a fantastic job bringing it back into shape. Pricing felt fair too. I definitely plan to continue using them for future tree trims. Highly recommend!!"
-    },
-    {
-      "author": "Kate Pollard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a fantastic experience with Houston Tree Surgeons from start to finish. It began with Dr. Pablo Teveni, an ISA certified arborist, who gave me an expert assessment of my Red Oak. I didn't want to take it down as I love trees, but I also hate how many times I have to bag leaves in my small patio area every winter.  He knew exactly how to thin the canopy to solve my leaf-bagging issues while keeping the tree healthy.\n\nOnce I approved his estimate, Barbara took over the coordination. She was so easy to communicate with via email and phone, getting me on the schedule promptly and making sure I knew exactly when the crew would arrive.\n\nThe team that came out today was quick, efficient, and extremely careful with every limb they brought down. They even brought a truck to haul away all the limbs and blew out all the debris from my patio when they were done. Very happy with their efficient service. I will 100% be calling them for all my future tree concerns!"
-    },
-    {
-      "author": "Jennifer Bomark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Houston Tree Surgeons (HTS) in mid-July 2021 to have them look at a dead pine tree in my yard to make sure it wasn’t a disease that could spread to my other pine trees. An ISA certified arborist not only came and inspected my pine trees, but he also answered questions about other plants that I have in my yard. He gave me the possible causes for why my pine tree died and provided information on the proper care and pruning for all of my various trees. He also offered a treatment plan to help boost my remaining pine trees and left me with a detailed list of everything including itemized prices if I wanted to tailor the work to be done. HTS’s office administrator worked with me to schedule a date to have the pine tree removed and its stump ground down, plus have my crepe myrtles pruned. The crew arrived the first week of August and were very careful in removing the pine tree as it sat close to my house. They were very thorough in cleaning up all of the debris when they were finished.  Everyone I dealt with from HTS was very polite, professional, efficient, timely, and a pleasure to work with. I would definitely hire them again."
-    }
-  ],
+        {
+            "author": "Ryan Broussard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Houston Tree Surgeons severely over-pruned our mature privacy trees in our courtyard. We hired them to remove some growth that was extending over our neighbor’s fence and to perform a light cleanup. Instead, they removed a large portion of the lower canopy - the very area that provided privacy - while leaving most of the overhanging growth that we had specifically asked them to address.\n\nThe result is that we have lost a significant amount of privacy, and the appearance and function of these mature trees have been dramatically altered. These trees took decades to reach their current size, and the damage cannot be undone. I wish I never called them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDbxY-VOS6B5sQ7IseAVlc1K_sYnSFaWBtGgu7-05WBA_oXYDn9M89MJ18GaJRjG3f9qGVs-gY4LH5K0EpoQXvFshFwTuXklzmj1nazpiYHiHQF-va4tPM5HHxMfj9sx4I8VKoHIAvXn8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnKKpBcijU-lk_I_gHVhp_LaAjP5rb8kiwSy089EHUfkSmtT4JgyBd61ZEyCsT_q54XSBy_3S1B7xZ8P48zz3rRruc03_jf4rC4NlrRcTMb3T2VDQjRY9VgE800CVGBiQxAVSdjViyTFv6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcAOnpHmY24U_UPi83XwyJNT3BwmL7SfGWq90JM3fE7KSKRj7ovB9KmBXdmZgWT8DujSHmLTmyJgG6qRisx9D-ThtpOLekV99tDLvAOZSJL9Fp4bZhhvzYbtCxneUpGYwdnzb4H0mtHBVTq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfABDoamsyBGdZFUrIIxzyaKNIa3m1vvln_0jvLaH1VIbqHCZq3o76P0pFZYjE2UxA4VLk-gbj2t5qHqVyyrtcW9VpX0-hQa3HrZjAhGkQfKYzROeE9tbTuU6UOV4XJahoKpi5kSvzty0A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Aaron Howard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We asked for an estimate for our approximately 35 year old live oaks in our front yard.   A certified arborist came out and sent us photos detailing what they would do.  We asked for a copy of their liability insurance and they sent a copy!   They are listed with the Better Business Bureau .....yes, we were being cautious.  And they gave us a small discount which we much appreciated.  But the job they did was absolutely wonderful!   One oak had a giant limb over the street that was getting hit by high trucks.  It was taken down all the way to the trunk without problems.  They raised the canopy and did all that they said they would do.  They came on time (even though it was a rainy day); waited till it was safe to work.   The staff cleaned up all the debris from the tree and took it away in their trailer. They sanitized the equipment prior to making cuts and sprayed the cut limbs with tree wound dressing.    The staff even cut limbs up for another neighbor who wanted the pieces for future grilling.  I would use them again and will recommend them to anyone.  And another neighbor came out and was asking him about his trees.  Very friendly and professional people."
+        },
+        {
+            "author": "Raquel Ybanez Salinas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Houston Tree Surgeons! They came out quickly for a free estimate and provided a written quote the same day. My job was scheduled for the following week. The crew was fast and efficient, and they did a great job cleaning up the site afterward. My palm tree was right next to my townhouse with very little space to work, but they handled it carefully and professionally. It had not been trimmed in a long time since I bought my home this past year, and they did a fantastic job bringing it back into shape. Pricing felt fair too. I definitely plan to continue using them for future tree trims. Highly recommend!!"
+        },
+        {
+            "author": "Kate Pollard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a fantastic experience with Houston Tree Surgeons from start to finish. It began with Dr. Pablo Teveni, an ISA certified arborist, who gave me an expert assessment of my Red Oak. I didn't want to take it down as I love trees, but I also hate how many times I have to bag leaves in my small patio area every winter.  He knew exactly how to thin the canopy to solve my leaf-bagging issues while keeping the tree healthy.\n\nOnce I approved his estimate, Barbara took over the coordination. She was so easy to communicate with via email and phone, getting me on the schedule promptly and making sure I knew exactly when the crew would arrive.\n\nThe team that came out today was quick, efficient, and extremely careful with every limb they brought down. They even brought a truck to haul away all the limbs and blew out all the debris from my patio when they were done. Very happy with their efficient service. I will 100% be calling them for all my future tree concerns!"
+        },
+        {
+            "author": "Jennifer Bomark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Houston Tree Surgeons (HTS) in mid-July 2021 to have them look at a dead pine tree in my yard to make sure it wasn’t a disease that could spread to my other pine trees. An ISA certified arborist not only came and inspected my pine trees, but he also answered questions about other plants that I have in my yard. He gave me the possible causes for why my pine tree died and provided information on the proper care and pruning for all of my various trees. He also offered a treatment plan to help boost my remaining pine trees and left me with a detailed list of everything including itemized prices if I wanted to tailor the work to be done. HTS’s office administrator worked with me to schedule a date to have the pine tree removed and its stump ground down, plus have my crepe myrtles pruned. The crew arrived the first week of August and were very careful in removing the pine tree as it sat close to my house. They were very thorough in cleaning up all of the debris when they were finished.  Everyone I dealt with from HTS was very polite, professional, efficient, timely, and a pleasure to work with. I would definitely hire them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8OQxJSL-b62Ab03Spc5AdIEnP1Rb1pFCwtGl0fShfD6SEd60vMV0eIpK76LegFVXTXjjqbws_ByabVEU5198DV5OWLDnuNhBa22ZyDcRTGm95r5MSfsDQUO4bxYHWtk9ambk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmddMvYQTTBd9VrlnWNjDWrXBuW80HdMmgMJPmEhHf81Y9CjRpMoRBoyXyiFmqJOf2C_0TIt-RfjZgSrBSImzQWIRyIhE8k0sQMpRTripuVvHmWHHhtJMK4Vf37p2hBKOgAWkZZA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRz1lzvSJgMEZrRRg0wFfOHPUKK6Y43AgUY1ov-3Qx9qyujUe2TrEb3qXRvm5OKMAf6bTQIvS8BdESZy8XgdDCKfxzK1i54aZJAOZTSn1iFiJOjSpop_o_xTMrobanamKhrjVF=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHxsdIP7OonZ71WigkNxFzAoHz3C7HSw0xbKyfZrAprcUoljedY3MX-f1Xv4q6xzYCF8ZWAM6QMfFrKocIJRKqTUuXxjPB7YreCwSX225-gMkxNP_oIfp_zU7WJDc4bQdT3FzKmw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

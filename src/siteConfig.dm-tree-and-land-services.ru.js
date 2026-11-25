@@ -31,21 +31,9 @@ export const siteConfigDmTreeAndLandServicesRu = {
     "ctaPrimary": "Позвонить (+1 478-607-0458)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dm-tree-and-land-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады D&M Tree and Land Services, LLC"
-      },
-      "sub1": {
-        "image": "/images/dm-tree-and-land-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/dm-tree-and-land-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigDmTreeAndLandServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/dm-tree-and-land-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigDmTreeAndLandServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/dm-tree-and-land-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigDmTreeAndLandServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/dm-tree-and-land-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigDmTreeAndLandServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Phil Herron",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I would highly recommend this company. I would rate them 10 out of 10!i We hired Dustin and his company to remove at least 30 trees, remove the stumps, remove and level the dirt from the area where the trees were removed, stump grind the st..."
-    },
-    {
-      "author": "Cleve Cunningham",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: D&M Tree and Land Service people did an amazing, awesome and excellent job for our Rivoli Condominiums Association in taking down this very large pine tree.\n\nThey trimmed up a few limbs of the adjacent large oak tree so that they could “rop..."
-    },
-    {
-      "author": "Andy Milani",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: D&M was incredible. Their guys were literally surgeons. Every limb was cut with precision to avoid damaging our fence or structures. Well done!..."
-    },
-    {
-      "author": "Sarah Shea",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I couldn't be happier with the service we received.  They arrived early, worked efficiently and handled the entire job professionally.  All the trees, stumps and yard debris was removed safely without causing any property damage.  They left..."
-    },
-    {
-      "author": "macy vaughn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dustin was very easy to work with! Him and his crew did a great job cleaning up throughout the whole process. I really appreciated the professionalism and kindness that was shown. After calling several tree companies D&M was the best priced..."
-    }
-  ],
+        {
+            "author": "Phil Herron",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I would highly recommend this company. I would rate them 10 out of 10!i We hired Dustin and his company to remove at least 30 trees, remove the stumps, remove and level the dirt from the area where the trees were removed, stump grind the st...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSnGYULmvm8G_w09TeNVu5kcaMpoGeCAHvNt72mLwcmcOaFlmkSdoPWZFstmtkjibAlTKFhBng68dV1qhZIR-2CPZfghM1UCmJK46yCngkYGaLHOrkUoya7YTxhOqEt-iNw5DqVpGthyAa=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemBiK0QkEUvA8l4BhntopRTNFLatBprqroSruJHc4QtKbJLgYrb97QRD3E44bWpcnR21_09RCSqZhkct_gD9f6aAuMrfhPhtfgHHuuewsyXK0uufejoZhuIgsQz4cTAxZD55r5oWEe1ENl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0ndilFxvvNQqVieuIFgqzMauDNdyRL0oxOJXf0NxOfzEb_RTCjvTRDHRrnI4ggDArs06zG9geK3sTjYnSORgFt2veOgoGZUXf4BmqgKj0SAP64ZI2OnZyFxtnZ0Zzy6nKvkV4c82k3vpq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcP8Bk-52sBiqLZDlgUAmHj8Gj2RJwFFTho0Gum-dvk38vbpNYrdquejdRX2s1xfFTIdG5MdrOFvxeVAuAgo1ZdIhQOQHHHJ_5W3ff7qpdJQ7FcnEZc6pa8BWGJpQC3DccHCbfCNxqcWp-y=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Cleve Cunningham",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: D&M Tree and Land Service people did an amazing, awesome and excellent job for our Rivoli Condominiums Association in taking down this very large pine tree.\n\nThey trimmed up a few limbs of the adjacent large oak tree so that they could “rop...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcCl_u7JtRAZ_wYFa7qCVb4hP5vASPRX1qmLbxcdn9fzvvsl6u6181Ct0qP2o_WJA0iTcQWGhbHaSodOwj17wcGLKeOZ6KM7X96x6yQnunKWrUdpySn1F2uI-j1PjX14ylYcnd73AyotKik=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhR6EeN77z1uCKwyLHsa81-W6g0APGFOz1KYJ9xjd3BX1MXrAXrWVazoP6EhjWW25W-GSlw-8YoRdf6qh-hMJxSCIhXf-YmRrAby7G7rros5NR62_Sgonk9Jpadzu0c8oxHeXAiu0mqmhf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWMlAF8J5wblkMkRPqRk_r8YGoa1e94Y5fgsUsxp98dEj8Oj1ZnWvH18IGEU82AaZctDkBkESV9XUuddWY8eY4sZBLWR7sM8O3MzorfOgVuIQfyrDDV-6mEcFZjpIotZSP2pqD-XGvkZTL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andy Milani",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: D&M was incredible. Their guys were literally surgeons. Every limb was cut with precision to avoid damaging our fence or structures. Well done!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcInAWhs46SJG5258o_xQ1hcwIU0Fdhd5wPygMy44X7DKo0vJEGV2Hr-pazQKytCEQ0NpamQj1CQauAzMnELdkm-lBEqXU3yKyl0EKqumt_CL_LhSktDFfZYUl5lsyj6ET8hhKcAMww-cUC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdH1L-AbkNZdm9d3ymjJUZOemuKz1hM0n8ekf0aSrBWqi1ipEvsWoK5WDm6TSSAIEt1DNL-BFKdbBMYu5mK5fahlm7JW_xODmiUhc1yEiIEzZjjWWW4SUQZCg3bhifisVd2dG4aSAObcmIa=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1WuRfSkJMHb6rcw5uMrNG1nhUB_zTanhWltsHs3rzVWMN-2u11D9KG2aeNNGwN5od84ra2B_yg93Iz7fDh38nbOpgkiitP4T9YXKaQbWfj_JTwSa16gsUhwoaTzR6k2kis4ORWEnNc_M=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVhLIKTlj-vwcfQmctBtCmv1Cf5alvOCcsEA-h4bBoVVp5adeR4D0KLsIeWRmF0iYk2RV21x_ypAb_6aTzBeckSO9x5WpnU3IpEHyc11RzeQkNB38Mhu-4McWYV7_6sp40QLqzbc40Zyw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Sarah Shea",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I couldn't be happier with the service we received.  They arrived early, worked efficiently and handled the entire job professionally.  All the trees, stumps and yard debris was removed safely without causing any property damage.  They left..."
+        },
+        {
+            "author": "macy vaughn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dustin was very easy to work with! Him and his crew did a great job cleaning up throughout the whole process. I really appreciated the professionalism and kindness that was shown. After calling several tree companies D&M was the best priced..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

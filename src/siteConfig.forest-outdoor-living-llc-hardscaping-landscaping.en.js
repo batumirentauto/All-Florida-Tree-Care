@@ -32,21 +32,9 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
     "ctaPrimary": "Call Lead +1 910-269-7938",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Forest Outdoor Living LLC Hardscaping & Landscaping tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/forest-outdoor-living-llc-hardscaping-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,63 @@ export const siteConfigForestOutdoorLivingLlcHardscapingLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sherri Newman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a eco sensitive bridge need. Yassir came to review the job and within a day we had the estimate and info to provide our POA. Forest arrived promptly and completed a beautiful 34 ft bridge to join our property. The workmanship was complimented by our POA engineer and those who have seen it. We are very happy with the bridge and we woulsuse Forest again. Thank you."
-    },
-    {
-      "author": "ANITA ALBARRAN SANTANA",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "“Forest Outdoor Living did an amazing job on our property. If you’re looking for a reliable landscaping company in Wilmington, NC, I highly recommend them. Their team was professional, knowledgeable, and easy to work with throughout the entire process. They specialize in landscaping, lawn care, mulch installation, paver patios, fences, decks, and outdoor living projects, and their attention to detail really shows in the final result. The work was completed on schedule, the pricing was fair, and the quality was outstanding. We are extremely happy with the transformation and will definitely use Forest Outdoor Living again for future outdoor projects.”\n\n— Happy Customer, Wilmington, NC"
-    },
-    {
-      "author": "Sherm Kohler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Professional, courteous and efficient!  We had a 60ft+ tree removed from a very confined and almost inaccessible area.  The field crew was awesome.  The tree was removed, no damages were incurred and all employees safely completed the task.  I highly recommend using Forest Outdoor Living for your landscape maintenance needs."
-    },
-    {
-      "author": "James Ratliff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Juan, Jose, and Angel did a wonderful job with my landscaping! We added edging, sod, steppingstones  and mulch, for our future planting bed and it came out exactly as expected. Plus, they did it so quickly. Highly recommend for all of their services."
-    },
-    {
-      "author": "Priscila Garcia Juarez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Forest Outdoor Living. The team was professional, reliable, and very easy to work with from start to finish. They took the time to understand exactly what I wanted and delivered results that exceeded my expectations.\n\nTheir attention to detail and quality of work really stand out. Everything was done on time, and the communication throughout the project was excellent. It’s clear they take pride in what they do.\n\nI highly recommend Forest Outdoor Living to anyone looking for landscaping or outdoor projects. You can trust them to get the job done right."
-    }
-  ],
+        {
+            "author": "Sherri Newman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a eco sensitive bridge need. Yassir came to review the job and within a day we had the estimate and info to provide our POA. Forest arrived promptly and completed a beautiful 34 ft bridge to join our property. The workmanship was complimented by our POA engineer and those who have seen it. We are very happy with the bridge and we woulsuse Forest again. Thank you.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7a0cYUJeZtVaw60j6s_lvLSYxPBlNN6n0uorjVo2E9cLcJty-yYsQsf8YQ4dJRNPNy6tADQXPcrUf10wmg3i7iPYJ_cWTzYSeXVK5NvKUV4UFDwfMkH2iXfvLsvMs_p0tzIjo2YOkHRN9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrdtGV1eegSllafocuDI-CQp2l434LggCYte5CttZ-Jm_941h9UPodiaGhFhEFxT7fPovMitrDbGdrHo4YLWrsTwtCmcvGXJPa6RKWhlTiqaW8MXQH1PnVo4-kOR-v3R7fbWJJAlSTWZAc=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezt3hzEVOUUJ23vr5zcfXpy0nySbmDz0etupQ5deMb1rPzM2lcatcd43KpKjqfl6nkNUMauX4KYtykgpu0XablKGl0LZeBJmh8uYQ88GMCDh6Szk-X4ZYZ7ZbH-pBpqQt4T9ibXxZfZci-=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ANITA ALBARRAN SANTANA",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "“Forest Outdoor Living did an amazing job on our property. If you’re looking for a reliable landscaping company in Wilmington, NC, I highly recommend them. Their team was professional, knowledgeable, and easy to work with throughout the entire process. They specialize in landscaping, lawn care, mulch installation, paver patios, fences, decks, and outdoor living projects, and their attention to detail really shows in the final result. The work was completed on schedule, the pricing was fair, and the quality was outstanding. We are extremely happy with the transformation and will definitely use Forest Outdoor Living again for future outdoor projects.”\n\n— Happy Customer, Wilmington, NC",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCgT_fHize9QM6813_HeREgPYBRLP81r1NTBzAI9bW_gsEuei8L7I0TN2hrzb4KMoFs_ihUus7Buyf8MNiIXFmQeZCwd2QjuGXstJ4npxUT8TBqXt-iMeJm7eKOW2-h2bs1OZO_7s2fK8F=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLduMpAJBAvaWZp0m5xsk8mWuVQ90iwnb8OzMYlKdjLy9zJCQvVzBE06GBJF5Gk9osRRqD4xFDqZi8fKRZbvu3_NScqxon0QQU0hPJylczX7FHGYGeqwBXdqLghNs_BLTgx-11kwtaio9Hcy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuENOyS5OxANpiOvF--6xIF-aAy8Jo6n1o1zX3blfhO6yFFVdO2a8vAy0_XSEK2BwPCv6g51raopQy3cHW3rUpPUiSAjUPscBInJ6T780raZMy-T7D28HEID-ZctfSS-GoCHSEnR7vAc7_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfSW1_djYwq4ECYENshJpGpmOG8n4qxEqr6w_Eii-KGjXFhWkaviHrq86Uu5PEwsuYchmaB-xXX7wmgQFnJMLMbNEymkCGU7zSsbABVnp0QHa979RPTRuDBH_KxMnTsNzM12CPOYXf6Epo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Sherm Kohler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Professional, courteous and efficient!  We had a 60ft+ tree removed from a very confined and almost inaccessible area.  The field crew was awesome.  The tree was removed, no damages were incurred and all employees safely completed the task.  I highly recommend using Forest Outdoor Living for your landscape maintenance needs."
+        },
+        {
+            "author": "James Ratliff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Juan, Jose, and Angel did a wonderful job with my landscaping! We added edging, sod, steppingstones  and mulch, for our future planting bed and it came out exactly as expected. Plus, they did it so quickly. Highly recommend for all of their services.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLchMFKaLMk7DNRc1zKngbU0PBqUyxLe4v0bpOkiavzeChqGtD3LwZS6gr-3P-y1G-W54KkJ7ZObYKE57gojVggdtQiSrFchMF_LCQBQjEjzKSi1ELuYBdHjMCOOmsek9SVE5RSEhmCeDcey=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdEDkcJXIuPs9ta6QvwivuWhvHYoOukX_7ZNzbJ21hNaeCaPBFOgHqogJiem2rNviFcZlTO4zAgqQVxCbrixnyDhmkOe_LpvfKg6GLG1DGwFozLvp5fGtGfx3rZve1HRQ_1YvbVCjQ-H8VY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck_dCH0wqJrMr-muXFrq_-PPQYp_MVtqf8B5wiJkGATMekv4xjd_2J50eoVZP_9k8oovR-FVo4x0LxgKJA6NCBoisGfiIQOraijgp2pBXRNMc3AL9pssIeLVyxRmkksk4_YxRJPlwfLKE=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Priscila Garcia Juarez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Forest Outdoor Living. The team was professional, reliable, and very easy to work with from start to finish. They took the time to understand exactly what I wanted and delivered results that exceeded my expectations.\n\nTheir attention to detail and quality of work really stand out. Everything was done on time, and the communication throughout the project was excellent. It’s clear they take pride in what they do.\n\nI highly recommend Forest Outdoor Living to anyone looking for landscaping or outdoor projects. You can trust them to get the job done right."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Wilmington (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigASandovalTreeServiceEn = {
     "ctaPrimary": "Call Alfredo +1 818-304-6428",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-sandoval-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "A Sandoval Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/a-sandoval-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/a-sandoval-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigASandovalTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/a-sandoval-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigASandovalTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/a-sandoval-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigASandovalTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/a-sandoval-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigASandovalTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Steve P",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I called A Sandoval tree service to trim eight 40 foot trees that were hanging over my house and breaking during strong wind season in Chatsworth, along with trimming 20 privet trees. Alfredo was very easy to deal with, and provided the lowest quote compared to numerous other companies I reached out to. Once the workers arrived, they got to work immediately and when i would ask to trim additional large branches, they would without any hesitation. They finished faster than expected, and cleaned all trash around my property within 15 minutes. I would highly recommend using A Sandoval tree service to everyone!!"
-    },
-    {
-      "author": "Lakisha",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Today my parents noticed a tree in the front yard was partially out of the ground and leaning! We called A. Sandoval Tree Service and not only were they here in less than an hour, they were done in about 30 minutes after that! The guys were super professional, friendly, brought all of their equipment and got to work. Even left us wood for the fireplace 😁We will be working with them again! Thanks guys! Great job!!!"
-    },
-    {
-      "author": "FinalGHOST GBx",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alfredo & his team are the best! I had an emergency with my palm tree ready to fall on my neighbors roof! They showed up & got the job done! I highly recommend."
-    },
-    {
-      "author": "Kirk Taylor",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with A Sandoval Tree Service. They came by on a Saturday afternoon with short notice to quote my job (thanks Germani). They showed up on time (early in fact) and got right to work. Alfredo and his crew were great, and met all expectations. An overall great experience!! I would definitely use them again. Thanks guys!"
-    },
-    {
-      "author": "YANIRA CHAVEZ",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing work, workers know what they are doing and are really careful while working. Also I had several quotes and they had the most affordable price for the job. I will definitely used them again and will recommend them to anyone looking for any Tree Service."
-    }
-  ],
+        {
+            "author": "Steve P",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I called A Sandoval tree service to trim eight 40 foot trees that were hanging over my house and breaking during strong wind season in Chatsworth, along with trimming 20 privet trees. Alfredo was very easy to deal with, and provided the lowest quote compared to numerous other companies I reached out to. Once the workers arrived, they got to work immediately and when i would ask to trim additional large branches, they would without any hesitation. They finished faster than expected, and cleaned all trash around my property within 15 minutes. I would highly recommend using A Sandoval tree service to everyone!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_XKqOVfft4ZuiHZ2y5A_o9-OXxZpicw0TiFPj8pataRzSBiZu1ZIfwgHhd2S-QXzov8m8AEs-5uixMdm777HJrNuSa0TyqoSHyDUCclpY5TUk9128cORF_sviM2QGVfwFwmFJ00FIopA7=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7vACkjxQagcTo9YiDTdhlZvcbEVWD4iNGKrTvTYOfH3dASOlLATwng8PxgbhKc1R9tDZoOVMfC1mGCVGlZg6k7OYCzXQOGBPQaov2ySjrT8oVf5y_bILj20EPbZw6IXJ59OEoF2ZnvWOm=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lakisha",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Today my parents noticed a tree in the front yard was partially out of the ground and leaning! We called A. Sandoval Tree Service and not only were they here in less than an hour, they were done in about 30 minutes after that! The guys were super professional, friendly, brought all of their equipment and got to work. Even left us wood for the fireplace 😁We will be working with them again! Thanks guys! Great job!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeIHtqQ_9xJQRb7dtaqpsiMaijYr_F7Jit6RolgTylCOEsf7XPGHEbdA9xdrRYgdChkCcZR0Gw7wdfrzjXMnwxWVTFP3uuyxnO4OrKqN6FEi55VdUldxgbH2Wii_ikNVolH19RNLWtXgrbf=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4TmudKggUOIeDHRcIW1OOwL-hvWX0w09lKEs3seReXGoW5qKv2FWQgk09wUaiwZpo-zSyYS_jc6Tl2YKx5uoDjZ2tk9iOqdY5XoWzWxWBwHdBYVoQz-YriKgwztNs0lQNVYJezTSlRwKz=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "FinalGHOST GBx",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alfredo & his team are the best! I had an emergency with my palm tree ready to fall on my neighbors roof! They showed up & got the job done! I highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkuBdyV8t2iC1YnUW7BdM82PGIqBEeuBo8pc3DSluxA0-zyANWxVKH3pMNn7yrgBDueyKGZXijJ3qQqVboOHI-mFRpyow_4GgEol35dnjw2_29JsFBIYAhyCOMtJYaNVqU-OU2bHvkQrU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLekvb6IGFTInY3Z1RsbRHW0BHjPxpvcUlHxMmpY19-G7uUo7UsbOuCIUgP2sEMMbN7JNxwdqjwGfRB9OE7dNzanX8sHNt7uliYltWUd2F2YBh_aPtFGXWRmP2DmmWn3Bg5aWijKvrXdumUv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOQUajtfE1JHLwGS7emDCz1hNK1_e_hdozK9uzb2T7BBsT2zV4Ui-FiJsnZjZu0tl1psR6klRMaBsNXOE-xoHKKUYdMsERqciP6L7fYYMtR2iBEkZYK__h9QL04ubt5nXHbtwf0jdqc5qZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmRayL1bmLsqm65CMxAuq675Sp2ElW-IC-XAfliyD85ZPLyOHlhxMiyFKYw2SI5LoY8sLEKu-Zx7MmV5qOLPCJ91MVkZHXNSKg9-xB2eI04tasjjC5SNRYvjQy4ZyONolyIgWfBb8jomA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kirk Taylor",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with A Sandoval Tree Service. They came by on a Saturday afternoon with short notice to quote my job (thanks Germani). They showed up on time (early in fact) and got right to work. Alfredo and his crew were great, and met all expectations. An overall great experience!! I would definitely use them again. Thanks guys!"
+        },
+        {
+            "author": "YANIRA CHAVEZ",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing work, workers know what they are doing and are really careful while working. Also I had several quotes and they had the most affordable price for the job. I will definitely used them again and will recommend them to anyone looking for any Tree Service."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Arleta (Central Depot)",

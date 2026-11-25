@@ -31,21 +31,9 @@ export const siteConfigACutAboveTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 910-209-4516)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-cut-above-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A Cut Above Tree Service"
-      },
-      "sub1": {
-        "image": "/images/a-cut-above-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/a-cut-above-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigACutAboveTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/a-cut-above-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigACutAboveTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/a-cut-above-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigACutAboveTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/a-cut-above-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigACutAboveTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Morgan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matt and his crew at A Cut Above Tree Service have completed another great job for me. They showed up when Matt said they would, completed when Matt said they would be done, and cleaned up after themselves as usual. You can count on A Cut A..."
-    },
-    {
-      "author": "Debra Spencer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: RECOMMEND 100% We had 22 large hickory and oak trees to take down, called A cut above, Matt came out and gave us an estimate, job was done 2 weeks later. Matt and his crew did an AWESOME JOB. My husband and I are extremely happy with what t..."
-    },
-    {
-      "author": "Paola Pagano",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Best service all around. This crew did an outstanding job removing trees, pruning trees, removing and grinding stumps. We were floored at the quality of their work. You do not receive service like this anymore! Highly recommend this company..."
-    },
-    {
-      "author": "Kelsey Stodden",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing experience! We had a tree & several stumps removed. The team was quick and efficient while paying close attention to detail. They went above and beyond and throughly cleaned the area they worked on & then some. One of the stumps was..."
-    },
-    {
-      "author": "Deeanna Summerour",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Sorry this took so long to post. Esther and Matt have the most fantastic crew I've ever dealt with. They cut down 4 huge pines and ground the stumps. When they had finished, you couldn't even tell the trees had been there. They left the yar..."
-    }
-  ],
+        {
+            "author": "Morgan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matt and his crew at A Cut Above Tree Service have completed another great job for me. They showed up when Matt said they would, completed when Matt said they would be done, and cleaned up after themselves as usual. You can count on A Cut A...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7UrXTy8e-CDV6HQ2EDmEj3hlUz9vWDP1hBM3J9IXNEiu1M-3XMAMcAWPekIYwrROU7ceAqadcTrGZrIASfTJ9sCNTUBOlZd4FjzR1gyhYD0O1zubo3waJNgo_Gy3caWGEvz6oNGLebwCI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCr9eZAe_RvuaLA7brNbmeZVwBb3mb6BrdvDITPeQzyfQmZHPC8GvuC39i_LPyKmYb8LoYxTpxmoAyL-xf0JwO1sixSLWq4nvhkX9LsLTNrGmCJkz9kt2ewE8sZ1y-1qhSuswWNSy5A6k=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdESil3L0QJ4AoODoJo9GWN_DMTzeaaNqezCoGtfxt4KnVoeUYfW2ommgDLfYui5nPFZcINEZ88HAoRHqsIASXO_6apUHlsfElEpM1o19CuPQXHdX2bEOUBfegN8uTx-8dTiSPMtg6HdsPC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8aZj60QdQ7GTk9MnHaRXvcoSkCQ1Y0m-fW7zUuIDYJwqzGVs1gRTgYaD8KKhVBQd8cH2cI5H0x9SYjIkhxaSnPxGe-n1cuc7PNE8RZUV89AzHvW5ph1gu6S09ZllOyF-ts8V_PMNZwD76=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Debra Spencer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: RECOMMEND 100% We had 22 large hickory and oak trees to take down, called A cut above, Matt came out and gave us an estimate, job was done 2 weeks later. Matt and his crew did an AWESOME JOB. My husband and I are extremely happy with what t..."
+        },
+        {
+            "author": "Paola Pagano",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Best service all around. This crew did an outstanding job removing trees, pruning trees, removing and grinding stumps. We were floored at the quality of their work. You do not receive service like this anymore! Highly recommend this company..."
+        },
+        {
+            "author": "Kelsey Stodden",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing experience! We had a tree & several stumps removed. The team was quick and efficient while paying close attention to detail. They went above and beyond and throughly cleaned the area they worked on & then some. One of the stumps was...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1hfIOnJRQf8Z7csuGem4Fx5ZiFYGOir7kjECVdr4ZYauvwYlMjqdDupSFVPjRuM5XVBCAtQ9Jz3hdQTYSqd5v4ybfWkovowYrNcIIFFe2w165PffTFRy5Qs25LWFct8M4xyfF=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8CE-Jjyl4r5vYTK0S1V5-Uq-4Pxne9cFYk_FB6tFXHR-5w7HG_av5YG-D888rNx2eOuQd3o5QhqfHPZyxpr3QyZxd-Eg4c3eA409ME5UByg1ZEkCPNKUaJsz3RMkYx9l6JVJZ-w=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Deeanna Summerour",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Sorry this took so long to post. Esther and Matt have the most fantastic crew I've ever dealt with. They cut down 4 huge pines and ground the stumps. When they had finished, you couldn't even tell the trees had been there. They left the yar..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Supply (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigTreeTopFlyerClimbingEn = {
     "ctaPrimary": "Call Lead +1 803-683-1708",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-top-flyer-climbing/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tree Top Flyer Climbing Services, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-top-flyer-climbing/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-top-flyer-climbing/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeTopFlyerClimbingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-top-flyer-climbing/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeTopFlyerClimbingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-top-flyer-climbing/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeTopFlyerClimbingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-top-flyer-climbing/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigTreeTopFlyerClimbingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Tommy Sands",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I recently purchased a home with a large Palm tree that definitely needed some love.  I saw that this tree had some real potential but suffered from neglect for a number of years.  It was going to take an expert to return it to it's glory, if you will.  After having some difficulty finding someone that openly offered/advertised to work on Palm Trees, I saw an ad for Tree Top Flyer and reached out.\n\nI had high hopes after reading a bit more about the philosophy and approach taken by the Tree Top Flyer team - and the fact they had a Certified Arborist was a huge bonus. I appreciate folks that have a real passion for their work.  In my experience that passion often translates into a better, higher quality outcomes and without hesitation, this is what the Tree Top team brought to the table.\n\nAllison was rapid in responding and we set up a meeting to take a look at the tree.  Upon arrival, speaking with them was fun as well as educational and informative. I understood I was speaking with absolute professionals.  We rapidly agreed on an approach to ensure continued health and success for the tree and I would look forward to hearing back from them when scheduling would work.\n\nAfter confirming yesterday, today the team was out to work on the tree and I cannot possibly express the level of happiness I have for the work Channon and the team did for my tree.  Being offsite, I was provided regular progress updates which I found to be a nice touch.  The end result is everything I had hoped for and then some.  I saw the potential in this tree to once again be a glorious focal point for my property and Tree Top Flyer has returned it to that for me.\n\nBeyond coming back to continue caring for my Palm, I will absolutely be teaming up with Tree Top Flyer again for any and all tree work I have in the future.\n\nI'm so incredibly appreciative of all the amazing work that went into reviving this tree.  It means a lot to me. Thank you!"
-    },
-    {
-      "author": "Pat Flynn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very professional, knowledgeable team. They safely removed several trees, one very large tree, trimmed others and cleaned up the yard. I’m very happy with the service. Patrick F."
-    },
-    {
-      "author": "J.J. Hammond",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They did an incredible job on a 7800lb pine tree that was tucked in between houses IN 1 DAY. Come to find out the tree was cracked so divine intervention. Thank you very much."
-    },
-    {
-      "author": "Sarah Rice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a kitty stuck in a tree and Tree Top came as soon as I called and successfully freed the kitty from a very high perch. They were helpful and encouraging during the whole precarious process. Both husband and wife are very knowledgeable about trees, climbing and cats! It was fun to watch the mad climbing skills. We will 100% call again! Thank you Tree Top Flyer Climbing Service for everything!!!"
-    },
-    {
-      "author": "Stank Nasty",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Rescued my cat that was way up in a tree and too afraid to climb down. Nice folks, know what they're doing."
-    }
-  ],
+        {
+            "author": "Tommy Sands",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I recently purchased a home with a large Palm tree that definitely needed some love.  I saw that this tree had some real potential but suffered from neglect for a number of years.  It was going to take an expert to return it to it's glory, if you will.  After having some difficulty finding someone that openly offered/advertised to work on Palm Trees, I saw an ad for Tree Top Flyer and reached out.\n\nI had high hopes after reading a bit more about the philosophy and approach taken by the Tree Top Flyer team - and the fact they had a Certified Arborist was a huge bonus. I appreciate folks that have a real passion for their work.  In my experience that passion often translates into a better, higher quality outcomes and without hesitation, this is what the Tree Top team brought to the table.\n\nAllison was rapid in responding and we set up a meeting to take a look at the tree.  Upon arrival, speaking with them was fun as well as educational and informative. I understood I was speaking with absolute professionals.  We rapidly agreed on an approach to ensure continued health and success for the tree and I would look forward to hearing back from them when scheduling would work.\n\nAfter confirming yesterday, today the team was out to work on the tree and I cannot possibly express the level of happiness I have for the work Channon and the team did for my tree.  Being offsite, I was provided regular progress updates which I found to be a nice touch.  The end result is everything I had hoped for and then some.  I saw the potential in this tree to once again be a glorious focal point for my property and Tree Top Flyer has returned it to that for me.\n\nBeyond coming back to continue caring for my Palm, I will absolutely be teaming up with Tree Top Flyer again for any and all tree work I have in the future.\n\nI'm so incredibly appreciative of all the amazing work that went into reviving this tree.  It means a lot to me. Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmH5VBMwaqxLOk7IyqotEe493Kq68hkyo5Mn40ECW_GeO4xEkqogJ6azP7LeU_aUzd0ydZeuTfoOWJlZbOqnd9wVNqu-Hbdar0ngoskEd8zqZHy1_tGGfkk69QpKZoEcrvlroP=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5ThnqKUSBSQDlJdt6ZyfzFz6vGtWSy0_cb_jRlJJ9QiqIJYx96Si3NxNn6FO0Vkj7JctV1m_uGS3Q0iPe1_4k4zFF6_IbIf7z0SyzpUMGExij3icnKVAXo8nXcbpeHsuj9469wQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_UC1f3TT0RwhCfNLygblY4uiQUE0posQf-4lFgmeuuG1of-1LfDlRCNA_DhTxDHt7HswtukreJw86E5iYcd1EjWxD_G570HwkDt4zFZjYsq-P37bdyyBa51_dUSeeba83p9s=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Pat Flynn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very professional, knowledgeable team. They safely removed several trees, one very large tree, trimmed others and cleaned up the yard. I’m very happy with the service. Patrick F.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdch62HwYzCltUh8Qb6b8bvN8nj6BgsS6RH2hjfJX1WRMjsew8yB3PKV3SxIj_dobrD_qdlspqT4a5gJHu7lr1c_jqtz7SZvyP3UKvcQBUMif-Gl0yMd4_eGfi4OF6NJPFcFHcjdw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfnP4uB8D-0WNW9OBCjCKHYjGUACMlQpqZLfZsnk2hY7ssgzJ-xiSAh7g7ZKuWCZsbSzTLn0UPix11rDl-BTdAQJbVMMqweZhBio_J8dXOoTNojdwzGwODGYdcR4x9LnWmAahRF=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J.J. Hammond",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They did an incredible job on a 7800lb pine tree that was tucked in between houses IN 1 DAY. Come to find out the tree was cracked so divine intervention. Thank you very much.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc4Tzmgg9op2V_RG16qi-FFjQB0U52RE7n301qdsj9qLKdU77T6umMz7YntVFXbhF2ylC5RnTn2LDFmLmYjUcJvxdrqN1sf94YaoR7QDKuN_QCa4uiOns7QNy28x9siy9Rk0xJt=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sarah Rice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a kitty stuck in a tree and Tree Top came as soon as I called and successfully freed the kitty from a very high perch. They were helpful and encouraging during the whole precarious process. Both husband and wife are very knowledgeable about trees, climbing and cats! It was fun to watch the mad climbing skills. We will 100% call again! Thank you Tree Top Flyer Climbing Service for everything!!!"
+        },
+        {
+            "author": "Stank Nasty",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Rescued my cat that was way up in a tree and too afraid to climb down. Nice folks, know what they're doing."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

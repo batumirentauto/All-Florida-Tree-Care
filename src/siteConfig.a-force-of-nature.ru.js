@@ -31,21 +31,9 @@ export const siteConfigAForceOfNatureRu = {
     "ctaPrimary": "Позвонить (+1 239-841-2179)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-force-of-nature/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A Force of Nature Tree Service LLC"
-      },
-      "sub1": {
-        "image": "/images/a-force-of-nature/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/a-force-of-nature/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAForceOfNatureRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/a-force-of-nature/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAForceOfNatureRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/a-force-of-nature/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAForceOfNatureRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/a-force-of-nature/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigAForceOfNatureRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Asya Cotton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Let's be honest! You will get quotes when looking for service. I know i did. A force of nature hands down had the best price. Communication was fantastic. Service was exceptional. You won't be disappointed..."
-    },
-    {
-      "author": "Tami Yost",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing service.  Jod assisted in getting me a fair quote when I sent her photos of the trees I needed trimmed.  They stayed in touch and came out in a very timely manner.  Great service and clean up!  My Coconut Palms looks great!  Definit..."
-    },
-    {
-      "author": "Sequoia Hohmann-weidner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\nGreat experience with a force of nature! They were professional, friendly, and did an amazing job. They showed up on time, worked quickly and cleaned up so well I couldn’t even tell there was a tree there. I would definitely recommend..."
-    },
-    {
-      "author": "Shani Navaratna",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I would recommend A Force of Nature Tree Service company to anyone. They did a professional work removing my backyard's huge oak tree .Excellent team work...."
-    },
-    {
-      "author": "Gary B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I needed some large trees cut down around my house. I saw Gary's great reviews on Google so I thought I'd give him a call.  He came over and analyzed the job at hand... in fact he  looked at every little detail... how to get the machines in..."
-    }
-  ],
+        {
+            "author": "Asya Cotton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Let's be honest! You will get quotes when looking for service. I know i did. A force of nature hands down had the best price. Communication was fantastic. Service was exceptional. You won't be disappointed...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdq-9vPIAvmTmtaTYqoSy9HTPjngYd2qviUf9PWhM8yXGm8dieMS34dnQCr36eoBupB58SjfHnI5R67bBFBbZtrOcLGHtKO3DIxbufl8krfAAdrQjKhZUKD4BGOp3PtFFR3yzol7vfpcWqB=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfkVFTZAl7-mcBjHI79e_2TY4gDUMHt1_6uvYio2ry5W01eRCUq5DxbfQQ6bKZV3LXt3vItAiEePOgY3ZG5MEnT9ONqqaIAkfOMh65yEHKb2W1Zb-mlgg7Jxg1UjoVQ0Nx73dPWtM7d5BU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcX0Xt2x_v_FfUdPnuM2DMrewo44z63HGQW-3VjZgCBZFKZuOunq90vEuDxziPWa_dvZD28iMdAGoV47ECPVywHFL2x49Z0hbMp3kP17xEuNEPyvPPJL66yzy9bgfeEmX5JxjuNiNJ_IJrA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tami Yost",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing service.  Jod assisted in getting me a fair quote when I sent her photos of the trees I needed trimmed.  They stayed in touch and came out in a very timely manner.  Great service and clean up!  My Coconut Palms looks great!  Definit..."
+        },
+        {
+            "author": "Sequoia Hohmann-weidner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: ⭐⭐⭐⭐⭐\nGreat experience with a force of nature! They were professional, friendly, and did an amazing job. They showed up on time, worked quickly and cleaned up so well I couldn’t even tell there was a tree there. I would definitely recommend..."
+        },
+        {
+            "author": "Shani Navaratna",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I would recommend A Force of Nature Tree Service company to anyone. They did a professional work removing my backyard's huge oak tree .Excellent team work....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf7cQ4lYcDDczdGBqbBMl9Xa1W59eE0V7v2h3e-tBPOESviBbLGIcfs3iRkjk6Sqgafb9jA7_VMigfShj3PwIWpLYnqjlw025IYbnu7m8m9G5YY1AhcLV2z2Sj537w85hvV6r5oaYAPMuZA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeo1lPlHh1cOpmSdKzrZ8WPmrgVMrlphTcdYFfsd7qzYuDOm5kxLhVEejdpEKlTE3QvoXfswbCt6Bg18aP3DPafSdE_MrHkjakvDumrwMjFG-Ty0kP9-udu8pjEV8sTOEzcKNkckydAqF8=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Gary B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I needed some large trees cut down around my house. I saw Gary's great reviews on Google so I thought I'd give him a call.  He came over and analyzed the job at hand... in fact he  looked at every little detail... how to get the machines in...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdIM0L1GSiomfLf5VaIk_PHgeZ-hGBkCDDGGM_wgFWStlIHIOmRY835PPlWZ46u8vezEHfp0dmaMx3s52BI4YsSHxjrq4TZYeGE0qMOlNEVsrgrdt5qwzoKOZPzXgVnuJRsNyTh=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd_Ie8X1h7k4RoVj2d-QhijCPCGtvxHfIcRFRdBBrANxRH9_68RwebJHT7FmU_I86UH1shoCbsRtmaJPCJybPa77vYC840T_joGHKt3kbbBZiwSXIlQB9uBIotW_ZWmqWfEIHbGCQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeY84eTl83GNJn2VixWWPa2SmwqIqyQch-vu_YcBspyKmef84rneZfKKcGkZmDrNzlmQ0p4eZgTDGcSk1csrBAuhj_t2bL_IrmedvmFQ8cpvirBGF3yzW3wMbuLJsnuLRGR_jk=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

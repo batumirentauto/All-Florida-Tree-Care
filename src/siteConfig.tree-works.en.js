@@ -32,21 +32,9 @@ export const siteConfigTreeWorksEn = {
     "ctaPrimary": "Call Tripp +1 980-734-3915",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-works/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tree Works tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-works/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-works/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeWorksEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-works/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeWorksEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-works/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeWorksEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-works/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigTreeWorksEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Cripe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My wife and I recently moved into our house last fall and noticed we needed to have a couple of trees removed and the rest trimmed around our house.  Tripp and company had been recommended by our neighbor, so we had them quote us for all the work.  It seemed a tad high, but everyone has raved about them.  We scheduled for the work to be done a few weeks later.\n\nTree Works completed the work today and we could not be happier!  After watching all the effort that was needed and manpower to do the job, the price seems like a bargain now.  The guys were professional and friendly the entire time.  I would highly recommend them for any of their services."
-    },
-    {
-      "author": "Christopher Hutchins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had a great experience dealing with Tree Works.\nTripp was quick to come out and look at the work we wanted done.\nPricing estimate was very fair so we proceeded.\nA few days later they showed up right on time and did exactly what they said they would and even a little more.\nAll members of the crew operated safely and were friendly.\nThey completely cleaned up and left little to no trace of the work done which says a lot given the nature of the work itself.\nWould definitely use them again as well as recommend to others."
-    },
-    {
-      "author": "Matthew Rossi",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tripp McKee and his entire team were professional, helpful, and courteous!  Their quote was fair and they were very quick to get the work scheduled and completed. Tree Works did not meander with the work and they cleaned up EVERYTHING!!! After they were done you couldn't even tell that I had work done other than my trees and stumps being gone. I've already put them in my contacts for the future. Thank you Tripp and the rest of your team!! Phenomenal work and fair prices!!!"
-    },
-    {
-      "author": "Andrea Price",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tree Works did a great job!! We had gotten quotes from well over 5 companies and Tripp was very honest and definitely didn't nickel and dime us.  We had trees big and small taken down and stumps ground down.  They got the job done quickly and cleaned up very well afterwards.  They are professional and every move was calculated.  Would definitely recommend them to anyone!"
-    },
-    {
-      "author": "Michael Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tree works were timely in calling you back and were timely in coming out for the service. Had 2 other estimates and they were by far the best price. Cheaper price did not mean cheaper service as they did the job and left everything cleaned up. They removed a stump for me also from a tree I had taken down 3 years ago in addition to this job which was a tree removal. I would definitely use them again."
-    }
-  ],
+        {
+            "author": "David Cripe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My wife and I recently moved into our house last fall and noticed we needed to have a couple of trees removed and the rest trimmed around our house.  Tripp and company had been recommended by our neighbor, so we had them quote us for all the work.  It seemed a tad high, but everyone has raved about them.  We scheduled for the work to be done a few weeks later.\n\nTree Works completed the work today and we could not be happier!  After watching all the effort that was needed and manpower to do the job, the price seems like a bargain now.  The guys were professional and friendly the entire time.  I would highly recommend them for any of their services.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdToq2C7ZwpW1_0TziQNyMZJWnVtPjchVgceJd1hWED03WvaFwCr9vgqNkelPiU8Rxny0GN9JF5owCgnxNdufQtby_bsEHo2ab-w91f6uQedN5twN79F0y-vqQ0vJ-YDOhjjnjemw=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Christopher Hutchins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had a great experience dealing with Tree Works.\nTripp was quick to come out and look at the work we wanted done.\nPricing estimate was very fair so we proceeded.\nA few days later they showed up right on time and did exactly what they said they would and even a little more.\nAll members of the crew operated safely and were friendly.\nThey completely cleaned up and left little to no trace of the work done which says a lot given the nature of the work itself.\nWould definitely use them again as well as recommend to others."
+        },
+        {
+            "author": "Matthew Rossi",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tripp McKee and his entire team were professional, helpful, and courteous!  Their quote was fair and they were very quick to get the work scheduled and completed. Tree Works did not meander with the work and they cleaned up EVERYTHING!!! After they were done you couldn't even tell that I had work done other than my trees and stumps being gone. I've already put them in my contacts for the future. Thank you Tripp and the rest of your team!! Phenomenal work and fair prices!!!"
+        },
+        {
+            "author": "Andrea Price",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tree Works did a great job!! We had gotten quotes from well over 5 companies and Tripp was very honest and definitely didn't nickel and dime us.  We had trees big and small taken down and stumps ground down.  They got the job done quickly and cleaned up very well afterwards.  They are professional and every move was calculated.  Would definitely recommend them to anyone!"
+        },
+        {
+            "author": "Michael Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tree works were timely in calling you back and were timely in coming out for the service. Had 2 other estimates and they were by far the best price. Cheaper price did not mean cheaper service as they did the job and left everything cleaned up. They removed a stump for me also from a tree I had taken down 3 years ago in addition to this job which was a tree removal. I would definitely use them again."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Matthews (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigGulfCoastTreeAndLandEn = {
     "ctaPrimary": "Call Gulf +1 850-723-6976",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/gulf-coast-tree-and-land/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Gulf Coast Tree and Land tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/gulf-coast-tree-and-land/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/gulf-coast-tree-and-land/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGulfCoastTreeAndLandEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/gulf-coast-tree-and-land/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGulfCoastTreeAndLandEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/gulf-coast-tree-and-land/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGulfCoastTreeAndLandEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/gulf-coast-tree-and-land/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,70 @@ export const siteConfigGulfCoastTreeAndLandEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mildred Dupre",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend this company. David didn’t hesitate at all on having to climb my tree to bring it down. He couldn’t use his bobcat or his manlift. Yard was not accessible for the machinery so they had to do it the old-school way. He took it down, limb by limb, and his crew drug all of the limbs to the front yard, and loaded them by hand onto their trailer. They cleaned up their mess. You couldn’t tell that they had even been here where they loaded the limbs. I also had them to grind out the stump. To me, they had an extremely reasonable price and they did it in three hours and they were gone. I would use them again."
-    },
-    {
-      "author": "Holly Tolbert",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We were truly blessed by Gulf Coast Tree and Land during a difficult and dangerous situation. From the first phone call, they understood the urgency and made us feel like a priority. Even with it being Father’s Day weekend and his birthday, he kept his word and had the tree safely removed by Sunday afternoon.\n\nThe professionalism, compassion, and care he showed our family during such a stressful time is something we will never forget. We are incredibly grateful and highly recommend Gulf Coast Tree and Land."
-    },
-    {
-      "author": "Tina",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I called Gulf Coast Tree early Tuesday morning explaining how the night before I had a huge tree fall in my yard pulling down power lines.  Within an hour or so they were at my house gave me a great estimate and told me they could have it down tomorrow morning.  Wednesday morning they were at my house around 8:30. The entire tree was down and cleaned up less than 2 hours later.  All the debris was removed as well as leaves that were there before.  I recommend this company extremely highly.  Thanks Gulf Coast Tree"
-    },
-    {
-      "author": "Nabilah Lari",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "David came out last week, gave me a quote, and today, took care of the tree limbs hanging over my roof! He was one of two reasonable estimates out of the 5 companies I met with. The decision to go with his company was cinched when one of the other companies I met with spoke highly of him. I appreciate the quick and professional service, and will use this company for any additional tree work I need done."
-    },
-    {
-      "author": "Denny Elkins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I worried WAY too much about getting a tree THAT big removed or about how much damage it could cause if it fell on my house. Gulf Coast T & L took all that worry away. Hassle free worry free  at a great price OUTSTANDING TREE SERVICE  ☆☆☆☆☆"
-    }
-  ],
+        {
+            "author": "Mildred Dupre",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend this company. David didn’t hesitate at all on having to climb my tree to bring it down. He couldn’t use his bobcat or his manlift. Yard was not accessible for the machinery so they had to do it the old-school way. He took it down, limb by limb, and his crew drug all of the limbs to the front yard, and loaded them by hand onto their trailer. They cleaned up their mess. You couldn’t tell that they had even been here where they loaded the limbs. I also had them to grind out the stump. To me, they had an extremely reasonable price and they did it in three hours and they were gone. I would use them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSU0ZTgX9680Vd3gs-2EU9gvhMU6x4zoo7BQdJecAVpdOdoXO5tnwS-vqANDyQhw4WB1dxZxAUIJE11ZVRMpZxOPDBI3TDi1BJmtOweuqDm1MFWLTo_Lwa6D61bGeaBvtaygfTZyvyFDO0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd0FiW2c22mkEoi46rbG-eU4wJ0g9Mcq1UYaLaW7CCeDtOhKmanshu3KOl76X_5kehLZH7IMHclAW8GS-ZKqwjC0EX_LAID7aRZ1NWoCUu7gPeOgGqa0kGG_gdQq4Jp7c_YlwMecRFYsRpU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWDDvBqmacssqhNa_j2rsOrjjuMF9fCtVQMyXcaySpXHi3cljmJdKuS2YGBTs9Sz1BDl4BeJSWBnSgCw26bkHFvyJDnlORhxTI3pFBlDk-bzvlhQWcm9AuXrp-HH7fUqmXgoAHWdSA93tX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnVNONHWpuq3wl5IZ0UTOklJ7ghp-OUPtMxctZPjDuCmi1_pNXHt0PdhS9No8O6hrxJGzQJArwsBi6GTwhkkHvgXNUiwgPWp6mjp3rPSFtKriQrpB9XBWLaVTit6cvRoC9It38N3UTrPZ7=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Holly Tolbert",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We were truly blessed by Gulf Coast Tree and Land during a difficult and dangerous situation. From the first phone call, they understood the urgency and made us feel like a priority. Even with it being Father’s Day weekend and his birthday, he kept his word and had the tree safely removed by Sunday afternoon.\n\nThe professionalism, compassion, and care he showed our family during such a stressful time is something we will never forget. We are incredibly grateful and highly recommend Gulf Coast Tree and Land.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRmCmipfEBDYqljbxtvOZCppF7NMXTt0JhMXeORnE98-n_YdLN9rup_UzzkUHqM7rQLsBvkWzg6xprNTnaWcEgDUOile7KAyWOD5EQcQfEt62GkG0mHlW4iIU7rg9RH9-L_sbR1Qp8mDGB=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLek3jauz8sWuWG_cFta5nkU4d_uvZp_dJGMMgOmCoU2fYcIPqgrQVg09b5eCbAY4kpn4v_9peViFo0csBIbYTi4EF_T788Z8UWfG84-0dJFRFN9QCWjVUN3sOLCV-t_cKKzrHqCBfKjahwp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdJLPhEhlVfNZ_Vy7qp9VkGVyWPtjA2UG3A5kccDIVXUlJ94YaKfmim1dNWAklSaJFy7FcLMlGOtlvN1l37vcsjhXF2pZq733uSaIdioZ0DGt1EaMyd36rhOBFcMsVudE4LOk-ugNFmiSs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tina",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I called Gulf Coast Tree early Tuesday morning explaining how the night before I had a huge tree fall in my yard pulling down power lines.  Within an hour or so they were at my house gave me a great estimate and told me they could have it down tomorrow morning.  Wednesday morning they were at my house around 8:30. The entire tree was down and cleaned up less than 2 hours later.  All the debris was removed as well as leaves that were there before.  I recommend this company extremely highly.  Thanks Gulf Coast Tree",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdAhCcYBDBpx-ohCMRiMA8ACjLRuc9qyxEz_Jm7SROomuk-XLo4_i-dXI0salIpCbPgd4AEKMAtSYpCweLK0Vuq4GXu_f1_1OFNSQbiISE_8n2CR-dbSEDsm6-0Ewpydy7CKQIw6QtDnkIV=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuA599Y7V4pK2j7AD3C0Ckf9G2VoJfnkABWKaQTWQ0j2Ffg21j-5prtEYY3UOjsEhFP1VXsW5nLSGXf3xOc0UOjz6NGy8Nj3YbY4qREWS1ZtckIgYAKus0KXlXwwE9sJM5gPSFGJhwA8KZ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Nabilah Lari",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "David came out last week, gave me a quote, and today, took care of the tree limbs hanging over my roof! He was one of two reasonable estimates out of the 5 companies I met with. The decision to go with his company was cinched when one of the other companies I met with spoke highly of him. I appreciate the quick and professional service, and will use this company for any additional tree work I need done.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfLK7Z1frblOoxNbT67n9tA12ZieXNeZ9Q9H4E5WprO65UZHXkiS_DGa6qzKahuxWkTPNWWkSbsp_AkDP52haT5e7e1ufNUkim07nlkadvAP4ba2lIlFGw8X8eOnOHWpv2Scof-bM2j-jpj=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCM1PJkhhpboxRG10lXMjH7bbYeRhir9uYsbpFf1db5EliCsr233E8fjTg7ix3xYbnLmYxX2SCZAeaZDKixA-xkHKXR_Oad7lrjLXpn2fWNna3qnEKyTsDJRIVyxkgdIXlmPwCHDOSReJA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Denny Elkins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I worried WAY too much about getting a tree THAT big removed or about how much damage it could cause if it fell on my house. Gulf Coast T & L took all that worry away. Hassle free worry free  at a great price OUTSTANDING TREE SERVICE  ☆☆☆☆☆",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfU-I2aBd_MPRuHkoJ-9XM6qJMRB3y5UFYK0s7i1GYVFwSHj_8nF5cOE5CO11Xe6sOUO1C2Qt3F7jnZ5OSIPaw4AGcFfeqDQmbUu-NXiQgha40U3MUvjnfphEAzwfi8u7hyy6tePPjTIbno=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf5Rp8MfzJ0huZKkn7AxBJgc6KJdWEE5_OG8lxvzXjHvnako8b2Msu7TezQBoHJWAXcGhcgsU7FrspmDjxbyojVga8vQ1w3jigBFHRCbxEDcwg-lAIpk7oDXJRtkdHLwZmafYKeyOg8yKU=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigUsTreeEn = {
     "ctaPrimary": "Call Cass (313) 936-4140",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/us-tree/photo_005_crop.jpg",
-        "label": "Canopy Thinning & Utility Wire Clearance",
-        "alt": "Large pruned deciduous tree canopy between two garages with utility lines clear and sun shining"
-      },
-      "sub1": {
-        "image": "/images/us-tree/photo_001_crop.jpg",
-        "label": "Arborist Climber Aloft Clearing Roof",
-        "alt": "Tree climber working in tree crown trimming branches safely away from garage roof"
-      },
-      "sub2": {
-        "image": "/images/us-tree/photo_008_crop.jpg",
-        "label": "Debris Consolidation & Staging",
-        "alt": "Large brush pile cut and staged neatly by garage and chain-link fence for haul away"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigUsTreeEn = {
     {
       "name": "Backyard Tree Crown Elevation & Fence Line Care",
       "badge": "Backyard Canopy Work",
-      "image": "/images/us-tree/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigUsTreeEn = {
     {
       "name": "Heavy Overgrowth Clearance Along Home Wall",
       "badge": "Foundation Clearance",
-      "image": "/images/us-tree/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigUsTreeEn = {
     {
       "name": "Yard Raking & Organic Debris Cleanup",
       "badge": "Spotless Yard Finish",
-      "image": "/images/us-tree/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

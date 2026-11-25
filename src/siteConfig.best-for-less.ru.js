@@ -31,21 +31,9 @@ export const siteConfigBestForLessRu = {
     "ctaPrimary": "Позвонить ((360) 771-1450)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/best-for-less/photo_002_crop.jpg",
-        "label": "Верхолаз на макушке 25+ метров",
-        "alt": "Верхолаз-арборист производит спил макушек гигантских сосен на огромной высоте"
-      },
-      "sub1": {
-        "image": "/images/best-for-less/photo_003_crop.jpg",
-        "label": "Распил 1,2-метрового бревна",
-        "alt": "Вальщики распиливают полутораметровый ствол на чурбаки мощными пилами"
-      },
-      "sub2": {
-        "image": "/images/best-for-less/photo_001_crop.jpg",
-        "label": "Оценка 30-метровой пихты",
-        "alt": "Осмотр 30-метрового хвойного дерева рядом с домом перед контролируемым спилом"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigBestForLessRu = {
     {
       "name": "Кронирование деревьев во дворе",
       "badge": "Сложный доступ",
-      "image": "/images/best-for-less/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",

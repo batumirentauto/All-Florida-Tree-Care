@@ -31,21 +31,9 @@ export const siteConfigCleanCutRu = {
     "ctaPrimary": "Позвонить ((253) 249-4432)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/clean-cut/photo_005_crop.jpg",
-        "label": "Спил верхушки на высоте 20+ м",
-        "alt": "Арборист на верхушке ствола производит спил макушки высокой сосны"
-      },
-      "sub1": {
-        "image": "/images/clean-cut/photo_006_crop.jpg",
-        "label": "Распил ствола на секции",
-        "alt": "Арборист рядом со спиленным стволом и распиленными чурбаками"
-      },
-      "sub2": {
-        "image": "/images/clean-cut/photo_001_crop.jpg",
-        "label": "Точная валка вдоль проезда",
-        "alt": "Ствол дерева, уложенный с миллиметровой точностью вдоль края асфальтовой дороги"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCleanCutRu = {
     {
       "name": "Гаффы и привязь для высотного спила",
       "badge": "Работа в кроне",
-      "image": "/images/clean-cut/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCleanCutRu = {
     {
       "name": "Посекционный разбор кроны",
       "badge": "Обрезка сучьев",
-      "image": "/images/clean-cut/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCleanCutRu = {
     {
       "name": "Спил деревьев у построек",
       "badge": "Защита строений",
-      "image": "/images/clean-cut/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

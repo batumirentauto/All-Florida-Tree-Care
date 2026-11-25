@@ -32,21 +32,9 @@ export const siteConfigTreemanEn = {
     "ctaPrimary": "Call Lead +1 770-883-7026",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treeman/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Treeman tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/treeman/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/treeman/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreemanEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/treeman/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreemanEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/treeman/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreemanEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/treeman/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigTreemanEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Michael Hicks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Five stars. I have used Treeman services twice now and twice they have exceeded our expectations and went above and beyond. Treeman has cleaned up fallen trees, pruned trees, and fell dead trees for us. Treeman can do it all. His team of professionals will make you feel as if you are getting white glove service or as if you were at a spa. Treeman takes care of everything. You don't even have to be there, he is great with neighbors as he has dealt with both of my neighbors in both occasions. Did I say his team did an excellent job already? Treeman!! Give them a raise, LOL. Actually, one tree that that fell was over one hundred feet tall fell on my chicken coop and fence, he couldn't save the coop but didn't add any more damage to the fence (that saved me a ton of money) I do not know how he managed that. Great job. Pick Treeman over any other tree service folks. He has a great team you will not be disappointed. Also, I think he has fair prices. He did not pay me to say this stuff, they just did a great job. Sorry I do not have after photos. Maybe Treeman can post some."
-    },
-    {
-      "author": "Allison Gilmore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had the best experience with Chris and his team! They took out three LARGE oak trees and many small trees and bushes in our back yard. It looks like an entirely different yard now! They were just going to cut back the small trees but his team noticed that they would still grow back, so they dug them out with a bulldozer. Chris really looked out for his. He's so professional, he provided us with a copy of his insurance. He's easy to work with and he works safely too! If you have any trees you need to get rid of GO WITH TREEMAN!!!!"
-    },
-    {
-      "author": "Kristi Mieske",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My husband Michael and I hired Chris Harper and his team to remove 15-17 trees from our property.  They did a fantastic job and did not leave our property until everything was completed to our satisfaction.  Their prices were very competitive and reasonable for the amount of work that was done.  We also wanted to give a big shout out to your employee Clayton.  I have never seen a more hard working individual.  Please hold onto him.  We would recommend this team to whomever is looking to have tree work done."
-    },
-    {
-      "author": "Joann E.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Customer service is a top priority of mine. Chris and his team are committed to providing\ngood service. They cut down my large tree within minutes. Chris told me it would only take a few minutes to cut the tree down, as promised, it did. They cleaned up yard  debris. My yard looks so much better.\nChris and his team are reliable, hard working, and extremely effective. They have surpassed my expectations. I strongly recommend them. ."
-    },
-    {
-      "author": "Toni Pomerene",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Chris Harper, owner, reviewed our job within hours of first phone call. He was able to fit our tree removal in quickly and at a competitive price. Job was a little tricky, involving access on our property and neighbor's too. Everything was handled professionally and quickly. Neighbors were happy. Crew did a thorough clean-up, including nearby gutters and driveways, etc. Overall, a pleasant experience, which is saying something when it comes to the noise and hazards of tree work ~"
-    }
-  ],
+        {
+            "author": "Michael Hicks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Five stars. I have used Treeman services twice now and twice they have exceeded our expectations and went above and beyond. Treeman has cleaned up fallen trees, pruned trees, and fell dead trees for us. Treeman can do it all. His team of professionals will make you feel as if you are getting white glove service or as if you were at a spa. Treeman takes care of everything. You don't even have to be there, he is great with neighbors as he has dealt with both of my neighbors in both occasions. Did I say his team did an excellent job already? Treeman!! Give them a raise, LOL. Actually, one tree that that fell was over one hundred feet tall fell on my chicken coop and fence, he couldn't save the coop but didn't add any more damage to the fence (that saved me a ton of money) I do not know how he managed that. Great job. Pick Treeman over any other tree service folks. He has a great team you will not be disappointed. Also, I think he has fair prices. He did not pay me to say this stuff, they just did a great job. Sorry I do not have after photos. Maybe Treeman can post some.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdVyrJfeDpYfM7imjcQg1_pwVbBNi-6JtUL68D0uzyX1PJa5G-SLNWtn5fLh3D9XYbVtZTmMiwZjHvhuPaXR2ynvxNvuIFna9ql2bN45K20FGShKP8Yx8xvS7CrUqAEADY5F9VKQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRpTh09k5HkFWC0wWOiwDtBJcPy2yuPfVhhTK6age7rQVZJU2Ywi1UnX1CalI_GC0j019npiPlN-BDV4_rnhfn_hjw61KZkgdod2WPal5RQ0u4vz6jOMJUNQFNT8L9XDhKk0Qx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLftrivIWbTmEAcMuJlQZVmNKAVpxvxXgnLFgp-xIbohbY0yKiZF0Nrc08W7w3wXL7BGT5-aQZrMUchYHkC5zCdK4zzEacIEg8EmnTnqRAdIdVAYCicdXvvD9ahfwBlA-E_xUgqT=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Allison Gilmore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had the best experience with Chris and his team! They took out three LARGE oak trees and many small trees and bushes in our back yard. It looks like an entirely different yard now! They were just going to cut back the small trees but his team noticed that they would still grow back, so they dug them out with a bulldozer. Chris really looked out for his. He's so professional, he provided us with a copy of his insurance. He's easy to work with and he works safely too! If you have any trees you need to get rid of GO WITH TREEMAN!!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdocACJryrBd454YafcT8wrIlmlHK59S9zmNkHrE6savEpUWMK0Vahv-YrqV8Sz0JdR5x1nCjayqJreS5OGiXxBnfzhn-_vSddxz8Cu8CrrPg9AzBFBxU-0XSUqb2GWXRAj6XbRw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDPes42WyaDWq3Vh_HYwIDhz_j2wjFAFJZDu1wCTPcy6Ldye1-O2xUMXorI4q5IohCQpbs1O3y6iAjLJptdyjOofkL4F3brKFTorsAXTom10hrq_tpcsGizlEK0t_vw1LndC0-=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kristi Mieske",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My husband Michael and I hired Chris Harper and his team to remove 15-17 trees from our property.  They did a fantastic job and did not leave our property until everything was completed to our satisfaction.  Their prices were very competitive and reasonable for the amount of work that was done.  We also wanted to give a big shout out to your employee Clayton.  I have never seen a more hard working individual.  Please hold onto him.  We would recommend this team to whomever is looking to have tree work done."
+        },
+        {
+            "author": "Joann E.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Customer service is a top priority of mine. Chris and his team are committed to providing\ngood service. They cut down my large tree within minutes. Chris told me it would only take a few minutes to cut the tree down, as promised, it did. They cleaned up yard  debris. My yard looks so much better.\nChris and his team are reliable, hard working, and extremely effective. They have surpassed my expectations. I strongly recommend them. ."
+        },
+        {
+            "author": "Toni Pomerene",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Chris Harper, owner, reviewed our job within hours of first phone call. He was able to fit our tree removal in quickly and at a competitive price. Job was a little tricky, involving access on our property and neighbor's too. Everything was handled professionally and quickly. Neighbors were happy. Crew did a thorough clean-up, including nearby gutters and driveways, etc. Overall, a pleasant experience, which is saying something when it comes to the noise and hazards of tree work ~"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Athens (Central Depot)",

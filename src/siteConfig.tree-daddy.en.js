@@ -32,21 +32,9 @@ export const siteConfigTreeDaddyEn = {
     "ctaPrimary": "Call Matt +1 321-202-7532",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-daddy/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tree Daddy tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-daddy/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-daddy/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeDaddyEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-daddy/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeDaddyEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-daddy/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeDaddyEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-daddy/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,68 @@ export const siteConfigTreeDaddyEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Celia Raffucci",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend this tree company! They were recommended to me by a friend, and they did an excellent job. The team was professional, punctual, and very thorough.\n\nMatt, the owner was very friendly and professional, Anthony did an amazing job, and Tim did a great job grinding the stump. The whole team worked very well together and made the entire process smooth and efficient. Everything was left clean and looking great. Highly recommend!!"
-    },
-    {
-      "author": "ralphyboy385",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "If you need a reliable tree company hit these guys up. Very good at what they do price is right and the clean up is nice and tight. I definitely will use them again when I need them💪💪💪"
-    },
-    {
-      "author": "Alex Corzo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt and the team at Tree Daddy were great to work with from start to finish. Matt took the time to understand my project and budget, and the entire team was prompt, efficient, and did a fantastic job. They also made sure everything was cleaned up afterward, which I really appreciated. Highly recommend Tree Daddy for anyone looking for professional and reliable service."
-    },
-    {
-      "author": "Nolan Hart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt and his team are FANTASTIC! They are quick, concise and thorough. We had a massive tree needing to be removed in a tight location. The Tree Daddy team completely made this HUGE tree disappear faster than Harry Potter put on his invisibility cloak.  Also.... his pricing is MORE than fair and lower than anything I could have imagined."
-    },
-    {
-      "author": "Brandi Concolino",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve had tree work done in the past, but Tree Daddy isn by far the best tree company around. They are reasonable, professional and really care about what their customers want. I highly recommend them!"
-    }
-  ],
+        {
+            "author": "Celia Raffucci",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend this tree company! They were recommended to me by a friend, and they did an excellent job. The team was professional, punctual, and very thorough.\n\nMatt, the owner was very friendly and professional, Anthony did an amazing job, and Tim did a great job grinding the stump. The whole team worked very well together and made the entire process smooth and efficient. Everything was left clean and looking great. Highly recommend!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuqeIt8WQRFhLMHw5Rf1o5ONEUaondVQyPiyZNVObmVnmMzG4gTr9sPTGAlKbVIyKLTkO7WM8iiejs7CwHvFRVzWjnQGWBeFO7OAg1-604-iSLzkokfnf-nwU8NNAgru4TGWyOqeEJO1Pt=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9HFmQm4bi_7j8VmcWE4BOoj2gYqTRxTM3lGnzNWTwJOet3HHpD7bQ3vbVbPRhgDhtJcArXPfeeK74lBnuhH7nms2g0KRoxpY1Ev8k7tLCIm3y3g-fNbSNzgMfcFVx8bwQFkuV55pJJj2b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqZEJTzhzSrLn5zxES44K9TIk1qRTZ4w6IxzMxV9j_RxlwCPMbuc3Gkfb8Lbpac-8Q1xfKTX623pWPfFofOyEh4xXGnPveOhxxSc6GBZD2vXp05n_kla689yRoNRAV_Gn7nxyh2WP9i2i5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhRR_-YPBHTchV63WNWZDNF3j3YHOAP8Y3KsuCY9U4AbYTjqkohBzo5LS2U4UJ5K6Hprst72Jl2NAscMOQD7NuGydlwjJaeDYgZ3LQso8daY0XdJTOCxzryuivw4w2pkOztUqr184ZwJ0_=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ralphyboy385",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "If you need a reliable tree company hit these guys up. Very good at what they do price is right and the clean up is nice and tight. I definitely will use them again when I need them💪💪💪",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCk9Xj_1bJYL-bGjnJvG10VCpEr7Mqx4aRm3VbQxzr4_oNpD-ZjY9mxjMO9muEfwzA26X2P2torWFqJZubbLEUTxY27CfK9TEad_LUaKHnvVkhzHBjRvEstVqWx-b35M_SpqYniPEoAG8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcn77vooNag36Nxj_DF7vASAg9BEee_1j8RXK1bbZ2V3fYR8FuA5Yvi8kfyDzoDXPBOSWMd2Tmu9R-YVuZYCUC20iAMkASn0lm7iaIqSJ_9T_lxePpuCBnAtxkga4zyaUsXJN941qsM3U8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfp4BGz5B4ziBPIgl1iBp7yEZjzdoyL5G9r2zY2pRnlmK1HjlNB0O13r-hGBNU-PU9R86bjuZjbZRI9qewFQGBxmEGtm6O7ybm-fUgh4CbjBBIzDk37HnEsjYH5Ktr8ld0BJ2Yr9_VEvWZ8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex Corzo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt and the team at Tree Daddy were great to work with from start to finish. Matt took the time to understand my project and budget, and the entire team was prompt, efficient, and did a fantastic job. They also made sure everything was cleaned up afterward, which I really appreciated. Highly recommend Tree Daddy for anyone looking for professional and reliable service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXv2TkFsjpmbwpVAihwlTdAQhOmpHV0mLnyFc7zrnV6ml2qTk8zcwRwp1Fey6lV7Ml0Lpg7SweRFKgCsRHTd-Fz6pVeOeRbIVzCkwmm_ItqRQwGvbtfswjZwND6eFVyroyr3Y7CR7uelPA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfYR3Mrbs0vKEvuDzs2RQd6YMB_fux-dIBnLlXjqe3zhvX_DqbMVdVl20NlM139R02KNjkXdhYd4PafPkaaIwr8WhBdr40VyU01cscl_22MiuhT2eLpdkQxr2jczCGBKRlokTiPk1DE6D50=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeb-BTGMlPaE464BOFNedf2IK77YbLRGsmaZ3TLVZ2jK9azpu8oscQckYYTwPtQyUtCkujsjC6if5GPeoxE-Tm1iozIq-CG_60b7vZf2lt-uf5WY5zODSIyMyMtUn61oMS5o2xY2kqzjhE2=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdiOHFsQ7Lj88KNrSVP1NQQWi4mzFN6nOS53RpFBqHXL4b3zI0IGfizm54kyRTUmdZhPP4sx4qGok8ubjaGl2ZAW85swqDGW7xsi9BFovf_ykNOiqKwSo2ryEC30j-dluXLRBYlVDiDI-wZ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nolan Hart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt and his team are FANTASTIC! They are quick, concise and thorough. We had a massive tree needing to be removed in a tight location. The Tree Daddy team completely made this HUGE tree disappear faster than Harry Potter put on his invisibility cloak.  Also.... his pricing is MORE than fair and lower than anything I could have imagined.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCdQp5m5OXfDvfaazwqFA1tvMclFlJUC8Hy24mpE7GTN2n6Z3VRQROCcHtMdT1UkDPnZMESULbENPpkqBoiqJRhRFxKo0JxFssCsR0sCCfnlxQc-qkYnCGXK_q-jAUzkPNmtv1anEyQCxx=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbMaX-MoySESrS0woT8t-Zyn1ArqW4GJV4HqUCIAOeMEzswRJKo0OoaMC1lZ4xR_Nf0kXbcSBHTIUclMgshYzDccgzFIjeDFJKEksTwzs9dz_KsSgJGZvObDD1fAr9I57IJpnZUk7mhonK=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brandi Concolino",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve had tree work done in the past, but Tree Daddy isn by far the best tree company around. They are reasonable, professional and really care about what their customers want. I highly recommend them!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Orlando (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigVasquezTreeServiceNcEn = {
     "ctaPrimary": "Call Israel +1 919-523-7659",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/vasquez-tree-service-nc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Vasquez Tree Service NC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/vasquez-tree-service-nc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/vasquez-tree-service-nc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigVasquezTreeServiceNcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/vasquez-tree-service-nc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigVasquezTreeServiceNcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/vasquez-tree-service-nc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigVasquezTreeServiceNcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/vasquez-tree-service-nc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,68 @@ export const siteConfigVasquezTreeServiceNcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "K Matthews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I appreciated the fast response, fair proposal, and quick turn around to schedule the work we needed. We had 2 trees removed from close to our home, stumps ground up and mulch left for me to use in my garden.  The crew arrived promptly, we discussed what was going to happen and they got right to work.  I was VERY impressed with their teamwork, safety, and speed that they did their work. They worked very hard and you can certainly tell that they are professionals. Left the work areas spotless like they hadn’t even been there too! Everything about my experience was perfect. I’d definitely hire them again."
-    },
-    {
-      "author": "Tracey Ray",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This team cut several very large trees that were very close to our home. (100 ft plus) Much of the tree canopies from two trees hovered over our roof, but they operated with great skill and efficiency and protected our home. They arrived when they said they would and the owner was available & prompt with communications. Price was more than fair for all the work they did. They went above and beyond expectations. Will definitely use them again in the future."
-    },
-    {
-      "author": "Kurt Boldt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had a tree that was in need of immediate removal. Vasquez responded promptly and professionally and we're willing to negotiate a competitive estimate. The team arrived on time and removed the tree and ground the stump. They cleaned the area when done, and were in and out in about 4 hours.\nGood communication. Very professional. Would use them again"
-    },
-    {
-      "author": "Scott Tarkenton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I reside in N. Raleigh.  Vasquez Tree Service took down a 55’ red oak tree for me and grinded down the stump.  Started at 7:45am and finished at 3pm.  Excellent job.  Meticulous clean up.  I would highly recommend Israel and Vasquez Tree Service to my friends and neighbors."
-    },
-    {
-      "author": "Kevin Lupton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We recently had four large sweet gum trees removed from our property, and we couldn't be more impressed with the service we received from Israel and his crew. From start to finish, they were professional, efficient, and courteous.\n\nThe work was done with great care and precision. They navigated the tricky placement of the trees and ensured that our yard was left clean and free of debris. The crew arrived on time, worked diligently, and clearly knew what they were doing. We especially appreciated their attention to safety and respect for our property.\n\nIf you're looking for reliable, top-quality tree removal, I highly recommend this team. Outstanding service and results!"
-    }
-  ],
+        {
+            "author": "K Matthews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I appreciated the fast response, fair proposal, and quick turn around to schedule the work we needed. We had 2 trees removed from close to our home, stumps ground up and mulch left for me to use in my garden.  The crew arrived promptly, we discussed what was going to happen and they got right to work.  I was VERY impressed with their teamwork, safety, and speed that they did their work. They worked very hard and you can certainly tell that they are professionals. Left the work areas spotless like they hadn’t even been there too! Everything about my experience was perfect. I’d definitely hire them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXtx0osee5D4y_AvVs1WAqQiyRF8VPbx7c9Q8ekn8eh4dUl2N9rnUTlWwaXoJaIwGzguDmW5TzgscuucaXxy-7ZNubPCTq9De3W1STlfJKonOj-MHCEft_B2OmfIeRhv8NTB3_YtlSwc3-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLey3ciAwrjOe3D1UWM_Qm3tGD_TpJqPiCVH9LxfT5JRuZXpL13hKZTwlFHS9AREbCxprJ1eUdELh92yAmyZeYeoIxmb9l6izgxYJlZkCNVOmsifG68_s1wshy4IC9caBv6lXhxC2JhrDwE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfLedH4mBZJz_IkcNx_tfhWd5DQ31D3sFKaRd9EMkTSz6h0ws2ELCFhW6XYtyz0C49X95em8tLMUlnEPJkoVVovG4a-YS39irZ1TEdzryqnPZjjl9Ckvy_OWrYNvd6C_Yg-tSVQe-HCZG1w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfl2CQzPJaT5s27lCiE_LcD6DDRBi5ZP2R0P-VPYYDRn7Yq9EHFz6iduD3Cmv-1koOs4oAuOgy_yryx2979jQIiWyWeX6Iub6KKUKeZv0yaRsyebr0KxFjtKWtuGEnHJ0dPDjvVyrL9Gg4p=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tracey Ray",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This team cut several very large trees that were very close to our home. (100 ft plus) Much of the tree canopies from two trees hovered over our roof, but they operated with great skill and efficiency and protected our home. They arrived when they said they would and the owner was available & prompt with communications. Price was more than fair for all the work they did. They went above and beyond expectations. Will definitely use them again in the future.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRVUyIjYYb8RaOGoVhzDl6ovE_doGQWsa_ENoYJhueGpgb8HmST1ihGQwkGczvYcFxmN1fqsZ0CoUqLVVPdQFWmbRCinME6NjZAZQdzQZ5LWStm9snDUQY7z5vRixOioAouecgOANhe7b4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZ_Bbe-cqLynYNsUm22f7w7e3yeMpcNRHAsfXQ80M7kscZH7jFNTHMS3mFFRfSI1RbM6kT9MuC2TJ0PPFGWUfuYQtB-IBmRH3XwmslOYC7zJ_9BCb7ObFqVZB-4qlZlEBhBEe8eL5xTzx5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9EWQYDKBIhjGj--cz-OqRlhGEvbeEbsoE9Hp2F4a-Q52NNrT09cUc6Rp_jVK_reriJJC7p_xNjHudCMRNVfuVtUyU_H4gQ6xkVWPYl8LBGVXgNS4BY5Zjjv4gnaR8Zb_OR9a8k-HIZqaN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kurt Boldt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had a tree that was in need of immediate removal. Vasquez responded promptly and professionally and we're willing to negotiate a competitive estimate. The team arrived on time and removed the tree and ground the stump. They cleaned the area when done, and were in and out in about 4 hours.\nGood communication. Very professional. Would use them again",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_wvM_-pugTMTuMaA1_p0riN719iRswrTWrM_1C2_QWyrd4dSoLA40LiqvfVQkozMO30f3PVpSPZoGbcDrBfE93XGLJFcCoCbp4DxBi-GZq4jW91emT2xMjVpDvAWMjM52HwH9zq99_n8k=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnlk5yFBGQDeGupMkkHwuoZ5x2_TQyawzbDJn1zJ-j8yJabxTnLwnC00q-5_UT-vCLO28BHzsCH2uFCdAhYMohlzpyATdwa2MVtOuSvB2u0WcEWmPDW2NIfhv4Tgi9zHSjRoK2PmJExcWT=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Scott Tarkenton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I reside in N. Raleigh.  Vasquez Tree Service took down a 55’ red oak tree for me and grinded down the stump.  Started at 7:45am and finished at 3pm.  Excellent job.  Meticulous clean up.  I would highly recommend Israel and Vasquez Tree Service to my friends and neighbors.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4zplsUcf5_pWPZLljjQonhBrRYz1uk3DUiyVoSDGGzmcaYOLNA1LpQ-zMZU3YNGByNF3Gf-XmXm8QOPmJFERTcIuPwqeahdTTy9tdHdkVadZHtymiY6J66G-6oeSwKJvhN7y1=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIPrKAtZ_fvEtXEblj6MXhS6kCjaAL_EtPH5KbJBI_vh2Q_jPCMm215q4Gm1587mfM96N47I31IyQlxxIoHa5dkhurk_eXHx7UXB04WnOp7KY2ADtiLBTUGkr2ekL0KzfF3NSq_A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXKDi9G4dxxd5Hr-k7MvZjsl4tsjGp2pvixH_7mcjmEsCYHtQ9hSW-DM-zywKGSZhR3cT2hZJfD0zo1ZNJYGGrq8YOBuLwoM89seMW7tNjB37b86RvsJS4OZtjSaRPyPYayX8d=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEXslBdfuN1oiRWN0Aj8-UbbTBXsWLA620K0WsKXIt9SoBU35CXKTPjvqjYlWXM3DpysFKSTW_QpY6Mr2HBe0QKGb8z2AxbyLbvtGJde0yeBi2n5-dO0iPWTKuYcFbjNEcIEkl2g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Lupton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We recently had four large sweet gum trees removed from our property, and we couldn't be more impressed with the service we received from Israel and his crew. From start to finish, they were professional, efficient, and courteous.\n\nThe work was done with great care and precision. They navigated the tricky placement of the trees and ensured that our yard was left clean and free of debris. The crew arrived on time, worked diligently, and clearly knew what they were doing. We especially appreciated their attention to safety and respect for our property.\n\nIf you're looking for reliable, top-quality tree removal, I highly recommend this team. Outstanding service and results!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Raleigh (Central Depot)",

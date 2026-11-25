@@ -31,21 +31,9 @@ export const siteConfigTreevantageRu = {
     "ctaPrimary": "Позвонить (+1 813-309-8441)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treevantage/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады TreeVantage"
-      },
-      "sub1": {
-        "image": "/images/treevantage/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/treevantage/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreevantageRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/treevantage/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreevantageRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/treevantage/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreevantageRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/treevantage/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigTreevantageRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "N. C.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Could not recommend them more! Jacob was punctual, professional, and knowledgeable when he provided me an estimate for a tree removal and stump grinding. His quote was competitive and reasonable. He stayed in communication with me via text ..."
-    },
-    {
-      "author": "Nicklaus",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing service. 10/10 would recommend. Great communication, fair pricing, and hard working team. Anything that came up the team had already thought about it and had a plan for it...."
-    },
-    {
-      "author": "Leah Ijjas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a very positive experience with Treevantage. Jacob helped us look at options and was very communicative and informative throughout the process! He brought a certified arborist with him to the consult so we talk through what the right..."
-    },
-    {
-      "author": "Kerri Pepe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am incredibly impressed by Jacob’s professionalism and  knowledge. They did a fantastic job cleaning up my large oak and camphor trees and supported my elm, which had been knocked over by the storms. They were efficient and left the yard ..."
-    },
-    {
-      "author": "Kayla Hlavaty",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a great experience with this tree service! Jacob was professional, friendly, and did an excellent job from start to finish. He arrived on time, worked efficiently, and left everything clean when they were done. I really appreciated h..."
-    }
-  ],
+        {
+            "author": "N. C.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Could not recommend them more! Jacob was punctual, professional, and knowledgeable when he provided me an estimate for a tree removal and stump grinding. His quote was competitive and reasonable. He stayed in communication with me via text ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4hJ7_HbPoUiAfhn8JE7LCxx__oVyCEb82zR0GPMjKaaPEkMiGoTnkZFL4UdPd1XrYVdiFrv7FTSnvCOzTl3VkYWJR4JEwTPPflk3YcS_dTbnSv_ZyKeWRk5h9fsR6T23XqRkBoJL8Uq-A=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRIGiiaXOPNq2tJxzoE8y2NYsVWfexOk4GaYZWi6KKp60FsM4auKZn-oJAIoB09DnRe5cxO3Why9lv2p1fNrdVO73qbKnUALYH4niWXo-OxXXFwfiNXMwXfk2GNACfz7hfqxGtMppVCmE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhf00sQumdVnrEnmsD3NdIMOsAXBmnvKX_zF7-jxhAAFW_jd_fjGHtzS8SgvR8gwhv3GnTfvT5QBc_JpKPLMdl2zt-eZhDOuQjXOXcG5T2jO6mrNPWbB3jW2kMfasPShaa_MMq86ioNIOF=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicklaus",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing service. 10/10 would recommend. Great communication, fair pricing, and hard working team. Anything that came up the team had already thought about it and had a plan for it....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrlrbRUGGKW0qUytBv0iWiUANnVIcjMnlrJBOfdopXtYkFYa-37zwerkXFx6joZ25YA6rg0-0srhL32GxtpY7y3JMhqoQjMSQq-fhZ1LgCIw00vmKYD3YQFRTLmmFZ6qIJhCObsP54guXl=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdF04hXgYy-aKVauGfZ4nHPTrIH_Wr-5PIaOh6q1DGweCNOHVBhHZ-zV7a24wiu_bW848i7B8RXSmNiCYn0m9ZgtZ3CPmtJx-eVXA1vhfcwvOCJgB4p-LWZUtWlAujZeKpTrIRTLQRHFX9z=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Leah Ijjas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a very positive experience with Treevantage. Jacob helped us look at options and was very communicative and informative throughout the process! He brought a certified arborist with him to the consult so we talk through what the right...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcEK-MO9aujtMkpVHIHiaDoD-y38zltvAOQ5rN1TLUgn9swFv2B3wLCA5Ay-_lNgabILR0i8mAuTrzKlDbjiWSdORJW-Q_fIy_-jKanM2ITRZl4vdm2uywmafLiR7-ozyDCtPOhkz9WORM=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kerri Pepe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am incredibly impressed by Jacob’s professionalism and  knowledge. They did a fantastic job cleaning up my large oak and camphor trees and supported my elm, which had been knocked over by the storms. They were efficient and left the yard ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmhVqZNaJ6tH1CRC4EXB822qa8mUj04Q7KPgxuti4wChDBUPiJeN2a6_YpVIbo1lJoVuMmNou-15XfXG7Yh3a53z02VtK1yvKBlH-uTb7K7z3MMbL--fsld4S4eNak4cTgKltmvhmJJdU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf3dnRKpLx-QCSIIzTOikX0NV6RyylbqVjbCaIhIgbHZHkRVpgF8XLDXmS6AXVZ-m8OE0W7anj4hoff9Pq_zFKBhI0P1wBei9ax73zLuLre0oIDG9XGNMvrf22bk38NzmzWBAAc-P8GK2Y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDpuG5e4FJuo_uPy_XBUexH3au5QYTAiGsDvF2uSPFZzH5KlUwZHIRzRExo-hRg_cvNzyo5a4NuXVxChmm5KUCRi6ujzkFcgg8e8oigsBBy4XCmHbmxcyoHwYNoRgwKiMK0d-Q0ZoZ4Ec=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kayla Hlavaty",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a great experience with this tree service! Jacob was professional, friendly, and did an excellent job from start to finish. He arrived on time, worked efficiently, and left everything clean when they were done. I really appreciated h..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tampa (Основная база)",

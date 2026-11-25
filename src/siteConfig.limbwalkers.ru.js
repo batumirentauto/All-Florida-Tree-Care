@@ -31,21 +31,9 @@ export const siteConfigLimbwalkersRu = {
     "ctaPrimary": "Позвонить ((828) 413-7227)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/limbwalkers/photo_006_crop.jpg",
-        "label": "Спил автокраном над крышей",
-        "alt": "Кран-манипулятор переносит тяжелую ветку дуба над крышей гаража"
-      },
-      "sub1": {
-        "image": "/images/limbwalkers/photo_005_crop.jpg",
-        "label": "Упавшее на кровлю дерево",
-        "alt": "Тяжелый ветровал: упавшие деревья на крыше дома и гаража после шторма"
-      },
-      "sub2": {
-        "image": "/images/limbwalkers/photo_013_crop.jpg",
-        "label": "Грейферный лесовоз с захватом",
-        "alt": "Грузовик с гидроманипулятором и грейферным захватом на вывозе бревен"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigLimbwalkersRu = {
     {
       "name": "Крановый такелаж тяжелых бревен",
       "badge": "Подъем многотонных стволов",
-      "image": "/images/limbwalkers/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigLimbwalkersRu = {
     {
       "name": "Выравнивание участка гусеничным мини-погрузчиком",
       "badge": "Планировка грунта",
-      "image": "/images/limbwalkers/photo_011_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigLimbwalkersRu = {
     {
       "name": "Спил пня под корень перед фрезерованием",
       "badge": "Подготовка к дроблению",
-      "image": "/images/limbwalkers/photo_009_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

@@ -32,21 +32,9 @@ export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
     "ctaPrimary": "Call Lead +1 828-845-4811",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Heartwood Tree Care Asheville NC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigHeartwoodTreeCareAshevilleNcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Susan Wille",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great company, great people. Heartwood Tree Care delivered a level of service we did not know existed anymore. For each step of the process to remove a very large, very leaning tree — from supplying an estimate to diligently returning to their exact place some items from the yard we did not think to move in advance — the entire crew was thoughtful, professional, and precise. We highly recommend them."
-    },
-    {
-      "author": "Lesley Mullen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Heartwood Tree Care is a  Top shelf, excellent company. They have state of the art equipment, highly skilled, precision oriented, and friendly employees."
-    },
-    {
-      "author": "amber Glover",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had Heartwood Tree Care remove 4 palm trees in my pool area. They were very adamant about making sure nothing go into the pool and covered the entire pool. They did a FANTATIC job, very professional, all the crew members were considerate and cleaned the area as if it was their own property. I have lots of trees and Heartwood Tree Care is my go to company .  They did such a good job my neighbors called me to get the company that I used,    THANK YOU CARLOS & HEARTWOOD CREW MEMBERS"
-    },
-    {
-      "author": "Michael Hopping",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "To my surprise, Heartwood's bid on the removal of a diseased pine tree was no higher than the best I received from little guy companies. Plus, Heartwood agreed to compost rather than just dump the chips. Everyone I dealt with there performed with competence and professionalism.The crew brought all the necessary equipment to complete the job efficiently, without damage to neighboring trees, and finished with a better cleanup than I imagined possible. Very happy!"
-    },
-    {
-      "author": "Karen Vann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am so happy with the work this crew did today. They were on time, detailed, neat and personable. They listened to my needs and did exactly what I asked. This company employs true experts. I highly recommend them and will use them again! Thank you!"
-    }
-  ],
+        {
+            "author": "Susan Wille",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great company, great people. Heartwood Tree Care delivered a level of service we did not know existed anymore. For each step of the process to remove a very large, very leaning tree — from supplying an estimate to diligently returning to their exact place some items from the yard we did not think to move in advance — the entire crew was thoughtful, professional, and precise. We highly recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5is1Qz342LjDkwr0Qk6_-E0hVJEuyaJgcvYVYEuNfVEaQXp1vg0UxMsPOaY6hsyBJD3I0rzV5zynvT4ociL9DNiqegqd1K_MYcPSwmavpbB87Ro6OEayJv8ND9m_ERIEvGQc8B-rWdr0J=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lesley Mullen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Heartwood Tree Care is a  Top shelf, excellent company. They have state of the art equipment, highly skilled, precision oriented, and friendly employees.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdAkOUn2Y-uFLlRPlOIBXuGU8VTn0_VMM0s5KbYmaLr5B1VYmT_CSldvcj8aKNtIFotoNklcL0K6bNJr8Z64kk2Xc7fuu52A-lZxCGTV3P4H54LRE_hgKW9kuGXySCg_qUosY9w_N4MRdJ6=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjAqnsKNajMutSNfqnVfuxr6eh3bTCgarLeatfYf_T0TMx9yvabIafdwAytXUHqoddKFbQNEcvNZpZ6ZbwyGZfQlYqdxBOApvTlB0o6emjWJIkN_7xexcDMfNRjj64wjsoKLuAnzKPgBip=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "amber Glover",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had Heartwood Tree Care remove 4 palm trees in my pool area. They were very adamant about making sure nothing go into the pool and covered the entire pool. They did a FANTATIC job, very professional, all the crew members were considerate and cleaned the area as if it was their own property. I have lots of trees and Heartwood Tree Care is my go to company .  They did such a good job my neighbors called me to get the company that I used,    THANK YOU CARLOS & HEARTWOOD CREW MEMBERS"
+        },
+        {
+            "author": "Michael Hopping",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "To my surprise, Heartwood's bid on the removal of a diseased pine tree was no higher than the best I received from little guy companies. Plus, Heartwood agreed to compost rather than just dump the chips. Everyone I dealt with there performed with competence and professionalism.The crew brought all the necessary equipment to complete the job efficiently, without damage to neighboring trees, and finished with a better cleanup than I imagined possible. Very happy!"
+        },
+        {
+            "author": "Karen Vann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am so happy with the work this crew did today. They were on time, detailed, neat and personable. They listened to my needs and did exactly what I asked. This company employs true experts. I highly recommend them and will use them again! Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMtcodDrBcLETwGVE8SRMna7vgzi7aMNOqyxq-TrXINDFV4SGsBWZ1hi6eXiFR6ugoglxLY9ogJGc3XePLrixtIVWJi4Wdn_Xmc_6b2qVumn8augRIbbjNrlnpDuyBCIKpJuU=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Asheville (Central Depot)",

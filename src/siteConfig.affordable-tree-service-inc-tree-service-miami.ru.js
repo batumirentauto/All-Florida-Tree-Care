@@ -31,21 +31,9 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiRu = {
     "ctaPrimary": "Позвонить (+1 305-823-2345)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Affordable Tree Service Inc. - Tree Service Miami"
-      },
-      "sub1": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lisa Kennedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was impressed by the service from this Tree company.  They responded very quickly to my request for an estimate. Arrived as scheduled and completed clearing multiple high very large tree branches that were over the roof with efficiency an..."
-    },
-    {
-      "author": "Jonathan Block",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Affordable Tree Service was amazing. Their team was very responsive and they were able to schedule my job promptly. Thank you very much for taking care of a dangerous tree for us!..."
-    },
-    {
-      "author": "Diego Desme",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Team at Affordable Tree Service did amazing! They removed 3 trees in my backyard that were a nuisance and they did it quickly and efficiently and at a reasonable price. Would highly recommend...."
-    },
-    {
-      "author": "Tony Wong",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently hired Affordable Tree Service to trim back some massive overhanging trees from my neighbor’s yard, and I couldn’t be more pleased with the results!\n\nFirst off, the name says it all—the price was truly affordable. I had called sev..."
-    },
-    {
-      "author": "john maine",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My wife and I recently purchased a very beautiful and expensive fence decorated with absolutely beautiful bushes expertly placed along side the fence. We hesitated to get two huge trees trimmed because they grew above large sections of the ..."
-    }
-  ],
+        {
+            "author": "Lisa Kennedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was impressed by the service from this Tree company.  They responded very quickly to my request for an estimate. Arrived as scheduled and completed clearing multiple high very large tree branches that were over the roof with efficiency an..."
+        },
+        {
+            "author": "Jonathan Block",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Affordable Tree Service was amazing. Their team was very responsive and they were able to schedule my job promptly. Thank you very much for taking care of a dangerous tree for us!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcfkdIZTjsTRibgzok5bVru_FcJqIKPUbEfTMMSPUQWw7nQRIZ5Ebyd1-v63ScRBo1NQ9kwzwXso_QJnKzTMxtSwzXm1u6zLB-zxBbB5i7iJHQFz9iFtVpgbk3YVPBwk7jmlCs=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Diego Desme",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Team at Affordable Tree Service did amazing! They removed 3 trees in my backyard that were a nuisance and they did it quickly and efficiently and at a reasonable price. Would highly recommend....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfV68SjWUY-G407as3N9_kPTYe-XsF1jaz6peMQkr0gJ59gjGiv3O77MRLnfFZixQjN0EymT1Vc0644lHWa3IFNAr4ccUQUqbPv4qFghl46GkCKk0X-Ipa4IohBDP3tFWpAbZ8=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tony Wong",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently hired Affordable Tree Service to trim back some massive overhanging trees from my neighbor’s yard, and I couldn’t be more pleased with the results!\n\nFirst off, the name says it all—the price was truly affordable. I had called sev..."
+        },
+        {
+            "author": "john maine",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My wife and I recently purchased a very beautiful and expensive fence decorated with absolutely beautiful bushes expertly placed along side the fence. We hesitated to get two huge trees trimmed because they grew above large sections of the ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6_Xxj0fTHOKBXw4OD7j2f4Gnh8FX6z7rglBeoXxvsN5lC7qKY911yKzzpi_10guQ57UmOJWhshEeYB5dIZ2QGuxFxcM8T9xkb3C0L4Qrkt1Mj0SC6G3Efk3EtXasd71fot_y7=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Miami (Основная база)",

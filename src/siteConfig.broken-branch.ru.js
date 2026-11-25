@@ -31,21 +31,9 @@ export const siteConfigBrokenBranchRu = {
     "ctaPrimary": "Позвонить ((518) 752-9009)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/broken-branch/photo_003_crop.jpg",
-        "label": "Арборист на высоте",
-        "alt": "Арборист поднимается по стволу высокой сосны для закрепления такелажа"
-      },
-      "sub1": {
-        "image": "/images/broken-branch/photo_001_crop.jpg",
-        "label": "Сломанная ветвь на газоне",
-        "alt": "Упавшая тяжелая ветка сосны на газоне рядом с углом жилого дома"
-      },
-      "sub2": {
-        "image": "/images/broken-branch/photo_002_crop.jpg",
-        "label": "Оценка последствий шторма",
-        "alt": "Осмотр поврежденных деревьев на участке после прохождения грозового фронта"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

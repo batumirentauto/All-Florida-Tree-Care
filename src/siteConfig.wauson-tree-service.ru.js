@@ -31,21 +31,9 @@ export const siteConfigWausonTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 214-450-8720)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wauson-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Wauson Tree Service"
-      },
-      "sub1": {
-        "image": "/images/wauson-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/wauson-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigWausonTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/wauson-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigWausonTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/wauson-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigWausonTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/wauson-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigWausonTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sheldon Vicknair",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We needed to have a dead tree removed, a Bradford Pear trimmed, two Oaks pruned, and several Crape Myrtles trimmed to keep them off the roof of our house. Walt was punctual, communicative, and did an excellent job. He came out immediately t..."
-    },
-    {
-      "author": "Mike A.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Wauson Tree Service just completed a large job trimming our many trees on our property. They did an excellent job and completed the job quickly at a very reasonable price. I would highly recommend them if you are in the Allen, Plano area...."
-    },
-    {
-      "author": "Carey Dula",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My neighbor across the alley had some very large live oaks trimmed beautifully by Walt Wauson and his team and said he would use no one else, so when I needed my three red oaks cleaned up, I called Walt. He went by very quickly and called m..."
-    },
-    {
-      "author": "Patriot Loves",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Walt came to do the estimation quickly and can answer all your questions that you might have. I've heard great things about his work from an acquaintance. He will definitely be on our top list for future reference. If you're looking to book..."
-    },
-    {
-      "author": "weizhen li",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have been using Wauson Tree Service for many, many years for the annual or bi-annual pruning of two large live oak trees on my property. Every time, the experience has been excellent.\n\nMr. Wauson personally comes to the work site to discu..."
-    }
-  ],
+        {
+            "author": "Sheldon Vicknair",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We needed to have a dead tree removed, a Bradford Pear trimmed, two Oaks pruned, and several Crape Myrtles trimmed to keep them off the roof of our house. Walt was punctual, communicative, and did an excellent job. He came out immediately t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXFurJ0ndrctmcKq9hN9GPASqRXDNAy355ZAiiAebtBt909tx4x9VfPk_mfKgWKoqlo8cmvT0Z-4ti6Fb5Hcpbppbse_au4l1iA85BSG81WatLaiYV6LX3Tyc6VGghdKa0UiKKBQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcpxvWdP7ZhyXoZBSJCO5pKIgMf8Fss3e3WvYWSZNhHfzTUJF-kptVsLyGQOVuoP_gwvgVgf2SAGaz5mUCrcUCbknKliVDS05bHLMU9OWJK4zxIg5WbziUZEs95g-XTRnQirEcfOw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeQ3L1n4tHiblGt5yCMbtiOP52L0K41uUxVS-BYgY6EoH8A9mfo-B1fsMX4GYQjTIqZ6ozyoMjmH0bLyGtRRKGbpbz0wjBR7qmRyuR1Xea5beUQdKhoOFTjeVcjZQTTqA90s1E_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_0n7kp0Va3_cNiGYl1dJnqc6zYiP1n5lOzyC553jwwJ4DAqp-WGPKCRaHmX49Hhaa1tcr8EE8MH7zkPMkbvG-qerXYunUNpuvtvg6FLD3jdybuR2XwDqChpYINd8R_XDiGhZC4g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mike A.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Wauson Tree Service just completed a large job trimming our many trees on our property. They did an excellent job and completed the job quickly at a very reasonable price. I would highly recommend them if you are in the Allen, Plano area...."
+        },
+        {
+            "author": "Carey Dula",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My neighbor across the alley had some very large live oaks trimmed beautifully by Walt Wauson and his team and said he would use no one else, so when I needed my three red oaks cleaned up, I called Walt. He went by very quickly and called m...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2LrrQ1B-e_vFtHW0d8GV7RlNCttpb8S9h9T2ZCYtVF3a8SHzzpLjVVYkQcc7U1odpHhw-93eLGNc2Z7Ts-H9zvgJduptFjs5vQHtQhUN7UMBeaLaqUv3SF4Nl2B-mv9LsE5I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcg_Q0-qZox_l-ndntttHDF_v6cbuki-aGWraLpLyBl8BsGJV-UM3tJ0Guy0LdM8sgXZlwry9MWSFfTecpnJYbrwSmb6JgWxomYJ6ECFOpkA1GiDqDeLqDyVS-ZMoHJMkb83c3FQQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuPpolcRsI_pD4bvrRHQiudPh2UxNWOuCLQoFt4-cKMK9ndPUAOnwA1V_bwLxmLw2OWlaGHeSxoCgSBppsOFawpsYKDJO-SOD-fKbz0tuTwrblvOWP-82vGOVG7U1TfdYjlYJm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVvq-_bxkDH0iiykG0D5-8A07RBcFfI-yz5eA5_mHPJKps7TYf_SlwXKdEvywGglLs_hOeprDKDrZiF3BYwbtB2Qq5RlVpTrokBHp0UcP0ITWBBimb80vHtSmIvxJmoLUwPpZz8g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Patriot Loves",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Walt came to do the estimation quickly and can answer all your questions that you might have. I've heard great things about his work from an acquaintance. He will definitely be on our top list for future reference. If you're looking to book..."
+        },
+        {
+            "author": "weizhen li",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have been using Wauson Tree Service for many, many years for the annual or bi-annual pruning of two large live oak trees on my property. Every time, the experience has been excellent.\n\nMr. Wauson personally comes to the work site to discu..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Allen (Основная база)",

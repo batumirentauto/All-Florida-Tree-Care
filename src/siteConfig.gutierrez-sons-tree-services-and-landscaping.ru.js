@@ -31,21 +31,9 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 310-596-6704)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Gutierrez & Sons Tree Services and Landscaping"
-      },
-      "sub1": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/gutierrez-sons-tree-services-and-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigGutierrezSonsTreeServicesAndLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mrs. Pix Chica",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Went for a walk at 8am, met the Gutierrez team working on a house on the corner of our street, asked about doing our yard. The boss pulled up while we were taking (Gustavo) we told him about our home and the landscape needs. He walked the y..."
-    },
-    {
-      "author": "James Toro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can’t say enough good things about Mark and his crew. They have been out two times and the quality of the work is exemplary. They are so knowledgeable and have a good eye that I defer to their judgment as to how things should be trimmed. ..."
-    },
-    {
-      "author": "Larry Kerr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had Gutierrez & Sons provide an estimate to cut down a 50 foot Northfolk Pine Tree and to lace out a 20 foot juniper tree. The estimate was reasonable and Gustavo indicated they would be able to do the work the next day. The crew came ou..."
-    },
-    {
-      "author": "Christy Sterling",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had such a great experience with this Gutierrez and Sons! They were super easy to communicate with and did a great job following up throughout the whole process. They tackled a really large tree with huge roots and got it done so quickly an..."
-    },
-    {
-      "author": "Nathaniel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After receiving a couple other estimates, Gutierrez and Sons came in not only with the most reasonable quote, but were the most professional, friendly, accommodating, easy to work with, and I was blown away with efficiently their crew compl..."
-    }
-  ],
+        {
+            "author": "Mrs. Pix Chica",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Went for a walk at 8am, met the Gutierrez team working on a house on the corner of our street, asked about doing our yard. The boss pulled up while we were taking (Gustavo) we told him about our home and the landscape needs. He walked the y...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFcvK5H_WHxPZN6eUsxrCO_Ko-jV9b1Nr9xSBn0E2t-B34i1eaafpErGTSNbbmfzmzhNwo09LXRI9tuISexs9FJc2eEi2TXa1u8Wn7FuBPIRlekSUu3Em2Rw0ZE2I8uIBdM7Z9MwzNXhww=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdT1bDE-6PJbpCCbvkKriaO_IfRtCU6lGam3pm3vpHCtMmFj9OEq8YGzQZanIauiQVUCzrgMAYPk92oo8JgY4FBENGQpt6-cX6px3MSfqhf4fHOiBbhAoNT1ZunDleImYk1NEmsqq1HEEZ9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_QCw7a2swT52L_tW9dagNHeRdzXt6bigMkoSdRfTElIvg3RZB25l_N5m8_DYxz8lDV-DKeWoW76IlRQGJS1E5O80yuYLVEUFtvn9YS89sE5UBPzPcMoDh9ljx2WsdOASloXRg4SETBb8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2eySuev4GNNRmIvo7gRCKDHChdaVw3bATtfLqam_aQe_EpyWAAyOtzRRKe_s-ZIJZHPl_qxJ4Hj_V8ArD_moxxW_WPxBRRxq3T3bn0-TFSOtqQe78236n8pxQ_dJVlOP24iFozgMMVZbp=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "James Toro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can’t say enough good things about Mark and his crew. They have been out two times and the quality of the work is exemplary. They are so knowledgeable and have a good eye that I defer to their judgment as to how things should be trimmed. ..."
+        },
+        {
+            "author": "Larry Kerr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had Gutierrez & Sons provide an estimate to cut down a 50 foot Northfolk Pine Tree and to lace out a 20 foot juniper tree. The estimate was reasonable and Gustavo indicated they would be able to do the work the next day. The crew came ou..."
+        },
+        {
+            "author": "Christy Sterling",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had such a great experience with this Gutierrez and Sons! They were super easy to communicate with and did a great job following up throughout the whole process. They tackled a really large tree with huge roots and got it done so quickly an..."
+        },
+        {
+            "author": "Nathaniel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After receiving a couple other estimates, Gutierrez and Sons came in not only with the most reasonable quote, but were the most professional, friendly, accommodating, easy to work with, and I was blown away with efficiently their crew compl...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFUnx9K0oeeaE50bc3apL3UQewCxws-MBrE9du72XeruAvqWigENK66GbwmeM3WzhFIL85UlnXw69MLrW6jQLl5wY99x4FNDYX-Rb3pvJnvnX2EbqVpwpK4N1a2ZANeuYi1MM_Mg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrdWiJ2uW0EDdg06z2PRs_pB5QIZ09mKdsYAmRk4BLZ_gWSspVi_IL00Rpiczlf8iyS-yuKlgT2o53GevYBO1u8WlvCYX59a94jzoYutbaE8nYYPQq-x-t1WGcPZ9rPSCt6KK_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbl2gaQ1vWXkGxrtuglLKdGlP8LuKGmjDxmnh4CowDcp_cDnk_QuVmJVCh6cEEUk3PxXeWDh58Vzd_EWkNwd9Lj_DIbZvmj5Wg1QheOhuEXfQTcgXPbF7EWhL3hAQp8AvlMkkc=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Gardena (Основная база)",

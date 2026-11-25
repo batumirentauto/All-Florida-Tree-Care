@@ -32,21 +32,9 @@ export const siteConfigNavarijosTreeServiceEn = {
     "ctaPrimary": "Call Maz +1 916-531-9503",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/navarijos-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Navarijo’s tree service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/navarijos-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/navarijos-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigNavarijosTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/navarijos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigNavarijosTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/navarijos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigNavarijosTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/navarijos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigNavarijosTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Reema Dhillon Brass",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Saul did an outstanding job removing our large mulberry tree. He offered an amazing price, completed the work quickly and efficiently, and left everything looking clean and beautiful. The entire process was smooth from start to finish, and it was clear he takes pride in his work. If you're looking for someone who is reliable, professional, and reasonably priced for tree removal, I highly recommend Saul. We couldn't be happier with the results!"
-    },
-    {
-      "author": "Donald T",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a large leaning oak tree break and fall over on a calm summer afternoon. Saul scheduled the emergency clearing a couple days later, and had the job completed by mid-afternoon on a Saturday, with a fine crew of 4 hard workers. Reasonably priced, safe and complete work  and clean-up. A pleasure to work with."
-    },
-    {
-      "author": "Aleksandr Vakulchik",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I needed 22 stumps removed after SMUD cut down trees growing close to their power lines. A number of them were small, but 7 were quite large, 2 to 3 feet diameter. One company gave me a quote at told me that it’s a couple days of work. Saul came, gave me a very fair price and said that they will remove them the following day. The following day they came with their heavy duty stump grinding machine and removed all the stumps in 2 hours. I am very pleased with Navario’s Tree Service quality of work and their professionalism."
-    },
-    {
-      "author": "Liz N.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Second time using Navarijo’s tree service. I needed a small hedge removed down to the ground. They did an excellent job clearing the area removing all the branches and roots sticking up through the soil. Highly recommend."
-    },
-    {
-      "author": "Mellisa L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Our tree in the backyard had fallen on the house and we called Maz Tree Service and were very happy with the responsiveness and how excellent of a job they did.  They were able to take care of us right away.  They removed the fallen limb on the house and in our neighbors yard cleaned up both sides very well.  We were very pleased with the work they did and how friendly they were.  Thank you so much for taking care of my mom's house in such a quickness you did an awesome job."
-    }
-  ],
+        {
+            "author": "Reema Dhillon Brass",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Saul did an outstanding job removing our large mulberry tree. He offered an amazing price, completed the work quickly and efficiently, and left everything looking clean and beautiful. The entire process was smooth from start to finish, and it was clear he takes pride in his work. If you're looking for someone who is reliable, professional, and reasonably priced for tree removal, I highly recommend Saul. We couldn't be happier with the results!"
+        },
+        {
+            "author": "Donald T",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a large leaning oak tree break and fall over on a calm summer afternoon. Saul scheduled the emergency clearing a couple days later, and had the job completed by mid-afternoon on a Saturday, with a fine crew of 4 hard workers. Reasonably priced, safe and complete work  and clean-up. A pleasure to work with."
+        },
+        {
+            "author": "Aleksandr Vakulchik",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I needed 22 stumps removed after SMUD cut down trees growing close to their power lines. A number of them were small, but 7 were quite large, 2 to 3 feet diameter. One company gave me a quote at told me that it’s a couple days of work. Saul came, gave me a very fair price and said that they will remove them the following day. The following day they came with their heavy duty stump grinding machine and removed all the stumps in 2 hours. I am very pleased with Navario’s Tree Service quality of work and their professionalism.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdijdzeJumWRz7gsakOzj35HxyEjMYI4V7AoBGOPLpNCbWquLB-U2UZuQkl4G0aCKjx6akVjtgINKGwgrzdxPdsjSCkOHIIkmyiB7CQ2aUOpWW_8cDuGrHO0UDUkcjemdGRbTyeZnQIoa94=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc1wmyVJaKEQY7u6XbJC7QQCCP9hjAqgpUet8Cw4ohVACbvHiL3zxu0DLyIfcAqKcAlxfOwD_OZ7-Pb3TpQ3FT-pVGohuKYETa4zKwgs2bbMAnWywn7drST75mz4Oo7U05Ndvhl_uyhzqP0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Liz N.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Second time using Navarijo’s tree service. I needed a small hedge removed down to the ground. They did an excellent job clearing the area removing all the branches and roots sticking up through the soil. Highly recommend."
+        },
+        {
+            "author": "Mellisa L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Our tree in the backyard had fallen on the house and we called Maz Tree Service and were very happy with the responsiveness and how excellent of a job they did.  They were able to take care of us right away.  They removed the fallen limb on the house and in our neighbors yard cleaned up both sides very well.  We were very pleased with the work they did and how friendly they were.  Thank you so much for taking care of my mom's house in such a quickness you did an awesome job.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDOU1zzzOlSI5CM3f1LQR1O81UzYTVB1f8Xv0E4VT_7OjE5vKmE74Db9yhmai1AAIKlMhhkWiyqvcOtbgYduw1j8ozzSp4rAGZM72ORFeBq2uxDDPTmyiYbNJN31clQ4m_Ebll=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8eN5g28XZ5LUMJFIUV9y-LbHNf3TLDKLiAVXcCj4c1HMekd40eTRfCpEniGN_h7Og-jDdsC516WMmgtsrq5S4mO7b4bKw6ZEmsBBlmkz0rR3nuo1KjYu891Sa14MLuQqOOe4Y=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeqyjTWmCgE6sT6dHCk8utjPho_J2QoBo5UMxCJXW6cErVhbq6R6xVsEZc616rLsVsQoKZDolO5ssi5qawVpWAqXHo0hoUltM4r5TAOQh6R3f0gSYXYvuEVv3GcVx3CIDNZI3Dd8g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevkoRU5nm5JUruBnEZUa4816T33nGkvW9ghn-npfMlUHXchrBRVOulxcBigOYgLMxX6_qs693c6Ed7O_MsyQ5SQOe9Y2ZyTCNqUQAhthUF9Gx9Laiho-ZeGRpVwpo9NMr-AzdE=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

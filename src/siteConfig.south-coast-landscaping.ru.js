@@ -31,21 +31,9 @@ export const siteConfigSouthCoastLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 850-417-9344)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/south-coast-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады South Coast Landscaping Inc."
-      },
-      "sub1": {
-        "image": "/images/south-coast-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/south-coast-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSouthCoastLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/south-coast-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSouthCoastLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/south-coast-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSouthCoastLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/south-coast-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigSouthCoastLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Leva",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We recently had a paver patio installed with a gray border, and it turned out absolutely beautiful! It completely transformed the look of our backyard while making the space much more functional.\nThe crew did an outstanding job and was cour..."
-    },
-    {
-      "author": "Alex Teeney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Couldn’t recommend more! Jackson was super flexible with scheduling our landscaping project. He was also extremely accommodating with phone calls and emails for a ton of different questions I had. And for everything we had done it was a gre..."
-    },
-    {
-      "author": "Matthew Kanuck",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Single best choice I’ve made in all my outdoor architecture and landscaping needs!  Return customer!\n\nJackson and his team deliver incredible quality at a competitive price.  When I spend my money, I want to make sure it’s with professional..."
-    },
-    {
-      "author": "Paul White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had been considering replacing the sod in my front and back yards. South Coast was recommended to me and I asked for a quote. Much to my surprise and delight it was lower than a quote from another company I received 3 years prior. They we..."
-    },
-    {
-      "author": "Amanda Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I could not be more pleased with the work SouthCoast did with my new privacy fence! It's as straight and true as a Texas highway!\n\nFrom the first quote to the last nail, Jackson and his team were like a well oiled machine. Jackson came to m..."
-    }
-  ],
+        {
+            "author": "Leva",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We recently had a paver patio installed with a gray border, and it turned out absolutely beautiful! It completely transformed the look of our backyard while making the space much more functional.\nThe crew did an outstanding job and was cour...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0j8l2CrWYRMGdzBcTClIy_OMJPdSN-iGe-qweRTd__n3vDUZbZ7rzMFegVJJjtsnXRkMhJk5uK-3vMQJYx5uJqVvoOjZe35sVbbUDKlSJPahCq3Tr9sqTXc6_VgQCTzOoBVA8jtGyC7v9=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex Teeney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Couldn’t recommend more! Jackson was super flexible with scheduling our landscaping project. He was also extremely accommodating with phone calls and emails for a ton of different questions I had. And for everything we had done it was a gre...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMiRe5INIe02SR2efCPaJeWDAghpUV0a1y8g0W24IygcqE9DRsG3nLa3M2I773eczDe_6-iHfO2mnz9L3MkKl5CU8GO1RdSGul9c0-J6U2aEcvJhRUmMicdWZVhNpy74qGsGSoH_X-caIS=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZvhQzc79eIkFZcoH78I40HSeHHD4vdbXFPWTmeL1PBF31p0h-j0Ito07gzQ1ia8GjrEJ7pFLf48Nz4meZDxmEKqjiV013oQGf79WE7cdYtTkbGA9TKX2HQkZRsM9Jy_GGvls6YjbtRIw2=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Matthew Kanuck",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Single best choice I’ve made in all my outdoor architecture and landscaping needs!  Return customer!\n\nJackson and his team deliver incredible quality at a competitive price.  When I spend my money, I want to make sure it’s with professional...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfI5yAmg54ZgQesag9NGA7DU9uAOugJBC25x8WmXvnvvOHTu8njSgms8fOXSZIsMH8jwKT24VtDMCCDM3-UrWBhNnF3kceiUzFtrhhlXYv0qPPR1u18G9EcJJD4u1bVh7SljNWth3ALUHpC=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeczPGawd6p6fwvNoBPUrrWTPSVljghwfXs8tlCgyMzs5noa_2Ww5EpYTOHyX3ssMbAaJ0mpxGdaVRnwOuO0XQTizOoti0piY4nFLMQAEtrHbWTKADnCJKqt21KJ0AhFQD1uhd_wW04Vp6E=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Paul White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had been considering replacing the sod in my front and back yards. South Coast was recommended to me and I asked for a quote. Much to my surprise and delight it was lower than a quote from another company I received 3 years prior. They we..."
+        },
+        {
+            "author": "Amanda Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I could not be more pleased with the work SouthCoast did with my new privacy fence! It's as straight and true as a Texas highway!\n\nFrom the first quote to the last nail, Jackson and his team were like a well oiled machine. Jackson came to m..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Основная база)",

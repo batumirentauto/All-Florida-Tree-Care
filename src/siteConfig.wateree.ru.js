@@ -31,11 +31,7 @@ export const siteConfigWatereeRu = {
     "ctaPrimary": "Позвонить ((803) 445-6434)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wateree/photo_001_crop.jpg",
-        "label": "Вековой дуб у крыльца дома",
-        "alt": "Массивный тенистый дуб рядом с крыльцом жилого дома после санитарной обрезки"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
@@ -129,7 +125,7 @@ export const siteConfigWatereeRu = {
     {
       "name": "Инспекция и прореживание кроны дуба",
       "badge": "Оздоровление кроны",
-      "image": "/images/wateree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",

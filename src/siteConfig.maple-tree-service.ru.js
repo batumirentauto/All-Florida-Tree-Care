@@ -31,21 +31,9 @@ export const siteConfigMapleTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 909-239-3979)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/maple-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Maple Tree Service"
-      },
-      "sub1": {
-        "image": "/images/maple-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/maple-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMapleTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/maple-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMapleTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/maple-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMapleTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/maple-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigMapleTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Andrew Somali",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Manuel and Maple Tree Service did a great job removing multiple mini tree stumps from our property. They were professional, efficient, and left everything clean when the job was done. Their pricing was also very competitive compared to othe..."
-    },
-    {
-      "author": "Poli Guzman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Thank you Manuel for great service and for trimming our trees making our house look really really nice, definitely recommend your great honest service to others!!..."
-    },
-    {
-      "author": "Robert Humphrey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Maple Tree Service, have been our trimming service company for years. Manny & his team are very professional and reasonable...."
-    },
-    {
-      "author": "Francisco Cortez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Maple tree service is very professional and reliable. Meño is very responsible and he is always willing to go to the most to keep customer service..."
-    },
-    {
-      "author": "Rosie Enriquez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very impressed with this service.  They removed /grinded down 4 tree stumps, and removed 1 large mulberry tree.  They left the areas worked very clean, and they were very professional.  I would definitely recommend them...."
-    }
-  ],
+        {
+            "author": "Andrew Somali",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Manuel and Maple Tree Service did a great job removing multiple mini tree stumps from our property. They were professional, efficient, and left everything clean when the job was done. Their pricing was also very competitive compared to othe...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfhqtLoTlR9l9GFOqagEU4x1F89maxZwpXemRsCYb--yrqMFhDM6c_J37y1pYjCpOCCNs_8VvntsMM9tBVlSIfbOXioLsibpcJOoiM8YPgHph8ZDz_7T1AlEgWM4YWxAQA8nug1A2ZO1hYB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLey5IfGsNwAwHwvXiNK1eeWokLe64iw9Q8Qm-SksssecQO1ciwD5WLSSJVyyPChDhCaRrmgzOserxVQSOlsRgL-25MNRLurArdjj_tGH3fTm68Ne5MNxoWPav9Ch0SGkqKUHO61kY0wy1lg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1zgpE51bw6VVrQel_aa4gCHbFJczIGuWZV6llTxAjAsjLA9COjtMn_iXelLUufcRHxIxN30m1XVsAS2t_VKYARbbTYDRbTFrLo98V_VagbCrWwwBExedtWluJCmzz_JH1COQQxsM4o7n8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUWeIeMmfQX7WjlV363fm9kuMehPP5t7McajStFMpZS7tQL86cgrx_1kkiSObR55VEI51p4NgBl94GLkJ8hVnGh6Y7fCq0BSFl6Wnsb5Hmpk2nYJiSK59kOg_5QmpaTXWZexdI6BXLY-_o=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Poli Guzman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Thank you Manuel for great service and for trimming our trees making our house look really really nice, definitely recommend your great honest service to others!!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRMg0L2mAHfk1j28zh4DogfQDS6g2H15wPrxTg33fYn6lLzeZ8Qs75EciSgkysxTS4zdWAK2ABts-Tr7lp_MB_6pxGu5cAyT0uxoL4BviWbIVkvlkv-KwrH9ZaZEutPqy7MC8G=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxlziLpucleYnJn8R_Ert3KK4aoSz_aynxgdUi2CUDGhP38BSXAq0L_ex7ta7L1GOL8NJam8Si4VeS7REjdIf250bIVPqLNOaxHYIYGsrKSufzJR5FRhx_2EeaTbT7rY2k=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfidvJwanpzJDVxyBeZIPJIZM0gjIZD4iPPgZzXQQQ5yQN-ZaeQujpIu_oxDvA4rkkA3Tpv5yFogKBWzpPBBbAhfysZvY5a62bpkNdClQmKk2exW8g-BTCYAJndX1yPKahxw-qD=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Robert Humphrey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Maple Tree Service, have been our trimming service company for years. Manny & his team are very professional and reasonable...."
+        },
+        {
+            "author": "Francisco Cortez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Maple tree service is very professional and reliable. Meño is very responsible and he is always willing to go to the most to keep customer service...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesRrMCNqHKMmV84959tmvTYjXMxjjNlT25YDMEMGRzJAE22vhWZPwRGvWRFE3etucJ38dakJ_4tN5IwMeWiaxBGVsovJEBgA5GAWl8Voap5vXOC8FrsbuTlKAKptuTaTI-n59j_g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXbKXITPmCA-kMjYcnWFa1FHgjzLuI-FdyPOcJzpfrCR2pHYfKGjJ75RYpvUxUmWGYv1kyaX4XG2UnYWZTCie9VleBjFjTH_T_pLO5P8aIWCJ74IMB4kwE2iFH077LkoNlwEQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Rosie Enriquez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very impressed with this service.  They removed /grinded down 4 tree stumps, and removed 1 large mulberry tree.  They left the areas worked very clean, and they were very professional.  I would definitely recommend them....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9BBQ3KOU74Mta-RrzF4tA03ryMrger1Mn27An-Tlx5CEJS5joWI7EytYQYtUXQ4ZmPiePdivYNfvm3OkcQdP5fIuvjDX2Xea--o2diX0ABMBHmPwm43AMPuZFOFUKXLpS69iQnA=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

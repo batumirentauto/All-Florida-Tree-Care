@@ -32,21 +32,9 @@ export const siteConfigJTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 704-417-2084",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/j-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "J Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/j-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/j-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigJTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/j-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigJTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/j-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigJTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/j-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigJTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jonathan Chavarria",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend J-Tree Services! I hired them to remove a very tall tree, and they did an outstanding job from start to finish. The team was professional, skilled, efficient, and very careful throughout the entire process. They completed the work safely, exceeded my expectations, and left the area clean when they finished. If you need reliable and high-quality tree service, J-Tree Services is definitely the company to call!"
-    },
-    {
-      "author": "Veronica Neff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew was timely, professional, and respectful of my property! They did a great job with trimming up my bushes and cutting back my trees. I can’t recommend them enough and the price was very competitive!"
-    },
-    {
-      "author": "Genny Farrow",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys here are the best we've ever seen! Fast, efficient, work as a team and the most professional friendly people you will ever find.  The price is unbeatable!!  I would highly recommend them to anyone and everyone.  If you're even considering using another service, tou would be doing yourself a disservice. Wow!!!! Just wow!!! Wish I could give them 1000 stars!!!"
-    },
-    {
-      "author": "David DePompa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had them remove a tree, the owner (Javier) himself came out, did a quick quote and we set up a time and date for the service.\nThe crew was very professional and promptly did a wonderful job!\n\nExcellent experience working with this company, I will definitely use them again and highly recommend them if your looking for tree or shrub work."
-    },
-    {
-      "author": "tina skojec",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend! J tree service was on time and did an amazing job of taking down a huge tree right next to my house and trimming others. They also did stump grinding.  The crew was friendly, professional and very mindful of taking care of my yard. They cleaned up so well it looked better after they were done than before! They even were on my roof blowing leaves and branches!\nHire them and you will be glad you did!"
-    }
-  ],
+        {
+            "author": "Jonathan Chavarria",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend J-Tree Services! I hired them to remove a very tall tree, and they did an outstanding job from start to finish. The team was professional, skilled, efficient, and very careful throughout the entire process. They completed the work safely, exceeded my expectations, and left the area clean when they finished. If you need reliable and high-quality tree service, J-Tree Services is definitely the company to call!"
+        },
+        {
+            "author": "Veronica Neff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew was timely, professional, and respectful of my property! They did a great job with trimming up my bushes and cutting back my trees. I can’t recommend them enough and the price was very competitive!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeBZf8XCL0Icoid8KYiAfMbPV4pLhooBbgvjuOHcHH2CAB2cajrLZQaPNMu0aAxEGw7gCDec0pP1PSqCHceVEscVhCby2qvD9NSk-gs0L2dbivRMIrlykADTaXWBBXcC5ab0_e9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdna9u6-YvXTxLVYv_ko0IgdeHRTK18ARwFBoNaYkBXH_uhL3QWHwVeSFTD6BWNQsV0jQkiIH9mWXJUOc09rrwrQX6zHNS_DwHWOUlj-6tmbQSnM3OtKSgzOi4Vg_BmSslVaEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcc_6BGFUiGwn3XdmxJ4AAhb_Lk_9RxKMBKBAPVXCBkWdCAyQuxao5pgVDLseQLPQovev1nXi3LE5R0Hy7JsENguhVNlV414YKbTEZG-0k88uNvU-mDxGGGjQF5GhlfU5k92je6=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Genny Farrow",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys here are the best we've ever seen! Fast, efficient, work as a team and the most professional friendly people you will ever find.  The price is unbeatable!!  I would highly recommend them to anyone and everyone.  If you're even considering using another service, tou would be doing yourself a disservice. Wow!!!! Just wow!!! Wish I could give them 1000 stars!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcaIzKdsYDFpd9Kcn9mPJ8XBMelm4axaW6sIIk9K4GGXNdsiwfkXGqq-7MZSicNmE1Fr7_EM_S0lEz8n8mlyqBwqkKDEXCio5lEjXulFeENgvxm1y29PPotB82tdg-J3eyPFSnoGw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkP1_xydqBHIwIRk0raPWYE4xBMPxQbSCgGmOkyRAv7rhsqKJItfyVsSQFwE1u7lqgCM9cwdeYt0lOU7x2q4yMt7fhJyt2jeghEklmtAjW_OVH7wWxY20RxiTRDMP0cBOiACIV=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "David DePompa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had them remove a tree, the owner (Javier) himself came out, did a quick quote and we set up a time and date for the service.\nThe crew was very professional and promptly did a wonderful job!\n\nExcellent experience working with this company, I will definitely use them again and highly recommend them if your looking for tree or shrub work."
+        },
+        {
+            "author": "tina skojec",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend! J tree service was on time and did an amazing job of taking down a huge tree right next to my house and trimming others. They also did stump grinding.  The crew was friendly, professional and very mindful of taking care of my yard. They cleaned up so well it looked better after they were done than before! They even were on my roof blowing leaves and branches!\nHire them and you will be glad you did!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Charlotte (Central Depot)",

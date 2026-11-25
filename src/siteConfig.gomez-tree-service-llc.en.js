@@ -32,21 +32,9 @@ export const siteConfigGomezTreeServiceLlcEn = {
     "ctaPrimary": "Call Lead +1 281-794-9996",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/gomez-tree-service-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Gomez Tree Service LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/gomez-tree-service-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/gomez-tree-service-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGomezTreeServiceLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/gomez-tree-service-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGomezTreeServiceLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/gomez-tree-service-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGomezTreeServiceLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/gomez-tree-service-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigGomezTreeServiceLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "SHG",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Gomez Tree Service delivered outstanding results, completing our project in record time. We were particularly impressed by Julio's expertise, their efficient service, and excellent value. Highly recommend for any tree service needs.\n\nThank you, for your hard work.\n\nGraywolf"
-    },
-    {
-      "author": "Patty Peck",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted the company and they came out right away and were quick\n. They did a great job of removing 4 shrubs that were on their last legs. They did a great job cleaning up. Very professional and good price for the work done."
-    },
-    {
-      "author": "Ashley Lu",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My expectations were very high, and the crew exceeded my hopes. Work that another company estimated 2-3 days was completed and tidied up after, in only 1 day. My vision was realized and I cannot say enough about how pleasant Julio and his workers are. All the heavy equipment in and out, shockingly great service!"
-    },
-    {
-      "author": "Tom Dornak",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Owner, Porfirio crew just completed (2/26/26) tree trimming and performed an excellent job. His crew worked hard and had no problem working on tall pines. They did an A+ cleanup as well."
-    },
-    {
-      "author": "Delorise Hall",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "GOMEZ Tree Svc Was Contracted To Remove A Large Tree And It’s Stump. Julio And His Team Did An Exceptional Job. The Price Was Negotiated And He Priced Matched A Competitor. They Arrived Ahead  Of Schedule And Completed The Job The Same Day. The Work Site Was Cleaned And As A Bonus Removed Some Dead Limbs That Were Stuck in The Fence. I Am Currently Working With Them To Widen My Driveway."
-    }
-  ],
+        {
+            "author": "SHG",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Gomez Tree Service delivered outstanding results, completing our project in record time. We were particularly impressed by Julio's expertise, their efficient service, and excellent value. Highly recommend for any tree service needs.\n\nThank you, for your hard work.\n\nGraywolf",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZtAkGglxPC8CtbHc23zIAaLvPk5_VGOLSXBbFvBs-xvifnnNuRiRFLBodu8kNaXPUda23tXJZ8_QxfmVm9sD_BZP2Hi1EPVxOpKNMWB5LenIYheU-tyVyEoSrxpqquYeW1ZjGjcnmR6EL=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Patty Peck",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted the company and they came out right away and were quick\n. They did a great job of removing 4 shrubs that were on their last legs. They did a great job cleaning up. Very professional and good price for the work done.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRDUCekuWFeBDPfCC-mBwoQCoJJoRo9OFtrkjLGAYemUNVDbvn7fkLrKc8Y-F_iK92n6CHmduVGmGIWY2VeH04Orv0vx9EeVpaJtO3TeRRAMD44iTOd0acVMiwxuBlwsIPfStelTlfyuY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrQbYF7dHH1vWvtifsRhxpjU0uWfm4Yja6opGHkdMF1PTVD9a1H8fUOH6eDNnd-y41dnGEFc55DB8i80864eZYkluw5EMJHLPcd-2i-E1yf239CbHzw06bJbTIPMLdE_Ltx-q2kdAl_9Mg=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ashley Lu",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My expectations were very high, and the crew exceeded my hopes. Work that another company estimated 2-3 days was completed and tidied up after, in only 1 day. My vision was realized and I cannot say enough about how pleasant Julio and his workers are. All the heavy equipment in and out, shockingly great service!"
+        },
+        {
+            "author": "Tom Dornak",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Owner, Porfirio crew just completed (2/26/26) tree trimming and performed an excellent job. His crew worked hard and had no problem working on tall pines. They did an A+ cleanup as well."
+        },
+        {
+            "author": "Delorise Hall",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "GOMEZ Tree Svc Was Contracted To Remove A Large Tree And It’s Stump. Julio And His Team Did An Exceptional Job. The Price Was Negotiated And He Priced Matched A Competitor. They Arrived Ahead  Of Schedule And Completed The Job The Same Day. The Work Site Was Cleaned And As A Bonus Removed Some Dead Limbs That Were Stuck in The Fence. I Am Currently Working With Them To Widen My Driveway.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjPMmw3pYX1MbZgTILO4DK4okDB2ZF4HmjCE6HwM3GqoAuBnkKaTwaPghcOPiEunEgxsapXZLZRaPxMMvXV3bX41YSIQzPOj2MareUpM7b8uM6uIY0q5IyPtJ2f0Fgb6vgVz9P=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdrT2TDHqpZaxyxMAvA2hxgH3yoy_Mm3ISsNgJ08iZknpjhXxsP_MpQD4mzhspe9Bw7LfFQrc63khlRHI1tqDJ3RE3aGpJ3Wi2_w5C9CyNpZPuEUA2cIzG-wf-exedNp2W8ZofWvw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0492wgEYWpZrXg3lzvEiwrvdaSglPEDeJ0zqhiGt8HmlEnzA7Nh9xVsmrUSNRN33QV-tSXqffcrunWZcFp1pQqd1ucZ-9GeGb0tosZqY4GBSViADG70KVKwFECahx0VK5Iho5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezKjrTIIe2pxnxI30ERdOa_vfQVPrEaU3VVwl5mmHt6Kv--oKdC5Rn8q0PHGMtxA5vS0RV82V9PqEhhmOcJbQ2oseE6njnF3wkCySC_rDyxxGPmP5E21iQttOp-wjAFBqE1xiExA=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

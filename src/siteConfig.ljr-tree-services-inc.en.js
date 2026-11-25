@@ -32,21 +32,9 @@ export const siteConfigLjrTreeServicesIncEn = {
     "ctaPrimary": "Call Lead +1 408-712-4823",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ljr-tree-services-inc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "LJR Tree Services Inc tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/ljr-tree-services-inc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/ljr-tree-services-inc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLjrTreeServicesIncEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/ljr-tree-services-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLjrTreeServicesIncEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/ljr-tree-services-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLjrTreeServicesIncEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/ljr-tree-services-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,54 @@ export const siteConfigLjrTreeServicesIncEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "LASZLO NEMETH",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "LJR Tree Services did a beautiful job trimming my overgrown tree, very happy with the result. Thank you!"
-    },
-    {
-      "author": "ADAM MARC AQUINO",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Professional tree care with a strong focus on doing the job right.\ncalled LJR for emergency tree service after a big branch cracked during the storm they showed up quicker than i expected and handled it safly very thankful for their quick response because it was hanging right over our driveway very frendly workers and affordable rate"
-    },
-    {
-      "author": "Joanne Laus",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Fast and excellent work. Courteous crew. Before and after photos below."
-    },
-    {
-      "author": "Mats Matsuo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This was my second time getting their work.\n\nWithin two hours of my initial contact, they came by to provide an estimation, and then, completed all the necessary work next day. I am very satisfied with their high quality, prompt, and professional work.\n\n/Mats"
-    },
-    {
-      "author": "Jerry Liang",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Came for the free estimate, told him I needed to clear tree from fence. Came early and did the job and cleaned up well afterwards. Was concerned about over trimming and voiced his concern but followed through with what I asked him"
-    }
-  ],
+        {
+            "author": "LASZLO NEMETH",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "LJR Tree Services did a beautiful job trimming my overgrown tree, very happy with the result. Thank you!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdFXdXmDYIrr7iRJzHUSvTGXnje17qDMnn27BLHNKWJqy7xlXNoQRurqND99onk0ZTosLn23xNzyyTR-54ND9eJm7qmSagSot2G7tr16II-Sdba2bXuC18DMixtInCUUVwEqNv4uEKEesex=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "ADAM MARC AQUINO",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Professional tree care with a strong focus on doing the job right.\ncalled LJR for emergency tree service after a big branch cracked during the storm they showed up quicker than i expected and handled it safly very thankful for their quick response because it was hanging right over our driveway very frendly workers and affordable rate"
+        },
+        {
+            "author": "Joanne Laus",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Fast and excellent work. Courteous crew. Before and after photos below.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmNj38hzhUNsqOXTwah54iRURQULTdXHN70Hlj9AIiY7T2uVNTSaxEqO6xzyqxsvSugiyX6DeHuwfotgJi7Cm-_hQ6ZkoL5MIMjEglNWYV6HR-gpYfvA4SHYTeiJNs0AYWU8nyywFe1Pc=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGqpgvtwOo6jaPX0m7oOx59xyYELeP3e9xBghQt_t8dMD9vZIKfhwWlw5bxEKAxMlllp9JMBQeRWhBlEbJT5lW3-5KYmKzA2mtWsYRjPCER2BsV9vrQxr53zpfW69NxpE0fC-hay_Y6TgL=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mats Matsuo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This was my second time getting their work.\n\nWithin two hours of my initial contact, they came by to provide an estimation, and then, completed all the necessary work next day. I am very satisfied with their high quality, prompt, and professional work.\n\n/Mats"
+        },
+        {
+            "author": "Jerry Liang",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Came for the free estimate, told him I needed to clear tree from fence. Came early and did the job and cleaned up well afterwards. Was concerned about over trimming and voiced his concern but followed through with what I asked him"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "San Jose (Central Depot)",

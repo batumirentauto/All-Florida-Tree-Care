@@ -31,21 +31,9 @@ export const siteConfigTampaTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 813-445-8602)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tampa-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Tampa Tree Service"
-      },
-      "sub1": {
-        "image": "/images/tampa-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/tampa-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTampaTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/tampa-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTampaTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/tampa-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTampaTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/tampa-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigTampaTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Cairo McIntyre",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a great experience with Tampa Tree Service. The team was professional, friendly, and handled the tree removal with great care. They were efficient, and I was impressed with how clean they left the area after the job was done. I’ll def..."
-    },
-    {
-      "author": "Cholodinho89",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Rob came over, and I showed which tree limbs I wanted removed. The day of the job, his employee removed just one of the limbs I wanted done. Unfortunately, my wife was home, and I wasn't. So, I couldn't see if the job was done right. I comm..."
-    },
-    {
-      "author": "Samuel Wright",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This crew made the entire tree removal process really simple for me.  They did an excellent job, were polite, and arrived on time.  Strongly advised!..."
-    },
-    {
-      "author": "Lance Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Tampa Tree Service provided excellent tree removal services, handling a large, hazardous tree in my yard with precision and ensuring the entire process was safe and efficient...."
-    },
-    {
-      "author": "Astudillo Paul",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Their team was courteous and professional throughout the whole process. The tree removal was quick, and the stump grinding was so clean you’d never know a tree was there...."
-    }
-  ],
+        {
+            "author": "Cairo McIntyre",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a great experience with Tampa Tree Service. The team was professional, friendly, and handled the tree removal with great care. They were efficient, and I was impressed with how clean they left the area after the job was done. I’ll def..."
+        },
+        {
+            "author": "Cholodinho89",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Rob came over, and I showed which tree limbs I wanted removed. The day of the job, his employee removed just one of the limbs I wanted done. Unfortunately, my wife was home, and I wasn't. So, I couldn't see if the job was done right. I comm...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf6abCNlbP7i7KHnuk7rJE3XHvqz098Lqauxn4WUCbzIgnrOCSCYf17BNZgpOhXp7Cz0elNfHkR3K3nIu2EVpzHBNbk8GGr6Lkbfob4DT7q9Y4wYHgGsQG_q9R5MAk9W5c9WTpi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Samuel Wright",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This crew made the entire tree removal process really simple for me.  They did an excellent job, were polite, and arrived on time.  Strongly advised!..."
+        },
+        {
+            "author": "Lance Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Tampa Tree Service provided excellent tree removal services, handling a large, hazardous tree in my yard with precision and ensuring the entire process was safe and efficient...."
+        },
+        {
+            "author": "Astudillo Paul",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Their team was courteous and professional throughout the whole process. The tree removal was quick, and the stump grinding was so clean you’d never know a tree was there...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

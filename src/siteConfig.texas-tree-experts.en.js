@@ -32,21 +32,9 @@ export const siteConfigTexasTreeExpertsEn = {
     "ctaPrimary": "Call Lead +1 512-981-3439",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/texas-tree-experts/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Texas Tree Experts tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/texas-tree-experts/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/texas-tree-experts/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTexasTreeExpertsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/texas-tree-experts/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTexasTreeExpertsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/texas-tree-experts/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTexasTreeExpertsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/texas-tree-experts/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,69 @@ export const siteConfigTexasTreeExpertsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Travis Wilder",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Could not be happier. My tree (live oak) looks like a completely different tree. Texas Tree Experts removed all the dead limbs and broken branches from previous weather storms. They raised the canopy to lift the tree up. I’ve had a huge limb that I had to remove due to it resting on my shingles (before/after pics attached). The team safely removed it and now the burden of that is now off my mind! Their price, amazingly fair!!\nIt’s incredibly difficult these days to find a contractor (in any industry) that is honest, fair and reliable!\nTrust me when I say Texas Tree Service is the best in the area!!"
-    },
-    {
-      "author": "Tess Thorn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Brent’s crew with Texas Tree Experts removed a very tall Mexican sycamore for us, and we couldn’t have been happier with their service! Their pricing was fair, and everyone on the team was professional and easy to work with. Lorenzo and Albert were friendly, knowledgeable, and clearly experienced.\n\nWatching them work was genuinely impressive. They were so methodical with each cut, and every limb came down exactly where they planned.\n\nThe crew arrived on time, finished within the estimated window, and left our yard spotless. It actually looked better than when they started.\n\nWe highly recommend Texas Tree Experts! They’re skilled, reliable, and deliver excellent results."
-    },
-    {
-      "author": "DevonMccoy90",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "By far the best service we've received in quite some time! These guys are timely, responsive, receptive, and just good people. They are also super fair with their pricing. Would give 6 stars if I could!"
-    },
-    {
-      "author": "Frank Simonetti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Hired Texas Tree Experts to do some cedar clearing. Brent said they would start at 8 am. I was shocked when I saw them pull up a few minutes before 8 and chainsaws were cutting by 8:01.  The crew worked hard and removed about 6 or 7 loads of cedars and brush.  Cleared and removed over half my cedars. I will be having them m come back to remove the rest and trim my oaks. Best contractor I have worked with lately. Highly recommend."
-    },
-    {
-      "author": "A C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had a ton of really wild hack berries that were dangerous and getting out of control. Brent managed to take care of the really scary ones and fix up some of the decent ones. He then helped my neighbor take down a massive cedar that had split and was leaning over their home.\nHis pricing was really solid and he didn't waste time or try and oversell us. I dread this stuff because of the unknowns but Brent and his team were fantastic and went above and beyond to make sure we were happy."
-    }
-  ],
+        {
+            "author": "Travis Wilder",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Could not be happier. My tree (live oak) looks like a completely different tree. Texas Tree Experts removed all the dead limbs and broken branches from previous weather storms. They raised the canopy to lift the tree up. I’ve had a huge limb that I had to remove due to it resting on my shingles (before/after pics attached). The team safely removed it and now the burden of that is now off my mind! Their price, amazingly fair!!\nIt’s incredibly difficult these days to find a contractor (in any industry) that is honest, fair and reliable!\nTrust me when I say Texas Tree Service is the best in the area!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHJmnOMuYiaCp3XC8rzLEtG0cgj12wN65y2Qbu2bWxWi1v8oKidSuUOqByvdcSkChG56N8teCVrq73gWWcCVtLaITRGihObywzUvq5x3AMxTBetHFjMbDEfzH0S3aWk5xB__Zka-OzEidD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZDjUcKE-OAR5U5FfbjwLyp4V-8q2csynaxImKBo09q2d6XG-yhEGqkprbn3QcFECrIQTTQHKc5FBpHUJbV_O1lL1HS4pR8uFRU4XXjSXQpbCJtQOBd4jXtvAJClPXBalMq3vWpz1uaqpz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcckHYbSUyxGxqHEbOpTQvN5Sp95kzAEV102IHw8_YVd3CIaS1y2kdXDKDCjMwZQ94h-6l3jGdnmYuSnZqCA14iVjm_hR9SqnV4SkgfOYg_dckuwrAxAxtiqUqbrLqIwqEEYPyfAh66Odyi=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfxdvFnVcxx54F3QC2aI9FFCYEK44O1tEf71UAN7_J50YwT8OfQxaVSfeemtmi3DtkwmQfiSoGoah7dhDEdgKZF-z-xK6hwSOyf9P1JBQsbhI4ERZ-ycyMo4OSU6kNAlMNLZWXYsRTKb8Z=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tess Thorn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Brent’s crew with Texas Tree Experts removed a very tall Mexican sycamore for us, and we couldn’t have been happier with their service! Their pricing was fair, and everyone on the team was professional and easy to work with. Lorenzo and Albert were friendly, knowledgeable, and clearly experienced.\n\nWatching them work was genuinely impressive. They were so methodical with each cut, and every limb came down exactly where they planned.\n\nThe crew arrived on time, finished within the estimated window, and left our yard spotless. It actually looked better than when they started.\n\nWe highly recommend Texas Tree Experts! They’re skilled, reliable, and deliver excellent results.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMxYtd6EZ8NanH4FfqFw9DzY2hE-XsksyViM66A6lxHut63fYwZsIe6VmHaikSqKKzMuSMUaTSAsBlUaqD5G_ZOqBPFkfCfUaDG5bNVhO0GRJAT40E4VUNsTjbIRyD-2Of-EMWFJcGwz_v=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdntIgJSiMivASkWkgY7MJlJ1htKP3X5bd0JH-EDZKqgl-5gmoaxaXvhw5aq3lVw40dRdO45z50oR9ulp3zksbnNC3YTf_pGVNpWjVXSGg-4KS8rXSlb3VIu_WEXV5fqNCkBsF6RhRKawo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLegSr7DHX6uYLDRvlAq6HiL8OcfbfZhdf2jPNzAHMmcZwHJ6AeU42g1LT3vuDpPlnGaGtUjCXHx2bpFHyh74_wHBf47QHMcd81MwwWBYN-mAjlKLrK53fqeGnzN5AXUA6kliNoE3evqLhAK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSsBI3C_U96gBzI90Omemo6g4n5MGloaePm-2X97J8Xr_VawyzUH4I6oir7L1kQWZwLjns3pLGoxU54E89APGIKQFtqKLoHn82lovAXuTHixA-FQxOWkWC_kDqUkc6l9WWXAxiMONtRNu2=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "DevonMccoy90",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "By far the best service we've received in quite some time! These guys are timely, responsive, receptive, and just good people. They are also super fair with their pricing. Would give 6 stars if I could!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJ7NSbzc_YAv5cRpnRF7mBcvGZfBLFzreUba-l3w5ebUUEi7UHRb0jBzRI5jS6xgMZokIcbkD4wUHReXnbKwzHg0uI-df4dSx9Q812_JpiA4CrLF692TmknwW2oy5chJQqNuUCDRSU-Ns=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcpcF0TLliGtskiKlgCYgdJQAD5XO2xMfWPAP-DRkhA-YKRp_PbzbSdU0SDa60rX8f0ZTLg2Fw5gLuCLiUA6f36Q5_lgvrpNhh7cWmyy9bvurOOfegBvMrFPPbWEcJaEoIP-PpfVKmDu5Da=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Frank Simonetti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Hired Texas Tree Experts to do some cedar clearing. Brent said they would start at 8 am. I was shocked when I saw them pull up a few minutes before 8 and chainsaws were cutting by 8:01.  The crew worked hard and removed about 6 or 7 loads of cedars and brush.  Cleared and removed over half my cedars. I will be having them m come back to remove the rest and trim my oaks. Best contractor I have worked with lately. Highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfDYo8yr7LCOQiVn-0lDcolD86wVs_SB-slarpyt7zJbfltiudqR6JsjLPKQiW7t8akKefpukZyuUER5kOxUIPvx63jr0fE_hT-GVUfi8caHjWd0KZRku8UwVcCfniS3-VEzWPfDjNSuEZs=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "A C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had a ton of really wild hack berries that were dangerous and getting out of control. Brent managed to take care of the really scary ones and fix up some of the decent ones. He then helped my neighbor take down a massive cedar that had split and was leaning over their home.\nHis pricing was really solid and he didn't waste time or try and oversell us. I dread this stuff because of the unknowns but Brent and his team were fantastic and went above and beyond to make sure we were happy.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5Z-X-JjH5Wu08Fzv97vr8iAEyLpU8SYcnq76KJGSrwNG-bWkWkV73zsbC7Y15xc4YBsJYHFPrsBK4Pg-lE6uqJKlAFCb79JwgXHFGZ4qDo2kbrs1fj-SgRO1sBGJKDGn8StodfENuqfu1=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Manchaca (Central Depot)",

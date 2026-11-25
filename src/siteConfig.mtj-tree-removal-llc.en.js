@@ -32,21 +32,9 @@ export const siteConfigMtjTreeRemovalLlcEn = {
     "ctaPrimary": "Call Lead +1 919-219-4281",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mtj-tree-removal-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "MTJ Tree Removal LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/mtj-tree-removal-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/mtj-tree-removal-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMtjTreeRemovalLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/mtj-tree-removal-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMtjTreeRemovalLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/mtj-tree-removal-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMtjTreeRemovalLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/mtj-tree-removal-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigMtjTreeRemovalLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Rebekah Lee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a very large sweet gum tree threatening to fall on an outbuilding. We knew it would be a more complicated removal due to its location, position of two large branches and the fact that it was leaning over a building, but MTJ came and formulated a plan for its safe removal and quoted us a very reasonable price. They were prompt and extremely professional and polite. I was so impressed with how methodical they were, removing the tree in sections and safely lowering the pieces to the ground- all while tethered high up in the tree! It was fascinating to watch. They delivered exactly what they promised and left the area extremely clean afterwards. We will definitely use them any time we have a need with our trees. Thanks to Joshua and his team for helping us!"
-    },
-    {
-      "author": "Bare Strandz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My tree was falling apart. I called and Joshua came to the location almost immediately and was able to assess the tree and give me a quote. He did an excellent job on the removal the next day."
-    },
-    {
-      "author": "Christopher Delong",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "MTJ did an excellent job removing the tree from our front yard and trimming a few limbs in the back overhanging one of our new sheds.\nVery professional, explained exactly how the job would go during sight visit before work was completed. Day of job, team arrived early and completed job. Outside of the tree being gone you would never know anyone was here.\n\nThank you MTJ, you have a customer for life!!!!!"
-    },
-    {
-      "author": "Lauri Hofmann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "An excellent arborist tree service. They were very professional and so careful around the house. These were branches overhanging  our 1920s farmhouse. I would highly recommend and use them again."
-    },
-    {
-      "author": "Ed Mattison",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Joshua is very professional and courteous. I was extremely impressed with my interactions with him from start to finish. I was able to get an excellent quote and the work that was done was completed in a very timely manner. I highly recommend MTJ Tree Removal LLC to anyone who is looking for a professional job done at a great rate and in a timely manner."
-    }
-  ],
+        {
+            "author": "Rebekah Lee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a very large sweet gum tree threatening to fall on an outbuilding. We knew it would be a more complicated removal due to its location, position of two large branches and the fact that it was leaning over a building, but MTJ came and formulated a plan for its safe removal and quoted us a very reasonable price. They were prompt and extremely professional and polite. I was so impressed with how methodical they were, removing the tree in sections and safely lowering the pieces to the ground- all while tethered high up in the tree! It was fascinating to watch. They delivered exactly what they promised and left the area extremely clean afterwards. We will definitely use them any time we have a need with our trees. Thanks to Joshua and his team for helping us!"
+        },
+        {
+            "author": "Bare Strandz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My tree was falling apart. I called and Joshua came to the location almost immediately and was able to assess the tree and give me a quote. He did an excellent job on the removal the next day.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevHA2-JOBkP5wdKty6D2UDW3SkMLY5p91l4Ir_bazGTmEel_ec4xLlnwP6U9--1pipuLcNuUSnLOeK04zrmkgA1Q4HUU8fwHl8vnC9xRrkxwOddJP2HDgzLe1JiRUAdwqrYiBJX6-RpcFg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdeNDTwQyNNw54Kl8jzT0mkv99GH_rZXMbceyrzqvibTt1Yrif-58vZ8_XsDLT2xslmS08dIvT8UD1QcvtSTZJ8LtAIkNQLFi-HS-YudVIw14JrYC3Lhkgn5n0qAkE4LSxBOweT54h6S2k=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Christopher Delong",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "MTJ did an excellent job removing the tree from our front yard and trimming a few limbs in the back overhanging one of our new sheds.\nVery professional, explained exactly how the job would go during sight visit before work was completed. Day of job, team arrived early and completed job. Outside of the tree being gone you would never know anyone was here.\n\nThank you MTJ, you have a customer for life!!!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc7BBR7iwe7WUrM9HBU0HB71k5Xn0Q7G-Aey9sj_baSHA6TWaN8l3vNHEvLjX_X9_4iMixcGauOAnUcZUAnQVpCudpfyNQSzIdRkNFn2IrbQ2wErJN7xshzkXZDgOETkSi76XE3gPlXlACQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdypzEOeK9IIui76mj5-10a6UixRe8OTXIjxgU0HGGa9B0CRCjCtAx9I-MprgzDUYGYl6A8k4k-jPICLoopS49G1zi4cROf2YlmFfQloflwgCyLz_SP9uPsT6AKMlvz1u1h34__yAQD_XGQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcvt_Aa8llGilMOhERNt1eeRDDA5jJ6cATCCyS4HAllBj1nuVy0Y7iydBRa_Q41LNicL_4OFQSPiBvLRdUnwPLW6c-0UcfX34W79J8ClXZYTmfg54dZVJ8ExNrkp91veqBzMU4L3fklA8lq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGo4tSelFVUVCXe2YlnGqmSOnfx_-4LiY236PDfS8Qn--shg5MMXHM1utjFM9YPPKdxkStY8iyv90T9XSWXP7wd6__eOhS29EPcnIIeP1Cy-LtnT_1z_Ero5CKw6sOIRf9-nhNNd07xKZM=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Lauri Hofmann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "An excellent arborist tree service. They were very professional and so careful around the house. These were branches overhanging  our 1920s farmhouse. I would highly recommend and use them again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJWA7oI6YOxywhZrlDbXwbmvBnM9SVMQYjE5H7kUsFreWa2DhUXfI2TNgs4ICSzqMBXKmKLoSer-iV9jHPl6Ta0HbRZReJTbg44gO_KpuFF-kn9j3kctgUlEdX--DjuMwrmajXC-g1adWp=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ed Mattison",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Joshua is very professional and courteous. I was extremely impressed with my interactions with him from start to finish. I was able to get an excellent quote and the work that was done was completed in a very timely manner. I highly recommend MTJ Tree Removal LLC to anyone who is looking for a professional job done at a great rate and in a timely manner."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Zebulon (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigTomsTreeServiceEn = {
     "ctaPrimary": "Call Curran +1 714-531-5379",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/toms-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tom’s Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/toms-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/toms-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTomsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/toms-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTomsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/toms-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTomsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/toms-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,72 @@ export const siteConfigTomsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Amy Audelo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We just moved into our new home and the property had numerous trees that were hazards that needed to be removed and/or maintained. When we reached out to Tom’s Tree Service we weren’t sure if all the work could all be done in one day. They responded quickly and were able to come out that same week. My husband and I had big concerns about our families safety around what appeared to be a rotting tree. Our property is unique and every company we reached out to couldn’t accommodate our timeline or just didn’t have the equipment necessary. Tom’s Tree Service acted quickly to mitigate the damaged tree. You can see by the pictures that they had to work over our pool and on a steep cliff side and still managed to complete everything in one day with no damage to our property. Everything looks amazing. They even left some of the stumps for us to use for fire wood. They are very kind, great with communication and we appreciated their attention to our concerns. If you’re looking for a business to trust with your family’s home, Tom’s Tree Service is an amazing choice. Our Kids still talk about the giant crane taking down the big tree."
-    },
-    {
-      "author": "logan bechtold",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Toms Tree service came out and took down this massive tree out in front of our apartments we own here in OC. The worked really well with my tenants to take care of concerns about things falling on cars, ETC. Tom Curran and his crew were very professional and showed up when they said they would. Really seemed like some old school service."
-    },
-    {
-      "author": "Jim Johnson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’m a property manager in charge of a rather large portfolio in Orange County, Riverside County, and LA County and I’ve been using Tom’s Tree Service for the last 22 years as our trusted tree trimming vendor for all of our properties.\n\nThey have always been great communicators, they are always fairly priced, and super easy to deal with. Our tenants have regularly commented on how hard they work and how polite their crews are. We’ve built a great relationship over the last couple of decades and I’m glad to have a trustworthy and honest business partner like them on our team.\n\nTom and his son are definitely your people if you’re looking for quality service and clean, professional work! Here’s a few pictures from the last couple of jobs they’ve done for us. Thanks for all of your help over the years!"
-    },
-    {
-      "author": "Cameron Presti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had TJ from Tom's Tree Service come out to prune our fig, avocado, peach, and citrus trees, and we couldn't be happier with the results. TJ was friendly, professional, and took the time to explain what each tree needed and why. He also treated everything for pests and made sure we knew what to expect afterward.\n\nThe trees look great, and it's obvious they take pride in doing quality work instead of just rushing through the job. The customer service from start to finish was excellent, and the whole experience was easy and stress-free. If you're looking for someone knowledgeable who genuinely cares about your trees, I'd definitely recommend TJ and Tom's Tree Service."
-    },
-    {
-      "author": "Tyler Vanderstelt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called Tom’s to come and remove 2 trees in my front yard recently. They responded very fast when I put in an inquiry on their website, came out the next day for an estimate, and were very professional from start to finish. I was very happy with the service. Their owner TJ communicated well and took care of us."
-    }
-  ],
+        {
+            "author": "Amy Audelo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We just moved into our new home and the property had numerous trees that were hazards that needed to be removed and/or maintained. When we reached out to Tom’s Tree Service we weren’t sure if all the work could all be done in one day. They responded quickly and were able to come out that same week. My husband and I had big concerns about our families safety around what appeared to be a rotting tree. Our property is unique and every company we reached out to couldn’t accommodate our timeline or just didn’t have the equipment necessary. Tom’s Tree Service acted quickly to mitigate the damaged tree. You can see by the pictures that they had to work over our pool and on a steep cliff side and still managed to complete everything in one day with no damage to our property. Everything looks amazing. They even left some of the stumps for us to use for fire wood. They are very kind, great with communication and we appreciated their attention to our concerns. If you’re looking for a business to trust with your family’s home, Tom’s Tree Service is an amazing choice. Our Kids still talk about the giant crane taking down the big tree.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdccsUsQse0FOv5sQmaQwltsSvHmnFqQTI3Kz-rczLR2-lrXV1Iwkt1nen_b5TVYjl9YTFk8pR9dhGK8cpkaFKCq421EqkAhw_H22t4Pal6A8_C4CixJyTMIhpH8BYB01nK9RKF_qtRECs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0M3PFFePDkN-e6XTw0IiYqiRPwo8eHh9PVGGrITNMrPqanoscZlOTXF9sy_mLxOvbNACueE_RnUlaz4vgEiLr_Da6TVJstMa5BbU32Z5RsRnGEBJEFdOJ--vnLH50xmlbQrPkydwpj57-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1Ask6ci4UhVPanv-GO95O2ZYDOzKzxoI900clPJJpOLT5g3Qm5FSC2GRctZaGHceH73qm_WBjcWAZcW3EuVR-3nfBQ7wN4xHh0X6XeRjTbZyxKcFjH4K2-ByTkBYIixporrz7KPc2HWA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcqacJapM6tSol72N1La31Y-vMQNw-92HodMGGLKf8_D1e7CZ4C1K2EJINLz9Ibo_LMhk2tNVjNiqe3CdDgWzE5PUdtGeL0tcyI5iNk2oApbaJ5iwHTv02paODsgS84mqhu_mRd0DXofsMs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "logan bechtold",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Toms Tree service came out and took down this massive tree out in front of our apartments we own here in OC. The worked really well with my tenants to take care of concerns about things falling on cars, ETC. Tom Curran and his crew were very professional and showed up when they said they would. Really seemed like some old school service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcArKVQ0f48P-tuSwDk_5lTimirRvPwG2YWDK-OMYE-TPAleVYyHBCIG-Ngr6wgnMajpWIwGwP9lBsPQvaI0gI3ErESVUh4NnrQTnUEkIyhDSXg-3X-MBu7iFehaSFyRtZV_VeAc8Tg51Re=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7_bFP_eIlpSjk6ocLOJznQnJ9v0o0cz50m_gid-UGQgKyHTF05Dj9CVlQfcE26s2bUMXAIN4tI7-h7CAxEX82h5uPQecDopCFnOCEmPOdhI_Z8XIQfMetlYuK5i3HhyPpiAVvpIFmcIbl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSoR_IhRRALFm6fALlxIgy6Ad5b-1IdXqIlcUcJZr7v2rqSU0eCzWga4ahqWe9ID23PpLIPagr0SEI5bL8jK8RvnMnTGlJhfGFTw9vPhH_Zwt2uW94y10IyjW2Fk1HqRjJJc1PEbcQbNzs=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jim Johnson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’m a property manager in charge of a rather large portfolio in Orange County, Riverside County, and LA County and I’ve been using Tom’s Tree Service for the last 22 years as our trusted tree trimming vendor for all of our properties.\n\nThey have always been great communicators, they are always fairly priced, and super easy to deal with. Our tenants have regularly commented on how hard they work and how polite their crews are. We’ve built a great relationship over the last couple of decades and I’m glad to have a trustworthy and honest business partner like them on our team.\n\nTom and his son are definitely your people if you’re looking for quality service and clean, professional work! Here’s a few pictures from the last couple of jobs they’ve done for us. Thanks for all of your help over the years!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdH7-fZlcVeoh98fI2hanzMPoASJf2yK6M_XwXIG031HDgqEJta70nA5qLWl0dH2MFQ9I6O8_sXbs_mBSAoghpUcnmIuz7R6pVng-A8q1tXNRHpcZjXIPRLAt5gdzcd498Wgw2yIjiijQ0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLexlYsj6PhjVzaffXAyi-uSUAB8mUHLkue38rrBu--7-hf97Y5yJGa0clrEmSioyG8kZ1rl_UQjx3mazhWnN7CgZz5VLrwqeiR1YHROr1w6Hn-Fc4Ir8MqAEdcBxpGjUDcJr9N3jItt97w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIL9nDqDiawCPng-SwQBPGGsR3mlXrr2sopI_F4srU7X2TKQTvHLSlothsIWFqiVLbOTAvMf7qk6gOSjkcMOIZR73horGBZ1R7AA1m-AzPqr6PyAtL7U9UZfh7fm0GnkwFgd2oXoAmeDY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe3n1u2hpGYLr-EoTWLtunJJ3hHeJoOIsiP5vYYa8_Gpa6IFZbnTfB88cArxfxFHq8HJTVOtUnH5sEw7GuHk-0Se6AYZWkCeLkNl9NKHyKykT8xF8DQ13BL2K7r2jv2fOHKNBUFgnOAiIo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Cameron Presti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had TJ from Tom's Tree Service come out to prune our fig, avocado, peach, and citrus trees, and we couldn't be happier with the results. TJ was friendly, professional, and took the time to explain what each tree needed and why. He also treated everything for pests and made sure we knew what to expect afterward.\n\nThe trees look great, and it's obvious they take pride in doing quality work instead of just rushing through the job. The customer service from start to finish was excellent, and the whole experience was easy and stress-free. If you're looking for someone knowledgeable who genuinely cares about your trees, I'd definitely recommend TJ and Tom's Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdiRXA6V9g97kWewfyUQikOiiQjDaNN4rvxQr0-lMO3Sc8VcIL0gzJCmGg2nyxNW_aGfLFOXRm7NhIYo2Wtwlg6Kmv0GlN8sUhzY7aJnMLpo8gijB7YrGMRWv6uK0Fvc7BfW_hglSEvwsc7=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1MyR55XJd5af8wUaeWoVrlbCMT6NYz-ZiFxN3kmqliiSYO4KwMi_W-xovHXJlXSl7KfTUt18B9sp2wyvtrCv9D95mwHXaVxSaU12fTJyCTN3ZY-lfJdjcfdZCD-68A3p0JPvYo1P8zDry=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSNn_vQNN_mwGR0NMMFm4wWXH_4q-RmYWMzsqO22ORcjsNLtrzUKE2NnO2TfADaR0aavZr_jFnooZ-nRnjrQSS1Iy5AvA0pEMxrU_Xd_SKf5PCBP8341n2CfZv2IbUGgnr5_pZ9JX5ClJf=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tyler Vanderstelt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called Tom’s to come and remove 2 trees in my front yard recently. They responded very fast when I put in an inquiry on their website, came out the next day for an estimate, and were very professional from start to finish. I was very happy with the service. Their owner TJ communicated well and took care of us.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdv9EHA04MwnwtsxtzN6pzRy-gy6xw62QbJ9ldk9xQv4RsZG7zVTrms0EVakDlP6jjiDwp8DTC5FPlzHEEZqpqPfxW0MTtiSsINHt9ML5mF33XBe0L1g2svlg7lCx0FvHeeUu5mZyaytGg=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

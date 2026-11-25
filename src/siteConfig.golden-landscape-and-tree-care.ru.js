@@ -31,21 +31,9 @@ export const siteConfigGoldenLandscapeAndTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 727-276-8424)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/golden-landscape-and-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Golden landscape and tree care"
-      },
-      "sub1": {
-        "image": "/images/golden-landscape-and-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/golden-landscape-and-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGoldenLandscapeAndTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/golden-landscape-and-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGoldenLandscapeAndTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/golden-landscape-and-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGoldenLandscapeAndTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/golden-landscape-and-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,76 @@ export const siteConfigGoldenLandscapeAndTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "F Miltner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: So amazed with the whole work completed by Dara’s team and how they transformed my backyard. Dara gave the best price out of eight companies I called. It was like a one stop shop as he handled the pavers, turf installation and preparing the..."
-    },
-    {
-      "author": "Savannah Seals",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: By far one of the best companies I have ever hired and I will do it over and over again. Dara is absolutely amazing. him and his team came and conquered my backyard and totally transformed it into my little perfect oasis I couldn’t be happi..."
-    },
-    {
-      "author": "Doug Madsen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dara was great, price is on point, communication was great, he followed through on what he said he would do and stayed on point for cost where most contractors / landscapers seem to come up with some extra cost not known till the end. He ca..."
-    },
-    {
-      "author": "Haley Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so happy with my entire landscape! Dar and his team did my entire backyard and front yard landscape. They also added turf and patched up my Florida room to give the space a new feel! I highly recommend for all landscaping needs!..."
-    },
-    {
-      "author": "Debbi Wolf",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Dar and his team were ABSOLUTELY AMAZING!!  After the hurricanes last year my house and yard were a mess.  Golden Landscape took care of everything in the yard.  New drains.  New Rock Beds ans a fabulous backyard patio with a fire pit.  I c..."
-    }
-  ],
+        {
+            "author": "F Miltner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: So amazed with the whole work completed by Dara’s team and how they transformed my backyard. Dara gave the best price out of eight companies I called. It was like a one stop shop as he handled the pavers, turf installation and preparing the...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfaEB7DyBJrSL92TBuBKnXVjNjii9gOdu5sA8tWsU7cZwfKBgTLbdQ9Bh9CQxk0BpvmxR6ORNUyhT78gRLWcb_7tFVh9UiOMWNNsFNGoLlVpH3vGWorMj5vO9IR8SQgAdh_xrjDB0oJxwMR=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdicKWtL5ePBSK44-rqPv8N_fgeMIN4TolYhsk6-e2V-ipNxlrx_B1q2M-eE9rNF7KK3JhkZDWZwKM2NdE1mRsqBFJ0v72NmN5VAoWuKxLvAF9UUjQnUukkOi_6U9_FH2VtMEKuEj5W94U=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfvNOpqeKU2xAVUuloHP88gO-0zbvGH47k6rTEDmiI2-fCs072NeUDedRldqwU2m2OR94686mqLYip49JNT5TBQ43I1LBMIoAxrQpfdhprHwXCYyxTuTHebibd_yH3oo-vTNUvy7tASZuj=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5wUn6mPIrzanySby0FYUECuwToclNumIlJNm429wIfRaoGhN6egTGsyuveUejZCGm97wn36-LLCWevr0U99Q97rcPmcx9jFwdHOWFWDTEvjGcBHmCrpVxySMLafgoG0q3VZxNomSBukc=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Savannah Seals",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: By far one of the best companies I have ever hired and I will do it over and over again. Dara is absolutely amazing. him and his team came and conquered my backyard and totally transformed it into my little perfect oasis I couldn’t be happi...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfKmWm2KiCpVlomQ6BkpsMN4dMQ8kFe7erX3SSYZvGzdSIqVOl-w_-P3BBj6mrz7FXM2aOrpK-YsEGVqbaLckvfnlXad8XMrhS9i3IH4P32nuOw10kMRuU2Hs6QsfabaKSJBGIQJ7fRXYE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDp_jlv38Crp1sBoR0W-O3SSi8HfZGg_Cejs3buNpZWjZxLqKv1GF2g0TWxBiQPnTdL_4TFlJFEP0fE4DgmsmVyxEOv3FdShwQXerYLbq5vDdWoE1ftIo422fNxhW94MAS-vnvE5F_-eI_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfmdr8Ejf56oThpAdV9vaY_1kDE2Da6Jj4mfbUY7gvKywvxfGOs2RZusJ4naxPpd2vYrlO-3Fdf8f9HnKM3ir8lB0hkisEGcEfZcpkW7X5Dn9myqFnaV1aPkMQc0-xXOGPeT8GAhZ7cuJcv=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcCxDG3vYW_WUPbuF57sMAUx7OZt0V41kJwd3HSGZSO2kiPodX6j3Dh8v_3d8hDuF1m8qNlY06dWf2uAb-97PuJTnRZSByuwFKedUZGJiiBwvqn77IEjnUQbquioVNa1EqOJX9OV5v7Agc=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Doug Madsen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dara was great, price is on point, communication was great, he followed through on what he said he would do and stayed on point for cost where most contractors / landscapers seem to come up with some extra cost not known till the end. He ca...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeKn49SLnMmQhDoM9_hehKs4SrZqByrO8IOATcSyqM9agE9uhuwUzbskFyaHh0UJ3waKTGapaO2eCzyLc5nW1hdvoU7BlLx7Dmqp4PCXpikjmFTlnzaShL-boB8ZQ9wyNyxOCr9GypJKek=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDenZ-NexoPXmdCTuHXC6fOE6TnMbSTkxEDjVeXPUptjhmRWSFFvguKlcYJbYFa11pVaMc1XAxIGJXDSTmgdKVdC1Qv6PMtsM5gy5eLtgqvVmXAeOzYrZ3TG1QOnr3ansQooTtDsCuk--b=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdj2r-HhlZTuYkzC9iYW3un0dG0YpU0B9U0ohYvXgT5SBAE-SQ8myXhZDTUxXa46TljKGI5-7x3-jkyO6ruRPsbANNxfUZvp0h7HyqMAYEFSp8EePf9cHXwAhlISIxdjCsby3CpaanWzxxp=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Haley Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so happy with my entire landscape! Dar and his team did my entire backyard and front yard landscape. They also added turf and patched up my Florida room to give the space a new feel! I highly recommend for all landscaping needs!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdjAGmbpBfyFpHB-FDji-0gon7vm5SM5xexRRhsR8eRokrPHYHSfvbFx-yCjVNRYoyWIK6JgeY7nVYDqa-XFLCLvdgoYE_wPc80lYC0vSTgaHPkqeY8YiBkxJxEf-sv9SGB3bxtzfvrYiyL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcSHKeQ_7RgJGmdFl7DIyWAvW65HjtdvHLX1RDn_fZbDuHdfB_4kKfuvkJKdP1Kl24cwgk9bNV7KfJNTNe6DhyfouotLTLnHF6f2geHpoZa8T9fQRhcvFvndm3tO1YMf-a3bOAAgCTPbOgU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfVoKc-bKD-MYr0q0oswhD_KcLvq-1FPkkb2fDDTCuN3pGDBA9DE6GwFRP0zunXz90A8mVgcEixoVGl2Wq3nPGNYudSuoSaLuGLlCzvjcd5yv-SPdOzgfHn8j97l7PfxrE0gJYJGZoymRf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4R_wqvPzhxX9ZU1vtQ_Q9ooE2fdCTnKk821_MYzxReGmt55oT7E1p7RBusXmy6554xCMNR_bO00brXk5agCVHRfDMVpOjvyGi7g0Txd0qdt11TxHbAUej8TrGb_lwiJ5D-KAW6q2DS_2h=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Debbi Wolf",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Dar and his team were ABSOLUTELY AMAZING!!  After the hurricanes last year my house and yard were a mess.  Golden Landscape took care of everything in the yard.  New drains.  New Rock Beds ans a fabulous backyard patio with a fire pit.  I c...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoxt-WQKkI36GFWKBG3g2jMiWKuJDgAZYuHr1dPEQ13Ow8Vqkavo3JiyfdD-_PTx_a_0TFjUiNoJqdW32kywk7wFd1h1j_ux9g9fqO6FTTovI0Jap5F_DZB63lbxT214qAKairc0PscrM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdokrEN55MNolYmwJVgRZhUQxdK36AG2rVsXwFNBWbMT33dJFThCVPexRutlHjfzBlXzahcGIaN859WFHvDJ_MqQP6Zoz9JUAyYWiQJFmtPkIq4oMRNqWf-8Y6AKgDzk8ywBgXMkR8bweIZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcd0O-Qta-uvuyOOkCcpDzgF98kM8J4E8VLCg9fwt_4Q06kheDU_wzUa7ZqgYDkEsB9TLS9Y6UnJcfWNYwJ4z28_3A0aBc9inyM0962HilgIbkvjqfMGj9KzgiprQeZD_6pKZc-UjTQq-CL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd_RL5GeJfSy2xsZC8b-gVk6z2Uhsx6xhN38fo9IwAzxo20D75-rgEZexQS5eJMpZC1Ghy3Du_hJV50l3wQI3V7f4XRhk6meC--EBVR48Y8ooU_56Ytl063zq6DrT_yWfy2bO1Vyh3aX1tB=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

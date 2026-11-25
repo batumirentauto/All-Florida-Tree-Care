@@ -32,21 +32,9 @@ export const siteConfigWillsTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 678-979-5454",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wills-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Wills Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/wills-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/wills-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWillsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/wills-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWillsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/wills-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWillsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/wills-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigWillsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ethan Gibson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very professional team. I told them just to drop the trees and don’t worry about the detail cleaning. Other than the trees being gone, couldn’t tell they were there. Grass in the condition I left it and a few small sticks that’s it. They “squeezed me in” and did an exceptional job! If I have any other trees in the future that needs taken down I will definitely call Will’s Tree Service."
-    },
-    {
-      "author": "Beverly Bass",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend this tree service.  We had four very large, dead trees that had to be removed in pretty tight areas and we had some limb trimming done.  They were hardworking, skilled professionals.  They arrived and got right to work and cleaned up and we felt like we couldn't have asked for anything more.  They exceeded our expectations."
-    },
-    {
-      "author": "Tiffany Hunter Phillips",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wills removed a huge tree that was right off the corner of the house. They were professional and actually did everything when they said they would. We called several tree companies before we got referred to them and none of them would show up. Not only was he professional and kind, but the job was flawless. They cleaned up every single twig that came down with the tree. The only evidence left of the tree was the fresh stump and some sawdust. Thank you Wills for a job well done!!"
-    },
-    {
-      "author": "S Page",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They did a GREAT job! I had 4 pine trees removed that were very close to my house. They were professional, caring, and did a fantastic job cleaning up. Can't recommend them enough."
-    },
-    {
-      "author": "John Adams",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Mitchell was literally a God-send and helped save me from my own stupidity! I was cutting down a large pine tree, but the tree started to fall toward the house and sat down on the bar of the chainsaw.  I was definitely in trouble and started calling for help.  Mitchell was out enjoying a Saturday afternoon motorcycle ride, but was kind enough to come and put together a plan to drop the tree. I can't thank him enough. I highly recommend him and will definitely use him before trying to drop any more trees on my own."
-    }
-  ],
+        {
+            "author": "Ethan Gibson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very professional team. I told them just to drop the trees and don’t worry about the detail cleaning. Other than the trees being gone, couldn’t tell they were there. Grass in the condition I left it and a few small sticks that’s it. They “squeezed me in” and did an exceptional job! If I have any other trees in the future that needs taken down I will definitely call Will’s Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5br5tQHb__QT97QRtmjAyM2stmdbMd99TS_4AONpDRlvKfnCohItaCWxDfdcvOlhlbnyPJEfEjSCL0MeVKJR_63Skp-adlQRT5Orzig0YoP0yDKI8Ft4ZVB55q4aU2xKK_87d=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd7Xe6CgMRD3qyVpa9BWwvyDnKFp-py6ZUO4br5KOnUii6FHPQI4DsyMjZq4n67G4UMwT5UAQU1sFrx_q0qj_8bko8FqaRdhSfDq67X6he7EpbBIesO2rT_ZBTL-PcdZ7lKzY1LmQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmCgYSQdDoWz4sskKZ1ll3qxuoKrraZ8GWs2mzS5YCgNzBGbICApEfG2x7TkfB24M2Qz3UnujYxfj6SqwEq1DBWz34m6xWkbkKGfPg52wCGVIAZIXeinIUIeYA-jRUzcb_v3A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5-xev812Pfpbt7FNk1J32T5y5rWk1C6Le_s4Y475WIo35iKxpxnGJzOwfsIAJAx1zfgVVLrggV44UcY7PmgqgliX9OkNRuTfTQ5Mtv_TDm-V3yx93DmTJqRxZpK4jAPbb3zks=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Beverly Bass",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend this tree service.  We had four very large, dead trees that had to be removed in pretty tight areas and we had some limb trimming done.  They were hardworking, skilled professionals.  They arrived and got right to work and cleaned up and we felt like we couldn't have asked for anything more.  They exceeded our expectations.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRCm_4tW9Crht3yGFIzCRNkzJUEVR81IGtB2oIRox1gmUbdbnzKB1l4HgnSQJ4EyfLQpke8trYlPGRUbB4qyf11TbaC6S7evL2oBL-TdfZpYitBY1p16AQBlFe5D2tLAggoZRXeg=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfTW5yf_rB6v_iXnoGf7kTHyVj8DJmwxSlLVtO6SKYVK8DQPadEBc7Ycw1JFpYkmTpOv8pqPiqXc7SfnTnHAAe-lF8xUxEEY_JknYeVj2A8QuS6mj31XC5FMbI8OweZ_Oyw26sE=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tiffany Hunter Phillips",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wills removed a huge tree that was right off the corner of the house. They were professional and actually did everything when they said they would. We called several tree companies before we got referred to them and none of them would show up. Not only was he professional and kind, but the job was flawless. They cleaned up every single twig that came down with the tree. The only evidence left of the tree was the fresh stump and some sawdust. Thank you Wills for a job well done!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfa2zx13Om8VeHNHXxPY4ui5Ta2g9a9dj5ZQvbgz7A6bkHJ9g806AiKJHdV1cph62FvK1DImg-UXmgZq_6jY4L_OwL0z04JeqAhH_LygA3MZWHAPS9aM5YOPKI_TNzWxkhkc7ZBwQ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "S Page",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They did a GREAT job! I had 4 pine trees removed that were very close to my house. They were professional, caring, and did a fantastic job cleaning up. Can't recommend them enough."
+        },
+        {
+            "author": "John Adams",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Mitchell was literally a God-send and helped save me from my own stupidity! I was cutting down a large pine tree, but the tree started to fall toward the house and sat down on the bar of the chainsaw.  I was definitely in trouble and started calling for help.  Mitchell was out enjoying a Saturday afternoon motorcycle ride, but was kind enough to come and put together a plan to drop the tree. I can't thank him enough. I highly recommend him and will definitely use him before trying to drop any more trees on my own."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

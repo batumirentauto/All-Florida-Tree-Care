@@ -31,21 +31,9 @@ export const siteConfigHeartwoodTreeCareAshevilleNcRu = {
     "ctaPrimary": "Позвонить (+1 828-845-4811)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Heartwood Tree Care Asheville NC"
-      },
-      "sub1": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/heartwood-tree-care-asheville-nc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigHeartwoodTreeCareAshevilleNcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/heartwood-tree-care-asheville-nc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigHeartwoodTreeCareAshevilleNcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Susan Wille",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great company, great people. Heartwood Tree Care delivered a level of service we did not know existed anymore. For each step of the process to remove a very large, very leaning tree — from supplying an estimate to diligently returning to th..."
-    },
-    {
-      "author": "Lesley Mullen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Heartwood Tree Care is a  Top shelf, excellent company. They have state of the art equipment, highly skilled, precision oriented, and friendly employees...."
-    },
-    {
-      "author": "amber Glover",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had Heartwood Tree Care remove 4 palm trees in my pool area. They were very adamant about making sure nothing go into the pool and covered the entire pool. They did a FANTATIC job, very professional, all the crew members were considerate ..."
-    },
-    {
-      "author": "Michael Hopping",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: To my surprise, Heartwood's bid on the removal of a diseased pine tree was no higher than the best I received from little guy companies. Plus, Heartwood agreed to compost rather than just dump the chips. Everyone I dealt with there performe..."
-    },
-    {
-      "author": "Karen Vann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am so happy with the work this crew did today. They were on time, detailed, neat and personable. They listened to my needs and did exactly what I asked. This company employs true experts. I highly recommend them and will use them again! T..."
-    }
-  ],
+        {
+            "author": "Susan Wille",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great company, great people. Heartwood Tree Care delivered a level of service we did not know existed anymore. For each step of the process to remove a very large, very leaning tree — from supplying an estimate to diligently returning to th...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc5is1Qz342LjDkwr0Qk6_-E0hVJEuyaJgcvYVYEuNfVEaQXp1vg0UxMsPOaY6hsyBJD3I0rzV5zynvT4ociL9DNiqegqd1K_MYcPSwmavpbB87Ro6OEayJv8ND9m_ERIEvGQc8B-rWdr0J=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lesley Mullen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Heartwood Tree Care is a  Top shelf, excellent company. They have state of the art equipment, highly skilled, precision oriented, and friendly employees....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdAkOUn2Y-uFLlRPlOIBXuGU8VTn0_VMM0s5KbYmaLr5B1VYmT_CSldvcj8aKNtIFotoNklcL0K6bNJr8Z64kk2Xc7fuu52A-lZxCGTV3P4H54LRE_hgKW9kuGXySCg_qUosY9w_N4MRdJ6=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjAqnsKNajMutSNfqnVfuxr6eh3bTCgarLeatfYf_T0TMx9yvabIafdwAytXUHqoddKFbQNEcvNZpZ6ZbwyGZfQlYqdxBOApvTlB0o6emjWJIkN_7xexcDMfNRjj64wjsoKLuAnzKPgBip=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "amber Glover",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had Heartwood Tree Care remove 4 palm trees in my pool area. They were very adamant about making sure nothing go into the pool and covered the entire pool. They did a FANTATIC job, very professional, all the crew members were considerate ..."
+        },
+        {
+            "author": "Michael Hopping",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: To my surprise, Heartwood's bid on the removal of a diseased pine tree was no higher than the best I received from little guy companies. Plus, Heartwood agreed to compost rather than just dump the chips. Everyone I dealt with there performe..."
+        },
+        {
+            "author": "Karen Vann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am so happy with the work this crew did today. They were on time, detailed, neat and personable. They listened to my needs and did exactly what I asked. This company employs true experts. I highly recommend them and will use them again! T...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMtcodDrBcLETwGVE8SRMna7vgzi7aMNOqyxq-TrXINDFV4SGsBWZ1hi6eXiFR6ugoglxLY9ogJGc3XePLrixtIVWJi4Wdn_Xmc_6b2qVumn8augRIbbjNrlnpDuyBCIKpJuU=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Asheville (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigAcadiaTreeCareEn = {
     "ctaPrimary": "Call Acadia +1 469-740-0391",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/acadia-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Acadia Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/acadia-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/acadia-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAcadiaTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/acadia-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAcadiaTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/acadia-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAcadiaTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/acadia-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigAcadiaTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Joshua Reyes & John Waters",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a great experience with Acadia Tree Care. From start to finish, Jacob was attentive, responsive, and extremely knowledgeable. He took the time to answer our questions, explain their recommendations, and made us feel confident in the work being performed.\n\nTheir pricing was fair and competitive, and the quality of the work exceeded our expectations. The crew was professional, efficient, and left the property clean when the job was complete.\n\nIt's refreshing to work with a company that delivers on its promises and truly cares about customer satisfaction. We would gladly recommend Acadia Tree Care to anyone looking for reliable, professional tree care services.\n\nThanks again for a job well done!"
-    },
-    {
-      "author": "Danielle Hess",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jacob and his team were punctual, friendly, and very competitively priced. They left my yard cleaner than it was when they arrived!   We have 2 giant live oaks and they look awesome and healthy thanks to Acadia!"
-    },
-    {
-      "author": "Amanda Singleton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing service on my 4 large trees at my home.  Everyone on the team was very respectful of me and my property.  They did beautiful work on my trees and the owner was extremely knowledgeable about trees and tree care.   I will not be using any other company for my tree care! They are the best!  Prompt and fair pricing also."
-    },
-    {
-      "author": "Dominic Maucieri",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jacob & Rafael are very easy to work with. Very communicative, showed up on time and were done quicker than expected while doing a great job. Would definitely recommend."
-    },
-    {
-      "author": "Angus Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great experience working with Jacob and team. Jacob did a fantastic job walking through areas where he suggested immediate trimming vs where we could wait a bit. He was extremely knowledgeable and did not pressure us, but rather laid out our options. Once the work was completed he walked us through each area and made sure we were happy. We will be sure to use Acadia the next time we need tree care services!"
-    }
-  ],
+        {
+            "author": "David Joshua Reyes & John Waters",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a great experience with Acadia Tree Care. From start to finish, Jacob was attentive, responsive, and extremely knowledgeable. He took the time to answer our questions, explain their recommendations, and made us feel confident in the work being performed.\n\nTheir pricing was fair and competitive, and the quality of the work exceeded our expectations. The crew was professional, efficient, and left the property clean when the job was complete.\n\nIt's refreshing to work with a company that delivers on its promises and truly cares about customer satisfaction. We would gladly recommend Acadia Tree Care to anyone looking for reliable, professional tree care services.\n\nThanks again for a job well done!"
+        },
+        {
+            "author": "Danielle Hess",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jacob and his team were punctual, friendly, and very competitively priced. They left my yard cleaner than it was when they arrived!   We have 2 giant live oaks and they look awesome and healthy thanks to Acadia!"
+        },
+        {
+            "author": "Amanda Singleton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing service on my 4 large trees at my home.  Everyone on the team was very respectful of me and my property.  They did beautiful work on my trees and the owner was extremely knowledgeable about trees and tree care.   I will not be using any other company for my tree care! They are the best!  Prompt and fair pricing also.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuj13GMXAqlQiiVhWxtTt914a0VZ0QNwTPvLa7_gvfmb5R0frzPc_o-_W4Hsna_1pexRwbllVl1tlbEeI6kWwY9Ad-UZ8TsICutLIrnhYhcJ7h7Wq3zoYebpUw2GdFccWcBtMK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcOPVZYpsE9gYVX7k37tZQRqUiJ3K4qcV7ZAUoCDR8zb5rvEz_FtwocDqqweLlzzqmbb3w39JdYXRl5tJAO-gk3m8Ip3NU4DRU-o8_Eiz_a9tYxitoRUQCGp0a5NrDOiHyJ-poZVw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Dominic Maucieri",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jacob & Rafael are very easy to work with. Very communicative, showed up on time and were done quicker than expected while doing a great job. Would definitely recommend."
+        },
+        {
+            "author": "Angus Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great experience working with Jacob and team. Jacob did a fantastic job walking through areas where he suggested immediate trimming vs where we could wait a bit. He was extremely knowledgeable and did not pressure us, but rather laid out our options. Once the work was completed he walked us through each area and made sure we were happy. We will be sure to use Acadia the next time we need tree care services!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Garland (Central Depot)",

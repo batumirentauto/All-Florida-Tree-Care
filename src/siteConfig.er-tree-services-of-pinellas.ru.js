@@ -31,21 +31,9 @@ export const siteConfigErTreeServicesOfPinellasRu = {
     "ctaPrimary": "Позвонить (+1 813-454-6085)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/er-tree-services-of-pinellas/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады ER TREE SERVICES OF PINELLAS"
-      },
-      "sub1": {
-        "image": "/images/er-tree-services-of-pinellas/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/er-tree-services-of-pinellas/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigErTreeServicesOfPinellasRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/er-tree-services-of-pinellas/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigErTreeServicesOfPinellasRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/er-tree-services-of-pinellas/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigErTreeServicesOfPinellasRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/er-tree-services-of-pinellas/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,67 @@ export const siteConfigErTreeServicesOfPinellasRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mary Mells",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I we used ER Tree Service for over ten years.  Ernest is honest, professional, and dependable, and he and his team work hard.  He has done a great job in difficult/tricky situations. He was my saving grace during the aftermath of Hurricane ..."
-    },
-    {
-      "author": "Tina Maria",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Listen, I really can’t express enough how appreciative I am for the response time given to our disaster left by hurricane Milton. We used ER Tree Service for the first time and they were extremely responsive, skilled, knowledgeable, profess..."
-    },
-    {
-      "author": "Camilo Alzate",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: l needed a stump removed from my yard, and this company did an amazing job. The team was efficient, and the equipment they used made the process much faster than expected. They worked hard to ensure that the area was left clean and tidy. I’..."
-    },
-    {
-      "author": "jennifer forbes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Ernest and his crew did an excellent job trimming and tidying up our palms. His team was very thorough and professional.   Would highly recommend ER Tree Services...."
-    },
-    {
-      "author": "Jonathan Bowles",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: On July 2nd, 2020 Ernest the owner of ER Tree Service contacted me to ask for a favor. He stated that he eas doing a job over on 11th Avenue South, but wasn't going to be done in time to take the tree they cut down to the local dump. He ask..."
-    }
-  ],
+        {
+            "author": "Mary Mells",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I we used ER Tree Service for over ten years.  Ernest is honest, professional, and dependable, and he and his team work hard.  He has done a great job in difficult/tricky situations. He was my saving grace during the aftermath of Hurricane ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLelSgCmJBEwjP2LPq3vPNbpJhJTghIWzfLGWRxyyCRoSoa70Z1HNp7lfQFEv1vh6H47lqtNnzwWOGQmZY6Hmkmy143CbYuhlAww7vIPhY3ng9K8XCKeNBzbjkTS9GhFKo4FAQNGAA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFqZgONJqcddDMUkdUQesB0Eng2rJt-LS0pB5vvKyUwlWtyE0rSVkxKwVnr8o7tJMlMAyBj8gpPNBekz90b2zlF5Kmr6cWeh3hvOlr51gpBhE-SPSJ6bQumqR7FWteh-ieugI=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Tina Maria",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Listen, I really can’t express enough how appreciative I am for the response time given to our disaster left by hurricane Milton. We used ER Tree Service for the first time and they were extremely responsive, skilled, knowledgeable, profess...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJsnmaMgbrZemsjHPvEgYrXiLBv9Sbkdo9qf6u1iWsDHLLgBcmzUWINU4Cf_xHs288SwUm0SS9Lc1Gftg4bIdBsZ4MfPZhGUAQO7ozGU_v1tsyhz1DBNEic-q2x4copXsf3CqVig=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGmDuo2EtiOmiBx20Ir4OPLJp5Ne5Oc0rgkUCQXfUiGc0HnRD02_eNAfud750ICJ-5vPVMrSd5fO4m52WDvFEtCLSuroQkfmgCUBPw6uakzzSJiBzlzRPi1-YiPsymX2icA3vQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0VVsme-V0pOqpYMUBDENdrS6NUvl9yp_nIcMlIRVMW1lu7BZU8tzLNuhgHbAEU4wsxrFEv4AevRlb5tu4AVpBuDUzE9fIKeLrVIdM8JU6z68mWTjHvGfGIUDzsLPqEqGozJ7oAA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGSiFXe03WK6OTi6sXij6Gq2k3CeAaRPNBW1HG5sgSfv6KgY6pUVHVbgJjl_6hg8niTCKxmfK6yumJUXwQbb4K43u2AUFMFxnUyDEulf4x01bSCy8f1PIZ4c5jofcF9nEtPr5-=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Camilo Alzate",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: l needed a stump removed from my yard, and this company did an amazing job. The team was efficient, and the equipment they used made the process much faster than expected. They worked hard to ensure that the area was left clean and tidy. I’...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdoRB4PtJ0dtLb9ye4bvUwt3pVKwa9DheR4GAMikKPWwU-YFj9-CPPN0sfkR_MGeNvSDc5A8txjLIEigKQ5VoJIt5DIGlIHfXhQQEDSylK6gHq4Ww0fLrEN0-69EuzbJvuNUdGUlw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfZCGk65I6OVA8QDx0PuV6yY_5BG-N0y2mXGGQ0SNqtr8pXNsnST9nl-UyFVLWpXcQdflw97OI6K-l1L0IZ3zgWtc5YxHAG1uY369u6675wJI6yKEVK0BJUDDIGI-mq_9LgJCZb=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "jennifer forbes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Ernest and his crew did an excellent job trimming and tidying up our palms. His team was very thorough and professional.   Would highly recommend ER Tree Services...."
+        },
+        {
+            "author": "Jonathan Bowles",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: On July 2nd, 2020 Ernest the owner of ER Tree Service contacted me to ask for a favor. He stated that he eas doing a job over on 11th Avenue South, but wasn't going to be done in time to take the tree they cut down to the local dump. He ask...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7GU7t0FvHbk5X35xipShzHRIeo5J13mvS2kZkn84WskyVFN1t9S6DixDs9kyg8K9Rz1OT8HEKBKjWS9x336ersX5DH00iKfg-Tpk0BtSuJK2kDdoOiElTHRqGucMx_rgnKCWLkA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd9xzujIsAJWKtVUPG5XAvubGFHm5eatoP0JmOhLgEubqCh8v0o_4zAHSo3JbBjvkn24HVLxBRpkFBurEMT6ELIDb-PL_5C6gGwQXAW3zgYFDMQ4arMuSNzimwZPfCpY-rVyoiV=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc2Z9abii46fEwuowm03_539baEmfgVdk_3CziCrdsz-Q6ppzxxDPoNaVttMRTdlN3mfrfRiSIr6eYw1HX8WtmIAR8jD46bs-u2I3IPv4KgMN8vvmvvsuxeghWFjnSijIp5auMpEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPyvg83wlI4tiQOW4qXkFnJc4t2G1IfecNFysf_QZoJGoC9YcYPfZDBdQd6h5NIsNmWuura5fNUs5BkTESp1SIUiLqDIZQLigQYK4ezqBzgv5T81Boi3NtwQuYT7baHMRL2mKg=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

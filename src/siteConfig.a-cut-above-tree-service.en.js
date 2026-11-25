@@ -32,21 +32,9 @@ export const siteConfigACutAboveTreeServiceEn = {
     "ctaPrimary": "Call Matt +1 910-209-4516",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-cut-above-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "A Cut Above Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/a-cut-above-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/a-cut-above-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigACutAboveTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/a-cut-above-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigACutAboveTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/a-cut-above-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigACutAboveTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/a-cut-above-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigACutAboveTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Morgan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt and his crew at A Cut Above Tree Service have completed another great job for me. They showed up when Matt said they would, completed when Matt said they would be done, and cleaned up after themselves as usual. You can count on A Cut Above Tree Service to complete your tree service promptly and leave your property better than they found it. Thanks Matt!"
-    },
-    {
-      "author": "Debra Spencer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "RECOMMEND 100% We had 22 large hickory and oak trees to take down, called A cut above, Matt came out and gave us an estimate, job was done 2 weeks later. Matt and his crew did an AWESOME JOB. My husband and I are extremely happy with what they did. They are reliable, professional, neat, affordable, knowledgeable. If you need trees cut or whatever other service they provide, PLEASE call A CUT ABOVE (Supply, NC), you will not be disappointed.\n🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟"
-    },
-    {
-      "author": "Paola Pagano",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Best service all around. This crew did an outstanding job removing trees, pruning trees, removing and grinding stumps. We were floored at the quality of their work. You do not receive service like this anymore! Highly recommend this company and will plan to use again in the future. They left our property pristine. They did a COMPLETE  service and actually did well beyond what was expected. And their pricing was competitive but after the job felt like a deal."
-    },
-    {
-      "author": "Kelsey Stodden",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing experience! We had a tree & several stumps removed. The team was quick and efficient while paying close attention to detail. They went above and beyond and throughly cleaned the area they worked on & then some. One of the stumps was from a Crepe Myrtle that was still trying its best to sprout (before & after picture included). They removed the surrounding sprouts which made my day as I was planning on removing them myself once they were finished. Fantastic service & we will definitely be calling them for any future needs."
-    },
-    {
-      "author": "Deeanna Summerour",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Sorry this took so long to post. Esther and Matt have the most fantastic crew I've ever dealt with. They cut down 4 huge pines and ground the stumps. When they had finished, you couldn't even tell the trees had been there. They left the yard spotless and conducted themselves in a very professional manner. I'll definitely have them back to clean up the rest of the trees that need to be removed. You can't go wrong with this company. Thank you so much guys. I finally have a yard."
-    }
-  ],
+        {
+            "author": "Morgan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt and his crew at A Cut Above Tree Service have completed another great job for me. They showed up when Matt said they would, completed when Matt said they would be done, and cleaned up after themselves as usual. You can count on A Cut Above Tree Service to complete your tree service promptly and leave your property better than they found it. Thanks Matt!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe7UrXTy8e-CDV6HQ2EDmEj3hlUz9vWDP1hBM3J9IXNEiu1M-3XMAMcAWPekIYwrROU7ceAqadcTrGZrIASfTJ9sCNTUBOlZd4FjzR1gyhYD0O1zubo3waJNgo_Gy3caWGEvz6oNGLebwCI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfCr9eZAe_RvuaLA7brNbmeZVwBb3mb6BrdvDITPeQzyfQmZHPC8GvuC39i_LPyKmYb8LoYxTpxmoAyL-xf0JwO1sixSLWq4nvhkX9LsLTNrGmCJkz9kt2ewE8sZ1y-1qhSuswWNSy5A6k=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdESil3L0QJ4AoODoJo9GWN_DMTzeaaNqezCoGtfxt4KnVoeUYfW2ommgDLfYui5nPFZcINEZ88HAoRHqsIASXO_6apUHlsfElEpM1o19CuPQXHdX2bEOUBfegN8uTx-8dTiSPMtg6HdsPC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8aZj60QdQ7GTk9MnHaRXvcoSkCQ1Y0m-fW7zUuIDYJwqzGVs1gRTgYaD8KKhVBQd8cH2cI5H0x9SYjIkhxaSnPxGe-n1cuc7PNE8RZUV89AzHvW5ph1gu6S09ZllOyF-ts8V_PMNZwD76=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Debra Spencer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "RECOMMEND 100% We had 22 large hickory and oak trees to take down, called A cut above, Matt came out and gave us an estimate, job was done 2 weeks later. Matt and his crew did an AWESOME JOB. My husband and I are extremely happy with what they did. They are reliable, professional, neat, affordable, knowledgeable. If you need trees cut or whatever other service they provide, PLEASE call A CUT ABOVE (Supply, NC), you will not be disappointed.\n🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟"
+        },
+        {
+            "author": "Paola Pagano",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Best service all around. This crew did an outstanding job removing trees, pruning trees, removing and grinding stumps. We were floored at the quality of their work. You do not receive service like this anymore! Highly recommend this company and will plan to use again in the future. They left our property pristine. They did a COMPLETE  service and actually did well beyond what was expected. And their pricing was competitive but after the job felt like a deal."
+        },
+        {
+            "author": "Kelsey Stodden",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing experience! We had a tree & several stumps removed. The team was quick and efficient while paying close attention to detail. They went above and beyond and throughly cleaned the area they worked on & then some. One of the stumps was from a Crepe Myrtle that was still trying its best to sprout (before & after picture included). They removed the surrounding sprouts which made my day as I was planning on removing them myself once they were finished. Fantastic service & we will definitely be calling them for any future needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1hfIOnJRQf8Z7csuGem4Fx5ZiFYGOir7kjECVdr4ZYauvwYlMjqdDupSFVPjRuM5XVBCAtQ9Jz3hdQTYSqd5v4ybfWkovowYrNcIIFFe2w165PffTFRy5Qs25LWFct8M4xyfF=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8CE-Jjyl4r5vYTK0S1V5-Uq-4Pxne9cFYk_FB6tFXHR-5w7HG_av5YG-D888rNx2eOuQd3o5QhqfHPZyxpr3QyZxd-Eg4c3eA409ME5UByg1ZEkCPNKUaJsz3RMkYx9l6JVJZ-w=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Deeanna Summerour",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Sorry this took so long to post. Esther and Matt have the most fantastic crew I've ever dealt with. They cut down 4 huge pines and ground the stumps. When they had finished, you couldn't even tell the trees had been there. They left the yard spotless and conducted themselves in a very professional manner. I'll definitely have them back to clean up the rest of the trees that need to be removed. You can't go wrong with this company. Thank you so much guys. I finally have a yard."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Supply (Central Depot)",

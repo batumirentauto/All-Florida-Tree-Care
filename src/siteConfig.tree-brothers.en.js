@@ -32,21 +32,9 @@ export const siteConfigTreeBrothersEn = {
     "ctaPrimary": "Call Ian +1 706-325-1337",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-brothers/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Tree Brothers Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/tree-brothers/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/tree-brothers/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTreeBrothersEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/tree-brothers/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTreeBrothersEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/tree-brothers/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTreeBrothersEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/tree-brothers/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,69 @@ export const siteConfigTreeBrothersEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Chris Owen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had several oak limbs damaged in a storm with one huge limb resting on my roof. Ian and his crew responded quickly, did an excellent job, and at a reasonable price. Ian was a great guy to work with and I would highly recommend Tree Brothers Tree Service!"
-    },
-    {
-      "author": "Beautiful Rose",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The guys that removed the trees from our home did an amazing job the owner of the company even relocated a squirrel nest. They cut our trees into tiny pieces for us. They are reliable affordable and get the job done. This is a company I recommend over the rest. They definitely are life savers"
-    },
-    {
-      "author": "TR",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ian is a great, honest and professional guy! Needed two trees cut down (big oak close to the house and a dead pine) and I called multiple companies. Ian was quick to come by and give his quote, which was BY FAR the best one. I didn't even tell him how much the other companies quoted me. He saved me almost half of what Linanders quoted. His crew came out and knocked out the job quickly and cleaned it all up. Will definitely use for all future needs!"
-    },
-    {
-      "author": "Nicole Ruark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys are phenomenal. Showed up early and got straight to work, they remembered exactly what we needed done without having to ask. They got our 3 pines down pretty quickly. Their team was amazing, they cleaned up all the mess, and hauled everything away. Price was great. They overall seemed like really great guys who enjoy their job. I appreciate them all so much! Thank you!!"
-    },
-    {
-      "author": "Jackie Mills",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys did an amazing job cutting out dead pines down. Very professional! Made us loyal customers for sure!"
-    }
-  ],
+        {
+            "author": "Chris Owen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had several oak limbs damaged in a storm with one huge limb resting on my roof. Ian and his crew responded quickly, did an excellent job, and at a reasonable price. Ian was a great guy to work with and I would highly recommend Tree Brothers Tree Service!"
+        },
+        {
+            "author": "Beautiful Rose",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The guys that removed the trees from our home did an amazing job the owner of the company even relocated a squirrel nest. They cut our trees into tiny pieces for us. They are reliable affordable and get the job done. This is a company I recommend over the rest. They definitely are life savers",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZ5KX4_ufk8w5OAegH1b7BREqUonYYUm5lm9LXW1nsT1SaJQKDu4ULIVsuVSlYxrVK6jCM0Ikv9obTNPcHQVqO-lpX2qp0uRucoDhCQMyDO_SjexgoD2NusfiGxU3ID_OTWcU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeTnE0hP_pH0ZpRRqAuU0ZYEBh_FPmxoRxdrBRBD2GKqtV0zp93yGw5vHWc6Q5tdDhGCVcPUToCiYQGRAFdfdoDY67o8DfP6SHZq-RVZIMxTAjoZhZZV4BWQ6ruJqHHqGJkBVHiiQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiNAFPhQPwyjFQPWX2NBLTrX6kwvdudC621rigNAUKzfrqvEGdDK7xJqqcWRdDzvQ9hL9KCXBIU3R43EbBS-OEstAlO7mPU_6UGNmbgyzkbSfuwo6kdA0V6T5Mqtnl0TYfs-56=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoTftcJRh7VZXnNrd6nX7ppbAQ_qOXe2o5w5E0hhyp0lGrjVSr_wES4xUeKh7B6wzhny8poYKb0LRHLCw08LyPA686PRHAkdHT1itek64UUixZSkzUuY2rmf2B2QG-Zovq8LfNAQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "TR",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ian is a great, honest and professional guy! Needed two trees cut down (big oak close to the house and a dead pine) and I called multiple companies. Ian was quick to come by and give his quote, which was BY FAR the best one. I didn't even tell him how much the other companies quoted me. He saved me almost half of what Linanders quoted. His crew came out and knocked out the job quickly and cleaned it all up. Will definitely use for all future needs!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfREV7jnzsjzqPIeDo1NC0YSJcpxUK13xTFpLXF_pmDVj5mV8SMivUJ2yn4wtivxr9dr9ltsTWuefqbflEzdQqHfuoW_MWGpWWmMiet5EItz1NWfqaYI65V3hzmoG5BpA78FdOSUA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3juZK3hRv2DHhpijyOTrzLVKp8CQ-a0rN3Y7Qe0FYji3Y524EKl3NUemQEUcGSnRnLfqoDLvjAcafWIPCI4x8jNqpatTNUM3cH502-9oObG4-JLdMk7TLiv3owyocRb8iyZl4=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicole Ruark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys are phenomenal. Showed up early and got straight to work, they remembered exactly what we needed done without having to ask. They got our 3 pines down pretty quickly. Their team was amazing, they cleaned up all the mess, and hauled everything away. Price was great. They overall seemed like really great guys who enjoy their job. I appreciate them all so much! Thank you!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbRmfT4iGwlrqhKPJX886jT3lXbUCH_VAZp4Wnxi9Jx6x9kogXwNrhvnHXjslvUVOYwnGqAnZ9AwkMx_Mn3brYfEmX-ACSJaDqd0xoBpf220KHvTK2JGirPGPMycoKWZhjiJvvPw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf75TTAnPjcn5_KsFsNpbwcUdjFS5j0tpi_L3fy-8_IBxLn3EWl2KNHS5mIFwkamSSDSwDwxDW--pJwWK4aCt90dnh_JJJPnvAK1SGaW0V2S2JWCPRuvXrgvkixh-NnHRwWcpSH=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdN3PqRkV4LmDDlIKUM464FpxqRXc05GIL5xtJY6lVYKo4_8qAsWCkHAVv_JMafeFrVoHtDgMN0bMxWem0KsNtPyTQ3atlkP0bpICXo0_nQ7R3NPuOW-dBLmxUB-dvCrsag4J9h=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdjnlfeITHYERV9sSRQ0ego649C1GZKEnDeLNPbnCsValMNIHNE-4aR5tmdHbWBxBW3zATgs1RLoZO9V_1QNj0VI9X5nX6nNpxWEJv9u2pyBgttn8JXII46-5bvmMzzDRxuLkGD=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jackie Mills",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys did an amazing job cutting out dead pines down. Very professional! Made us loyal customers for sure!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8djM-1bd66AeWXzZrvY9jCbLRhSC9mRWaC2zP7yuj2GCCxh6f67xmLJVb2BQyi-q0iPPE-ck9mJqWuZDVPHcZHRKVYvH5lKkWWTbBnFgoXHo7e58fmDDiJLKsnTj1Mn65I8-u=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPwy_ZcHK4TqkN-rDsXvP9PNM4luOgDSMEECssLT0wZyunqqPGKVNpIfyQi01--3zrLeubpsBk1iwkBEspSA51n7WbBf9pDfXtn5HCqTbbH2KApLhZ01mBSKCkh9ru2ZRrtHsE0A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfRDTlVIa0kpvTxbE5IQx059X1kXyhMdVOOzkOHl0wTu9vK2nXyyEADGAkH_yRpfJCUvCi130tDxlIQWv9xQ7riwLpO1JrXm_AR-8ByheDqaxNG_7AOh6XNZittfeB_d_VkyRrX4g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdskjz5N1Pyt1LZsqBB1h551vh3ZMoaX_K4U4Uum3QBs_CTTO2s2vlbnAO1UUDEeV4fild2QD1t-GIm02hK1y6xJSe-z_pfgq5iET01R4k7o-uQoVuAHRNi8E5QMaFSt4rBeGQ_ZQ=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

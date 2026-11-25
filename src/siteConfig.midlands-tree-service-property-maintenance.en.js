@@ -32,21 +32,9 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
     "ctaPrimary": "Call Wesley +1 803-729-9659",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Midlands Tree Service & Property Maintenance tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/midlands-tree-service-property-maintenance/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/midlands-tree-service-property-maintenance/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,55 @@ export const siteConfigMidlandsTreeServicePropertyMaintenanceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "MCRTexas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is truly a 5-star company. Wesley and David spent hours in 100+ degree temps, trimming/limbing six big trees at our lake house. They are excellent at what they do and, as others have noted, they are the nicest and most professional people ever.  Could not be happier with the results of their hard work in blistering conditions. Highly recommend!"
-    },
-    {
-      "author": "Chris Snipes",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I would highly recommend Wesley and his crew . I had 2 large pines he took down and ground both stumps for a reasonable price for all the work involved."
-    },
-    {
-      "author": "Mary Cockfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent company! Reasonable rates. I've hired them twice and each time the owner was on site. He pays attention to detail. His men respect him and they clean up afterward. Very professional.- thank you Wes and David!"
-    },
-    {
-      "author": "Juliet",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I cannot say enough good things about Wesley and his crew! After we had a bad experience with a different tree company, Wesley and his team came to the rescue. They gave us a realistic estimate and got to work right away. We had multiple large pine trees taken out and the stumps grinded down, and the work they did was just phenomenal. They were punctual, they worked efficiently and precisely, Wesley was always in touch to address any concerns we had, and they did it all without causing any damage to our yard. If you're looking for honest, reliable people with a positive attitude to help with your tree needs, then Midlands Tree Service is the place to call."
-    },
-    {
-      "author": "Rick Giraudy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wes and his team did a fantastic job, Removed a huge oak tree in my back yard. They were very professional , prompt and what’s most important with contractors is great communications. Prices are fair and I’m super happy with the work they did. I would recommend them to everyone period."
-    }
-  ],
+        {
+            "author": "MCRTexas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is truly a 5-star company. Wesley and David spent hours in 100+ degree temps, trimming/limbing six big trees at our lake house. They are excellent at what they do and, as others have noted, they are the nicest and most professional people ever.  Could not be happier with the results of their hard work in blistering conditions. Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdweFx73aZy4YYC7xXBMsLzNhyVA3JLVu3uqloD-GXlXPkdgs0SxJJNF9f6wI8wDvK_oyTGC8vKLFc3k0wqS3e03FTM8gqJX6eOaw1Ou5PoBu5GQPsJcfseJV5jnyRTDivA5kvcD_V-pcDf=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0AeYLgiibhO6qsFAhN8OY71nH2Yp9UuUj5vkI_G2Z6AVCl84FpMfA835BgBesAblZHUtlkx87W93b6wpkLIYdxYA7CVhUf0u2QWD32vB8ilaoyXN-wA3TR8Zxe5mR6ebA5BvwkayGI74=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Chris Snipes",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I would highly recommend Wesley and his crew . I had 2 large pines he took down and ground both stumps for a reasonable price for all the work involved.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVpiMdKOUJd3TAk1jGfwxcG3rGZnQUB5UftDX7hSRkBWiYHCUAyQly1xMRApRj_8iIeceE8VVi9RLziiY4dqS_Gv5iONibQgiIInwnInm4t6wveDqpJiH9zfUsDdqxBbX-ZQf9mfJW5Eh2=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLepYJi_5Hw0CzHOZFM4j9ODZelDX8M7prdfPT4sXi4wCyHCp1rpemKyFRPSkEtWZVBLEQIIp8y6igBMxTorA4lCW5od7smu1KzarnetROJwx8eshvpEzaSezV5rXua4mKRC-kawXrMsOZHm=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Mary Cockfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent company! Reasonable rates. I've hired them twice and each time the owner was on site. He pays attention to detail. His men respect him and they clean up afterward. Very professional.- thank you Wes and David!"
+        },
+        {
+            "author": "Juliet",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I cannot say enough good things about Wesley and his crew! After we had a bad experience with a different tree company, Wesley and his team came to the rescue. They gave us a realistic estimate and got to work right away. We had multiple large pine trees taken out and the stumps grinded down, and the work they did was just phenomenal. They were punctual, they worked efficiently and precisely, Wesley was always in touch to address any concerns we had, and they did it all without causing any damage to our yard. If you're looking for honest, reliable people with a positive attitude to help with your tree needs, then Midlands Tree Service is the place to call."
+        },
+        {
+            "author": "Rick Giraudy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wes and his team did a fantastic job, Removed a huge oak tree in my back yard. They were very professional , prompt and what’s most important with contractors is great communications. Prices are fair and I’m super happy with the work they did. I would recommend them to everyone period."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigTheLawnGuyRu = {
     "ctaPrimary": "Позвонить (+1 706-604-2176)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/the-lawn-guy/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады The Lawn Guy"
-      },
-      "sub1": {
-        "image": "/images/the-lawn-guy/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/the-lawn-guy/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTheLawnGuyRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/the-lawn-guy/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTheLawnGuyRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/the-lawn-guy/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTheLawnGuyRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/the-lawn-guy/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigTheLawnGuyRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sharda Chosen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Listen when I tell you I’m so thankful for what these men have done to my yard today!! I can not express enough gratitude, my yard was a total wreck with trash and unkempt appearance , my house is an older house that was not maintained and ..."
-    },
-    {
-      "author": "Dominic Narcisse",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great service and great price!  In the front of the house I had all of the bushes removed. In the back yard I had trees cut down and branches from other trees coming over the fence from another yard cut down, dead leaves mulched and vines r..."
-    },
-    {
-      "author": "Vannessa Franco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had requested an estimate while they were working on a neighbors yard weeks ago and Craig was very friendly/ made time to quote me on the spot. Today, while using them for the first time, they provided their services and my yard made a fu..."
-    },
-    {
-      "author": "Lauretta Jenkins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I needed a fall clean up and trim. I called Craig for an estimate and he was very reasonable! My yard looks amazing and he’s going to continue follow up maintenance! I would recommend his services for all your yards needs! Very professional..."
-    },
-    {
-      "author": "Roben Clark-Vicente",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Craig and his crew did an amazing job! We needed a total yard cleanup and that’s exactly what we got. All of the wild brush, flower beds, vines, bushes, you name it, was all cleared, cleaned up, and manicured.\nAll of our requests were fulfi..."
-    }
-  ],
+        {
+            "author": "Sharda Chosen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Listen when I tell you I’m so thankful for what these men have done to my yard today!! I can not express enough gratitude, my yard was a total wreck with trash and unkempt appearance , my house is an older house that was not maintained and ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf88675UNjt-841_P9RV9pKPVVa1ulXWOwI5dtsnX01ON-SuXgMitPpZ5AJNuE4WWEPiotBho8CawQfxpQcrKM6D0uOkTJKn13AKEGspE8C8cWbTKjGUgSLodTBO3D1ZaExzbSr=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRznK7jpQ0ZtRuf6a7GbYyr8nT9Vv9N5iLwg0tdNsVZDeo3uXBo7IlGRafNCw9SXbAwb6V5C8fxjYqK-LXLAnwrQ8SkJ04idb9N7GaydIFqwb_xplLXCkQbEWaTke_Gb_7a9MS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLelZ5TR9WCqkL_Kp-1BQVc4SeLrJ4WHXBbh2A0B05CK8IimYw-wGziGwvSWGA12yUXWzNMFrBarV3IR8UB6oZO8HzfVPTrZDrLHgXC9NR_FwV-btp53hkS9S4HMe9a3eVWvxljZNQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfBSjFKP6AkyizVLJwRv_LRk3CuvDH-S6G0NSJ7L2xLU9XdQ35QVYctv5LFMQvj7w7BzcTtqG7UoPrEnXVwNb033c3GK-B_MZh_YlCujR-Kuqwfw9RcOxdllgWzDxxeHFpQH5og=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Dominic Narcisse",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great service and great price!  In the front of the house I had all of the bushes removed. In the back yard I had trees cut down and branches from other trees coming over the fence from another yard cut down, dead leaves mulched and vines r...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdwFzwr4VXJa-Cpkpqb-E_nDvCOzOAQy5ZAV0L-Ciz1j6XCva_6YwO5s4BB9sDjyLDmu0ghlr8MPbD9ebCZIUTKqIIxAexkhL9LEtu56c0Si_UBxv0WjJpxnfyQZncR0WO=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdtCX9b_CSLADhbAXzz37OboNfl31Dv6oimSM4CSWPNs5mNqKGEEn_mjmzsx6mgqZzsA6TkzL1JJfRMFxE_weZ9RXV8H_DbU2z5Z6vADNTY_cZrLwEayyC-dYm4fTZJoZBlz52DdA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLea8uKXDq-c14NhWAVpHIo_pKwsFMWFcg4NDLoCIiTUwGFfcr-YsmT1JevmW4BkdqVDW5979Xneh9wfD9dOEjx3BMTAMh1BSXEMQtbgkDt6aXar4wXtSBpZ9PdD9-VW0H71R3Kf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAhW_fjnzrsu46X-It4o6b9Ju61JawEQfY10mk8GjvmOtl2cGbCKd1NkqHvW32vymH-c45G8GcvXXC0hEHVi4QmKiwTY__iScSzgMTGBrF-qQTgP2RWOTG525PKziPUMUkuAch1A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Vannessa Franco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had requested an estimate while they were working on a neighbors yard weeks ago and Craig was very friendly/ made time to quote me on the spot. Today, while using them for the first time, they provided their services and my yard made a fu..."
+        },
+        {
+            "author": "Lauretta Jenkins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I needed a fall clean up and trim. I called Craig for an estimate and he was very reasonable! My yard looks amazing and he’s going to continue follow up maintenance! I would recommend his services for all your yards needs! Very professional..."
+        },
+        {
+            "author": "Roben Clark-Vicente",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Craig and his crew did an amazing job! We needed a total yard cleanup and that’s exactly what we got. All of the wild brush, flower beds, vines, bushes, you name it, was all cleared, cleaned up, and manicured.\nAll of our requests were fulfi..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Phenix City (Основная база)",

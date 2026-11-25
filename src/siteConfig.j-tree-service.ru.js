@@ -31,21 +31,9 @@ export const siteConfigJTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 704-417-2084)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/j-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады J Tree Service"
-      },
-      "sub1": {
-        "image": "/images/j-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/j-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/j-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/j-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/j-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigJTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jonathan Chavarria",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend J-Tree Services! I hired them to remove a very tall tree, and they did an outstanding job from start to finish. The team was professional, skilled, efficient, and very careful throughout the entire process. They completed..."
-    },
-    {
-      "author": "Veronica Neff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew was timely, professional, and respectful of my property! They did a great job with trimming up my bushes and cutting back my trees. I can’t recommend them enough and the price was very competitive!..."
-    },
-    {
-      "author": "Genny Farrow",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys here are the best we've ever seen! Fast, efficient, work as a team and the most professional friendly people you will ever find.  The price is unbeatable!!  I would highly recommend them to anyone and everyone.  If you're even co..."
-    },
-    {
-      "author": "David DePompa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had them remove a tree, the owner (Javier) himself came out, did a quick quote and we set up a time and date for the service.\nThe crew was very professional and promptly did a wonderful job!\n\nExcellent experience working with this company..."
-    },
-    {
-      "author": "tina skojec",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend! J tree service was on time and did an amazing job of taking down a huge tree right next to my house and trimming others. They also did stump grinding.  The crew was friendly, professional and very mindful of taking care of..."
-    }
-  ],
+        {
+            "author": "Jonathan Chavarria",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend J-Tree Services! I hired them to remove a very tall tree, and they did an outstanding job from start to finish. The team was professional, skilled, efficient, and very careful throughout the entire process. They completed..."
+        },
+        {
+            "author": "Veronica Neff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew was timely, professional, and respectful of my property! They did a great job with trimming up my bushes and cutting back my trees. I can’t recommend them enough and the price was very competitive!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeBZf8XCL0Icoid8KYiAfMbPV4pLhooBbgvjuOHcHH2CAB2cajrLZQaPNMu0aAxEGw7gCDec0pP1PSqCHceVEscVhCby2qvD9NSk-gs0L2dbivRMIrlykADTaXWBBXcC5ab0_e9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdna9u6-YvXTxLVYv_ko0IgdeHRTK18ARwFBoNaYkBXH_uhL3QWHwVeSFTD6BWNQsV0jQkiIH9mWXJUOc09rrwrQX6zHNS_DwHWOUlj-6tmbQSnM3OtKSgzOi4Vg_BmSslVaEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcc_6BGFUiGwn3XdmxJ4AAhb_Lk_9RxKMBKBAPVXCBkWdCAyQuxao5pgVDLseQLPQovev1nXi3LE5R0Hy7JsENguhVNlV414YKbTEZG-0k88uNvU-mDxGGGjQF5GhlfU5k92je6=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Genny Farrow",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys here are the best we've ever seen! Fast, efficient, work as a team and the most professional friendly people you will ever find.  The price is unbeatable!!  I would highly recommend them to anyone and everyone.  If you're even co...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcaIzKdsYDFpd9Kcn9mPJ8XBMelm4axaW6sIIk9K4GGXNdsiwfkXGqq-7MZSicNmE1Fr7_EM_S0lEz8n8mlyqBwqkKDEXCio5lEjXulFeENgvxm1y29PPotB82tdg-J3eyPFSnoGw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkP1_xydqBHIwIRk0raPWYE4xBMPxQbSCgGmOkyRAv7rhsqKJItfyVsSQFwE1u7lqgCM9cwdeYt0lOU7x2q4yMt7fhJyt2jeghEklmtAjW_OVH7wWxY20RxiTRDMP0cBOiACIV=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "David DePompa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had them remove a tree, the owner (Javier) himself came out, did a quick quote and we set up a time and date for the service.\nThe crew was very professional and promptly did a wonderful job!\n\nExcellent experience working with this company..."
+        },
+        {
+            "author": "tina skojec",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend! J tree service was on time and did an amazing job of taking down a huge tree right next to my house and trimming others. They also did stump grinding.  The crew was friendly, professional and very mindful of taking care of..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Charlotte (Основная база)",

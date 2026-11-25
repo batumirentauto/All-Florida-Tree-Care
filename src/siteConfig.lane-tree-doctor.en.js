@@ -32,21 +32,9 @@ export const siteConfigLaneTreeDoctorEn = {
     "ctaPrimary": "Call Julie +1 541-968-3672",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/lane-tree-doctor/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Lane Tree Doctor tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/lane-tree-doctor/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/lane-tree-doctor/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLaneTreeDoctorEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/lane-tree-doctor/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigLaneTreeDoctorEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/lane-tree-doctor/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigLaneTreeDoctorEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/lane-tree-doctor/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigLaneTreeDoctorEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Rob Nixon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Julie and Scott Grecian with Lane tree doctor for an estimate on removing 6 large fir trees on our property in springfield. They promptly set up a convenient time to do a quick site visit and shortly after I received an email with a detailed estimate through their easy to use review and confirmation link. After a quick phone call, a date and time was set up to do the work. Scott and his professional team showed up on time, worked quickly, safely and completed the job above our family's expectations.  We highly recommend Lane tree doctor for any tree service, large or small."
-    },
-    {
-      "author": "No Spam",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Scott has been our go-to tree guy for about 15 years and I wouldn't go anywhere else. Him and Julie are extremely honest, friendly, thorough, and their crews always do an excellent job."
-    },
-    {
-      "author": "Calvin Grant",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Incredible! Scott and his team are an outstanding local tree service who truly care about their customers. They provide top-notch customer care, excellent communication, and fair, reasonable pricing for all types of tree removal and tree trimming work. Every job is handled with true precision, professionalism, and a strong focus on safety.\n\nThank you, Scott, for your humble patience, encouragement, and words of wisdom. It’s inspiring to see how God’s light shines through you and your business. Your leadership sets the standard for what a professional arborist should be.\n\nI look forward to working with your team again in the future — see you on the next one!\n\n– Calvin Grant\nThree Peaks Tree Service"
-    },
-    {
-      "author": "Madeline Gorge",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent experience with Lane Tree Doctor! I had multiple very tall trees that were dead and needed to come down, as well as dead branches of living trees that overhung the house. Everything was taken care of and the yard was left clean and tidy. I would definitely recommend this business."
-    },
-    {
-      "author": "Steve Belzer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a large Douglas Fir situated between my house and a neighbor’s that needed to be removed as it had outgrown the space it was in.  I was able to get a bid on the job quickly, they took the time to talk to me about the job and what it would entail, and ultimately their bid came in at the low end of the ones I received.  The fact that they own their own crane made the job much simpler and kept costs down.  They got the job done quickly and efficiency without any damage to the property, not even the fence the tree was butting up against, and they cleaned up thoroughly afterwards. Plus Scott was super nice and easygoing.  Would definitely recommend to anyone, especially anyone looking to remove a large tree from their property."
-    }
-  ],
+        {
+            "author": "Rob Nixon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Julie and Scott Grecian with Lane tree doctor for an estimate on removing 6 large fir trees on our property in springfield. They promptly set up a convenient time to do a quick site visit and shortly after I received an email with a detailed estimate through their easy to use review and confirmation link. After a quick phone call, a date and time was set up to do the work. Scott and his professional team showed up on time, worked quickly, safely and completed the job above our family's expectations.  We highly recommend Lane tree doctor for any tree service, large or small.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdaYhqrh7iX4qbI-vfA9TF3fZnDDi4q2-n3xhvnKmczvIXxr3AnCZTU1Y4VhUlJMS9zyLbPmOJy9y1vbS3O6H6X-n7tzojhky5-yIPFHmuL16kwP_Gs6-MQ5r7ddzO7IS6cYKgqAjEZWIU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedvld-DZl12O8sJ-nofBTlJCffmYscXhwcYzAXRPF3Nt9eosCDcwMqcWd5SxZRjmivsK9b4MytVNf78vCwJHaxae_LldaA_cSsJ2uF2mZg9YhsGpfd3N1yFKyTBM90I5jrM1s4hv0cTFuk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd958dkF5sKxL9cJZr9D4cESXc7MvQyqE_ZpCjwhiTsk_jETO3qfBHGSMlymPZQ3IJBXsOddig-AGQUgPs-PMBCPYMojwdZRx5x4qyT2jYdr4Je-crm45u13QuJSCKhcxsOLO4KCLwGCsI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXkX5iV3aEVKxv6lQdj92ed1jauryUMRcO2uEKMH9sMDj6l6v2O1XKTgBT0QGQ0ooEu32Q967pt1-bSxLJW3aUVwJbfe12DC-J9AO9m8kVAsUsBbmq-Ggzy5cjL9dltRRL9TPvYrTqRSU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "No Spam",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Scott has been our go-to tree guy for about 15 years and I wouldn't go anywhere else. Him and Julie are extremely honest, friendly, thorough, and their crews always do an excellent job."
+        },
+        {
+            "author": "Calvin Grant",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Incredible! Scott and his team are an outstanding local tree service who truly care about their customers. They provide top-notch customer care, excellent communication, and fair, reasonable pricing for all types of tree removal and tree trimming work. Every job is handled with true precision, professionalism, and a strong focus on safety.\n\nThank you, Scott, for your humble patience, encouragement, and words of wisdom. It’s inspiring to see how God’s light shines through you and your business. Your leadership sets the standard for what a professional arborist should be.\n\nI look forward to working with your team again in the future — see you on the next one!\n\n– Calvin Grant\nThree Peaks Tree Service",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfypftdSoC8YcAJX46gdCUajbklZ2EfIJoayYJleTT4aaF35IlSmTS7HnxGvVs169Smu1JlSPNVT2nLmVwH_ojJxRnVst_NXJYHSN77p3yPSbo-hHKMHxx5cZ_rWM96y_Dg710C-Rwwb9dY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeICXn--pKAd2CsDcBtm0joBaO_7zNDWZT8Vx66cWd0OJXpmrsKBBHnBzlYjHP6ZQsvF8FqFwws-8ZAQdllnVPplI8CdeyF72WoY5MnFjuuwEEK4pfQfwp9NgQ9cEU9gkpldplel33i8jFM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfk0Dqd9e_9rPBTlJJzJaVCUEhKcz8v03TqpCMiVirIvyKUfQwSC5Z-ZLXZzaBsbhTE-Oi86aJV1lVsX0NbVmCoUNMlrz9umRi4riIt40lKwpIcWvqbvnSs6Zo2_mXCV0CewU5qNLEhlEnw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Madeline Gorge",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent experience with Lane Tree Doctor! I had multiple very tall trees that were dead and needed to come down, as well as dead branches of living trees that overhung the house. Everything was taken care of and the yard was left clean and tidy. I would definitely recommend this business."
+        },
+        {
+            "author": "Steve Belzer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a large Douglas Fir situated between my house and a neighbor’s that needed to be removed as it had outgrown the space it was in.  I was able to get a bid on the job quickly, they took the time to talk to me about the job and what it would entail, and ultimately their bid came in at the low end of the ones I received.  The fact that they own their own crane made the job much simpler and kept costs down.  They got the job done quickly and efficiency without any damage to the property, not even the fence the tree was butting up against, and they cleaned up thoroughly afterwards. Plus Scott was super nice and easygoing.  Would definitely recommend to anyone, especially anyone looking to remove a large tree from their property."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

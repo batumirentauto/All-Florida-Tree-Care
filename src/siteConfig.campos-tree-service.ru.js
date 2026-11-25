@@ -31,21 +31,9 @@ export const siteConfigCamposTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 214-450-8971)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/campos-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Campos tree service"
-      },
-      "sub1": {
-        "image": "/images/campos-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/campos-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCamposTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/campos-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCamposTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/campos-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCamposTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/campos-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,59 @@ export const siteConfigCamposTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Janet Edwards",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Campos Tree Service did an amazing job of relieving our trees from dead branches, vines and underbrush. We have grandchildren who are going to love playing in the woods and we needed to make it safe and clear out the brush to minimize the o..."
-    },
-    {
-      "author": "Brad B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Luis was a very quick response to my inquiry on Thumbtack and came out within the hour to quote the tree-trimming job.  He was very thorough on explaining his suggestions and understanding our needs.  He and his team showed up the next day,..."
-    },
-    {
-      "author": "Stephen Bass",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We can't say enough about Victor and Luis and their crew. We had a bunch of trees cut down and several more trimmed. They did an excellent job!! They cleaned up after and removed all the debris. The price was below what two other tree servi..."
-    },
-    {
-      "author": "Gloria Hardy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We found Campos Tree service through Angie's/ Home advisers 11/14/25.  The next day they trimmed both our oak trees and did an excellent job. They made our trees look like works of art, and we love the results. One of our neighbors was so i..."
-    },
-    {
-      "author": "Kimberly Simmons",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The experience from the beginning was professional and efficient. I had an oak tree that died with this past freeze, Luis responded to my message and came out the same day to give me an estimate. He was honest and gave us his best recommend..."
-    }
-  ],
+        {
+            "author": "Janet Edwards",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Campos Tree Service did an amazing job of relieving our trees from dead branches, vines and underbrush. We have grandchildren who are going to love playing in the woods and we needed to make it safe and clear out the brush to minimize the o...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaiVAcHZ056K0vAeWU0SF_lT6D38WktfumbJs6qrdwwhKWfc3JJKyClEsmTXtbGnA2NO6EdVWHBlF2WyF9JVt7J2ibfnpn6SsPHQRtFsfGocQW3LO08XEwQ9dPGE5SJajGhShcEaXseGjl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe4RUIzXCr2oDLjZjjVH7Kec2dc_z1wVMRLwuC1ht4NeKzInu94i_yJNi7BhFPOICK4WXDVKnohffG24Tru46xOQqRMKObXYLpqnnxET9HC89zLF12qKkyJlayZEN6tUdBf7OYrObSuJNI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyMtKv64dmoX2FA_9ZbMX7YpALWjQwHMuQR3a9jUbeqrUoAbFNUiEKU1ILZ7WmOSiJxWd4wzne6fxxtGlRy3rZjHvtaPFB1ZU21v2t82uJQxg0CYBtgRzwFMONv6T_5SOxDWLYpPaw57WI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeFjT-2SnFodem5AHVfe5e55rGSVivKbYdXT5R9_qf8OF9yvN_mRY2gaIZto-OundbSfqjF3T47h0gFNTzmlBWYm4EfXAwKPpUUjd2iYRCOHK5HWL5c8HmBGl9YG-zKQC4wfScd0TbTHSJ3=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Brad B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Luis was a very quick response to my inquiry on Thumbtack and came out within the hour to quote the tree-trimming job.  He was very thorough on explaining his suggestions and understanding our needs.  He and his team showed up the next day,...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYLvjOjC_n1GrzeIkdf_4aITbHkvMTT6J9lBkpOCArGfpMtT_MrUh6DrwGC_DqXkVQ2Dei3kDZzu20WradY0J6EtDGJfFplnFoPgcMAvmKXzn64NIXMtDo6rHvsxPuhHJbdudouTJxsVHh=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Stephen Bass",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We can't say enough about Victor and Luis and their crew. We had a bunch of trees cut down and several more trimmed. They did an excellent job!! They cleaned up after and removed all the debris. The price was below what two other tree servi..."
+        },
+        {
+            "author": "Gloria Hardy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We found Campos Tree service through Angie's/ Home advisers 11/14/25.  The next day they trimmed both our oak trees and did an excellent job. They made our trees look like works of art, and we love the results. One of our neighbors was so i..."
+        },
+        {
+            "author": "Kimberly Simmons",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The experience from the beginning was professional and efficient. I had an oak tree that died with this past freeze, Luis responded to my message and came out the same day to give me an estimate. He was honest and gave us his best recommend...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeERv2q8F0o0viV0U4g-SMgl2K_fv-BYQ3gX80yT1uOoxPILQi8KkJFSoSLF8wc2FVFg0Q-qi93xwNkN-HBWfgz03sy2PvV0R8uvf6anVyx6-BT0pRPPQgJ7Yk8nixetivB-Dl7=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Mesquite (Основная база)",

@@ -31,21 +31,9 @@ export const siteConfigARTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 803-719-3810)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-r-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады A & R Tree Service"
-      },
-      "sub1": {
-        "image": "/images/a-r-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/a-r-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigARTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/a-r-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigARTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/a-r-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigARTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/a-r-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigARTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Robert Smout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A&R Tree Service was recommended by my real estate agent, Autumn Adams.  She recommends A&R to all of her clients.  Anthony returns calls promptly and bids a fair price for all of his estimates.  I've had him work on my property twice, whic..."
-    },
-    {
-      "author": "Samuel Dunn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had a tree between my house and my neighbors house that curved badly and had some branches already breaking over the roofs. I got several services to come out and look at it for me, but A&R was without a doubt the best choice. All the other..."
-    },
-    {
-      "author": "Patrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: World class company!  Friendly, professional and performed work exactly as discussed.  Left my property in pristine shape after work was completed.  Anthony is the absolute best in the business!..."
-    },
-    {
-      "author": "Shannon Bushnell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Anthony came by just two days ago to give me a quote to remove a dead tree and showed up today with his crew and they were gone in under 2 hours. Super efficient and very knowledgeable. He also let me pet a baby squirrel he had rescued from..."
-    },
-    {
-      "author": "Lisa Onate",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had an emergency and this company came out right away and helped us. I was so scared and nervous. I was having a hard time finding anyone to help. My daughter came across this company she was helping me find someone too. They were a God ..."
-    }
-  ],
+        {
+            "author": "Robert Smout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A&R Tree Service was recommended by my real estate agent, Autumn Adams.  She recommends A&R to all of her clients.  Anthony returns calls promptly and bids a fair price for all of his estimates.  I've had him work on my property twice, whic..."
+        },
+        {
+            "author": "Samuel Dunn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had a tree between my house and my neighbors house that curved badly and had some branches already breaking over the roofs. I got several services to come out and look at it for me, but A&R was without a doubt the best choice. All the other..."
+        },
+        {
+            "author": "Patrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: World class company!  Friendly, professional and performed work exactly as discussed.  Left my property in pristine shape after work was completed.  Anthony is the absolute best in the business!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIAi4D3N6WpBxvsocjZ-CdrujM84Zw07zbrCf7WVX5npDENIzy243yA-zooDlb7gEoBDBV5o1fJ7_oUllCgMlbXbxRd4xM8hphEQfP_uqCEy2S86Jne4Uf_ab2rPbNAbNd9PKC=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1Z_BzFgWnpyCMsn9u6ARtZmm0-JqAuyQ-Z0upQ56D-IhFLZEw7n32DIF2lF_oyUkQzTN_1muZdL0c48sZLZ0ntTFVH8jJGjNYyuK5n2yctZIGqVpGAn3F6am76rhzj_ebdSKNdQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shannon Bushnell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Anthony came by just two days ago to give me a quote to remove a dead tree and showed up today with his crew and they were gone in under 2 hours. Super efficient and very knowledgeable. He also let me pet a baby squirrel he had rescued from..."
+        },
+        {
+            "author": "Lisa Onate",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had an emergency and this company came out right away and helped us. I was so scared and nervous. I was having a hard time finding anyone to help. My daughter came across this company she was helping me find someone too. They were a God ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cayce (Основная база)",

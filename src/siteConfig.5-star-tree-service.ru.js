@@ -31,21 +31,9 @@ export const siteConfigCompany5StarTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 803-640-5026)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/5-star-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады 5 Star Tree Service"
-      },
-      "sub1": {
-        "image": "/images/5-star-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/5-star-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigCompany5StarTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/5-star-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigCompany5StarTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/5-star-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigCompany5StarTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/5-star-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigCompany5StarTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Victoria C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Thank you 5 Star Tree Service for getting the job done. I have had numerous quotes that were outrageous and I can honestly say Cody was the best and reasonable one I received. His team were very professional and worked in a timely manner to..."
-    },
-    {
-      "author": "Lauren Herrington",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Best service I’ve experienced!!!\n\nCalled about 4:30pm and he was out not even an hour later (mind you this is the day before 4th of July). Gave me a great quote, stayed in touch even on the holiday, and had the team out on July 5th. Great g..."
-    },
-    {
-      "author": "Etienne Mojeaux",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great communication.  Quotes, scheduling, and billing all efficiently completed via iPhone.  Came on time with state of the art equipment and quickly took care of 3 dead precarious 70 ft pines. Very reasonable- highly recommend...."
-    },
-    {
-      "author": "Joe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Cody and crew did an amazing job on my property! They cut down 6 trees in my forest and they were quick and efficient. Highly recommend!..."
-    },
-    {
-      "author": "Bryce B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Cody and his crew did a fantastic job at my house taking down 4 oak trees. This was no easy job as the trees were very close to our house and neighboring fences with only way to remove them being down a steep grade. They did a fantastic job..."
-    }
-  ],
+        {
+            "author": "Victoria C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Thank you 5 Star Tree Service for getting the job done. I have had numerous quotes that were outrageous and I can honestly say Cody was the best and reasonable one I received. His team were very professional and worked in a timely manner to...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfqfK63HaOiN9UJHxdcubvylpl7ZExjuNtAT9I0zkoUu1wiGZGCkpvezNhOQU1D8RX7GLcBOHh5Z1RnsNyFY1DphbSbApLYIjtz4H8mk_RCnwpeSmYpjiNtn9cPNRTqLy4P5Au55Z5GaSwf=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPFjDE1eL4zqbL5g-k6_CcKyq8U-BIvXyie-I58ZjtECXy_7e-1Qn7HPyHS9VIljiopKsnpk_FgpZl8hFo924UcE4_0YZRr-jmqEM7R856ri_wWpmxKASMtwo0MGZcP_zyL6SOyXbCw6vT=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lauren Herrington",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Best service I’ve experienced!!!\n\nCalled about 4:30pm and he was out not even an hour later (mind you this is the day before 4th of July). Gave me a great quote, stayed in touch even on the holiday, and had the team out on July 5th. Great g..."
+        },
+        {
+            "author": "Etienne Mojeaux",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great communication.  Quotes, scheduling, and billing all efficiently completed via iPhone.  Came on time with state of the art equipment and quickly took care of 3 dead precarious 70 ft pines. Very reasonable- highly recommend...."
+        },
+        {
+            "author": "Joe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Cody and crew did an amazing job on my property! They cut down 6 trees in my forest and they were quick and efficient. Highly recommend!..."
+        },
+        {
+            "author": "Bryce B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Cody and his crew did a fantastic job at my house taking down 4 oak trees. This was no easy job as the trees were very close to our house and neighboring fences with only way to remove them being down a steep grade. They did a fantastic job..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "North Augusta (Основная база)",

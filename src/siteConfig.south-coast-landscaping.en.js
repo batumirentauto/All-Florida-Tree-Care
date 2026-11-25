@@ -32,21 +32,9 @@ export const siteConfigSouthCoastLandscapingEn = {
     "ctaPrimary": "Call Southcoast +1 850-417-9344",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/south-coast-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "South Coast Landscaping Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/south-coast-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/south-coast-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSouthCoastLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/south-coast-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSouthCoastLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/south-coast-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSouthCoastLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/south-coast-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigSouthCoastLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Leva",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We recently had a paver patio installed with a gray border, and it turned out absolutely beautiful! It completely transformed the look of our backyard while making the space much more functional.\nThe crew did an outstanding job and was courteous, professional, and friendly throughout the entire project. Their attention to detail and quality of workmanship really shows in the finished patio.\nTheir pricing was also very competitive compared to other companies we considered, and the final result exceeded our expectations. We couldn’t be happier and would highly recommend them to anyone looking for a high-quality paver patio!"
-    },
-    {
-      "author": "Alex Teeney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Couldn’t recommend more! Jackson was super flexible with scheduling our landscaping project. He was also extremely accommodating with phone calls and emails for a ton of different questions I had. And for everything we had done it was a great price. The team built a retaining wall and installed a limestone aggregate mix for a firepit, put in 3 trees, and laid sod throughout our front and backyard. Definitely will be calling again for future landscaping projects!"
-    },
-    {
-      "author": "Matthew Kanuck",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Single best choice I’ve made in all my outdoor architecture and landscaping needs!  Return customer!\n\nJackson and his team deliver incredible quality at a competitive price.  When I spend my money, I want to make sure it’s with professionals I trust, Southcoast Landscaping is my ONLY choice!"
-    },
-    {
-      "author": "Paul White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had been considering replacing the sod in my front and back yards. South Coast was recommended to me and I asked for a quote. Much to my surprise and delight it was lower than a quote from another company I received 3 years prior. They were here on two of the hottest days of the summer and the transformation was incredible.\nAlong with replacing the old lawn, they put in a sprinkler system and pavers in the back yard. All this in two days! I was impressed with the quality of their work. When Jackson called me the next day I said it was so calming as I looked at the new sod and pavers. He said, “That’s why we do it.” In spite of the heat they struck me as a happy group which says something about the spirit of the company. I highly recommend them. Thanks for a beautiful, well-done job!!"
-    },
-    {
-      "author": "Amanda Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I could not be more pleased with the work SouthCoast did with my new privacy fence! It's as straight and true as a Texas highway!\n\nFrom the first quote to the last nail, Jackson and his team were like a well oiled machine. Jackson came to measure and assess what needed to be done and when the day came to get started, within an hour of arriving the crew had started pulling out old fence and setting posts for the new!\n\nI almost hate that I had to work and miss all the fun because they brought out a mini dozer to remove old foliage in my back yard. I would've loved to see that in action. In two days they had completely removed old chain link fence and put up the new privacy fence I ordered. It looks so fabulous and smells like fresh cut wood in my back yard now.\n\nThey went above and beyond and even explained how my new fence lock worked. One of the crew even screwed on my private property sign. 🥹\n\nEveryone was extremely nice to have to work in such ridiculous heat and very professional the entire time. They cleaned up the work site so well, you wouldn't have known they were there. Jackson was incredibly patient to answer my emails when something came up and was quick to get back to me with an answer.\n\nI've always heard being a home owner is stressful but if you hire the right people, they make it easy on you. Big thanks to Southcoast Landscaping!"
-    }
-  ],
+        {
+            "author": "Leva",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We recently had a paver patio installed with a gray border, and it turned out absolutely beautiful! It completely transformed the look of our backyard while making the space much more functional.\nThe crew did an outstanding job and was courteous, professional, and friendly throughout the entire project. Their attention to detail and quality of workmanship really shows in the finished patio.\nTheir pricing was also very competitive compared to other companies we considered, and the final result exceeded our expectations. We couldn’t be happier and would highly recommend them to anyone looking for a high-quality paver patio!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0j8l2CrWYRMGdzBcTClIy_OMJPdSN-iGe-qweRTd__n3vDUZbZ7rzMFegVJJjtsnXRkMhJk5uK-3vMQJYx5uJqVvoOjZe35sVbbUDKlSJPahCq3Tr9sqTXc6_VgQCTzOoBVA8jtGyC7v9=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Alex Teeney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Couldn’t recommend more! Jackson was super flexible with scheduling our landscaping project. He was also extremely accommodating with phone calls and emails for a ton of different questions I had. And for everything we had done it was a great price. The team built a retaining wall and installed a limestone aggregate mix for a firepit, put in 3 trees, and laid sod throughout our front and backyard. Definitely will be calling again for future landscaping projects!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMiRe5INIe02SR2efCPaJeWDAghpUV0a1y8g0W24IygcqE9DRsG3nLa3M2I773eczDe_6-iHfO2mnz9L3MkKl5CU8GO1RdSGul9c0-J6U2aEcvJhRUmMicdWZVhNpy74qGsGSoH_X-caIS=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZvhQzc79eIkFZcoH78I40HSeHHD4vdbXFPWTmeL1PBF31p0h-j0Ito07gzQ1ia8GjrEJ7pFLf48Nz4meZDxmEKqjiV013oQGf79WE7cdYtTkbGA9TKX2HQkZRsM9Jy_GGvls6YjbtRIw2=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Matthew Kanuck",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Single best choice I’ve made in all my outdoor architecture and landscaping needs!  Return customer!\n\nJackson and his team deliver incredible quality at a competitive price.  When I spend my money, I want to make sure it’s with professionals I trust, Southcoast Landscaping is my ONLY choice!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfI5yAmg54ZgQesag9NGA7DU9uAOugJBC25x8WmXvnvvOHTu8njSgms8fOXSZIsMH8jwKT24VtDMCCDM3-UrWBhNnF3kceiUzFtrhhlXYv0qPPR1u18G9EcJJD4u1bVh7SljNWth3ALUHpC=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeczPGawd6p6fwvNoBPUrrWTPSVljghwfXs8tlCgyMzs5noa_2Ww5EpYTOHyX3ssMbAaJ0mpxGdaVRnwOuO0XQTizOoti0piY4nFLMQAEtrHbWTKADnCJKqt21KJ0AhFQD1uhd_wW04Vp6E=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Paul White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had been considering replacing the sod in my front and back yards. South Coast was recommended to me and I asked for a quote. Much to my surprise and delight it was lower than a quote from another company I received 3 years prior. They were here on two of the hottest days of the summer and the transformation was incredible.\nAlong with replacing the old lawn, they put in a sprinkler system and pavers in the back yard. All this in two days! I was impressed with the quality of their work. When Jackson called me the next day I said it was so calming as I looked at the new sod and pavers. He said, “That’s why we do it.” In spite of the heat they struck me as a happy group which says something about the spirit of the company. I highly recommend them. Thanks for a beautiful, well-done job!!"
+        },
+        {
+            "author": "Amanda Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I could not be more pleased with the work SouthCoast did with my new privacy fence! It's as straight and true as a Texas highway!\n\nFrom the first quote to the last nail, Jackson and his team were like a well oiled machine. Jackson came to measure and assess what needed to be done and when the day came to get started, within an hour of arriving the crew had started pulling out old fence and setting posts for the new!\n\nI almost hate that I had to work and miss all the fun because they brought out a mini dozer to remove old foliage in my back yard. I would've loved to see that in action. In two days they had completely removed old chain link fence and put up the new privacy fence I ordered. It looks so fabulous and smells like fresh cut wood in my back yard now.\n\nThey went above and beyond and even explained how my new fence lock worked. One of the crew even screwed on my private property sign. 🥹\n\nEveryone was extremely nice to have to work in such ridiculous heat and very professional the entire time. They cleaned up the work site so well, you wouldn't have known they were there. Jackson was incredibly patient to answer my emails when something came up and was quick to get back to me with an answer.\n\nI've always heard being a home owner is stressful but if you hire the right people, they make it easy on you. Big thanks to Southcoast Landscaping!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pensacola (Central Depot)",

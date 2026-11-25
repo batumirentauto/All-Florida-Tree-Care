@@ -32,21 +32,9 @@ export const siteConfigBigfootForestryRockHillEn = {
     "ctaPrimary": "Call Ben +1 844-224-8141",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/bigfoot-forestry-rock-hill/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Bigfoot Forestry - Rock Hill tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/bigfoot-forestry-rock-hill/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/bigfoot-forestry-rock-hill/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigBigfootForestryRockHillEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/bigfoot-forestry-rock-hill/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigBigfootForestryRockHillEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/bigfoot-forestry-rock-hill/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigBigfootForestryRockHillEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/bigfoot-forestry-rock-hill/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,75 @@ export const siteConfigBigfootForestryRockHillEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Andrew Natneil",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had an outstanding experience with Big Foot Forestry thanks to Ben. I reached out about a branch that needed to be removed, and after having trouble getting responses elsewhere, Ben got back to me within minutes.\n\nEven though he mentioned he was extremely busy, he still made time to help. True to his word, he showed up the very next day and took care of everything quickly and professionally. It’s clear he takes pride in his work and genuinely cares about helping people.\n\nIt’s rare to find someone who is this responsive, reliable, and willing to go the extra mile. I’m very grateful for the help and highly recommend Ben and Big Foot Forestry to anyone needing tree work."
-    },
-    {
-      "author": "Mickey English",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ben and all the amazing team at Bigfoot Forestry did an epic job transforming my backyard from a giant bramble patch, riddled with weeds, some dead trees etc... Brad & Kacee showed up and knocked it out of the park! Efficient, precise and extraordinary final product!! 5 Star Company,  5 Star Work, 5 Star Staff and absolutely affordable! Definitely give these guys a call!"
-    },
-    {
-      "author": "Nicole Gladstone",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ben, Phillip and the whole Bigfoot Forestry team are top notch. I chatted with them about my vision of what I wanted my property to look like and they absolutely exceeded my expectations. It’s not often these day that you feel like you get your moneys worth for services but the job these guys did made me feel like I got WAY more than my moneys worth which is a really nice feeling."
-    },
-    {
-      "author": "Amanda Lee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend! Ben was so pleasant to deal with. Made the whole process from start to finish flawless with great communication and transparency. Bigfoot did an outstanding job with clearing the outer edge of my back yard that was overgrown. Look forward to working with them again in the future!"
-    },
-    {
-      "author": "Steven Skelton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We are blown away with how our project turned out! The guys at Bigfoot helped us reclaim our backyard (see before and after photos below). You won't find a better grading/clearing contractor. Ben and his team are the nicest guys, and skilled at what they do. They could have charged us for more labor costs several times, but stuck to their original estimate for the job."
-    }
-  ],
+        {
+            "author": "Andrew Natneil",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had an outstanding experience with Big Foot Forestry thanks to Ben. I reached out about a branch that needed to be removed, and after having trouble getting responses elsewhere, Ben got back to me within minutes.\n\nEven though he mentioned he was extremely busy, he still made time to help. True to his word, he showed up the very next day and took care of everything quickly and professionally. It’s clear he takes pride in his work and genuinely cares about helping people.\n\nIt’s rare to find someone who is this responsive, reliable, and willing to go the extra mile. I’m very grateful for the help and highly recommend Ben and Big Foot Forestry to anyone needing tree work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdr8U1aF4kyn6lcis10DZV_u3Rjl61NvATsT3nJmDTOWzENJxeXYuaYHvw4jhRrAB81rssNT0WOQ64XhFfT7qHpiCwezeg3j4frX8ocWR9-vQSGAF0W-quZXXr6dfWYd2N8_I8KhM10O1VA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwPRtslWvn15Ik7pusNrZVSkjlH_wSzCt6UPwn3OM4PzBt9osWXKpRGGTUubjooFuQ8cPv8bOdPd30ykIMZS8aBACoPaJWpKD5cR81kjWGMH-cmmx8ggXAH44_hWnJQhmxyvc9yAwmxbF3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdanP4rwyoZdqO6TesMrm8zGwT8EmgUBjMutpsGuLzuxZ1MAYlHAWXuAIXz9SYqgCIoIRh3y8pMNX8MSankR0d7NC_ywSpIiOr6dIiprxY18ao10gEAo3v76qkhSIRakYuuh7UvQrPM05Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe8zbMkozp4zLUGVXYUkPHmP4N-iZ-iFeZqvW7ZLC-boeiB3wZoLo6fiRRlY9xhgElWjRwDMqtH1T5NeX2NOpJJAvFIWeO9L1LStqMwh2jHKjxvg_h4E0quxB4wvPTywZUNA9_7GZCmfixD=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mickey English",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ben and all the amazing team at Bigfoot Forestry did an epic job transforming my backyard from a giant bramble patch, riddled with weeds, some dead trees etc... Brad & Kacee showed up and knocked it out of the park! Efficient, precise and extraordinary final product!! 5 Star Company,  5 Star Work, 5 Star Staff and absolutely affordable! Definitely give these guys a call!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFK973XQRLyC2lLLSLDwhRneOE065XsHiDSdn8xeklS205f14q5P8UsRlW9WJ6QHLkgiJ9qBtkrSDZVkgNjjmy8P744W0OVfvdcNN6Ky6TVBEyL2xD5iXhdNx3l7b1RAjeaigU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNFLpbi0v_KdrzSqEcPhtIBfY7D6YUM0Qjm83x6VMtVx_KWvalYjh8_-j6F2n2nkVvtJ_uJ9DzkXm7D0U6HUbdSqZERhaIdakBFtD1WswjmAD_ZfGLYjx3eWyL0lkqgo5jnSZ_sA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeKjnRf07Um6SuYLnsLnnsk_NmGhY2u2PN6b1WtRjgSjYQJWdTiPvsNh_XmAGj_dfhgFyHLBJfsxIO5Y911y_7ypu8ZiEd0qI-E4mUZzUJZ6P5Xo71dBrJFzFrJK5DgDNfpj3Yy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLenAbqtlwh1LnJ4R8WPbRyvw-2hHrFkqG9N3o-ZeWXsVvmb3TR5oQwuR-4k0OYoydvtiirIMGyvAhdAfvqN3KoXqIjASMJ7U1AIrd44BCgos869mX8RfnrxMweidgzWxrLUIkEQ6A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Nicole Gladstone",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ben, Phillip and the whole Bigfoot Forestry team are top notch. I chatted with them about my vision of what I wanted my property to look like and they absolutely exceeded my expectations. It’s not often these day that you feel like you get your moneys worth for services but the job these guys did made me feel like I got WAY more than my moneys worth which is a really nice feeling.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjDJFEj1sGvUIFIWeHHoEUbblaKVB7nwKzYd6RD7mL-J6vSbLfY2hmCksSINGr1IKwY2fkCFGdwNMmpBGF7vag-EbZzE_kQ_mW2eb1qrkLjjY3Q4e9TI5jcI41dxuweDic8358=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcLgXSx1NA6to5qSsbRBetGXxjNcut5KY_SxFOtWREcxNT-1jNNb0Jx7AJWZte5XOboUusTmOD4Gv7EiePn_tnxz3cAGVxz5AX6Cj6h6Bc4OWfly6SIwIXlIgiEmWVOAP3eWc7L=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfyjiOumIsNcaEU5dEG7kJ2nrHNoP9H2h4H114ds5nzpbpgu-nhHwHa6QzRA9pnld5k90zyXrLNqCBtmCWmcjRSi5AsJ6Kr4PnSLkTdfQblRlYzUWtwGMt1ZbaK10LYD7m6liDK=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Amanda Lee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend! Ben was so pleasant to deal with. Made the whole process from start to finish flawless with great communication and transparency. Bigfoot did an outstanding job with clearing the outer edge of my back yard that was overgrown. Look forward to working with them again in the future!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLerr81uI-he5r2JxF5OrFm2OHRzuPDsF27fvM2aYxlF25i2oWt67WiocClVJzbtDUvJkSo8Qto-z6zHR_ufEi9B-SMyNBLmLrYdrr8k0GYV5lQYPQagsDHb91VDwKrTiBXT0Ffn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCgNdchcC5-BqsuUl2iMVqS0wcjBIFPoMoYHC1vTDt7jjyeNQiurED48icO9YaCBuvtnXqwfaNNxp4n8KSkqp1aHQKn8HzPQgtQMyIhbKIlApA0vQRfEm1ub5WdfTr_IqIXGB3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdovFuWNXe3IkSr1e4SSOkIcjIpMeervzg2T3OxgRfayZaxz1stbWyxpzMajXkRQ0BL5Ar4UUH8B_ZG1xIy9Q9VcLG31-nl4QLZ0kZpZv2OOrIS37Sp8ko7zFS9xOmzeSHNoOBmTw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJ4PuVPX_aFx-6TyF2ODc4rkYH5nMxI0qwU5gI0V9PDFnZ72lROgYFxfIveZHjiNFEcuGx6We3wSciyFCguR-n65JPZpkAk-37IkoUrfP7XWs38Fl2rGC282vduvv2mGyIwFEr=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Steven Skelton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We are blown away with how our project turned out! The guys at Bigfoot helped us reclaim our backyard (see before and after photos below). You won't find a better grading/clearing contractor. Ben and his team are the nicest guys, and skilled at what they do. They could have charged us for more labor costs several times, but stuck to their original estimate for the job.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezNzrsKSLBf7Y6wB7mFItacZ7o2vTdNS1M411dhhzMCAgm4HVXMqDWZUU-o3lGBq9FeNBuT9KcFVouhR9ffK6M-qgg2jtjOG-CaDzeK_VWJAKC-xslTL7az-3mu4CO1S54ukhX=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLffeURRJLioFkg5kuFFBSp9fhfv0K9qJzDe_Bj3RMJudNy8zI4KhWghqY4zWByy5mGXlUOFkoqDRkXA-cXkew4mZ0CdhiHIXCxe9Pun-Iaakxb5E8lXB2E11y2g4fgCBIu5OQZCcg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeDWzptEko1__9yLCUPqLQ4r-BxLpkDadZeJs1g91aIy6Lv92P3ieuIO_uTCb6KBDPzz0DqqBwJXjogAE-OtWS3-X2XbLcGFgIFt1xBFveUUrBun4yjbe-wDH0KCVB2J6EG8rEP=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Rock Hill (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigSanchezAndSonsServicesRu = {
     "ctaPrimary": "Позвонить (+1 512-855-3028)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/sanchez-and-sons-services/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Sanchez and Sons Services, LLC"
-      },
-      "sub1": {
-        "image": "/images/sanchez-and-sons-services/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/sanchez-and-sons-services/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigSanchezAndSonsServicesRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/sanchez-and-sons-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigSanchezAndSonsServicesRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/sanchez-and-sons-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigSanchezAndSonsServicesRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/sanchez-and-sons-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,52 @@ export const siteConfigSanchezAndSonsServicesRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Rachel A Scott",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jeremy and his crew, including his two sons, removed a giant hackberry tree for me, responding the day after called; the tree had fallen, split in two, the center rotten. It was a difficult area to access, with two new apple trees, and othe..."
-    },
-    {
-      "author": "Kevin Sunley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Steve and his son Daniel were easy and excellent to work with.  We hired them for tree trimming and tree removal and could not have been happier with them, their work and the results.\n\nThey were prompt, hard working and the results look ama..."
-    },
-    {
-      "author": "Monalisa Solis",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We’ve been using Sanchez and Sons for the past few years and they continue to impress every time. They are reliable flexible with scheduling and consistently do high-quality work. It’s clear they take pride in what they do. What really sets..."
-    },
-    {
-      "author": "Rob Dye",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The Sanchezes have been doing our trees for many years and I trust them to take the greatest care with the trees and the property in general. Esteban is very knowledgeable about trees and their care. The crew who came and trimmed up numerou..."
-    },
-    {
-      "author": "Mike Dobbins",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: A little late on this...forgot to write a review.\n\nBack in the last ice storm in I guess '21 I and my neighbors all lost a lot of trees.  I called Adam and he said he was swamped but he'd try to get me in.  He came out looked at what we had..."
-    }
-  ],
+        {
+            "author": "Rachel A Scott",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jeremy and his crew, including his two sons, removed a giant hackberry tree for me, responding the day after called; the tree had fallen, split in two, the center rotten. It was a difficult area to access, with two new apple trees, and othe...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPMk9PY7zdiUOVI4j9e2nbsQdJlSZDvDFyvqeQsxz-AUWdI0Nt5jvC5vDllEeYYPCEtEK441T0-nJV0l9ToG5841xbe_vBpvX7ql98WTFyFnWDriOk6g9TQm2I4jKqbUVgM4lRFw5d1Vj7=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfvSDYW2e88hr6jQErJGVwfw8AGHzh_zuzIlJ23Ku_ElcPoEqeNmxem1DRdHUbubBqLKsGO_0q4SQJ4Z3HYLdPfJFDanFQFE8mduqsYpRzLYlA360cfRl4tFaoKBc5y4hgLAyH5iEf88ss=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc6FP7IvqDdi7zJ6IoLVdnBT9hRisiKOmBP8bVrnPHeNm_i2InCkVxPwBxzfAyiQ21rbhLr5EENKvngMUfps-igWmLDJr-rDZmQOB9tv9Vw1b33tyhZdbuSrEO4VtXVgqnQIu1WDdO0cctV=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Sunley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Steve and his son Daniel were easy and excellent to work with.  We hired them for tree trimming and tree removal and could not have been happier with them, their work and the results.\n\nThey were prompt, hard working and the results look ama..."
+        },
+        {
+            "author": "Monalisa Solis",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We’ve been using Sanchez and Sons for the past few years and they continue to impress every time. They are reliable flexible with scheduling and consistently do high-quality work. It’s clear they take pride in what they do. What really sets..."
+        },
+        {
+            "author": "Rob Dye",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The Sanchezes have been doing our trees for many years and I trust them to take the greatest care with the trees and the property in general. Esteban is very knowledgeable about trees and their care. The crew who came and trimmed up numerou..."
+        },
+        {
+            "author": "Mike Dobbins",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: A little late on this...forgot to write a review.\n\nBack in the last ice storm in I guess '21 I and my neighbors all lost a lot of trees.  I called Adam and he said he was swamped but he'd try to get me in.  He came out looked at what we had..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Austin (Основная база)",

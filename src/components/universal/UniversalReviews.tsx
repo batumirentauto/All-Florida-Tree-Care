@@ -67,6 +67,35 @@ export function UniversalReviews({ config, themeName }: { config: any; themeName
                 <p className="text-sm text-slate-200 leading-relaxed italic">
                   "{rev.text}"
                 </p>
+
+                {/* Review Photos (if present from Google Maps) */}
+                {rev.photos && rev.photos.length > 0 && (
+                  <div className={`mt-3.5 pt-3 border-t ${theme.borderSubtle}`}>
+                    <div className={`grid ${rev.photos.length === 1 ? 'grid-cols-1' : 'grid-cols-2'} gap-2`}>
+                      {rev.photos.slice(0, 4).map((pUrl: string, pIdx: number) => (
+                        <div
+                          key={pIdx}
+                          className="relative h-28 sm:h-32 rounded-xl overflow-hidden bg-slate-900 border border-slate-700/60 shadow group"
+                        >
+                          <img
+                            src={pUrl}
+                            alt={`Photo from ${rev.author}'s review on Google Maps`}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy"
+                            onError={(e) => {
+                              const parent = e.currentTarget.parentElement;
+                              if (parent) parent.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                    <span className="text-[10px] text-slate-400 mt-1.5 flex items-center gap-1">
+                      <span>📷</span>
+                      <span>{config.lang === 'ru' ? 'Фото клиента из отзыва Google Maps' : 'Homeowner photo from Google Maps review'}</span>
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Author & Verification Footer */}

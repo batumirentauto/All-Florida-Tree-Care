@@ -31,21 +31,9 @@ export const siteConfigChampionsTreePreservationRu = {
     "ctaPrimary": "Позвонить (+1 281-320-8201)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/champions-tree-preservation/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Champions Tree Preservation"
-      },
-      "sub1": {
-        "image": "/images/champions-tree-preservation/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/champions-tree-preservation/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigChampionsTreePreservationRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/champions-tree-preservation/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigChampionsTreePreservationRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/champions-tree-preservation/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigChampionsTreePreservationRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/champions-tree-preservation/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigChampionsTreePreservationRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Bradley Kerr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can’t say enough great things about Champions Tree Preservation. I’ve used them across multiple homes and projects, and they’ve consistently exceeded expectations every single time.\n\nAt my previous property, they quite literally saved all..."
-    },
-    {
-      "author": "Melissa Tracy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We've used Champions Tree Preservation for many years and they do a fantastic job!  It's important to us that the people trimming our trees know what they're doing. We can barely keep up with the growth of our 2 oak trees. Our yard faces no..."
-    },
-    {
-      "author": "Jim Scott",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I’ve been using Champions Tree Preservation for many years and they have been and still are a Top Tier tree service provider with expert knowledge and abilities.\nThey just finished taking care of my oak trees again this morning in preparati..."
-    },
-    {
-      "author": "Jerry King",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very pleased with Champions Tree Preservation.  They brought our magnificent 20 +YO Magnolia tree that was very sick & dying back to a healthy life.  Tree now heavy with blooms for 1st  time in years.  Excellent diagnosis and treatment on t..."
-    },
-    {
-      "author": "Drew Kangieser",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can’t say enough good things about Champions Tree. We’ve used them for a few years and always had a good experience. Recently a tree fell on our house and did some major damage, but they were there at 8 am the next morning with a crane to..."
-    }
-  ],
+        {
+            "author": "Bradley Kerr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can’t say enough great things about Champions Tree Preservation. I’ve used them across multiple homes and projects, and they’ve consistently exceeded expectations every single time.\n\nAt my previous property, they quite literally saved all...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1QleV0kx_egyMHwJNAWUdfWosIKSBO2GB8RZYPqH3l82pOVYKZV-MUoOCqle7mPYxpIx24sSjPincfO4gXGAvi6wXBhcdg_cLjLO2iN1YDtyooPVeZSLZWpU2ICuG1HOe3FX-O1gRWJi5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczRjA6r6eoU2EjdPTFtFBLiSUrFlODOvgYqziSaQnew8Bzz_DOkerfk2QLePZKg7vIge5PcELksFBz60S4NO2ekinILf_5bM8HVqi_EPRTExmb5KJ5OkjD3dhrzdU52WUetOxno0IfAOs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcy054ZoC4bfUHvqPBc9qh-r-he-sLbXBUt3HDonUImigSgYQs2Bh6tPMa3BhN0zCRJEwdPrjVcZBHstGPX-JV3RYosjxQR8AEu4lRspeNDoVai313WgV_MLnHPjFWEF8RDKsaHl_k-1Q3t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfj4Mo1W4DpH1PtGYDHJGSZXaCGbkox2aMVsXaWhhkRoPgZ3xSsW91ExfHaXHeRFov9t_dc2CsFECZoqrd2di9cFyBh1PsRhBliCpe8aHUbXWX7vzzgSskAtB4rEIkGvogUR72JhwVIgHU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Tracy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We've used Champions Tree Preservation for many years and they do a fantastic job!  It's important to us that the people trimming our trees know what they're doing. We can barely keep up with the growth of our 2 oak trees. Our yard faces no..."
+        },
+        {
+            "author": "Jim Scott",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I’ve been using Champions Tree Preservation for many years and they have been and still are a Top Tier tree service provider with expert knowledge and abilities.\nThey just finished taking care of my oak trees again this morning in preparati..."
+        },
+        {
+            "author": "Jerry King",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very pleased with Champions Tree Preservation.  They brought our magnificent 20 +YO Magnolia tree that was very sick & dying back to a healthy life.  Tree now heavy with blooms for 1st  time in years.  Excellent diagnosis and treatment on t..."
+        },
+        {
+            "author": "Drew Kangieser",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can’t say enough good things about Champions Tree. We’ve used them for a few years and always had a good experience. Recently a tree fell on our house and did some major damage, but they were there at 8 am the next morning with a crane to..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Основная база)",

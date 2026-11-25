@@ -31,21 +31,9 @@ export const siteConfigAcadiaTreeCareRu = {
     "ctaPrimary": "Позвонить (+1 469-740-0391)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/acadia-tree-care/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Acadia Tree Care"
-      },
-      "sub1": {
-        "image": "/images/acadia-tree-care/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/acadia-tree-care/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAcadiaTreeCareRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/acadia-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAcadiaTreeCareRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/acadia-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAcadiaTreeCareRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/acadia-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigAcadiaTreeCareRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "David Joshua Reyes & John Waters",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a great experience with Acadia Tree Care. From start to finish, Jacob was attentive, responsive, and extremely knowledgeable. He took the time to answer our questions, explain their recommendations, and made us feel confident in the ..."
-    },
-    {
-      "author": "Danielle Hess",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jacob and his team were punctual, friendly, and very competitively priced. They left my yard cleaner than it was when they arrived!   We have 2 giant live oaks and they look awesome and healthy thanks to Acadia!..."
-    },
-    {
-      "author": "Amanda Singleton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing service on my 4 large trees at my home.  Everyone on the team was very respectful of me and my property.  They did beautiful work on my trees and the owner was extremely knowledgeable about trees and tree care.   I will not be using..."
-    },
-    {
-      "author": "Dominic Maucieri",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jacob & Rafael are very easy to work with. Very communicative, showed up on time and were done quicker than expected while doing a great job. Would definitely recommend...."
-    },
-    {
-      "author": "Angus Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great experience working with Jacob and team. Jacob did a fantastic job walking through areas where he suggested immediate trimming vs where we could wait a bit. He was extremely knowledgeable and did not pressure us, but rather laid out ou..."
-    }
-  ],
+        {
+            "author": "David Joshua Reyes & John Waters",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a great experience with Acadia Tree Care. From start to finish, Jacob was attentive, responsive, and extremely knowledgeable. He took the time to answer our questions, explain their recommendations, and made us feel confident in the ..."
+        },
+        {
+            "author": "Danielle Hess",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jacob and his team were punctual, friendly, and very competitively priced. They left my yard cleaner than it was when they arrived!   We have 2 giant live oaks and they look awesome and healthy thanks to Acadia!..."
+        },
+        {
+            "author": "Amanda Singleton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing service on my 4 large trees at my home.  Everyone on the team was very respectful of me and my property.  They did beautiful work on my trees and the owner was extremely knowledgeable about trees and tree care.   I will not be using...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuj13GMXAqlQiiVhWxtTt914a0VZ0QNwTPvLa7_gvfmb5R0frzPc_o-_W4Hsna_1pexRwbllVl1tlbEeI6kWwY9Ad-UZ8TsICutLIrnhYhcJ7h7Wq3zoYebpUw2GdFccWcBtMK=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcOPVZYpsE9gYVX7k37tZQRqUiJ3K4qcV7ZAUoCDR8zb5rvEz_FtwocDqqweLlzzqmbb3w39JdYXRl5tJAO-gk3m8Ip3NU4DRU-o8_Eiz_a9tYxitoRUQCGp0a5NrDOiHyJ-poZVw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Dominic Maucieri",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jacob & Rafael are very easy to work with. Very communicative, showed up on time and were done quicker than expected while doing a great job. Would definitely recommend...."
+        },
+        {
+            "author": "Angus Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great experience working with Jacob and team. Jacob did a fantastic job walking through areas where he suggested immediate trimming vs where we could wait a bit. He was extremely knowledgeable and did not pressure us, but rather laid out ou..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Garland (Основная база)",

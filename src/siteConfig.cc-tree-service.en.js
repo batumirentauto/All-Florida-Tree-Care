@@ -32,21 +32,9 @@ export const siteConfigCcTreeServiceEn = {
     "ctaPrimary": "Call Matt +1 361-443-4852",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cc-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "CC Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/cc-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/cc-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCcTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/cc-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCcTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/cc-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCcTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/cc-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigCcTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "TeeTimeInTX",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt did an awesome job on our Queen Palms. He cleaned all debris and left our yard and pool looking nice. Will definetly call him again!"
-    },
-    {
-      "author": "john john Paco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wonderful experience! I called to have my lawn mowed, when Matt finished he saw I had some stumps in the yard and offered to grind those down. The next day he came out with his heavy duty equipment and grinned them down past the level of the grass. My kids don't have to worry about running into them anymore. The Pic of where the stump used to be."
-    },
-    {
-      "author": "Christopher Ureste",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt and his crew are very professional and get the job done in a timely manner. He really knows his stuff and treats his customers with the respect and class they deserve. I would definitely​ recommend him too anyone looking for stump removal, tree trimming, yards cut. He definitely can get the job done. Give them a call you won't regret !"
-    },
-    {
-      "author": "Fred Ramirez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called Matt to give an estimate for removing Mesquite trees. Articulated the job and steps very well with awesome pricing! Was done by the time he said and left the yard cleaner than when he got there. Overall impressed and will definitely recommend CC Tree service to all"
-    },
-    {
-      "author": "Lincoln S",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Matt and his crew did a terrific job trimming up an out of control oleander.  They also hauled away a large brush pile from the backyard.  Work was done as promised at a fair price.  Clean up was exceptional and could hardly tell they'd even been there.  A job well done with great service at a good price.  What more can you ask for?"
-    }
-  ],
+        {
+            "author": "TeeTimeInTX",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt did an awesome job on our Queen Palms. He cleaned all debris and left our yard and pool looking nice. Will definetly call him again!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczOXLQo7s8Jw1MVqaAKoReJWt8m2PEs5NR_AnHKjhe6bzpP87ADHIYGtx2T4G5A4f-7vhadeYLoDdS3KXx5i8Ub9jyf-Xt-DbqLfTEjk6PRucRRjS88tNj2vy7rIgQ0Mp8PJQG0Q=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "john john Paco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wonderful experience! I called to have my lawn mowed, when Matt finished he saw I had some stumps in the yard and offered to grind those down. The next day he came out with his heavy duty equipment and grinned them down past the level of the grass. My kids don't have to worry about running into them anymore. The Pic of where the stump used to be.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc3lnWpp_krukgR1fvoNZLFopii83ZRyOaca25Yv2VJYSmA5S8H94og8YkuQ0_bSaKwAcNby1LCv0L6lYYPLoM2L6UaqBcMALwHYhsWOGTsnOYbpixlf74RoJAzAGf0DN9alYUOTg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Christopher Ureste",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt and his crew are very professional and get the job done in a timely manner. He really knows his stuff and treats his customers with the respect and class they deserve. I would definitely​ recommend him too anyone looking for stump removal, tree trimming, yards cut. He definitely can get the job done. Give them a call you won't regret !"
+        },
+        {
+            "author": "Fred Ramirez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called Matt to give an estimate for removing Mesquite trees. Articulated the job and steps very well with awesome pricing! Was done by the time he said and left the yard cleaner than when he got there. Overall impressed and will definitely recommend CC Tree service to all"
+        },
+        {
+            "author": "Lincoln S",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Matt and his crew did a terrific job trimming up an out of control oleander.  They also hauled away a large brush pile from the backyard.  Work was done as promised at a fair price.  Clean up was exceptional and could hardly tell they'd even been there.  A job well done with great service at a good price.  What more can you ask for?"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Corpus Christi (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
     "ctaPrimary": "Call Lead +1 407-421-7338",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Cheap Guy Tree and Stump Removal tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/cheap-guy-tree-and-stump-removal/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/cheap-guy-tree-and-stump-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,75 @@ export const siteConfigCheapGuyTreeAndStumpRemovalEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Eric Shively",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had several trees removed. Service was prompt and professional at a good price. I also had the stumps ground. I'm very happy with the outcome. Thanks again Justin!"
-    },
-    {
-      "author": "Janelly Rios",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "After vetting out different companies, I decided to give Cheap Guy Tree and Stump Removal a try. Justin explained the process and what I should expect. Unfortunately, he arrived and stumped the tree down while I was on vacation. Upon my return and cleaning the debris I reached back out to Justin explaining the job was not completed as originally planned. He explained the stump was not to be removed but would be leveled, so that could have been my misunderstanding. Even after sending him pictures and his acknowledgment that the stump could use more “cleanup” he hasn’t made things right. At this point, my lawn is not leveled as promised, the roots that were within the 5ft he said would be grinded are still there, I’m down $900 what he was paid, and now have to rent a grinder to finish the job. I text him and told him to just leave things as because of the disappointment I feel. I would not recommend this company for anyone!  Especially anyone living in the Kissimmee as I feel it may be the reason he hasn’t tried to come back out to finish the job. Overall nice guy, just doesn’t finish what he’s paid to do.\n\nUpdate to cheap guy tree and stump removal.  My husband was NOT on vacation.  I, his wife was. You did say you would grind 5-6ft of the roots, there is no need for me to fabricate lies. Yes, we were putting sod but you did not grind the stump down to make it level. You did not respond to my last text. So, no, you have not been as responsive as you said you were. Yes, you did want to charge more for a full removal but as mentioned in my original review I may have understood to full removal vs grinding it down to being level. I just wanted what I paid for, which was to level the stump not a bulging stump, and to grind the 5-6ft of roots."
-    },
-    {
-      "author": "Keith Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Justin did a few things many do not.  Answered the phone, gave a fair estimate, and showed up and did a quick job. Highly recommend cheap guy tree and stump removal."
-    },
-    {
-      "author": "Luis Ojeda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I regretfully previously contracted a landscaper to take all my stumps and roots out all over the house. There were 9! He was paid half and left the job unfinished. Thank God that Justin came in and saved the day.\n\nHe demolished all stumps and roots for half the price that original contractor charged me.\n\nHe also went above and beyond to level the ground as much as he could!\n\nVery nice fair and helpful guy! Here I add the before and after of a few stumps."
-    },
-    {
-      "author": "Corey De Mayo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Justin was great!!! He came out very quickly and was able to grind two massive pine stumps in the front yard. He was very professional and the communication was great. Stumps are completely gone. AND you will not be able to find a better price!!! Don’t hesitate, Justin is THE guy!!!! Extremely happy & will use again"
-    }
-  ],
+        {
+            "author": "Eric Shively",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had several trees removed. Service was prompt and professional at a good price. I also had the stumps ground. I'm very happy with the outcome. Thanks again Justin!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHKQXakIAnnaBESgjfwmD31DGgWpzYxSgCYAn9t1oeA-6KDd6jxOr47Brzv9bBjhErnNohoJKjMCdzsj8d9opkIm8XfJG2HQAuoCrB4EO9ac2pA97silxYbmYkWHlR5WJSwI60RIe7HPgj=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfauQl2NvlTHHUf76UJ29Ns6nHuH5fRfBrK5izs1LYger-L6hzanHI-N1RFE4i0zeays_BffkZu7uPOg-Mw7xWZfjFmb-0YEjgdpgbJhugKJVJfln5zJVo61WiUoq6PMuIzWcpzL7NDVLs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYQ8b5DpRcLzoqdWiQtRBxgYFU3_ZibH_dBhrWOFS4s8GltCbq0f1ptnHzoTZBDIAHRJA3sjtbFLUjorNv_Irf3BbqQPxqGaJDZFgpb6kpMkDVJ2zLIeLW_XCneGM4HcZPzYSwSeOg4sk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmnkIVCVTXlJxfX-6V_s959460PQZFtxI4-np1w_Pm5Sidun0GoDxmSqvyteFrxUuoqHFriu0WDMVsbrN8BFl1Hd4TwZBr3ijf_e3E85oz0_6gLF697i4z8irHEUOjwa6UYwaPhg7RmQ6S=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Janelly Rios",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "After vetting out different companies, I decided to give Cheap Guy Tree and Stump Removal a try. Justin explained the process and what I should expect. Unfortunately, he arrived and stumped the tree down while I was on vacation. Upon my return and cleaning the debris I reached back out to Justin explaining the job was not completed as originally planned. He explained the stump was not to be removed but would be leveled, so that could have been my misunderstanding. Even after sending him pictures and his acknowledgment that the stump could use more “cleanup” he hasn’t made things right. At this point, my lawn is not leveled as promised, the roots that were within the 5ft he said would be grinded are still there, I’m down $900 what he was paid, and now have to rent a grinder to finish the job. I text him and told him to just leave things as because of the disappointment I feel. I would not recommend this company for anyone!  Especially anyone living in the Kissimmee as I feel it may be the reason he hasn’t tried to come back out to finish the job. Overall nice guy, just doesn’t finish what he’s paid to do.\n\nUpdate to cheap guy tree and stump removal.  My husband was NOT on vacation.  I, his wife was. You did say you would grind 5-6ft of the roots, there is no need for me to fabricate lies. Yes, we were putting sod but you did not grind the stump down to make it level. You did not respond to my last text. So, no, you have not been as responsive as you said you were. Yes, you did want to charge more for a full removal but as mentioned in my original review I may have understood to full removal vs grinding it down to being level. I just wanted what I paid for, which was to level the stump not a bulging stump, and to grind the 5-6ft of roots.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLctqAA8hpQyEHUMUisxeNng_qVJ49Q5vlTEOWSa7js5_JUTYSolyhTOl0JfaknFbQcFegI5No0D7xtUf71H2GETFEK8fdU3fmzpzbTYMLqscF_dXX1DbG56PwBD8C5DZZ0DPmaLEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8-p7mkdVuYVVFcdqOA1Bfx70dta97BJ2SNTWOjinS_pzXUNbor5q44tjvxh7xkrCeJ23CxW4d1reCyty56fb7MwCSWUSPfzV2yFg0KAT7AE3tOLEWLVUN2mcLjdBqsZpqrxPQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1O2QqITqz84eYpk4yx6b9sRQXScM39e2b6vjhGvznkAqz7HKIvmbjk13Bvph5T0eQf6sociG21KNS3-u6QdfxGBJ6URhvSBjd8sQn_6IDMUPt9n6aoeVqiQAgENc_thCVNmOz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLciTDB74ilOo0pDkqg05Hz-1mTs8DH7qYgZn90p-v5aAffVvRQvdT0zgscOCs5FRlS1pC31TNZtXxJHXPHORCz9A7Of0BYGNOHOSBEhYB3K-yZafuuSjAm-QWmkjJA--Kv3ot8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Keith Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Justin did a few things many do not.  Answered the phone, gave a fair estimate, and showed up and did a quick job. Highly recommend cheap guy tree and stump removal.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxpkIzEhllsCRipPNiSvFAPzZeJ4D64BAYssQSAjBrZHzQ_pArZ80F4bjN9Xp7Af7m9UzqhT9ovOYbCwZwZhn9XvsGCqHrILr27TZf9N-EikLzt-05QdSXERNr8MfZQKu2GbqRbn4Ifkk=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeSJruyaU10Ly4oJ_UlzBhe9ccIsVoLQeweWGR3wUuIS0H0PVuKaFsHtomA7iIeHfMpmHftMepYKRbshw-BwA3XSwKZLZuKAQ8eq-nGUy-Z1nugxTB4ZBRi6n-YMShDqDpQiJqxDObGZUE=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Luis Ojeda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I regretfully previously contracted a landscaper to take all my stumps and roots out all over the house. There were 9! He was paid half and left the job unfinished. Thank God that Justin came in and saved the day.\n\nHe demolished all stumps and roots for half the price that original contractor charged me.\n\nHe also went above and beyond to level the ground as much as he could!\n\nVery nice fair and helpful guy! Here I add the before and after of a few stumps.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfG5YymqokQ1oUqd2RlvJYpqRZ61wNcnCqwOZvrMCiZh952svhlXdIxlohOhUFA7o5MaGWocGIhaiyPJ4dpSEnrll3Y49kirbijggeB3c-cxmW1e120NU5xrUNB74uD0MJy-9oQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgk_SnGaLwTALNMPTD0POc6wXMa7HKGjvM-x-ryGM5OUImZKbz7TYWSMW2wQS5k9qKqDYrLVfqcx0zO4Gmcbt9IoYAlK0JJvZJdTBAmjVvn1M67QgmLLUzE3TWuXExnH0IOFwS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmpUIOrbTXLpcWQoLd5zCBbg5rKP7N6Y1tdcZDsJj7YMSMiaOay0pVoqi3T6EEvFWB9hNXc0EBPTATF12fMJU3AUa4hldYcwXnpFVG4A1vmcPsQiLfcEEMYj1MdhWeddOtLCFL=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1GCQDauxaaMVGIjNkn3KQuaMXHgnU_dRZ4GAHGHpxQb3GGlgWNDNVtzgui49xnnzeIaGuYl8t4nOUlSjfAzTXW5Ng5-dkZahPLAEbHLh4ZkgdTBQQL_DlQdAqrFS1TgpN_tO92Q=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Corey De Mayo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Justin was great!!! He came out very quickly and was able to grind two massive pine stumps in the front yard. He was very professional and the communication was great. Stumps are completely gone. AND you will not be able to find a better price!!! Don’t hesitate, Justin is THE guy!!!! Extremely happy & will use again",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXa3edW2BK5CFTsgOUyUXx36z3BH7dSEYbQAE35Uog9MjMQu9s9UQLxEANTrG299O84nE4YJBJ_gSZDXuVhZCEhdxERwdClWXemgubjLVqDuzzUpcv8AZumVfbRyMnohUpVkJm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLclSiVf-rVkXLTIuYwdo1ZLJV-dmf02SN3KRF-wqj31nrIpttKMWNdl52uldcMnXtEmWFvVwrXoklKFiwaydTCCkc7HZX6LiSsmCRw9DxG3o7CKWHPGVaPLa6lhhqhi3N7R2gB-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfn-9ICTv8WVtkx9HBjtwW0J7lW0_zzmv5jL3vMcLc5tN5_KtyTEsQzJeMaSOUgxOscwi-4jA6VMxLpyPCWZxPyO8KjCa9ISxmsuplaHPoH2lCyW_RJAUOQvDkgK-6PkNKP6DJ3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcofXy5MabAo7AV5GMMEytPlVTQIUcplxYh8iClQHQWLzCNQAVc7ZqX7nrWqY9H7_fX_owKLHF5njQ7nO-1pui5Jsi2Vq1n0vCj7-E-vWFFlJLZy9dyDPnEjGp5j_uhqfcBgORByw=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

@@ -32,21 +32,9 @@ export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
     "ctaPrimary": "Call Nicky +1 541-340-1333",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Urban Lumberjack | Tree Removal Emergency | Emergency Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/urban-lumberjack-tree-removal-emergency-emergency/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigUrbanLumberjackTreeRemovalEmergencyEmergencyEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "MelodiMade",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Urban Lumberjack reached out to let me know they would be in my area. They offered a free estimate. Very quickly they quoted me a total and we set everything up for the next day. Tyler, Nick, and Aldo were efficient, respectful and friendly. I had 3 trees trimmed and I am so excited how great they turned out."
-    },
-    {
-      "author": "Derek and Kimberly M",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Super thankful for Urban Lumberjack’s immediate response and safe removal of a dangerous tree hanging over our home! They were thorough, expertly knowledgeable and went the extra mile to kindly answer our kids inquiries into their profession.\nThey will be our 1st call from now on!"
-    },
-    {
-      "author": "Avel Shevchenko",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Urban Lumberjack did an awesome job! Fast, professional, and very clean work. They handled the trees safely and left the area looking great. Highly recommend! Nicki is a good man."
-    },
-    {
-      "author": "James Mitchell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Nicky and the crew from Urban Lumberjack were a pleasure to work with . They did some trimming on a maple tree, topped some arborvitae then came back out and felled a spruce that was leaning towards the house. Great work, good prices and fast. Would highly recommend and next time I need this sort of work done, Urban Lumberjack will be the first call.  Thanks guys for the quality work."
-    },
-    {
-      "author": "Laura Bradfield",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Nicky and his guys were great fun to work with!  We had 3 huge trees removed that were VERY close to our house.  Plus we had two trees limbed up.  They were hardworking and professional.  Would definitely recommend!"
-    }
-  ],
+        {
+            "author": "MelodiMade",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Urban Lumberjack reached out to let me know they would be in my area. They offered a free estimate. Very quickly they quoted me a total and we set everything up for the next day. Tyler, Nick, and Aldo were efficient, respectful and friendly. I had 3 trees trimmed and I am so excited how great they turned out.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJ5pSB8YJoqtMIH_F74noATHN4F_IuR52vF3VyEPn7g7DuPKVmz-i4I7weGnMzXKPElp6PaBapZWklx6dyyXfA5MmTK1tp92BKcnAtOuLvYeeVzbJaAhXrtJFokm8KbhWOcKBxeyASCdjf=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Derek and Kimberly M",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Super thankful for Urban Lumberjack’s immediate response and safe removal of a dangerous tree hanging over our home! They were thorough, expertly knowledgeable and went the extra mile to kindly answer our kids inquiries into their profession.\nThey will be our 1st call from now on!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemr27M0ELI5W6BP0Gkw_J8wUDjJq7ejzTmLgadg9j48VwcVjt73tsZ-Ezo1bFxXfT2HhhPR7gu9avfUXNUufQd3WMk0DqM9KOk6NtQCp4xOn-Qv1x8-gijLkTKv8uShyVbjRma_lD2-u1O=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd05iKRYkbvqWniCM7LpONpVmKVK4snD392Acza0yZmfEYlOpiUXJL_Xk2OQBKNupSpSJ6G8fmWABClXK7UVWJ0b3YIuFBWHvTod1K30zVGIBoqpDNTD-xl2-TQE0YBkjksIhvhxLMs9fc=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Avel Shevchenko",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Urban Lumberjack did an awesome job! Fast, professional, and very clean work. They handled the trees safely and left the area looking great. Highly recommend! Nicki is a good man.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp_8lMnrn3GNcUxFVJCXOa5fmEL9P2_rN6yVgzH3RUXA9sTSfklXWkeXmzMj3ik5Oocc7A4AOINmk7PGtYVlkmjO4zdcZg9EnY1oPctJwsg6VpPnuP-MXWTjHQzJ6-ICCFPVHy3Aiglro=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "James Mitchell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Nicky and the crew from Urban Lumberjack were a pleasure to work with . They did some trimming on a maple tree, topped some arborvitae then came back out and felled a spruce that was leaning towards the house. Great work, good prices and fast. Would highly recommend and next time I need this sort of work done, Urban Lumberjack will be the first call.  Thanks guys for the quality work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeL9KoLU1XI7WsVCVYXveC2LJJ4ynIrbBkAdQbqUo6UhddaNMvuPn7ZUzNf5gAu--_2WJXMo9CYcrMgluMsmDpXYKKcE_bT04YNDkUp3hIvjrteeAup9LM6l86yLBLRq6J1f0CAqVQsTeS=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeH9vgNfc7p1qmN_w8MLeKfhcW1DG8aCrrHIjGZ4-QjJZVkGqQPrHRZQzCiz6Df1mfiH1fhgOUvubIxh-XVMv7GXsPDPhHBcv0Kjvu9ca-dIpb2yjATh4macK0fWx4cyWAQUOXuTMeAyRya=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Laura Bradfield",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Nicky and his guys were great fun to work with!  We had 3 huge trees removed that were VERY close to our house.  Plus we had two trees limbed up.  They were hardworking and professional.  Would definitely recommend!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tualatin (Central Depot)",

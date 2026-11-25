@@ -31,21 +31,9 @@ export const siteConfigStonesRu = {
     "ctaPrimary": "Позвонить ((864) 914-1381)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/stones/photo_002_crop.jpg",
-        "label": "Тяжелый эвакуатор с техникой Vermeer",
-        "alt": "Грузовой эвакуатор с пнедробилкой и спецтехникой Vermeer на улице заказчика"
-      },
-      "sub1": {
-        "image": "/images/stones/photo_006_crop.jpg",
-        "label": "Ухоженная территория поместья",
-        "alt": "Ухоженный ландшафт с круговым подъездом и подстриженными кронами деревьев"
-      },
-      "sub2": {
-        "image": "/images/stones/photo_007_crop.jpg",
-        "label": "Выровненная лесная граница",
-        "alt": "Граница лесной зоны за газоном, расчищенная и отсыпанная ровным слоем мульчи"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigStonesRu = {
     {
       "name": "Обнажение и фрезерование корневых лап",
       "badge": "Глубокая выборка корней",
-      "image": "/images/stones/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigStonesRu = {
     {
       "name": "Расчистка подлеска и планировка мульчи",
       "badge": "Планировка участка",
-      "image": "/images/stones/photo_009_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigStonesRu = {
     {
       "name": "Спил дерева у фундамента дома",
       "badge": "Спил вплотную к дому",
-      "image": "/images/stones/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

@@ -32,21 +32,9 @@ export const siteConfigMaldonadoEn = {
     "ctaPrimary": "Call Maldonado (832) 679-5637",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/maldonado/photo_013_crop.jpg",
-        "label": "Lead Chainsaw Operator Bucking Oak",
-        "alt": "Lead arborist in orange shirt and hardhat bucking large oak trunk into rounds"
-      },
-      "sub1": {
-        "image": "/images/maldonado/photo_010_crop.jpg",
-        "label": "Canopy Climber Topping High Spar",
-        "alt": "Arborist climber atop limbed oak tree spar during sectional dismantling"
-      },
-      "sub2": {
-        "image": "/images/maldonado/photo_012_crop.jpg",
-        "label": "Driveway Chipper & Blower Sweep",
-        "alt": "STIHL backpack blower and wood chipper cleaning concrete driveway of tree debris"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMaldonadoEn = {
     {
       "name": "Chainsaw Flush-Cut Stump Reduction",
       "badge": "Flush-Cut Preparation",
-      "image": "/images/maldonado/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMaldonadoEn = {
     {
       "name": "Architectural Live Oak Structural Thinning",
       "badge": "Live Oak Preservation",
-      "image": "/images/maldonado/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMaldonadoEn = {
     {
       "name": "Overhanging Garage Roofline Clearance",
       "badge": "Roof Hazard Mitigation",
-      "image": "/images/maldonado/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

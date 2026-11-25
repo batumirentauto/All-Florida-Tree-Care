@@ -31,21 +31,9 @@ export const siteConfigArborCareSolutionsRu = {
     "ctaPrimary": "Позвонить (+1 864-800-6180)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/arbor-care-solutions/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Arbor Care Solutions"
-      },
-      "sub1": {
-        "image": "/images/arbor-care-solutions/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/arbor-care-solutions/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigArborCareSolutionsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/arbor-care-solutions/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigArborCareSolutionsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/arbor-care-solutions/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigArborCareSolutionsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/arbor-care-solutions/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigArborCareSolutionsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "pollyproofreader",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We called Arbor Care Solutions to evaluate and trim five large trees in our backyard before having new sod installed. They responded quickly and recommended the least destructive solution for us. Their price was very reasonable and they cam..."
-    },
-    {
-      "author": "Jane Mercer",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Arbor Care Solutions team were quick to respond to my initial request for a free quote to remove a tree and have the tree stump removed.  The quote was very reasonable.\nThe team arrive on time and completed the job quickly and left the site..."
-    },
-    {
-      "author": "Jack Foster",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I was very pleased with Daniel and  the tree removal service he provided. It was done in a timely manner and his professionalism was unmatched! He answered any question I had to ask and got me taken care of! I recommend Arbor Care Solutions..."
-    },
-    {
-      "author": "J Dixon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: These guys were awesome! The were very helpful towards my questions and concerns and were very reasonable on our trees! The owner Daniel is very charming! Highly recommend!..."
-    },
-    {
-      "author": "Luke H",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew came out this morning to trim our Leyland cypresses and did a fantastic job. They were professional, efficient, and clearly knew what they were doing. The trees look great, everything was cleaned up thoroughly, and the whole proces..."
-    }
-  ],
+        {
+            "author": "pollyproofreader",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We called Arbor Care Solutions to evaluate and trim five large trees in our backyard before having new sod installed. They responded quickly and recommended the least destructive solution for us. Their price was very reasonable and they cam...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_X04f2bsGzJngcHxYuBuVn4-pLrDxiF5Ooq63IrZHHvgDCwbxiq6ANu0XrMfMrcwI18C7l52js9XMHSh8wQhryS4TbnWWETX-wyNoK_d8XOHRxGVBT21nWSfZ1akDVrcmi8jsNofJJ_bi=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jane Mercer",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Arbor Care Solutions team were quick to respond to my initial request for a free quote to remove a tree and have the tree stump removed.  The quote was very reasonable.\nThe team arrive on time and completed the job quickly and left the site..."
+        },
+        {
+            "author": "Jack Foster",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I was very pleased with Daniel and  the tree removal service he provided. It was done in a timely manner and his professionalism was unmatched! He answered any question I had to ask and got me taken care of! I recommend Arbor Care Solutions...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfeJsf8geGHD_7s_kXh1ESRHWqbC-UYfGA9vuislvU_h8ei2ypf_9l-ap0rMFkkzI8a5lPmljU8_9mKIOAdIuB3paz_sixLDiML4IP_2EhyIgCbeIn2cQiowPzUGeiz9IHiYpwbVxTqz2rS=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "J Dixon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: These guys were awesome! The were very helpful towards my questions and concerns and were very reasonable on our trees! The owner Daniel is very charming! Highly recommend!..."
+        },
+        {
+            "author": "Luke H",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew came out this morning to trim our Leyland cypresses and did a fantastic job. They were professional, efficient, and clearly knew what they were doing. The trees look great, everything was cleaned up thoroughly, and the whole proces..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Greenville (Основная база)",

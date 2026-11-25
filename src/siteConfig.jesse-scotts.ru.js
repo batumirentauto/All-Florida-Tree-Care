@@ -31,21 +31,9 @@ export const siteConfigJesseScottsRu = {
     "ctaPrimary": "Позвонить (+1 407-832-3942)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jesse-scotts/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Jesse Scotts"
-      },
-      "sub1": {
-        "image": "/images/jesse-scotts/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/jesse-scotts/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigJesseScottsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/jesse-scotts/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigJesseScottsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/jesse-scotts/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigJesseScottsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/jesse-scotts/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,74 @@ export const siteConfigJesseScottsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jessica Fama",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can’t not give these guys a better review! I called Sunday morning to have trees trimmed before Hurricane Milton and they said they would fit me in. They kept their word, showed up this morning, trimmed both my wickedly overgrown oaks and..."
-    },
-    {
-      "author": "Mary Lou Basham",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend this company.  We've had tree work done here over the last 20 years, and this is the best experience ever.  And, this was an extensive job done in close quarters.  The teamwork of the crew was fantastic.  They are beyond pr..."
-    },
-    {
-      "author": "Jeff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: From start to finish, Jesse and his Crew did an absolute perfect job for us. They removed a huge oak tree that was dead and did a very professional job. His price was extremely reasonable and I recommend him if you want a great job!..."
-    },
-    {
-      "author": "Britt Phillips",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Recently, I had lightning strike one of my Laurel Oak trees around 7pm on a Sunday night during a thunderstorm. I called Jesse and he was at my house in 30 mins to assess the damage to my trees.  Right away he could tell the lightning strik..."
-    },
-    {
-      "author": "Rodney Posey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jesse called me right back, showed up that afternoon,  gave me a fair quote,  insurance, and came a couple days later on time as promised.   His team of trained safe professionals did an amazing job removing a 47 year old oak tree partly ha..."
-    }
-  ],
+        {
+            "author": "Jessica Fama",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can’t not give these guys a better review! I called Sunday morning to have trees trimmed before Hurricane Milton and they said they would fit me in. They kept their word, showed up this morning, trimmed both my wickedly overgrown oaks and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnWQMSo2gZd01OyIU_zUNw0pP4KqV28B0bigieaTxCredFgBp3Z6tZsD7GaHsVIORTgmMZRR16Fc6d4IoY0J5Pl5KqoI82bsDDHNTfQenIF-g05-wSNUV1nqgdoycwcTOm0wvknw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4hulzYKCpf_gKtBNktpvRQsTEwI92hMpgiJvPGGafefKiByNLl9Mc3iexko0n5tL_39JhrOZAEgtjt9P4mo4ZZY0dO_8Wd1W3wwYG6h4xA0XE-hpYfkkhwyLftM8f31oGHHi-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnvR2gt7wGvrXkmVnJN-V2YTjzi3mrVRhN4u3B-_VOnotySQrqtYKmqyI_r4ToTyUXsu87WUkX05a7oysBhMWuZR9NVl2HZ_5fWOf3VZZ_MUgoVC5Dp0t4IfCk0srvKIEX0dWrHQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfxq-ajzwERA4f7_oQ0fVfslv_nlLdRmHetCEWmlPIhBeSs97qRdXGEVukbiigAKgnlkdwY6GepKMiMpoIEJwmkWBw-YC8c0XLiAfgooLNlHaG1kLK_MUIPGAUt4RmK-PnW5A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mary Lou Basham",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend this company.  We've had tree work done here over the last 20 years, and this is the best experience ever.  And, this was an extensive job done in close quarters.  The teamwork of the crew was fantastic.  They are beyond pr...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdkPlvZiXVoJhf8y3CVMrY3HfI8hkXld4FHA4jiyMNPRHHfPcWgzFO6LV7fRAbOVDwBoVL08kNcuSbdTIjUgpwpi-SuX3d3aUlZGqPLPP7W6Ic6rkU80B0IC37HF5TCw7OAFiP1_w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc08auFTa8ltZQ_PI_zBg8uTDJZGsouRYOcR039FadU261BnbjZ-8-Fxhvllrpx2GWUzQjvGTkdkIGcASkkzmMKO39Z_xVrwNHNsHSz472IoVz5GPNHwWOALWp5lZmA-eC9KMKh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFx2v2LVIdE5bW4CpvUdHP3ZxwBUMFopi7lZ6IPfGm-R5pVJAcCup17gwTX1rZKNEo4Md4z_tevlcEE_0dP5bW3epJshMk9NhiW8rlOIJUgt9H1ulLUmjkr_2eOvQarDrpeNeY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesChgrtbEzM9XQQXY1ACOnP3VLyY8O17xG6d0T9Vc0eY_JTy9pMyX8wl6jubYyLjAiTmnZPwhuBhNvfq0F6C6xEm5_EtjqLv_wMeaMaZI43WmNCGD-DuikNfy1eA3axvq2M4xK=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: From start to finish, Jesse and his Crew did an absolute perfect job for us. They removed a huge oak tree that was dead and did a very professional job. His price was extremely reasonable and I recommend him if you want a great job!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBnpP-AcKvg_9AgGNCWYdX-TR9T4CqtgOVx48ZAtL7rYJ8QYVUF4Zar55XCNC6KnzPy3qukbSpHC4-Bl_ySJvPw3Xb9HuGmXiYClrOJatwfgHOhRr1hY1SexD1iI1v9_juhQBW=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf3wIctOnCGQ67wnGHoDvjmSwtnySJRrgPaPdwcWYCCMsvM-XaX2_CKZ3RwYwrjyILYjQHh6X_g_5hVdXMQ0yt0kPjmA4G-d6VrAQVx1NfV7pEmhcXsEwfFrNlaIz4dgE_Sw20oxg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeEGrFYX0A8DbXjRtViw42WzK4hjKRx9hjaPfo9b__TEwAqbqIlIM6WmeTLUidH9Bp1R4tXN3frLBiZPAL6bD7rDDNIl39KuZf3h_Lqq0iWQG6x6CSbbLiW4QvCGflgKRijSZTB=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Britt Phillips",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Recently, I had lightning strike one of my Laurel Oak trees around 7pm on a Sunday night during a thunderstorm. I called Jesse and he was at my house in 30 mins to assess the damage to my trees.  Right away he could tell the lightning strik...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeNhfouX09ln8EOFDEigU91n419CKuEx2ZVG9vI46s49BxTbsL38qDEO99RkxIgGH6-DqRTUNNpyGg6ZMDSgEMbImLNSXmMjNH4PAn66Ox85gU8ysutGK_26H2s0wUcHEMHADxV=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcxm1acWGPdYeLtFotJD0o3qNcCcJqCp1TvvBCGZBcApKEdlzfblqFFZ8uNiCGEwGzF-UFQKFOPm1ap5g6YepDYNCbqPTbRpDKYL7XrXiPtX-QmagLoVowXFoniXXUb28n6hzZ_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLekEgyYYMhtSnDyVs6ExUm65gwBhBxMlGigpBCM4wP6SDvD4y97rpiJxmd_kDYDMNhOSR9LJKbXaxqL1MlSg067M4l46RPevRDHyyn24COlRUhqD0sXcj664tym30lfR6lvwM8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgSkHjvQqULI9-gkxg1C91Ms3Pf4cpmXLrttShOlJPUwJVZcKGqFtQiMKwmR4Qi0i_X_t7iA7uZaecGVS1A1Q3F9vW6qgsBdPQ5iiLchyKCaMXTrz-JWYh4UBFI3vp1RRRGdk1bw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Rodney Posey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jesse called me right back, showed up that afternoon,  gave me a fair quote,  insurance, and came a couple days later on time as promised.   His team of trained safe professionals did an amazing job removing a 47 year old oak tree partly ha...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeq3Vz0wLkPLQc3AKz8VQeiC3l3jQq1R2q7ygr7dq1a1bXWFYcbl-psjgZPQweTNTJH3JwvEwjqjp5OolE5uCsocuEU9a7hu5MecH88H9qYuYkoZ4FVcOUgArnYGfkwjvI0q0L8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLckfmbGXpIlL4BX5EzV8RU8YQogcpliDjkA7LRKiqxAv5j6vtopCwQXJQXce4uPrXHb33cfe5IRi8mWeMphBOqQFHzp2TJlub2aPf7b2jHfiF35iHWcY_eY4D9Zd2ZdTSpnmdH70w=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

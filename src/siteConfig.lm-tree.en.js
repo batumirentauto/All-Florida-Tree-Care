@@ -32,21 +32,9 @@ export const siteConfigLmTreeEn = {
     "ctaPrimary": "Call Logan (918) 616-9466",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/lm-tree/photo_001_crop.jpg",
-        "label": "Storm Split Limb Extraction",
-        "alt": "Large snapped storm-damaged branch split from mature tree trunk onto residential lawn"
-      },
-      "sub1": {
-        "image": "/images/lm-tree/photo_003_crop.jpg",
-        "label": "Trunk Wound Flush Cut",
-        "alt": "Close-up of clean flush cut on storm-broken tree trunk with crew member in background"
-      },
-      "sub2": {
-        "image": "/images/lm-tree/photo_004_crop.jpg",
-        "label": "Manual Brush Hauling Sweep",
-        "alt": "Crew member carrying cut tree limbs across front lawn to haul truck"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigLmTreeEn = {
     {
       "name": "Driveway Canopy Elevation & Pruning",
       "badge": "Driveway Clearance",
-      "image": "/images/lm-tree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",

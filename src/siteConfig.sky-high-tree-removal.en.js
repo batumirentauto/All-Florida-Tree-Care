@@ -32,21 +32,9 @@ export const siteConfigSkyHighTreeRemovalEn = {
     "ctaPrimary": "Call Lead +1 253-797-3621",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/sky-high-tree-removal/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Sky High Tree Removal tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/sky-high-tree-removal/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/sky-high-tree-removal/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSkyHighTreeRemovalEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/sky-high-tree-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSkyHighTreeRemovalEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/sky-high-tree-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSkyHighTreeRemovalEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/sky-high-tree-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,69 @@ export const siteConfigSkyHighTreeRemovalEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Nancy Benton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dustin was absolutely terrific. He showed when he said he would and he and his team made quick work of a 100' coastal redwood I had to remove. It was interesting to watch their process. They were fast, efficient and cleaned up the space when they were done. All for reasonable price. So glad I found Sky High!"
-    },
-    {
-      "author": "Sarulathaa Kittusami",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "With the recent storm a Douglas fir\ntree crash landed on our roof. It was in a not so accessible area for cranes etc. we even had another company try to use the crane with no luck. We were devastated and wanted to get the tree off our roof before any further damage. We had many other companies who said might take 3-4 days or weeks to get someone to work and they all warned us about potentially causing more damage with the removal process.\n\nJosh idea of removal initially sounded like very simple and we honestly had doubts if it would work. He explained all our questions and he said he will prioritize our work given our situation and we decided to try.\n\nHe came with only 2 people 2 trucks and the tree was removed in 1.5 hrs including all the set up time. And with no further damage. He also covered the roof to prevent water leak, and he cleaned up the roof, our front and backyard. Very professional and hardworking. I would give them a 10 * if I could. I highly recommend them."
-    },
-    {
-      "author": "Valerie Freeman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I've never done a review on anything before, but we were so thoroughly impressed with these guys.  Our experience with Sky High Tree Removal has been incredible!  The attention to the detail of our yard as well as the neighbor's, and the service, professionalism, and reliability is unmatched.  Their preparation, performance, and then clean-up when the work was done was very much appreciated.  As a bonus, the office staff and tree cutters are attentive and pleasant to work with!  We highly recommend this tree cutting service company!!!"
-    },
-    {
-      "author": "Wayne Appler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Don’t even bother calling anyone else. Sky High Tree Removal is the absolute best there is. When you call, Stacy will get an estimator out to you fast. Joshua gave me a firm bid, stuck to it and exceeded my expectations. Using the best state of the art equipment, excellent safety\nprocedures and an extremely capable crew they made this difficult tree removal a walk in the park.\nI highly recommend them for any and all tree services. Thanks again Joshua!"
-    },
-    {
-      "author": "Todd J",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Unbelievably great experience with this company.  One of the hardest working, most proficient and efficient crews I've ever witnessed.  They did a fantastic job for me,  I'd recommend them without question. The one photo gives an idea of the size of the tree and the proximity to the house, the other shows the finished area after stump grinding.  Completed in a day and a half at a very competitive price.  Thanks Sky High!"
-    }
-  ],
+        {
+            "author": "Nancy Benton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dustin was absolutely terrific. He showed when he said he would and he and his team made quick work of a 100' coastal redwood I had to remove. It was interesting to watch their process. They were fast, efficient and cleaned up the space when they were done. All for reasonable price. So glad I found Sky High!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHfLC3VPdW7MeDyzHGSlbKbT3OjkC-tGOllhmCjwtWo69AeUN6ptwwgWL1YAYUatlXRA-7rU_5uKqq83E1F4xNXQah4z9-Y-esm8CVP9yOEDlbjlSUy2r5_xV2dTqDjtjxBxPu69_78BDM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbkBBxnezBuOJCNsOjTLI_g8P7rtJSLSYXhc0M4__CLFR_skq_iDXLZeXy5pjmBrgq0IogjJCkRSjozxe5BxAf24Siq5r5p1FmVPEVBmkAYSbkQ9s3Q1ZPTBaZ2rxN-wT6o0ie9yEM--sb=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sarulathaa Kittusami",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "With the recent storm a Douglas fir\ntree crash landed on our roof. It was in a not so accessible area for cranes etc. we even had another company try to use the crane with no luck. We were devastated and wanted to get the tree off our roof before any further damage. We had many other companies who said might take 3-4 days or weeks to get someone to work and they all warned us about potentially causing more damage with the removal process.\n\nJosh idea of removal initially sounded like very simple and we honestly had doubts if it would work. He explained all our questions and he said he will prioritize our work given our situation and we decided to try.\n\nHe came with only 2 people 2 trucks and the tree was removed in 1.5 hrs including all the set up time. And with no further damage. He also covered the roof to prevent water leak, and he cleaned up the roof, our front and backyard. Very professional and hardworking. I would give them a 10 * if I could. I highly recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcaTCil6zX4Y5vy26zNTVQ6b47l9Fa7N3GaTsfkOWQsLkYc-D6y9cLXoVBltmidQ8qkd0fKP3x8z6FC0zIVmTtPoqk7kNsRmt5rUZrzBOc-X7RhIsE1n9d07mCUVQvvvPPTxzpJ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Valerie Freeman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I've never done a review on anything before, but we were so thoroughly impressed with these guys.  Our experience with Sky High Tree Removal has been incredible!  The attention to the detail of our yard as well as the neighbor's, and the service, professionalism, and reliability is unmatched.  Their preparation, performance, and then clean-up when the work was done was very much appreciated.  As a bonus, the office staff and tree cutters are attentive and pleasant to work with!  We highly recommend this tree cutting service company!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLehSwCFdB4c9RvTnrvKt0eNd6dQBtQzokUzGJdFrxkRKdKtRV3euSHNN5YWg4Ph-dvq2AtcPErLRmKGV8B4jbi5kT-N6z1nXWHJPl3upyK2ymSoFtsnellXgnwyYyWKeqTBJAkI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfTYm2gId3GEMwJ6G7hmu6jxAR88qQTHqwv_JRp6gYVdNhyVqSS1eqkgP-BHs5xEFjF8aFC5-ohb1tQqPi51jECSbcC_2O-xXy2IkY9nn92SmfAYpFwdsWsIYUGhg-fhThIxCg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe-M7OAMH3CIa5K5puN3IXv3zh55fvazvzQBVyAVwhOijt923noy3uaGiHMrfvCeWrdY_Jj10b2oOmwS4VF6nPHdYZCL0ZhFxrfcElpfgcMA9I8B1fvUBSkdOsH-y3JCP9RXZjzvg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Wayne Appler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Don’t even bother calling anyone else. Sky High Tree Removal is the absolute best there is. When you call, Stacy will get an estimator out to you fast. Joshua gave me a firm bid, stuck to it and exceeded my expectations. Using the best state of the art equipment, excellent safety\nprocedures and an extremely capable crew they made this difficult tree removal a walk in the park.\nI highly recommend them for any and all tree services. Thanks again Joshua!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfMbjySYnI7zrZd1X-5Cl-k6JuRwijiYZbMJTegROgV568dMnZycpYTw04pBDbZW3k8lFXvk_BST3cCGPbU7nESWX0_tfRQfnlo1rwIQZB1oF2tfg5zasDEb6sDqmtT4csIfY0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcNriIdtybsAQib0UfE12_kD1KgUhfp3Yy1rS8JCaXUzji9YoAWqiH4uQEzGxV4gsRjEXwjIRL_JUgTW76faFKZf0_OSDCsgPJLfLmsVoZyqlKk8DJntmZkhHtmWIlV04Dw3flG1g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeTTtuXghSSpi5sVPGCW77Sf4KjKdJiqGCvrNaHXB5ZP8HRcvWGHjqiZ2wkgEv-DH-8C-nNpIGmsqTbuQUeovCrAc4PnC8ffy693Sj1C81HidIc53BrGkJ-2qKxGRlN-o_tYtwn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuN5LhfIXbxpraJMIANCu7pDFZBkS3yGWPBBsIUNnBwNOEEoW9B0LByb5aDjS990LQdc0fEejNBv1ksxYZbMz2LCUHHU8MtVfEtr87BpC-WSbrZX3iqfxWYb097T7wJSp1Jbyb5w=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Todd J",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Unbelievably great experience with this company.  One of the hardest working, most proficient and efficient crews I've ever witnessed.  They did a fantastic job for me,  I'd recommend them without question. The one photo gives an idea of the size of the tree and the proximity to the house, the other shows the finished area after stump grinding.  Completed in a day and a half at a very competitive price.  Thanks Sky High!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdMI-E0dkgoqCN2zsn9kKT0yQtyerxlqhhpi8xxxRUGT_8uUslyJrtK-kJwi-93irPTe-DyfeNu047hImDC2IF5rVeePpItE-JoR8nb8Ut0wJbkAn7N903iPvra7kRnal0PjIYAyw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKobp75dWlIVsc9XGAjvKt1JVFgFGYKqQKLJ9p5zB1cHtG-4O8fAtBxXBctUtklttNxIJ_sK6q9-DsmBym6v_258k9HNwF6GtjEWyeRY4hNR7QujiVtuhxWUQCcyw7aH2mCsgD=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Auburn (Central Depot)",

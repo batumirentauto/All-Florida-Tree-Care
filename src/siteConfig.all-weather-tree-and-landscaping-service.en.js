@@ -32,21 +32,9 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
     "ctaPrimary": "Call Lead +1 813-787-8206",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "All Weather Tree and Landscaping Service, Inc. tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/all-weather-tree-and-landscaping-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/all-weather-tree-and-landscaping-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,57 @@ export const siteConfigAllWeatherTreeAndLandscapingServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kelly Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jefferson and the All Weather Team were great! I asked them to take a look at trimming trees while they were removing a tree from my neighbors and they came right over gave me a quote and were helpful, understanding and professional. Worked with me while I was out of town and communicated throughout the entire process.\n\nHighly recommend!"
-    },
-    {
-      "author": "Susan Guttke",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Update 6 years later... 5-28-2026\nHad All Weather Tree and Landscape cut down a dead oak in my back yard this week and once again did a great job.  It was a very tight area but they are so experienced there were no issues at all.  I used them a few years ago and my review below hasn't changed at all.  I actually got 4 quotes this time and their price was very good.  2 other tree companies told me I would need a crane which would have been a ridiculous price,  but All Weather tree service managed it perfectly.  They hauled everything off and even cleaned my pool area and lanai.  100% recommend them!\n\n6-27-2020\nMy neighbor and I had 2 trees cut down by All Weather Tree & Landscaping.  I highly recommend this company.  They were all very professional and finished the job with no issues at all.  Past experience with tree services has been awful so such a pleasure to find a company with high standards.  Clean up was phenomenal too!"
-    },
-    {
-      "author": "Reiking Pujols",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tina and her crew from all weather tree and landscaping are the absolute best company we have dealt with as far as taking care of our trees and landscaping for the past 10 years.\n\nWe strongly recommend them because of their professionalism and how easy they make the whole process. Not to mention how great they clean up after themselves. Thanks Tina!!!!"
-    },
-    {
-      "author": "Shawn Casey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend All Weather Tree and Landscape- the crew worked hard and even rain storms didn’t slow them down. They did a great job overall!"
-    },
-    {
-      "author": "Derrick Reynolds",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "All weather tree and landscaping did an awesome job of cleaning up my trees and helping us to get our view of the lake back. The owner of the company came out and gave us a sold quote and matched it by doing an incredible job. They did everything we asked and more. I highly recommend this company if you need tree service."
-    }
-  ],
+        {
+            "author": "Kelly Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jefferson and the All Weather Team were great! I asked them to take a look at trimming trees while they were removing a tree from my neighbors and they came right over gave me a quote and were helpful, understanding and professional. Worked with me while I was out of town and communicated throughout the entire process.\n\nHighly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0RPkLrUBG11_alHbydrpVZ77SoRyozZwDBh1MGeOaNxACflEbMIZ1ywaUU1MyZtn52jWRKPsQozReg7zHzt_9AGlC4l43grZ2hX86jMVz-0ZUQRtgNlvIWZTlOt7vHrHRKyVS8KxX07g=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Susan Guttke",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Update 6 years later... 5-28-2026\nHad All Weather Tree and Landscape cut down a dead oak in my back yard this week and once again did a great job.  It was a very tight area but they are so experienced there were no issues at all.  I used them a few years ago and my review below hasn't changed at all.  I actually got 4 quotes this time and their price was very good.  2 other tree companies told me I would need a crane which would have been a ridiculous price,  but All Weather tree service managed it perfectly.  They hauled everything off and even cleaned my pool area and lanai.  100% recommend them!\n\n6-27-2020\nMy neighbor and I had 2 trees cut down by All Weather Tree & Landscaping.  I highly recommend this company.  They were all very professional and finished the job with no issues at all.  Past experience with tree services has been awful so such a pleasure to find a company with high standards.  Clean up was phenomenal too!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcSTsZ1xEtSnwvjx6R3DuVfc5rWuNMz3DcVlAaYgDv4c4CRGVNEfXFAF3j-1iPvTOvZ45I9DCz5a5Ybp1SDsLIy8jkUT9DA_VsPvXoU33XPe2i5huHdutdEs1cWPYrARpdltnCBjxY3NITE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLejqSAFdzOqZBCcNTn2kUZm_zJy80J_NasuiS0ph2zSbU8ZXb2kBaL2GB_iXQ2WCCWdIfJtdDU7idQMy8F73kNDeqJoZBiHirCxq5L7KNrZW0V6DnDO1nf40BeQC218uRCqbcB_-McrrnCp=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Reiking Pujols",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tina and her crew from all weather tree and landscaping are the absolute best company we have dealt with as far as taking care of our trees and landscaping for the past 10 years.\n\nWe strongly recommend them because of their professionalism and how easy they make the whole process. Not to mention how great they clean up after themselves. Thanks Tina!!!!"
+        },
+        {
+            "author": "Shawn Casey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend All Weather Tree and Landscape- the crew worked hard and even rain storms didn’t slow them down. They did a great job overall!"
+        },
+        {
+            "author": "Derrick Reynolds",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "All weather tree and landscaping did an awesome job of cleaning up my trees and helping us to get our view of the lake back. The owner of the company came out and gave us a sold quote and matched it by doing an incredible job. They did everything we asked and more. I highly recommend this company if you need tree service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXmDPqewvnM5ygLyxXvwo1lcez8fvZErcuqqH4cLzHzxAQWd328RR11J-lAFauKusvhAH57duPybmKWKBOd-MVsqUhm4lFgCOZ2AjicjLfQ9naq3cVoyWCGDkg920Mzog2sVu8-A=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Tampa (Central Depot)",

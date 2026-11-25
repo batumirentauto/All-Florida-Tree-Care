@@ -31,21 +31,9 @@ export const siteConfigFurstieRu = {
     "ctaPrimary": "Позвонить ((734) 637-6297)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/furstie/photo_001_crop.jpg",
-        "label": "Самосвал и погрузчик на выезде",
-        "alt": "Красный самосвал и тракторный прицеп на погрузке древесных остатков"
-      },
-      "sub1": {
-        "image": "/images/furstie/photo_002_crop.jpg",
-        "label": "Работа с автовышки в кроне",
-        "alt": "Оператор в люльке автовышки срезает ветви в кроне дуба возле дома"
-      },
-      "sub2": {
-        "image": "/images/furstie/photo_006_crop.jpg",
-        "label": "Чистый двор после обрезки",
-        "alt": "Двухэтажный дом и убранный освещенный солнцем газон после кронирования"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigFurstieRu = {
     {
       "name": "Расчистка дороги от упавшего дерева",
       "badge": "Срочная ликвидация завала",
-      "image": "/images/furstie/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigFurstieRu = {
     {
       "name": "Открытый проезд после распила",
       "badge": "Полная проходимость",
-      "image": "/images/furstie/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigFurstieRu = {
     {
       "name": "Распил и погрузка тяжелых бревен",
       "badge": "Погрузка трактором",
-      "image": "/images/furstie/photo_010_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

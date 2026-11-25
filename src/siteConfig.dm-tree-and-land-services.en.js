@@ -32,21 +32,9 @@ export const siteConfigDmTreeAndLandServicesEn = {
     "ctaPrimary": "Call Him +1 478-607-0458",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dm-tree-and-land-services/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "D&M Tree and Land Services, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/dm-tree-and-land-services/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/dm-tree-and-land-services/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDmTreeAndLandServicesEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/dm-tree-and-land-services/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDmTreeAndLandServicesEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/dm-tree-and-land-services/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDmTreeAndLandServicesEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/dm-tree-and-land-services/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigDmTreeAndLandServicesEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Phil Herron",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I would highly recommend this company. I would rate them 10 out of 10!i We hired Dustin and his company to remove at least 30 trees, remove the stumps, remove and level the dirt from the area where the trees were removed, stump grind the stump by the septic tank, and add a gravel driveway. During the job he took the time to make recommendation to make the finished product look better and addressed how he was going to make sure we had the proper water runoff when it rained.\nWe plan on using his company to sod the yard in the spring."
-    },
-    {
-      "author": "Cleve Cunningham",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "D&M Tree and Land Service people did an amazing, awesome and excellent job for our Rivoli Condominiums Association in taking down this very large pine tree.\n\nThey trimmed up a few limbs of the adjacent large oak tree so that they could “rope drop” the large pine tree limbs down to the ground without harming the smaller trees and ground cover, and then cut down from the very top to the bottom, three to four feet sections of the main pine tree all the way to the ground.\n\nOnce finished, they saw cut the tree trunk close to the ground.\n\nThey hauled off all of the limbs and big sections of the pine tree and then used blowers to clean up all the saw dust and small stuff.\n\nThey also moved many of the ground walking pavers so they could get their equipment down to where the tree was located and they re-placed the pavers back in place.\n\nThe several neighbors located within this particular building were all so very thankful and appreciative for their great work and for the clean up afterwards.\n\nHighly recommend Dustin and his excellent crew! They have been doing this kind of work well over 20 years and it shows off very well.\n\nThank you D&M!!\n\nCleve Cunningham\nRivoli Condominiums, Board President"
-    },
-    {
-      "author": "Andy Milani",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "D&M was incredible. Their guys were literally surgeons. Every limb was cut with precision to avoid damaging our fence or structures. Well done!"
-    },
-    {
-      "author": "Sarah Shea",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I couldn't be happier with the service we received.  They arrived early, worked efficiently and handled the entire job professionally.  All the trees, stumps and yard debris was removed safely without causing any property damage.  They left the property looking clean and well maintained.  They were friendly, hardworking and co.mitted to doing the job right.   I highly recommend this company."
-    },
-    {
-      "author": "macy vaughn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Dustin was very easy to work with! Him and his crew did a great job cleaning up throughout the whole process. I really appreciated the professionalism and kindness that was shown. After calling several tree companies D&M was the best priced and was able to start the job within a week. I was very happy with the work! I will be using them again in the near future."
-    }
-  ],
+        {
+            "author": "Phil Herron",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I would highly recommend this company. I would rate them 10 out of 10!i We hired Dustin and his company to remove at least 30 trees, remove the stumps, remove and level the dirt from the area where the trees were removed, stump grind the stump by the septic tank, and add a gravel driveway. During the job he took the time to make recommendation to make the finished product look better and addressed how he was going to make sure we had the proper water runoff when it rained.\nWe plan on using his company to sod the yard in the spring.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSnGYULmvm8G_w09TeNVu5kcaMpoGeCAHvNt72mLwcmcOaFlmkSdoPWZFstmtkjibAlTKFhBng68dV1qhZIR-2CPZfghM1UCmJK46yCngkYGaLHOrkUoya7YTxhOqEt-iNw5DqVpGthyAa=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemBiK0QkEUvA8l4BhntopRTNFLatBprqroSruJHc4QtKbJLgYrb97QRD3E44bWpcnR21_09RCSqZhkct_gD9f6aAuMrfhPhtfgHHuuewsyXK0uufejoZhuIgsQz4cTAxZD55r5oWEe1ENl=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0ndilFxvvNQqVieuIFgqzMauDNdyRL0oxOJXf0NxOfzEb_RTCjvTRDHRrnI4ggDArs06zG9geK3sTjYnSORgFt2veOgoGZUXf4BmqgKj0SAP64ZI2OnZyFxtnZ0Zzy6nKvkV4c82k3vpq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcP8Bk-52sBiqLZDlgUAmHj8Gj2RJwFFTho0Gum-dvk38vbpNYrdquejdRX2s1xfFTIdG5MdrOFvxeVAuAgo1ZdIhQOQHHHJ_5W3ff7qpdJQ7FcnEZc6pa8BWGJpQC3DccHCbfCNxqcWp-y=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Cleve Cunningham",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "D&M Tree and Land Service people did an amazing, awesome and excellent job for our Rivoli Condominiums Association in taking down this very large pine tree.\n\nThey trimmed up a few limbs of the adjacent large oak tree so that they could “rope drop” the large pine tree limbs down to the ground without harming the smaller trees and ground cover, and then cut down from the very top to the bottom, three to four feet sections of the main pine tree all the way to the ground.\n\nOnce finished, they saw cut the tree trunk close to the ground.\n\nThey hauled off all of the limbs and big sections of the pine tree and then used blowers to clean up all the saw dust and small stuff.\n\nThey also moved many of the ground walking pavers so they could get their equipment down to where the tree was located and they re-placed the pavers back in place.\n\nThe several neighbors located within this particular building were all so very thankful and appreciative for their great work and for the clean up afterwards.\n\nHighly recommend Dustin and his excellent crew! They have been doing this kind of work well over 20 years and it shows off very well.\n\nThank you D&M!!\n\nCleve Cunningham\nRivoli Condominiums, Board President",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcCl_u7JtRAZ_wYFa7qCVb4hP5vASPRX1qmLbxcdn9fzvvsl6u6181Ct0qP2o_WJA0iTcQWGhbHaSodOwj17wcGLKeOZ6KM7X96x6yQnunKWrUdpySn1F2uI-j1PjX14ylYcnd73AyotKik=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdhR6EeN77z1uCKwyLHsa81-W6g0APGFOz1KYJ9xjd3BX1MXrAXrWVazoP6EhjWW25W-GSlw-8YoRdf6qh-hMJxSCIhXf-YmRrAby7G7rros5NR62_Sgonk9Jpadzu0c8oxHeXAiu0mqmhf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcWMlAF8J5wblkMkRPqRk_r8YGoa1e94Y5fgsUsxp98dEj8Oj1ZnWvH18IGEU82AaZctDkBkESV9XUuddWY8eY4sZBLWR7sM8O3MzorfOgVuIQfyrDDV-6mEcFZjpIotZSP2pqD-XGvkZTL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Andy Milani",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "D&M was incredible. Their guys were literally surgeons. Every limb was cut with precision to avoid damaging our fence or structures. Well done!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcInAWhs46SJG5258o_xQ1hcwIU0Fdhd5wPygMy44X7DKo0vJEGV2Hr-pazQKytCEQ0NpamQj1CQauAzMnELdkm-lBEqXU3yKyl0EKqumt_CL_LhSktDFfZYUl5lsyj6ET8hhKcAMww-cUC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdH1L-AbkNZdm9d3ymjJUZOemuKz1hM0n8ekf0aSrBWqi1ipEvsWoK5WDm6TSSAIEt1DNL-BFKdbBMYu5mK5fahlm7JW_xODmiUhc1yEiIEzZjjWWW4SUQZCg3bhifisVd2dG4aSAObcmIa=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1WuRfSkJMHb6rcw5uMrNG1nhUB_zTanhWltsHs3rzVWMN-2u11D9KG2aeNNGwN5od84ra2B_yg93Iz7fDh38nbOpgkiitP4T9YXKaQbWfj_JTwSa16gsUhwoaTzR6k2kis4ORWEnNc_M=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVhLIKTlj-vwcfQmctBtCmv1Cf5alvOCcsEA-h4bBoVVp5adeR4D0KLsIeWRmF0iYk2RV21x_ypAb_6aTzBeckSO9x5WpnU3IpEHyc11RzeQkNB38Mhu-4McWYV7_6sp40QLqzbc40Zyw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Sarah Shea",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I couldn't be happier with the service we received.  They arrived early, worked efficiently and handled the entire job professionally.  All the trees, stumps and yard debris was removed safely without causing any property damage.  They left the property looking clean and well maintained.  They were friendly, hardworking and co.mitted to doing the job right.   I highly recommend this company."
+        },
+        {
+            "author": "macy vaughn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Dustin was very easy to work with! Him and his crew did a great job cleaning up throughout the whole process. I really appreciated the professionalism and kindness that was shown. After calling several tree companies D&M was the best priced and was able to start the job within a week. I was very happy with the work! I will be using them again in the near future."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

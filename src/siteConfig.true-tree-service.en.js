@@ -32,21 +32,9 @@ export const siteConfigTrueTreeServiceEn = {
     "ctaPrimary": "Call Lead +1 305-842-3581",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/true-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "True Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/true-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/true-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTrueTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/true-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTrueTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/true-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTrueTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/true-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigTrueTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "sheldon philp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I cannot recommend True Tree Service highly enough!  From the very first contact, their team was professional, responsive, and completely reliable.\n\nWhat truly set Greer and Drake apart was their extensive knowledge and consultative approach. They took the time to explain various options in detail and patiently answered all of my questions, helping me make the best decision for my property.\n\nThe quality of the work performed was top-notch, and the crew left the yard spotless. Best of all, their services were delivered at very reasonable prices."
-    },
-    {
-      "author": "Ken Sein",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Good afternoon Greer &Drake,\n\nJust wanted to express my extreme gratitude and deepest appreciation for the the team on pruning the tree this past Tuesday!\nYour team, lead by Ben were super and worked flawlessly and followed Drake's instructions with surgical precision.\nThe tree looks magnificent and truly opens up for the bamboo now!\n\nAgain, thank you from the bottom of my heart for doing this for me🙏\n\nSincerely\nKen & Anna\n3517 Crystal View Ct, Miami, FL 33133"
-    },
-    {
-      "author": "Kim Martinetti",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "True Tree Service did extraordinarily excellent work on our complex tree trimming project! ISA certified and PMT licensed qualifies true tree for any and all tree trimming jobs. True Tree provided highly specialised knowledge and insight to gain county and state approval for our environmentally sensitive tree trimming job. Top quality and value. We will never go anywhere else for all of our tree trimming needs."
-    },
-    {
-      "author": "B B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "True Tree Service went above and beyond to ensure that my mango trees were well manicured and it was all done with the lens of an educated, trained, and professional arborist that truly cares for the trees. This is unlike the local landscaper that just chops the tree limbs with no knowledge of how to cut trees so they grow in good health. I was shocked to see the regrowth from the previous company had rot at the end of the limbs and cuts that never went all the way thru creating open wounds.\n\nDrake at True Tree Service came to my house for a free estimate days after my initial call and I was impressed by his well rounded knowledge from his tree expertise to general agriculture, naming of plant varieties, orchids, gardening, and regenerative farming. He is a professional well trained arborist that knows how and when trees need to be trimmed. He is honest and fair too!\n\nHe got the job done quickly and included me in the process so I understood what was happening. It was cool to watch him use a harness to climb the trees and cut limbs from the center within the tree to get the top growth.\n\nI now understand why spending the extra money on a boutique tree service makes it worth it to ensure my mango trees are well taken care of so they can grow healthy for years to come, and continue to harvest fruit year after year! I recommended True Tree Service to all my friends and family in Miami and thought I should write them a nice review here too for everyone to see. For the love of trees.....I hope more people choose to hire an arborist over an unknowledgeable landscaper."
-    },
-    {
-      "author": "John Anderson, REALTOR",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is a good little company. We were very impressed with their demeanor, excellent tools and equipment, and performance. They take service seriously. Truly nice people to work with. Big surprise to us was that they used all electric saws pretty much. So much more quiet than what you expect. They managed to remove an absolutely gigantic tree that was threatening our house. We tried for years to save the tree but it got to the point where it's just going to crack the foundation or fall in a major storm. It got to the point we couldn't get insurance because of the tree hanging over the house. So the monster tree unfortunately had to be removed. We of course have tons of other trees and excellent canopy. We were glad that we worked with such a solid company that cares about the people they take care of. They were also open to discussing our wants of conservation. In the end solid all around and reasonable in cost.  The guys were so pleasant to have around and effective in their work we tipped them well."
-    }
-  ],
+        {
+            "author": "sheldon philp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I cannot recommend True Tree Service highly enough!  From the very first contact, their team was professional, responsive, and completely reliable.\n\nWhat truly set Greer and Drake apart was their extensive knowledge and consultative approach. They took the time to explain various options in detail and patiently answered all of my questions, helping me make the best decision for my property.\n\nThe quality of the work performed was top-notch, and the crew left the yard spotless. Best of all, their services were delivered at very reasonable prices."
+        },
+        {
+            "author": "Ken Sein",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Good afternoon Greer &Drake,\n\nJust wanted to express my extreme gratitude and deepest appreciation for the the team on pruning the tree this past Tuesday!\nYour team, lead by Ben were super and worked flawlessly and followed Drake's instructions with surgical precision.\nThe tree looks magnificent and truly opens up for the bamboo now!\n\nAgain, thank you from the bottom of my heart for doing this for me🙏\n\nSincerely\nKen & Anna\n3517 Crystal View Ct, Miami, FL 33133"
+        },
+        {
+            "author": "Kim Martinetti",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "True Tree Service did extraordinarily excellent work on our complex tree trimming project! ISA certified and PMT licensed qualifies true tree for any and all tree trimming jobs. True Tree provided highly specialised knowledge and insight to gain county and state approval for our environmentally sensitive tree trimming job. Top quality and value. We will never go anywhere else for all of our tree trimming needs.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesOMvQ-2MKlJodUkUWAVMuLI0atFWsXYcefRnkNCD2wdK0n9tLRHu_FEUhHcJJTxkDPZXM0Gw0B-UjmNR_IXQR6OhXgLHaUF4yKK7_R-JFLIxbuK9gRqDU4qHlWu23SpYnbCj_Mg=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "B B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "True Tree Service went above and beyond to ensure that my mango trees were well manicured and it was all done with the lens of an educated, trained, and professional arborist that truly cares for the trees. This is unlike the local landscaper that just chops the tree limbs with no knowledge of how to cut trees so they grow in good health. I was shocked to see the regrowth from the previous company had rot at the end of the limbs and cuts that never went all the way thru creating open wounds.\n\nDrake at True Tree Service came to my house for a free estimate days after my initial call and I was impressed by his well rounded knowledge from his tree expertise to general agriculture, naming of plant varieties, orchids, gardening, and regenerative farming. He is a professional well trained arborist that knows how and when trees need to be trimmed. He is honest and fair too!\n\nHe got the job done quickly and included me in the process so I understood what was happening. It was cool to watch him use a harness to climb the trees and cut limbs from the center within the tree to get the top growth.\n\nI now understand why spending the extra money on a boutique tree service makes it worth it to ensure my mango trees are well taken care of so they can grow healthy for years to come, and continue to harvest fruit year after year! I recommended True Tree Service to all my friends and family in Miami and thought I should write them a nice review here too for everyone to see. For the love of trees.....I hope more people choose to hire an arborist over an unknowledgeable landscaper.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdmzINYy5wvf_g6QQuY33sQpBrJEnA93MOWje_5a7KfSb85aphK5yKGzlDhroYggzjSE6muLjFgF02CPlKWSA9D6DCztM-6AWmk0R6zlcWuxD6B7H-RFk0ageRNuaOoKgAcb6ong=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "John Anderson, REALTOR",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is a good little company. We were very impressed with their demeanor, excellent tools and equipment, and performance. They take service seriously. Truly nice people to work with. Big surprise to us was that they used all electric saws pretty much. So much more quiet than what you expect. They managed to remove an absolutely gigantic tree that was threatening our house. We tried for years to save the tree but it got to the point where it's just going to crack the foundation or fall in a major storm. It got to the point we couldn't get insurance because of the tree hanging over the house. So the monster tree unfortunately had to be removed. We of course have tons of other trees and excellent canopy. We were glad that we worked with such a solid company that cares about the people they take care of. They were also open to discussing our wants of conservation. In the end solid all around and reasonable in cost.  The guys were so pleasant to have around and effective in their work we tipped them well."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Miami (Central Depot)",

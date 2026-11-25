@@ -32,21 +32,9 @@ export const siteConfigWausonTreeServiceEn = {
     "ctaPrimary": "Call Walt +1 214-450-8720",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/wauson-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Wauson Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/wauson-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/wauson-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWausonTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/wauson-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWausonTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/wauson-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWausonTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/wauson-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigWausonTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sheldon Vicknair",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We needed to have a dead tree removed, a Bradford Pear trimmed, two Oaks pruned, and several Crape Myrtles trimmed to keep them off the roof of our house. Walt was punctual, communicative, and did an excellent job. He came out immediately to provide a quote, even though I wasn't home, and was able to assess the situation from the alley and front yard. He sent the quote to me for review promptly.\n\nWe had several companies come out to give us quotes, and ultimately decided to go with Wauson. The price was great, and the end result was fantastic. Walt's crew was friendly, checked in with us while they were here, and did an amazing job. They even used our pool net to clean out the trimmings that fell into the pool. I would 100% recommend Wauson Tree Service."
-    },
-    {
-      "author": "Mike A.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Wauson Tree Service just completed a large job trimming our many trees on our property. They did an excellent job and completed the job quickly at a very reasonable price. I would highly recommend them if you are in the Allen, Plano area."
-    },
-    {
-      "author": "Carey Dula",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My neighbor across the alley had some very large live oaks trimmed beautifully by Walt Wauson and his team and said he would use no one else, so when I needed my three red oaks cleaned up, I called Walt. He went by very quickly and called me with his quote, which was very fair.\n\nOn the planned date Walt and his crew showed up and within about 15 minutes there were three men climbed up into the trees.\n\nThey thinned them out beautifully letting in more sunlight so my new St Augustine sod would grow. They brought their own chipper and took away every bit of waste — a wonderful cleanup.\n\nAlso, I have some delicate landscaping in my backyard as well as hanging lights. I offered to move some things, but they said they would tie off branches and lower them down so I didn’t need to do that. They even swept up my roof.\n\nI am super-pleased with their work and cannot say enough good about them.\n\nIn less than three hours from their arrival, they had everything finished and beautifully cleaned up, too.\n\nUse Wauson — you won’t be sorry."
-    },
-    {
-      "author": "Patriot Loves",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Walt came to do the estimation quickly and can answer all your questions that you might have. I've heard great things about his work from an acquaintance. He will definitely be on our top list for future reference. If you're looking to book an appointment with him, please don't hesitate. His schedule fills up quickly!"
-    },
-    {
-      "author": "weizhen li",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have been using Wauson Tree Service for many, many years for the annual or bi-annual pruning of two large live oak trees on my property. Every time, the experience has been excellent.\n\nMr. Wauson personally comes to the work site to discuss the pruning and trimming plan with me, which I really appreciate. The team is highly professional, knowledgeable about city codes, and clearly knows how to do the work correctly and responsibly.\n\nSafety is always a top priority—the crews have proper safety measures in place while working. Once the pruning is completed, they do a thorough job cleaning up the front yard, leaving everything neat and tidy.\n\nI highly recommend Wauson Tree Service for anyone looking for reliable, professional, and experienced tree care."
-    }
-  ],
+        {
+            "author": "Sheldon Vicknair",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We needed to have a dead tree removed, a Bradford Pear trimmed, two Oaks pruned, and several Crape Myrtles trimmed to keep them off the roof of our house. Walt was punctual, communicative, and did an excellent job. He came out immediately to provide a quote, even though I wasn't home, and was able to assess the situation from the alley and front yard. He sent the quote to me for review promptly.\n\nWe had several companies come out to give us quotes, and ultimately decided to go with Wauson. The price was great, and the end result was fantastic. Walt's crew was friendly, checked in with us while they were here, and did an amazing job. They even used our pool net to clean out the trimmings that fell into the pool. I would 100% recommend Wauson Tree Service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXFurJ0ndrctmcKq9hN9GPASqRXDNAy355ZAiiAebtBt909tx4x9VfPk_mfKgWKoqlo8cmvT0Z-4ti6Fb5Hcpbppbse_au4l1iA85BSG81WatLaiYV6LX3Tyc6VGghdKa0UiKKBQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcpxvWdP7ZhyXoZBSJCO5pKIgMf8Fss3e3WvYWSZNhHfzTUJF-kptVsLyGQOVuoP_gwvgVgf2SAGaz5mUCrcUCbknKliVDS05bHLMU9OWJK4zxIg5WbziUZEs95g-XTRnQirEcfOw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeQ3L1n4tHiblGt5yCMbtiOP52L0K41uUxVS-BYgY6EoH8A9mfo-B1fsMX4GYQjTIqZ6ozyoMjmH0bLyGtRRKGbpbz0wjBR7qmRyuR1Xea5beUQdKhoOFTjeVcjZQTTqA90s1E_=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_0n7kp0Va3_cNiGYl1dJnqc6zYiP1n5lOzyC553jwwJ4DAqp-WGPKCRaHmX49Hhaa1tcr8EE8MH7zkPMkbvG-qerXYunUNpuvtvg6FLD3jdybuR2XwDqChpYINd8R_XDiGhZC4g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mike A.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Wauson Tree Service just completed a large job trimming our many trees on our property. They did an excellent job and completed the job quickly at a very reasonable price. I would highly recommend them if you are in the Allen, Plano area."
+        },
+        {
+            "author": "Carey Dula",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My neighbor across the alley had some very large live oaks trimmed beautifully by Walt Wauson and his team and said he would use no one else, so when I needed my three red oaks cleaned up, I called Walt. He went by very quickly and called me with his quote, which was very fair.\n\nOn the planned date Walt and his crew showed up and within about 15 minutes there were three men climbed up into the trees.\n\nThey thinned them out beautifully letting in more sunlight so my new St Augustine sod would grow. They brought their own chipper and took away every bit of waste — a wonderful cleanup.\n\nAlso, I have some delicate landscaping in my backyard as well as hanging lights. I offered to move some things, but they said they would tie off branches and lower them down so I didn’t need to do that. They even swept up my roof.\n\nI am super-pleased with their work and cannot say enough good about them.\n\nIn less than three hours from their arrival, they had everything finished and beautifully cleaned up, too.\n\nUse Wauson — you won’t be sorry.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2LrrQ1B-e_vFtHW0d8GV7RlNCttpb8S9h9T2ZCYtVF3a8SHzzpLjVVYkQcc7U1odpHhw-93eLGNc2Z7Ts-H9zvgJduptFjs5vQHtQhUN7UMBeaLaqUv3SF4Nl2B-mv9LsE5I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcg_Q0-qZox_l-ndntttHDF_v6cbuki-aGWraLpLyBl8BsGJV-UM3tJ0Guy0LdM8sgXZlwry9MWSFfTecpnJYbrwSmb6JgWxomYJ6ECFOpkA1GiDqDeLqDyVS-ZMoHJMkb83c3FQQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfuPpolcRsI_pD4bvrRHQiudPh2UxNWOuCLQoFt4-cKMK9ndPUAOnwA1V_bwLxmLw2OWlaGHeSxoCgSBppsOFawpsYKDJO-SOD-fKbz0tuTwrblvOWP-82vGOVG7U1TfdYjlYJm=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVvq-_bxkDH0iiykG0D5-8A07RBcFfI-yz5eA5_mHPJKps7TYf_SlwXKdEvywGglLs_hOeprDKDrZiF3BYwbtB2Qq5RlVpTrokBHp0UcP0ITWBBimb80vHtSmIvxJmoLUwPpZz8g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Patriot Loves",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Walt came to do the estimation quickly and can answer all your questions that you might have. I've heard great things about his work from an acquaintance. He will definitely be on our top list for future reference. If you're looking to book an appointment with him, please don't hesitate. His schedule fills up quickly!"
+        },
+        {
+            "author": "weizhen li",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have been using Wauson Tree Service for many, many years for the annual or bi-annual pruning of two large live oak trees on my property. Every time, the experience has been excellent.\n\nMr. Wauson personally comes to the work site to discuss the pruning and trimming plan with me, which I really appreciate. The team is highly professional, knowledgeable about city codes, and clearly knows how to do the work correctly and responsibly.\n\nSafety is always a top priority—the crews have proper safety measures in place while working. Once the pruning is completed, they do a thorough job cleaning up the front yard, leaving everything neat and tidy.\n\nI highly recommend Wauson Tree Service for anyone looking for reliable, professional, and experienced tree care."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Allen (Central Depot)",

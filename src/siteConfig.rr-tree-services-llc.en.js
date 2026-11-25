@@ -32,21 +32,9 @@ export const siteConfigRrTreeServicesLlcEn = {
     "ctaPrimary": "Call Jesus +1 843-934-7678",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/rr-tree-services-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "R&R Tree Services LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/rr-tree-services-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/rr-tree-services-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigRrTreeServicesLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/rr-tree-services-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigRrTreeServicesLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/rr-tree-services-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigRrTreeServicesLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/rr-tree-services-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigRrTreeServicesLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Serge Gauthier",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend R and R tree services LLC. We had a massive tree branch that fell in our yard the night before we were supposed to go on Vacation. I Called around and Jesus was the first one to pick up. He came a few hours later and gave us a reasonable estimate. His team cut down the tree while we were on vacation and did an excellent job!!!"
-    },
-    {
-      "author": "David Soderberg",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Jesus with R & R Tree Service at 8:30 AM after a tree fell against my home in the night. He was courteous and came to my home promptly. His crew arrived and cut up the tree into firewood size pieces and stacked it on my firewood pile then removed the stump and cleaned the area. They were finished with everything by 1:30 PM. Very professional, timely and efficient. I found the cost to be very fair. I will recommend R & R Tree Service to anyone in need of quality tree service!"
-    },
-    {
-      "author": "Mary Lee Busick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very happy with my tree work from R&R. Pricing is very fair. They were very careful when removing tree limbs that hung over my pool. Good with clean-up and really wanted to please. I’ve used them in the past and will continue to use/recommend."
-    },
-    {
-      "author": "Lane Grant",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This team was spectacular. They took 3 large pine trees down for us in a relatively short amount of time. Professional and would highly recommend their services to anyone. Did a great job cleaning up afterwards."
-    },
-    {
-      "author": "chris & jennifer Vedder",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Friendly, professional, and efficient!  R&R Tree Service removed an oak that was over our fence and close to a neighbors roof.  They worked quickly and carefully, then cleaned up after, great work, I recommend their service!"
-    }
-  ],
+        {
+            "author": "Serge Gauthier",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend R and R tree services LLC. We had a massive tree branch that fell in our yard the night before we were supposed to go on Vacation. I Called around and Jesus was the first one to pick up. He came a few hours later and gave us a reasonable estimate. His team cut down the tree while we were on vacation and did an excellent job!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc6_sbZzI4KeT6Ni3jlnffS8UAd3Dd36UIkSwnJdSi7utkeYaI77aduuuumBwewt7hU6Q-QiA9ydRivcyokMv9GHVjW6iPCGJD5gY4EAQpf6P5P3JnC7crgwWXWihV8dLboRzcJdztY5wxG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdc_V3LevjvHTTrSKcFcsKkCiY8dltzGkUJJnezPHjvzk0Rdd30nsqkz_7U1qxODdA2J3xZjF4--7pstWw6CWbJVzH48Kr04l4HCgb_m5MnwxBCzFN3EyZtmz3aNU5beK5wow9y9eOK6SM=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "David Soderberg",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Jesus with R & R Tree Service at 8:30 AM after a tree fell against my home in the night. He was courteous and came to my home promptly. His crew arrived and cut up the tree into firewood size pieces and stacked it on my firewood pile then removed the stump and cleaned the area. They were finished with everything by 1:30 PM. Very professional, timely and efficient. I found the cost to be very fair. I will recommend R & R Tree Service to anyone in need of quality tree service!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck5OgQeQPj-LZmhVx85hNNQytJ9MpXwM0iljIQ4WXmd8ljIp7LYg6bCb4ScKvGGMFz3j6zhE57XYLDYybN-KaXUXw5-HjmU3Ux6NCxHpMhJohdcG4s_yQeWUFQkGlWTDviTOlSvli-jlA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe04IKAJtVU9QbfxsdORSqkt-NPl0xSN3KE4lAUvJ1DIEgHsmDSGjN2K5hPxt3d3gukhjijPerfBgsolP2LdxG45NoZ-r8BSuiA7dwvoSR7REyxGFkF_kU2NunBFiuvnESQlAeYugKGg0uU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKAMq7XMx34ekJOfzH3AbQHc-sgeM_YZ2ldK5WVQPi6zET1FY1lNWkVcRwh_kfzZc2216AFTFP2I93PVfdjR-KGNr3JLzr4wGV03pV6kK9As0_BxwkjS1I8rpP01ReI61EfhrLIcNS0iA=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mary Lee Busick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very happy with my tree work from R&R. Pricing is very fair. They were very careful when removing tree limbs that hung over my pool. Good with clean-up and really wanted to please. I’ve used them in the past and will continue to use/recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc007JR6c_mq5waf-KbZXHqcJM5cDEHeHJMBtvqruCBpJmVpJl_Y_XH7FuqR9dQcW_0-A5UvxX-eUC7KkvNxdhDA6B6cfBM30l_x9MfXomn4HXF2l85mOQKlEhi1Etz4ZFCc7hcHc_gz3O9=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lane Grant",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This team was spectacular. They took 3 large pine trees down for us in a relatively short amount of time. Professional and would highly recommend their services to anyone. Did a great job cleaning up afterwards."
+        },
+        {
+            "author": "chris & jennifer Vedder",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Friendly, professional, and efficient!  R&R Tree Service removed an oak that was over our fence and close to a neighbors roof.  They worked quickly and carefully, then cleaned up after, great work, I recommend their service!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

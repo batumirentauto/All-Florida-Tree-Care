@@ -31,11 +31,7 @@ export const siteConfigSsTreeRu = {
     "ctaPrimary": "Позвонить ((904) 510-9359)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ss-tree/photo_001.jpg",
-        "label": "Силовой такелаж стволов",
-        "alt": "Арбористы производят спуск тяжелых частей ствола на тросах"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }

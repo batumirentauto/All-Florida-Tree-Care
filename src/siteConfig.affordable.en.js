@@ -32,21 +32,9 @@ export const siteConfigAffordableEn = {
     "ctaPrimary": "Call Francisco (916) 701-6839",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable/photo_001_crop.jpg",
-        "label": "High Canopy Climber Aloft",
-        "alt": "Arborist climber in harness skinning tall palm trunk with spurs and rigging"
-      },
-      "sub1": {
-        "image": "/images/affordable/photo_007_crop.jpg",
-        "label": "Palm Frond Consolidation",
-        "alt": "Cut palm fronds and trimmed skirt neatly piled for chipping"
-      },
-      "sub2": {
-        "image": "/images/affordable/photo_009_crop.jpg",
-        "label": "Architectural Crown Finish",
-        "alt": "Manicured queen palms over residential patio and pool enclosure"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAffordableEn = {
     {
       "name": "High-Altitude Arborist Harness & Saddle Rig",
       "badge": "High-Canopy Rigging",
-      "image": "/images/affordable/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAffordableEn = {
     {
       "name": "Diamond Palm Trunk Skinning & Shaving",
       "badge": "Precision Trunk Shaving",
-      "image": "/images/affordable/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAffordableEn = {
     {
       "name": "Residential Crown Elevation & Shaping",
       "badge": "Crown Elevation Finish",
-      "image": "/images/affordable/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",

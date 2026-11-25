@@ -31,21 +31,9 @@ export const siteConfigGreenValleyTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 210-390-4797)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/green-valley-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Green Valley Tree Service"
-      },
-      "sub1": {
-        "image": "/images/green-valley-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/green-valley-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGreenValleyTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/green-valley-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGreenValleyTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/green-valley-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigGreenValleyTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/green-valley-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,65 @@ export const siteConfigGreenValleyTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Mustafa Mohammed",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with Green Valley Tree Service! They cut down two massive trees in less than two hours and did an absolutely wonderful job. The crew was professional, efficient, and left the area clean and tidy. I was genuinely..."
-    },
-    {
-      "author": "Jose Alarcon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I hired these guys to remove and haul-away two very large trees in front of my home.  In a little over an hour, both of the trees had been cut down, grinded, and hauled away.  Just incredible.  The stumps were then grinded-down later that s..."
-    },
-    {
-      "author": "Vic",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I highly recommend Green Valley Tree Service. Professionals who know what they are doing. Punctual, fast, competitive pricing. I found Edgar Valle easy to work with and I was very impressed with the quality of his crew and workmanship!..."
-    },
-    {
-      "author": "evil zombiehunter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Awesome business with just a great team. If I had four hands I would give four thumbs up. Since I only have two thumbs I will can only give them 5 stars!! Awesome communication and they did exactly as asked with a great knowledge about tree..."
-    },
-    {
-      "author": "Anita Hernandez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am very pleased with the service I have received. They did a great job and cleaned up very well. Very polite workers and they are now my tree service company for the future!..."
-    }
-  ],
+        {
+            "author": "Mustafa Mohammed",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a fantastic experience with Green Valley Tree Service! They cut down two massive trees in less than two hours and did an absolutely wonderful job. The crew was professional, efficient, and left the area clean and tidy. I was genuinely...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdoI3-C1Xdd6rcqdJQhAoUIntFtMgFs6HpAHLI1YXINTN1MrqpEYAB4jqKOekf3UARMxrjWJrcPqNSd-Dws0Ex5YWODZXLFweJuLNl8sOSCptwBUgOUEMh0vFR16tYArCGhwSpF=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jose Alarcon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I hired these guys to remove and haul-away two very large trees in front of my home.  In a little over an hour, both of the trees had been cut down, grinded, and hauled away.  Just incredible.  The stumps were then grinded-down later that s...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdl3KaN-SC9mKH7rHz3noy6iNx8SJ9yAtpoWs8-6wuKHMGQe5b8iULHRSFBVBxUlqmUdClKBiT1x4S89ZsM1MvD-6SHJPM1H6zDvYQHc-tZz18NZhH6Jdl7UDlk5Hwgleb821k=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLchOP5umoswcyq4rG9ZCLalCJb94nxSeg2HXqxRC74ypItCpp40-otxyDHUQRUAzYkDdNmb2Hl9dbLBQ1EQ4XbLdqhZG4um-BvgERCOG1UMGj96Kqsda-5s621KWEu2RVbUgn2b=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Vic",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I highly recommend Green Valley Tree Service. Professionals who know what they are doing. Punctual, fast, competitive pricing. I found Edgar Valle easy to work with and I was very impressed with the quality of his crew and workmanship!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfsQ8BOAldW4XnZlu5SVHdGgYsC8xZ0R3toQkeyrv37zDQwzqow8CMbhVhtAjz0hC-7-2mpvx9dIofqRQkuZCxMQd72peR_gnb1TmWn9Sp_kO01Vc-v89hfyRRzg69hgUCLiOU=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfB3RYIkmmcwQiJD3dMhF-oCaUjZtRnv-DjJ_Pc3q4PZbIwLhZIL4BtlRyO0ifyYmI2Dg55AwiHccbcloZCT8u18IpHBoH6rpyGlL6nNXp4u1p1_gXnQ0W_I6RDFQN-nTWL_5H4vQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "evil zombiehunter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Awesome business with just a great team. If I had four hands I would give four thumbs up. Since I only have two thumbs I will can only give them 5 stars!! Awesome communication and they did exactly as asked with a great knowledge about tree...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGaCKZIKuAPYwekoWV2OH6YcR3KxmiEigsNFx44O6jtHpc8yLd7JbMDeIahj3fmRHNGsGnZez10MkERURHnwBKjAlB_2ULNOrs16AIvTD1yd8nlow1HxebaD2NNEpH2811a3WPbA7Yx0ft=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Anita Hernandez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am very pleased with the service I have received. They did a great job and cleaned up very well. Very polite workers and they are now my tree service company for the future!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe0joA9o4mZ6n9iI8TX413NmBIccmgBcBZmSJuDvKhHd4qdb3QhgGgbf-K3a-TbfgxtaJW8a2GKXOJhoacy7D049iY0Xrycjg2vrNOS7X7b0Pk5zr75SwC1caJUS8f8OwslgpLcvotzx49P=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdWmpj3MTBh2u7qBjwYKJ4DppDOhd2Y2mo9haS0kFKt1uI-6AFbi-m8N4xj2HMK1PRUi0cpHvuzOMJVyYsD4CN3gKXeYntkTjDzIYTVgcuhb89DXbY8Hb8Rjuo4zHy9RbcJblabEo5sJiMo=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

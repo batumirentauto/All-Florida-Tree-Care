@@ -32,21 +32,9 @@ export const siteConfigChampionsTreePreservationEn = {
     "ctaPrimary": "Call Lead +1 281-320-8201",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/champions-tree-preservation/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Champions Tree Preservation tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/champions-tree-preservation/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/champions-tree-preservation/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigChampionsTreePreservationEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/champions-tree-preservation/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigChampionsTreePreservationEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/champions-tree-preservation/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigChampionsTreePreservationEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/champions-tree-preservation/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,53 @@ export const siteConfigChampionsTreePreservationEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Bradley Kerr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I can’t say enough great things about Champions Tree Preservation. I’ve used them across multiple homes and projects, and they’ve consistently exceeded expectations every single time.\n\nAt my previous property, they quite literally saved all of my mature oak trees after they were heavily stressed from new construction. I was worried I was going to lose them, but their expertise and treatment plan brought them back to full health. That alone made me a lifelong customer.\n\nThey’ve also done incredible work with my landscaping—especially my Eagleston holly trees. They not only treated them but gave practical, thoughtful guidance on how to adjust the surrounding hardscape to help them thrive long-term. That level of detail and care really sets them apart.\n\nAcross the board, every tree they’ve worked on has improved. My canopies are noticeably fuller, healthier, and more vibrant thanks to their fertilization programs and precise trimming.\n\nMost recently, they installed a 9” caliper live oak at my new home along with two 65-gallon loblolly pines, and the quality of the installation was top-notch. You can tell they take pride in doing things the right way.\n\nRobin is fantastic to work with—extremely communicative, responsive, and knowledgeable. His entire team is professional, punctual, and clearly cares about the work they do. On top of that, their pricing has always been fair and honest, which is rare for this level of expertise.\n\nIf you care about your trees and want them handled the right way, this is the only company I would trust. Highly, highly recommend."
-    },
-    {
-      "author": "Melissa Tracy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We've used Champions Tree Preservation for many years and they do a fantastic job!  It's important to us that the people trimming our trees know what they're doing. We can barely keep up with the growth of our 2 oak trees. Our yard faces north so the grass struggles to get enough sunlight when they're overgrown. Champions does a great job raising the canopy, thinning the interior to allow more sunlight and trimming branches off the house and out of the street and driveway. The trees always have a beautiful shape when the finish and they do such a thorough job cleaning up you would never even know they were there."
-    },
-    {
-      "author": "Jim Scott",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve been using Champions Tree Preservation for many years and they have been and still are a Top Tier tree service provider with expert knowledge and abilities.\nThey just finished taking care of my oak trees again this morning in preparation for hurricane season and to help my grass stay fuller under their shade. These folks are both craftsmen and artists; they not only protect the tree (and thus my house) they improve their form/shape!\nThey left my yard immaculate, you couldn’t tell they had even been there it was so clean. And the trees… they look beautiful again!\nWe are so pleased with their efforts!"
-    },
-    {
-      "author": "Jerry King",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very pleased with Champions Tree Preservation.  They brought our magnificent 20 +YO Magnolia tree that was very sick & dying back to a healthy life.  Tree now heavy with blooms for 1st  time in years.  Excellent diagnosis and treatment on their part to save this wonderful tree and we strongly recommend you consider them for care of your valuable trees!"
-    },
-    {
-      "author": "Drew Kangieser",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I can’t say enough good things about Champions Tree. We’ve used them for a few years and always had a good experience. Recently a tree fell on our house and did some major damage, but they were there at 8 am the next morning with a crane to get it off quickly. Was a big win for us during a tough time."
-    }
-  ],
+        {
+            "author": "Bradley Kerr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I can’t say enough great things about Champions Tree Preservation. I’ve used them across multiple homes and projects, and they’ve consistently exceeded expectations every single time.\n\nAt my previous property, they quite literally saved all of my mature oak trees after they were heavily stressed from new construction. I was worried I was going to lose them, but their expertise and treatment plan brought them back to full health. That alone made me a lifelong customer.\n\nThey’ve also done incredible work with my landscaping—especially my Eagleston holly trees. They not only treated them but gave practical, thoughtful guidance on how to adjust the surrounding hardscape to help them thrive long-term. That level of detail and care really sets them apart.\n\nAcross the board, every tree they’ve worked on has improved. My canopies are noticeably fuller, healthier, and more vibrant thanks to their fertilization programs and precise trimming.\n\nMost recently, they installed a 9” caliper live oak at my new home along with two 65-gallon loblolly pines, and the quality of the installation was top-notch. You can tell they take pride in doing things the right way.\n\nRobin is fantastic to work with—extremely communicative, responsive, and knowledgeable. His entire team is professional, punctual, and clearly cares about the work they do. On top of that, their pricing has always been fair and honest, which is rare for this level of expertise.\n\nIf you care about your trees and want them handled the right way, this is the only company I would trust. Highly, highly recommend.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1QleV0kx_egyMHwJNAWUdfWosIKSBO2GB8RZYPqH3l82pOVYKZV-MUoOCqle7mPYxpIx24sSjPincfO4gXGAvi6wXBhcdg_cLjLO2iN1YDtyooPVeZSLZWpU2ICuG1HOe3FX-O1gRWJi5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLczRjA6r6eoU2EjdPTFtFBLiSUrFlODOvgYqziSaQnew8Bzz_DOkerfk2QLePZKg7vIge5PcELksFBz60S4NO2ekinILf_5bM8HVqi_EPRTExmb5KJ5OkjD3dhrzdU52WUetOxno0IfAOs=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcy054ZoC4bfUHvqPBc9qh-r-he-sLbXBUt3HDonUImigSgYQs2Bh6tPMa3BhN0zCRJEwdPrjVcZBHstGPX-JV3RYosjxQR8AEu4lRspeNDoVai313WgV_MLnHPjFWEF8RDKsaHl_k-1Q3t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfj4Mo1W4DpH1PtGYDHJGSZXaCGbkox2aMVsXaWhhkRoPgZ3xSsW91ExfHaXHeRFov9t_dc2CsFECZoqrd2di9cFyBh1PsRhBliCpe8aHUbXWX7vzzgSskAtB4rEIkGvogUR72JhwVIgHU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Tracy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We've used Champions Tree Preservation for many years and they do a fantastic job!  It's important to us that the people trimming our trees know what they're doing. We can barely keep up with the growth of our 2 oak trees. Our yard faces north so the grass struggles to get enough sunlight when they're overgrown. Champions does a great job raising the canopy, thinning the interior to allow more sunlight and trimming branches off the house and out of the street and driveway. The trees always have a beautiful shape when the finish and they do such a thorough job cleaning up you would never even know they were there."
+        },
+        {
+            "author": "Jim Scott",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve been using Champions Tree Preservation for many years and they have been and still are a Top Tier tree service provider with expert knowledge and abilities.\nThey just finished taking care of my oak trees again this morning in preparation for hurricane season and to help my grass stay fuller under their shade. These folks are both craftsmen and artists; they not only protect the tree (and thus my house) they improve their form/shape!\nThey left my yard immaculate, you couldn’t tell they had even been there it was so clean. And the trees… they look beautiful again!\nWe are so pleased with their efforts!"
+        },
+        {
+            "author": "Jerry King",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very pleased with Champions Tree Preservation.  They brought our magnificent 20 +YO Magnolia tree that was very sick & dying back to a healthy life.  Tree now heavy with blooms for 1st  time in years.  Excellent diagnosis and treatment on their part to save this wonderful tree and we strongly recommend you consider them for care of your valuable trees!"
+        },
+        {
+            "author": "Drew Kangieser",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I can’t say enough good things about Champions Tree. We’ve used them for a few years and always had a good experience. Recently a tree fell on our house and did some major damage, but they were there at 8 am the next morning with a crane to get it off quickly. Was a big win for us during a tough time."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Central Depot)",

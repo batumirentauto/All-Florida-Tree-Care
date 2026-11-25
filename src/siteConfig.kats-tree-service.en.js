@@ -32,21 +32,9 @@ export const siteConfigKatsTreeServiceEn = {
     "ctaPrimary": "Call Kats +1 352-227-1103",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/kats-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Kats Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/kats-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/kats-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigKatsTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/kats-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigKatsTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/kats-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigKatsTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/kats-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigKatsTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Walt L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I contacted Kats Tree Service because I moved into a mobile home in Leesburg, FL with a large tree canopy over it.\n\nI knew I wanted a local company to Leesburg, FL with an ISA Certified Arborist like Kat to conduct a Tree Risk Assessment.  After a comprehensive google search, I contacted Kats Tree Service in Leesburg, FL.\n\nEvery contact with Kats Tree Service was phenomenal!.  I left my initial message on the Kats Tree Service website in the later afternoon and soon after he contacted me and we scheduled an appointment.  He confirmed the appointment by text and email and he arrived right on time just as he stated and he immediately went to work and conducted a very comprehensive Tree Risk Assessment.\n\nAnd as we walked thru the lawn area which has many trees - he educated me in a polite and comprehensive way and informed\nMe that the problems that I thought were extreme and mentioned to him - he evaluated as we walked the property and I learned they were not extreme problems and they could be mitigated with out tree removal and for\nMuch less cost than I had thought.  I received the written Tree Risk Assessment complete report just a few hours later that afternoon with his follow-up communication.\n\nI have not had better service in any area of taking care of my home than I received from Kats Tree Service.   I will need to mitigate my Tree Canopy and I will hire Kats Tree Service to conduct the mitigation because I know I will be getting the best possible tree service in the Leesburg - Lake County area.  I’m very lucky I called Kat’s Tree Service.   I’m also  very grateful for Kat kindly sharing his knowledge and expertise and his just the right touch approach to My tree canopy issues with my new forever home."
-    },
-    {
-      "author": "K C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a wonderful experience with Kat's Tree Service. The team was professional, courteous, and incredibly friendly throughout the entire process. We have a palm tree that needed the attention of a certified tree arborist, and we're so glad we found them. They took the time to thoroughly assess the palm, explain the maintenance it needed, and answer all of our questions. After trimming it, our palm looks healthy, well-maintained, and beautifully complements the neighborhood. We highly recommend Kat's for anyone looking for knowledgeable and trustworthy tree care in Lady Lake or the surrounding areas."
-    },
-    {
-      "author": "Chris Bissett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very professional and prompt!  Great communication with immediate scheduling!  Their service is top notch from start to finish.  Equipment is state of the art.  I couldn’t have asked for a better experience.  Thank you Kat for a job well done. As a business owner I highly recommend you.  Any future jobs I need done will definitely be yours!"
-    },
-    {
-      "author": "R. Lax",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I highly recommend Kat's Tree Service, LLC. I called four different companies, and Kat's Tree Service, LLC was the only one that returned my call and within an hour. They came out the very next day to provide me with an estimate. The owner is ISA certified, and he thoroughly explained the entire process as well as the overall health of my trees. The communication was great throughout the entire project, and pricing was very fair. They are professional and provide great service. I will definitely use them again."
-    },
-    {
-      "author": "Thomas Baran",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Kat  is very professional and super easy to work with. He came to our property to examine our mature orchid tree.  The tree was beautiful (in full bloom just before the cold hit) but not cold-tolerant and could not withstand the hard freeze of 2026.\nKat is an excellent arborist. He was quite helpful in understanding the nuances of growing trees in Florida.  He offerred us several solutions ranging from salvage methods to complete removal. We highly recommend him!"
-    }
-  ],
+        {
+            "author": "Walt L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I contacted Kats Tree Service because I moved into a mobile home in Leesburg, FL with a large tree canopy over it.\n\nI knew I wanted a local company to Leesburg, FL with an ISA Certified Arborist like Kat to conduct a Tree Risk Assessment.  After a comprehensive google search, I contacted Kats Tree Service in Leesburg, FL.\n\nEvery contact with Kats Tree Service was phenomenal!.  I left my initial message on the Kats Tree Service website in the later afternoon and soon after he contacted me and we scheduled an appointment.  He confirmed the appointment by text and email and he arrived right on time just as he stated and he immediately went to work and conducted a very comprehensive Tree Risk Assessment.\n\nAnd as we walked thru the lawn area which has many trees - he educated me in a polite and comprehensive way and informed\nMe that the problems that I thought were extreme and mentioned to him - he evaluated as we walked the property and I learned they were not extreme problems and they could be mitigated with out tree removal and for\nMuch less cost than I had thought.  I received the written Tree Risk Assessment complete report just a few hours later that afternoon with his follow-up communication.\n\nI have not had better service in any area of taking care of my home than I received from Kats Tree Service.   I will need to mitigate my Tree Canopy and I will hire Kats Tree Service to conduct the mitigation because I know I will be getting the best possible tree service in the Leesburg - Lake County area.  I’m very lucky I called Kat’s Tree Service.   I’m also  very grateful for Kat kindly sharing his knowledge and expertise and his just the right touch approach to My tree canopy issues with my new forever home.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwoI4vTNbv0V6yb1v-uifP8VxP7SUeIudd7sPxEzXmuKSdSrNESgDskF7JNZsHXyy9NLNbHoUZIfUI3mO7JX-UpjReWXAj_aQ8crC0INDka2FhimeejCpN_V9agyBF5NqPfwXEdFrMh-2V=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "K C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a wonderful experience with Kat's Tree Service. The team was professional, courteous, and incredibly friendly throughout the entire process. We have a palm tree that needed the attention of a certified tree arborist, and we're so glad we found them. They took the time to thoroughly assess the palm, explain the maintenance it needed, and answer all of our questions. After trimming it, our palm looks healthy, well-maintained, and beautifully complements the neighborhood. We highly recommend Kat's for anyone looking for knowledgeable and trustworthy tree care in Lady Lake or the surrounding areas."
+        },
+        {
+            "author": "Chris Bissett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very professional and prompt!  Great communication with immediate scheduling!  Their service is top notch from start to finish.  Equipment is state of the art.  I couldn’t have asked for a better experience.  Thank you Kat for a job well done. As a business owner I highly recommend you.  Any future jobs I need done will definitely be yours!"
+        },
+        {
+            "author": "R. Lax",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I highly recommend Kat's Tree Service, LLC. I called four different companies, and Kat's Tree Service, LLC was the only one that returned my call and within an hour. They came out the very next day to provide me with an estimate. The owner is ISA certified, and he thoroughly explained the entire process as well as the overall health of my trees. The communication was great throughout the entire project, and pricing was very fair. They are professional and provide great service. I will definitely use them again."
+        },
+        {
+            "author": "Thomas Baran",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Kat  is very professional and super easy to work with. He came to our property to examine our mature orchid tree.  The tree was beautiful (in full bloom just before the cold hit) but not cold-tolerant and could not withstand the hard freeze of 2026.\nKat is an excellent arborist. He was quite helpful in understanding the nuances of growing trees in Florida.  He offerred us several solutions ranging from salvage methods to complete removal. We highly recommend him!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Lady Lake (Central Depot)",

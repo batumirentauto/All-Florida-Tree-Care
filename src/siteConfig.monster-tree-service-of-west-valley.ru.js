@@ -31,21 +31,9 @@ export const siteConfigMonsterTreeServiceOfWestValleyRu = {
     "ctaPrimary": "Позвонить (+1 408-837-7053)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-west-valley/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Monster Tree Service of West Valley"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-west-valley/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-west-valley/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMonsterTreeServiceOfWestValleyRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/monster-tree-service-of-west-valley/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMonsterTreeServiceOfWestValleyRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/monster-tree-service-of-west-valley/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMonsterTreeServiceOfWestValleyRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/monster-tree-service-of-west-valley/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,51 @@ export const siteConfigMonsterTreeServiceOfWestValleyRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Brij Sehdave",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Monster Tree has been our go to arborist over the the last two years, they’ve worked on almost all our trees and most recently helped with taking down a sick cedar tree. Great thanks to Brad, Victor and their team for their expertise...."
-    },
-    {
-      "author": "Shirley Alexander (Kathy)",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Fabulous tree service - so happy I contracted with Monster Tree Service of West Valley. Great job - fast, efficient, careful, great price - everything cleaned up afterwards. Definitely have my business in the future and I highly recommend t..."
-    },
-    {
-      "author": "Sharon Denery",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew that came out were very polite and professional.  After a major cut back, our two camphor trees still looked great and a lot safer.  We were very pleased with the work...."
-    },
-    {
-      "author": "Joel Gerston",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I used Monster Tree Service to substantially thin and shape two oak trees. They were extremely responsive when I requested a quote. The price was reasonable, and they were able to schedule the work around my challenging calendar constraints..."
-    },
-    {
-      "author": "Leon Burda",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Monster Tree Service (D49 License #1049066) performed work at my house on 01/28/2026. Several days after the work was completed, we discovered that a water pipe had been cracked, almost certainly caused by a large falling branch.\n\nWe had to..."
-    }
-  ],
+        {
+            "author": "Brij Sehdave",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Monster Tree has been our go to arborist over the the last two years, they’ve worked on almost all our trees and most recently helped with taking down a sick cedar tree. Great thanks to Brad, Victor and their team for their expertise....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeumtJ0aSQUnASLBvftIdmIKx89c-pDHiJAz-LVnQob97-Gr3_6ZPgEvqMoCUYhhssIixo5BW93WTUCbXvSwowJxcn2jqshXhE0wd-KfprVXQP_Ibp0eOcQH1Az_KpRTHUQM6ck1YifG0g=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp8cO4U3Irrbw2vB6twP-v5CZC4mB8c-8L0K_wU326IbifSk9ARxpbFuJ2DPVQrx_58azuchI5uLk-qV8wunx3Tt9yTIspLT4rvhCN6DnlYoILbJblXMbaVeYRdwQ9p0PQXPANKHX3msI=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shirley Alexander (Kathy)",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Fabulous tree service - so happy I contracted with Monster Tree Service of West Valley. Great job - fast, efficient, careful, great price - everything cleaned up afterwards. Definitely have my business in the future and I highly recommend t..."
+        },
+        {
+            "author": "Sharon Denery",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew that came out were very polite and professional.  After a major cut back, our two camphor trees still looked great and a lot safer.  We were very pleased with the work...."
+        },
+        {
+            "author": "Joel Gerston",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I used Monster Tree Service to substantially thin and shape two oak trees. They were extremely responsive when I requested a quote. The price was reasonable, and they were able to schedule the work around my challenging calendar constraints..."
+        },
+        {
+            "author": "Leon Burda",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Monster Tree Service (D49 License #1049066) performed work at my house on 01/28/2026. Several days after the work was completed, we discovered that a water pipe had been cracked, almost certainly caused by a large falling branch.\n\nWe had to..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

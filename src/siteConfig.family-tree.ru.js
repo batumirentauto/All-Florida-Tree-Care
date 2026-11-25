@@ -31,21 +31,9 @@ export const siteConfigFamilyTreeRu = {
     "ctaPrimary": "Позвонить ((912) 464-4535)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/family-tree/photo_001_crop.jpg",
-        "label": "Кронирование виргинского дуба",
-        "alt": "Крупные дубы над жилым домом после санитарной обрезки и формирования кроны"
-      },
-      "sub1": {
-        "image": "/images/family-tree/photo_007_crop.jpg",
-        "label": "Такелажный трос в кроне",
-        "alt": "Такелажная веревка, закрепленная в кроне дуба для плавного спуска тяжелых ветвей"
-      },
-      "sub2": {
-        "image": "/images/family-tree/photo_004_crop.jpg",
-        "label": "Спил пня под корень у забора",
-        "alt": "Пень, срезанный вровень с землей вплотную к деревянному забору"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigFamilyTreeRu = {
     {
       "name": "Самосвальный прицеп и чистая обочина",
       "badge": "Порядок у дороги",
-      "image": "/images/family-tree/photo_008_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigFamilyTreeRu = {
     {
       "name": "Обрезка кроны вдоль забора",
       "badge": "Защита забора и крыши",
-      "image": "/images/family-tree/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigFamilyTreeRu = {
     {
       "name": "Подъем кроны во дворе дома",
       "badge": "Уход за дворовыми дубами",
-      "image": "/images/family-tree/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

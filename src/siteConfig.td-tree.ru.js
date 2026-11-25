@@ -31,21 +31,9 @@ export const siteConfigTdTreeRu = {
     "ctaPrimary": "Позвонить ((228) 206-2351)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/td-tree/photo_005_crop.jpg",
-        "label": "Спил веток над крышей с люльки",
-        "alt": "Стрела автовышки с люлькой срезает ветви прямо над крышей двухэтажного дома"
-      },
-      "sub1": {
-        "image": "/images/td-tree/photo_003_crop.jpg",
-        "label": "Осмотр кроны векового дерева",
-        "alt": "Крона большого тенистого дерева над двухэтажным белым домом"
-      },
-      "sub2": {
-        "image": "/images/td-tree/photo_002_crop.jpg",
-        "label": "Ухоженная въездная зона",
-        "alt": "Подстриженные деревья и клумба вдоль гравийного проезда с флагом"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTdTreeRu = {
     {
       "name": "Автовышка для работы у проводов и крыши",
       "badge": "Безопасность у проводов",
-      "image": "/images/td-tree/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTdTreeRu = {
     {
       "name": "Опиловка веток от сайдинга дома",
       "badge": "Отступ от фасада",
-      "image": "/images/td-tree/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTdTreeRu = {
     {
       "name": "Обслуживание больших участков",
       "badge": "Порядок на территории",
-      "image": "/images/td-tree/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

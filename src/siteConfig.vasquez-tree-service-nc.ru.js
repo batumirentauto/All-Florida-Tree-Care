@@ -31,21 +31,9 @@ export const siteConfigVasquezTreeServiceNcRu = {
     "ctaPrimary": "Позвонить (+1 919-523-7659)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/vasquez-tree-service-nc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Vasquez Tree Service NC"
-      },
-      "sub1": {
-        "image": "/images/vasquez-tree-service-nc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/vasquez-tree-service-nc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigVasquezTreeServiceNcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/vasquez-tree-service-nc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigVasquezTreeServiceNcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/vasquez-tree-service-nc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigVasquezTreeServiceNcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/vasquez-tree-service-nc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,68 @@ export const siteConfigVasquezTreeServiceNcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "K Matthews",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I appreciated the fast response, fair proposal, and quick turn around to schedule the work we needed. We had 2 trees removed from close to our home, stumps ground up and mulch left for me to use in my garden.  The crew arrived promptly, we ..."
-    },
-    {
-      "author": "Tracey Ray",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This team cut several very large trees that were very close to our home. (100 ft plus) Much of the tree canopies from two trees hovered over our roof, but they operated with great skill and efficiency and protected our home. They arrived wh..."
-    },
-    {
-      "author": "Kurt Boldt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had a tree that was in need of immediate removal. Vasquez responded promptly and professionally and we're willing to negotiate a competitive estimate. The team arrived on time and removed the tree and ground the stump. They cleaned the area..."
-    },
-    {
-      "author": "Scott Tarkenton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I reside in N. Raleigh.  Vasquez Tree Service took down a 55’ red oak tree for me and grinded down the stump.  Started at 7:45am and finished at 3pm.  Excellent job.  Meticulous clean up.  I would highly recommend Israel and Vasquez Tree Se..."
-    },
-    {
-      "author": "Kevin Lupton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We recently had four large sweet gum trees removed from our property, and we couldn't be more impressed with the service we received from Israel and his crew. From start to finish, they were professional, efficient, and courteous.\n\nThe work..."
-    }
-  ],
+        {
+            "author": "K Matthews",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I appreciated the fast response, fair proposal, and quick turn around to schedule the work we needed. We had 2 trees removed from close to our home, stumps ground up and mulch left for me to use in my garden.  The crew arrived promptly, we ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXtx0osee5D4y_AvVs1WAqQiyRF8VPbx7c9Q8ekn8eh4dUl2N9rnUTlWwaXoJaIwGzguDmW5TzgscuucaXxy-7ZNubPCTq9De3W1STlfJKonOj-MHCEft_B2OmfIeRhv8NTB3_YtlSwc3-=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLey3ciAwrjOe3D1UWM_Qm3tGD_TpJqPiCVH9LxfT5JRuZXpL13hKZTwlFHS9AREbCxprJ1eUdELh92yAmyZeYeoIxmb9l6izgxYJlZkCNVOmsifG68_s1wshy4IC9caBv6lXhxC2JhrDwE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfLedH4mBZJz_IkcNx_tfhWd5DQ31D3sFKaRd9EMkTSz6h0ws2ELCFhW6XYtyz0C49X95em8tLMUlnEPJkoVVovG4a-YS39irZ1TEdzryqnPZjjl9Ckvy_OWrYNvd6C_Yg-tSVQe-HCZG1w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfl2CQzPJaT5s27lCiE_LcD6DDRBi5ZP2R0P-VPYYDRn7Yq9EHFz6iduD3Cmv-1koOs4oAuOgy_yryx2979jQIiWyWeX6Iub6KKUKeZv0yaRsyebr0KxFjtKWtuGEnHJ0dPDjvVyrL9Gg4p=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Tracey Ray",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This team cut several very large trees that were very close to our home. (100 ft plus) Much of the tree canopies from two trees hovered over our roof, but they operated with great skill and efficiency and protected our home. They arrived wh...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdRVUyIjYYb8RaOGoVhzDl6ovE_doGQWsa_ENoYJhueGpgb8HmST1ihGQwkGczvYcFxmN1fqsZ0CoUqLVVPdQFWmbRCinME6NjZAZQdzQZ5LWStm9snDUQY7z5vRixOioAouecgOANhe7b4=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZ_Bbe-cqLynYNsUm22f7w7e3yeMpcNRHAsfXQ80M7kscZH7jFNTHMS3mFFRfSI1RbM6kT9MuC2TJ0PPFGWUfuYQtB-IBmRH3XwmslOYC7zJ_9BCb7ObFqVZB-4qlZlEBhBEe8eL5xTzx5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9EWQYDKBIhjGj--cz-OqRlhGEvbeEbsoE9Hp2F4a-Q52NNrT09cUc6Rp_jVK_reriJJC7p_xNjHudCMRNVfuVtUyU_H4gQ6xkVWPYl8LBGVXgNS4BY5Zjjv4gnaR8Zb_OR9a8k-HIZqaN=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kurt Boldt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had a tree that was in need of immediate removal. Vasquez responded promptly and professionally and we're willing to negotiate a competitive estimate. The team arrived on time and removed the tree and ground the stump. They cleaned the area...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc_wvM_-pugTMTuMaA1_p0riN719iRswrTWrM_1C2_QWyrd4dSoLA40LiqvfVQkozMO30f3PVpSPZoGbcDrBfE93XGLJFcCoCbp4DxBi-GZq4jW91emT2xMjVpDvAWMjM52HwH9zq99_n8k=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnlk5yFBGQDeGupMkkHwuoZ5x2_TQyawzbDJn1zJ-j8yJabxTnLwnC00q-5_UT-vCLO28BHzsCH2uFCdAhYMohlzpyATdwa2MVtOuSvB2u0WcEWmPDW2NIfhv4Tgi9zHSjRoK2PmJExcWT=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Scott Tarkenton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I reside in N. Raleigh.  Vasquez Tree Service took down a 55’ red oak tree for me and grinded down the stump.  Started at 7:45am and finished at 3pm.  Excellent job.  Meticulous clean up.  I would highly recommend Israel and Vasquez Tree Se...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf4zplsUcf5_pWPZLljjQonhBrRYz1uk3DUiyVoSDGGzmcaYOLNA1LpQ-zMZU3YNGByNF3Gf-XmXm8QOPmJFERTcIuPwqeahdTTy9tdHdkVadZHtymiY6J66G-6oeSwKJvhN7y1=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIPrKAtZ_fvEtXEblj6MXhS6kCjaAL_EtPH5KbJBI_vh2Q_jPCMm215q4Gm1587mfM96N47I31IyQlxxIoHa5dkhurk_eXHx7UXB04WnOp7KY2ADtiLBTUGkr2ekL0KzfF3NSq_A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcXKDi9G4dxxd5Hr-k7MvZjsl4tsjGp2pvixH_7mcjmEsCYHtQ9hSW-DM-zywKGSZhR3cT2hZJfD0zo1ZNJYGGrq8YOBuLwoM89seMW7tNjB37b86RvsJS4OZtjSaRPyPYayX8d=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEXslBdfuN1oiRWN0Aj8-UbbTBXsWLA620K0WsKXIt9SoBU35CXKTPjvqjYlWXM3DpysFKSTW_QpY6Mr2HBe0QKGb8z2AxbyLbvtGJde0yeBi2n5-dO0iPWTKuYcFbjNEcIEkl2g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Lupton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We recently had four large sweet gum trees removed from our property, and we couldn't be more impressed with the service we received from Israel and his crew. From start to finish, they were professional, efficient, and courteous.\n\nThe work..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Raleigh (Основная база)",

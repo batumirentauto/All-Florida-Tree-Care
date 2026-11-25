@@ -32,21 +32,9 @@ export const siteConfigHappysTreeServiceEn = {
     "ctaPrimary": "Call Steve +1 727-365-1803",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/happys-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Happy's Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/happys-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/happys-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHappysTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/happys-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHappysTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/happys-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHappysTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/happys-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigHappysTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ana Angeles",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Happy's Tree Service company is the best.  Steve is very professional and the rest of the crew. Job well done. Wendy who works at the office responded quickly and polite. Highly recommend 👍👍👍"
-    },
-    {
-      "author": "Dave Roggy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "10 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Crew showed up on time had the tools and equipment needed to do the job.Happy wanted me to do a few walk throughs with him as job was progressing to make sure I was happy.\nThey did a great job and did it fast. And cleaned up before they left."
-    },
-    {
-      "author": "Derek Schmack",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Steve and his team were in the neighborhood and I asked him about a tree branch. He was able to take care of it on the same trip. He also offered an estimate for some other work I need done on my property.\n\nMy neighbors also used Happy's work looked clean!\n\nSteve was kind and professional."
-    },
-    {
-      "author": "William Leaver",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Showed up on time, large crew with great equipment. Took two trees down cleaned up and were done in under two hours. Did a great job for a very reasonable price. Highly recommend them."
-    },
-    {
-      "author": "Chris Reddaway",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Steve and team did a great job with my 2 big camphors and the secondary trees on the property. Fantastic having a certified arborist that can tell you WHY he suggests something and explain the risks and rewards. And priced reasonably to boot! Great experience and we'll be repeat customers for sure."
-    }
-  ],
+        {
+            "author": "Ana Angeles",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Happy's Tree Service company is the best.  Steve is very professional and the rest of the crew. Job well done. Wendy who works at the office responded quickly and polite. Highly recommend 👍👍👍"
+        },
+        {
+            "author": "Dave Roggy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "10 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Crew showed up on time had the tools and equipment needed to do the job.Happy wanted me to do a few walk throughs with him as job was progressing to make sure I was happy.\nThey did a great job and did it fast. And cleaned up before they left."
+        },
+        {
+            "author": "Derek Schmack",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Steve and his team were in the neighborhood and I asked him about a tree branch. He was able to take care of it on the same trip. He also offered an estimate for some other work I need done on my property.\n\nMy neighbors also used Happy's work looked clean!\n\nSteve was kind and professional."
+        },
+        {
+            "author": "William Leaver",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Showed up on time, large crew with great equipment. Took two trees down cleaned up and were done in under two hours. Did a great job for a very reasonable price. Highly recommend them."
+        },
+        {
+            "author": "Chris Reddaway",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Steve and team did a great job with my 2 big camphors and the secondary trees on the property. Fantastic having a certified arborist that can tell you WHY he suggests something and explain the risks and rewards. And priced reasonably to boot! Great experience and we'll be repeat customers for sure.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfgsrfbNfV8yc4ubl1VFE0KwK9tRPzEGkvpXrSSiLVCehO3MkHl7E9INgBGbCnzaIFSlAG2jst4ufxxmknqJ5OSg9Qdtb2voYCrkfkVakD4WAd4IYQSPjj9E5fNX2X8wGCDszxT=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "St. Petersburg (Central Depot)",

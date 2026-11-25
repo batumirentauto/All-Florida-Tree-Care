@@ -31,21 +31,9 @@ export const siteConfigMahaloTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 954-547-1923)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mahalo-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Mahalo Tree Service"
-      },
-      "sub1": {
-        "image": "/images/mahalo-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/mahalo-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMahaloTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/mahalo-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMahaloTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/mahalo-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMahaloTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/mahalo-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,50 @@ export const siteConfigMahaloTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Jovana Uvalin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mahalo Tree Service did a fantastic job trimming the trees in our front yard! The crew was professional, efficient, and did an amazing job shaping everything beautifully. Their customer service was excellent!  They cleaned up perfectly afte..."
-    },
-    {
-      "author": "Jason Giancarli",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mahalo tree services, did an excellent job,  What an amazing crew of professionals. These guys work hard to deliver and they did an amazing job on our super high coconuts trees And an amazing job at cleaning up everything they did exactly w..."
-    },
-    {
-      "author": "Adriana Rivadeneira",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I recently had the pleasure of working with Mitch from Mahalo to trim 2 large oak trees that was hanging well over my house. He offered a very good price and were able to fit me in their schedule in just a couple days. The guys that came ou..."
-    },
-    {
-      "author": "Andrea Alvarado",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mahalo tree service did an excellent job. I was so thrilled to find a tree company that took their time. They showed up on time and did an excellent job with my tree and cleaning it up. Mahalo tree services and the crew did exactly what we ..."
-    },
-    {
-      "author": "Mason Strelow",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I wanna thank Mahalo team for everything they done. They very professional though out the job. I was amazed on how they removed all the trees from my yard. It was very fun to watch, Mahalo performed an excellent, and safe service. The team ..."
-    }
-  ],
+        {
+            "author": "Jovana Uvalin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mahalo Tree Service did a fantastic job trimming the trees in our front yard! The crew was professional, efficient, and did an amazing job shaping everything beautifully. Their customer service was excellent!  They cleaned up perfectly afte..."
+        },
+        {
+            "author": "Jason Giancarli",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mahalo tree services, did an excellent job,  What an amazing crew of professionals. These guys work hard to deliver and they did an amazing job on our super high coconuts trees And an amazing job at cleaning up everything they did exactly w...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe1U8dtTtOtzOMPiz5RRgOWF-fK13p8rzih4qWJkf5WuZylQAgxbAcifwgnfpTnJGq_M8lliGKd5RXrj3YOjmdsiec2RqEt7EwbvY6u1yP0TEyem_ASIYgbQb_EOHqrTgktUKCj=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Adriana Rivadeneira",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I recently had the pleasure of working with Mitch from Mahalo to trim 2 large oak trees that was hanging well over my house. He offered a very good price and were able to fit me in their schedule in just a couple days. The guys that came ou..."
+        },
+        {
+            "author": "Andrea Alvarado",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mahalo tree service did an excellent job. I was so thrilled to find a tree company that took their time. They showed up on time and did an excellent job with my tree and cleaning it up. Mahalo tree services and the crew did exactly what we ..."
+        },
+        {
+            "author": "Mason Strelow",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I wanna thank Mahalo team for everything they done. They very professional though out the job. I was amazed on how they removed all the trees from my yard. It was very fun to watch, Mahalo performed an excellent, and safe service. The team ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Lauderdale (Основная база)",

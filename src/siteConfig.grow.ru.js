@@ -31,21 +31,9 @@ export const siteConfigGrowRu = {
     "ctaPrimary": "Позвонить ((904) 859-4188)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/grow/photo_003_crop.jpg",
-        "label": "Упавшее на хозблок дерево",
-        "alt": "Тяжелый надломленный ствол, упавший прямо на крышу хозблока во дворе"
-      },
-      "sub1": {
-        "image": "/images/grow/photo_005_crop.jpg",
-        "label": "Точка опоры на крыше",
-        "alt": "Крупный план надлома ствола, упершегося в угол крыши постройки"
-      },
-      "sub2": {
-        "image": "/images/grow/photo_004_crop.jpg",
-        "label": "Распил ветвей на земле",
-        "alt": "Рабочий в сигнальном жилете распиливает упавший ствол бензопилой"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigGrowRu = {
     {
       "name": "Такелажная линия спуска ветвей",
       "badge": "Подвесной спуск",
-      "image": "/images/grow/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigGrowRu = {
     {
       "name": "Валка гнилого аварийного ствола",
       "badge": "Спил гнилого ствола",
-      "image": "/images/grow/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",

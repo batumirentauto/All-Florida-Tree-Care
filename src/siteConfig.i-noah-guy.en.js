@@ -32,21 +32,9 @@ export const siteConfigINoahGuyEn = {
     "ctaPrimary": "Call Noah (904) 200-4381",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/i-noah-guy/photo_001_crop.jpg",
-        "label": "Manicured Florida Sabal Palms",
-        "alt": "Beautifully manicured sabal palms on residential front lawn with mulch beds"
-      },
-      "sub1": {
-        "image": "/images/i-noah-guy/photo_002_crop.jpg",
-        "label": "Pineapple Cut Date Palm",
-        "alt": "Pineapple-cut Canary Island date palm pruned neatly against vinyl fence"
-      },
-      "sub2": {
-        "image": "/images/i-noah-guy/photo_003_crop.jpg",
-        "label": "Side Yard Canopy Elevation",
-        "alt": "Trimmed ornamental hardwood tree in residential side yard between houses"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

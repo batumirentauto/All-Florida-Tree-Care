@@ -32,21 +32,9 @@ export const siteConfigBrokenBranchEn = {
     "ctaPrimary": "Call Fred (518) 752-9009",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/broken-branch/photo_003_crop.jpg",
-        "label": "High Conifer Rigging Climber",
-        "alt": "Arborist climber ascending high pine tree trunk among hardwood canopy"
-      },
-      "sub1": {
-        "image": "/images/broken-branch/photo_001_crop.jpg",
-        "label": "Hazard Branch Lawn Impact",
-        "alt": "Large broken pine branch fallen onto residential lawn near house corner"
-      },
-      "sub2": {
-        "image": "/images/broken-branch/photo_002_crop.jpg",
-        "label": "Storm Risk Porch Assessment",
-        "alt": "View of storm-damaged trees and residential yard under cloudy sky"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

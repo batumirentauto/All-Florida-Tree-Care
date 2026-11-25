@@ -32,21 +32,9 @@ export const siteConfigDynamicTreeCareLlcEn = {
     "ctaPrimary": "Call Ty +1 361-906-8314",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/dynamic-tree-care-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Dynamic Tree Care, LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/dynamic-tree-care-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/dynamic-tree-care-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigDynamicTreeCareLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/dynamic-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigDynamicTreeCareLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/dynamic-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigDynamicTreeCareLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/dynamic-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigDynamicTreeCareLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Christina Tucker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This team of people are the best In Corpus Christi! So reliable and fair in price, friendly and great quality service! Ty (the owner) builds a thorough plan with all your goals in mind at the free estimate, gets you on the schedule and the project done quickly!"
-    },
-    {
-      "author": "Manuel Garcia",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I hired, Ty from Dynamic Tree Care to trim up my Oak Tree, him and his team did an outstanding job. I highly recommend Ty when needing tree service fair price very professional. I told him he’s my go to guy from now on when needing any kind of tree service thanks again, Ty before and after photo"
-    },
-    {
-      "author": "Shane Boucher",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ty and his crew Were incredible!  From the first call, his attention and reliability was evident.  Although he was booked for the next couple of weeks, Ty found time to come out to my house and give me an assessment.  Right away I could tell that his experience and knowledge of how best to take care of my tree was evident. Knowing that whoever takes care of pruning my trees cares as much as my wife and I do is very important to us.  His assessment and price quote were so reasonable, I was caught off guard, but immediately booked him for the job.  Although his schedule was booked for the next couple of weeks, he called me about a week later and had an opening.  His team was efficient and they were in and out within an hour.  Trimming and brush removal..Complete.  I highly recommend Ty and Dynamic Tree Care for all your tree care.  Five stars is not enough for how happy I am with Ty and his team's service, professionalism and courtesy.  I will be using him in the future for this service guaranteed!"
-    },
-    {
-      "author": "Aaron C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Ty and his partner did a great job this morning when they came out to clear out one tree and trim another. He even noticed another small dead tree on the side of my house and asked to take care of that for me as well. They are very professional and understanding of their customers needs. I would gladly recommend them to others and use them in the future as needed."
-    },
-    {
-      "author": "bernadette torres",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I am very happy I contacted Ty at Dynamic Tree Care. They did a great job!  He quoted me a great price for all the work they did. They were courteous,  well mannered, and gave me advice for a good Roofer for my next project.\nThanks..B Torres"
-    }
-  ],
+        {
+            "author": "Christina Tucker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This team of people are the best In Corpus Christi! So reliable and fair in price, friendly and great quality service! Ty (the owner) builds a thorough plan with all your goals in mind at the free estimate, gets you on the schedule and the project done quickly!"
+        },
+        {
+            "author": "Manuel Garcia",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I hired, Ty from Dynamic Tree Care to trim up my Oak Tree, him and his team did an outstanding job. I highly recommend Ty when needing tree service fair price very professional. I told him he’s my go to guy from now on when needing any kind of tree service thanks again, Ty before and after photo",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdqTQ45s8XGqiiVCK3Vl4mTbjFG3ET2XoY_IVjmVZx-WGyIT14A7XclBFQ4Q-uBtGQDljCkNCYbweTifD4ohFm8WmiuEEBKNJ1BdNXPCX-kZg9mtL20-O3K7cnvFwQbHIxOu4MGZA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzDjzFjLzfH2fQYmbymDYqcQRcLz63BD2WTsMOvErU6IUAjFMqqqDtHp5Jrp4C8jjQHIiuaKxayFnpCWFEkCRjg_G66LfuGmyycUkrBKcivK_muxtXUW00jSbcnqvnZcK_ikvA=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shane Boucher",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ty and his crew Were incredible!  From the first call, his attention and reliability was evident.  Although he was booked for the next couple of weeks, Ty found time to come out to my house and give me an assessment.  Right away I could tell that his experience and knowledge of how best to take care of my tree was evident. Knowing that whoever takes care of pruning my trees cares as much as my wife and I do is very important to us.  His assessment and price quote were so reasonable, I was caught off guard, but immediately booked him for the job.  Although his schedule was booked for the next couple of weeks, he called me about a week later and had an opening.  His team was efficient and they were in and out within an hour.  Trimming and brush removal..Complete.  I highly recommend Ty and Dynamic Tree Care for all your tree care.  Five stars is not enough for how happy I am with Ty and his team's service, professionalism and courtesy.  I will be using him in the future for this service guaranteed!"
+        },
+        {
+            "author": "Aaron C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Ty and his partner did a great job this morning when they came out to clear out one tree and trim another. He even noticed another small dead tree on the side of my house and asked to take care of that for me as well. They are very professional and understanding of their customers needs. I would gladly recommend them to others and use them in the future as needed."
+        },
+        {
+            "author": "bernadette torres",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I am very happy I contacted Ty at Dynamic Tree Care. They did a great job!  He quoted me a great price for all the work they did. They were courteous,  well mannered, and gave me advice for a good Roofer for my next project.\nThanks..B Torres"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Corpus Christi (Central Depot)",

@@ -31,21 +31,9 @@ export const siteConfigINoahGuyRu = {
     "ctaPrimary": "Позвонить ((904) 200-4381)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/i-noah-guy/photo_001_crop.jpg",
-        "label": "Пальмы сабаль на газоне",
-        "alt": "Ухоженные пальмы сабаль на зеленом газоне перед частным домом"
-      },
-      "sub1": {
-        "image": "/images/i-noah-guy/photo_002_crop.jpg",
-        "label": "Фигурная стрижка «ананас»",
-        "alt": "Финиковая пальма с фигурной стрижкой «ананас» у белого винилового забора"
-      },
-      "sub2": {
-        "image": "/images/i-noah-guy/photo_003_crop.jpg",
-        "label": "Подъем кроны в проходе",
-        "alt": "Сформированное декоративное дерево в боковом проходе между домами"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

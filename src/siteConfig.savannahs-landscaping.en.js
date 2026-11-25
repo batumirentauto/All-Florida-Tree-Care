@@ -32,21 +32,9 @@ export const siteConfigSavannahsLandscapingEn = {
     "ctaPrimary": "Call Tomico +1 912-386-1232",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/savannahs-landscaping/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Savannah's Landscaping Services tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/savannahs-landscaping/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/savannahs-landscaping/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSavannahsLandscapingEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/savannahs-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSavannahsLandscapingEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/savannahs-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSavannahsLandscapingEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/savannahs-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigSavannahsLandscapingEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Claude Su",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Needed to resod our backyard. Tomeco had resodded a neighbor’s yard and it was beautiful. He came and resodded ours with Empire Zoysia. He also got our irrigation system working again. We now have a nice green yard. Well done Tomeco!"
-    },
-    {
-      "author": "John Smallshaw",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had a Rainbird system in our home that hadn't been used in perhaps 20 years. We only found two heads out in the yard. Savannah Landscaping Services came and replaced the controller and was able to locate and repair the existing heads and piping. They came on time every time that they had promised. We are very pleased that we didn't need to install a complete new system."
-    },
-    {
-      "author": "Alexander Sandberg",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Temico and company did a full landscaping redesign of my yard including sod removal, new rainbird irrigation system, new 6,000 sq ft empire zoysia lawn, removal of old flower beds, all new plantings, drip irrigation for the flower beds, and pine straw. They did a fantastic job and brought my vision to reality. The crew worked hard and took pride in their work; Temico was very flexible and made sure I was involved in the process the whole way. Their prices are very fair and as a small business the customer service was so much better than other Savannah-area landscapers who are overbooked or too busy to even take the time to get you an estimate. Before and after pictures to show the changes.\n\nI couldn’t be happier with the results and I am thrilled I chose Savannah’s Landscaping Services for this massive transformation!"
-    },
-    {
-      "author": "jeri bice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I got 3 quotes for a French drain I started myself but couldn’t finish.  Temico’s quote was the middle of the price range but he worked with me to get it where I needed it to be… He showed up promptly, completed the work in an efficient and timely manner, cleaned up and took care to not damage any of my plants.  His coworker was polite, friendly and they were both easy to work with.  They finished the job the same day and provided me with pictures.  Time will tell if the drain will help resolve all my water issues, but I’m very satisfied with what they accomplished, even seeing some water drained out to the street that very same day… rain is coming soon and I trust his team to help me with any future work I need done.  Highly recommended."
-    },
-    {
-      "author": "Judy Monroe",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Tomico and his crew did an amazing job on our patio expansion. The yard prep was very thorough and the end result showed their attention to all the details. They were very conscientious about showing up every day and getting the job done quickly. I would highly recommend Tomico and Savannah's Landscaping for any project. Our big family is going to have many years of fun gatherings in our beautiful new space!"
-    }
-  ],
+        {
+            "author": "Claude Su",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Needed to resod our backyard. Tomeco had resodded a neighbor’s yard and it was beautiful. He came and resodded ours with Empire Zoysia. He also got our irrigation system working again. We now have a nice green yard. Well done Tomeco!"
+        },
+        {
+            "author": "John Smallshaw",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had a Rainbird system in our home that hadn't been used in perhaps 20 years. We only found two heads out in the yard. Savannah Landscaping Services came and replaced the controller and was able to locate and repair the existing heads and piping. They came on time every time that they had promised. We are very pleased that we didn't need to install a complete new system."
+        },
+        {
+            "author": "Alexander Sandberg",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Temico and company did a full landscaping redesign of my yard including sod removal, new rainbird irrigation system, new 6,000 sq ft empire zoysia lawn, removal of old flower beds, all new plantings, drip irrigation for the flower beds, and pine straw. They did a fantastic job and brought my vision to reality. The crew worked hard and took pride in their work; Temico was very flexible and made sure I was involved in the process the whole way. Their prices are very fair and as a small business the customer service was so much better than other Savannah-area landscapers who are overbooked or too busy to even take the time to get you an estimate. Before and after pictures to show the changes.\n\nI couldn’t be happier with the results and I am thrilled I chose Savannah’s Landscaping Services for this massive transformation!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKu5NXazJgP9jKO8nWNJ3H-Y12lUW-v2a3havSK8e39FSJMC8NHxizpQwJLqYCxzbMlKD8X83jpHtr0iH54hWkMOCFmRIlNXH7sM6F1GQnIBYua0Q24hkvZivOoUgeCQJXaXkj=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbGHVbbiCfqkxEaa_zfc4JY8thzF94SrUr2DxirnBVdUqhY6e1g_c3-3xDmyjSC7_A39W4O3bwx210Wd4YZS_-n_6LbNU5y2gqgAYUpXEKRhXptSiQo-vfI3nVt5g1gWFAhgXj=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLexEe4wgQXbSOAUcBuW5fswSvO2cL0-bEqt5lZsRcuMYkfGktCDtoo9K5vnM0A7EmRpw9GFkJk8bWvj0SI-99oXuTvRECKQS-IKidrN_meOwRtfOhezeDEO_CT2abJeJAHJJN8R=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc6jLZCn0zGyl2EQhhVI5Pv_SzAHlFIrCZFdGGtQg_h6wn7dL8tESDxVVDHgmAZSNWcU1iGQ0n1SOvw0CuqClx1vm4RZ1T7Sb3dFMf1dRitPgFBsFnj7fmEkeHrB2tWlFMEYZ0=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "jeri bice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I got 3 quotes for a French drain I started myself but couldn’t finish.  Temico’s quote was the middle of the price range but he worked with me to get it where I needed it to be… He showed up promptly, completed the work in an efficient and timely manner, cleaned up and took care to not damage any of my plants.  His coworker was polite, friendly and they were both easy to work with.  They finished the job the same day and provided me with pictures.  Time will tell if the drain will help resolve all my water issues, but I’m very satisfied with what they accomplished, even seeing some water drained out to the street that very same day… rain is coming soon and I trust his team to help me with any future work I need done.  Highly recommended.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0AP_9_XTVBCRnRgHsE9CwWverueaikWsNa5I8SCZTBexzH-2LJ7K44FJR-UFuHXX1zK2pvkWuLx8xyUtYiRUBp39_6WhBQkSFqK2h5WKh6WDGZmIxo1D0DY-Coya2vDlfFVmG=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXieK2zuTwx7afNInKi9vtQH4qnRDhtMLhiRASaUel_EXI3vErXKoVon5Yb1Obuj9ey1Xfy3PWOoMiREc2zAYwlsDi5Fxz4S8L7lMO0E48CRO-qOypliMobCmgK8U1-rKyEU191w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcb87Br0ISpgf_m9k7txjlVn5BsDxkpBT0ibirnvL3tn237EMGRbJojpWr2CBZ8ayigjdJYZzsu7gbSXQqt7xvNRauajW3ItsqL82BmS3HclCELJa9GnjqyZRM_z83nHneNnRhB=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Judy Monroe",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Tomico and his crew did an amazing job on our patio expansion. The yard prep was very thorough and the end result showed their attention to all the details. They were very conscientious about showing up every day and getting the job done quickly. I would highly recommend Tomico and Savannah's Landscaping for any project. Our big family is going to have many years of fun gatherings in our beautiful new space!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdM_hwpLKCzl_TE1izuIIqb0I1i7zlnIlgqb5a8Xdenh6OyrM8tmS8AE7rSELpHk-_u8OrOIXCBGpVrJpbgHuM0NrfmqofBCAA-QyVE9Dr5ZBmftvsQ20WywPOivlqozI54jeqi=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcMVr8m8WnuwhvV-qMdBj6fA5dpOUquHJVDPt9tZCAFUiHkhnjTh4SLA1wndNPjL63g3EeHmNKtQJ_4gZ6vtyMrVvedy352v0IGnCtg9_W0HCcAKzNOUdujqGnColMOpJWJks2B=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

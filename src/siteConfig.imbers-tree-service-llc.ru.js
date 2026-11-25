@@ -31,21 +31,9 @@ export const siteConfigImbersTreeServiceLlcRu = {
     "ctaPrimary": "Позвонить ((800) 555-TREE)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/imbers-tree-service-llc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Imber's Tree Service LLC"
-      },
-      "sub1": {
-        "image": "/images/imbers-tree-service-llc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/imbers-tree-service-llc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigImbersTreeServiceLlcRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/imbers-tree-service-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigImbersTreeServiceLlcRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/imbers-tree-service-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigImbersTreeServiceLlcRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/imbers-tree-service-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigImbersTreeServiceLlcRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kevin Gallegos",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: 10/10 service. Quality, price, & service was ALL there !!\nI got 6 medium sized trees along with 1 large tree in between 2 houses completely dropped down to the ground. To top it off I added stump removal, and was completely taken down & no ..."
-    },
-    {
-      "author": "Alicia Gonzalez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Imber Tree Service was recommended and he came and did exactly what I wanted with the tree limbs hanging over my properties back yard . Was very professional got the job done in a timely manner and after he was done with the trimming he did..."
-    },
-    {
-      "author": "Rubyrose Ruby",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Imber provided great service from beginning to end. His communication was amazing, is prompt , has great prices & very perfessional definitely went above and beyond to deliver the best service available. Will definitely be using his company..."
-    },
-    {
-      "author": "bud chirhart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Imber Jr is a second generation tree specialist. I had his dad do work for me 20 plus years back and was so happy to find out that his son was taking over. He’s very good and fair in pricing. I highly recommend him...."
-    },
-    {
-      "author": "Ted C",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Need a professional that does great work and responds quickly?  I definitely recommend calling Imber's Tree Service.  I called on a Friday, they came out Monday morning and trimmed a large tree in the front yard, removed 2 dead trees and pr..."
-    }
-  ],
+        {
+            "author": "Kevin Gallegos",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: 10/10 service. Quality, price, & service was ALL there !!\nI got 6 medium sized trees along with 1 large tree in between 2 houses completely dropped down to the ground. To top it off I added stump removal, and was completely taken down & no ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcv3UGGo6fqpLOp3Vp5wIN3oHurEovYLYiZzy0EW4yXVMeewOCinhtyewE5dXaQtG5QE0pzRkXlAPGXRqbsTjdAyPbSetSHhvxJ35n6QevgQQySTO3A0A2SBcKxIqz05U6VeGbkJKgBgAVP=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRMEHTERVel6rmDVyyW1Mxc_1IKMSKeiruvmPfAC5oQ2LtYh8GxDvfAWaIVhxwINwmxll_5SVZI-HRS7e8kn-BfliL741mmf5kCW1jKwwnYtBTeB6s_EFIy8wcBjRtE4P3P8XoI3jKw9yD=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Alicia Gonzalez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Imber Tree Service was recommended and he came and did exactly what I wanted with the tree limbs hanging over my properties back yard . Was very professional got the job done in a timely manner and after he was done with the trimming he did...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcq7w6wG22T6YWq3H2u9HXsa5r0K-bsQeKtsYsP05yYlcajFP37Qg8uLDscI07v8ZS97RUVKc1BbJ1xsvY5wI5VFKnmbW6G0oGoot85bmCmcWHKzGrwdqtG8kNFhm8A71gY9cr6d9qtsnU=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Rubyrose Ruby",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Imber provided great service from beginning to end. His communication was amazing, is prompt , has great prices & very perfessional definitely went above and beyond to deliver the best service available. Will definitely be using his company...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeHPigb_aFQMNk9GE33zgGqP1k56NlohGTEOX0PGM1DeAOlC243yTEYy5AFHW_-PLekYJ1nNw0alN5aX-hvu2tJ7EWMq_hlBfRid4yWoSc9GFIrwEdkhX5Ime4jjW5euoz0dPWfg_lC96z=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLffyikyci7ISTQnBdTPfJ-cFKlkyEwLI7HkN0izWyXOS_IRHu76cjUCwxt56s4wVxNIShpUwHxXTl1c72p0Xm6kFYeNwf9rwWjiMemvcx1SVjl0uofl58wekO-jXwlccq-njPMigNCPegw5=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "bud chirhart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Imber Jr is a second generation tree specialist. I had his dad do work for me 20 plus years back and was so happy to find out that his son was taking over. He’s very good and fair in pricing. I highly recommend him....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLftj7CGvOuJfjBK9Jd6EKdLmEQDoyLjzmw024750ZZ-j0fQv_hsKwhtL4tpXS8gmz_fxW4-RxbsMjDoLqbXE5AnEPXwHyuwtSo-VFSy0hCnLuf9p6AhPuLZ9aeMUP-K4-CK9EULF5uALzYp=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Ted C",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Need a professional that does great work and responds quickly?  I definitely recommend calling Imber's Tree Service.  I called on a Friday, they came out Monday morning and trimmed a large tree in the front yard, removed 2 dead trees and pr..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

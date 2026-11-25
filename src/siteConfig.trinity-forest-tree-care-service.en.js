@@ -32,21 +32,9 @@ export const siteConfigTrinityForestTreeCareServiceEn = {
     "ctaPrimary": "Call Bud +1 817-609-1495",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/trinity-forest-tree-care-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Trinity Forest Tree Care Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/trinity-forest-tree-care-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/trinity-forest-tree-care-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigTrinityForestTreeCareServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/trinity-forest-tree-care-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigTrinityForestTreeCareServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/trinity-forest-tree-care-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigTrinityForestTreeCareServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/trinity-forest-tree-care-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigTrinityForestTreeCareServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Suzi Streit",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Great to work with.  Came within 24 hours to give me an estimate.  Scheduled the job and showed up right on time.  Worked hard the entire day and great clean up before they left.  Very professional and the team worked as a well oiled machine.  Very fair price."
-    },
-    {
-      "author": "Almarie Talavera",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I have worked with them twice now, back in 2020 and now in 2026. Amazing service. He literally left the backyard looking better than it did before. My trees look trimmed and happy! The owner loves trees and he was mindful of maintaining the healthy parts/trees. I will be using them again!"
-    },
-    {
-      "author": "Taylor White",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Bud and his crew were excellent! They trimmed my large red oak. They cleared it out and cut off low and dead branches. They also cleaned everything up very nicely! Definitely will use them in the future! (Before & after pics)"
-    },
-    {
-      "author": "Kathy Clark",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Alejandro and his crew are top notch, very professional but very caring ! Would never hesitate to refer them, they always deliver a great job!\nKathy Clark"
-    },
-    {
-      "author": "Fred Brandon",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "If you need any type of tree service, you owe it to yourself to call Trinity Forest Service Tree Care.\nTrinity Forest Tree Care did an outstanding job from start to finish. Their team was professional, punctual, and incredibly knowledgeable about tree health and maintenance. They handled several large tree removal and trimming projects on our property with skill and care, leaving the area clean and looking better than ever. I appreciated how clearly they explained the process and their commitment to safety throughout the job. It's clear they take pride in their work and truly care about their customers. Highly recommend them for any tree service needs."
-    }
-  ],
+        {
+            "author": "Suzi Streit",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Great to work with.  Came within 24 hours to give me an estimate.  Scheduled the job and showed up right on time.  Worked hard the entire day and great clean up before they left.  Very professional and the team worked as a well oiled machine.  Very fair price."
+        },
+        {
+            "author": "Almarie Talavera",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I have worked with them twice now, back in 2020 and now in 2026. Amazing service. He literally left the backyard looking better than it did before. My trees look trimmed and happy! The owner loves trees and he was mindful of maintaining the healthy parts/trees. I will be using them again!"
+        },
+        {
+            "author": "Taylor White",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Bud and his crew were excellent! They trimmed my large red oak. They cleared it out and cut off low and dead branches. They also cleaned everything up very nicely! Definitely will use them in the future! (Before & after pics)",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc9LAIIdlYXWiR90TD1V2YiKtoywjiDgqkRdswoM5h2OrJwbZfasp9lg2oGCPV44Q9zVskBDm7M-gk1QfJUoJuIYTwksJKs2ThiD7pHRtx5qYaJP5jDH5CePB808lovnm2v9NY=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewiBLF7rX-HfjHtkvK8LTcQgtt_BXiH3Oa0NKX4wvHgvlxqd3QvnPot06LJ4e-jHUgVx6f_UiglO-L3pj_Rzf3wBJqOuovV_DcNJkUEq7L7oP5ifIbhZh1bQaXsX7bTCPu-CTu0Q=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kathy Clark",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Alejandro and his crew are top notch, very professional but very caring ! Would never hesitate to refer them, they always deliver a great job!\nKathy Clark"
+        },
+        {
+            "author": "Fred Brandon",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "If you need any type of tree service, you owe it to yourself to call Trinity Forest Service Tree Care.\nTrinity Forest Tree Care did an outstanding job from start to finish. Their team was professional, punctual, and incredibly knowledgeable about tree health and maintenance. They handled several large tree removal and trimming projects on our property with skill and care, leaving the area clean and looking better than ever. I appreciated how clearly they explained the process and their commitment to safety throughout the job. It's clear they take pride in their work and truly care about their customers. Highly recommend them for any tree service needs."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Worth (Central Depot)",

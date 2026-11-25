@@ -31,21 +31,9 @@ export const siteConfigPuregreenTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 336-341-5339)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/puregreen-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады PureGreen Tree Service"
-      },
-      "sub1": {
-        "image": "/images/puregreen-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/puregreen-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigPuregreenTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/puregreen-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigPuregreenTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/puregreen-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigPuregreenTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/puregreen-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,61 @@ export const siteConfigPuregreenTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Sydney Lohr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a HUGE dead tree on our property that needed removing as it was a threat to multiple homes were it to fall on its own. Mark and his crew took care of it quickly and efficiently, they were very respectful of the property and ensuring ..."
-    },
-    {
-      "author": "Phillip Powers",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Thanks for your understanding with the two postponed appointments, and your quick response when the time was right. I commend you and your top notch crew. The work and cleanup was as I would expect from you and your company. Thanks again...."
-    },
-    {
-      "author": "Joshua Krezel",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mark and his crew at PureGreen Tree Service did an outstanding job clearing the overgrown yard at a house we recently purchased that had been vacant for 16 years. They transformed the property, removing years of overgrowth and making it loo..."
-    },
-    {
-      "author": "Matt Darcy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Had two trees I needed removed and the folks at Pure green not only gave us the best price but they showed up and made short work of them both. 10/10 would recommend their service...."
-    },
-    {
-      "author": "Kenneth Krise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew that came out were very nice and friendly. After I had already had work scheduled for them to do I found a few more things I wanted done. They said it wasn’t a problem and I feel they gave me a great deal. I would truly recommend t..."
-    }
-  ],
+        {
+            "author": "Sydney Lohr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a HUGE dead tree on our property that needed removing as it was a threat to multiple homes were it to fall on its own. Mark and his crew took care of it quickly and efficiently, they were very respectful of the property and ensuring ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfe4jzh07kel9aKLP66Kawj-oKXDMVGTm-2vqQYwyLxXtQvZarzGkxtUnwDkMLqAQsI6fgE3rkiuijkCSADZ41RawpnT13hD8Dr7eE3QZlgpDjDjkoV1QeJolw7017kepo0QwtgZGjQp7bM=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeYcLN0KebYYficy7kC5Ga4UUGoF4Ee-cXCI7-_-j1svzA35sMyJ7YqOjreyZ4y8LhWqwZemzB92nK687rU-MCy4Q-NymbTq4UeC0FjqmY2p-KU7Q0x2kYnyAO1JQgn-vN3oMefaEX3N7c=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Phillip Powers",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Thanks for your understanding with the two postponed appointments, and your quick response when the time was right. I commend you and your top notch crew. The work and cleanup was as I would expect from you and your company. Thanks again....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccSQDseGS7S1oayJwgyA9499LhLv9qpCYMcgkmRSGW6Vn-ZqUm0nYKTxAKgMVArYU8wBT3Bk7NaJMYSkL4xzB0ts3l_mbkJjR9OD806TkxeL1aPQy3OuOXYwVKL3phkwJ7vRimCO7MiTsk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIkPNKMHubRgsUxw9EJerXFxCvysQY7EhXxw8E2BrRcEpMe85ZgBtLZ5PBcBT4LdYFbz3S-So1cs9r58hQT6JEi4tfHeCf4I9719EcYepOdbtexTzcYefKwRl5uPRKwhNJUqCZrP9M6Mw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeHSqZGjw-imBo5pMbWGhl7QIR9YQ23D_Dl2KJejo0RUZ3sjTsPfCNTL9k447k_D3gI27_oT04ZkkYeF9GYYysDaQsbFIjVzOUnAB9SLebIxt9scLCM5kpR4_f9iB_b_SDWkZhWTssbFxnn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfrYdHl3xTVmdLGF1EujBsisxP5hWAFnSCichXWX-cbfpUfVCSHxzU-9X5WVKNQ8KyQw5OBEgjK7EYmRzk4XzdpGA9EP3kdG7z6TgM_KsaSkfDyP2a0bhepBiHelMWQQJqY7bg5D_tdpHuz=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Joshua Krezel",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mark and his crew at PureGreen Tree Service did an outstanding job clearing the overgrown yard at a house we recently purchased that had been vacant for 16 years. They transformed the property, removing years of overgrowth and making it loo..."
+        },
+        {
+            "author": "Matt Darcy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Had two trees I needed removed and the folks at Pure green not only gave us the best price but they showed up and made short work of them both. 10/10 would recommend their service....",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnUnGmaQtER57ugtZ4CcXudW8MJpc3PvSCmGPJvzavJl-IJOsePNUNCoDihihOZ_fUgaC9nfJXAWmj0DWAH4LL74HvMezktWHAcp40qxqrZW1tt4Pw9ws2EBX3X4V8dA3CALMxMws2d6F1=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeMQnPIaMqDw50SUBaijkd1xMjb2oRBmufusI_l_54r-r3kSrsuKxWNdcHGgLM3MbMhzxKEyjbK8vOiJXeOMOFoiwXFBdfY1lHpf_0RKR4HpYsOzxV-pDqWBoGwzzgkkgM5OlnKSKzZFJQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kenneth Krise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew that came out were very nice and friendly. After I had already had work scheduled for them to do I found a few more things I wanted done. They said it wasn’t a problem and I feel they gave me a great deal. I would truly recommend t..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

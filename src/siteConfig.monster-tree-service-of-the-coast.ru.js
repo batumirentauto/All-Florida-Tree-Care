@@ -31,21 +31,9 @@ export const siteConfigMonsterTreeServiceOfTheCoastRu = {
     "ctaPrimary": "Позвонить (+1 650-733-2090)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Monster Tree Service of the Coast"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-the-coast/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/monster-tree-service-of-the-coast/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/monster-tree-service-of-the-coast/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMonsterTreeServiceOfTheCoastRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/monster-tree-service-of-the-coast/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigMonsterTreeServiceOfTheCoastRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Judith Anderson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Oscar and his crew arrived on time. They cut all of the trees and hedges as discussed. And left my property very clean. They were very friendly and professional. I always call Monster tree for upkeep on my yard...."
-    },
-    {
-      "author": "Raymond Brinson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am very happy with Monster Tree Service.  They showed up on time with a full crew (5 individuals).  They immediately started laying out plywood sheets where they would have to walk and carry heavy tree parts and heavy machinery.  They wer..."
-    },
-    {
-      "author": "mosk22rte",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have been using Monster Tree Service of the Coast for the last 5 years and have been very happy with their services. They just topped about 3 feet from the large stand of ficus in our front yard and I was very impressed with their work: ..."
-    },
-    {
-      "author": "Kimberly Kilgo",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They got us in quickly. We very professional. Did the job quickly and cleanly. I would hire them again in a heartbeat...."
-    },
-    {
-      "author": "Cathy Kennedy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They provided an extremely thoughtful and careful pruning of an elderly apple tree to restore structure and health. Every cut had a purpose.  Exactly what I was hoping for. Also great communications during planning. Thank you to the great t..."
-    }
-  ],
+        {
+            "author": "Judith Anderson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Oscar and his crew arrived on time. They cut all of the trees and hedges as discussed. And left my property very clean. They were very friendly and professional. I always call Monster tree for upkeep on my yard...."
+        },
+        {
+            "author": "Raymond Brinson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am very happy with Monster Tree Service.  They showed up on time with a full crew (5 individuals).  They immediately started laying out plywood sheets where they would have to walk and carry heavy tree parts and heavy machinery.  They wer...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdUcXx9mrhyNw456Px1vERlT-_HMGXpUoHZyVeSfGdertJN8q6gjCT-77W2wEYHfTFpLxZkTLpAEgw1G9SDZF8JQ9-6jHhhcnWkPh4C9M5W-UFHebCgvPc6yMqRjLkarRcdg-XS=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt0L5eByLzz9cbEEFc64ARZMYz4B9IGXd2H6Ylr2Shzqr3nyp1zDBS4iJ4vbREKfi1GkOO2grKTpTr5rbqAYOTnZroipHmW9AvfMYxq2kuOoir84dtT9Khrz0_kEAlXsActttJ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfUsGHUqLsq4K55_kCxBgT6N2aTNZdA19_AtF1KmRWo25RXKHekalwkx6HoIPedEs3ByC8Kvu8NNjdkvqzokKAJVWZVY7ikAPX3FUAP-VArnsP01WJVqn45bRQ0tXbmG_UPnSGPng=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0PbpI4x-2wXjD5xuem1gv9t5qLH6P9u9Mc-g-rpQjm64h4DRuHm7WHGKY20pWNtEKckd2JdaynsSo4-hXWbRBOFBIL-n-bvkguxWquC4TwO6Pot6dSxlZLTUbDb3RZwk3Um8=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "mosk22rte",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have been using Monster Tree Service of the Coast for the last 5 years and have been very happy with their services. They just topped about 3 feet from the large stand of ficus in our front yard and I was very impressed with their work: ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTkrTlXQ4uw2000mtd75gxJ5k3_22kXmus_xvMNY7bQNWeSl0P772YL4u1mWPs7WzNoUXvbJrk2--11oMeV9CODOpBQl71YTQj7Mza9sGi6aFBdgTQ6pnnPaZH8yDfTtwtio7iPQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcEdnVKwe-DitN1svPoJJ0zlDxg4KFfBLUo9z2_n0AdsZjnOtHgfAZeZBD0C8g0ptrF7Tu-2e68QqHmBE0lgY7iOVhizffWHSOGPdpwOdyGB4j1M9ESMM0k769oBYX0zU4CpP0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kimberly Kilgo",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They got us in quickly. We very professional. Did the job quickly and cleanly. I would hire them again in a heartbeat...."
+        },
+        {
+            "author": "Cathy Kennedy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They provided an extremely thoughtful and careful pruning of an elderly apple tree to restore structure and health. Every cut had a purpose.  Exactly what I was hoping for. Also great communications during planning. Thank you to the great t..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

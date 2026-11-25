@@ -31,21 +31,9 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardRu = {
     "ctaPrimary": "Позвонить (+1 305-823-2345)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Affordable Tree Service, Inc. - Tree Service Miami-Dade & Broward"
-      },
-      "sub1": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/affordable-tree-service-inc-tree-service-miami-dade-broward/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigAffordableTreeServiceIncTreeServiceMiamiDadeBrowardRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "C SJR",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Affordable Tree Service, Inc. provide excellent top notch service, reliable, quality work. Reasonable pricing can out and remove my 60+ tree from my property. For skilled and professional work, call them up today and speak to Mr. Nixon you ..."
-    },
-    {
-      "author": "Travis Davidson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Affordable Tree Service came in and was prompt and did the job is described.\n\nA service they don’t offer which others do is to remove the mulch.\n\nI just wish it was an extra service that was available   otherwise I would give them five star..."
-    },
-    {
-      "author": "Daniel Walker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: called around for a few quotes on tree trimming and affordable tree service was the best by far. they did an amazing job and honestly the price was unbeatable. super glad i went with them, definitely worth every penny...."
-    },
-    {
-      "author": "Joanna Navarro",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I don’t know where to start. If your yard/lawn/backyard is poison… Affordable Tree Service is the remedy and Bill is the prefect conductor. Let me not fail to mention the wonderful team he has. They are FAST and efficient. They are orchestr..."
-    },
-    {
-      "author": "J Holley",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: * I just changed my rating from a 2 to a 4 because after I mentioned to Bill my dissatisfaction, he did come back and fixed the remainder of what was not trimmed originally discussed in the quote process and didn't charge me an additional $..."
-    }
-  ],
+        {
+            "author": "C SJR",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Affordable Tree Service, Inc. provide excellent top notch service, reliable, quality work. Reasonable pricing can out and remove my 60+ tree from my property. For skilled and professional work, call them up today and speak to Mr. Nixon you ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdGndYnIOBomna7Trx0nPWVPwPYpQt80DOjDdP5kKNcLgKIEpo4Dfv7SZKwI1GkDLhwlatSxL_1MsR2B2z2EvGOy97TJNhTiZ2bcHU5hwmpjEcaEdHNXtM8fyw1Xi40TTmTmbCrX7p76B0=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeNx_FrlSe2ci9vyBE3Q7V8F8Cr0n60P4y_agmQO1PaNSXxKymlWK3HrUlTQjQi6anZf6iwqXrFhq_D0tlQCpMO3KS9qLjjzIZ56pHA-PpnTBVNDMl3_ZaAOya6UlKqePcD5IDhXf9-Mu5Z=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Travis Davidson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Affordable Tree Service came in and was prompt and did the job is described.\n\nA service they don’t offer which others do is to remove the mulch.\n\nI just wish it was an extra service that was available   otherwise I would give them five star...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfac4llfu-h4pUUGQvgsZaIYtN6vbrVOluN26F6eypXtSXuqJKIQBbhLObXSqSGDCZUTKJGik8gCFKBrflx5pHL8gUW3oGyL5VUhxpXmms-azH7aOovgo1TuOJUUH8AMv96zdNrbJk1mGw9=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeaxkT_nKVkVK0tVNcEui6s3U4adLE3AsB4HogTV63zGCctuKu1pEmia3gjxDh1wpqzS6kbpwaXRH4Z0PROYZFajj_niDSInAZpjyQs_Uc-ODx3CEbF1JIaBEgC0R28bUk5SWXKj2KbQ_3D=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdQsJ8ljABza3-yDdRQkmDuTcjVRmXcyvBK36mQiDvAvWxB5WP7XmM2NLZf0iOOhtQLeOO6Zfp0QpF-PnTJpRwjsce24gs-av9xHTT0EI8nA7ZZVBSQ_7U1T6c2yggZHts8uWER9eO5sBg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Daniel Walker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: called around for a few quotes on tree trimming and affordable tree service was the best by far. they did an amazing job and honestly the price was unbeatable. super glad i went with them, definitely worth every penny...."
+        },
+        {
+            "author": "Joanna Navarro",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I don’t know where to start. If your yard/lawn/backyard is poison… Affordable Tree Service is the remedy and Bill is the prefect conductor. Let me not fail to mention the wonderful team he has. They are FAST and efficient. They are orchestr..."
+        },
+        {
+            "author": "J Holley",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: * I just changed my rating from a 2 to a 4 because after I mentioned to Bill my dissatisfaction, he did come back and fixed the remainder of what was not trimmed originally discussed in the quote process and didn't charge me an additional $..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Pembroke Pines (Основная база)",

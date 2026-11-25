@@ -31,21 +31,9 @@ export const siteConfigTreemanRu = {
     "ctaPrimary": "Позвонить (+1 770-883-7026)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/treeman/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Treeman"
-      },
-      "sub1": {
-        "image": "/images/treeman/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/treeman/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreemanRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/treeman/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreemanRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/treeman/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreemanRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/treeman/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,56 @@ export const siteConfigTreemanRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Michael Hicks",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Five stars. I have used Treeman services twice now and twice they have exceeded our expectations and went above and beyond. Treeman has cleaned up fallen trees, pruned trees, and fell dead trees for us. Treeman can do it all. His team of pr..."
-    },
-    {
-      "author": "Allison Gilmore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had the best experience with Chris and his team! They took out three LARGE oak trees and many small trees and bushes in our back yard. It looks like an entirely different yard now! They were just going to cut back the small trees but his..."
-    },
-    {
-      "author": "Kristi Mieske",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: My husband Michael and I hired Chris Harper and his team to remove 15-17 trees from our property.  They did a fantastic job and did not leave our property until everything was completed to our satisfaction.  Their prices were very competiti..."
-    },
-    {
-      "author": "Joann E.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Customer service is a top priority of mine. Chris and his team are committed to providing\ngood service. They cut down my large tree within minutes. Chris told me it would only take a few minutes to cut the tree down, as promised, it did. Th..."
-    },
-    {
-      "author": "Toni Pomerene",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Chris Harper, owner, reviewed our job within hours of first phone call. He was able to fit our tree removal in quickly and at a competitive price. Job was a little tricky, involving access on our property and neighbor's too. Everything was ..."
-    }
-  ],
+        {
+            "author": "Michael Hicks",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Five stars. I have used Treeman services twice now and twice they have exceeded our expectations and went above and beyond. Treeman has cleaned up fallen trees, pruned trees, and fell dead trees for us. Treeman can do it all. His team of pr...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcdVyrJfeDpYfM7imjcQg1_pwVbBNi-6JtUL68D0uzyX1PJa5G-SLNWtn5fLh3D9XYbVtZTmMiwZjHvhuPaXR2ynvxNvuIFna9ql2bN45K20FGShKP8Yx8xvS7CrUqAEADY5F9VKQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeRpTh09k5HkFWC0wWOiwDtBJcPy2yuPfVhhTK6age7rQVZJU2Ywi1UnX1CalI_GC0j019npiPlN-BDV4_rnhfn_hjw61KZkgdod2WPal5RQ0u4vz6jOMJUNQFNT8L9XDhKk0Qx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLftrivIWbTmEAcMuJlQZVmNKAVpxvxXgnLFgp-xIbohbY0yKiZF0Nrc08W7w3wXL7BGT5-aQZrMUchYHkC5zCdK4zzEacIEg8EmnTnqRAdIdVAYCicdXvvD9ahfwBlA-E_xUgqT=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Allison Gilmore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had the best experience with Chris and his team! They took out three LARGE oak trees and many small trees and bushes in our back yard. It looks like an entirely different yard now! They were just going to cut back the small trees but his...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfdocACJryrBd454YafcT8wrIlmlHK59S9zmNkHrE6savEpUWMK0Vahv-YrqV8Sz0JdR5x1nCjayqJreS5OGiXxBnfzhn-_vSddxz8Cu8CrrPg9AzBFBxU-0XSUqb2GWXRAj6XbRw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDPes42WyaDWq3Vh_HYwIDhz_j2wjFAFJZDu1wCTPcy6Ldye1-O2xUMXorI4q5IohCQpbs1O3y6iAjLJptdyjOofkL4F3brKFTorsAXTom10hrq_tpcsGizlEK0t_vw1LndC0-=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kristi Mieske",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: My husband Michael and I hired Chris Harper and his team to remove 15-17 trees from our property.  They did a fantastic job and did not leave our property until everything was completed to our satisfaction.  Their prices were very competiti..."
+        },
+        {
+            "author": "Joann E.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Customer service is a top priority of mine. Chris and his team are committed to providing\ngood service. They cut down my large tree within minutes. Chris told me it would only take a few minutes to cut the tree down, as promised, it did. Th..."
+        },
+        {
+            "author": "Toni Pomerene",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Chris Harper, owner, reviewed our job within hours of first phone call. He was able to fit our tree removal in quickly and at a competitive price. Job was a little tricky, involving access on our property and neighbor's too. Everything was ..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Athens (Основная база)",

@@ -32,21 +32,9 @@ export const siteConfigCltTreeLlcEn = {
     "ctaPrimary": "Call Barry +1 980-214-4323",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/clt-tree-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "CLT Tree LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/clt-tree-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/clt-tree-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCltTreeLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/clt-tree-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCltTreeLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/clt-tree-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCltTreeLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/clt-tree-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,55 @@ export const siteConfigCltTreeLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Ian Shaw",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "CLT has been there for me many times, Barry and his team are professionals and always do a great job. I’ve even recommended them to many people and they’ve been pleased as well.\nI highly recommend CLT Tree Services to anyone weather it’s a massive tree removal to pruning."
-    },
-    {
-      "author": "John Day",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Barry and Team are fantastic to work with. Responsive and reliable. They’ve done several jobs for us. Look no further if you need any tree removal, dead wooding, and/or other tree-related services."
-    },
-    {
-      "author": "Alicia Reese",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "CLT Tree did an excellent job -- our tree had a dead tree which had grown out of it with limbs jeopardizing  both street light lines and the roof.  Barry responded quickly, assessed the issues and explained what needed to be done.  His crew showed up when they said they would, removed the dangerous limbs and thoroughly cleaned up -- all in less than a day.  The price, the service and the quality of the work were better than any other service I've used.  I'll definitely use CLT Tree again."
-    },
-    {
-      "author": "Debi Lee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "CLT was great!  Barry and the guys  worked hard the whole time each one pitching in to help the others.  They were careful about other plants and yard art.  Cleaned up thoroughly after the job was done.  Would highly recommend them to anyone!"
-    },
-    {
-      "author": "JMB Holt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Barry and the crew of CLT Tree did an amazing job trimming a huge oak tree along our driveway that was growing over our roof.  They brought in a bucket truck and took out some large branches without any issues while keeping in mind the health of the tree and where the cuts were made. Their price was extremely fair, and they cleaned everything up perfectly.  I have dealt with several well-known tree companies/arborists over the years, and I would definitely use CLT Tree over any of them in the future."
-    }
-  ],
+        {
+            "author": "Ian Shaw",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "CLT has been there for me many times, Barry and his team are professionals and always do a great job. I’ve even recommended them to many people and they’ve been pleased as well.\nI highly recommend CLT Tree Services to anyone weather it’s a massive tree removal to pruning."
+        },
+        {
+            "author": "John Day",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Barry and Team are fantastic to work with. Responsive and reliable. They’ve done several jobs for us. Look no further if you need any tree removal, dead wooding, and/or other tree-related services."
+        },
+        {
+            "author": "Alicia Reese",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "CLT Tree did an excellent job -- our tree had a dead tree which had grown out of it with limbs jeopardizing  both street light lines and the roof.  Barry responded quickly, assessed the issues and explained what needed to be done.  His crew showed up when they said they would, removed the dangerous limbs and thoroughly cleaned up -- all in less than a day.  The price, the service and the quality of the work were better than any other service I've used.  I'll definitely use CLT Tree again.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd21VYyS5y_alxUcec2p4lVoJtdaaEzpfdyGTzD_aI30K4N1zt34BT-tu7tOsvJEvlw6VMeAXtRkjW0YcAq9qVcCkCV2PMmRwYhNRv7DYu330lG9aNb1QjqcY6NSFghRavtbeeAtQ=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Debi Lee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "CLT was great!  Barry and the guys  worked hard the whole time each one pitching in to help the others.  They were careful about other plants and yard art.  Cleaned up thoroughly after the job was done.  Would highly recommend them to anyone!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeLY01jyfvdm6p15eWWx43i-DWmNJf1ENFVYCRvxy9yGNwllvWXG8HYGtz0cVS_leuJvL-jVD1yefgWdldYNyMlhJiD8yloJtRzHcAE5B6StsKaG6BrcfnZhmrDAGfcsEdlY3sFyw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQXL8q73Pb67uezfTytoYpV_bXPmyQBrEJTBmv0KR7vcvIedaVTxixtp1aqn5dGIPCupsO4jQIuvDAVyfMu6KwPj1H31FcqR9b_n3PEOkIaCjxOYAeofUy_WdH2jodQ9PcrYpe=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcbNBp-ifCabBgUok-evQWKMu65ez_Qhfoj1D3BB5ntablE0CPWKluthLRqM8nIe2G8KC9fVREw3mc-YnI59gjU6sRzpcELJGoEZi9CFExujMulJxNiuY765bk-XlBfM6CkgQM1kg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "JMB Holt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Barry and the crew of CLT Tree did an amazing job trimming a huge oak tree along our driveway that was growing over our roof.  They brought in a bucket truck and took out some large branches without any issues while keeping in mind the health of the tree and where the cuts were made. Their price was extremely fair, and they cleaned everything up perfectly.  I have dealt with several well-known tree companies/arborists over the years, and I would definitely use CLT Tree over any of them in the future."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Charlotte (Central Depot)",

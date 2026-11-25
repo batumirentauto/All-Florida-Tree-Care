@@ -31,21 +31,9 @@ export const siteConfigArbortrueRu = {
     "ctaPrimary": "Позвонить (+1 832-980-8733)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/arbortrue/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады ArborTrue"
-      },
-      "sub1": {
-        "image": "/images/arbortrue/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/arbortrue/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigArbortrueRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/arbortrue/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigArbortrueRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/arbortrue/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigArbortrueRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/arbortrue/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,57 @@ export const siteConfigArbortrueRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Virginia Rivers Howard",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mario and Fabian and his crew were AMAZING.  They came immediately and did an astounding outstanding job.  I really appreciated their care and methodical expertise in the large tree removal.  They cleaned up every leaf and branch so you cou..."
-    },
-    {
-      "author": "Janet Hampton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: After lightning struck our 45 year old Shumard Oak, I contacted ArborTrue to have an arborist look at the tree and see if it could be saved.  Kerryn, who works in the office, was incredible.  She looked at my pictures and scheduled Mario, t..."
-    },
-    {
-      "author": "YW",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Mario and Fabian were great! I had gotten a quote for a different company and they did bare minimum in the consultation and a very expensive quote. Mario on the other hand came prepared gave a thorough analysis, recommendation and guidance...."
-    },
-    {
-      "author": "Sally Winstead",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Today I had an appointment with Austin, an arborist from ArborTrue. Austin clearly enjoys his job. As Austin’s newest client I have confidence in his ability to assess my concerns and what I want done. He called ahead, arrived promptly at t..."
-    },
-    {
-      "author": "James Abell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Today was the third time I used ArborTrue to trim and fertilize the large live oak tree in my front yard. Gabriella J notified me when the tree trimming crew was on the way ( I scheduled the event in November after Philip came out to provid..."
-    }
-  ],
+        {
+            "author": "Virginia Rivers Howard",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mario and Fabian and his crew were AMAZING.  They came immediately and did an astounding outstanding job.  I really appreciated their care and methodical expertise in the large tree removal.  They cleaned up every leaf and branch so you cou...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeVjGyEWsQDMUVQe8GVqU4cld4a0GuOUurIPookgt8X0okQRAo0ls0hcXImIvyXmko4ACZctW5Kf91hh1RaG8-dfsrip6p5hikl-NRvgq6eOpSJBZSnQPuipjCn8WBBEBhU2HjjdQZkDUI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcRZdv807QNZjpiWsa9t_Pl16Dbnb6g_RwAlwcxoCMlknDJ7x7yUCtyMIC9h3CQPAs_6ceeQ-vNG9Ri5g7HRUdseGFj8ZCJYjG1QR8lhqfuJLYN7MRTFbiKufPcOa9ov9H935sO6rvCl5sq=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Janet Hampton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: After lightning struck our 45 year old Shumard Oak, I contacted ArborTrue to have an arborist look at the tree and see if it could be saved.  Kerryn, who works in the office, was incredible.  She looked at my pictures and scheduled Mario, t..."
+        },
+        {
+            "author": "YW",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Mario and Fabian were great! I had gotten a quote for a different company and they did bare minimum in the consultation and a very expensive quote. Mario on the other hand came prepared gave a thorough analysis, recommendation and guidance...."
+        },
+        {
+            "author": "Sally Winstead",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Today I had an appointment with Austin, an arborist from ArborTrue. Austin clearly enjoys his job. As Austin’s newest client I have confidence in his ability to assess my concerns and what I want done. He called ahead, arrived promptly at t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfafUkT8EN_9bN7TioPifKu6MHUsqDVBbF3oLgbD42gk3gTf9REw7hB4cKhgd4tiN01AgZ7I4TLaCqzw6aw_9tUepzG-R_p642pnbWkPrfR_GBdJhtEI7WQkIXYFj3XbxFp0QsIdZHIcVW3=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_b_JorKMbMIETBGwelXqFcYMvMWWeAXZjjUK-2TsuZw4sqv8R0AsFkhyNJ4rW67GbLYGIM3iA1En5ho6SyNPrqTclRwzT2oFpvehtpt8s7l67NnlVCqXMDiOR9hMOtrtj2tzKXle8RJp5=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd772drA_KRxGvEBMLkkJH_4KDfe5mT6ft1d7uCQHyztFpIvRyKRniv_A8fnqA7s484Gl5iJ-5i-KjyQSIWBkU8Db3WDoUUTc93geFIzQXPMsLMa01r4y18SAg5UFn_Ilp_lux0YfDtZu9R=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfRzacXq6gQL9HsbesEDfqj8wO3RnTbZXoOHTdbqw4Cir9DNJdIu_tDiggJuKJR-tpQomya7g9wuFWcGwgRPjwdX9K3bCgU522D0K5Wsmdp4CG6tqVqFGbrIWH7_W4bn4Qe2yaMv8JAm4JX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "James Abell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Today was the third time I used ArborTrue to trim and fertilize the large live oak tree in my front yard. Gabriella J notified me when the tree trimming crew was on the way ( I scheduled the event in November after Philip came out to provid..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Houston (Основная база)",

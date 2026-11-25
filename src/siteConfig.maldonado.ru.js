@@ -31,21 +31,9 @@ export const siteConfigMaldonadoRu = {
     "ctaPrimary": "Позвонить ((832) 679-5637)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/maldonado/photo_013_crop.jpg",
-        "label": "Раскряжевка дуба бензопилой",
-        "alt": "Вальщик в каске и яркой рубашке распиливает ствол дуба на чурбаки"
-      },
-      "sub1": {
-        "image": "/images/maldonado/photo_010_crop.jpg",
-        "label": "Арборист на макушке ствола",
-        "alt": "Верхолаз на верхушке спиливаемого ствола дуба во время высотных работ"
-      },
-      "sub2": {
-        "image": "/images/maldonado/photo_012_crop.jpg",
-        "label": "Продувка бетона и погрузка щепы",
-        "alt": "Ранцевая воздуходувка и измельчитель веток на уборке бетонного проезда"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMaldonadoRu = {
     {
       "name": "Спил пня бензопилой вровень с землей",
       "badge": "Низкий срез пня",
-      "image": "/images/maldonado/photo_005_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMaldonadoRu = {
     {
       "name": "Структурная обрезка живого дуба",
       "badge": "Сохранение дубов",
-      "image": "/images/maldonado/photo_007_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMaldonadoRu = {
     {
       "name": "Спил веток над крышей гаража",
       "badge": "Защита кровли гаража",
-      "image": "/images/maldonado/photo_004_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

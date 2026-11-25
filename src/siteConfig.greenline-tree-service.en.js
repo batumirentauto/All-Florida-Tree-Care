@@ -32,21 +32,9 @@ export const siteConfigGreenlineTreeServiceEn = {
     "ctaPrimary": "Call Omar +1 619-856-7570",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/greenline-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Greenline Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/greenline-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/greenline-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigGreenlineTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/greenline-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigGreenlineTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/greenline-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigGreenlineTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/greenline-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,59 @@ export const siteConfigGreenlineTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Peter Ouyang",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "GreenLine Tree Service is excellent! On time, competitively priced, insured and licensed!  For my project, they trimmed 14 eucalyptus, 4 ash, 1 palm tree and removed 3 misc trees. Shredded all tree trimmings (4 truck loads) and raked away all misc debris each day.  Omar is a certified arborist and can help explain any questions or provide suggestions on tree growth issues. Greenline workers are polite, courteous, and efficient in their process.  It helps if you make space on your property beforehand and provide access to the trees needing trimming prior to the scheduled work date. Ask Omar questions when he comes to estimate ($$) your project and don't wait until the \"last minute\" to make changes. They have all the necessary professional equipment, but only brings what is quoted on the estimate. Inform your neighbors beforehand and move cars and other things to make a safety zone prior to the work day. I'm glad I did my research and chose Greenline Tree Service.  There maybe less expensive companies, but always ask if they are licensed and insured ! (many are not) And get everything in writing !"
-    },
-    {
-      "author": "Susan Leggitt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Omar was great. He came out same day to give us a quote & we scheduled the work for the next day. His crew did a great job! Very happy with how things turned out. Very professional, licensed & insured. I've added some before & after photos."
-    },
-    {
-      "author": "Melissa Ferguson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "My trees look great. Omar and his crew did a great job and left my yard clean and free of debris. They were very easy to work with and reasonably priced. I definitely recommend Greenline Tree Service!"
-    },
-    {
-      "author": "Kristen Orphan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Omar and his crew were great! They were all friendly, polite, hardworking, and thoroughly cleaned up after trimming several tall palms and other trees in our yard. Reasonable rates for quality work, definitely recommend them if you need any yard or tree service."
-    },
-    {
-      "author": "victor flores",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys are awesome they took my tree down in blink, great service, Reasonable, no complaints, highly recommend"
-    }
-  ],
+        {
+            "author": "Peter Ouyang",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "GreenLine Tree Service is excellent! On time, competitively priced, insured and licensed!  For my project, they trimmed 14 eucalyptus, 4 ash, 1 palm tree and removed 3 misc trees. Shredded all tree trimmings (4 truck loads) and raked away all misc debris each day.  Omar is a certified arborist and can help explain any questions or provide suggestions on tree growth issues. Greenline workers are polite, courteous, and efficient in their process.  It helps if you make space on your property beforehand and provide access to the trees needing trimming prior to the scheduled work date. Ask Omar questions when he comes to estimate ($$) your project and don't wait until the \"last minute\" to make changes. They have all the necessary professional equipment, but only brings what is quoted on the estimate. Inform your neighbors beforehand and move cars and other things to make a safety zone prior to the work day. I'm glad I did my research and chose Greenline Tree Service.  There maybe less expensive companies, but always ask if they are licensed and insured ! (many are not) And get everything in writing !",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLde1JQcN4FJRklE48sMjkVsfq47S96TQBJnFlaOK-nhazSIN7m59t4FzcrfLQ7BplnwfTNACZxRaXr76V2Bad8-Qz3p-LO5c1cP0iuCfeDR5wZQTqKr_3twUSGo1sNtPv3Dy9j5TUxuulg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc-evJvPJL0TjuiZV9o2a6f8okY_6SJBKGxklwJymUAp-jklmE40le6p6C1xI-ubF5CT0uT1uqgWFSPx_W6UlLdIMz4lQYL1s_3QbRgAWt31Fsq2uWWy_u39X1dL7HRSi7blski6Ho5VGoT=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzb3j-UBR_XX9qWtORQ2rpe9MTPwqO914Ba8c8FLmHyBog-kWcJbuCX-nN3kyuCIVzLU5W_R2HrNadQjt7kG0wVps48C_YUaYWJikgkc6ojGgYZlDUE9Wq5f2KCiKqxyscfU54DS4DUCkN=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcVvq1Bup4WmWAdvF92E6te7OxLPFdfQbMmZkH6RZV7v7WGdviM0nPxfIuQHHlWljlMrndtvesvQITcGTnzv9XXl59Wvww3gTZb2aigMesCFLWwjvi3avv8P7_UbmNN0sUPMR4e0ht-GC0u=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Susan Leggitt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Omar was great. He came out same day to give us a quote & we scheduled the work for the next day. His crew did a great job! Very happy with how things turned out. Very professional, licensed & insured. I've added some before & after photos.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeG_PIHwxVvCiasq-OJGgKBUjH2eraeGzpzYTVbg6klUpmNFdqHobvS5p2KQhNPirvI1GXEiERNKnHf1kDYakdUlGKeFTSdHm4kqZu9OlDc_lpiztzWrZhUmqn7rV3Qk3-DyO-9nTH3LRQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdbNHuNBlGzj2zX01qIL2aVLf61U7p6_VOZi3nFzw0cfKRu3jr1SkKMJN6UyGc4XRVAGR9teoBZD-ZXW2xGJUWhQ0glR3wgJNqRPBtUWqdJ-XUGRxQJGQ0d_FNeHUpq9PtEqT70TGyO2FA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdj3ddnIS5wbUO2B6BiW4K7gCLJrZRBoxyfwPseaReS2TjRPPW_7UptEaCS7z9gsaDEjI6_hl5694S83lHYcBZhPI30iUjMnTF8VHoEe_5WQZU6LhERL4w0gqP0gqJ29_CokqUjaFO8N6Hh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcDX-BVEmhSkwzlJFX5y0m0PZGVRK2l88ykACvM48ekzerTGwc0QxRxQSIS360vLijx4S6KYIA72xADbRcKOPes-GQ3kqDhVEFGycO944kVWPdZKy5fhrPFgg480hjkB-ix5SzdyJM6lBtw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Melissa Ferguson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "My trees look great. Omar and his crew did a great job and left my yard clean and free of debris. They were very easy to work with and reasonably priced. I definitely recommend Greenline Tree Service!"
+        },
+        {
+            "author": "Kristen Orphan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Omar and his crew were great! They were all friendly, polite, hardworking, and thoroughly cleaned up after trimming several tall palms and other trees in our yard. Reasonable rates for quality work, definitely recommend them if you need any yard or tree service."
+        },
+        {
+            "author": "victor flores",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys are awesome they took my tree down in blink, great service, Reasonable, no complaints, highly recommend"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

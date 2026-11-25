@@ -31,21 +31,9 @@ export const siteConfigArtisticTreesIncRu = {
     "ctaPrimary": "Позвонить (+1 210-561-0155)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/artistic-trees-inc/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Artistic Trees Inc"
-      },
-      "sub1": {
-        "image": "/images/artistic-trees-inc/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/artistic-trees-inc/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigArtisticTreesIncRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/artistic-trees-inc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigArtisticTreesIncRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/artistic-trees-inc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigArtisticTreesIncRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/artistic-trees-inc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigArtisticTreesIncRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Susan Maurice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Artistic Trees never disappoint.   Five star service each and every time.   They’ve done several major projects for me with the latest one being HUGE.   Rene knows and understands what I like and need.   He listened to what I wanted the end..."
-    },
-    {
-      "author": "Kenneth Adorno",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have to say  I was very impressed with Rene and crew!   Rene came and gave me a free quote for tree trimming and moss removal.   I misunderstood the quote given to me, but Rene follow up and was very professional, courteous and knowledgea..."
-    },
-    {
-      "author": "John Melnick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Amazing arborist and staff.  Surgically manicured all my trees to promote a healthy future canopy.  Additionally, provided care to save a Texas native tree I have in the back.  Removed all the the ball moss from three trees, dead limbs, and..."
-    },
-    {
-      "author": "Alonso Jasso",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a tree fall in the backyard and, since I had previously had Artistic Trees prune my trees, I called them.  Rene came out that afternoon and quoted me a fair price.   His crew showed up first thing the next morning and removed both th..."
-    },
-    {
-      "author": "David Andresen",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Our two large heritage pecan trees out back have needed on more than one occasion to be trimmed, cut, and/or pruned to remove dead branches, lighten limb loads, and deal with tree parts  that could possibly damage our neighbor's home or car..."
-    }
-  ],
+        {
+            "author": "Susan Maurice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Artistic Trees never disappoint.   Five star service each and every time.   They’ve done several major projects for me with the latest one being HUGE.   Rene knows and understands what I like and need.   He listened to what I wanted the end..."
+        },
+        {
+            "author": "Kenneth Adorno",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have to say  I was very impressed with Rene and crew!   Rene came and gave me a free quote for tree trimming and moss removal.   I misunderstood the quote given to me, but Rene follow up and was very professional, courteous and knowledgea...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfw__9Gdu7Yio6hfBRZSQjFCJ8qGfoLKjLu56kHh11sLH4PlNUP-pqxPLbYj94CPRA6DtDODihgQlTrJ1BRaMLsthaW83LVFpr2DS-mbr1H3pw2DeMuTQikrcwLzBxW-8P8jNf51A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_iDAJbmJ22mvPlxXQsusG8Ncl8ojlJH3L0YhNZu_Ah0sw54YrEhGqwTFDemHSlS7ign5RVCYwGYpxJWDcwB3aK6UdM6d88jiLPjin49h5jOG9reBPLSiagSUmYZt5Aw_ut9x6=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdSXuI1MnnC1oprFNffkHy75TAFyoAXkYdnrhBDm0QrtqwGHHu2QZy_i9luLVVxbU7s5D7s5YSWISCaSlzPKi3ALBdHVxUxGrhIR8F-qPbV3AklKZQ9YT6SCnl1X1MqizKWuT7D2A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcFqHFWHNfG99r2nctEtPlFo9ffuvvhPEqt7ggvNn1So66US_nbNYT4nKlmL5V_p0kFxjGtLNXtZYR3UGoTdivVNPk4SC0ecODGjRlPF2nO6DEr-XfytcU1fJyCAQKSE15p9n7G=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "John Melnick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Amazing arborist and staff.  Surgically manicured all my trees to promote a healthy future canopy.  Additionally, provided care to save a Texas native tree I have in the back.  Removed all the the ball moss from three trees, dead limbs, and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnWszDq7nJgG_ajI6JGTpbo8vnZQj4NcHb2Q-lK7faKjJYrieqrZWHdlKfaKPcy1OkIyRxeUQW9aiSgCQFx9QONohxVSZ-GTdQq56uHHAkAtkzwdmHGwuXHHLzrHRictJ1zizWZw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdzBVzjLHV_E4KK4r7VX1HhM3jVO5mG0vTrjXBuucr4HzNnzf3XUU4A7nNrl7UGy-O_dpeo7O_kE9SDH7ep8gllM18XS-b2HCZnBRfndeVqUp3pS9hq1CMFeVionjmnCw7awDRE=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4ouGGlhWPRmguN-KTFuaSJENOo6IKZSTwNTyN0-erIdzTjt2P4zF3yQ6WOTarFOKsQ90FAKlRP1UxgFRFnXGF1jGcMU6cBEZ7iWn-H-Xc9oVgQDkZnjPNwN3EWU3MP1wIZGwxmQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdp6raHu8r0HzVmJtwEyZvO9jhBqqw3QACkldgG68ugpiI5cSr9Y8ZdGk8RG1RLAKRnvh8XBKwq76ronZRFSEwL0R3OD0D_yuUGr-AxsMeskYiNgggvyDYRbMOjanNt2VBy9WSb=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alonso Jasso",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a tree fall in the backyard and, since I had previously had Artistic Trees prune my trees, I called them.  Rene came out that afternoon and quoted me a fair price.   His crew showed up first thing the next morning and removed both th..."
+        },
+        {
+            "author": "David Andresen",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Our two large heritage pecan trees out back have needed on more than one occasion to be trimmed, cut, and/or pruned to remove dead branches, lighten limb loads, and deal with tree parts  that could possibly damage our neighbor's home or car...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeUKA1JUi3Np-fAy2QSyg0NrqbwiXCsE93eFioiHalnmfBtsHr6oPnm2mHjb-QaeqnVSYkwWfYmNPafwLcdbM4tGvuC4emzyqnafycnuiBajijQO7wmDgsyEQXWIJN2S7wLYQZI=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdmDM5_fbkncikqz5842ry7zUtyruiNF0UGiDYAYUribk1Bw-cs7zklipXOA1XkZr660u_kfkYgik7ZGQsdO0XPCrkV37QLCC_arLXyDCp5IoLVpVE1kfRSmmhAyMwFSaBlt0Av2Q=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJcbcK9QFSaeMGcKhwG3NiA5Nfsp1ib_CIScy0oK2Ga51-HdmLCnqjnh95Pdbni4-qPlo6pf5osQSjRAB2oQIiXO_sQTSGXp8_F2BZ6EODXf901AnNXxcnDpuvFvOi=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

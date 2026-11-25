@@ -31,21 +31,9 @@ export const siteConfigBigDogStumpTreeRu = {
     "ctaPrimary": "Позвонить (+1 706-447-8787)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/big-dog-stump-tree/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Big Dog Stump & Tree"
-      },
-      "sub1": {
-        "image": "/images/big-dog-stump-tree/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/big-dog-stump-tree/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigBigDogStumpTreeRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/big-dog-stump-tree/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigBigDogStumpTreeRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/big-dog-stump-tree/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigBigDogStumpTreeRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/big-dog-stump-tree/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigBigDogStumpTreeRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Scott Levely",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had several sizable trees that needed cutting down in my front and backyard. I was able to get a quick and honest estimate that was appropriate for the scope of work. Barely a week later I was notified the crew would be at my house to beg..."
-    },
-    {
-      "author": "Michael Mace",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Very professional, polite and knowledgeable. Had a tree fall on my house across power line, on chimney, roof and side of house. They took great care as not cause any further damage and cleaned everything off roof and lawn. High praise for t..."
-    },
-    {
-      "author": "Harrison Vital",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Big Dog Stump and Tree: Experts in Customer Service\n\nI called Chris G. at Big Dog in August of 2024 a few weeks before Hurricane Helene. I needed 5 mature trees (2 of which were dead) taken out and the stumps ground down. Chris and his team..."
-    },
-    {
-      "author": "Wall Street",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Great Service, I was at the satellite chip and mulch site by the dairy farm.  Amber was there, smiling and helpful as always. I drive out from our place in Evans and the staff makes the drive worth it.  Out of nowhere, Brian, the Big Dog hi..."
-    },
-    {
-      "author": "Clay Miller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: They removed 3 large trees from my side yard.  It went great. They got it done in less than 3 hours. And the prices are competitive.  My only complaint is that there was not good communication.  They left me guessing when they might come do..."
-    }
-  ],
+        {
+            "author": "Scott Levely",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had several sizable trees that needed cutting down in my front and backyard. I was able to get a quick and honest estimate that was appropriate for the scope of work. Barely a week later I was notified the crew would be at my house to beg...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdZnbRwSwBYSmbt_A2iTUTCHZ_3_fHF5lgnWlpzT0ftz2_7YrOKxQEswe6cOAxDAfUYkjqcXPRoCKGF9MTji2r64ay3lLqVbU9x5kz54cvIuvfkxH8COYsihw7f3GoltJuzxgbbSg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemIWCqFecyiOLY5EGnvLeAzYi_7dwNZLuYoqM59j0BJTgKXq04wEeDX57B6-8fFEFrXYM7wRQjkNQIiNreq6xqs7hkB1WuHoIp1BRGFNajWdRS-C1V-WBDFPJ1xUhSViognTWu=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdALF4laPuHiUHWO3A86_Gw0FHwxCmdoXOC1ht3tyzFAQCgLdpgRNbGd9yzLVynxgYpBdntZRGlYT8NVMdk_D8pybSaPRkGUQWavcl63XUGmUf144bc2iy-ycisev8c4fC0qGEkaQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdF9dx062xrijHK_QXoY7111Bbh2rmxs1dScThIaTW9sMHlaujKJIgLFG88PJ6nHaIMTErIlpgKCrwbw8J6xf-jpGjfdHjB1jEKLjG3YQF5tPSzSmd75Z2jn1bCIJ32NdInAgc=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Michael Mace",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Very professional, polite and knowledgeable. Had a tree fall on my house across power line, on chimney, roof and side of house. They took great care as not cause any further damage and cleaned everything off roof and lawn. High praise for t...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeTmlr5NMSsyNv8ZCVwRi_6ZZ1W2nM7OdavIk5ud5MHdNv1e9KsLdXLdmY7mj6n2t-LVgw2t-8UmPfvWzwO_kUiZy0FeoNe1KGLT2gyFMcXAJ9o8nPUDHLm9gjlmJqmtHsSBSra=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLecRje3Lv_LmVMv7FZwo0CYjCyOeX7F_Y71Xh1T5FonigfMb_vKp_H-rhfclVb78CxSWLK6E_4Mr0F21Amx5juHa6NHn8qibs5Bfyk1zk5SD6bwfBkvnZe70Kt9_Ars5wsUfNbd=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe-8Vp3ZCizBk35rHR0n7_p4RhDlIWDQ0sTu8BMqRMKcyHTY2kSkxMSXrxLvhFiNJdWDS-TR0ZfkN5pyfejVLx5kHTfkHOjY1eCmTOJzptlvgJnNL4uEn5NDaC62VWVwSG1K1N3=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Harrison Vital",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Big Dog Stump and Tree: Experts in Customer Service\n\nI called Chris G. at Big Dog in August of 2024 a few weeks before Hurricane Helene. I needed 5 mature trees (2 of which were dead) taken out and the stumps ground down. Chris and his team..."
+        },
+        {
+            "author": "Wall Street",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Great Service, I was at the satellite chip and mulch site by the dairy farm.  Amber was there, smiling and helpful as always. I drive out from our place in Evans and the staff makes the drive worth it.  Out of nowhere, Brian, the Big Dog hi..."
+        },
+        {
+            "author": "Clay Miller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: They removed 3 large trees from my side yard.  It went great. They got it done in less than 3 hours. And the prices are competitive.  My only complaint is that there was not good communication.  They left me guessing when they might come do..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Martinez (Основная база)",

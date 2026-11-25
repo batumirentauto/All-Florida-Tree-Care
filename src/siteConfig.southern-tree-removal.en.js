@@ -32,21 +32,9 @@ export const siteConfigSouthernTreeRemovalEn = {
     "ctaPrimary": "Call Elliott +1 706-664-1240",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/southern-tree-removal/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Southern Tree Removal tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/southern-tree-removal/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/southern-tree-removal/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigSouthernTreeRemovalEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/southern-tree-removal/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigSouthernTreeRemovalEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/southern-tree-removal/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigSouthernTreeRemovalEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/southern-tree-removal/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,69 @@ export const siteConfigSouthernTreeRemovalEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Lou Porreco",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve used Southern Tree Removal on multiple occasions and will continue to use them in the future. Elliot is fair efficient and reasonably priced. Big job or small his crew will get the job done quickly and safely. I recommend him to everyone, i’ve never been disappointed."
-    },
-    {
-      "author": "Cynthia Robinson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Outstanding job!!! The owner, Elliott Pieper, very professional communication and work. He and his crew did an amazing job and was very thoughtful and cautious with the trees being so close to our property.\n\nAfter various tree cutting experiences. Southern Tree is the Best!!!\n\nThank you so much!!!!"
-    },
-    {
-      "author": "rashid karaa",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Amazing job by Southern Tree Removal! They came out quickly, quoted a reasonable price and did an excellent job.  Very good communication and knowledgeable team, it was a pleasure to work with them.  Highly recommend, will use them for all of my future tree work."
-    },
-    {
-      "author": "mary fields",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Such a great company would highly recommend for your tree jobs"
-    },
-    {
-      "author": "Kevin Krist",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This is our second time using Southern Tree, and we were so pleased with their previous work that they were the first (and only) company we called when we needed to have more trees removed. Elliot and his crew, especially his project supervisor/foreman (whose name I have unfortunately forgotten), were professional, efficient, and friendly. They understood exactly what we needed in terms of clearing the trees that needed to go, including offering advice on some of the trees that we were “on the fence” about removing, and their services were very reasonably priced. The office staff was attentive and helpful in scheduling and billing. Overall, we were incredibly satisfied with Southern Tree’s services and would highly recommend them to anyone in the area."
-    }
-  ],
+        {
+            "author": "Lou Porreco",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve used Southern Tree Removal on multiple occasions and will continue to use them in the future. Elliot is fair efficient and reasonably priced. Big job or small his crew will get the job done quickly and safely. I recommend him to everyone, i’ve never been disappointed.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf781qXgCboX9XCgpNsd9iTwzbfAZt7hVTvy7VIdWQ3QAFgnfB-ef_XsvJVaOB3JCgFyzVnHM9b5g_YGfylSdKnPQm4l09W5KiRxX_4FoZ5avyD_2_QbSTsVtMaOy_oCXeB230Diw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfoCEjY4Pk3EXblHbkubTcbT05jn9gnPYit0BHj2OiEdETC9DFx0v6ApzSnILaC3jiYO_6fHE9VPijO0CtGz75BQTbXqQ8NQ20eVCM5mxZJF65uNj3S33ZiVS5bS0EH-sxyAwHX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcBdh1QJiKI4zHl01rJtDGNeWbWaUHeC5ANlMv87XTSFpKIO4_FALvdUfuoJLryuTb9Z2ig_IMncNDvo4yjSYAYT4ZQJRb7TB3-vnrzkUCWR3rj5Bnh4E12aBquGDBGD1diISOtWA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc79Ix5pSe9ZW7xklwUHYzzfIMGUdU6vYTP_dN7guz9HReyYV86HycxRKQng0dMAXFRzvrjKaqRPYvm9puFGrXKMy5gDs7MnThtOBTUuybjBRKs8ufQboASB_N1KURkZk4drL4=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Cynthia Robinson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Outstanding job!!! The owner, Elliott Pieper, very professional communication and work. He and his crew did an amazing job and was very thoughtful and cautious with the trees being so close to our property.\n\nAfter various tree cutting experiences. Southern Tree is the Best!!!\n\nThank you so much!!!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeekKlNsMAU0g5kRAH5wbj9BLc60UkMwVXOJ_igpx3V0Ht72CSXsl5Vc9OIHhmmjNacUhcZ-hGKkwmZQvHoqy54lX0F7O7doP0ym6-q0IH56_FfFjHs2Yhlhv7K0D3OHlLaMpbUWA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeCfBjwnfKb0bzwW423vzaeQ2piPmWclf95eCfaiFoKvy1u-qA4BCl6B1M7g2BDmAxJGQOKyFHiVUmtnvciK6i36Jbw-BiV5V2RrrVSuaY-JYtZlQ7ukA6_mZr17shtuAYD87sx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeXMrIqo9sTXoB31pLZpABpD_mLzkWF6twXYshQTQT_UapSVoGkB6G7u7peVsw-QBDS04X6_QpSG0tXhu5AHq2HG4DWSiiA_cjkD0uDdVhRghgf8QzRoNI2CWHLhE9H3LKL3c9dWQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdHVz7StnkQUL4-jBftEVzaaMUdDkljgiprjZ8Sk053l3iKkFTbI3cW-1yLqKE-AGQDoUkMd8X_el5Etii_2v2_gXiGpWUVbIsjYO0Gl1leD2xCzrb8dfgK3YfLWMaHRVphEDJcxg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "rashid karaa",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Amazing job by Southern Tree Removal! They came out quickly, quoted a reasonable price and did an excellent job.  Very good communication and knowledgeable team, it was a pleasure to work with them.  Highly recommend, will use them for all of my future tree work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnZby8Iplh9-9DQtqlP43bINJM5PsbJuMclActLRb7kAQZOcTKK8FBkOGhGf38omDxyPb9g99wi_c7nSN8ciP83an6_mutdABXX-bV1QqGSjs3NBO11DwUSKbrzolwOClDJV_K=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemjNZwVNNApgktGjKKJ3pscvkiLk4Lef37Q_9on4jvCNzOunL4j732_YmueO-65IfyQOauouyMDThd4M1OyY8wI5KC_Oz3jkyvLOtuoQC4h4rhI57qzEho41IdE-nY9JxcSsEz=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcgK64w5fWXyCuB6suWR1bdhUqR0z8250XiS0_I-SqPUKTlwGolgYlDOpnOSnVMDqagMWk93OQrU0t5hCzcgqCanI2O-DWzXzpYPTjspLoqkopDlVLy-0p95Widp8autqDwsUeKg=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "mary fields",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Such a great company would highly recommend for your tree jobs",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9MRP6NtksI8M7DBtwCCylHqbzQryN3EVmScxJ57NsvH-uRshlNoWhVQ5_HLVHnQMUW3NPenU2dX2kyfas_ho5ngfYf2qVu4PyijxSnB7W7UurAU8Q5PCXOjk54o9eRm5HnatLQw0NfunX=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc0Hddok6riVwtnWsEmqX13chtE91EaLb8yS5geOcH8aT6Gb4BFKxxRmWOtyy8teQTzjUbE5EQrKNnGEX-QSm4RRbu89FrOr3p6lI1TeHAKOfpsYCJqKdfcWLkv_uU97oA36MS-yCraEOUu=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLefztpLYZ1o_VUcEyH8LCmoJDM5woAhjaHwkEILv3_u4xgKj0Fb1oDj5pjH5_dmM8LtyNDhFTykaq_e0Sc1vJDP7yxkRBvp6tvqClaHJS6ESmS-FOZrzHxUGphYLwJO5kHlFtPaI1UBP02y=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin Krist",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This is our second time using Southern Tree, and we were so pleased with their previous work that they were the first (and only) company we called when we needed to have more trees removed. Elliot and his crew, especially his project supervisor/foreman (whose name I have unfortunately forgotten), were professional, efficient, and friendly. They understood exactly what we needed in terms of clearing the trees that needed to go, including offering advice on some of the trees that we were “on the fence” about removing, and their services were very reasonably priced. The office staff was attentive and helpful in scheduling and billing. Overall, we were incredibly satisfied with Southern Tree’s services and would highly recommend them to anyone in the area."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Clearwater (Central Depot)",

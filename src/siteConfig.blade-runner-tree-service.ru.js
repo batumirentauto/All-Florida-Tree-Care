@@ -31,21 +31,9 @@ export const siteConfigBladeRunnerTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 512-222-2200)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/blade-runner-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Blade Runner Tree Service"
-      },
-      "sub1": {
-        "image": "/images/blade-runner-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/blade-runner-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigBladeRunnerTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/blade-runner-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigBladeRunnerTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/blade-runner-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigBladeRunnerTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/blade-runner-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,53 @@ export const siteConfigBladeRunnerTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Julie Scales",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Blade Runner Tree Service did an exceptional job on the trees in my front yard!  They asked my opinion and really listened to me. I love the way the trees look!  It changes how my yard and house look. They helped me get more sun in my yard ..."
-    },
-    {
-      "author": "S Sims",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had a great experience with Blade Runner Tree Service.  Christian was friendly, professional and easy to work with.  The team came out and did a stellar job trimming all of our oak trees in the front and back yard. Additionally, they cle..."
-    },
-    {
-      "author": "Jim Parker",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I can quite confidently recommend Blade Runner Tree Service for your tree care needs. We called for an estimate, and their rep (Christian) came out that same afternoon (Friday).  We received their quote on Monday, and felt it was a fair pri..."
-    },
-    {
-      "author": "Andrew Lochbaum",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Blade Runner Tree Service did a fabulous job with my tree removal.  Communications for getting a quote and for scheduling was easy. Crew arrived on time and were very professional.   The tree was in a hard spot and they took great care in p..."
-    },
-    {
-      "author": "John Koza",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Brady and Vinny did an excellent job on our large live oaks and cedars.  They were very professional and courteous-from estimate to cleanup!   Would highly recommend them...."
-    }
-  ],
+        {
+            "author": "Julie Scales",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Blade Runner Tree Service did an exceptional job on the trees in my front yard!  They asked my opinion and really listened to me. I love the way the trees look!  It changes how my yard and house look. They helped me get more sun in my yard ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDnNHVk6aLI5yPwQEvIOZKc4s38tDQqaJ1H0qeYU8C_OPEwRf32Rti3nwW7X-xbNOVBX9LbDecvy8wRYg8byB_Uhxtg1cg1nT_1Gw9_mlH78pE49NM6MCTo6ttjqxP8IuveaoXog=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfsgrdQ6gkVuKb61xg6rq4AoX4Deyemu3y9lla02-CkBhfC2GCwYQ7cvAq1H12fenls0yUg5IRz9tF7YFDzTnphDhDooUmDHg1XjBAmq7DH3u0G-avNz2rLMzqWjdwSTiHAdmhK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdBj6wMRyHSWTU_0mHF5CJJNG_z7r5qafUWtvUd_uSuXN410VyfBU8Rpw1_J4pwhiiMsVcrUg6D2bC2zTPy5pV0MQ49i4R4cAiYQgHyay7FdAPMSCao-RHoQjxR2hgLjAPGkgdDcw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdwNPkEiekvlMJ1aA28b-WWzhmg-QaiRoQcOkFdah6gAB5GT3g6J0xeKstKFT49Heq6UQRRxoMHSTYHy27R1Ayjw4giX_5vn9rmuFYH3NVvVpPC0YHRqf03eqU8HdIvJ0x2nO4xZDVRVLbw=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "S Sims",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had a great experience with Blade Runner Tree Service.  Christian was friendly, professional and easy to work with.  The team came out and did a stellar job trimming all of our oak trees in the front and back yard. Additionally, they cle..."
+        },
+        {
+            "author": "Jim Parker",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I can quite confidently recommend Blade Runner Tree Service for your tree care needs. We called for an estimate, and their rep (Christian) came out that same afternoon (Friday).  We received their quote on Monday, and felt it was a fair pri..."
+        },
+        {
+            "author": "Andrew Lochbaum",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Blade Runner Tree Service did a fabulous job with my tree removal.  Communications for getting a quote and for scheduling was easy. Crew arrived on time and were very professional.   The tree was in a hard spot and they took great care in p..."
+        },
+        {
+            "author": "John Koza",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Brady and Vinny did an excellent job on our large live oaks and cedars.  They were very professional and courteous-from estimate to cleanup!   Would highly recommend them...."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Austin (Основная база)",

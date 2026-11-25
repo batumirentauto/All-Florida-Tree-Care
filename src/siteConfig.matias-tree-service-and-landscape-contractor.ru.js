@@ -31,21 +31,9 @@ export const siteConfigMatiasTreeServiceAndLandscapeContractorRu = {
     "ctaPrimary": "Позвонить (+1 916-838-0948)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/matias-tree-service-and-landscape-contractor/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Matias tree service and landscape contractor"
-      },
-      "sub1": {
-        "image": "/images/matias-tree-service-and-landscape-contractor/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/matias-tree-service-and-landscape-contractor/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMatiasTreeServiceAndLandscapeContractorRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/matias-tree-service-and-landscape-contractor/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMatiasTreeServiceAndLandscapeContractorRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/matias-tree-service-and-landscape-contractor/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMatiasTreeServiceAndLandscapeContractorRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/matias-tree-service-and-landscape-contractor/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,64 @@ export const siteConfigMatiasTreeServiceAndLandscapeContractorRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "mike dehart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Felipe and crew showed up at 7am sharpe. He put his gear on and headed up the tree. Both guys a\nOn ground were always very professional. Great crew. Cleaned up and gone less than 2 hours. Thank you!..."
-    },
-    {
-      "author": "Vem Alba",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Felipe Matias from Matias Tree Service was professional and competitive. He did a wonderful job! He cleaned up well and did it with impressive timing. I will definitely use him again!..."
-    },
-    {
-      "author": "Anita A",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I am delighted with the results provided by Matias Tree Service & Contractor. Filippi Matias and his team demonstrated exceptional professionalism and responsiveness throughout the entire project. They provided transparent and comprehensive..."
-    },
-    {
-      "author": "Michael Brown",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matias Tree Service has been helping us with our landscaping for years — including concrete, tree trimming & removal, fencing, stonework , retaining walls,  planting, zeroscape design/build and installation of an amazing pergola . Felipe an..."
-    },
-    {
-      "author": "Mike Pihlman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Matias Tree Service trimmed 2 palm trees. They did a fantastic job! Highly recommended. Got a pic of him dropping a huge seed pod. 🤓📚🎓..."
-    }
-  ],
+        {
+            "author": "mike dehart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Felipe and crew showed up at 7am sharpe. He put his gear on and headed up the tree. Both guys a\nOn ground were always very professional. Great crew. Cleaned up and gone less than 2 hours. Thank you!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfAIsh84EA5z1ILjRv3q1PVbBn6vAhtvCWNEQedK3MiBLCfxyO21oSxmveRq3GJr4xMeSj2Idqgda6M6LrGdXundMuaSzZnfyU8DYi4tFtOxTqYTHaFbGXza74FLWRCEyIt3lb_VUGolNWD=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcGYd3l7OPMpnScVs_vWOAv1QdDz04KHugvvZgvcM403rFEVpuF0zJjmMfHctkDkclpuRH6hJwUdipXEb9Eecze0TwELV5mSltyJ_ObQli4U7u3zF2k6YEsexw3ccrWlp8ZRK6hzFfeqEBH=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Vem Alba",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Felipe Matias from Matias Tree Service was professional and competitive. He did a wonderful job! He cleaned up well and did it with impressive timing. I will definitely use him again!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeN8CM2DUovmSajEQch2aoDz749AB8i3i4hI1u54_922d7_sJrxtlouJG_j-wsFrXJvXnaDSjBxDYz9wSFMHMM6J2JuG6bLv7a7L2fbGIzn83Ix0K3g0LTrzx-fjT4Cu6WFbcRuKMS4Rwsa=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLecZP8yPQghnVxFDLesVwXlXxdlt8hIShhcbrIOXF1f_6JP27HnPvYvSsK77IQtcuDAcLTGag7Z45Fwo0KO8fZqyga90ykVDygqU3WgS405ACX4Xr0Eyp2E1Lwlzv3dRMLo30f7LppuuaqW=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Anita A",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I am delighted with the results provided by Matias Tree Service & Contractor. Filippi Matias and his team demonstrated exceptional professionalism and responsiveness throughout the entire project. They provided transparent and comprehensive..."
+        },
+        {
+            "author": "Michael Brown",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matias Tree Service has been helping us with our landscaping for years — including concrete, tree trimming & removal, fencing, stonework , retaining walls,  planting, zeroscape design/build and installation of an amazing pergola . Felipe an...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmgERDNpEEcQ_ST-UoMXtJx6wbKYUZFgAujJrSbui32Q23Xczo2tNm93tan-o6H_oTToRFdlbS_tpSQYVKvyuB5Q2wUZYn_v1xneE5-aV3CqUcj3DeYa7AsMOohRVQtmWRHru1FHAEQmA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOB6rmMjoTwcLeQENJuKgw75qlqHeCFLr8oHovV309-B6IE8ViW1kgiEhCjRC7o4Kgce_HtQF48DnBFs2c6SM8DlRODbXjZ6kU4G0aPZFaR_PSsluZZWzIyc8Upfhg08DpXbC_3mSwsF4k=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdENHbE5WU1P081x-A1O360UKPR9cTFjvBa3tTAsDF86M5eEiFmVWjtYvqbPbCOlnTRdqInj5Ql4ITId9-pGJQJVbnYXgM-6qelMM9Dcw0MelvuL6nymzzJ6mJd78jXJW1AKafuebNA7q7M=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesidueedZMrT5hoczQkGd0_m8rAmNWZ97z-ZKesOSX-BXTe-myMwcLbfqGueAGZ-2zA4zSUsXNqvhEfS0jvfSBtnB1wZ6fSiGAL65blZSMIlGUr5E7OiukLX4p1g_HLefbMk8V9rlMdUvU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Mike Pihlman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Matias Tree Service trimmed 2 palm trees. They did a fantastic job! Highly recommended. Got a pic of him dropping a huge seed pod. 🤓📚🎓...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcnAeQZ8L_INQlOlh8J9EnBIMWSI1YqF7ZV7_Db-YtvGkDFGOn9Suk7kIsTEr2BgV7ze-rk6YBIbsdXFoFsAxxt8mkvvy8yCJairO3PAhuIgJqFQn6MDHeRw02rJQHqNXKv_SDGArW5Ok9D=w600-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Sacramento (Основная база)",

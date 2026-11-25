@@ -31,21 +31,9 @@ export const siteConfigTreesRUsRu = {
     "ctaPrimary": "Позвонить (+1 512-940-4954)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/trees-r-us/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Trees R Us"
-      },
-      "sub1": {
-        "image": "/images/trees-r-us/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/trees-r-us/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreesRUsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/trees-r-us/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreesRUsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/trees-r-us/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreesRUsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/trees-r-us/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,63 @@ export const siteConfigTreesRUsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Laurie Roth",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We’ve used Trees R Us for several years and have an excellent experience every time. We’ve had our large oaks trimmed and we’ve had new landscaping done and the crew always do an amazing job. The prices are fair and the communication is top..."
-    },
-    {
-      "author": "Aimee McNamee",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Trees R us did a great job! They arrived in the time window given as well as were finished within window given as well. Very professional. Came in did the job, cleaned up and took everything away. Would highly recommend as well as use again..."
-    },
-    {
-      "author": "Jason Behr",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Trees R US (Mike) trimmed our trees on Jan 27, then 4 days later the ice storm hit.  We had several large downed limbs including one on our roof.  They were onsite the day after the ice melted to remove the dangerous limbs that were near ca..."
-    },
-    {
-      "author": "Kathy Lorber",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: The crew from Trees are us just finished removing broken branches and trimming up all my trees. What a fantastic job! They totally transformed my yard. The crew was very knowledgeable and easy to work with. The price… you can’t beat it! So ..."
-    },
-    {
-      "author": "J L",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I have been using Tree R Us for several years now.  Mike and his team always do a super job, they arrive when they say they will, they do great work, and they have very good pricing.  You can't go wrong with Trees R Us, I fully recommend th..."
-    }
-  ],
+        {
+            "author": "Laurie Roth",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We’ve used Trees R Us for several years and have an excellent experience every time. We’ve had our large oaks trimmed and we’ve had new landscaping done and the crew always do an amazing job. The prices are fair and the communication is top...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLetx8pzx6D4c-EnY5bkdAYB2WMr9mzYhXR0HZyPLhp04XEc7EgKFTL8aYgNW2pBg_8Q15AigTL3ysOjTqFayVlzoIW_K7vRHqQFXyDXpIAzbjWAGgO8ZIPW2eToHJLSRvqBA72p=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevNS1CLIKqhgmX1b25XENz0NuGUzlW8RAH_I_P-YkV1ell_rFJq8BO_wqVODw1OGEteWzE3T071vN6Uy487TIm1NaigdilT75ihoefDIbrQlgqVeQT-8z-sQp59rgyv2_B8MIyvQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8qS0Bfksx_paTYIh7eQ9fMd6dOGWpNNuDcogrGGH4q-yEA-QmSpfGhK5pNdSDCSpZzXm0z_aZeJjfyDaom5TPoN1BwWLWFjMhoSGeA8lDX_zSyzJR2_DcSf1IAFypLu33g3I=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPSxuZl6Bq_BwNrFBarXsAYOjuedTAxXGaq1UbC46yM9aLq2vyp5MmBwO8BWNwSIZMbKeegES3dS_k-hmyHUe2-yd8wr2geJemAkWqQEspjm_jcPyTJ6o2xp44eeO6CclSqXQafQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Aimee McNamee",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Trees R us did a great job! They arrived in the time window given as well as were finished within window given as well. Very professional. Came in did the job, cleaned up and took everything away. Would highly recommend as well as use again...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe63oR-pkm4vfKFPMwHyuFV7341KasqIKSsyiyWMvkrPlMDlbtiNByw4aiZzqFlPnwl8azNTUC_30VJlW3yt3uembGy6B3W3tdr0xtLleSlnxylR9dzf03xOkHD1Le8W5PGE9sH=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdnpVh2YvewOt8_AOGqRRorqUPNdNyIuNXWa_rHeKDEQ9J29XQvq_mLOh_uLhW13XFMUyxU3wugtjkQCTXBaWWu8Iuq6WGsv94BwNWm8ED-iKTv2pFi64Mj8q-SDk8WrvZhYqMcxw=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jason Behr",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Trees R US (Mike) trimmed our trees on Jan 27, then 4 days later the ice storm hit.  We had several large downed limbs including one on our roof.  They were onsite the day after the ice melted to remove the dangerous limbs that were near ca...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdyqCQXSy2dj6_ILptcpNLb-YFSUb_79x4YkfbiFDCty0GgaclUPgb9NPw4GXNN78_P0soXm_aQuL5GvZmZ2rPLHEgOwvafBgivcSi6pS-kzx5HrIgokV6KYNoO7RK_kDP-xCpr=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLePdgT8zoq4xY46Thsjb0RApbKeIqwxJO46RTjzpG2HtQy41br7XuSeoa_9yzLwE1wPwIp4qgEMjywtXrSCRfUUAwq4H6b1sjCAOnQrrz9QuclbpNSpnb5LhgV5-bhxfbVgeLeA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfiwXT5FK5wWUN-xAmD9fb4q02hkm3BJplHtJhUSzpdNeS6AJC4bZ7uJ1yC5fQKTDP9l-Z44kXChpR2K7wbDB-LNYEw6NHwAv0TXNLsCN5A3_3rjsE0fU1NvQtIIx4cJmrutVHVkw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeuXfpbXALq4t0geQLL2hOVADmUF_fURplXQfTSrUyeeT3F-FftcvwMeSldDuKFeHAR9mxSJ4QNcAkX_5dIScj-bREcvirey5F-OdqMOodLxq1e1rA0lfT_8b5mdlS1NBOZQwvp=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kathy Lorber",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: The crew from Trees are us just finished removing broken branches and trimming up all my trees. What a fantastic job! They totally transformed my yard. The crew was very knowledgeable and easy to work with. The price… you can’t beat it! So ..."
+        },
+        {
+            "author": "J L",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I have been using Tree R Us for several years now.  Mike and his team always do a super job, they arrive when they say they will, they do great work, and they have very good pricing.  You can't go wrong with Trees R Us, I fully recommend th..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Austin (Основная база)",

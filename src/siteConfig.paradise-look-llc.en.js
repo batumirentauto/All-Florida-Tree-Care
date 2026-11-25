@@ -32,21 +32,9 @@ export const siteConfigParadiseLookLlcEn = {
     "ctaPrimary": "Call Lead +1 954-931-8132",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/paradise-look-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Paradise Look LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/paradise-look-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/paradise-look-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigParadiseLookLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/paradise-look-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigParadiseLookLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/paradise-look-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigParadiseLookLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/paradise-look-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,60 @@ export const siteConfigParadiseLookLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kathy McGowan",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "They did a great job of thinning out our big treats for hurricane season. Also cutting all 62 palm trees, removed coconuts. They did such a good job. I switched from my previous LANDSCAPING company to this company because they are true professionals and are also arborist license arborists. Great job, Mike!"
-    },
-    {
-      "author": "Jason G",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Recent tree trimming done by Paradise Look at 4330 Hillcrest Drive!! Obviously cleanup is not their strong point. Lawn cutting isn’t either if you’re looking for a quick uneven cut Paradise Look is for you."
-    },
-    {
-      "author": "Kevin McKeever",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve been using Mike and Paradise look for years now and they never disappoint. Their customer service and quality of work is excellent!"
-    },
-    {
-      "author": "robert brideson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Just wanted to add my congratulations to others in praise of the beautiful work this commercial landscaper and his crew have done here at hillcrest 23 condominiums.  I have been hoping since moving in 2 years ago that there would be improvements to our grounds,  but never imagined such a transformation.  Many thanks 😊\n\nBob brideson\n#207"
-    },
-    {
-      "author": "Robert Defreitas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Paradise is an excellent landscaping company. I had a massive tree that had sadly grown to be unwieldy whose roots and branches had endangered my home and my neighbors as well. Mike (the owner of Paradise) wrote a fair proposal and delivered on all points on time! Tree was down and area cleaned and leveled as promised. I highly recommend this company for any type of landscaping service.highly professional and punctual!"
-    }
-  ],
+        {
+            "author": "Kathy McGowan",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "They did a great job of thinning out our big treats for hurricane season. Also cutting all 62 palm trees, removed coconuts. They did such a good job. I switched from my previous LANDSCAPING company to this company because they are true professionals and are also arborist license arborists. Great job, Mike!"
+        },
+        {
+            "author": "Jason G",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Recent tree trimming done by Paradise Look at 4330 Hillcrest Drive!! Obviously cleanup is not their strong point. Lawn cutting isn’t either if you’re looking for a quick uneven cut Paradise Look is for you.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcmOPmirmSBUuAqQFN8fmp0CFcbaFC_jSNdwUdgyJbZnQGr021g4jI8ZSOpkGCTkuH7NmommMDHUfh3-XJSjQ9QNqlcYfq35PlDotZ-4XMdnXno1yVxrX7qoaNvx4JrgOSI0r4=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf_BySSmDuiUFl2YD9pIOT92_anff8GAhPgXda_0V-GnvsQCIe6yp__iqivDk26jEpQ-HWq-PCQwsGUyGCDUojm7CaMYJeoJP3Py0OF8xkTT6-ruKjLpBJwoYtkyp2kegPeWQXG=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd8R4NbNo24vBxhfT8U1Iz1b2HsnUo4DPXB1xEm6KoKYTDlQqXIkbGP-3jDhdcgBGnaTzzxz9zuP7Aw_7865NlnSFNDuqJd5XO2gM0VLhDtBTQCwwLD1hYaZFbYy7sGT39YBlrl9A=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcsd8_dL379JzAEjMhk382ZMPwSoB0Sz2ei7WTKL_5KLCXVyxJEK0f6-5kvL7wZ-doGlJ_inpgmvkgfWFl_8fGZGhmQ6pgXwsZiVMILiTRMgX39aqEdv4I3GhTPQmrwESKet4o=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin McKeever",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve been using Mike and Paradise look for years now and they never disappoint. Their customer service and quality of work is excellent!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf9XhPqhV4X7N3xIZTDzw2JihG-vUH5L2n3wf1qTCrkWR8SYGVOl_ME_7LSOinFOWGqtN0nmRCYc5MedY5DyoRM-NWyhfrtVrCyVnG5p-e0_S-aolceJ5SVsM2kpoj6Wmv4u70P=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfjQujPKr-Uan2mCX6uxtt7oHxiM06uvJNf8MS0bNQ_kUj7Wi2smAfVp6J_n5jW5tP5nN5dOZ_QXRRlmPJ2hqc_DMUC0rcHKG3MQdrS8RIyaEn7a39HU6v0Eqoqf7xtR_OgZ2MJ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "robert brideson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Just wanted to add my congratulations to others in praise of the beautiful work this commercial landscaper and his crew have done here at hillcrest 23 condominiums.  I have been hoping since moving in 2 years ago that there would be improvements to our grounds,  but never imagined such a transformation.  Many thanks 😊\n\nBob brideson\n#207",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdFi_KTstGRUin1MXw96UNbWwmCnR_r5R8ir46-Kg_wW0rHwwKaKw_4_EdDX0jxFIBCUlrkgg7AhpuciAaHRoy4_Fd8LmNxUrMt4WG7kM9nuJyuC3P_ELGHUggRjbbaMI5YVf8=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Robert Defreitas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Paradise is an excellent landscaping company. I had a massive tree that had sadly grown to be unwieldy whose roots and branches had endangered my home and my neighbors as well. Mike (the owner of Paradise) wrote a fair proposal and delivered on all points on time! Tree was down and area cleaned and leveled as promised. I highly recommend this company for any type of landscaping service.highly professional and punctual!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

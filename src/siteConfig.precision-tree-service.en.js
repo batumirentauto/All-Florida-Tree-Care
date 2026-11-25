@@ -32,21 +32,9 @@ export const siteConfigPrecisionTreeServiceEn = {
     "ctaPrimary": "Call Larry +1 360-840-8776",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/precision-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Precision Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/precision-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/precision-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigPrecisionTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/precision-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigPrecisionTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/precision-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigPrecisionTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/precision-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,64 @@ export const siteConfigPrecisionTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Trevor Morey",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Fantastic price, outstanding responsiveness, and most importantly—they did an amazingly safe, expedient, and high-quality job in removing our dead Douglas-fir tree and grinding the stump.  I’d absolutely recommend them for any related tree services, and we look forward to using them again for future tree projects.  We got three estimates and Precision was the best price and experience.\n\nLarry and his crew were easy to work with and took care of our nearby madrone tree, fence, and trampoline.  They thoroughly cleaned up the entire property."
-    },
-    {
-      "author": "Kelly Kelly",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Larry and his crew were excellent. Larry knew his trees and what was the best way to get the result of a view restoration. Fast, efficient,  exceptional clean up and chipping. Good value for money.\nI highly recommend them."
-    },
-    {
-      "author": "Gerald Guidroz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had about 8 trees needed taken down with some branches hanging over our neighbors house. I wanted some cut town for lumber, some firewood and the rest chips. The crew came in and listened to all my concerns and did a very professional job getting it all done with no issues. I now have several cords of wood, 9 logs and a great pile of chips,  all in a day and a half.  Very happy with the work."
-    },
-    {
-      "author": "Martha Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly professional experience from start to finish! Precision Tree Service in Bellingham, WA, is the absolute gold standard for tree trimming and removal.From our first interaction, their communication was prompt, proactive, and exceptionally professional. They arrived exactly on schedule, proving their outstanding reliability.I hired them to handle some massive Douglas firs, and the teamwork within the crew was incredible to witness. Every member operated with seamless efficiency while maintaining a flawless focus on safety around these giant trees. Their deep industry knowledge was apparent throughout the entire process.To top it off, they performed an excellent cleanup, leaving my property completely immaculate. If you want a skilled, safe, and elite crew, look no further than Precision Tree Service. Five stars all the way!"
-    },
-    {
-      "author": "Maralyne Powell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We are so pleased with the job that Precision Tree Service did with cutting down 2 trees in our yard.\nThe crew was very polite, worked well together, cleaned everything up when they were done.\nI just can't say enough about how they exceeded our expectations!!\nThank you Dan and Crew!\nMaralyne and Tracy Powell"
-    }
-  ],
+        {
+            "author": "Trevor Morey",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Fantastic price, outstanding responsiveness, and most importantly—they did an amazingly safe, expedient, and high-quality job in removing our dead Douglas-fir tree and grinding the stump.  I’d absolutely recommend them for any related tree services, and we look forward to using them again for future tree projects.  We got three estimates and Precision was the best price and experience.\n\nLarry and his crew were easy to work with and took care of our nearby madrone tree, fence, and trampoline.  They thoroughly cleaned up the entire property.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgKmTAb0bKwXu2f0TWoN0vriwls2n_-GIBBusX63630z2oQmSdDcNF9FrnjW_MpxAXQ25cZcxRKtqXLUnkoxOWOCma9n6zTKHh_t9KL529s3gsHorfd-64WDwL82L4bgCpF9F-ISjGujSE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLembWHId6nmCejEke4TPiQas2wdnYmwPZ-Pp9mEc9M1L8DwJRgGWxjMvywExHnH1pR1Nx3ej_0iE1E2oyRdZb2Z2MqoZBgSBTSg232k7TRi_gXQ8qg1Vd5fabo7oTyzx0Z9yGaCfO5t-erl=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Kelly Kelly",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Larry and his crew were excellent. Larry knew his trees and what was the best way to get the result of a view restoration. Fast, efficient,  exceptional clean up and chipping. Good value for money.\nI highly recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeC0Z8mIa4HrO6S_urIMGJh-dvbG4ItUkQxVwZFilVSWSVi5MZfGwOotuJLfgoNCAAjkCwa79nuuIqxEpbArHV2EIShNcqQX4z5EXuY0ajJYvTkZHc_VNuh1YKXmTI3jznSp_Bd01BqPFo=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Gerald Guidroz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had about 8 trees needed taken down with some branches hanging over our neighbors house. I wanted some cut town for lumber, some firewood and the rest chips. The crew came in and listened to all my concerns and did a very professional job getting it all done with no issues. I now have several cords of wood, 9 logs and a great pile of chips,  all in a day and a half.  Very happy with the work.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcgg10Tt2tTvqpP8nfhLLoFnshAwtw6XRXDwZIfrhXM-iiEtLc8eORP-6d222NnpZpNWD6Lw7pJ0YSirtL1Y9Yqc68yBw4ax4JteGeMhKF13MWpeSigj3SD_68zqPjyOIpALX-JPl_ydiU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcctsdHrBQ8JF4gWLg07QzqiDQIwiHrlHU22eOkLOryBE5quJxNwv_v2hzy3VKrjIKm5sMSwukuBIIsZ0su2pzyJOPpL7xvTzHwxyuqxnS7YDe6bs0TdhPd-Buf56xJItfcNGguqw3MSaor=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfEBa2rUY0d1PQQ81IOSVNNM3VHDubql4Dw6-Hm7hgJwFFmdVZGw4d-1oC9Lif2gliXkGuJCzweWRYAzwelftTg2nicFleCbErb3Anf88IA660mvq--NiQO2w8QWGzgaGoH3w7z6Oq0JeU=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLezflyRndmyy4YoLyW7LOXFOnCHdE7_Yf0Zu9XSxfMw4mQHzelV6z61GYYq7Kj-z8WWB2CSrpmyhjnJS2KXzhAG2fBaLUGQ1fVnTlVN_3S9_LYeRduJY_AR8iXtfc8qsgIE5UEe6F5-EHF1=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Martha Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly professional experience from start to finish! Precision Tree Service in Bellingham, WA, is the absolute gold standard for tree trimming and removal.From our first interaction, their communication was prompt, proactive, and exceptionally professional. They arrived exactly on schedule, proving their outstanding reliability.I hired them to handle some massive Douglas firs, and the teamwork within the crew was incredible to witness. Every member operated with seamless efficiency while maintaining a flawless focus on safety around these giant trees. Their deep industry knowledge was apparent throughout the entire process.To top it off, they performed an excellent cleanup, leaving my property completely immaculate. If you want a skilled, safe, and elite crew, look no further than Precision Tree Service. Five stars all the way!"
+        },
+        {
+            "author": "Maralyne Powell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We are so pleased with the job that Precision Tree Service did with cutting down 2 trees in our yard.\nThe crew was very polite, worked well together, cleaned everything up when they were done.\nI just can't say enough about how they exceeded our expectations!!\nThank you Dan and Crew!\nMaralyne and Tracy Powell",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLei4H5t6w4Eubxjd-wg_T__PTNAwXiZr6-siOfyn4MPNCHevijEs42G2-r3I1852FihQkuHlxp_bI7h41BIFaa40TW-vUKbTijbgHV-MJ_o67XXqBJFhSbJ1Xu0JcaeX2kVLafgPmRhe6c=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdptG6_iYtsSbRE9_zKq1hdPxaNLImo2NNx52BIPAukHCZF42vOjcUxV-0Y7_DW8YxnH3lSIblCvjDG8aZOXH8JRE1Lj7TV-3j3xRijwxSLAZB05Ccg1N4temwmpOP4bviCcbwLaQqAcazA=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Bellingham (Central Depot)",

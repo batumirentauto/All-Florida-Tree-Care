@@ -31,21 +31,9 @@ export const siteConfigTopShelfTreeServiceLandscapingRu = {
     "ctaPrimary": "Позвонить (+1 727-906-6151)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Top Shelf Tree Service & Landscaping"
-      },
-      "sub1": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/top-shelf-tree-service-landscaping/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTopShelfTreeServiceLandscapingRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTopShelfTreeServiceLandscapingRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTopShelfTreeServiceLandscapingRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/top-shelf-tree-service-landscaping/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,67 @@ export const siteConfigTopShelfTreeServiceLandscapingRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Paul Dickson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Top Shelf Tree Service thinned and re-shapped my old oak tree. Very experienced and professional crew, led by Quentin, did a great job. Professional at all times, and thoughtful when removing debris and cleaning up. More imortantly, the sha..."
-    },
-    {
-      "author": "Domonick Turt",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Top Shelf did an excellent job removing our massive Royal oak tree! Having our roof replaced a week before getting our tree removed would concern most homeowners but I did not doubt for a second that Top Shelf could get the job done. Top Sh..."
-    },
-    {
-      "author": "Risa Hartsough",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Pat and his team were quick, professional, and fair. By the time they were done, my yard was clean as if they were never there. Excellent work and will be using them again for future projects...."
-    },
-    {
-      "author": "peter cassidy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Pat and his crew did an amazing job removing our very large oak tree that had began to die.  The tree stretched over our house, our neighbors house, and the road.  The job was completed with zero damage to either structure and the stump was..."
-    },
-    {
-      "author": "Kevin D",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Requested a quote from Top Shelf and there were able to give me a number the next day.  The tree removal was awesome and they left the work area cleaner than it was before they got there.  The most important thing to me is communication and..."
-    }
-  ],
+        {
+            "author": "Paul Dickson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Top Shelf Tree Service thinned and re-shapped my old oak tree. Very experienced and professional crew, led by Quentin, did a great job. Professional at all times, and thoughtful when removing debris and cleaning up. More imortantly, the sha...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf8Vm74J0kOM-RucFaCWAUzf7S-VWKl7cX5w3vsB2J4bwjq-LtY9kvc1_hofmL_x2dqdewC-wBoXb6dI0jEfd5XgqVDjhdBTgrXxBUFKltNW0ys_eZtDRwtazEHTgRZcdsug80E=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLctHnnkmsjRgEnilQT0LmXqwNDllsf8NrVZqc32tbM_yLBDpt2U5H_TVfu0LgknROymSuCQyC8OwYS-MjBWk6qhjoC0vfHeIWgts9ML5nAbo7JP7XcQd5C5MuaK5m9eZmXi07Q_=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Domonick Turt",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Top Shelf did an excellent job removing our massive Royal oak tree! Having our roof replaced a week before getting our tree removed would concern most homeowners but I did not doubt for a second that Top Shelf could get the job done. Top Sh...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdDF0DaaI7Ze0NGnB_nCC5BhjyaPBvdgbWYtwd3Uxhyx3hwbpvKf5WD6D6zuZEYCPmoJc_c-5YV5L5hxdoMDHanaWV9ujU4gHVu_6OQYS2FOI1Eyx9TbJSczp3d8MvpV6hKXVJ9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe9n2GvWaNr7bJpggW8DiQolmz-Wc4keiUTgocPgbBE_fg4cHQn70TNWokLHN3ibdA9FfiLjgx5a8XXWxzh3nm0-3NRN9RE0C8aTMkanP51NuZhFxyMBMIMbb8izSQgmn4wUaFPEg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLewx5RWpG6Fwq3gDY5FOEb7wmwAneu2VJwRESIBvWwKUh0J2pSDemmUAtmREf60bJmnUHeNCkX_gsrZGWJwvJWQGpkshoWexCaKjDJbryH6lQDZqeMHjKMqc5u1nPRmgF52CQWx=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfFSvOhO6FiVltu2aPFUXmWG5i-7xMdIKDPQHH76gdaulArWfXO5fyIWP0_TGpUoNT8fBaoQVLFguJxjPSIbAHILKlcyMhUEzXxjuB_w-NgcEpEUNg7UuNuXF1-5qnYHaAJM9h2g=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Risa Hartsough",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Pat and his team were quick, professional, and fair. By the time they were done, my yard was clean as if they were never there. Excellent work and will be using them again for future projects...."
+        },
+        {
+            "author": "peter cassidy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Pat and his crew did an amazing job removing our very large oak tree that had began to die.  The tree stretched over our house, our neighbors house, and the road.  The job was completed with zero damage to either structure and the stump was...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd4ukNNWPZfXMvFowsioq3uSS8gHVsE8tCkihHG9d97Tn77CIdJsJBrq6C1xIZ9AsP96hStKOA2IRcIuNz0pW6bCdsKl8LMz-F4Ce81HxyR2PDw9i7tTaBiBk5hU-eaEiUJligwnQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5BrXvumxN0UqvlrmOoHh5zgETo7vImo5-8_UQ-tiuWjA_wxd4QONJYKNf_29aPXVQQ-91LeVSGWYxT8xVbI_h24OISm0hVkz1znspecJbzNuLJacxjwefH1ZyXI0C7_PyPxPZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeGxd-f5HThOYkSIfZ5oKPlYU7Z16Zw9ewnxRjIxgAsotfaglQecFCydoU7AqCAbkkiflqzf5WuU18pZqPJFEhFKct-Dl1q6hYpRgpA6qteZ3mpzsfi48bjZEn6wVFKzIwMd2LgCg=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfq2Kt1iqNKpzJ6aCAz7NugA874qR7htDKh_hhgLqFffI4dkgi5LShLGN_DFKdeKbH86f7p5wTNDNyKqXe7KV_23gpYleIROU4qFg39nhDq7waJ09YF2EFNRp-T2HBA4gDMEug9=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Kevin D",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Requested a quote from Top Shelf and there were able to give me a number the next day.  The tree removal was awesome and they left the work area cleaner than it was before they got there.  The most important thing to me is communication and...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdt3BoqaR6LaYB5JDyvSbIW4Ypcq4XuAX34zeJs57fDCafLgQaQ-GTRxxKm3nnnL9ev1yGTwi-shopYg6p6Rn0AXVkwqbN5bEJUcEXQYbRxVtgfls9nAWkvTZijmFEu4dW2njCD=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdsQaZWd2eNTCB2CwG0zDO2zj7I45m8GhgdVUR2qhfoe3nnhTSVjmm23YpIj8nklQIvMs4H1Zp2kfpY3CATC2fwZA6Y6wwBXHmrbWYQdtDr67HQhYBy2mZsl22PV2mIY-_RdTfEsQ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

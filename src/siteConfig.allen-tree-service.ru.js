@@ -31,21 +31,9 @@ export const siteConfigAllenTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 919-417-6881)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/allen-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Allen Tree Service"
-      },
-      "sub1": {
-        "image": "/images/allen-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/allen-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAllenTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/allen-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAllenTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/allen-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAllenTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/allen-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigAllenTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carolina Car Service",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had Allen Tree Service come out a month ago. They were extremely professional, efficient and conscientious. They did what we thought would take an entire day, in 5 hours. We will definitely be using them again!..."
-    },
-    {
-      "author": "Ken Miller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Removed a number of very large trees from both front and back yard that were rotted/hollow on the inside.  Stump grinding too.\n\nNeeded crane to remove the 4 big ones in back and craned over the house in sections\n\nVery professional.\n\nPrice w..."
-    },
-    {
-      "author": "CAROLE MCDOWELL",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: To the crew that worked on Pickett Lane and Greenmont today, (you took down a huge tree right outside my windows and one in front of my house as well as trimming some trees) I watched you most all day and enjoyed every minute!!! You all are..."
-    },
-    {
-      "author": "Mark Kean",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Scott and his crew did a fantastic job with removing 5 trees, pruning others, grinding stumps, including safely removing a large tree that had fallen into a fork of another tree, 40 feet up, near our house/driveway (complicated).  Price was..."
-    },
-    {
-      "author": "Bozenna Macijewska",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We had such a fantastic experience with Allen Tree Experts! Working with Omar and his team was an absolute delight from start to finish. Omar is a pleasure to work with and incredibly knowledgeable about tree care and removal. His expertise..."
-    }
-  ],
+        {
+            "author": "Carolina Car Service",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had Allen Tree Service come out a month ago. They were extremely professional, efficient and conscientious. They did what we thought would take an entire day, in 5 hours. We will definitely be using them again!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIOLAcLGdzkCWL8cilp699rb58nfLsDnuuhwxqdJiiUDtZYFLHckym1WvEDi-Up0Jwlb3KGGQXCVUs0sJ-XYtPgyYF2jNM4p5oHSDYZCvwPR6cNRs9-_5lfLe6sQN3mEA6XeDq=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJgqs8Yas7m6GewffdbklGSeYwyXxYChc8I-W0DfLUBd0G6DoVquX2CejHq3RirIvkoVa1u0XlV8cZgBLL4vZd5wPXZlMbOX55UxeDjbAMQeyeL2JqmFAlaAuTfxm3MvwHZrw=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcumPMdUmBbn3XnrQ1HrLvqM6I2JaiTv53jl3063EOxtyPWHAQit728OBOVU-ELVGYwxRfchcULqerqfNWsUvi-rQJdFKUOsLk6mYmzBy5gMNDl7sE6F177ETFynyQVg53r7aP8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe5cCGM3HrmlIN5Ra4jIax4vdBoWmfDzYx6RCFLYJHHpJT3gGyvKxHualy-E1TjQSKYJYlBu3Vwe7pzq5LsU8z6u9tn4zd037ZqdTTLNJKc5BtKqwJ0o-KUHcc1IVmHHY4xEUM=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Ken Miller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Removed a number of very large trees from both front and back yard that were rotted/hollow on the inside.  Stump grinding too.\n\nNeeded crane to remove the 4 big ones in back and craned over the house in sections\n\nVery professional.\n\nPrice w...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLc8HgsxZDK2AgIBgytJKQca5ZVy-Kt4082QbRGKyW2jEdJLTTubEgtFUTwJE2hD9kzCEfecDuYfuNcYDAveOD9HWoiPDMP5R6fWzQKUNup0sscJSR5vWXfdQ0MKybmerES793DE=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcw5SuYqulo4rm8Dofj-HJekLQe6zogVVTXM-XtYtvS-IULRnbvg2ONJoIqXQsX8-ZjzwziAMzSsvkk4wP8nHIepJh3i7FdjCz7C4VF-8kifKRw2W0VIVmYE--WdGkFhabBqizY=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd0BJuS-kegucUGHGoUKUUlGVjME3u-b_-r5QDINXj6UnfMGjfAXsu7brt-pJpjZLTaWfFwlvSB_NDKj7DK-nXb-l25uyTnY8VQurGIP_Y8Ilq3ZaxThfXKC11LVwjUkuaNNCRt=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "CAROLE MCDOWELL",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: To the crew that worked on Pickett Lane and Greenmont today, (you took down a huge tree right outside my windows and one in front of my house as well as trimming some trees) I watched you most all day and enjoyed every minute!!! You all are..."
+        },
+        {
+            "author": "Mark Kean",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Scott and his crew did a fantastic job with removing 5 trees, pruning others, grinding stumps, including safely removing a large tree that had fallen into a fork of another tree, 40 feet up, near our house/driveway (complicated).  Price was..."
+        },
+        {
+            "author": "Bozenna Macijewska",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We had such a fantastic experience with Allen Tree Experts! Working with Omar and his team was an absolute delight from start to finish. Omar is a pleasure to work with and incredibly knowledgeable about tree care and removal. His expertise..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cary (Основная база)",

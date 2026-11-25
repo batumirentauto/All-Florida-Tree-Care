@@ -32,11 +32,7 @@ export const siteConfigHernandezLawncareAndMorellcEn = {
     "ctaPrimary": "Call Lead +1 239-822-5177",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/hernandez-lawncare-and-morellc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Hernandez Lawncare And More,LLC tree removal operation"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
@@ -189,31 +185,34 @@ export const siteConfigHernandezLawncareAndMorellcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Johnny Natal",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This company gets the job done! After my old lawn guy sold his business to another owner who would find ways to add hidden additional charges each month I was in need of finding someone to maintain my property. My property has man bushes and trees and many companies were afraid to take on the task. Hernandez has been a great company to work with. They get the job done and don’t make excuses on why they can’t do something. Great prices and I always recommend to family and friends! Thanks for the great service!"
-    },
-    {
-      "author": "Donald Bischoff",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Hernandez Lawncare is the best.  They are on time, very neat, and overall a quality lawn service. I would recommend to anyone."
-    },
-    {
-      "author": "Jeff Gratz",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Working with company two years and happy. They are solid.We receive a quality job, timely with hard working caring staff! No problem discussing any issues or things we need done"
-    }
-  ],
+        {
+            "author": "Johnny Natal",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This company gets the job done! After my old lawn guy sold his business to another owner who would find ways to add hidden additional charges each month I was in need of finding someone to maintain my property. My property has man bushes and trees and many companies were afraid to take on the task. Hernandez has been a great company to work with. They get the job done and don’t make excuses on why they can’t do something. Great prices and I always recommend to family and friends! Thanks for the great service!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcjQoWGpxOhXUelvyUQ-o-qh4nEFjP44tGzGzdt2150gK1BY3mqrvcH4_tm5DdWJNL0IyQwQERgJNGzHpBGTBQIuE897QxrWhFHps61Mbg7SXWd6koCIMtG4FgWM0vxeEnKjTCmkM9mI9FS=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Donald Bischoff",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Hernandez Lawncare is the best.  They are on time, very neat, and overall a quality lawn service. I would recommend to anyone."
+        },
+        {
+            "author": "Jeff Gratz",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Working with company two years and happy. They are solid.We receive a quality job, timely with hard working caring staff! No problem discussing any issues or things we need done"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

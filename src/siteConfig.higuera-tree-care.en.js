@@ -32,21 +32,9 @@ export const siteConfigHigueraTreeCareEn = {
     "ctaPrimary": "Call Rodrigo +1 619-300-1340",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/higuera-tree-care/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Higuera Tree Care tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/higuera-tree-care/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/higuera-tree-care/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigHigueraTreeCareEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/higuera-tree-care/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigHigueraTreeCareEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/higuera-tree-care/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigHigueraTreeCareEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/higuera-tree-care/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,56 @@ export const siteConfigHigueraTreeCareEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Tom Howlett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Higuera Tree Care. Rodrigo came out on 02/06/26 to provide a clear and fair estimate, and the crew was back just a few days later on 02/12/26 to get the work done. They handled a variety of trees for me—including a Sweet Gum, Irish Strawberry tree, Eucalyptus, and King Palms—and treated each one with the specific care it needed. The team was efficient, professional, and did a fantastic job with the cleanup. Highly recommend Rodrigo and the whole crew for their expertise and reliability!\""
-    },
-    {
-      "author": "Patty Meredith",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The crew from Higuera Tree Service did a fantastic job in trimming and shaping my big pine tree.   They were here when they said they would be and worked the entire time they were here trimming and cleaning up the mess trimming this large tree made.   My tree looks great and they did not leave any remnants of the tree on the ground or in the yard.    I will definitely be using them for my next job for my trees !!    Thank you !!"
-    },
-    {
-      "author": "Victor Santiago",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had my eucalyptus tree removed this morning, and I couldn't be more happy with the experience. The crew did an outstanding job—professional, efficient, and careful from start to finish. I was truly impressed by the quality of their work. I also want to commend Carla in the office. She was incredibly helpful, friendly, and a pleasure to work with throughout the process. Excellent customer service and top-notch workmanship all around! Highly recommended."
-    },
-    {
-      "author": "Diane Rodriquez",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Very professional, great attention to detail. On time and courteous. All trees trimmed and cleaned up. Pictures don’t show the branches on the roof, ivy all over the palm tree or the huge bunches of palm seeds ready to fall and create a mess! Excellent work. Have used them before and will call them again. Highly recommend them."
-    },
-    {
-      "author": "Teresa Wilson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was working on a tight timeline to get a dead tree cutdown and Higuera Tree Care was able to deliver not only on our timeline but competitive and fair pricing. They were prompt and friendly coming to our property and super professional in their work. I would HIGHLY recommend them for any tree project you have around your home!"
-    }
-  ],
+        {
+            "author": "Tom Howlett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Higuera Tree Care. Rodrigo came out on 02/06/26 to provide a clear and fair estimate, and the crew was back just a few days later on 02/12/26 to get the work done. They handled a variety of trees for me—including a Sweet Gum, Irish Strawberry tree, Eucalyptus, and King Palms—and treated each one with the specific care it needed. The team was efficient, professional, and did a fantastic job with the cleanup. Highly recommend Rodrigo and the whole crew for their expertise and reliability!\""
+        },
+        {
+            "author": "Patty Meredith",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The crew from Higuera Tree Service did a fantastic job in trimming and shaping my big pine tree.   They were here when they said they would be and worked the entire time they were here trimming and cleaning up the mess trimming this large tree made.   My tree looks great and they did not leave any remnants of the tree on the ground or in the yard.    I will definitely be using them for my next job for my trees !!    Thank you !!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcHisG1f2mdvBBFlwDjp630fAl38HuCNiK5dqb1WamjHS7OcGk1hpN9fMSvTiUkkFyRJUzXRgCC15UBVNcbkMxCe3wWAQ5U8RgJQHIdwODLQ1o6zAWSteDeXnAWWqP95qiQJjnS4IiQ5D4i=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Victor Santiago",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had my eucalyptus tree removed this morning, and I couldn't be more happy with the experience. The crew did an outstanding job—professional, efficient, and careful from start to finish. I was truly impressed by the quality of their work. I also want to commend Carla in the office. She was incredibly helpful, friendly, and a pleasure to work with throughout the process. Excellent customer service and top-notch workmanship all around! Highly recommended."
+        },
+        {
+            "author": "Diane Rodriquez",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Very professional, great attention to detail. On time and courteous. All trees trimmed and cleaned up. Pictures don’t show the branches on the roof, ivy all over the palm tree or the huge bunches of palm seeds ready to fall and create a mess! Excellent work. Have used them before and will call them again. Highly recommend them.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeZ1AHAGQHvgKUp5dLzTwzNEZOiIuX5g2YdN75cJSKdG50_JjdAmGdqGnaAU9f6dtLvKAmn51P5Z66QB7xgBgcZOkjEN2twsZHS9S7XhLOtUF2a6SyyVksEDIpClOslc4R6FyEEc7t8C0Xo=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd9Lsqy_Y-8Z-1bymFbNlGMpoyhB95HZ5ryfx_A-t17pHY8XDRyzP3vkFmm9czM09mYr6RqDgnmx8ySP-g_l1oLe1UoNXGN2CzIyyILGI7rxWTzMQxG0rYNw6E1jrIjtBqdceOeXOynyAtN=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdVqcesWDsJ2JtgZWTpij9feV41Ka-aVBhqbsVOUMFcxOl5kA6ipNGpMe5J8MROd0ZkEvqA015x31SbJh_xIHQghSUBTnIoMXtC4aAemdY-D2VytyFd4UPiGEO6vQUAJUIxCDErDIdRQ5xy=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdHeXc02bIWB66BbuGK7E83Q3gTC4usRX_ZL9Tlb0dlZNk489G9Fwr_Aqc6ZNpo7bQj1cqTxy8NqUj8Lg9fX18NmJd8dZ4ja6toEGpI9wd9qS2ukZSvZpCZDYv8ik22seK3CAwMd2l030ZQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Teresa Wilson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was working on a tight timeline to get a dead tree cutdown and Higuera Tree Care was able to deliver not only on our timeline but competitive and fair pricing. They were prompt and friendly coming to our property and super professional in their work. I would HIGHLY recommend them for any tree project you have around your home!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Chula Vista (Central Depot)",

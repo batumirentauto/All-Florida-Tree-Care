@@ -31,21 +31,9 @@ export const siteConfigTreeWisemenRu = {
     "ctaPrimary": "Позвонить ((415) 850-7584)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/tree-wisemen/photo_005_crop.jpg",
-        "label": "Подъем тяжелой ветви краном",
-        "alt": "Стрела мобильного автокрана на стропах поднимает огромную срезанную ветку над домом"
-      },
-      "sub1": {
-        "image": "/images/tree-wisemen/photo_002_crop.jpg",
-        "label": "Автопарк бригады на объекте",
-        "alt": "Грузовик-щеповоз, пнедробилка Vermeer и мини-погрузчик на участке заказчика"
-      },
-      "sub2": {
-        "image": "/images/tree-wisemen/photo_004_crop.jpg",
-        "label": "Спил ветвей с поддержкой крана",
-        "alt": "Верхолаз в развилке дерева закрепляет строп крана перед выполнением валочного реза"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigTreeWisemenRu = {
     {
       "name": "Спил гигантского пня у забора",
       "badge": "Толстомерные пни",
-      "image": "/images/tree-wisemen/photo_006_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigTreeWisemenRu = {
     {
       "name": "Подъем кроны вдоль улицы",
       "badge": "Проезд по улице",
-      "image": "/images/tree-wisemen/photo_001_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigTreeWisemenRu = {
     {
       "name": "Структурная оценка кроны",
       "badge": "Санитарная обрезка",
-      "image": "/images/tree-wisemen/photo_003_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",

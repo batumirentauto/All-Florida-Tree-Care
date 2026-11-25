@@ -32,21 +32,9 @@ export const siteConfigWaltersTreeServiceEn = {
     "ctaPrimary": "Call Walter +1 214-694-5796",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/walters-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Walter’s Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/walters-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/walters-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigWaltersTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/walters-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigWaltersTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/walters-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigWaltersTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/walters-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigWaltersTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Carla Hysell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We have used Walter's Tree Service several times over the past few years. Their quality of work is outstanding! They listen to the customer's needs and follow through. One of the most impressive aspects of their work is the way they clean up after the project is complete. Nothing is left undone that the customer has to take care of. I highly recommend this company!"
-    },
-    {
-      "author": "Tawnia Wise",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Walter is very professional. Great service and fast. He trimmed many trees and an overgrown vine around my house. I’ll definitely call him next time I need tree work done."
-    },
-    {
-      "author": "Melissa Rosas",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Walter and his crew did a huge trim on one of my +50 year old trees and completely cut down another extremely mature tree to fence level. They were very efficient and well prepared. Walter is very kind and did extra clean up work on his own to help us out. I wouldn’t hesitate to hire him and his crew again."
-    },
-    {
-      "author": "James Burney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Walter was very professional.  We had a troublesome tree that was growing over our power lines.  Him and his team took care of it for us.  Great service."
-    },
-    {
-      "author": "Jeffrey sippola",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Called Walter at 3:30 on a Saturday to take a look at a big limb that was just barely hanging by small ripped bark and could fall at any minute.  He came out by about 4:20 and completed the job in about 30 minutes!  He had to send someone to climb up the tree with a harness!  Walter and his crew are experts in their field.  Highly recommend them!  Will use them again to trim other trees around the house.  5 stars."
-    }
-  ],
+        {
+            "author": "Carla Hysell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We have used Walter's Tree Service several times over the past few years. Their quality of work is outstanding! They listen to the customer's needs and follow through. One of the most impressive aspects of their work is the way they clean up after the project is complete. Nothing is left undone that the customer has to take care of. I highly recommend this company!"
+        },
+        {
+            "author": "Tawnia Wise",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Walter is very professional. Great service and fast. He trimmed many trees and an overgrown vine around my house. I’ll definitely call him next time I need tree work done."
+        },
+        {
+            "author": "Melissa Rosas",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Walter and his crew did a huge trim on one of my +50 year old trees and completely cut down another extremely mature tree to fence level. They were very efficient and well prepared. Walter is very kind and did extra clean up work on his own to help us out. I wouldn’t hesitate to hire him and his crew again."
+        },
+        {
+            "author": "James Burney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Walter was very professional.  We had a troublesome tree that was growing over our power lines.  Him and his team took care of it for us.  Great service.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfIz7D3zvNjaejQ-WVlzSYUMYxKiYJ5-Bs5E5XdGON0LwrY7Tg_tzKbHW_QLvyHVEZGG4aISMpvjs4qLjOzvuh5hElbFTOooE9aPinDC2g1KTXVNuxIVa2ZktY8mQLR505XADkKqlVAbkk=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf1qkHDfeOi8pXXRBNzNZMOjQTW1wM1G5uDYTW1NWkGTL1jhayBP7xyzsmKEUN3TTbWVqwHy4DxmBQcYdrZ0ZpCRPOzdhwC7yrKmpJt_VwFd-0pnf3_0IpReKIYjp6-m9euokVyiVwFBZ0=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeffrey sippola",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Called Walter at 3:30 on a Saturday to take a look at a big limb that was just barely hanging by small ripped bark and could fall at any minute.  He came out by about 4:20 and completed the job in about 30 minutes!  He had to send someone to climb up the tree with a harness!  Walter and his crew are experts in their field.  Highly recommend them!  Will use them again to trim other trees around the house.  5 stars."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Dallas (Central Depot)",

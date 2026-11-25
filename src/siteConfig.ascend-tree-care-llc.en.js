@@ -32,21 +32,9 @@ export const siteConfigAscendTreeCareLlcEn = {
     "ctaPrimary": "Call Chris +1 706-248-7149",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/ascend-tree-care-llc/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Ascend Tree Care LLC tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/ascend-tree-care-llc/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/ascend-tree-care-llc/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAscendTreeCareLlcEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/ascend-tree-care-llc/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAscendTreeCareLlcEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/ascend-tree-care-llc/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAscendTreeCareLlcEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/ascend-tree-care-llc/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,62 @@ export const siteConfigAscendTreeCareLlcEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Meg McLeroy",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Chris and team did a wonderful job start to finish.  I appreciate the care and concern for the overall health of trees that needed limbs trimmed and the precise way a big dead oak was removed.  Highly recommend!"
-    },
-    {
-      "author": "Katie Hutton",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We couldn't be happier with the service we received from Ascend Tree Care! From start to finish, the team provided excellent communication, showed up when promised, and did outstanding work.\nThey were professional, efficient, and took great care of our property while completing the job. The quality of their work exceeded our expectations, and the cleanup afterward was impeccable. If you're looking for a reliable tree service that does top-notch work, I highly recommend them.\nWe will definitely use them again in the future!"
-    },
-    {
-      "author": "Steven Green",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Chris & his crew showed up when promised, went over what we’d discussed, and then got the job done. They were very methodical and deliberate, emphasized safety and efficiency, and got the job done as promised. When they were finished, they thoroughly cleaned up the job site. Enthusiastically recommend!"
-    },
-    {
-      "author": "Catie Stewart",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had the best experience working with Chris and his team! A storm knocked out a large tree in my backyard and Chris was a godsend - he was quick to respond and come out and thorough in his explanations on the variety of solutions available to best fit my budget. He explained things in layman’s terms and never made me feel like any of my questions were silly.\nAfter the initial job, I was so impressed that we added on some additional services to both prevent future issues and improve the look of the yard in general. He swiftly took care of the mess of vines and general lawn debris that has been plaguing my back yard for years!\nThank you to Chris and Ascend!"
-    },
-    {
-      "author": "Jenni Shaver",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I cannot say enough good things about Chris and his crew! They took care of removing trees from our house after Hurricane Helene and I’m so glad we chose them for the job. They were experts in their field and we were constantly impressed with the time they took to ensure the safety of our home. They are such great guys who we enjoyed hosting for the two days it took them to clear our home. When we are ready for more clean up, they will be our first call."
-    }
-  ],
+        {
+            "author": "Meg McLeroy",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Chris and team did a wonderful job start to finish.  I appreciate the care and concern for the overall health of trees that needed limbs trimmed and the precise way a big dead oak was removed.  Highly recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLedmiHKYWPde2XhhgJLGnKRtOcIQqA-oOgTtq_KuMANgtpplZqNRuj7YisYTNr58OpHy5pRBCSznYn6SQ2IIOKyFp4YYvgxMUXykipxl-3VA-frt6FzMD0rPnkUnPENwiJn4yH5qRq6dSTz=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdcaSno1Ck5Urynq4LB0sNHl_ZkCe0ENmcicp_dfxRq8vz4rA7IVkmXQfPnrpGRiNIaDPUgUbFVo6JYavddySgzAUIWgnU6e8zDDgHVE2ZcTqhx1Z3ysp9TGw6hP4y2G_dsBjDwSJ4KXJDD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdABS2wPwYlvtXzoH8qBt8tDDJf0o8StHPz3WQ8gn5qlzplSAnbM0aDrY7303AP6GlxbOEpxuaCyl8YaMEyrgsd0ckhdr71Gi9atu291449cTVtVEuHmVs-c5XmneT-lnGSpQHlJMHMNJCy=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Katie Hutton",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We couldn't be happier with the service we received from Ascend Tree Care! From start to finish, the team provided excellent communication, showed up when promised, and did outstanding work.\nThey were professional, efficient, and took great care of our property while completing the job. The quality of their work exceeded our expectations, and the cleanup afterward was impeccable. If you're looking for a reliable tree service that does top-notch work, I highly recommend them.\nWe will definitely use them again in the future!"
+        },
+        {
+            "author": "Steven Green",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Chris & his crew showed up when promised, went over what we’d discussed, and then got the job done. They were very methodical and deliberate, emphasized safety and efficiency, and got the job done as promised. When they were finished, they thoroughly cleaned up the job site. Enthusiastically recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfOxCIhsmydOe46pE0PQWngfXGVtOVYUWSZk7a4MAPd64_kbKxh39Rrms07yANjVn32Rq3NhINWxcffgFXALBufQP1PPuGlDZwKWuew0d7fxLGKO320wRn6W-N9iJA0oS26Rtk=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-DE5_fzoipiI2nkBneoN-w5OjmjaXvGKSR21U2PyuObRERWUKT2yaCtT9H5sgRdIo-77B5bHsa9a3-gHj7QiMpNEQswZpja9IcH_u4WEhno5uhfWMza0bud64qQRN-0AMwvbMkQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdfV1Q3xj2RJSCFGxDzgLmdCQYkNi3deH8I0LxrpDOpr382rbKytVB5mrEHtE1eX4m0ydVqyYYOLZKfUXdNV2-fbQIhcZ-w-PQMX7l9VdyPEiDet33pS2MUg2lZ-o-xcFLqjzMD=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdvacWsiO8FHffO8rUyq6dBhj9MNQl4aQL-TMqdbslBKULV9RHv4KBfvRapBpl8_BrZT4NHJ2ybrRHA5Kzmt2lWN6XLA4Ib_ZJTXDVV_CxkaEzN84GmgHlH510hBq2W02bwqDoWiQ=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Catie Stewart",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had the best experience working with Chris and his team! A storm knocked out a large tree in my backyard and Chris was a godsend - he was quick to respond and come out and thorough in his explanations on the variety of solutions available to best fit my budget. He explained things in layman’s terms and never made me feel like any of my questions were silly.\nAfter the initial job, I was so impressed that we added on some additional services to both prevent future issues and improve the look of the yard in general. He swiftly took care of the mess of vines and general lawn debris that has been plaguing my back yard for years!\nThank you to Chris and Ascend!"
+        },
+        {
+            "author": "Jenni Shaver",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I cannot say enough good things about Chris and his crew! They took care of removing trees from our house after Hurricane Helene and I’m so glad we chose them for the job. They were experts in their field and we were constantly impressed with the time they took to ensure the safety of our home. They are such great guys who we enjoyed hosting for the two days it took them to clear our home. When we are ready for more clean up, they will be our first call.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTRHJ-iSr8k3SNt8ASqyoM4YQGzCEYc2_Bt5ffPx32GRmdjDP4yWOSDYgCMks12h4cvAW9YkyPAfpdGT39WIvE-a5rHut_usNmjmG2AbhU7F8GP5euSP6mWuBM8sQtL-WnZHA5ZQ=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd2NG6FFRCERPBUQrOQaciLndLPQDByuRZQZYLVipUlm1jy14LAovt050SqtKZ3GTGWH0gWkc5O1pzWvcgzJZ0U1q3xyyuiQ9wwLNONqK43InVxV_5YJaGk9FK772vtT3K8LEOJ=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

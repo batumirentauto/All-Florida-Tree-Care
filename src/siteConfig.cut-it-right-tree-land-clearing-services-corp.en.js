@@ -32,21 +32,9 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
     "ctaPrimary": "Call Steve +1 239-910-6922",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Cut it Right Tree & Land Clearing Services, Corp tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/cut-it-right-tree-land-clearing-services-corp/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,67 @@ export const siteConfigCutItRightTreeLandClearingServicesCorpEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Clutter Bee Gone SWFL",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "⭐⭐⭐⭐⭐\n\nSteve and his crew were absolutely AMAZING from start to finish. If you are looking for the best landscaping company, land clearing service, grading contractor, or property cleanup service in Southwest Florida, I highly recommend him!\n\nSteve came out on a Friday evening to give me an estimate and was already on the property Saturday morning ready to work. His communication throughout the entire project was outstanding. He kept me updated every step of the way and made the entire process stress-free and easy.\n\nHe cleared and leveled my property for a very affordable price, and the quality of work exceeded my expectations. He even went the extra mile to make sure the entire area was properly leveled and mulched before finishing the job. You can tell he truly cares about doing quality work and making customers happy.\n\nThe transformation of the lot was incredible. The property looks cleaner, smoother, and much more usable now. I was so impressed with the results that I already hired him again to spread an additional 13 loads of fill to continue improving the property.\n\nWe will definitely be using Steve for many more future projects including grading, land clearing, landscaping, mulch, dirt work, and heavy equipment services.\n\nIf you need reliable, honest, affordable, and professional landscaping or land clearing services, Steve is the guy to call. Highly recommended!"
-    },
-    {
-      "author": "124 Real Estate Management Inc.",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I had a great experience with Cut It Right Tree and Land Clearing Services. Alexis and Steve were both extremely knowledgeable and professional throughout the entire process. Communication was outstanding—they kept me informed every step of the way and took the time to clearly explain how the land clearing would be handled from start to finish.\nThe results exceeded my expectations—the land was cleared efficiently and left fully prepped, level, and ready to be built on. You can tell they take pride in doing the job right.\nOn top of that, the pricing was fair and very reasonable for the quality of work provided, which made the entire experience even better.\nI truly appreciate the hard work and dedication Steve and his team put into the project. Their attention to detail and commitment to quality did not go unnoticed.\nI would absolutely use this company again and highly recommend them to anyone in need of reliable and professional land clearing services.\n\nGarey- New York"
-    },
-    {
-      "author": "Alexander Scaduto",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Highly recommend. Cut It Right Tree and Land Clearing Services did an outstanding job transforming my property. From start to finish, their team was professional, efficient, and extremely detail-oriented. They handled some tough clearing work with precision and made the entire process stress-free.\n\nSafety was clearly a top priority, and they took great care of both the property and surrounding areas. The results exceeded my expectations — everything looks clean, open, and professionally done.\n\nIf you’re looking for a reliable company that delivers high-quality work and truly cares about their craft, I highly recommend Cut It Right."
-    },
-    {
-      "author": "Brandon William",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Cut It Right Tree & Land Clearing did an amazing job clearing my property. They were professional, on time, and worked hard from start to finish. The crew made the land look completely different and cleaned everything up nicely afterward. Communication was great throughout the whole process, and the equipment they used handled the job fast and efficiently. I’m very satisfied with the results and would definitely recommend them to anyone needing tree removal or land clearing services.”"
-    },
-    {
-      "author": "Gnob Deal",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "What a wonderful experience with this company, family and crew! Spent 2 days cutting down arcadia palms in such a tight area.\nAlexis was a pleasure to deal with and kept in contact and Steve was simply amazing, professional, careful and very experienced.   Great guy too.  They wanted to make it a nice and pleasurable  experience and they succeeded!\nThey were far cheaper than the 7 others I contacted, and their reviews just made the decision that much easier.   Definitely recommend Cut it Right Tree  & Land Clearing Service to anyone interested in great work at the lowest price around.  Trust me.  Satisfied customer.\nNick L"
-    }
-  ],
+        {
+            "author": "Clutter Bee Gone SWFL",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "⭐⭐⭐⭐⭐\n\nSteve and his crew were absolutely AMAZING from start to finish. If you are looking for the best landscaping company, land clearing service, grading contractor, or property cleanup service in Southwest Florida, I highly recommend him!\n\nSteve came out on a Friday evening to give me an estimate and was already on the property Saturday morning ready to work. His communication throughout the entire project was outstanding. He kept me updated every step of the way and made the entire process stress-free and easy.\n\nHe cleared and leveled my property for a very affordable price, and the quality of work exceeded my expectations. He even went the extra mile to make sure the entire area was properly leveled and mulched before finishing the job. You can tell he truly cares about doing quality work and making customers happy.\n\nThe transformation of the lot was incredible. The property looks cleaner, smoother, and much more usable now. I was so impressed with the results that I already hired him again to spread an additional 13 loads of fill to continue improving the property.\n\nWe will definitely be using Steve for many more future projects including grading, land clearing, landscaping, mulch, dirt work, and heavy equipment services.\n\nIf you need reliable, honest, affordable, and professional landscaping or land clearing services, Steve is the guy to call. Highly recommended!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd3XPFdYKYQW0CahZ8c2Dcd17ronoSp8BigWM6ZOYciNO5DWK3Dth2570qKSyKjfVpGPlzV9i_IHkEVDRoPdKG7hpYuZ4EDwYQ7YfuVCiISPNRLxGnPRISqz2IrLzApiuwTy-vX99DBBux9=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcOtk7UdDttQvUTzch-6WH4vYz_wad8mtvegD1J2uBNcdj7ptZAscgZSzEoxzMquaOqoRTdI-iPljL3RVX8LBTHcxofD-YprHHMkUzp4uGW8ykjO4IxBMkMnG-MTq-byG52Us8CU_ZmJ-rM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLesC7rLpoJnal8UHgBu2uDqNYcwGGCZdX9vLYZ5iivjBx7FIyH9uShQpnfqnLdAsDzr3QRqs6c-Ml29U9rReJgnjnNlz2PSkpRzXoSkb7z6fSLm5wlFD8xM5aVwWpizGI7jVMmutO8wMVgp=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcLIdN12IvfwDeNJbIl4QuN4QFFojhEIrxL7ScudlMZOlr9PtVGbi2QGw7wo0wkimwQludgYHdfsBA0ovlIObvaiwtIO2LoejzBdqh0N5EuLIy9A5L0KllzoRNTxofc_2FwFEGppcQ0VXPL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "124 Real Estate Management Inc.",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I had a great experience with Cut It Right Tree and Land Clearing Services. Alexis and Steve were both extremely knowledgeable and professional throughout the entire process. Communication was outstanding—they kept me informed every step of the way and took the time to clearly explain how the land clearing would be handled from start to finish.\nThe results exceeded my expectations—the land was cleared efficiently and left fully prepped, level, and ready to be built on. You can tell they take pride in doing the job right.\nOn top of that, the pricing was fair and very reasonable for the quality of work provided, which made the entire experience even better.\nI truly appreciate the hard work and dedication Steve and his team put into the project. Their attention to detail and commitment to quality did not go unnoticed.\nI would absolutely use this company again and highly recommend them to anyone in need of reliable and professional land clearing services.\n\nGarey- New York",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeM_53n0REglMtMlzvJnQ89O5yBM470LDIWcilHPyTBpIAfi08wbm9unDr1pwbLlLQCZLb7wcEAiarfWSKBj_q0Ht2-QXiR5L_l68_-Lsmxp5dV8uGElTdewtKo3zfEnsjqPlemMGUOO1Q8=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfPdEGc_m4YyYgZmAWEa7gbKsla5j1fq1pYOnZWtgfCpwExSxq7gBc44-ZHtsYHnVn2grh_n9Nsobp1Gp_PLtNxur6kpcROrcEmlu8L7cVh2D0KzClWjyk5S9OKpdyq1BYs0r05ihanYvPX=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfJS19m3R-2AEH3rZB20EiLTeD-ogrgjWdmYnyHXexrb42mUx8iBm346kFty-huYWBKCzBT7U5ZDvS8EYXKoCfdTwKfemxSZCaRlZNzNm8o23elSpepu9kDa3QyU5Et9osDq0-e9dfRilHX=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Alexander Scaduto",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Highly recommend. Cut It Right Tree and Land Clearing Services did an outstanding job transforming my property. From start to finish, their team was professional, efficient, and extremely detail-oriented. They handled some tough clearing work with precision and made the entire process stress-free.\n\nSafety was clearly a top priority, and they took great care of both the property and surrounding areas. The results exceeded my expectations — everything looks clean, open, and professionally done.\n\nIf you’re looking for a reliable company that delivers high-quality work and truly cares about their craft, I highly recommend Cut It Right.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdTybqNYujELEdhgLKIhEby9Ns0X5dJHPQRVBiRt2oy3MRX4iiZI-GgNOB3_yDMOuQrVFptZowXbXIqWF6oaXvuN8AnHNTOMu_OFSZjlG57OCVOPX3UeNjNnsubBQVU2ydq92YVDKgvsApe=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Brandon William",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Cut It Right Tree & Land Clearing did an amazing job clearing my property. They were professional, on time, and worked hard from start to finish. The crew made the land look completely different and cleaned everything up nicely afterward. Communication was great throughout the whole process, and the equipment they used handled the job fast and efficiently. I’m very satisfied with the results and would definitely recommend them to anyone needing tree removal or land clearing services.”",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf-3Acd1itJbw3sOOdjnwNkGvm9yHyZ2KaU_BhW1hc1fvVqVi1VfEdM2x-yR20v_r3B2k3IJs273vuj4zt9ey9Mvp5Eu388IG6ZYn9x8-HMQh5hJYA7b71D5XrfZL5OYFEUmikll_93j0VO=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLemIPudMid73O097no7B39tr-OJCaLdOcX64lCAP3sRchlI-5GLnace1Uxo3hwt8b3OiE1cywGOF6uGzqkIA1VkeX--9onNFEj9Jq1EzuF8IjZX-Cc2N2zX-AcLiqLBwvIuMhy-I9pui8L7=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeL4OVZXbR69iXCGegd_4tvGSTVP64dz2acJ9K9muViMEPaomoOntUhPoXiylmIKEEuXzrLNXEO4aWaVTiePmRFKYjmrCCBcPB6WEC7pm0Gz7l0EXDFd9t_zf8iDq---qNBVmeM28qD4A8=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeiuRwUBL_2jGvSyNR18rMf5PjYRMe98BGt6DuSW4x_BU8LPRju02t14VGD5L0waLq0Joe1CP-qPgtVi10mZZoYe1lq49jGamvK6KiPrhkM0bvQIf7M1fHR548lRAjOuexGptJzA2NpOF-A=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Gnob Deal",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "What a wonderful experience with this company, family and crew! Spent 2 days cutting down arcadia palms in such a tight area.\nAlexis was a pleasure to deal with and kept in contact and Steve was simply amazing, professional, careful and very experienced.   Great guy too.  They wanted to make it a nice and pleasurable  experience and they succeeded!\nThey were far cheaper than the 7 others I contacted, and their reviews just made the decision that much easier.   Definitely recommend Cut it Right Tree  & Land Clearing Service to anyone interested in great work at the lowest price around.  Trust me.  Satisfied customer.\nNick L"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

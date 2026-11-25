@@ -32,21 +32,9 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
     "ctaPrimary": "Call Jason +1 919-765-8733",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Monster Tree Service of Raleigh Durham tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/monster-tree-service-of-raleigh-durham/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/monster-tree-service-of-raleigh-durham/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,50 @@ export const siteConfigMonsterTreeServiceOfRaleighDurhamEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Holly Sweredoski",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had 4 trees taken down along with some tree limbs on 2 other trees. The crew was very professional and clearly experienced, safety conscious and took pride in their work which was demonstrated from start to clean up. The cost was competitive and fair. This was the second time we had them out and, once again, we were very impressed. I highly recommend them!"
-    },
-    {
-      "author": "Danny",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jason and his crew were amazing and very professional. Price was very reasonable and a lot of care was taken to not damage nearby trees and shrubs. Highly recommend!"
-    },
-    {
-      "author": "Joan Ziegler",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Late in getting this in but Monster Tree of Raleigh removed some trees for us about a year ago. Their pricing included stump grinding which made them lower than other quotes I'd received. They showed up on time and were very efficient."
-    },
-    {
-      "author": "T Charles",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I was referred to Jason and Monster Tree Service and have now hired them three times to fell and remove trees on my property. Each time, they’ve done an outstanding job — efficient, safe, and thorough. The crew is consistently friendly, professional, and willing to go the extra mile to ensure the site is left clean. I highly recommend Jason and his team to anyone looking for reliable, high-quality tree work."
-    },
-    {
-      "author": "Rich Ohmann",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I’ve been a customer of Monster Tree Service in Raleigh since the first year they opened.    They’ve tackled thinning the woods behind my home, pruned trees to make them healthier and stronger and gladly give advice about things to watch for.  They know trees and can help determine what stays and what might be an issue. Through the years they have done great work and always take the extra steps to be sure that they leave my yard as neat (if not even neater) than when the job started.  They are on time, their workers are professional and courteous and the pricing is always great.   Add to all of that an owner who is personally involved and who values his customers and Monster is the only tree service you should call."
-    }
-  ],
+        {
+            "author": "Holly Sweredoski",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had 4 trees taken down along with some tree limbs on 2 other trees. The crew was very professional and clearly experienced, safety conscious and took pride in their work which was demonstrated from start to clean up. The cost was competitive and fair. This was the second time we had them out and, once again, we were very impressed. I highly recommend them!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6IomNwHmxWoFd1w6H9UdzZPlFhMfg57dlp4yOlX2oeokhW6eSSqwSC30IxhVpIto-EuNgRujSrnZJGocUefSaSewYF40H8FzWGBLTDDtCwgN-uLYGAIQ3d0YJ47roB8GARZsJE40cS4DL=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Danny",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jason and his crew were amazing and very professional. Price was very reasonable and a lot of care was taken to not damage nearby trees and shrubs. Highly recommend!"
+        },
+        {
+            "author": "Joan Ziegler",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Late in getting this in but Monster Tree of Raleigh removed some trees for us about a year ago. Their pricing included stump grinding which made them lower than other quotes I'd received. They showed up on time and were very efficient."
+        },
+        {
+            "author": "T Charles",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I was referred to Jason and Monster Tree Service and have now hired them three times to fell and remove trees on my property. Each time, they’ve done an outstanding job — efficient, safe, and thorough. The crew is consistently friendly, professional, and willing to go the extra mile to ensure the site is left clean. I highly recommend Jason and his team to anyone looking for reliable, high-quality tree work."
+        },
+        {
+            "author": "Rich Ohmann",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I’ve been a customer of Monster Tree Service in Raleigh since the first year they opened.    They’ve tackled thinning the woods behind my home, pruned trees to make them healthier and stronger and gladly give advice about things to watch for.  They know trees and can help determine what stays and what might be an issue. Through the years they have done great work and always take the extra steps to be sure that they leave my yard as neat (if not even neater) than when the job started.  They are on time, their workers are professional and courteous and the pricing is always great.   Add to all of that an owner who is personally involved and who values his customers and Monster is the only tree service you should call."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Central Depot)",

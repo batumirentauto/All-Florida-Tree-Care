@@ -32,21 +32,9 @@ export const siteConfigAmericanTreeSolutionsEn = {
     "ctaPrimary": "Call Lead +1 904-884-0345",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/american-tree-solutions/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "American Tree Solutions tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/american-tree-solutions/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/american-tree-solutions/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAmericanTreeSolutionsEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/american-tree-solutions/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAmericanTreeSolutionsEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/american-tree-solutions/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAmericanTreeSolutionsEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/american-tree-solutions/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,72 @@ export const siteConfigAmericanTreeSolutionsEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "ciara bundrige",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "The team arrived promptly at 8:00 AM and immediately got to work on the tree removal process. From the start, they were professional, friendly, and took the time to thoroughly explain each step of the process, ensuring we knew exactly what to expect. Their communication and attention to detail really stood out and made us feel confident in their work.\n\nOverall, it was a smooth and positive experience. We will definitely be recommending their services to our family, friends, and even our neighbors. Truly a job well done!"
-    },
-    {
-      "author": "Danielle Vetter",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Jessen and the entire crew were absolutely top notch! They all showed up, ready to get to work, and they knocked it out of the park. I had two dead trees right along my fence line and a big water oak right next to the house that they had no problem getting down.\nI enjoyed meeting everyone and talking about their work. You can tell from a mile away that they love what do.\nI will be recommending American Tree Solutions to anyone who needs removal.\nThank yall so much for your hard work!"
-    },
-    {
-      "author": "B H",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "These guys are tree pros. They have all the tools and training to do the job right. Originally, Jessen and his guys removed 4 trees from my backyard. I called them back to remove 2 more. They hauled everything to the dump and ground the tree stumps into mulch. My backyard has returned!"
-    },
-    {
-      "author": "Me Me",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "In my backyard, I had an extremely large sweetgum tree that provided the most amazing shade! Love this tree, however, because it had holes in it it was getting wood rot. The woodpeckers have been eating way too much off it, and the root system became so invasive it started coming towards the foundation of the house. Much to my chagrin and it broke my heart. I had to take the tree out.\n\nI obtained five quotes from various trees services in the Duval County area.  I have to say upon meeting Bud I immediately knew this is who I was going to trust. He explained things in a way that I understood how he was going to do it and what to expect. There was no pressure and when I asked about liability insurance immediately not a problem, he made a phone call and it was taken care of. That’s true commitment.\n\nHis team arrived on time and I wished I had gotten everybody’s name so that I could mention them because not only where they professional they took care of my property. They had great customer service skills and they truly are experienced and professional at taking trees down more so extra large trees. The team worked together in unison and it was like watching clockwork. Everything happened the way it was supposed to. I was extremely impressed with how the tree came down in pieces and not once did anything come close to hitting my house or a neighbors. The team was outstanding!\n\nOverall, I cannot say enough wonderful things about this tree service! Starting from the initial contact with Bud to the team who came out, this was seamless, smooth and outstanding!!"
-    },
-    {
-      "author": "Clarence Watridge",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Website is easy to use & promotes communication. JESSEN was prompt, knew his stuff & his team provided services as requested with skill & professionalism. Very much recommend!"
-    }
-  ],
+        {
+            "author": "ciara bundrige",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "The team arrived promptly at 8:00 AM and immediately got to work on the tree removal process. From the start, they were professional, friendly, and took the time to thoroughly explain each step of the process, ensuring we knew exactly what to expect. Their communication and attention to detail really stood out and made us feel confident in their work.\n\nOverall, it was a smooth and positive experience. We will definitely be recommending their services to our family, friends, and even our neighbors. Truly a job well done!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcYw5jEme7iWoRjclhXdcabkzagwcUKnOESJuoMqY9Avg2yUiTIB_7sZrfAqPyIxh13cMCVLuw24uSNoJSzXqypGHnI1LdSgZwrS_0IHaD_GfAnexl8E5m_0OtUZAzKYf6Xow-OCVUNqcTz=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Danielle Vetter",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Jessen and the entire crew were absolutely top notch! They all showed up, ready to get to work, and they knocked it out of the park. I had two dead trees right along my fence line and a big water oak right next to the house that they had no problem getting down.\nI enjoyed meeting everyone and talking about their work. You can tell from a mile away that they love what do.\nI will be recommending American Tree Solutions to anyone who needs removal.\nThank yall so much for your hard work!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfFZSaNwBKXSloERSDadoArDrqKpkW4qusPBYa24mgv7OjUgfrsh1mbrwcFdlBSTaoJ3N1Hcgxe8RzMljyoRVoBjzIwRNVRHAdEBSn1ylVw2brRgiUPPkjKeSCAJkoWzlnONs5-DgUWU34=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcTn0ecCiRm7O8qMZ9bnY_TBzFohwRqFW5Xp_o5iyphKuKs_Q_VzQ0BocvoXMoK9ZfsM_WNMWsSJvua2wqsIisMmx_Jc448t0yAdppMX7Sv5vd3MNHsq7dP8ewe256rOg5cKnJBYovIX3E=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "B H",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "These guys are tree pros. They have all the tools and training to do the job right. Originally, Jessen and his guys removed 4 trees from my backyard. I called them back to remove 2 more. They hauled everything to the dump and ground the tree stumps into mulch. My backyard has returned!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfgyNQFzQ5jWAHnviDnYBk7SM3gbFZR83HuGTZNO_d0PfP-_6o_yhtwIFHDChyxp0ml1CUCGcFCXyuz7E2ytM19ZT4ZDGJ4HOfu7wQIedGkM_zvYp8ASuOQ3FiJmO7ifQEGdUlYVqe1LKWC=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfxokhnPvDdG8jLZkjjNhCCK_r2sK-5AYLuQ7RaE0kCc3nYWxkTpCbAOzUhO1xtUbfNYj2OFAzZROIFHDjX4Bqis0LEfLCQqBN06-kAWh6ukqMZUhImg1X7ox7Ip4GbcruZLXpzJ2EnvVA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfo9v99bvtCjECQWtne9iRh_2OqGRki3KMAMKekQkrHTjzLB_FdQR803Yqf5ZAu1GW9un-WtNwPdX_bUUCIh5h4Zo6bnTTFhBh24Jy9jzx45h3e1BiF393Dw7HUYbYl8pYQK0Y-MrDiBYDf=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcLiOU89Em0lfbAcOk1FzcBqHk5FfXEoHaJhKg_JtYd76Ulr-1bzxQwPPkH4mivYbPjsIen2rP4qu1A3toVA6Y3JlCgejabTr4Pxx4Uv0kZU8gRw7zqqFxAI9K8YQ9xoaPEzbY2SdEpV-1-=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Me Me",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "In my backyard, I had an extremely large sweetgum tree that provided the most amazing shade! Love this tree, however, because it had holes in it it was getting wood rot. The woodpeckers have been eating way too much off it, and the root system became so invasive it started coming towards the foundation of the house. Much to my chagrin and it broke my heart. I had to take the tree out.\n\nI obtained five quotes from various trees services in the Duval County area.  I have to say upon meeting Bud I immediately knew this is who I was going to trust. He explained things in a way that I understood how he was going to do it and what to expect. There was no pressure and when I asked about liability insurance immediately not a problem, he made a phone call and it was taken care of. That’s true commitment.\n\nHis team arrived on time and I wished I had gotten everybody’s name so that I could mention them because not only where they professional they took care of my property. They had great customer service skills and they truly are experienced and professional at taking trees down more so extra large trees. The team worked together in unison and it was like watching clockwork. Everything happened the way it was supposed to. I was extremely impressed with how the tree came down in pieces and not once did anything come close to hitting my house or a neighbors. The team was outstanding!\n\nOverall, I cannot say enough wonderful things about this tree service! Starting from the initial contact with Bud to the team who came out, this was seamless, smooth and outstanding!!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfTTCJlqAko5_2h5Zjp5PYGx3nMd6Qnv00ImycoZsKjy0QEAZB7Sut-wndHzWKqdXrUdNukLnRY3Dgg-OQgA3gBqHhIUxLFvaFYu-OzkIYGBvqPPVTFwSkwO7W8WHsNYvvhVZOI3Q4QilA=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfQIazMn1lV4MUxLiTlHVOQGN_wT9sm51vDYuGEvRqjnYdC3t_YEEBg5PiEX24tdDOS8yODGjLyAXpvsmR6QChIlZNnY8ezlIvF2RxY8vfgRp7VIVi8EZp6Q6agKA7kxmOhFmhdR3rgy06t=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdf3Jlw3kDXm_kozpaeK4akzba81rjMhJWSF_iBeI-PS9rEZuKj-zvlor3eZjO0Fl7PoqQduvV-kgGb0MfHPP2Fply9NlzPyS5NDdV8HLzyvrKDThSkrJ4UneZgZmtZ7uTA2mgjics1d7ZT=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe_w_X8Chi0Cpwkx6ah6rjo4g7WErpPIUaIYj4koGemPqyjHz31OxFmPaWaikuq_gU7Axo8rYe081CPM25n2RBIlNklt38l4jPusQfUqNysONFjPZ8iKMgWT4Y767lP4h7G6xXRJI0yp8l1=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Clarence Watridge",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Website is easy to use & promotes communication. JESSEN was prompt, knew his stuff & his team provided services as requested with skill & professionalism. Very much recommend!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcPKXyLiXlBag6ZS76LRxHNXTB98sB5twEeV_nhS9oVAiHwErell70nDngSxpA5HUDiTF1d_o2DWJSTJQkWyDTufmuP5KbSZDfn0TDpwncBlI1SB51KAFlqk4YQsbHDChwyvKlYQlpTC55j=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdgnXiMCmkir7UCYVIuftxH10pnIvJhtFWx2CpeFAIEwVfjACi3t3E0aPQMibL80oSGYZYGXf8fBcH1Hyss0DbqmKvzZU4T1r2QUMIG_cf_8bSUDdNqySRTdhILyH8-SQ1If5N4H9kBL9U=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJKMSGoX8cKMAY8vSx4sMTWeO50joiDgoSlxFObUEvga4_Ipod2jzjhZmtZBMLgGMKBY0PGVHp98ITNS4jOgp5A3PJI9UIM7Ih_7-BaPQoG061-XWOBFWE52wdgmp_vyvt_3l4K7k89z2g=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLe2Bwj0u5JTfSWWj28x8Ck35tYz-MwTo_mdASHmfnzpPf1u1BIlrmbNAGLvqdDbKa5L-ulVLFvC4j-EtfSCiA_YGhu8QGfnZFNMw6zZfMKNMJ7SXl0nrzI_nqwKL9fF1Brjj7m0CJ1aAU0=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Jacksonville (Central Depot)",

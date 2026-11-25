@@ -31,21 +31,9 @@ export const siteConfigMountainViewRu = {
     "ctaPrimary": "Позвонить (+1 208-660-3617)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/mountain-view/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Mountain View Tree Service"
-      },
-      "sub1": {
-        "image": "/images/mountain-view/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/mountain-view/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigMountainViewRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/mountain-view/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigMountainViewRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/mountain-view/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigMountainViewRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/mountain-view/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,67 @@ export const siteConfigMountainViewRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "D M",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: What an amazing crew! Lee quoted the job, and managed to return the following day! His crew was so interesting to watch as the trees came down. They are a very impressive bunch. Call them first when you need a job done and done right! Thank..."
-    },
-    {
-      "author": "Jeff Lawson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Lee was very easy to talk too and professional. We had two pines and two ornamental plums to be windsailed and trimmed next to the house. Mac came off his camping trip early just to get it done. He did a fantastic job. I no longer have too ..."
-    },
-    {
-      "author": "Susan Simmons",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Lee and his team are extremely professional. With great customer service from the initial bid visit to the end of the job. We received 3 bids and  Mountain View Tree Srvc was the best with an added discount because our neighbors also booked..."
-    },
-    {
-      "author": "laura delp",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Lee & his crew are amazing. This is the 3rd huge job they have done for us. 100’s of trees n stumps removed. I was sceptical the first time because we were quoted a daily rate, but when the crew arrived an never quit moving all day except f..."
-    },
-    {
-      "author": "Walt Winemiller",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 years ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Prompt professional service! Fair pricing and knowledgeable arborist! Team of sawyers working safely in the most dangerous situations very impressive!..."
-    }
-  ],
+        {
+            "author": "D M",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: What an amazing crew! Lee quoted the job, and managed to return the following day! His crew was so interesting to watch as the trees came down. They are a very impressive bunch. Call them first when you need a job done and done right! Thank...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQa2O-zX87cKDNrAQH51yNnVLFmVvLysL6Hnl9Q6Mb2M2uEYO_7f95DBVSoxMDU5sR-Q05SY69hLoHitzXQQ8tIHkSDZj1Q3sC2rcv_5CTT6VQPJJV6fUuXj9bWT_xQJ-hmqxPxw=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeoy8bi4Q4V-IjgvhQ9nkTpD4at1PMDjp9fsWKe9fHyFrax1qquGNnx6zJkZznDiNKLXSOns_pt1izIWzQlzo21s3k5HgORLvE3-eT8-SgAsQXVHpgaG2MoQa8l4kC7RC-nX1mP=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jeff Lawson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Lee was very easy to talk too and professional. We had two pines and two ornamental plums to be windsailed and trimmed next to the house. Mac came off his camping trip early just to get it done. He did a fantastic job. I no longer have too ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLet_SVmr4-pte4ZcabhdNPJmSsAB1f9bqFjCgMmnA-UbkLHRWZFGj9FevoagHfUOkjvBHvX-l9TmuwPi1SQ81P2ktI3o8C5FOLlwV2iAfwKUCzp44m0rekRch1avVR2XjRDvYM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLev7jtCpUAr_zJAn63mPGtrGg31rO64cM9VNytPCR45_8taPCobxuBywIZgWZKRF2hS5PTAzeAR6Na9EDH78qQ-Sfc-TubS2FrpEdSzP381NX44xRwMzocinHa6FqTur5NDkfYbbQ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf3gvEebDQ01KJeL7x-nBulgOjBjs8FqxDGr0QNCIk3bPo6Rh5MM5CGME-0IypdTn-kyqpdFL_UHNkqBgFVzmDIVdGp7DhohMmFKPQ34AWUgIgk4bBM2VhZzFyH14v2CA8Xjpen=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdj9W4Xo_aWA8ljFrYUDGH-xI3VPo1pMmHs0P6ZXkfPnKqN_zNtfGmH8dOtsk1H76r69CUhjG_olUqtOPz2B1AQX_8h4RQKCAWTJwLtHH53kqV8rlWonk8qjMiAI3iyXAL46NYfww=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Susan Simmons",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Lee and his team are extremely professional. With great customer service from the initial bid visit to the end of the job. We received 3 bids and  Mountain View Tree Srvc was the best with an added discount because our neighbors also booked...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcQwPaoqgEnAmwrOf1VHQq3DolKuhOjDf1zMkc9U-putaJwPC4f16eXmaLnF0TUTmNdL1I5jSOXGieIrUAG7Mqlsp9jFpx-80wyyW7icECnr8EdzocLaggP4_zIwm335aq8xID1=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "laura delp",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Lee & his crew are amazing. This is the 3rd huge job they have done for us. 100’s of trees n stumps removed. I was sceptical the first time because we were quoted a daily rate, but when the crew arrived an never quit moving all day except f...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeeYBZafd2q5fyZHMoMwJwwgTE2YkF6jBDN1b9Lt4demTiFuRkj0p8WrZlSW5sRk6ZDMVq4r0Q9VNvVjNqidF7F4saMjwOo4Adf_7oHDqeMhQ0p-3aZ4XPpL4YuwdwPpRv3KqbxbA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Walt Winemiller",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 years ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Prompt professional service! Fair pricing and knowledgeable arborist! Team of sawyers working safely in the most dangerous situations very impressive!...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfXdBnQY4pUvajMXaEE38mqUYL-4MQzpwxv2JON_2bUYTqdKuMf9pw1wGCLk7q5H8Eaez_GT0UyjLZm1HQmWcom5wWi5carjktA-kbLIKjbocZd3_Ww1zuXCLfcHqicF1sEKbHVvA=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfbuP0l1fIJjOjP-cv7FABuJyoutJOOZG_v0P32CcWfAyUScuSaaVxXrpGRR0gneEmMv3v5tVPrLrWI1bIIw3MIAcaIgHOmq54DWyoed6HwxnpHWCH5Ue8pCNu1KSaMJHRtsTuC=w300-h450-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Rathdrum (Основная база)",

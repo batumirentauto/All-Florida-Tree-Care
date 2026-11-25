@@ -32,21 +32,9 @@ export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
     "ctaPrimary": "Call Green +1 984-600-7216",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "All Green Tree Care Raleigh – Durham Inc tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,58 @@ export const siteConfigAllGreenTreeCareRaleighDurhamEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "KASEY JAY ENTERPRISES",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Awesome ... My experience working with all Care Tree Service was beyond awesome !!! They actually showed up two days earlier than planned, which was really great ! Everyone was enthusiastic, Very professional And because I have a small yard, I was worried about my fence or my roof, but they were more than precise with how they handled two extremely tall trees in my yard. Nothing was damaged and when the trees were down, they did not leave me with debris in the yard. They cleaned up all of what was left of the tree and left my backyard in a better condition than it was when they started.. I would recommend them to anyone who needs this service. Sarah guided me through the process and she was such a sweetheart. Any fears I had she calmed them and everything she told me needed to be done was done except the stump grinding, and that was only because they could not get the machine into my yard, but she says they will be back to take care of that when and if they can find someone with a smaller grinder. I have to say I have been more than satisfied with the service they provided. I recommend them more than highly ... Thank you, Sarah and your crew for your excellent service. I will see you all out again if I find myself in need of anything related to tree services again you guys are awesome !!! Brenda T."
-    },
-    {
-      "author": "Antwan Rice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This company did work for me today, July 31 2026 and they done an AMAZING job! I had three trees that was cut, and EVERYTHING was cleaned up and hauled away. The price was great, and they are very professional and provides quality work. I highly suggest you to give them a call if you need any type of tree services!"
-    },
-    {
-      "author": "Richard Carney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We contracted with All Green Tree Care, who did an outstanding job. They removed two large Leyland cypress trees and one magnolia, and also ground all the stumps completely out of the ground. The crew was large, professional, and incredibly efficient—they worked quickly and left the yard clean and tidy when they were done.\n\nThe whole process was smooth from start to finish, and their pricing was very fair for the amount of work completed. It’s a company that combines quality and value. I highly recommend All Green Tree Care for tree services."
-    },
-    {
-      "author": "I K",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "This team is excellent, prompt, and professional. We recommend them highly. They gave us a quick and reasonable estimate and a next day appointment. They arrived on time and finished the job thoroughly. They understood very well how we wanted to trim our trees and required little instruction from us. After trimming, they cleared and cleaned our yards fully. We were impressed with their work and hope to contact them again for another job. Their charges are very reasonable. They worked for several homes in our neighborhood and our both neighbors."
-    },
-    {
-      "author": "Felicia Austin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 11 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "All Green came out and gave a free estimate for removing a large pecan tree on my Mother's property. That same week the tree and all the debris was gone! They also topped a tree in her front yard and everything looks great. They did an outstanding job and I would recommend their services with reasonable proces."
-    }
-  ],
+        {
+            "author": "KASEY JAY ENTERPRISES",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Awesome ... My experience working with all Care Tree Service was beyond awesome !!! They actually showed up two days earlier than planned, which was really great ! Everyone was enthusiastic, Very professional And because I have a small yard, I was worried about my fence or my roof, but they were more than precise with how they handled two extremely tall trees in my yard. Nothing was damaged and when the trees were down, they did not leave me with debris in the yard. They cleaned up all of what was left of the tree and left my backyard in a better condition than it was when they started.. I would recommend them to anyone who needs this service. Sarah guided me through the process and she was such a sweetheart. Any fears I had she calmed them and everything she told me needed to be done was done except the stump grinding, and that was only because they could not get the machine into my yard, but she says they will be back to take care of that when and if they can find someone with a smaller grinder. I have to say I have been more than satisfied with the service they provided. I recommend them more than highly ... Thank you, Sarah and your crew for your excellent service. I will see you all out again if I find myself in need of anything related to tree services again you guys are awesome !!! Brenda T.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcahLvjqpRph2xuS7Dc9DNPN_Z0yks5YvMwRp7JsUiIhDCNcnOncOZDa96A65BPQbO-UTahE8XDsVYGWXJ0E0mJLlFoX_SCvsb0l6h2WIKLXYw2R7CmvBtoBfMOwaM8mduEoHZTdN4Qw1hh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevqADsqXn4nQSmoCMkyMhYol0Khkgimxc0D0Pp_RTWCbgKX_H6x-8007jxKx2c3mzcdb_xyN-HsL7dfP4wpi9Wi3bNkKF7Bms-x_f5Lhy1EKsdN2nu5VSDg6Q8-a58cHdOT_5qcVj6v66a=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwJEfqmaUdH8_u0R42SAbbeDQjHkN9kYaMQ-c9d930hykVAJtGhZ9jIxZUprSyBAMZSwzahSR2_pORbd_Qa4Zx6Go1E8Hvds0gyxF1HzFWo4XM5jPU9r80uMy5n-HCZnOqiG5cz7jCrdrZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcA4-Q9Zx6PbsjqLJyIEFgsjThVMcRAuqnzMFqQYwycjxpsL42fIYh-WDYoTo2D8I7I_n5hR0Gfxvq9Rrsll1xcDi03JW2iK4eeZrBxPkDSHYYYa6aPOYAwJgZCZfrGqysb53HfiRU5HUo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Antwan Rice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This company did work for me today, July 31 2026 and they done an AMAZING job! I had three trees that was cut, and EVERYTHING was cleaned up and hauled away. The price was great, and they are very professional and provides quality work. I highly suggest you to give them a call if you need any type of tree services!"
+        },
+        {
+            "author": "Richard Carney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We contracted with All Green Tree Care, who did an outstanding job. They removed two large Leyland cypress trees and one magnolia, and also ground all the stumps completely out of the ground. The crew was large, professional, and incredibly efficient—they worked quickly and left the yard clean and tidy when they were done.\n\nThe whole process was smooth from start to finish, and their pricing was very fair for the amount of work completed. It’s a company that combines quality and value. I highly recommend All Green Tree Care for tree services."
+        },
+        {
+            "author": "I K",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "This team is excellent, prompt, and professional. We recommend them highly. They gave us a quick and reasonable estimate and a next day appointment. They arrived on time and finished the job thoroughly. They understood very well how we wanted to trim our trees and required little instruction from us. After trimming, they cleared and cleaned our yards fully. We were impressed with their work and hope to contact them again for another job. Their charges are very reasonable. They worked for several homes in our neighborhood and our both neighbors."
+        },
+        {
+            "author": "Felicia Austin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 11 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "All Green came out and gave a free estimate for removing a large pecan tree on my Mother's property. That same week the tree and all the debris was gone! They also topped a tree in her front yard and everything looks great. They did an outstanding job and I would recommend their services with reasonable proces.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd33tma30sOuhU_TyfBMn73AM-IQKzxbXsOwKh5V_arNllHhqdqVmM9EaojDXS_hSp3dUJfPQQCGn-2euFKQhosk_mMaggr-OvBq-h7XQOCAn6V_Gy-utdoBVY_mtwntmNNS39uinB3TV58=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGtYVwpe3iWzEqfxxgY90Hbb1zPrCATHWvRn8WnSiMlLaxq31oJllTpsY02iLuYUMUMj3-81KMi_ELBrTd9r5Zhu0lmmkedgWUu7ljzNgdvRW6u8j1vdLyMkjsPQE1CeLkFyGmrN67bjcK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcuYxhuLNUAnl7P-lk0H5P4e6JD7dz2k7rbKaBdsXaGibxTRLOfzAAbeJiPsAMxs5uscyp2vihrlS0dVtpxvyO10VnptoCJfhIpGbS55LWflaxdE8dcMv7W3lReryVIKfZOwlV5ez3ACZ0u=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Durham (Central Depot)",

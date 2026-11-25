@@ -31,21 +31,9 @@ export const siteConfigAllGreenTreeCareRaleighDurhamRu = {
     "ctaPrimary": "Позвонить (+1 984-600-7216)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады All Green Tree Care Raleigh – Durham Inc"
-      },
-      "sub1": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/all-green-tree-care-raleigh-durham/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigAllGreenTreeCareRaleighDurhamRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/all-green-tree-care-raleigh-durham/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigAllGreenTreeCareRaleighDurhamRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "KASEY JAY ENTERPRISES",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Awesome ... My experience working with all Care Tree Service was beyond awesome !!! They actually showed up two days earlier than planned, which was really great ! Everyone was enthusiastic, Very professional And because I have a small yard..."
-    },
-    {
-      "author": "Antwan Rice",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "2 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This company did work for me today, July 31 2026 and they done an AMAZING job! I had three trees that was cut, and EVERYTHING was cleaned up and hauled away. The price was great, and they are very professional and provides quality work. I h..."
-    },
-    {
-      "author": "Richard Carney",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "5 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We contracted with All Green Tree Care, who did an outstanding job. They removed two large Leyland cypress trees and one magnolia, and also ground all the stumps completely out of the ground. The crew was large, professional, and incredibly..."
-    },
-    {
-      "author": "I K",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: This team is excellent, prompt, and professional. We recommend them highly. They gave us a quick and reasonable estimate and a next day appointment. They arrived on time and finished the job thoroughly. They understood very well how we want..."
-    },
-    {
-      "author": "Felicia Austin",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "Edited 11 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: All Green came out and gave a free estimate for removing a large pecan tree on my Mother's property. That same week the tree and all the debris was gone! They also topped a tree in her front yard and everything looks great. They did an outs..."
-    }
-  ],
+        {
+            "author": "KASEY JAY ENTERPRISES",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Awesome ... My experience working with all Care Tree Service was beyond awesome !!! They actually showed up two days earlier than planned, which was really great ! Everyone was enthusiastic, Very professional And because I have a small yard...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcahLvjqpRph2xuS7Dc9DNPN_Z0yks5YvMwRp7JsUiIhDCNcnOncOZDa96A65BPQbO-UTahE8XDsVYGWXJ0E0mJLlFoX_SCvsb0l6h2WIKLXYw2R7CmvBtoBfMOwaM8mduEoHZTdN4Qw1hh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLevqADsqXn4nQSmoCMkyMhYol0Khkgimxc0D0Pp_RTWCbgKX_H6x-8007jxKx2c3mzcdb_xyN-HsL7dfP4wpi9Wi3bNkKF7Bms-x_f5Lhy1EKsdN2nu5VSDg6Q8-a58cHdOT_5qcVj6v66a=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfwJEfqmaUdH8_u0R42SAbbeDQjHkN9kYaMQ-c9d930hykVAJtGhZ9jIxZUprSyBAMZSwzahSR2_pORbd_Qa4Zx6Go1E8Hvds0gyxF1HzFWo4XM5jPU9r80uMy5n-HCZnOqiG5cz7jCrdrZ=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcA4-Q9Zx6PbsjqLJyIEFgsjThVMcRAuqnzMFqQYwycjxpsL42fIYh-WDYoTo2D8I7I_n5hR0Gfxvq9Rrsll1xcDi03JW2iK4eeZrBxPkDSHYYYa6aPOYAwJgZCZfrGqysb53HfiRU5HUo=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Antwan Rice",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "2 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This company did work for me today, July 31 2026 and they done an AMAZING job! I had three trees that was cut, and EVERYTHING was cleaned up and hauled away. The price was great, and they are very professional and provides quality work. I h..."
+        },
+        {
+            "author": "Richard Carney",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "5 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We contracted with All Green Tree Care, who did an outstanding job. They removed two large Leyland cypress trees and one magnolia, and also ground all the stumps completely out of the ground. The crew was large, professional, and incredibly..."
+        },
+        {
+            "author": "I K",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: This team is excellent, prompt, and professional. We recommend them highly. They gave us a quick and reasonable estimate and a next day appointment. They arrived on time and finished the job thoroughly. They understood very well how we want..."
+        },
+        {
+            "author": "Felicia Austin",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "Edited 11 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: All Green came out and gave a free estimate for removing a large pecan tree on my Mother's property. That same week the tree and all the debris was gone! They also topped a tree in her front yard and everything looks great. They did an outs...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd33tma30sOuhU_TyfBMn73AM-IQKzxbXsOwKh5V_arNllHhqdqVmM9EaojDXS_hSp3dUJfPQQCGn-2euFKQhosk_mMaggr-OvBq-h7XQOCAn6V_Gy-utdoBVY_mtwntmNNS39uinB3TV58=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfGtYVwpe3iWzEqfxxgY90Hbb1zPrCATHWvRn8WnSiMlLaxq31oJllTpsY02iLuYUMUMj3-81KMi_ELBrTd9r5Zhu0lmmkedgWUu7ljzNgdvRW6u8j1vdLyMkjsPQE1CeLkFyGmrN67bjcK=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcuYxhuLNUAnl7P-lk0H5P4e6JD7dz2k7rbKaBdsXaGibxTRLOfzAAbeJiPsAMxs5uscyp2vihrlS0dVtpxvyO10VnptoCJfhIpGbS55LWflaxdE8dcMv7W3lReryVIKfZOwlV5ez3ACZ0u=w300-h225-p-k-no"
+            ]
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Durham (Основная база)",

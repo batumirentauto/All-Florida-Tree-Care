@@ -31,21 +31,9 @@ export const siteConfigNorvellsRu = {
     "ctaPrimary": "Позвонить ((864) 345-0466)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/norvells/photo_001_crop.jpg",
-        "label": "Гусеничный паук-подъемник",
-        "alt": "Красный гусеничный подъемник-паук на гидравлических опорах поднимает корзину в крону дуба"
-      },
-      "sub1": {
-        "image": "/images/norvells/photo_002_crop.jpg",
-        "label": "Расколотый штормом ствол",
-        "alt": "Расколотый ураганом огромный ствол дерева, упавший на лужайку перед кирпичным домом"
-      },
-      "sub2": {
-        "image": "/images/norvells/photo_003_crop.jpg",
-        "label": "Чистый газон после уборки",
-        "alt": "Убранный и выровненный граблями двор возле кирпичного дома после вывоза дерева"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [

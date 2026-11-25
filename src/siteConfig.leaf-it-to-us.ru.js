@@ -31,21 +31,9 @@ export const siteConfigLeafItToUsRu = {
     "ctaPrimary": "Позвонить (+1 619-582-2459)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/leaf-it-to-us/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады Leaf It To Us Tree Service"
-      },
-      "sub1": {
-        "image": "/images/leaf-it-to-us/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/leaf-it-to-us/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigLeafItToUsRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/leaf-it-to-us/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigLeafItToUsRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/leaf-it-to-us/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigLeafItToUsRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/leaf-it-to-us/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,54 @@ export const siteConfigLeafItToUsRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Kyle Ross",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "6 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Based on a recommendation from my neighbor, I finally moved forward with trimming the three 30’ trees in our front yard. Another neighbor suggested Leaf It To Us, having worked with them for years, so I reached out for a quote. Their pricin..."
-    },
-    {
-      "author": "Sandy Jorgensen-Funk",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We have had Leaf It To Us come and trim our trees on multiple occasions and they’ve done a great job! Jose is friendly and It’s great to work with someone who is knowledgeable about tree trimming ( not just hacking them down)!..."
-    },
-    {
-      "author": "Sally Nelson",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I've used Jose and his crew several times in the past 2 years. Jose listens to my concerns, offers his advice about the best way to care for my trees.  He is reliable and his crew does a good job of cleaning things up when they are finished..."
-    },
-    {
-      "author": "Amanda Saour",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Always always good, i have a huge tree and they trim it and looks so beautiful every time! Very trustworthy and clean up and dont damage anything!!! They are great and i will use there services as long as i can🙏 …..."
-    },
-    {
-      "author": "Jim Coleman",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Jose and his company having caring for our trees for several years and words can't describe how wonderful they are. Honest, on-time, professional, caring, a true pleasure to deal with. And Jose, being a certified arborist knows more about o..."
-    }
-  ],
+        {
+            "author": "Kyle Ross",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "6 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Based on a recommendation from my neighbor, I finally moved forward with trimming the three 30’ trees in our front yard. Another neighbor suggested Leaf It To Us, having worked with them for years, so I reached out for a quote. Their pricin...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdXvCAbBhJwBh8oa2RcjJVH8MTryYYcxFvGeoShfviAjam6uj6lgOqf5Xu7iYC28te9oDowR5m_CowZmX9qbefX8SvEKadm4JdYIOgWSXYFDvXp1zE18oIzreF76LqzEICUJ38KYfb2V4U=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcYVm_ueefVPya2udfdkPCwe6bJfCJwEKf0wJYa7-cO_Dxcfbpy_Pm_7YQQW1U0CJhBCBTiQdbq-X0KMqC03HT5hSIS82XG8wQtSs_ekRg6Uy1SlLxsAY-2NV3EasOOS4nv0UlCy1KOMCw_=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Sandy Jorgensen-Funk",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We have had Leaf It To Us come and trim our trees on multiple occasions and they’ve done a great job! Jose is friendly and It’s great to work with someone who is knowledgeable about tree trimming ( not just hacking them down)!..."
+        },
+        {
+            "author": "Sally Nelson",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I've used Jose and his crew several times in the past 2 years. Jose listens to my concerns, offers his advice about the best way to care for my trees.  He is reliable and his crew does a good job of cleaning things up when they are finished..."
+        },
+        {
+            "author": "Amanda Saour",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Always always good, i have a huge tree and they trim it and looks so beautiful every time! Very trustworthy and clean up and dont damage anything!!! They are great and i will use there services as long as i can🙏 …...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdv5J4peY8QhLOp1o3S2bijeCMW_MuLSJPWkYJCIIPRhjOcHU8Ehnk4FGCQU-uud22r3gjnc-DMO91xW7tEfkJ5pa8Y06wXS1yBh33Kl6qp8I8UjLSKD036MLrteh8aDYFGNmenGA=w600-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Jim Coleman",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Jose and his company having caring for our trees for several years and words can't describe how wonderful they are. Honest, on-time, professional, caring, a true pleasure to deal with. And Jose, being a certified arborist knows more about o..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Local (Основная база)",

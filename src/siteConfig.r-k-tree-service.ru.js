@@ -31,21 +31,9 @@ export const siteConfigRKTreeServiceRu = {
     "ctaPrimary": "Позвонить (+1 828-216-6407)",
     "ctaSecondary": "Рассчитать смету",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/r-k-tree-service/photo_01_crop.jpg",
-        "label": "Такелажный спил на тросах",
-        "alt": "Работа бригады R & K Tree Service"
-      },
-      "sub1": {
-        "image": "/images/r-k-tree-service/photo_02_crop.jpg",
-        "label": "Собственная спецтехника",
-        "alt": "Техника на объекте"
-      },
-      "sub2": {
-        "image": "/images/r-k-tree-service/photo_03_crop.jpg",
-        "label": "Сохранность газона и чистота",
-        "alt": "Уборка территории"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -137,7 +125,7 @@ export const siteConfigRKTreeServiceRu = {
     {
       "name": "Автовышка и арбористский такелаж",
       "badge": "Контролируемый спуск ветвей",
-      "image": "/images/r-k-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Класс",
@@ -157,7 +145,7 @@ export const siteConfigRKTreeServiceRu = {
     {
       "name": "Промышленный измельчитель веток",
       "badge": "Быстрая переработка в щепу",
-      "image": "/images/r-k-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Применение",
@@ -177,7 +165,7 @@ export const siteConfigRKTreeServiceRu = {
     {
       "name": "Гусеничная пнедробильная машина",
       "badge": "Глубинное удаление корней",
-      "image": "/images/r-k-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Результат",
@@ -196,47 +184,58 @@ export const siteConfigRKTreeServiceRu = {
     }
   ],
   "reviews": [
-    {
-      "author": "Renee Grube",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: I had a big project of removing 23 dead/dying 20-year old Leyland Cypress trees. R&K Tree Service did a spectacular job of removing the trees, grinding the stumps, and hauling away the debris.\nAbout a month later, they dug a trench, and rep..."
-    },
-    {
-      "author": "Noah Durham",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "7 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: R&K removed a massive red oak perched above our house. After talking around with other tree company’s  it was an easy decision- go with R&K.\n\nDavid took his time explaining how the removal would be executed and made us feel comfortable the ..."
-    },
-    {
-      "author": "ann hendrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: Highly recommend R & K Tree Service. They were easy to work with from scheduling to finishing the project removing a large tree.  The crew was polite; careful not to damage other trees as they navigated down a narrow drive.  They were incre..."
-    },
-    {
-      "author": "Ben Dor-El",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: We got estimates from several contractors to clear a large number of fallen trees on our property after Hurricane Helene, and R&K gave us a very competitive bid.\n\nOur project was especially challenging because all of the clearing was on a s..."
-    },
-    {
-      "author": "Patty Gardner",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a month ago",
-      "highlight": "Точный спил и безупречная уборка",
-      "text": "Проверенный отзыв с Google Maps: R & K did a great job taking down some pine trees and a very large MapleTree. The whole crew was very friendly and they did a wonderful job cleaning up the job site.  I would highly recommend them.  Thanks for a job well done!..."
-    }
-  ],
+        {
+            "author": "Renee Grube",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: I had a big project of removing 23 dead/dying 20-year old Leyland Cypress trees. R&K Tree Service did a spectacular job of removing the trees, grinding the stumps, and hauling away the debris.\nAbout a month later, they dug a trench, and rep...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcyZAbHbH04INmCN_Cf52Xu9g6NIvLgpFwq5WX2meEY81naZG7ISnYFtW8S3ED0GCiR-dZfnfEkb9ROynrAH9voAU_WJtNTkf1mvZTvUIpP77z98uEZ9JUwtCoqHNWzb8pRzQ4lh709BsI=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLccQoOQ2oQhOqaBz9HqUp2hXfBhf5FLcjP_u7FevxjWvfwcNw5S4CeM9xczy6qhB1Sh2f6RyKvzGhbugdLLCk56vN13fszq8pEfXVEbjh_ok8thh1WKrUGryTbDxRbrIiOHZMuoBDTLEpwM=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ4U_zDGhjRcErlN3Vd_9ecPWFRdnxtKpNxvC04aFz_AVnG2Ai0Wb7xkTPqxHZfeCktfqA_DcJiFTtD8VBogMoPxiw0g8ipvcxyPN5snm2bESW0N-7K06lQ34qaue2hag_N6xuWttQx2YB=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcZ9eRU6O_Tx1Ei47NjStJgVUlYwgdKQOu7H90JMqmY7GiCsCDgWRFJ8K-3EdEjQNxmTdKLMUtHUssAt-BYxhq_0Af1QwhDqFaL0l419w_O_1apdIhS54dbE0DJ7xuDMTSwrYu4Nz3e9fU=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "Noah Durham",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "7 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: R&K removed a massive red oak perched above our house. After talking around with other tree company’s  it was an easy decision- go with R&K.\n\nDavid took his time explaining how the removal would be executed and made us feel comfortable the ...",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcKaD6jEOUX2S5TgCQZ8VfCEeXr7x43f1nHDxHZCC4vQQs6xpx8oY5SQw7mjbebFgoJ-HKjJcoBTtlyN9lBbpdUBabPL7sE7ZbIPc9p5vhsBtsXGmI0DEjIB9BU979P5-JL30a2IIMDWoh3=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLck19MP1cJmMmYTcm5n2sKH4OkwIF-PqZaMHmfDnaps5Jx0XtzVArVXfopqNjX5PGHPL-ui6Cu4ns3sB40mhCoqSWsICkoj-IVwRXODRMECc4UJP1KNHMR0dqDR9WMvwN63yc9nBTDCtX0=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeJS7Fma6JzN-SLQTLq5lDGZ3Wemw0aq5nQvanZ4DS0tpqIIo5O55pS5S6sjI4z6O7p57fd4ShFHlA6fqRAyMWh6fkqIPKVwI49HENo4mfmSfPe-iKhjZSfqISz6xQSpyFhoZSg6rEAMA-D=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "ann hendrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: Highly recommend R & K Tree Service. They were easy to work with from scheduling to finishing the project removing a large tree.  The crew was polite; careful not to damage other trees as they navigated down a narrow drive.  They were incre..."
+        },
+        {
+            "author": "Ben Dor-El",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: We got estimates from several contractors to clear a large number of fallen trees on our property after Hurricane Helene, and R&K gave us a very competitive bid.\n\nOur project was especially challenging because all of the clearing was on a s..."
+        },
+        {
+            "author": "Patty Gardner",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a month ago",
+            "highlight": "Точный спил и безупречная уборка",
+            "text": "Проверенный отзыв с Google Maps: R & K did a great job taking down some pine trees and a very large MapleTree. The whole crew was very friendly and they did a wonderful job cleaning up the job site.  I would highly recommend them.  Thanks for a job well done!..."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Weaverville (Основная база)",

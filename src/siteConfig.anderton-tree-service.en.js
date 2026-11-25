@@ -32,21 +32,9 @@ export const siteConfigAndertonTreeServiceEn = {
     "ctaPrimary": "Call Michael +1 817-875-2763",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/anderton-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "Anderton Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/anderton-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/anderton-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigAndertonTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/anderton-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigAndertonTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/anderton-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigAndertonTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/anderton-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,61 @@ export const siteConfigAndertonTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Forrest Moore",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Not only was I able to call on a Wednesday morning and have my trees serviced by Thursday afternoon, but the crew was professional and did a great job.  Even once they were done with the items I had asked to be trimmed, the lead crew member walked around the property with me and made any adjustments we felt were needed.\n\nHighly recommend this company for any and all tree service needs!"
-    },
-    {
-      "author": "julie barrett",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Team did an amazing job cleaning up our yard. We had several areas where the growth under the trees was so thick and unruly. Completely cleaned up after themselves. Very knowledgeable about trees. Also made sure I was completely satisfied before they left."
-    },
-    {
-      "author": "Lora and Mike B",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We live in an older neighborhood and needed an old hackberry removed from a tight spot on the property line.  Anderton's team evaluated the situation quickly, took the tree down without damage to our fence or home, and removed all the debris within about 2 hours.  One lawn irrigation line was nicked during the stump grinding process, but we were expecting that due to the size of the tree and the small workspace, and the guys pointed out the damage right away.  Very professional, polite, and knowledgable; and included some advice about care for our existing trees and plants.  Highly recommended."
-    },
-    {
-      "author": "D. Roper",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "8 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Excellent service and a great crew. I had several companies bid on the job, but Anderton Tree Service came in way below the others. The crew came out as scheduled, walked through the property with me to make sure they understood what I wanted. It was a big job!! They were professional, courteous, and efficient.  They left everything neat and clean. I will definitely use them again. Thank you Michael and Crew!"
-    },
-    {
-      "author": "Jana Stout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 years ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "I just had the best experience with Anderton Tree Service. Michael came out the same day I called to give me a quote (which was fair and reasonable) and was quick to get me scheduled for the following week. His crew showed up timely and were professional. They yard was left free of any debris and you wouldn't even know I had the trees trimmed, other than how great they look!"
-    }
-  ],
+        {
+            "author": "Forrest Moore",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Not only was I able to call on a Wednesday morning and have my trees serviced by Thursday afternoon, but the crew was professional and did a great job.  Even once they were done with the items I had asked to be trimmed, the lead crew member walked around the property with me and made any adjustments we felt were needed.\n\nHighly recommend this company for any and all tree service needs!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLf0SUDXeJClTvDr_pBPmaf4IGmsOxkIqaIstztzXb69pkBO-sNYCeuuQDd6hETr_Ri35nIyjnF_wXin4fwbbwazccxVRWXLFrFOR-DmLxWTWo6BqeFqe1dwO8Qe2jnP4nT9Y4hO6w=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd5kykzZidjYMWFCmfUCLVA5ZCIn7bIInSyIOKd9OYptMYoeIA48AdqBHNaDi4wBDcUGJkLfW0FKBU6PgCmnYT-uMWxjHxRVru_CBDzHUJcL2MWzoG6XN2ZXOK8T7QkO2ykoGMn=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd6RbpgD765iHACsMk97YATor_-ZBx7BPmCnnppqKZct12pE4gZwt5J1W8WslAdnW5cT7MeL6rK_QHKQxSwpfart9sIs_YouYv43420z39kUVVIfJTz_8efqxzCLnBHj8iHZcgh=w300-h225-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeA5OqEwy6z-OJlZwAUI6Ymsd9di18wXXt99NntpRa5ll7Q9whmgg_CZK_EmGDIqsVWEAQWHwX_Qr7TiaQZrFFM8WxoZGSHU1tdonwVhASuvNym3M5eKKD0TJQvqdD4IMMEwKXL=w300-h225-p-k-no"
+            ]
+        },
+        {
+            "author": "julie barrett",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Team did an amazing job cleaning up our yard. We had several areas where the growth under the trees was so thick and unruly. Completely cleaned up after themselves. Very knowledgeable about trees. Also made sure I was completely satisfied before they left.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdPxtBSOxGbT56HEnsmhyjfbtvhDqeZ91_1WGqUpXaQoQ_kN-mb2P_iwSzFQU2Lh7Wc70eTYg8imsTtsBhi2J9AsH5LwW6eo1FOvSM4xai2_bJtzWlVgMbHe_4VvbseZskVrn3n=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcJlD5hh1npGp-JYiOYCoFmXKA5aGt8A-WqFWU8CYOyG_BeabKh0SWlwoOCg5VZdb882_OcPg6U6bez0vxK_bK4YXkufBlFKKdTADecBesr3AD0W9GSxTPbzaVp_z2PBjm7HK88_A=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Lora and Mike B",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We live in an older neighborhood and needed an old hackberry removed from a tight spot on the property line.  Anderton's team evaluated the situation quickly, took the tree down without damage to our fence or home, and removed all the debris within about 2 hours.  One lawn irrigation line was nicked during the stump grinding process, but we were expecting that due to the size of the tree and the small workspace, and the guys pointed out the damage right away.  Very professional, polite, and knowledgable; and included some advice about care for our existing trees and plants.  Highly recommended.",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLdKDuHhGByaAiOpkplkul1CNdp5Zq2KfQwTTfuk5xgjpyTUU7_vUXAMSY3CH4uw5w46npLv3qlT5RnbGkYmlb7GWLFf8ys-4nbghIsq3W7lRHeSq_-gWZeIRYdMhbQxceOZug5r=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLeWq1ZfPBVcj4XvIzXAUrSVMqE2Dm7L6ev5jTzOy0Lgmb__qf-9jEwjYokhJfB6k40R_rM7EeaO6h0aJ6wgRabXIww4Tpum_yA8PelyV_ndefdGpZaGPuwq97li9iY181r4SI4wcg=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "D. Roper",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "8 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Excellent service and a great crew. I had several companies bid on the job, but Anderton Tree Service came in way below the others. The crew came out as scheduled, walked through the property with me to make sure they understood what I wanted. It was a big job!! They were professional, courteous, and efficient.  They left everything neat and clean. I will definitely use them again. Thank you Michael and Crew!"
+        },
+        {
+            "author": "Jana Stout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 years ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "I just had the best experience with Anderton Tree Service. Michael came out the same day I called to give me a quote (which was fair and reasonable) and was quick to get me scheduled for the following week. His crew showed up timely and were professional. They yard was left free of any debris and you wouldn't even know I had the trees trimmed, other than how great they look!"
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Fort Worth (Central Depot)",

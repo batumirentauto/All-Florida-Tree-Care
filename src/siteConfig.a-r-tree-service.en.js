@@ -32,21 +32,9 @@ export const siteConfigARTreeServiceEn = {
     "ctaPrimary": "Call Anthony +1 803-719-3810",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/a-r-tree-service/photo_01_crop.jpg",
-        "label": "Precision Controlled Rigging",
-        "alt": "A & R Tree Service tree removal operation"
-      },
-      "sub1": {
-        "image": "/images/a-r-tree-service/photo_02_crop.jpg",
-        "label": "Commercial Equipment",
-        "alt": "Arborist equipment on site"
-      },
-      "sub2": {
-        "image": "/images/a-r-tree-service/photo_03_crop.jpg",
-        "label": "Lawn & Property Protection",
-        "alt": "Clean yard restoration"
-      }
+      "main": null,
+      "sub1": null,
+      "sub2": null
     }
   },
   "trustBadges": [
@@ -138,7 +126,7 @@ export const siteConfigARTreeServiceEn = {
     {
       "name": "Commercial Aerial Bucket & Rigging Fleet",
       "badge": "Controlled Reach & Lowering",
-      "image": "/images/a-r-tree-service/photo_04_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
@@ -158,7 +146,7 @@ export const siteConfigARTreeServiceEn = {
     {
       "name": "High-Volume Disc Brush Chipper",
       "badge": "Rapid On-Site Reduction",
-      "image": "/images/a-r-tree-service/photo_05_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Operation",
@@ -178,7 +166,7 @@ export const siteConfigARTreeServiceEn = {
     {
       "name": "Track-Mounted Subsurface Stump Grinder",
       "badge": "Sub-Grade Root Flare Milling",
-      "image": "/images/a-r-tree-service/photo_06_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Finish",
@@ -197,47 +185,51 @@ export const siteConfigARTreeServiceEn = {
     }
   ],
   "reviews": [
-    {
-      "author": "Robert Smout",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "4 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "A&R Tree Service was recommended by my real estate agent, Autumn Adams.  She recommends A&R to all of her clients.  Anthony returns calls promptly and bids a fair price for all of his estimates.  I've had him work on my property twice, which says something.  He and his partners own all of their equipment.  His arborists stick with him because he has 25 years experience as an arborist and he knows what he's doing.  The work proceeds safely and thoroughly, and their cleanup is impeccable.  I will have no hesitation to ask him back on my next project."
-    },
-    {
-      "author": "Samuel Dunn",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "3 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Had a tree between my house and my neighbors house that curved badly and had some branches already breaking over the roofs. I got several services to come out and look at it for me, but A&R was without a doubt the best choice. All the others wanted to down the tree between the houses and work it up in the yard. Anthony told me he planned to bring out a truck and a chipper and widdle it from the top down. His way was by far the safest and the least messy, plus it ensured nothing underground got damaged from the tree falling. I expected to pay a higher fee for his service, instead it was the second lowest estimate I got. Extremely happy with the work they did, highly recommend these guys."
-    },
-    {
-      "author": "Patrick",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "World class company!  Friendly, professional and performed work exactly as discussed.  Left my property in pristine shape after work was completed.  Anthony is the absolute best in the business!"
-    },
-    {
-      "author": "Shannon Bushnell",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "a year ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "Anthony came by just two days ago to give me a quote to remove a dead tree and showed up today with his crew and they were gone in under 2 hours. Super efficient and very knowledgeable. He also let me pet a baby squirrel he had rescued from another job. This guy knows what he’s doing! Just as importantly he cares for the living things that live in and around your trees in addition to the trees themselves."
-    },
-    {
-      "author": "Lisa Onate",
-      "location": "Google Maps Verified",
-      "rating": 5,
-      "date": "9 months ago",
-      "highlight": "Precision tree work and immaculate cleanup",
-      "text": "We had an emergency and this company came out right away and helped us. I was so scared and nervous. I was having a hard time finding anyone to help. My daughter came across this company she was helping me find someone too. They were a God send. Anthony the owner really went beyond to help us and worked with us. He’s truly a good soul and a true Christian. In a world so hard cruel with so many who don’t care or will not help you even if it’s an emergency and beyond your control it’s good to know there are still good caring people and a company who actually cares and helps you. He’s a good guy. I’m so grateful and appreciative. He was a blessing to us. Please if you need tree service call him."
-    }
-  ],
+        {
+            "author": "Robert Smout",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "4 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "A&R Tree Service was recommended by my real estate agent, Autumn Adams.  She recommends A&R to all of her clients.  Anthony returns calls promptly and bids a fair price for all of his estimates.  I've had him work on my property twice, which says something.  He and his partners own all of their equipment.  His arborists stick with him because he has 25 years experience as an arborist and he knows what he's doing.  The work proceeds safely and thoroughly, and their cleanup is impeccable.  I will have no hesitation to ask him back on my next project."
+        },
+        {
+            "author": "Samuel Dunn",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "3 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Had a tree between my house and my neighbors house that curved badly and had some branches already breaking over the roofs. I got several services to come out and look at it for me, but A&R was without a doubt the best choice. All the others wanted to down the tree between the houses and work it up in the yard. Anthony told me he planned to bring out a truck and a chipper and widdle it from the top down. His way was by far the safest and the least messy, plus it ensured nothing underground got damaged from the tree falling. I expected to pay a higher fee for his service, instead it was the second lowest estimate I got. Extremely happy with the work they did, highly recommend these guys."
+        },
+        {
+            "author": "Patrick",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "World class company!  Friendly, professional and performed work exactly as discussed.  Left my property in pristine shape after work was completed.  Anthony is the absolute best in the business!",
+            "photos": [
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLcIAi4D3N6WpBxvsocjZ-CdrujM84Zw07zbrCf7WVX5npDENIzy243yA-zooDlb7gEoBDBV5o1fJ7_oUllCgMlbXbxRd4xM8hphEQfP_uqCEy2S86Jne4Uf_ab2rPbNAbNd9PKC=w300-h450-p-k-no",
+                "https://lh3.googleusercontent.com/grass-cs/AABkmLd1Z_BzFgWnpyCMsn9u6ARtZmm0-JqAuyQ-Z0upQ56D-IhFLZEw7n32DIF2lF_oyUkQzTN_1muZdL0c48sZLZ0ntTFVH8jJGjNYyuK5n2yctZIGqVpGAn3F6am76rhzj_ebdSKNdQ=w300-h450-p-k-no"
+            ]
+        },
+        {
+            "author": "Shannon Bushnell",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "a year ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "Anthony came by just two days ago to give me a quote to remove a dead tree and showed up today with his crew and they were gone in under 2 hours. Super efficient and very knowledgeable. He also let me pet a baby squirrel he had rescued from another job. This guy knows what he’s doing! Just as importantly he cares for the living things that live in and around your trees in addition to the trees themselves."
+        },
+        {
+            "author": "Lisa Onate",
+            "location": "Google Maps Verified",
+            "rating": 5,
+            "date": "9 months ago",
+            "highlight": "Precision tree work and immaculate cleanup",
+            "text": "We had an emergency and this company came out right away and helped us. I was so scared and nervous. I was having a hard time finding anyone to help. My daughter came across this company she was helping me find someone too. They were a God send. Anthony the owner really went beyond to help us and worked with us. He’s truly a good soul and a true Christian. In a world so hard cruel with so many who don’t care or will not help you even if it’s an emergency and beyond your control it’s good to know there are still good caring people and a company who actually cares and helps you. He’s a good guy. I’m so grateful and appreciative. He was a blessing to us. Please if you need tree service call him."
+        }
+    ],
   "serviceAreas": [
     {
       "name": "Cayce (Central Depot)",

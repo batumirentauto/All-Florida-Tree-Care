@@ -32,11 +32,7 @@ export const siteConfigJsiEn = {
     "ctaPrimary": "Call Nathan (828) 448-7047",
     "ctaSecondary": "Request Free Estimate",
     "bentoPhotos": {
-      "main": {
-        "image": "/images/jsi/photo_001_crop.jpg",
-        "label": "Commercial Forestry Bucket Truck",
-        "alt": "Commercial forestry bucket truck with boom staged at edge of pine woods clearing"
-      },
+      "main": null,
       "sub1": null,
       "sub2": null
     }
@@ -130,7 +126,7 @@ export const siteConfigJsiEn = {
     {
       "name": "Harvested Timber Log Deck Staging",
       "badge": "Timber Deck Management",
-      "image": "/images/jsi/photo_002_crop.jpg",
+      "image": null,
       "specs": [
         {
           "label": "Deployment",
