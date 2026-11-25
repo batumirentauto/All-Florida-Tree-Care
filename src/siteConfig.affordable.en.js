@@ -39,21 +39,21 @@ export const siteConfigAffordableEn = {
   },
   "trustBadges": [
     {
-      "title": "93+ Google Reviews",
-      "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "93+ Google Reviews",
+        "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigAffordableEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "High-Altitude Arborist Harness & Saddle Rig",
-      "badge": "High-Canopy Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows arborist climber positioned securely inside the high palm crown using climbing spurs and safety saddle to perform precision frond thinning."
-    },
-    {
-      "name": "Diamond Palm Trunk Skinning & Shaving",
-      "badge": "Precision Trunk Shaving",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows close-up detail of manicured queen palm trunk shaved clean with uniform diamond geometry and healthy crown flare."
-    },
-    {
-      "name": "Residential Crown Elevation & Shaping",
-      "badge": "Crown Elevation Finish",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows a mature fan palm elevated and shaped in front of a residential home, maintaining full clearance away from the roofline and entrance."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Kim G",

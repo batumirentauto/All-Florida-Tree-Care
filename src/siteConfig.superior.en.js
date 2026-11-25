@@ -39,21 +39,21 @@ export const siteConfigSuperiorEn = {
   },
   "trustBadges": [
     {
-      "title": "31+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "31+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigSuperiorEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Technical Arborist Rigging & Canopy Trimming",
-      "badge": "Controlled Canopy Access",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "High-angle rope access gear allowing skilled climbers to dismantle overhanging branches above roofs without structural contact."
-    },
-    {
-      "name": "High-Output Commercial Stump Grinder",
-      "badge": "Subsurface Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Commercial track grinder that pulverizes tough hardwood stumps and root flares 10–14 inches below grade."
-    },
-    {
-      "name": "Chipper Truck & Heavy Debris Removal",
-      "badge": "Complete Site Cleanliness",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "High-capacity chipper and dump truck fleet with commercial blowers leaving driveways and yards completely spotless."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Tyler Lewis",

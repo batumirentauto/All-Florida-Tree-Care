@@ -4,7 +4,17 @@ import React from 'react'
 import { getTheme } from './themes'
 
 export function UniversalSpecs({ config, themeName }: { config: any; themeName?: string }) {
+  if (!config.equipment || config.equipment.length === 0) {
+    return null
+  }
+
   const theme = getTheme(themeName || config.theme)
+  const count = config.equipment.length
+  const gridLayoutClass = count === 1
+    ? 'grid-cols-1 max-w-xl mx-auto'
+    : count === 2
+    ? 'grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto'
+    : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
 
   return (
     <section id="equipment" className={`py-16 sm:py-24 ${theme.bgBody} border-b ${theme.borderSubtle} text-white`}>
@@ -22,8 +32,8 @@ export function UniversalSpecs({ config, themeName }: { config: any; themeName?:
           </p>
         </div>
 
-        {/* 3 Specialized Heavy Equipment Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {/* Specialized Heavy Equipment Cards Grid */}
+        <div className={`grid ${gridLayoutClass} gap-6 sm:gap-8`}>
           {config.equipment.map((item: any, idx: number) => (
             <div
               key={idx}

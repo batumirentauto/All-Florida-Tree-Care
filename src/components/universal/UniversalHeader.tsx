@@ -10,7 +10,9 @@ export function UniversalHeader({ config, themeName }: { config: any; themeName?
 
   const navLinks = [
     { label: config.lang === 'ru' ? 'Услуги' : 'Services', href: '#services' },
-    { label: config.lang === 'ru' ? 'Спецтехника' : 'Equipment', href: '#equipment' },
+    ...(config.equipment && config.equipment.length > 0
+      ? [{ label: config.lang === 'ru' ? 'Спецтехника' : 'Equipment', href: '#equipment' }]
+      : []),
     { label: config.lang === 'ru' ? 'Калькулятор' : 'Estimator', href: '#calculator' },
     { label: config.lang === 'ru' ? 'Отзывы' : 'Reviews', href: '#reviews' },
     { label: config.lang === 'ru' ? 'Контакты' : 'Contact', href: '#contact' },

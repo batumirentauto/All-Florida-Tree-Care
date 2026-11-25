@@ -39,21 +39,21 @@ export const siteConfigAlwaysGrindingEn = {
   },
   "trustBadges": [
     {
-      "title": "152+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "152+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Company-Owned Machinery",
+        "desc": "Direct deployment of verified company equipment with zero third-party rental delays",
+        "icon": "truck"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -124,66 +124,26 @@ export const siteConfigAlwaysGrindingEn = {
   ],
   "equipment": [
     {
-      "name": "Carlton SP8018 TRX Steep Hillside Milling",
-      "badge": "Steep-Slope Track Stability",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows the Carlton commercial track grinder tackling massive root balls on a steep dirt embankment where wheeled machines cannot operate."
-    },
-    {
-      "name": "Broken Storm Limb & Canopy Hazard Extraction",
-      "badge": "Hanging Limb Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows hazardous broken branch suspended dangerously inside the crown over property grounds, rigged and safely brought down."
-    },
-    {
-      "name": "Carlton SP8018 TRX Track Grinder Specs",
-      "badge": "High-Output Diesel Power",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Heavy-duty rubber tracked stump cutter equipped with hydraulic ground drive, 18-inch cut depth below grade, and turf-safe weight distribution."
+        "name": "Commercial Subsurface Stump Grinder",
+        "badge": "Root Flare Milling",
+        "image": null,
+        "specs": [
+            {
+                "label": "Capability",
+                "value": "Below-Grade Root Milling"
+            },
+            {
+                "label": "Access",
+                "value": "Fits 36-Inch Backyard Gates"
+            },
+            {
+                "label": "Finish",
+                "value": "Grade-Level Clean Soil"
+            }
+        ],
+        "desc": "Rubber-track grinder enters standard yard gates without tearing sod, milling stumps 8–12 inches below lawn grade for clean re-sodding."
     }
-  ],
+],
   "reviews": [
     {
       "author": "AJ Seliga",

@@ -39,21 +39,21 @@ export const siteConfigJsiEn = {
   },
   "trustBadges": [
     {
-      "title": "52+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "52+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigJsiEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Harvested Timber Log Deck Staging",
-      "badge": "Timber Deck Management",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows heavy harvested hardwood and pine timber logs sectioned and neatly stacked in an open pasture staging deck awaiting haul transport."
-    },
-    {
-      "name": "Forestry Aerial Bucket Boom Unit",
-      "badge": "70-Foot Working Height",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Heavy-duty insulated aerial bucket truck with 70-foot reach, outriggers, and chip dump box for safe crown takedowns near power corridors."
-    },
-    {
-      "name": "Heavy Timber Skidder & Log Crane Specs",
-      "badge": "Commercial Land Clearing",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "High-torque hydraulic grapple skidders and knuckleboom loaders for extracting massive tree boles from rough mountain terrain."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Bud Herrick",

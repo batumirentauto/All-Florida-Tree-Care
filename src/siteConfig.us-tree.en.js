@@ -39,21 +39,21 @@ export const siteConfigUsTreeEn = {
   },
   "trustBadges": [
     {
-      "title": "113+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "113+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigUsTreeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Backyard Tree Crown Elevation & Fence Line Care",
-      "badge": "Backyard Canopy Work",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows mature deciduous tree in fenced residential yard with lower branches pruned for full sunlight and fence clearance."
-    },
-    {
-      "name": "Heavy Overgrowth Clearance Along Home Wall",
-      "badge": "Foundation Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows dense overhanging tree branches cleared away from residential brick home wall and concrete walkway."
-    },
-    {
-      "name": "Yard Raking & Organic Debris Cleanup",
-      "badge": "Spotless Yard Finish",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows residential yard raked clean and leaf debris neatly collected along garage wall after pruning."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Getbizi PpOpp PopPop",

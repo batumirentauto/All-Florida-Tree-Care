@@ -39,21 +39,21 @@ export const siteConfigCleanCutEn = {
   },
   "trustBadges": [
     {
-      "title": "40+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "40+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigCleanCutEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Professional Climbing Spikes & Canopy Saddle",
-      "badge": "High Canopy Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows arborist climber ascending inside high fir tree canopy using professional climbing spurs and flipline to limb the trunk on the way up."
-    },
-    {
-      "name": "Controlled Canopy Sectional Dismantling",
-      "badge": "Branch Sectioning",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows arborist maneuvering among high evergreen boughs to remove heavy lateral branches safely before felling the main timber spar."
-    },
-    {
-      "name": "Mature Evergreen Structure Mitigation",
-      "badge": "Shed & Fence Protection",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows tall mature Douglas fir trees adjacent to residential shed and fence line, carefully targeted for hazardous limb mitigation."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Matt Kestner",

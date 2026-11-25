@@ -39,21 +39,21 @@ export const siteConfigLmTreeEn = {
   },
   "trustBadges": [
     {
-      "title": "50+ Google Reviews",
-      "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "50+ Google Reviews",
+        "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigLmTreeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Driveway Canopy Elevation & Pruning",
-      "badge": "Driveway Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows mature shade tree next to residential concrete driveway with crown trimmed and elevated for clear vehicle access."
-    },
-    {
-      "name": "Heavy Chipper Truck & Enclosed Dump Box",
-      "badge": "High-Volume Chipping",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Commercial medium-duty chip hauler with custom steel sideboards and top tarp, paired with high-volume Vermeer disc chipper."
-    },
-    {
-      "name": "Arborist Rigging Line & Bull Rope Package",
-      "badge": "Safe Limb Lowering",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "High-tenacity polyester lowering lines and friction blocks that prevent torn branches from dropping onto fences and flowerbeds."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Geri Lawrence",

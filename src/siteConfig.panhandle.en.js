@@ -39,21 +39,21 @@ export const siteConfigPanhandleEn = {
   },
   "trustBadges": [
     {
-      "title": "27+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "27+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigPanhandleEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Overhang Canopy Pruning Above Sunroom",
-      "badge": "Sunroom Canopy Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows multi-stem tree canopy spreading over residential roof and sunroom, trimmed back to prevent roof and glass damage."
-    },
-    {
-      "name": "Debris Hauling Access & Truck Staging",
-      "badge": "Narrow Access Staging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows cleared driveway alleyway with service truck staged for dragging and loading tree limbs from tight backyards."
-    },
-    {
-      "name": "Tight-Access Arborist Rigging Kit",
-      "badge": "Zero-Impact Dismantling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Lightweight arborist friction blocks, false crotch slings, and taglines designed for safely lowering heavy limbs in tight residential setbacks."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Jerry Chambers",

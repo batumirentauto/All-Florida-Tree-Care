@@ -39,21 +39,21 @@ export const siteConfigBrokenBranchEn = {
   },
   "trustBadges": [
     {
-      "title": "33+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "33+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigBrokenBranchEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "High-Strength Arborist Climbing & Rigging Saddle",
-      "badge": "Canopy Ascent Rig",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Multi-point safety harness with steel-core fliplines and climbing spurs, allowing arborists to safely access tight canopy sections without bucket trucks."
-    },
-    {
-      "name": "Commercial Brush Chipper & Wood Processing",
-      "badge": "High-Output Chipping",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Heavy-duty chipper that rapidly converts fallen branches, twigs, and storm debris into premium organic ground mulch."
-    },
-    {
-      "name": "Sectional Rigging Lines & Structural Protection",
-      "badge": "Controlled Lowering",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Arborist lowering blocks, friction brakes, and synthetic bull ropes to dismantle overhanging branches without touching roofing or fences."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Shona Rosenblum",

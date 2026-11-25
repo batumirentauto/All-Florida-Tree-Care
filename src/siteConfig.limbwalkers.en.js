@@ -39,21 +39,21 @@ export const siteConfigLimbwalkersEn = {
   },
   "trustBadges": [
     {
-      "title": "155+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "155+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Company-Owned Machinery",
+        "desc": "Direct deployment of verified company equipment with zero third-party rental delays",
+        "icon": "truck"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -124,66 +124,26 @@ export const siteConfigLimbwalkersEn = {
   ],
   "equipment": [
     {
-      "name": "Heavy Timber Crane Sling Rigging",
-      "badge": "Precision Crane Lifting",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows the hydraulic crane arm lifting a massive horizontal hardwood tree trunk in synthetic balance slings high above the driveway."
-    },
-    {
-      "name": "Track Compact Loader Ground Grading",
-      "badge": "Bobcat Lot Restoration",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows orange compact track loader actively grading and leveling soil in a residential yard following tree extraction."
-    },
-    {
-      "name": "Hardwood Stump Flush-Cut & Milling Prep",
-      "badge": "Stump Extraction Prep",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows hardwood stump cleanly sectioned at ground level in open yard, prepared for subsurface grinding without disturbing surroundings."
+        "name": "Heavy Aerial Crane Rigging System",
+        "badge": "Controlled Lift Over Structures",
+        "image": null,
+        "specs": [
+            {
+                "label": "Reach",
+                "value": "High-Canopy & Roof Clearance"
+            },
+            {
+                "label": "Control",
+                "value": "Zero Free-Fall Rigging"
+            },
+            {
+                "label": "Safety",
+                "value": "Complete Structure Protection"
+            }
+        ],
+        "desc": "Enables precision sectional lifting of hazardous, massive overhanging branches directly over rooflines without ground impact."
     }
-  ],
+],
   "reviews": [
     {
       "author": "steve collins",

@@ -39,21 +39,21 @@ export const siteConfigNorvellsEn = {
   },
   "trustBadges": [
     {
-      "title": "22+ Google Reviews",
-      "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "22+ Google Reviews",
+        "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigNorvellsEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Tracked Spider Lift / Compact Aerial Boom",
-      "badge": "72-Foot Narrow Access",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Narrow-chassis rubber track spider lift that fits through a 36-inch garden gate and elevates operators up to 72 feet into tight canopies."
-    },
-    {
-      "name": "Sectional Chainsaw Rigging & Ground Protection",
-      "badge": "Controlled Sectioning",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Friction lowering blocks and heavy synthetic rigging lines designed to bring down massive hardwood timber without impacting lawns."
-    },
-    {
-      "name": "Rapid Storm Disaster Response Fleet",
-      "badge": "24/7 Storm Recovery",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Equipped with heavy timber winches, commercial brush chippers, and debris trucks for immediate clearance of fallen storm trees."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Nick Kurtz",

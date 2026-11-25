@@ -39,21 +39,21 @@ export const siteConfigBartolomeEn = {
   },
   "trustBadges": [
     {
-      "title": "33+ Google Reviews",
-      "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "33+ Google Reviews",
+        "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigBartolomeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Forestry Bucket Truck & Canopy Rigging",
-      "badge": "Aerial High Reach",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Commercial insulated aerial boom truck enabling safe overhead access to prune hazardous branches overhanging roofs and utility lines."
-    },
-    {
-      "name": "High-Capacity Commercial Brush Chipper",
-      "badge": "High-Volume Chipping",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Industrial disc chipper processing tree limbs up to 12 inches in diameter directly into enclosed truck containers."
-    },
-    {
-      "name": "Heavy Debris Haul Fleet & Site Sweep",
-      "badge": "100% Debris Haul-Away",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Dedicated heavy dump trucks and industrial blowers ensuring every log, branch, and twig is hauled away with zero mess left behind."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Maria Hernandez",

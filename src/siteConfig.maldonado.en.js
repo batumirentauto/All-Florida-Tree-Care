@@ -39,21 +39,21 @@ export const siteConfigMaldonadoEn = {
   },
   "trustBadges": [
     {
-      "title": "35+ Google Reviews",
-      "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "35+ Google Reviews",
+        "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigMaldonadoEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Chainsaw Flush-Cut Stump Reduction",
-      "badge": "Flush-Cut Preparation",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows clean flush cut on hardwood stump resting in landscape mulch bed with chainsaw alongside."
-    },
-    {
-      "name": "Architectural Live Oak Structural Thinning",
-      "badge": "Live Oak Preservation",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows spreading live oak tree in front residential yard pruned for balanced branch architecture and wind resistance."
-    },
-    {
-      "name": "Overhanging Garage Roofline Clearance",
-      "badge": "Roof Hazard Mitigation",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows dense tree canopy hanging directly over residential garage roof, targeted for clearance trimming to protect shingles."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Tl Smith",

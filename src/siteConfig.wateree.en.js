@@ -39,21 +39,21 @@ export const siteConfigWatereeEn = {
   },
   "trustBadges": [
     {
-      "title": "32+ Google Reviews",
-      "desc": "Rated 4.5 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "32+ Google Reviews",
+        "desc": "Rated 4.5 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigWatereeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Hardwood Crown Structure Inspection & Thinning",
-      "badge": "Canopy Thinning & Care",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows upward view into strong trunk scaffold and crown of mature shade oak tree pruned for wind resilience."
-    },
-    {
-      "name": "Precision Residential Rigging Kit",
-      "badge": "Porch & Roof Protection",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Synthetic bull ropes and arborist lowering friction blocks that guide heavy limbs safely away from porches and rooflines."
-    },
-    {
-      "name": "High-Volume Chipper Truck Package",
-      "badge": "Clean Site Handover",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Industrial brush chipper and enclosed dump box paired with backpack blowers to leave the yard completely clean."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Donna Matthews",

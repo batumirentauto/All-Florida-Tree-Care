@@ -39,21 +39,21 @@ export const siteConfigEatonEn = {
   },
   "trustBadges": [
     {
-      "title": "35+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "35+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigEatonEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Backyard Perimeter Clearance & Deck Protection",
-      "badge": "Cabin Grounds Clearing",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows cleared residential grounds behind mountain cabin deck after removing hazardous leaning pine trees."
-    },
-    {
-      "name": "Scenic Mountain Vista Thinning & Pruning",
-      "badge": "Valley View Elevation",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows vista window opened through mountain pines overlooking the Blue Ridge valley following strategic crown thinning."
-    },
-    {
-      "name": "Mountain Terrain Rigging & Winch Kit",
-      "badge": "Steep Slope Felling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Specialized heavy-duty timber winches, dynamic ground anchors, and directional pulling gear engineered for steep Appalachian slopes."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Peg O'Keef",

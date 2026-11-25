@@ -39,21 +39,21 @@ export const siteConfigRosalesEn = {
   },
   "trustBadges": [
     {
-      "title": "82+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "82+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigRosalesEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Roadside Fleet Staging & Active Chipping",
-      "badge": "Active Brush Processing",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows forestry chip truck and chipper staged along residential curb, feeding cut oak branches directly into the enclosed box."
-    },
-    {
-      "name": "Subsurface Stump Milling & Grass Restoration",
-      "badge": "Zero Lawn Impact Finish",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows finished stump grinding cavity in lush green lawn, backfilled with clean mulch with zero tracking on surrounding sod."
-    },
-    {
-      "name": "Roofline Hazard Clearance & Gable Protection",
-      "badge": "Gable Roof Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows tall pine tree soaring over a residential gable roofline, with hazardous overhang branches safely trimmed back."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Steven Hughes",

@@ -39,21 +39,21 @@ export const siteConfigBigfootEn = {
   },
   "trustBadges": [
     {
-      "title": "31+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "31+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigBigfootEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Track-Mounted Commercial Stump Grinder",
-      "badge": "Narrow Gate Access",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Compact self-propelled track grinder that easily navigates 36-inch garden gates to eliminate backyard stumps with zero turf damage."
-    },
-    {
-      "name": "Subsurface Root Flare Milling Package",
-      "badge": "Deep Cut Grinding",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Deep-grinding cutting wheel with carbide teeth that penetrates up to 14 inches below grade to prevent regrowth and allow immediate replanting."
-    },
-    {
-      "name": "Turf-Protection Ground Mats & Cleanup Kit",
-      "badge": "Lawn Shield System",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "High-density polyethylene ground mats to protect sensitive sod during machine travel, followed by thorough rake and blower sweeping."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "BILL GREINER",

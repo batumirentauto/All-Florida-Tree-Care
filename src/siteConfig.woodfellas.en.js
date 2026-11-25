@@ -39,21 +39,21 @@ export const siteConfigWoodfellasEn = {
   },
   "trustBadges": [
     {
-      "title": "39+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "39+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigWoodfellasEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Professional Tree Felling & Sectional Dismantling",
-      "badge": "Controlled Sectional Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Arborist lowering blocks and dynamic rigging systems to safely lower heavy hardwood sections in tight residential spaces."
-    },
-    {
-      "name": "Tracked Stump Grinder & Root Milling",
-      "badge": "Subsurface Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Self-propelled rubber track machine that navigates garden gates and grinds tree stumps below grade without lawn damage."
-    },
-    {
-      "name": "Complete Site Debris Cleanup & Turf Restoration",
-      "badge": "100% Debris Haul-Away",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Commercial brush chipper and industrial blowers ensuring every branch, log, and wood chip is hauled away immediately."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Local Homeowner",

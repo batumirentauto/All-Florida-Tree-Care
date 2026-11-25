@@ -64,8 +64,14 @@ def extract_meta_from_siteconfig(slug, src_dir):
             author = rev_match.group(1).strip()
             quote = rev_match.group(2).strip()
         
-        equip_matches = re.findall(r'\"title\":\s*\"([^\"]+)\"', content)
-        equips = [e.strip() for e in equip_matches if 'Tree' not in e and 'Removal' not in e and 'Care' not in e and 'Service' not in e][:3]
+        eq_match = re.search(r'\"equipment\":\s*(\[[\s\S]*?\])\s*,', content)
+        equips = []
+        if eq_match:
+            try:
+                eq_data = json.loads(eq_match.group(1))
+                equips = [item['name'] for item in eq_data if 'name' in item]
+            except:
+                pass
         return quote, author, equips
     except Exception:
         return '', '', []

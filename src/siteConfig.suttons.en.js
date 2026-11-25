@@ -39,21 +39,21 @@ export const siteConfigSuttonsEn = {
   },
   "trustBadges": [
     {
-      "title": "24+ Google Reviews",
-      "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "24+ Google Reviews",
+        "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigSuttonsEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Commercial Track Stump Grinder Unit",
-      "badge": "Narrow Gate Track Machine",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Low ground-pressure rubber track machine that accesses fenced backyards to mill tough pine and oak stumps without tearing turf."
-    },
-    {
-      "name": "Crane-Assisted Hazardous Tree Felling",
-      "badge": "Zero-Drop Crane Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Mobile crane rigging setup that lifts multi-ton tree canopies straight up and away from residential homes and power lines."
-    },
-    {
-      "name": "Heavy Debris Dump Fleet & Site Sweep",
-      "badge": "100% Debris Haul-Away",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Heavy-duty dump trucks and industrial blowers ensuring every branch and wood chip is hauled away immediately."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Cindy Muehlbauer",

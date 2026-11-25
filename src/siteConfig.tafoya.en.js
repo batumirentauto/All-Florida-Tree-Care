@@ -39,21 +39,21 @@ export const siteConfigTafoyaEn = {
   },
   "trustBadges": [
     {
-      "title": "99+ Google Reviews",
-      "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "99+ Google Reviews",
+        "desc": "Rated 4.8 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Company-Owned Machinery",
+        "desc": "Direct deployment of verified company equipment with zero third-party rental delays",
+        "icon": "truck"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -124,66 +124,26 @@ export const siteConfigTafoyaEn = {
   ],
   "equipment": [
     {
-      "name": "Tracked Stump Grinder & Mini-Skid Driveway Sweep",
-      "badge": "Driveway Timber Clearing",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows tracked stump grinder and compact loader working together on concrete driveway clearing fallen branches and milling roots."
-    },
-    {
-      "name": "Poolside Palm Tree Trimming & Skirt Shaving",
-      "badge": "Poolside Palm Care",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows arborists trimming and shaping a mature fan palm right beside a residential swimming pool enclosure."
-    },
-    {
-      "name": "Fence-Line Stump Grinding & Yard Sweep",
-      "badge": "Fence-Line Root Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows fenced backyard after a large stump next to a wooden privacy fence was completely ground below grade and swept clean."
+        "name": "Commercial Subsurface Stump Grinder",
+        "badge": "Root Flare Milling",
+        "image": null,
+        "specs": [
+            {
+                "label": "Capability",
+                "value": "Below-Grade Root Milling"
+            },
+            {
+                "label": "Access",
+                "value": "Fits 36-Inch Backyard Gates"
+            },
+            {
+                "label": "Finish",
+                "value": "Grade-Level Clean Soil"
+            }
+        ],
+        "desc": "Rubber-track grinder enters standard yard gates without tearing sod, milling stumps 8–12 inches below lawn grade for clean re-sodding."
     }
-  ],
+],
   "reviews": [
     {
       "author": "Tarra Pitts",

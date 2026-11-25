@@ -39,21 +39,21 @@ export const siteConfigINoahGuyEn = {
   },
   "trustBadges": [
     {
-      "title": "32+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "32+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigINoahGuyEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Precision Palm Pruning & Skirt Shaving Gear",
-      "badge": "Diamond Shaving Tools",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Specialized curved palm knives, pole saws, and non-invasive climbing gear designed to trim fronds and sculpt trunks without wounding tree bark."
-    },
-    {
-      "name": "Turf-Friendly Debris Transport Cart",
-      "badge": "Low-Impact Lawn Transport",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Pneumatic-tired transport carts that haul hundreds of pounds of wet palm boots and fronds across golf-course quality sod with zero tracking."
-    },
-    {
-      "name": "High-Velocity Leaf Blower & Lawn Rake Kit",
-      "badge": "Spotless Clean Finish",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Industrial backpack blowers and fine-tine rakes that collect all palm seeds, loose fronds, and fiber dust from landscape mulch beds."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "janet garner",

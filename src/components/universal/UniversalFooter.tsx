@@ -31,7 +31,9 @@ export function UniversalFooter({ config, themeName }: { config: any; themeName?
             </h4>
             <ul className="space-y-2">
               <li><a href="#services" className="hover:text-white transition">{config.lang === 'ru' ? 'Услуги' : 'Services'}</a></li>
-              <li><a href="#equipment" className="hover:text-white transition">{config.lang === 'ru' ? 'Спецтехника' : 'Equipment'}</a></li>
+              {config.equipment && config.equipment.length > 0 && (
+                <li><a href="#equipment" className="hover:text-white transition">{config.lang === 'ru' ? 'Спецтехника' : 'Equipment'}</a></li>
+              )}
               <li><a href="#calculator" className="hover:text-white transition">{config.lang === 'ru' ? 'Калькулятор сметы' : 'Price Estimator'}</a></li>
               <li><a href="#reviews" className="hover:text-white transition">{config.lang === 'ru' ? 'Отзывы Google Maps' : 'Google Maps Reviews'}</a></li>
               <li><a href="#contact" className="hover:text-white transition">{config.lang === 'ru' ? 'Контакты и база' : 'Service Territory'}</a></li>

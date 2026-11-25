@@ -39,21 +39,21 @@ export const siteConfigBestForLessEn = {
   },
   "trustBadges": [
     {
-      "title": "34+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "34+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigBestForLessEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Backyard Tree Reduction & Pruning",
-      "badge": "Tight-Access Crown Work",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows arborist ground crew managing canopy reduction on a mature backyard shade tree close to wooden structures and garden borders."
-    },
-    {
-      "name": "High-Tension Bull Ropes & Rigging Kit",
-      "badge": "Heavy Spar Lowering",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Industrial-grade friction brakes (Port-a-Wrap) and double-braid synthetic bull ropes for lowering multi-ton tree sections without ground impact."
-    },
-    {
-      "name": "Stihl Commercial Heavy Timber Saws",
-      "badge": "Large Diameter Cutting",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Heavyweight chainsaws with up to 36-inch guide bars for rapidly bucking massive old-growth fir and cedar logs into manageable sections."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Carla Simmons",

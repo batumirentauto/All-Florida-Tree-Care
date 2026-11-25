@@ -39,21 +39,21 @@ export const siteConfigAIntegrityEn = {
   },
   "trustBadges": [
     {
-      "title": "218+ Google Reviews",
-      "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "218+ Google Reviews",
+        "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigAIntegrityEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Vermeer SC362 Commercial Track Stump Grinder",
-      "badge": "Commercial Subsurface Grinding",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows the Vermeer SC362 commercial track grinder with operator actively milling a massive hardwood stump next to a residential outbuilding."
-    },
-    {
-      "name": "Heavy Hardwood Sectional Rigging & Bucking",
-      "badge": "Controlled Timber Staging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows heavy hardwood trunk sections cut into manageable rounds and neatly lined along the paved driveway without blocking access."
-    },
-    {
-      "name": "Restored Residential Turf & Ground Finish",
-      "badge": "Spotless Property Handover",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows the residential perimeter and lawn neatly raked and restored after complete branch removal and root clearance."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Tiffany Cole",

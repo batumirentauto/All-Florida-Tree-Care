@@ -39,21 +39,21 @@ export const siteConfigFurstieEn = {
   },
   "trustBadges": [
     {
-      "title": "66+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "66+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Company-Owned Machinery",
+        "desc": "Direct deployment of verified company equipment with zero third-party rental delays",
+        "icon": "truck"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -124,66 +124,26 @@ export const siteConfigFurstieEn = {
   ],
   "equipment": [
     {
-      "name": "Emergency Driveway Storm Blowdown Removal",
-      "badge": "Driveway Blockage Extraction",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows massive fallen hardwood completely blocking a residential gravel driveway after severe storm damage."
-    },
-    {
-      "name": "Driveway Reopening & Complete Timber Clearance",
-      "badge": "100% Cleared Access",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows the exact same gravel driveway reopened and completely cleared of all wood and brush, ready for daily traffic."
-    },
-    {
-      "name": "Heavy Oak Timber Bucking & Tractor Staging",
-      "badge": "Heavy Log Management",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows massive hardwood trunk sectioned into large rounds on the lawn, staged for tractor loader removal."
+        "name": "Commercial Subsurface Stump Grinder",
+        "badge": "Root Flare Milling",
+        "image": null,
+        "specs": [
+            {
+                "label": "Capability",
+                "value": "Below-Grade Root Milling"
+            },
+            {
+                "label": "Access",
+                "value": "Fits 36-Inch Backyard Gates"
+            },
+            {
+                "label": "Finish",
+                "value": "Grade-Level Clean Soil"
+            }
+        ],
+        "desc": "Rubber-track grinder enters standard yard gates without tearing sod, milling stumps 8–12 inches below lawn grade for clean re-sodding."
     }
-  ],
+],
   "reviews": [
     {
       "author": "Marsha Heffner",

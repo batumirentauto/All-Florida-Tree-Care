@@ -39,21 +39,21 @@ export const siteConfigColumbusEn = {
   },
   "trustBadges": [
     {
-      "title": "20+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "20+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigColumbusEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Commercial Sectional Rigging & Tree Felling",
-      "badge": "Structural Safety Rigging",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Precision lowering setup with friction brakes to dismantle large hazardous trees limb by limb over homes and fences."
-    },
-    {
-      "name": "High-Torque Track Stump Grinder Unit",
-      "badge": "Subsurface Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Self-propelled rubber track stump grinder that eliminates stumps 12 inches below grade while protecting residential lawn surfaces."
-    },
-    {
-      "name": "Hydraulic Brush Chipper & Debris Haul Box",
-      "badge": "Rapid Site Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Commercial brush chipper with high-velocity discharge chute loading wood chips directly into heavy enclosed haul rigs."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Welch Harvey",

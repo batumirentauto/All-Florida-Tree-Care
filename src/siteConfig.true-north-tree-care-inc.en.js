@@ -39,21 +39,21 @@ export const siteConfigTrueNorthTreeCareIncEn = {
   },
   "trustBadges": [
     {
-      "title": "108+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "108+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Company-Owned Machinery",
+        "desc": "Direct deployment of verified company equipment with zero third-party rental delays",
+        "icon": "truck"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -124,66 +124,26 @@ export const siteConfigTrueNorthTreeCareIncEn = {
   ],
   "equipment": [
     {
-      "name": "Commercial Aerial Bucket & Rigging Fleet",
-      "badge": "Controlled Reach & Lowering",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Telescopic aerial lift reaches hazardous branches above two-story structures, rigged with lowering blocks to dismantle heavy limbs without rooftop contact."
-    },
-    {
-      "name": "High-Volume Disc Brush Chipper",
-      "badge": "Rapid On-Site Reduction",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Continuous Debris Feed"
-        },
-        {
-          "label": "Safety",
-          "value": "Enclosed Discharge Chute"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Industrial disc chipper pulverizes massive branch volume directly into enclosed haul-away trucks, leaving pavement and driveways entirely spotless."
-    },
-    {
-      "name": "Track-Mounted Subsurface Stump Grinder",
-      "badge": "Sub-Grade Root Flare Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Root & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Rubber-track grinder enters 36-inch yard gates without creating tire ruts, pulverizing stumps and anchor roots 8–14 inches below lawn grade for clean re-sodding."
+        "name": "Heavy Aerial Crane Rigging System",
+        "badge": "Controlled Lift Over Structures",
+        "image": null,
+        "specs": [
+            {
+                "label": "Reach",
+                "value": "High-Canopy & Roof Clearance"
+            },
+            {
+                "label": "Control",
+                "value": "Zero Free-Fall Rigging"
+            },
+            {
+                "label": "Safety",
+                "value": "Complete Structure Protection"
+            }
+        ],
+        "desc": "Enables precision sectional lifting of hazardous, massive overhanging branches directly over rooflines without ground impact."
     }
-  ],
+],
   "reviews": [
         {
             "author": "Krista Hyatt",

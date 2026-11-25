@@ -39,21 +39,21 @@ export const siteConfigTreeWisemenEn = {
   },
   "trustBadges": [
     {
-      "title": "71+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "71+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigTreeWisemenEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Massive Hardwood Stump Boundary Flush-Cut",
-      "badge": "Large Stump Management",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows massive 4-foot diameter hardwood stump cut level next to a chain-link and privacy fence line, ready for grinding."
-    },
-    {
-      "name": "Street Frontage Canopy Elevation & Trimming",
-      "badge": "Streetline Pruning",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows front yard mature shade trees trimmed and elevated away from the road and overhead residential service drop."
-    },
-    {
-      "name": "Deciduous Crown Assessment & Thinning",
-      "badge": "Canopy Health Care",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows large mature deciduous tree structure inspected and selectively thinned to remove crossing branches and deadwood."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Jamie Heather Joy and AL",

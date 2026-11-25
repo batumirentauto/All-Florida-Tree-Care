@@ -39,21 +39,21 @@ export const siteConfigProBeaverEn = {
   },
   "trustBadges": [
     {
-      "title": "26+ Google Reviews",
-      "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "26+ Google Reviews",
+        "desc": "Rated 5.0 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigProBeaverEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Sectional Pollarding & Vertical Spar Dismantling",
-      "badge": "Vertical Spar Work",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows multi-stem tree trunk pollarded and stripped of dangerous branches by garden fence, standing safely ready for final cuts."
-    },
-    {
-      "name": "Lot Clearance & Heavy Timber Log Extraction",
-      "badge": "Timber Lot Clearing",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows cleared residential lot with felled pine log sectioned and sawdust cleaned away from nearby buildings."
-    },
-    {
-      "name": "Structural Proximity Timber Staging & Clearing",
-      "badge": "Structure Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows cut pine rounds and low stump cleanly sectioned along residential home corner without any contact with the building."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Eric Tkachuk",

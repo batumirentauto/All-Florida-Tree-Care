@@ -39,21 +39,21 @@ export const siteConfigAtEaseEn = {
   },
   "trustBadges": [
     {
-      "title": "82+ Google Reviews",
-      "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "82+ Google Reviews",
+        "desc": "Rated 4.9 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigAtEaseEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Forestry Boundary Clearance & Stump Flush-Cut",
-      "badge": "Perimeter Tree Management",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows completed pine thinning and flush-cut stumps along a residential boundary fence, opening wide sunlight exposure."
-    },
-    {
-      "name": "Storm Blowdown Canopy Debris Clearing",
-      "badge": "Rapid Storm Cleanup",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows sprawling fallen canopy across open grass field being sectioned into timber and staged for chip processing."
-    },
-    {
-      "name": "Heavy Excavation & Timber Winching Package",
-      "badge": "High-Capacity Extraction Gear",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Heavy steel cable winches, high-tonnage snatch blocks, and compact track machinery for pulling down hung-up trees and stabilizing root plates."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Karen Feldhaus",

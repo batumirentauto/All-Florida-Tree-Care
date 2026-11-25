@@ -39,21 +39,21 @@ export const siteConfigFamilyTreeEn = {
   },
   "trustBadges": [
     {
-      "title": "71+ Google Reviews",
-      "desc": "Rated 4.6 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "71+ Google Reviews",
+        "desc": "Rated 4.6 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigFamilyTreeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Heavy Debris Trailer & Manicured Curbside",
-      "badge": "Clean Curbside Hauling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Photo shows heavy equipment debris trailer parked neatly along the street curb with spotless lawn edging after job completion."
-    },
-    {
-      "name": "Fence-Line Canopy Clearance & Moss Thinning",
-      "badge": "Fence & Roof Clearance",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Photo shows live oak branches and Spanish moss thinned away from residential privacy fencing and home gutters."
-    },
-    {
-      "name": "Backyard Structural Elevation & Pruning",
-      "badge": "Backyard Oak Care",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Photo shows mature shade oak in fenced residential backyard with deadwood removed and branches elevated over the yard."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "Tara Wingate",

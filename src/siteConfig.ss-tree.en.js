@@ -39,21 +39,21 @@ export const siteConfigSsTreeEn = {
   },
   "trustBadges": [
     {
-      "title": "32+ Google Reviews",
-      "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
-      "icon": "star"
+        "title": "32+ Google Reviews",
+        "desc": "Rated 4.7 by local homeowners for honest upfront pricing and careful property protection",
+        "icon": "star"
     },
     {
-      "title": "Heavy Commercial Fleet",
-      "desc": "Equipped with aerial lifts, commercial stump grinders, and high-capacity haul rigs",
-      "icon": "truck"
+        "title": "Fully Insured Operations",
+        "desc": "Active commercial general liability coverage safeguarding residential homes and property",
+        "icon": "shield"
     },
     {
-      "title": "Zero Yard Damage",
-      "desc": "Full ground protection mats, tag-line rigging control, and complete blower cleanup",
-      "icon": "shield"
+        "title": "Zero Yard Damage",
+        "desc": "Tag-line rigging control, lawn protection, and complete industrial blower cleanup",
+        "icon": "shield"
     }
-  ],
+],
   "services": [
     {
       "id": "hazard-tree-felling",
@@ -122,68 +122,7 @@ export const siteConfigSsTreeEn = {
       ]
     }
   ],
-  "equipment": [
-    {
-      "name": "Heavy Tree Removal & Sectional Lowering",
-      "badge": "Controlled Sectional Takedown",
-      "image": null,
-      "specs": [
-        {
-          "label": "Deployment",
-          "value": "Heavy Commercial Grade"
-        },
-        {
-          "label": "Capability",
-          "value": "Precision Rigging & Removal"
-        },
-        {
-          "label": "Protection",
-          "value": "Zero Lawn Impact Guarantee"
-        }
-      ],
-      "desc": "Complete arborist rigging system with friction lowering brakes and high-tenacity bull ropes for dismantling dangerous trees above houses."
-    },
-    {
-      "name": "Commercial Track Stump Grinder Unit",
-      "badge": "Subsurface Milling",
-      "image": null,
-      "specs": [
-        {
-          "label": "Operation",
-          "value": "Specialized Arborist Access"
-        },
-        {
-          "label": "Safety",
-          "value": "Controlled Sectional Lowering"
-        },
-        {
-          "label": "Cleanliness",
-          "value": "Dedicated Ground Crew"
-        }
-      ],
-      "desc": "Self-propelled rubber track grinder capable of passing narrow gates and milling stumps 12 inches below ground grade."
-    },
-    {
-      "name": "Enclosed Debris Haul Trailer & Turf Protection",
-      "badge": "Zero Yard Damage System",
-      "image": null,
-      "specs": [
-        {
-          "label": "Finish",
-          "value": "Grade-Level Turf Restoration"
-        },
-        {
-          "label": "Debris",
-          "value": "100% Timber & Chip Removal"
-        },
-        {
-          "label": "Cleanup",
-          "value": "Industrial Blower Sweep"
-        }
-      ],
-      "desc": "Heavy debris dump trailer paired with poly ground mats to prevent tire rutting on wet Florida sandy turf."
-    }
-  ],
+  "equipment": [],
   "reviews": [
     {
       "author": "delmar stewart",
