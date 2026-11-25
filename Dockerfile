@@ -9,7 +9,7 @@ WORKDIR /app
 RUN npm install -g pnpm@latest
 
 COPY package.json pnpm-lock.yaml* pnpm-workspace.yaml* ./
-RUN pnpm i --frozen-lockfile --no-engine-strict
+RUN pnpm config set engine-strict false && pnpm i --frozen-lockfile
 
 # Rebuild the source code
 FROM base AS builder
