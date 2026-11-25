@@ -1110,6 +1110,89 @@ def generate_dialer_html(leads):
 
     function capitalize(s) {{ return s.charAt(0).toUpperCase() + s.slice(1); }}
 
+    function showToast(msg) {{
+      let t = document.getElementById('tgToastNotification');
+      if (!t) {{
+        t = document.createElement('div');
+        t.id = 'tgToastNotification';
+        t.className = 'fixed bottom-4 right-4 z-50 px-4 py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-2xl transition-all duration-300 opacity-0 pointer-events-none transform translate-y-2 flex items-center gap-2';
+        document.body.appendChild(t);
+      }}
+      t.innerHTML = '<span>⚡</span> <span>' + msg + '</span>';
+      t.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-2');
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => {{
+        t.classList.add('opacity-0', 'pointer-events-none', 'translate-y-2');
+      }}, 3000);
+    }}
+
+    async function sendTelegramAlert(lead, status, note) {{
+      const statusLabels = {{
+        'AGREED_LINK': '🟢 СОГЛАСЕН НА SMS / ССЫЛКУ',
+        'GATEKEEPER_INFO': '📋 СЕКРЕТАРЬ ПЕРЕДАСТ ВЛАДЕЛЬЦУ',
+        'REQUESTED_EMAIL': '📧 ПОПРОСИЛИ ВЫСЛАТЬ НА EMAIL',
+        'CALL_BACK': '📞 ПЕРЕЗВОНИТЬ ПОЗЖЕ',
+        'VOICEMAIL': '🎙️ АВТООТВЕТЧИК (VOICEMAIL)',
+        'NO_ANSWER': '📵 НЕ ВЗЯЛИ ТРУБКУ / СБРОС',
+        'REJECTED': '❌ ОТКАЗ / НЕ ИНТЕРЕСНО',
+        'NOTE_ADDED': '📝 ДОБАВЛЕНА ЗАМЕТКА'
+      }};
+
+      const statusText = statusLabels[status] || status;
+
+      const totalLogged = Object.keys(loggedCalls).length;
+      let agreedCount = 0, infoCount = 0, emailCount = 0, callbackCount = 0, vmCount = 0, noAnswerCount = 0, rejectedCount = 0;
+      Object.values(loggedCalls).forEach(c => {{
+        if (c.status === 'AGREED_LINK') agreedCount++;
+        else if (c.status === 'GATEKEEPER_INFO') infoCount++;
+        else if (c.status === 'REQUESTED_EMAIL') emailCount++;
+        else if (c.status === 'CALL_BACK') callbackCount++;
+        else if (c.status === 'VOICEMAIL') vmCount++;
+        else if (c.status === 'NO_ANSWER') noAnswerCount++;
+        else if (c.status === 'REJECTED') rejectedCount++;
+      }});
+
+      const loc = lead.address || (lead.state ? `${{lead.state}}, ${{lead.timezone}}` : '—');
+      const text = 
+        `📞 <b>Результат звонка: Анастасия (Line #103 • Tree Care)</b>\n\n` +
+        `🏢 <b>Компания:</b> ${{lead.name || '—'}}\n` +
+        `📱 <b>Телефон:</b> <code>${{lead.phone}}</code>\n` +
+        `📍 <b>Локация / TZ:</b> ${{loc}} (${{lead.timezone || 'ET'}})\n` +
+        `🎯 <b>Результат:</b> <b>${{statusText}}</b>\n` +
+        (note ? `📝 <b>Заметка:</b> <i>${{note}}</i>\n` : '') +
+        `🔗 <b>Витрина:</b> ${{lead.zonusUrl || 'https://zonus.co/' + lead.slug}}\n\n` +
+        `📊 <b>Сводка Анастасии (${{totalLogged}}/{total_leads}):</b>\n` +
+        `• 🟢 Согласны на SMS: <b>${{agreedCount}}</b>\n` +
+        `• 📋 Секретарь передаст: <b>${{infoCount}}</b>\n` +
+        `• 📧 Просят на Email: <b>${{emailCount}}</b>\n` +
+        `• 📞 Перезвонить: <b>${{callbackCount}}</b>\n` +
+        `• 🎙️ Автоответчик: <b>${{vmCount}}</b>\n` +
+        `• 📵 Не ответили: <b>${{noAnswerCount}}</b>\n` +
+        `• ❌ Отказ: <b>${{rejectedCount}}</b>`;
+
+      const targets = [
+        {{ token: '8915615220:AAHstRA8VGD1lP0O-Oyg9SLt7hee9FRGLNI', chatId: '5811905642' }},
+        {{ token: '9160117417:AAHEbjH0025ymMJEYWOQpAc3L5iIXioaMeU', chatId: '8182918344' }}
+      ];
+
+      for (const t of targets) {{
+        try {{
+          fetch(`https://api.telegram.org/bot${{t.token}}/sendMessage`, {{
+            method: 'POST',
+            headers: {{ 'Content-Type': 'application/json' }},
+            body: JSON.stringify({{
+              chat_id: t.chatId,
+              text: text,
+              parse_mode: 'HTML'
+            }})
+          }}).catch(e => console.warn('TG dispatch error:', e));
+        }} catch (err) {{
+          console.warn('TG dispatch error:', err);
+        }}
+      }}
+      showToast('Отправлено в Telegram: ' + statusText);
+    }}
+
     function logCallOutcome(status) {{
       const lead = leadsData[currentIndex];
       const note = document.getElementById('leadNoteInput').value.trim();
@@ -1119,6 +1202,7 @@ def generate_dialer_html(leads):
         timestamp: new Date().toISOString()
       }};
       saveLogs();
+      sendTelegramAlert(lead, status, note);
       renderCurrentLead();
       initQuickSelect();
     }}
@@ -1131,7 +1215,8 @@ def generate_dialer_html(leads):
       }}
       loggedCalls[lead.phone].note = note;
       saveLogs();
-      alert('Заметка сохранена!');
+      sendTelegramAlert(lead, loggedCalls[lead.phone].status || 'NOTE_ADDED', note);
+      showToast('Заметка сохранена и отправлена в Telegram!');
     }}
 
     function updateStats() {{
