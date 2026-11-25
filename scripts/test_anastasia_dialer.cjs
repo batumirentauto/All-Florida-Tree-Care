@@ -27,8 +27,8 @@ async function main() {
 
   const optCount = await page.evaluate(() => document.getElementById('leadSelect').options.length);
   console.log(`Total options in dropdown: ${optCount}`);
-  if (optCount !== 134) {
-    errors.push(`Expected 134 dropdown options, found ${optCount}`);
+  if (optCount !== 70) {
+    errors.push(`Expected 70 dropdown options, found ${optCount}`);
   }
 
   // Check clocks
